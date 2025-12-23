@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Reverse Percentage Calculator | Find Original Number from Percent</title>
+    <meta name="description" content="Free reverse percentage calculator. Find the original number when you know a value and what percentage it represents. Work backwards from percentages instantly.">
+    
+    
+
+<meta name="keywords" content="reverse percentage calculator, find original number, work backwards percentage, original value from percent">
+
+
+<!-- Schema.org FAQPage markup -->
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        
+        {
+            "@type": "Question",
+            "name": "If $30 is 20% of a number, what is the number?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The number is $150. Calculation: ($30 ÷ 20) × 100 \u003D $150."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "How do I find the original price before discount?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "If you paid X after Y% discount, you paid (100\u002DY)% of original. Original \u003D X ÷ (100\u002DY) × 100. Paid $60 after 25% off: $60 ÷ 75 × 100 \u003D $80."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "If 50 is 25% of a number, what is that number?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The number is 200. Calculation: (50 ÷ 25) × 100 \u003D 200."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "How do I reverse a percentage increase?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "If after X% increase the value is Y, original \u003D Y ÷ (1 + X/100). After 20% increase value is 120: 120 ÷ 1.20 \u003D 100."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "If $45 is 15% of the total, what is the total?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The total is $300. Calculation: ($45 ÷ 15) × 100 \u003D $300."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "How do I find 100% when I know a percentage?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "If X is Y% of the whole, then 100% \u003D X × (100/Y). If 65 is 50%, then 100% \u003D 65 × 2 \u003D 130."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "If 75 represents 30%, what is 100%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "100% equals 250. Calculation: (75 ÷ 30) × 100 \u003D 250."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "How do I calculate pre\u002Dtax amount from tax paid?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "If tax is $9 at 9% rate: Pre\u002Dtax \u003D ($9 ÷ 9) × 100 \u003D $100."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "If I paid $80 which was 80% of original, what was original?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Original was $100. $80 ÷ 80 × 100 \u003D $100."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "What if 35 is 7% of something?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "That something is 500. Calculation: (35 ÷ 7) × 100 \u003D 500."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "How do I reverse a percentage decrease?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "If after X% decrease value is Y, original \u003D Y ÷ (1 \u002D X/100). After 10% decrease value is 90: 90 ÷ 0.90 \u003D 100."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "If 120 is 40% of a number, what is the number?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The number is 300. Calculation: (120 ÷ 40) × 100 \u003D 300."
+            }
+        }
+        
+    ]
+}
+</script>
+
+
+<!-- Schema.org WebApplication markup -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Reverse Percentage Calculator - Percentage Calculators",
+    "url": "https://percentagecalculators.github.io/reverse-percentage-calculator/",
+    "description": "Free reverse percentage calculator. Find the original number when you know a value and what percentage it represents. Work backwards from percentages instantly.",
+    "applicationCategory": "CalculatorApplication",
+    "operatingSystem": "Any",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    }
+}
+</script>
+
+    
+    <!-- Hreflang Tags (only if multiple translations exist) -->
+    
+
+    <!-- Canonical -->
+    
+<link rel="canonical" href="https://percentagecalculators.github.io/reverse-percentage-calculator/" />
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['SF Mono', 'Monaco', 'Consolas', 'Courier New', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .accordion-content.active {
+            max-height: 1000px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+
+        
+    </style>
+
+    
+
+    
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-950 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <!-- Logo -->
+                <a href="/" class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                        <span class="text-slate-900 font-bold text-lg">%</span>
+                    </div>
+                    <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-1 text-sm">
+                    <a href="/"
+                       class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white">
+                        Home
+                    </a>
+
+                    <!-- Tools Dropdown -->
+                    
+                    <div class="relative">
+                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <span>Calculators</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="toolsArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="toolsDropdown" class="hidden absolute left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50 max-h-96 overflow-y-auto">
+                            
+                            <a href="/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Increase Calculator</a>
+                            
+                            <a href="/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Decrease Calculator</a>
+                            
+                            <a href="/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Change Calculator</a>
+                            
+                            <a href="/percentage-difference-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Difference Calculator</a>
+                            
+                            <a href="/percentage-off-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Off Calculator</a>
+                            
+                            <a href="/fraction-to-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Fraction to Percentage Calculator</a>
+                            
+                            <a href="/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Growth Calculator</a>
+                            
+                            <a href="/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Reverse Percentage Calculator</a>
+                            
+                            <a href="/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Error Calculator</a>
+                            
+                            <a href="/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Average Percentage Calculator</a>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <!-- Language Dropdown (only show if multiple languages available) -->
+                    
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white">
+                    <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden border-t border-slate-800 py-4">
+                <a href="/"
+                   class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">
+                    Home
+                </a>
+
+                <!-- Mobile Tools List -->
+                
+                <div class="mt-2 border-t border-slate-800 pt-2">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Calculators</p>
+                    
+                    <a href="/percentage-increase-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Increase Calculator</a>
+                    
+                    <a href="/percentage-decrease-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Decrease Calculator</a>
+                    
+                    <a href="/percentage-change-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Change Calculator</a>
+                    
+                    <a href="/percentage-difference-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Difference Calculator</a>
+                    
+                    <a href="/percentage-off-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Off Calculator</a>
+                    
+                    <a href="/fraction-to-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Fraction to Percentage Calculator</a>
+                    
+                    <a href="/percentage-growth-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Growth Calculator</a>
+                    
+                    <a href="/reverse-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Reverse Percentage Calculator</a>
+                    
+                    <a href="/percentage-error-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Error Calculator</a>
+                    
+                    <a href="/average-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Average Percentage Calculator</a>
+                    
+                </div>
+                
+
+                <!-- Mobile Language Switcher -->
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Breadcrumb -->
+<nav class="bg-slate-950 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <ol class="flex items-center text-sm text-slate-400">
+            <li>
+                <a href="/" class="hover:text-green-400">
+                    Home
+                </a>
+            </li>
+            <li class="mx-2">/</li>
+            <li class="text-green-400">Reverse Percentage Calculator</li>
+        </ol>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-slate-950 border-b border-slate-800 py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-white mb-3">
+            Reverse Percentage Calculator
+        </h1>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+            Find the original number when you know a value and what percentage it represents. If 45 is 15% of something, this calculator finds that something is 300.
+        </p>
+    </div>
+</section>
+
+<!-- Calculator Section -->
+<section class="py-8">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+            <div class="bg-slate-900 px-6 py-4 border-b border-slate-700">
+                <h2 class="text-lg font-semibold text-white flex items-center">
+                    
+                    <span class="mr-3"><svg class="w-6 h-6 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg></span>
+                    
+                    Reverse Percentage Calculator
+                </h2>
+            </div>
+            
+            <div class="p-6">
+                <!-- Dynamic Calculator based on tool_type -->
+                
+                <!-- Reverse Percentage Calculator -->
+                <div class="space-y-4">
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">The value</label>
+                        <input type="number" id="partial_value" step="any" placeholder="Enter known value" oninput="calculate()"
+                               class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">is what percent?</label>
+                        <div class="flex-1 flex items-center gap-2">
+                            <input type="number" id="percentage" step="any" placeholder="Enter percentage" oninput="calculate()"
+                                   class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                            <span class="text-slate-400 text-lg">%</span>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-700 pt-4 mt-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300 font-medium">Original Number:</span>
+                            <span id="result" class="text-2xl text-green-400 font-mono font-bold">?</span>
+                        </div>
+                    </div>
+                    <p class="text-center text-slate-500 text-sm mt-2" id="formula_display"></p>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEO Content Section -->
+
+<section class="py-10 bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article class="prose prose-invert prose-slate max-w-none">
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">How to Find the Original Number from a Percentage</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Sometimes you know a partial value and its percentage but need the original whole. This tool from <a href='/' class='text-green-400 hover:underline'>Percentage Calculators</a> works backwards to find it.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Reverse Percentage Formula</h2>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        Original Number = (Known Value ÷ Percentage) × 100
+                    </div>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Example</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">If $150,000 profit represents 25% of revenue, what is total revenue? ($150,000 ÷ 25) × 100 = $600,000.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Common Uses</h2>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li>Find original price before discount</li>
+                        
+                        <li>Calculate pre-tax amounts from tax paid</li>
+                        
+                        <li>Find total from sample percentage</li>
+                        
+                        <li>Determine base salary from bonus percentage</li>
+                        
+                    </ul>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">For tracking growth percentages, use our <a href='/percentage-growth-calculator/' class='text-green-400 hover:underline'>business growth rate calculator</a>. For scientific accuracy measurements, try our <a href='/percentage-error-calculator/' class='text-green-400 hover:underline'>percent error calculator</a>.</p>
+                
+            
+        </article>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+
+<section class="py-10" id="faq">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl font-bold text-white text-center mb-8">Frequently Asked Questions</h2>
+        
+        <div class="space-y-3">
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(1)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">If $30 is 20% of a number, what is the number?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-1" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        The number is $150. Calculation: ($30 ÷ 20) × 100 = $150.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(2)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">How do I find the original price before discount?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-2" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        If you paid X after Y% discount, you paid (100-Y)% of original. Original = X ÷ (100-Y) × 100. Paid $60 after 25% off: $60 ÷ 75 × 100 = $80.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(3)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">If 50 is 25% of a number, what is that number?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-3" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        The number is 200. Calculation: (50 ÷ 25) × 100 = 200.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(4)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">How do I reverse a percentage increase?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-4" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        If after X% increase the value is Y, original = Y ÷ (1 + X/100). After 20% increase value is 120: 120 ÷ 1.20 = 100.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(5)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">If $45 is 15% of the total, what is the total?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-5" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        The total is $300. Calculation: ($45 ÷ 15) × 100 = $300.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(6)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">How do I find 100% when I know a percentage?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-6" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        If X is Y% of the whole, then 100% = X × (100/Y). If 65 is 50%, then 100% = 65 × 2 = 130.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(7)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">If 75 represents 30%, what is 100%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-7" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        100% equals 250. Calculation: (75 ÷ 30) × 100 = 250.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(8)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">How do I calculate pre-tax amount from tax paid?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-8" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        If tax is $9 at 9% rate: Pre-tax = ($9 ÷ 9) × 100 = $100.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(9)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">If I paid $80 which was 80% of original, what was original?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-9" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Original was $100. $80 ÷ 80 × 100 = $100.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(10)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">What if 35 is 7% of something?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-10" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        That something is 500. Calculation: (35 ÷ 7) × 100 = 500.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(11)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">How do I reverse a percentage decrease?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-11" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-11" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        If after X% decrease value is Y, original = Y ÷ (1 - X/100). After 10% decrease value is 90: 90 ÷ 0.90 = 100.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(12)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">If 120 is 40% of a number, what is the number?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-12" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        The number is 300. Calculation: (120 ÷ 40) × 100 = 300.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                            <span class="text-slate-900 font-bold text-lg">%</span>
+                        </div>
+                        <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                    </div>
+                    <p class="text-sm text-slate-400">Free Online Percentage Calculator Tools</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/" class="text-sm text-slate-400 hover:text-green-400">Home</a></li>
+                        <li><a href="/#tools" class="text-sm text-slate-400 hover:text-green-400">Calculators</a></li>
+                    </ul>
+                </div>
+
+                <!-- Pages (Privacy, About, Contact, etc.) -->
+                
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        
+                        <li><a href="/page/about/" class="text-sm text-slate-400 hover:text-green-400">About Us</a></li>
+                        
+                        <li><a href="/page/contact/" class="text-sm text-slate-400 hover:text-green-400">Contact Us</a></li>
+                        
+                        <li><a href="/page/disclaimer/" class="text-sm text-slate-400 hover:text-green-400">Disclaimer</a></li>
+                        
+                        <li><a href="/page/privacy-policy/" class="text-sm text-slate-400 hover:text-green-400">Privacy Policy</a></li>
+                        
+                        <li><a href="/page/terms-of-use/" class="text-sm text-slate-400 hover:text-green-400">Terms of Use</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center">
+                <p class="text-sm text-slate-500">©  Percentage Calculators. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            menu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        }
+
+        function toggleLangDropdown() {
+            const dropdown = document.getElementById('langDropdown');
+            const arrow = document.getElementById('langArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close tools dropdown if open
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsArrow = document.getElementById('toolsArrow');
+            if (toolsDropdown) toolsDropdown.classList.add('hidden');
+            if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        function toggleToolsDropdown() {
+            const dropdown = document.getElementById('toolsDropdown');
+            const arrow = document.getElementById('toolsArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close lang dropdown if open
+            const langDropdown = document.getElementById('langDropdown');
+            const langArrow = document.getElementById('langArrow');
+            if (langDropdown) langDropdown.classList.add('hidden');
+            if (langArrow) langArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            const langDropdown = document.getElementById('langDropdown');
+            const langBtn = document.getElementById('langDropdownBtn');
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
+            const langArrow = document.getElementById('langArrow');
+            const toolsArrow = document.getElementById('toolsArrow');
+
+            // Close language dropdown
+            if (langDropdown && langBtn && !langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
+                langDropdown.classList.add('hidden');
+                if (langArrow) langArrow.classList.remove('rotate-180');
+            }
+
+            // Close tools dropdown
+            if (toolsDropdown && toolsBtn && !toolsBtn.contains(e.target) && !toolsDropdown.contains(e.target)) {
+                toolsDropdown.classList.add('hidden');
+                if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+            }
+        });
+    </script>
+
+    
+<script>
+function calculate(){const p=parseFloat(document.getElementById('partial_value').value),pct=parseFloat(document.getElementById('percentage').value),r=document.getElementById('result'),f=document.getElementById('formula_display');if(!isNaN(p)&&!isNaN(pct)&&pct!==0){const o=(p/pct)*100;r.textContent=formatNumber(o);if(f)f.textContent='('+p+' ÷ '+pct+') × 100 = '+formatNumber(o)}else{r.textContent='?';if(f)f.textContent=''}}function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}
+
+function toggleFaq(index) {
+    const answer = document.getElementById('faq-answer-' + index);
+    const icon = document.querySelector('.faq-icon-' + index);
+    
+    if (answer.classList.contains('active')) {
+        answer.classList.remove('active');
+        icon.classList.remove('rotate-180');
+    } else {
+        document.querySelectorAll('.accordion-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('[class*="faq-icon-"]').forEach(el => el.classList.remove('rotate-180'));
+        
+        answer.classList.add('active');
+        icon.classList.add('rotate-180');
+    }
+}
+</script>
+
+
+    
+</body>
+</html>

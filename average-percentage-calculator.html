@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Average Percentage Calculator | Find Mean of Multiple Percentages</title>
+    <meta name="description" content="Free average percentage calculator. Calculate the mean of multiple percentages instantly. Perfect for grade averages, performance metrics, and statistical analysis.">
+    
+    
+
+<meta name="keywords" content="average percentage calculator, mean of percentages, calculate average percentage, grade average, percentage mean calculator">
+
+
+<!-- Schema.org FAQPage markup -->
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        
+        {
+            "@type": "Question",
+            "name": "What is the average of 70%, 80%, and 90%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The average is 80%. Calculation: (70+80+90) ÷ 3 \u003D 240 ÷ 3 \u003D 80%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "How do I calculate my grade average?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Add all percentage grades and divide by the count. For equal\u002Dweight classes: (Grade1 + Grade2 + ...) ÷ Number of classes."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Can I average percentages from different bases?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes for simple average if they have equal weight. For different\u002Dsized groups, use weighted average."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "What is the average of 85, 92, 78, 95?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The average is 87.5%. Calculation: (85+92+78+95) ÷ 4 \u003D 350 ÷ 4 \u003D 87.5%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "When is simple averaging wrong?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "When percentages represent different\u002Dsized groups or have different importance. Then use weighted averaging."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "What is the average of 50% and 100%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The average is 75%. Calculation: (50+100) ÷ 2 \u003D 75%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "How do I find weighted average of percentages?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Multiply each percentage by its weight, sum the products, divide by total weight: Sum(% × weight) / Sum(weights)."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Can average percentage exceed 100%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, if input percentages exceed 100%. Average of 150% and 200% is 175%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "What is the average of five 20% values?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The average is 20%. (20+20+20+20+20) ÷ 5 \u003D 20%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "How many values can I average?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Enter any number of values separated by commas or spaces. The calculator handles them all."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "What if I enter non\u002Dnumeric values?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The calculator filters out non\u002Dnumeric entries and averages only valid numbers."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "What is the average of 60, 70, 80, 90, 100?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The average is 80%. Calculation: (60+70+80+90+100) ÷ 5 \u003D 400 ÷ 5 \u003D 80%."
+            }
+        }
+        
+    ]
+}
+</script>
+
+
+<!-- Schema.org WebApplication markup -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Average Percentage Calculator - Percentage Calculators",
+    "url": "https://percentagecalculators.github.io/average-percentage-calculator/",
+    "description": "Free average percentage calculator. Calculate the mean of multiple percentages instantly. Perfect for grade averages, performance metrics, and statistical analysis.",
+    "applicationCategory": "CalculatorApplication",
+    "operatingSystem": "Any",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    }
+}
+</script>
+
+    
+    <!-- Hreflang Tags (only if multiple translations exist) -->
+    
+
+    <!-- Canonical -->
+    
+<link rel="canonical" href="https://percentagecalculators.github.io/average-percentage-calculator/" />
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['SF Mono', 'Monaco', 'Consolas', 'Courier New', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .accordion-content.active {
+            max-height: 1000px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+
+        
+    </style>
+
+    
+
+    
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-950 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <!-- Logo -->
+                <a href="/" class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                        <span class="text-slate-900 font-bold text-lg">%</span>
+                    </div>
+                    <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-1 text-sm">
+                    <a href="/"
+                       class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white">
+                        Home
+                    </a>
+
+                    <!-- Tools Dropdown -->
+                    
+                    <div class="relative">
+                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <span>Calculators</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="toolsArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="toolsDropdown" class="hidden absolute left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50 max-h-96 overflow-y-auto">
+                            
+                            <a href="/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Increase Calculator</a>
+                            
+                            <a href="/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Decrease Calculator</a>
+                            
+                            <a href="/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Change Calculator</a>
+                            
+                            <a href="/percentage-difference-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Difference Calculator</a>
+                            
+                            <a href="/percentage-off-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Off Calculator</a>
+                            
+                            <a href="/fraction-to-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Fraction to Percentage Calculator</a>
+                            
+                            <a href="/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Growth Calculator</a>
+                            
+                            <a href="/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Reverse Percentage Calculator</a>
+                            
+                            <a href="/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Percentage Error Calculator</a>
+                            
+                            <a href="/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Average Percentage Calculator</a>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <!-- Language Dropdown (only show if multiple languages available) -->
+                    
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white">
+                    <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden border-t border-slate-800 py-4">
+                <a href="/"
+                   class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">
+                    Home
+                </a>
+
+                <!-- Mobile Tools List -->
+                
+                <div class="mt-2 border-t border-slate-800 pt-2">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Calculators</p>
+                    
+                    <a href="/percentage-increase-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Increase Calculator</a>
+                    
+                    <a href="/percentage-decrease-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Decrease Calculator</a>
+                    
+                    <a href="/percentage-change-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Change Calculator</a>
+                    
+                    <a href="/percentage-difference-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Difference Calculator</a>
+                    
+                    <a href="/percentage-off-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Off Calculator</a>
+                    
+                    <a href="/fraction-to-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Fraction to Percentage Calculator</a>
+                    
+                    <a href="/percentage-growth-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Growth Calculator</a>
+                    
+                    <a href="/reverse-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Reverse Percentage Calculator</a>
+                    
+                    <a href="/percentage-error-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Percentage Error Calculator</a>
+                    
+                    <a href="/average-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Average Percentage Calculator</a>
+                    
+                </div>
+                
+
+                <!-- Mobile Language Switcher -->
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Breadcrumb -->
+<nav class="bg-slate-950 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <ol class="flex items-center text-sm text-slate-400">
+            <li>
+                <a href="/" class="hover:text-green-400">
+                    Home
+                </a>
+            </li>
+            <li class="mx-2">/</li>
+            <li class="text-green-400">Average Percentage Calculator</li>
+        </ol>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-slate-950 border-b border-slate-800 py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-white mb-3">
+            Average Percentage Calculator
+        </h1>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+            Calculate the average of multiple percentages. Enter your values separated by commas to get the mean, sum, and count instantly.
+        </p>
+    </div>
+</section>
+
+<!-- Calculator Section -->
+<section class="py-8">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+            <div class="bg-slate-900 px-6 py-4 border-b border-slate-700">
+                <h2 class="text-lg font-semibold text-white flex items-center">
+                    
+                    <span class="mr-3"><svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg></span>
+                    
+                    Average Percentage Calculator
+                </h2>
+            </div>
+            
+            <div class="p-6">
+                <!-- Dynamic Calculator based on tool_type -->
+                
+                <!-- Average Percentage Calculator -->
+                <div class="space-y-4">
+                    <div class="flex flex-col gap-2">
+                        <label class="text-slate-300 text-sm">Enter Percentages</label>
+                        <input type="text" id="percentages" placeholder="e.g., 85, 92, 78, 88, 95" oninput="calculate()"
+                               class="w-full px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                        <p class="text-slate-500 text-xs">Separate values with commas or spaces</p>
+                    </div>
+                    <div class="border-t border-slate-700 pt-4 mt-4">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-slate-400">Number of Values:</span>
+                            <span id="count" class="text-slate-300 font-mono">0</span>
+                        </div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-slate-400">Sum of Percentages:</span>
+                            <span id="sum" class="text-slate-300 font-mono">0%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300 font-medium">Average Percentage:</span>
+                            <span id="result" class="text-2xl text-green-400 font-mono font-bold">?</span>
+                        </div>
+                    </div>
+                    <p class="text-center text-slate-500 text-sm mt-2" id="formula_display"></p>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEO Content Section -->
+
+<section class="py-10 bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article class="prose prose-invert prose-slate max-w-none">
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">How to Find the Average of Multiple Percentages</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Finding the mean of percentages is common for calculating grades and performance metrics. This tool from <a href='/' class='text-green-400 hover:underline'>Percentage Calculators</a> handles any number of values.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Simple Average Formula</h2>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        Average = (Sum of all percentages) ÷ (Number of percentages)
+                    </div>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Example: Grade Average</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Test scores: 85%, 92%, 78%, 90%. Average: (85+92+78+90) ÷ 4 = 86.25%.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Simple vs Weighted Average</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">This calculator gives simple average (equal weights). If different values have different importance, you need weighted average. For measuring accuracy in experiments, use our <a href='/percentage-error-calculator/' class='text-green-400 hover:underline'>percent error calculator</a>.</p>
+                
+            
+        </article>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+
+<section class="py-10" id="faq">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl font-bold text-white text-center mb-8">Frequently Asked Questions</h2>
+        
+        <div class="space-y-3">
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(1)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">What is the average of 70%, 80%, and 90%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-1" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        The average is 80%. Calculation: (70+80+90) ÷ 3 = 240 ÷ 3 = 80%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(2)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">How do I calculate my grade average?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-2" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Add all percentage grades and divide by the count. For equal-weight classes: (Grade1 + Grade2 + ...) ÷ Number of classes.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(3)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Can I average percentages from different bases?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-3" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Yes for simple average if they have equal weight. For different-sized groups, use weighted average.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(4)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">What is the average of 85, 92, 78, 95?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-4" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        The average is 87.5%. Calculation: (85+92+78+95) ÷ 4 = 350 ÷ 4 = 87.5%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(5)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">When is simple averaging wrong?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-5" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        When percentages represent different-sized groups or have different importance. Then use weighted averaging.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(6)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">What is the average of 50% and 100%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-6" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        The average is 75%. Calculation: (50+100) ÷ 2 = 75%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(7)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">How do I find weighted average of percentages?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-7" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Multiply each percentage by its weight, sum the products, divide by total weight: Sum(% × weight) / Sum(weights).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(8)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Can average percentage exceed 100%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-8" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Yes, if input percentages exceed 100%. Average of 150% and 200% is 175%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(9)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">What is the average of five 20% values?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-9" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        The average is 20%. (20+20+20+20+20) ÷ 5 = 20%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(10)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">How many values can I average?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-10" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Enter any number of values separated by commas or spaces. The calculator handles them all.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(11)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">What if I enter non-numeric values?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-11" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-11" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        The calculator filters out non-numeric entries and averages only valid numbers.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(12)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">What is the average of 60, 70, 80, 90, 100?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-12" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        The average is 80%. Calculation: (60+70+80+90+100) ÷ 5 = 400 ÷ 5 = 80%.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                            <span class="text-slate-900 font-bold text-lg">%</span>
+                        </div>
+                        <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                    </div>
+                    <p class="text-sm text-slate-400">Free Online Percentage Calculator Tools</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/" class="text-sm text-slate-400 hover:text-green-400">Home</a></li>
+                        <li><a href="/#tools" class="text-sm text-slate-400 hover:text-green-400">Calculators</a></li>
+                    </ul>
+                </div>
+
+                <!-- Pages (Privacy, About, Contact, etc.) -->
+                
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        
+                        <li><a href="/page/about/" class="text-sm text-slate-400 hover:text-green-400">About Us</a></li>
+                        
+                        <li><a href="/page/contact/" class="text-sm text-slate-400 hover:text-green-400">Contact Us</a></li>
+                        
+                        <li><a href="/page/disclaimer/" class="text-sm text-slate-400 hover:text-green-400">Disclaimer</a></li>
+                        
+                        <li><a href="/page/privacy-policy/" class="text-sm text-slate-400 hover:text-green-400">Privacy Policy</a></li>
+                        
+                        <li><a href="/page/terms-of-use/" class="text-sm text-slate-400 hover:text-green-400">Terms of Use</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center">
+                <p class="text-sm text-slate-500">©  Percentage Calculators. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            menu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        }
+
+        function toggleLangDropdown() {
+            const dropdown = document.getElementById('langDropdown');
+            const arrow = document.getElementById('langArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close tools dropdown if open
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsArrow = document.getElementById('toolsArrow');
+            if (toolsDropdown) toolsDropdown.classList.add('hidden');
+            if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        function toggleToolsDropdown() {
+            const dropdown = document.getElementById('toolsDropdown');
+            const arrow = document.getElementById('toolsArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close lang dropdown if open
+            const langDropdown = document.getElementById('langDropdown');
+            const langArrow = document.getElementById('langArrow');
+            if (langDropdown) langDropdown.classList.add('hidden');
+            if (langArrow) langArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            const langDropdown = document.getElementById('langDropdown');
+            const langBtn = document.getElementById('langDropdownBtn');
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
+            const langArrow = document.getElementById('langArrow');
+            const toolsArrow = document.getElementById('toolsArrow');
+
+            // Close language dropdown
+            if (langDropdown && langBtn && !langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
+                langDropdown.classList.add('hidden');
+                if (langArrow) langArrow.classList.remove('rotate-180');
+            }
+
+            // Close tools dropdown
+            if (toolsDropdown && toolsBtn && !toolsBtn.contains(e.target) && !toolsDropdown.contains(e.target)) {
+                toolsDropdown.classList.add('hidden');
+                if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+            }
+        });
+    </script>
+
+    
+<script>
+function calculate(){const i=document.getElementById('percentages').value,r=document.getElementById('result'),f=document.getElementById('formula_display'),c=document.getElementById('count'),s=document.getElementById('sum');const v=i.split(/[,\s]+/).map(x=>parseFloat(x.trim())).filter(x=>!isNaN(x));if(v.length>0){const sum=v.reduce((a,b)=>a+b,0),avg=sum/v.length;r.textContent=formatNumber(avg)+'%';if(c)c.textContent=v.length;if(s)s.textContent=formatNumber(sum)+'%';if(f)f.textContent='('+v.join(' + ')+') ÷ '+v.length+' = '+formatNumber(avg)+'%'}else{r.textContent='?';if(c)c.textContent='0';if(s)s.textContent='0%';if(f)f.textContent=''}}function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}
+
+function toggleFaq(index) {
+    const answer = document.getElementById('faq-answer-' + index);
+    const icon = document.querySelector('.faq-icon-' + index);
+    
+    if (answer.classList.contains('active')) {
+        answer.classList.remove('active');
+        icon.classList.remove('rotate-180');
+    } else {
+        document.querySelectorAll('.accordion-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('[class*="faq-icon-"]').forEach(el => el.classList.remove('rotate-180'));
+        
+        answer.classList.add('active');
+        icon.classList.add('rotate-180');
+    }
+}
+</script>
+
+
+    
+</body>
+</html>
