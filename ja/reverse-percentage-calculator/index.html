@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="ja" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>逆パーセント計算機 | パーセントから元の数を求める</title>
+    <meta name="description" content="無料逆パーセント計算機。パーセント値から元の数を求めます。税抜き価格や割引前価格の計算に最適。">
+    
+    
+
+<meta name="keywords" content="逆パーセント計算機, 元の数を求める, パーセントから逆算, 税抜き価格計算">
+
+
+<!-- Schema.org FAQPage markup -->
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        
+        {
+            "@type": "Question",
+            "name": "逆パーセントの計算方法は？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "部分の値を(パーセント÷100)で割ります。例：75が25%なら、75÷0.25\u003D300。"
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "税込み価格から税抜き価格を求める方法は？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "税込み価格を(1+税率)で割ります。10%税込みの5,500円なら、5,500÷1.10\u003D5,000円（税抜き）。"
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "30%オフ後の7,000円の元の価格は？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "7,000÷0.70\u003D10,000円。70%（100%\u002D30%）で割ります。"
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "逆パーセントの公式は？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "元の数 \u003D 既知の値 ÷ (パーセント ÷ 100)。または：元の数 \u003D 既知の値 × (100 ÷ パーセント)。"
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "80が全体の20%の場合、全体はいくら？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "80 ÷ 0.20 \u003D 400。全体は400です。"
+            }
+        }
+        
+    ]
+}
+</script>
+
+
+<!-- Schema.org WebApplication markup -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "逆パーセント計算機 - Percentage Calculators",
+    "url": "https://percentagecalculators.github.io/ja/reverse-percentage-calculator/",
+    "description": "無料逆パーセント計算機。パーセント値から元の数を求めます。税抜き価格や割引前価格の計算に最適。",
+    "applicationCategory": "CalculatorApplication",
+    "operatingSystem": "Any",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    }
+}
+</script>
+
+    
+    <!-- Hreflang Tags (only if multiple translations exist) -->
+    
+    
+    <link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/reverse-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/reverse-percentage-calculator/" />
+    
+    
+
+    <!-- Canonical -->
+    
+<link rel="canonical" href="https://percentagecalculators.github.io/ja/reverse-percentage-calculator/" />
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['SF Mono', 'Monaco', 'Consolas', 'Courier New', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .accordion-content.active {
+            max-height: 1000px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+
+        
+    </style>
+
+    
+
+    
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-950 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <!-- Logo -->
+                <a href="/ja/" class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                        <span class="text-slate-900 font-bold text-lg">%</span>
+                    </div>
+                    <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-1 text-sm">
+                    <a href="/ja/"
+                       class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white">
+                        ホーム
+                    </a>
+
+                    <!-- Tools Dropdown -->
+                    
+                    <div class="relative">
+                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <span>計算機</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="toolsArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="toolsDropdown" class="hidden absolute left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50 max-h-96 overflow-y-auto">
+                            
+                            <a href="/ja/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">パーセント増加計算機</a>
+                            
+                            <a href="/ja/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">パーセント減少計算機</a>
+                            
+                            <a href="/ja/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">パーセント変化計算機</a>
+                            
+                            <a href="/ja/percentage-difference-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">パーセント差分計算機</a>
+                            
+                            <a href="/ja/percentage-off-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">パーセントオフ計算機</a>
+                            
+                            <a href="/ja/fraction-to-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">分数からパーセントへの計算機</a>
+                            
+                            <a href="/ja/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">パーセント成長計算機</a>
+                            
+                            <a href="/ja/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">逆パーセント計算機</a>
+                            
+                            <a href="/ja/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">パーセント誤差計算機</a>
+                            
+                            <a href="/ja/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">パーセント平均計算機</a>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <!-- Language Dropdown (only show if multiple languages available) -->
+                    
+                    <div class="relative ml-4">
+                        <button onclick="toggleLangDropdown()" id="langDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                            </svg>
+                            <span>JA</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="langArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="langDropdown" class="hidden absolute right-0 mt-1 w-40 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50">
+                            
+                            <a href="/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                English
+                            </a>
+                            
+                            <a href="/nl/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Nederlands
+                            </a>
+                            
+                            <a href="/pt/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Português
+                            </a>
+                            
+                            <a href="/es/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Español
+                            </a>
+                            
+                            <a href="/fr/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Français
+                            </a>
+                            
+                            <a href="/de/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Deutsch
+                            </a>
+                            
+                            <a href="/hi/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                हिन्दी
+                            </a>
+                            
+                            <a href="/bn/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                বাংলা
+                            </a>
+                            
+                            <a href="/zh-cn/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                简体中文
+                            </a>
+                            
+                            <a href="/id/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Indonesia
+                            </a>
+                            
+                            <a href="/th/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                ไทย
+                            </a>
+                            
+                            <a href="/zh-tw/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                繁體中文
+                            </a>
+                            
+                            <a href="/it/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Italiano
+                            </a>
+                            
+                            <a href="/ja/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-green-400">
+                                日本語
+                            </a>
+                            
+                            <a href="/ms/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Melayu
+                            </a>
+                            
+                            <a href="/ar/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                العربية
+                            </a>
+                            
+                            <a href="/ko/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                한국어
+                            </a>
+                            
+                            <a href="/ru/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Русский
+                            </a>
+                            
+                            <a href="/vi/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Tiếng Việt
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white">
+                    <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden border-t border-slate-800 py-4">
+                <a href="/ja/"
+                   class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">
+                    ホーム
+                </a>
+
+                <!-- Mobile Tools List -->
+                
+                <div class="mt-2 border-t border-slate-800 pt-2">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">計算機</p>
+                    
+                    <a href="/ja/percentage-increase-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">パーセント増加計算機</a>
+                    
+                    <a href="/ja/percentage-decrease-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">パーセント減少計算機</a>
+                    
+                    <a href="/ja/percentage-change-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">パーセント変化計算機</a>
+                    
+                    <a href="/ja/percentage-difference-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">パーセント差分計算機</a>
+                    
+                    <a href="/ja/percentage-off-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">パーセントオフ計算機</a>
+                    
+                    <a href="/ja/fraction-to-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">分数からパーセントへの計算機</a>
+                    
+                    <a href="/ja/percentage-growth-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">パーセント成長計算機</a>
+                    
+                    <a href="/ja/reverse-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">逆パーセント計算機</a>
+                    
+                    <a href="/ja/percentage-error-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">パーセント誤差計算機</a>
+                    
+                    <a href="/ja/average-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">パーセント平均計算機</a>
+                    
+                </div>
+                
+
+                <!-- Mobile Language Switcher -->
+                
+                <div class="mt-4 border-t border-slate-800 pt-4">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Language</p>
+                    <div class="flex flex-wrap gap-2 px-3 mt-2">
+                        
+                        <a href="/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            English
+                        </a>
+                        
+                        <a href="/nl/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Nederlands
+                        </a>
+                        
+                        <a href="/pt/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Português
+                        </a>
+                        
+                        <a href="/es/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Español
+                        </a>
+                        
+                        <a href="/fr/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Français
+                        </a>
+                        
+                        <a href="/de/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Deutsch
+                        </a>
+                        
+                        <a href="/hi/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            हिन्दी
+                        </a>
+                        
+                        <a href="/bn/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            বাংলা
+                        </a>
+                        
+                        <a href="/zh-cn/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            简体中文
+                        </a>
+                        
+                        <a href="/id/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Indonesia
+                        </a>
+                        
+                        <a href="/th/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            ไทย
+                        </a>
+                        
+                        <a href="/zh-tw/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            繁體中文
+                        </a>
+                        
+                        <a href="/it/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Italiano
+                        </a>
+                        
+                        <a href="/ja/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center bg-slate-700 text-green-400">
+                            日本語
+                        </a>
+                        
+                        <a href="/ms/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Melayu
+                        </a>
+                        
+                        <a href="/ar/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            العربية
+                        </a>
+                        
+                        <a href="/ko/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            한국어
+                        </a>
+                        
+                        <a href="/ru/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Русский
+                        </a>
+                        
+                        <a href="/vi/reverse-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Tiếng Việt
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Breadcrumb -->
+<nav class="bg-slate-950 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <ol class="flex items-center text-sm text-slate-400">
+            <li>
+                <a href="/ja/" class="hover:text-green-400">
+                    ホーム
+                </a>
+            </li>
+            <li class="mx-2">/</li>
+            <li class="text-green-400">逆パーセント計算機</li>
+        </ol>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-slate-950 border-b border-slate-800 py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-white mb-3">
+            逆パーセント計算機
+        </h1>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+            パーセント値から元の数を求めます。「Xが全体のY%なら、全体はいくら？」という計算。
+        </p>
+    </div>
+</section>
+
+<!-- Calculator Section -->
+<section class="py-8">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+            <div class="bg-slate-900 px-6 py-4 border-b border-slate-700">
+                <h2 class="text-lg font-semibold text-white flex items-center">
+                    
+                    <span class="mr-3"><svg class="w-6 h-6 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg></span>
+                    
+                    逆パーセント計算機
+                </h2>
+            </div>
+            
+            <div class="p-6">
+                <!-- Dynamic Calculator based on tool_type -->
+                
+                <!-- Reverse Percentage Calculator -->
+                <div class="space-y-4">
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">値</label>
+                        <input type="number" id="partial_value" step="any" placeholder="既知の値" oninput="calculate()"
+                               class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">は何%の</label>
+                        <div class="flex-1 flex items-center gap-2">
+                            <input type="number" id="percentage" step="any" placeholder="パーセント" oninput="calculate()"
+                                   class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                            <span class="text-slate-400 text-lg">%</span>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-700 pt-4 mt-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300 font-medium">元の数:</span>
+                            <span id="result" class="text-2xl text-green-400 font-mono font-bold">?</span>
+                        </div>
+                    </div>
+                    <p class="text-center text-slate-500 text-sm mt-2" id="formula_display"></p>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEO Content Section -->
+
+<section class="py-10 bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article class="prose prose-invert prose-slate max-w-none">
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">逆パーセントの仕組み</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">通常のパーセント計算では、全体と率がわかっている状態で部分を求めます。逆パーセントは逆方向で、部分と率から全体を求めます。</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">逆パーセントの公式</h2>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        元の数 = 部分の値 ÷ (パーセント ÷ 100)
+                    </div>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">計算の例</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">75が全体の25%である場合、全体はいくら？</p>
+                
+            
+                
+                    <ol class="list-decimal list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li>部分の値：75</li>
+                        
+                        <li>パーセント：25%</li>
+                        
+                        <li>計算：75 ÷ 0.25 = 300</li>
+                        
+                        <li>結果：元の数は300</li>
+                        
+                    </ol>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">逆パーセントの実用的な用途</h2>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li>税込み価格から税抜き価格を計算</li>
+                        
+                        <li>セール価格から元の価格を求める</li>
+                        
+                        <li>チップ額から飲食代を計算</li>
+                        
+                        <li>部分点から合計点を求める</li>
+                        
+                    </ul>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">関連ツール</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed"><a href='/ja/percentage-growth-calculator/' class='text-green-400 hover:underline'>パーセント成長計算機</a>は値の増加を追跡します。測定精度については<a href='/ja/percentage-error-calculator/' class='text-green-400 hover:underline'>パーセント誤差計算機</a>をご覧ください。</p>
+                
+            
+        </article>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+
+<section class="py-10" id="faq">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl font-bold text-white text-center mb-8">Frequently Asked Questions</h2>
+        
+        <div class="space-y-3">
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(1)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">逆パーセントの計算方法は？</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-1" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        部分の値を(パーセント÷100)で割ります。例：75が25%なら、75÷0.25=300。
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(2)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">税込み価格から税抜き価格を求める方法は？</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-2" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        税込み価格を(1+税率)で割ります。10%税込みの5,500円なら、5,500÷1.10=5,000円（税抜き）。
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(3)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">30%オフ後の7,000円の元の価格は？</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-3" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        7,000÷0.70=10,000円。70%（100%-30%）で割ります。
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(4)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">逆パーセントの公式は？</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-4" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        元の数 = 既知の値 ÷ (パーセント ÷ 100)。または：元の数 = 既知の値 × (100 ÷ パーセント)。
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(5)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">80が全体の20%の場合、全体はいくら？</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-5" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        80 ÷ 0.20 = 400。全体は400です。
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                            <span class="text-slate-900 font-bold text-lg">%</span>
+                        </div>
+                        <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                    </div>
+                    <p class="text-sm text-slate-400">無料オンラインパーセント計算ツール</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/ja/" class="text-sm text-slate-400 hover:text-green-400">ホーム</a></li>
+                        <li><a href="/ja/#tools" class="text-sm text-slate-400 hover:text-green-400">計算機</a></li>
+                    </ul>
+                </div>
+
+                <!-- Pages (Privacy, About, Contact, etc.) -->
+                
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        
+                        <li><a href="/ja/page/about/" class="text-sm text-slate-400 hover:text-green-400">私たちについて</a></li>
+                        
+                        <li><a href="/ja/page/contact/" class="text-sm text-slate-400 hover:text-green-400">お問い合わせ</a></li>
+                        
+                        <li><a href="/ja/page/disclaimer/" class="text-sm text-slate-400 hover:text-green-400">免責事項</a></li>
+                        
+                        <li><a href="/ja/page/privacy-policy/" class="text-sm text-slate-400 hover:text-green-400">プライバシーポリシー</a></li>
+                        
+                        <li><a href="/ja/page/terms-of-use/" class="text-sm text-slate-400 hover:text-green-400">利用規約</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center">
+                <p class="text-sm text-slate-500">©  Percentage Calculators. 全著作権所有。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            menu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        }
+
+        function toggleLangDropdown() {
+            const dropdown = document.getElementById('langDropdown');
+            const arrow = document.getElementById('langArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close tools dropdown if open
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsArrow = document.getElementById('toolsArrow');
+            if (toolsDropdown) toolsDropdown.classList.add('hidden');
+            if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        function toggleToolsDropdown() {
+            const dropdown = document.getElementById('toolsDropdown');
+            const arrow = document.getElementById('toolsArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close lang dropdown if open
+            const langDropdown = document.getElementById('langDropdown');
+            const langArrow = document.getElementById('langArrow');
+            if (langDropdown) langDropdown.classList.add('hidden');
+            if (langArrow) langArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            const langDropdown = document.getElementById('langDropdown');
+            const langBtn = document.getElementById('langDropdownBtn');
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
+            const langArrow = document.getElementById('langArrow');
+            const toolsArrow = document.getElementById('toolsArrow');
+
+            // Close language dropdown
+            if (langDropdown && langBtn && !langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
+                langDropdown.classList.add('hidden');
+                if (langArrow) langArrow.classList.remove('rotate-180');
+            }
+
+            // Close tools dropdown
+            if (toolsDropdown && toolsBtn && !toolsBtn.contains(e.target) && !toolsDropdown.contains(e.target)) {
+                toolsDropdown.classList.add('hidden');
+                if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+            }
+        });
+    </script>
+
+    
+<script>
+function calculate(){const p=parseFloat(document.getElementById('part_value').value),pct=parseFloat(document.getElementById('percent_value').value),r=document.getElementById('result'),f=document.getElementById('formula_display');if(!isNaN(p)&&!isNaN(pct)&&pct!==0){const whole=(p/pct)*100;r.textContent=formatNumber(whole);if(f)f.textContent='('+p+' ÷ '+pct+') × 100 = '+formatNumber(whole)}else{r.textContent='?';if(f)f.textContent=''}}function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}
+
+function toggleFaq(index) {
+    const answer = document.getElementById('faq-answer-' + index);
+    const icon = document.querySelector('.faq-icon-' + index);
+    
+    if (answer.classList.contains('active')) {
+        answer.classList.remove('active');
+        icon.classList.remove('rotate-180');
+    } else {
+        document.querySelectorAll('.accordion-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('[class*="faq-icon-"]').forEach(el => el.classList.remove('rotate-180'));
+        
+        answer.classList.add('active');
+        icon.classList.add('rotate-180');
+    }
+}
+</script>
+
+
+    
+</body>
+</html>

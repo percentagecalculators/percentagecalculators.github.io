@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculadora de Crecimiento Porcentual | Calculadora de Tasa de Crecimiento Empresarial</title>
+    <meta name="description" content="Calculadora gratuita de crecimiento porcentual. Calcula tasas de crecimiento para ingresos, clientes, ventas y KPIs. Rastrea el rendimiento empresarial con métricas de crecimiento precisas.">
+    
+    
+
+<meta name="keywords" content="calculadora de crecimiento porcentual, calculadora de tasa de crecimiento, crecimiento empresarial, crecimiento de ingresos, crecimiento interanual, calcular porcentaje de crecimiento">
+
+
+<!-- Schema.org FAQPage markup -->
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        
+        {
+            "@type": "Question",
+            "name": "¿Qué es una buena tasa de crecimiento?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Varía por industria. 5\u002D15% anual es típico para negocios establecidos. 20%+ es crecimiento fuerte. 40%+ es hipercrecimiento (común en startups tecnológicas)."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo calculo el crecimiento año contra año?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Usa la misma fórmula con valores del mismo período en años consecutivos. ((Este Año \u002D Año Pasado) / Año Pasado) × 100."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuál es el crecimiento de 200 a 250?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "25% de crecimiento. Cálculo: ((250\u002D200)/200) × 100 \u003D 25%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo calculo la tasa de crecimiento mensual?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Compara meses consecutivos: ((Mes Actual \u002D Mes Anterior) / Mes Anterior) × 100."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Qué es el crecimiento negativo?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Crecimiento negativo significa decrecimiento. Ir de 100 a 80 es \u002D20% de crecimiento (una disminución)."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo calculo el CAGR?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "CAGR \u003D ((Final/Inicial)^(1/años) \u002D 1) × 100. Es la tasa anual suavizada sobre múltiples años."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Qué pasa si el valor inicial es cero?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El crecimiento desde cero es matemáticamente indefinido (división por cero). Usa cambio absoluto en su lugar."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuál es el crecimiento de 500 a 750?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "50% de crecimiento. Cálculo: ((750\u002D500)/500) × 100 \u003D 50%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo comparo tasas de crecimiento entre diferentes escalas?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Usa porcentajes, no números absolutos. 10% de crecimiento es comparable ya sea que la base sea $1,000 o $1,000,000."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Qué es el crecimiento trimestre contra trimestre?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Crecimiento de un trimestre al siguiente: ((T2 \u002D T1) / T1) × 100."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Puede el crecimiento exceder el 100%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí. Ir de 50 a 150 es 200% de crecimiento (el valor se triplicó)."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo calculo el crecimiento promedio sobre múltiples períodos?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Usa media geométrica o CAGR, no promedio aritmético, para tasas de crecimiento multi\u002Dperíodo precisas."
+            }
+        }
+        
+    ]
+}
+</script>
+
+
+<!-- Schema.org WebApplication markup -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Calculadora de Crecimiento Porcentual - Percentage Calculators",
+    "url": "https://percentagecalculators.github.io/es/percentage-growth-calculator/",
+    "description": "Calculadora gratuita de crecimiento porcentual. Calcula tasas de crecimiento para ingresos, clientes, ventas y KPIs. Rastrea el rendimiento empresarial con métricas de crecimiento precisas.",
+    "applicationCategory": "CalculatorApplication",
+    "operatingSystem": "Any",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    }
+}
+</script>
+
+    
+    <!-- Hreflang Tags (only if multiple translations exist) -->
+    
+    
+    <link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-growth-calculator/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-growth-calculator/" />
+    
+    
+
+    <!-- Canonical -->
+    
+<link rel="canonical" href="https://percentagecalculators.github.io/es/percentage-growth-calculator/" />
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['SF Mono', 'Monaco', 'Consolas', 'Courier New', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .accordion-content.active {
+            max-height: 1000px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+
+        
+    </style>
+
+    
+
+    
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-950 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <!-- Logo -->
+                <a href="/es/" class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                        <span class="text-slate-900 font-bold text-lg">%</span>
+                    </div>
+                    <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-1 text-sm">
+                    <a href="/es/"
+                       class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white">
+                        Inicio
+                    </a>
+
+                    <!-- Tools Dropdown -->
+                    
+                    <div class="relative">
+                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <span>Calculadoras</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="toolsArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="toolsDropdown" class="hidden absolute left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50 max-h-96 overflow-y-auto">
+                            
+                            <a href="/es/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Aumento Porcentual</a>
+                            
+                            <a href="/es/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Disminución Porcentual</a>
+                            
+                            <a href="/es/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Cambio Porcentual</a>
+                            
+                            <a href="/es/percentage-difference-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Diferencia Porcentual</a>
+                            
+                            <a href="/es/percentage-off-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentaje de Descuento</a>
+                            
+                            <a href="/es/fraction-to-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Fracción a Porcentaje</a>
+                            
+                            <a href="/es/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Crecimiento Porcentual</a>
+                            
+                            <a href="/es/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentaje Inverso</a>
+                            
+                            <a href="/es/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Error Porcentual</a>
+                            
+                            <a href="/es/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentaje Promedio</a>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <!-- Language Dropdown (only show if multiple languages available) -->
+                    
+                    <div class="relative ml-4">
+                        <button onclick="toggleLangDropdown()" id="langDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                            </svg>
+                            <span>ES</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="langArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="langDropdown" class="hidden absolute right-0 mt-1 w-40 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50">
+                            
+                            <a href="/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                English
+                            </a>
+                            
+                            <a href="/nl/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Nederlands
+                            </a>
+                            
+                            <a href="/pt/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Português
+                            </a>
+                            
+                            <a href="/es/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-green-400">
+                                Español
+                            </a>
+                            
+                            <a href="/fr/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Français
+                            </a>
+                            
+                            <a href="/de/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Deutsch
+                            </a>
+                            
+                            <a href="/hi/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                हिन्दी
+                            </a>
+                            
+                            <a href="/bn/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                বাংলা
+                            </a>
+                            
+                            <a href="/zh-cn/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                简体中文
+                            </a>
+                            
+                            <a href="/id/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Indonesia
+                            </a>
+                            
+                            <a href="/th/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                ไทย
+                            </a>
+                            
+                            <a href="/zh-tw/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                繁體中文
+                            </a>
+                            
+                            <a href="/it/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Italiano
+                            </a>
+                            
+                            <a href="/ja/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                日本語
+                            </a>
+                            
+                            <a href="/ms/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Melayu
+                            </a>
+                            
+                            <a href="/ar/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                العربية
+                            </a>
+                            
+                            <a href="/ko/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                한국어
+                            </a>
+                            
+                            <a href="/ru/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Русский
+                            </a>
+                            
+                            <a href="/vi/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Tiếng Việt
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white">
+                    <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden border-t border-slate-800 py-4">
+                <a href="/es/"
+                   class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">
+                    Inicio
+                </a>
+
+                <!-- Mobile Tools List -->
+                
+                <div class="mt-2 border-t border-slate-800 pt-2">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Calculadoras</p>
+                    
+                    <a href="/es/percentage-increase-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Aumento Porcentual</a>
+                    
+                    <a href="/es/percentage-decrease-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Disminución Porcentual</a>
+                    
+                    <a href="/es/percentage-change-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Cambio Porcentual</a>
+                    
+                    <a href="/es/percentage-difference-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Diferencia Porcentual</a>
+                    
+                    <a href="/es/percentage-off-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentaje de Descuento</a>
+                    
+                    <a href="/es/fraction-to-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Fracción a Porcentaje</a>
+                    
+                    <a href="/es/percentage-growth-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Crecimiento Porcentual</a>
+                    
+                    <a href="/es/reverse-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentaje Inverso</a>
+                    
+                    <a href="/es/percentage-error-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Error Porcentual</a>
+                    
+                    <a href="/es/average-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentaje Promedio</a>
+                    
+                </div>
+                
+
+                <!-- Mobile Language Switcher -->
+                
+                <div class="mt-4 border-t border-slate-800 pt-4">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Language</p>
+                    <div class="flex flex-wrap gap-2 px-3 mt-2">
+                        
+                        <a href="/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            English
+                        </a>
+                        
+                        <a href="/nl/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Nederlands
+                        </a>
+                        
+                        <a href="/pt/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Português
+                        </a>
+                        
+                        <a href="/es/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center bg-slate-700 text-green-400">
+                            Español
+                        </a>
+                        
+                        <a href="/fr/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Français
+                        </a>
+                        
+                        <a href="/de/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Deutsch
+                        </a>
+                        
+                        <a href="/hi/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            हिन्दी
+                        </a>
+                        
+                        <a href="/bn/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            বাংলা
+                        </a>
+                        
+                        <a href="/zh-cn/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            简体中文
+                        </a>
+                        
+                        <a href="/id/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Indonesia
+                        </a>
+                        
+                        <a href="/th/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            ไทย
+                        </a>
+                        
+                        <a href="/zh-tw/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            繁體中文
+                        </a>
+                        
+                        <a href="/it/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Italiano
+                        </a>
+                        
+                        <a href="/ja/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            日本語
+                        </a>
+                        
+                        <a href="/ms/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Melayu
+                        </a>
+                        
+                        <a href="/ar/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            العربية
+                        </a>
+                        
+                        <a href="/ko/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            한국어
+                        </a>
+                        
+                        <a href="/ru/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Русский
+                        </a>
+                        
+                        <a href="/vi/percentage-growth-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Tiếng Việt
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Breadcrumb -->
+<nav class="bg-slate-950 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <ol class="flex items-center text-sm text-slate-400">
+            <li>
+                <a href="/es/" class="hover:text-green-400">
+                    Inicio
+                </a>
+            </li>
+            <li class="mx-2">/</li>
+            <li class="text-green-400">Calculadora de Crecimiento Porcentual</li>
+        </ol>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-slate-950 border-b border-slate-800 py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-white mb-3">
+            Calculadora de Crecimiento Porcentual
+        </h1>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+            Calcula el crecimiento porcentual entre dos valores. Perfecta para rastrear métricas empresariales, cambios de ingresos, crecimiento de clientes e indicadores clave de rendimiento.
+        </p>
+    </div>
+</section>
+
+<!-- Calculator Section -->
+<section class="py-8">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+            <div class="bg-slate-900 px-6 py-4 border-b border-slate-700">
+                <h2 class="text-lg font-semibold text-white flex items-center">
+                    
+                    <span class="mr-3"><svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg></span>
+                    
+                    Calculadora de Crecimiento Porcentual
+                </h2>
+            </div>
+            
+            <div class="p-6">
+                <!-- Dynamic Calculator based on tool_type -->
+                
+                <!-- Percentage Growth Calculator -->
+                <div class="space-y-4">
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">Initial Value</label>
+                        <input type="number" id="initial_value" step="any" placeholder="Starting value" oninput="calculate()"
+                               class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">Final Value</label>
+                        <input type="number" id="final_value" step="any" placeholder="Ending value" oninput="calculate()"
+                               class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                    </div>
+                    <div class="border-t border-slate-700 pt-4 mt-4">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-slate-400">Monto de Crecimiento:</span>
+                            <span id="growth_amount" class="text-slate-300 font-mono">?</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300 font-medium">Tasa de Crecimiento:</span>
+                            <span id="result" class="text-2xl text-green-400 font-mono font-bold">?</span>
+                        </div>
+                    </div>
+                    <p class="text-center text-slate-500 text-sm mt-2" id="formula_display"></p>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEO Content Section -->
+
+<section class="py-10 bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article class="prose prose-invert prose-slate max-w-none">
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Mide el Crecimiento Empresarial con Precisión</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">La tasa de crecimiento es una de las métricas más importantes en los negocios. Ya sea que estés rastreando ingresos, clientes, tráfico web o cualquier otro KPI, esta calculadora proporciona cálculos de tasa de crecimiento instantáneos y precisos.</p>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Simplemente ingresa tu valor inicial (inicio del período) y valor final (fin del período) para ver la tasa de crecimiento porcentual junto con el monto de crecimiento absoluto.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">La Fórmula de Tasa de Crecimiento</h2>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        Tasa de Crecimiento = ((Valor Final - Valor Inicial) ÷ Valor Inicial) × 100
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Esta fórmula calcula el cambio relativo desde tu valor base. Un resultado positivo indica crecimiento; un resultado negativo indica decrecimiento.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Ejemplo de Cálculo</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Los ingresos crecieron de $850,000 a $1,020,000:</p>
+                
+            
+                
+                    <ol class="list-decimal list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li>Monto de crecimiento: $1,020,000 - $850,000 = $170,000</li>
+                        
+                        <li>Divide por valor inicial: $170,000 ÷ $850,000 = 0.20</li>
+                        
+                        <li>Convierte a porcentaje: 0.20 × 100 = 20%</li>
+                        
+                        <li>Resultado: 20% de crecimiento de ingresos</li>
+                        
+                    </ol>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Métricas Empresariales Clave a Rastrear</h2>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Crecimiento de Ingresos</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">La métrica empresarial más fundamental. Compara trimestre contra trimestre o año contra año para medir la salud financiera y trayectoria. Los inversores valoran particularmente el crecimiento de ingresos consistente.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Crecimiento de Clientes</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Rastrea cómo se expande tu base de clientes con el tiempo. Crecer de 1,200 a 1,560 clientes representa un 30% de crecimiento de clientes – un fuerte indicador de ajuste producto-mercado.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Métricas de Engagement de Usuarios</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Monitorea el crecimiento en usuarios activos, duración de sesión, vistas de página o cualquier métrica de engagement. Nuestra <a href='/es/' class='text-green-400 hover:underline'>suite de calculadoras de porcentaje</a> hace el rastreo de estas métricas sin esfuerzo.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Rendimiento de Ventas</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Mide el rendimiento del equipo de ventas rastreando el crecimiento en tratos cerrados, tamaño promedio de trato o tasas de conversión.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Crecimiento Año contra Año (YoY)</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">El crecimiento YoY compara el mismo período entre años, eliminando variaciones estacionales:</p>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>T1 2024 vs T1 2023</strong> – Compara el mismo trimestre entre años</li>
+                        
+                        <li><strong>Diciembre 2024 vs Diciembre 2023</strong> – Comparación del mismo mes</li>
+                        
+                        <li><strong>Año Completo 2024 vs Año Completo 2023</strong> – Comparación anual</li>
+                        
+                    </ul>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">El crecimiento YoY es preferido para negocios estacionales porque compara períodos similares.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Entendiendo la Tasa de Crecimiento Anual Compuesto (CAGR)</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Para crecimiento multi-año, CAGR proporciona la tasa de crecimiento anual suavizada:</p>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        CAGR = ((Valor Final ÷ Valor Inicial)^(1/Años) - 1) × 100
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Ejemplo: Crecimiento de $100,000 a $150,000 en 3 años = CAGR de 14.47% (no 50% ÷ 3 = 16.67%)</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Crecimiento vs. Decrecimiento</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Esta calculadora maneja tanto crecimiento (resultados positivos) como decrecimiento (resultados negativos):</p>
+                
+            
+                
+                    <div class="overflow-x-auto my-4">
+                        <table class="w-full text-sm text-slate-400">
+                            <thead class="bg-slate-800">
+                                <tr>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Escenario</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Cálculo</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Resultado</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">Crecimiento: 100 → 150</td>
+                                    
+                                    <td class="px-4 py-2">((150-100)/100)×100</td>
+                                    
+                                    <td class="px-4 py-2">+50%</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">Decrecimiento: 150 → 100</td>
+                                    
+                                    <td class="px-4 py-2">((100-150)/150)×100</td>
+                                    
+                                    <td class="px-4 py-2">-33.3%</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">Sin cambio: 100 → 100</td>
+                                    
+                                    <td class="px-4 py-2">((100-100)/100)×100</td>
+                                    
+                                    <td class="px-4 py-2">0%</td>
+                                    
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Estableciendo Metas de Crecimiento</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Usa los cálculos de crecimiento para establecer metas realistas:</p>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Conservador</strong>: Igualar el crecimiento promedio de la industria (típicamente 5-15% anual)</li>
+                        
+                        <li><strong>Moderado</strong>: Superar ligeramente el rendimiento pasado</li>
+                        
+                        <li><strong>Agresivo</strong>: 2-3× el crecimiento histórico (requiere inversión significativa)</li>
+                        
+                        <li><strong>Hipercrecimiento</strong>: 40%+ anual (típicamente startups con capital de riesgo)</li>
+                        
+                    </ul>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">¿Necesitas Cálculos Relacionados?</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Convierte fracciones (como 'creció 3/4') usando nuestra <a href='/es/fraction-to-percentage-calculator/' class='text-green-400 hover:underline'>calculadora de fracción a porcentaje</a>. Para encontrar valores originales cuando conoces el resultado final y la tasa de crecimiento, usa nuestra <a href='/es/reverse-percentage-calculator/' class='text-green-400 hover:underline'>calculadora de porcentaje inverso</a>.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Características de la Calculadora</h2>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Resultados Instantáneos</strong> – La tasa de crecimiento aparece mientras escribes</li>
+                        
+                        <li><strong>Doble Visualización</strong> – Ve tanto el porcentaje como el crecimiento absoluto</li>
+                        
+                        <li><strong>Indicador de Dirección</strong> – Muestra claramente crecimiento (+) o decrecimiento (-)</li>
+                        
+                        <li><strong>Alta Precisión</strong> – Preciso para informes financieros</li>
+                        
+                        <li><strong>Sin Registro Requerido</strong> – Uso gratis e inmediato</li>
+                        
+                    </ul>
+                
+            
+        </article>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+
+<section class="py-10" id="faq">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl font-bold text-white text-center mb-8">Frequently Asked Questions</h2>
+        
+        <div class="space-y-3">
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(1)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Qué es una buena tasa de crecimiento?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-1" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Varía por industria. 5-15% anual es típico para negocios establecidos. 20%+ es crecimiento fuerte. 40%+ es hipercrecimiento (común en startups tecnológicas).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(2)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo calculo el crecimiento año contra año?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-2" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Usa la misma fórmula con valores del mismo período en años consecutivos. ((Este Año - Año Pasado) / Año Pasado) × 100.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(3)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuál es el crecimiento de 200 a 250?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-3" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        25% de crecimiento. Cálculo: ((250-200)/200) × 100 = 25%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(4)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo calculo la tasa de crecimiento mensual?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-4" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Compara meses consecutivos: ((Mes Actual - Mes Anterior) / Mes Anterior) × 100.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(5)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Qué es el crecimiento negativo?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-5" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Crecimiento negativo significa decrecimiento. Ir de 100 a 80 es -20% de crecimiento (una disminución).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(6)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo calculo el CAGR?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-6" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        CAGR = ((Final/Inicial)^(1/años) - 1) × 100. Es la tasa anual suavizada sobre múltiples años.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(7)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Qué pasa si el valor inicial es cero?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-7" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        El crecimiento desde cero es matemáticamente indefinido (división por cero). Usa cambio absoluto en su lugar.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(8)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuál es el crecimiento de 500 a 750?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-8" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        50% de crecimiento. Cálculo: ((750-500)/500) × 100 = 50%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(9)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo comparo tasas de crecimiento entre diferentes escalas?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-9" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Usa porcentajes, no números absolutos. 10% de crecimiento es comparable ya sea que la base sea $1,000 o $1,000,000.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(10)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Qué es el crecimiento trimestre contra trimestre?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-10" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Crecimiento de un trimestre al siguiente: ((T2 - T1) / T1) × 100.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(11)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Puede el crecimiento exceder el 100%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-11" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-11" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Sí. Ir de 50 a 150 es 200% de crecimiento (el valor se triplicó).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(12)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo calculo el crecimiento promedio sobre múltiples períodos?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-12" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Usa media geométrica o CAGR, no promedio aritmético, para tasas de crecimiento multi-período precisas.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                            <span class="text-slate-900 font-bold text-lg">%</span>
+                        </div>
+                        <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                    </div>
+                    <p class="text-sm text-slate-400">Herramientas Gratuitas de Calculadora de Porcentaje en Línea</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/es/" class="text-sm text-slate-400 hover:text-green-400">Inicio</a></li>
+                        <li><a href="/es/#tools" class="text-sm text-slate-400 hover:text-green-400">Calculadoras</a></li>
+                    </ul>
+                </div>
+
+                <!-- Pages (Privacy, About, Contact, etc.) -->
+                
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        
+                        <li><a href="/es/page/about/" class="text-sm text-slate-400 hover:text-green-400">Acerca de Nosotros</a></li>
+                        
+                        <li><a href="/es/page/contact/" class="text-sm text-slate-400 hover:text-green-400">Contacto</a></li>
+                        
+                        <li><a href="/es/page/disclaimer/" class="text-sm text-slate-400 hover:text-green-400">Aviso Legal</a></li>
+                        
+                        <li><a href="/es/page/privacy-policy/" class="text-sm text-slate-400 hover:text-green-400">Política de Privacidad</a></li>
+                        
+                        <li><a href="/es/page/terms-of-use/" class="text-sm text-slate-400 hover:text-green-400">Términos de Uso</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center">
+                <p class="text-sm text-slate-500">©  Percentage Calculators. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            menu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        }
+
+        function toggleLangDropdown() {
+            const dropdown = document.getElementById('langDropdown');
+            const arrow = document.getElementById('langArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close tools dropdown if open
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsArrow = document.getElementById('toolsArrow');
+            if (toolsDropdown) toolsDropdown.classList.add('hidden');
+            if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        function toggleToolsDropdown() {
+            const dropdown = document.getElementById('toolsDropdown');
+            const arrow = document.getElementById('toolsArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close lang dropdown if open
+            const langDropdown = document.getElementById('langDropdown');
+            const langArrow = document.getElementById('langArrow');
+            if (langDropdown) langDropdown.classList.add('hidden');
+            if (langArrow) langArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            const langDropdown = document.getElementById('langDropdown');
+            const langBtn = document.getElementById('langDropdownBtn');
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
+            const langArrow = document.getElementById('langArrow');
+            const toolsArrow = document.getElementById('toolsArrow');
+
+            // Close language dropdown
+            if (langDropdown && langBtn && !langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
+                langDropdown.classList.add('hidden');
+                if (langArrow) langArrow.classList.remove('rotate-180');
+            }
+
+            // Close tools dropdown
+            if (toolsDropdown && toolsBtn && !toolsBtn.contains(e.target) && !toolsDropdown.contains(e.target)) {
+                toolsDropdown.classList.add('hidden');
+                if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+            }
+        });
+    </script>
+
+    
+<script>
+function calculate(){const s=parseFloat(document.getElementById('start_value').value),e=parseFloat(document.getElementById('end_value').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),g=document.getElementById('growth_amount');if(!isNaN(s)&&!isNaN(e)&&s!==0){const ga=e-s,gp=((e-s)/Math.abs(s))*100,sign=gp>=0?'+':'';r.textContent=sign+formatNumber(gp)+'%';if(g)g.textContent=sign+formatNumber(ga);if(f)f.textContent='(('+e+' - '+s+') ÷ '+s+') × 100 = '+sign+formatNumber(gp)+'%'}else{r.textContent='?';if(g)g.textContent='?';if(f)f.textContent=''}}function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}
+
+function toggleFaq(index) {
+    const answer = document.getElementById('faq-answer-' + index);
+    const icon = document.querySelector('.faq-icon-' + index);
+    
+    if (answer.classList.contains('active')) {
+        answer.classList.remove('active');
+        icon.classList.remove('rotate-180');
+    } else {
+        document.querySelectorAll('.accordion-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('[class*="faq-icon-"]').forEach(el => el.classList.remove('rotate-180'));
+        
+        answer.classList.add('active');
+        icon.classList.add('rotate-180');
+    }
+}
+</script>
+
+
+    
+</body>
+</html>

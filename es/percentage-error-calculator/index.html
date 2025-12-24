@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculadora de Error Porcentual | Error Porcentual para Experimentos de Laboratorio</title>
+    <meta name="description" content="Calculadora gratuita de error porcentual. Calcula el error porcentual entre valores experimentales y teóricos. Esencial para informes de laboratorio de física, química y biología.">
+    
+    
+
+<meta name="keywords" content="calculadora de error porcentual, error porcentual, error experimental, calculadora de error de laboratorio, cálculo de error científico">
+
+
+<!-- Schema.org FAQPage markup -->
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuál es la fórmula de error porcentual para química?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Igual que física: (|Experimental \u002D Aceptado| / Aceptado) × 100. Es universal en las ciencias."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Qué es un buen error porcentual para un laboratorio de física?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Generalmente \u003C5% es bueno. \u003C1% es excelente. Los niveles aceptables dependen del equipo y tipo de experimento."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿El error porcentual siempre es positivo?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El error porcentual estándar usa valor absoluto, así que siempre es positivo (o cero para precisión perfecta)."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Qué causa alto error porcentual en experimentos?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Causas comunes: calibración de equipo, técnica de medición, factores ambientales, errores de cálculo, errores de procedimiento."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Puede el error porcentual ser cero?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, si tu valor experimental es exactamente igual al valor teórico."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuál es la diferencia entre precisión y exactitud?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Exactitud \u003D qué tan cerca del valor verdadero (error porcentual). Precisión \u003D qué tan consistentes son las mediciones repetidas (desviación estándar)."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo reduzco el error porcentual?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Usa instrumentos calibrados, toma múltiples mediciones y promedia, mejora la técnica, controla variables."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Qué pasa si el valor teórico es cero?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El error porcentual no está definido (división por cero). Usa error absoluto en su lugar."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo reporto el error en un informe de laboratorio?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Indica: \u0027El error porcentual fue X%\u0027 e incluye probables fuentes de error (equipo, procedimiento, ambiente)."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Qué es error relativo vs error porcentual?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Error relativo \u003D |Exp \u002D Teo| / |Teo|. Error porcentual \u003D error relativo × 100."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Es aceptable un error del 10%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Depende del contexto. Para estimaciones aproximadas, sí. Para instrumentos de precisión, no. Compara con la precisión esperada de tu equipo."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo calculo el error para múltiples ensayos?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Calcula el error porcentual para cada ensayo, o usa el promedio de los ensayos como tu valor experimental, luego calcula un solo error porcentual."
+            }
+        }
+        
+    ]
+}
+</script>
+
+
+<!-- Schema.org WebApplication markup -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Calculadora de Error Porcentual - Percentage Calculators",
+    "url": "https://percentagecalculators.github.io/es/percentage-error-calculator/",
+    "description": "Calculadora gratuita de error porcentual. Calcula el error porcentual entre valores experimentales y teóricos. Esencial para informes de laboratorio de física, química y biología.",
+    "applicationCategory": "CalculatorApplication",
+    "operatingSystem": "Any",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    }
+}
+</script>
+
+    
+    <!-- Hreflang Tags (only if multiple translations exist) -->
+    
+    
+    <link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-error-calculator/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-error-calculator/" />
+    
+    
+
+    <!-- Canonical -->
+    
+<link rel="canonical" href="https://percentagecalculators.github.io/es/percentage-error-calculator/" />
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['SF Mono', 'Monaco', 'Consolas', 'Courier New', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .accordion-content.active {
+            max-height: 1000px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+
+        
+    </style>
+
+    
+
+    
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-950 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <!-- Logo -->
+                <a href="/es/" class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                        <span class="text-slate-900 font-bold text-lg">%</span>
+                    </div>
+                    <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-1 text-sm">
+                    <a href="/es/"
+                       class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white">
+                        Inicio
+                    </a>
+
+                    <!-- Tools Dropdown -->
+                    
+                    <div class="relative">
+                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <span>Calculadoras</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="toolsArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="toolsDropdown" class="hidden absolute left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50 max-h-96 overflow-y-auto">
+                            
+                            <a href="/es/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Aumento Porcentual</a>
+                            
+                            <a href="/es/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Disminución Porcentual</a>
+                            
+                            <a href="/es/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Cambio Porcentual</a>
+                            
+                            <a href="/es/percentage-difference-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Diferencia Porcentual</a>
+                            
+                            <a href="/es/percentage-off-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentaje de Descuento</a>
+                            
+                            <a href="/es/fraction-to-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Fracción a Porcentaje</a>
+                            
+                            <a href="/es/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Crecimiento Porcentual</a>
+                            
+                            <a href="/es/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentaje Inverso</a>
+                            
+                            <a href="/es/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Error Porcentual</a>
+                            
+                            <a href="/es/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentaje Promedio</a>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <!-- Language Dropdown (only show if multiple languages available) -->
+                    
+                    <div class="relative ml-4">
+                        <button onclick="toggleLangDropdown()" id="langDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                            </svg>
+                            <span>ES</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="langArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="langDropdown" class="hidden absolute right-0 mt-1 w-40 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50">
+                            
+                            <a href="/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                English
+                            </a>
+                            
+                            <a href="/nl/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Nederlands
+                            </a>
+                            
+                            <a href="/pt/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Português
+                            </a>
+                            
+                            <a href="/es/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-green-400">
+                                Español
+                            </a>
+                            
+                            <a href="/fr/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Français
+                            </a>
+                            
+                            <a href="/de/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Deutsch
+                            </a>
+                            
+                            <a href="/hi/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                हिन्दी
+                            </a>
+                            
+                            <a href="/bn/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                বাংলা
+                            </a>
+                            
+                            <a href="/zh-cn/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                简体中文
+                            </a>
+                            
+                            <a href="/id/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Indonesia
+                            </a>
+                            
+                            <a href="/th/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                ไทย
+                            </a>
+                            
+                            <a href="/zh-tw/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                繁體中文
+                            </a>
+                            
+                            <a href="/it/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Italiano
+                            </a>
+                            
+                            <a href="/ja/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                日本語
+                            </a>
+                            
+                            <a href="/ms/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Melayu
+                            </a>
+                            
+                            <a href="/ar/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                العربية
+                            </a>
+                            
+                            <a href="/ko/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                한국어
+                            </a>
+                            
+                            <a href="/ru/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Русский
+                            </a>
+                            
+                            <a href="/vi/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Tiếng Việt
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white">
+                    <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden border-t border-slate-800 py-4">
+                <a href="/es/"
+                   class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">
+                    Inicio
+                </a>
+
+                <!-- Mobile Tools List -->
+                
+                <div class="mt-2 border-t border-slate-800 pt-2">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Calculadoras</p>
+                    
+                    <a href="/es/percentage-increase-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Aumento Porcentual</a>
+                    
+                    <a href="/es/percentage-decrease-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Disminución Porcentual</a>
+                    
+                    <a href="/es/percentage-change-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Cambio Porcentual</a>
+                    
+                    <a href="/es/percentage-difference-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Diferencia Porcentual</a>
+                    
+                    <a href="/es/percentage-off-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentaje de Descuento</a>
+                    
+                    <a href="/es/fraction-to-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Fracción a Porcentaje</a>
+                    
+                    <a href="/es/percentage-growth-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Crecimiento Porcentual</a>
+                    
+                    <a href="/es/reverse-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentaje Inverso</a>
+                    
+                    <a href="/es/percentage-error-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Error Porcentual</a>
+                    
+                    <a href="/es/average-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentaje Promedio</a>
+                    
+                </div>
+                
+
+                <!-- Mobile Language Switcher -->
+                
+                <div class="mt-4 border-t border-slate-800 pt-4">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Language</p>
+                    <div class="flex flex-wrap gap-2 px-3 mt-2">
+                        
+                        <a href="/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            English
+                        </a>
+                        
+                        <a href="/nl/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Nederlands
+                        </a>
+                        
+                        <a href="/pt/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Português
+                        </a>
+                        
+                        <a href="/es/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center bg-slate-700 text-green-400">
+                            Español
+                        </a>
+                        
+                        <a href="/fr/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Français
+                        </a>
+                        
+                        <a href="/de/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Deutsch
+                        </a>
+                        
+                        <a href="/hi/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            हिन्दी
+                        </a>
+                        
+                        <a href="/bn/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            বাংলা
+                        </a>
+                        
+                        <a href="/zh-cn/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            简体中文
+                        </a>
+                        
+                        <a href="/id/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Indonesia
+                        </a>
+                        
+                        <a href="/th/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            ไทย
+                        </a>
+                        
+                        <a href="/zh-tw/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            繁體中文
+                        </a>
+                        
+                        <a href="/it/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Italiano
+                        </a>
+                        
+                        <a href="/ja/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            日本語
+                        </a>
+                        
+                        <a href="/ms/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Melayu
+                        </a>
+                        
+                        <a href="/ar/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            العربية
+                        </a>
+                        
+                        <a href="/ko/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            한국어
+                        </a>
+                        
+                        <a href="/ru/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Русский
+                        </a>
+                        
+                        <a href="/vi/percentage-error-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Tiếng Việt
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Breadcrumb -->
+<nav class="bg-slate-950 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <ol class="flex items-center text-sm text-slate-400">
+            <li>
+                <a href="/es/" class="hover:text-green-400">
+                    Inicio
+                </a>
+            </li>
+            <li class="mx-2">/</li>
+            <li class="text-green-400">Calculadora de Error Porcentual</li>
+        </ol>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-slate-950 border-b border-slate-800 py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-white mb-3">
+            Calculadora de Error Porcentual
+        </h1>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+            Calcula el error porcentual entre tu valor experimental (medido) y el valor teórico (esperado). Esencial para laboratorios científicos y control de calidad.
+        </p>
+    </div>
+</section>
+
+<!-- Calculator Section -->
+<section class="py-8">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+            <div class="bg-slate-900 px-6 py-4 border-b border-slate-700">
+                <h2 class="text-lg font-semibold text-white flex items-center">
+                    
+                    <span class="mr-3"><svg class="w-6 h-6 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg></span>
+                    
+                    Calculadora de Error Porcentual
+                </h2>
+            </div>
+            
+            <div class="p-6">
+                <!-- Dynamic Calculator based on tool_type -->
+                
+                <!-- Percentage Error Calculator -->
+                <div class="space-y-4">
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-40">Experimental (Medido)</label>
+                        <input type="number" id="experimental" step="any" placeholder="Ingresa el valor medido" oninput="calculate()"
+                               class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-40">Teórico (Esperado)</label>
+                        <input type="number" id="theoretical" step="any" placeholder="Ingresa el valor esperado" oninput="calculate()"
+                               class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                    </div>
+                    <div class="border-t border-slate-700 pt-4 mt-4">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-slate-400">Error Absoluto:</span>
+                            <span id="absolute_error" class="text-slate-300 font-mono">?</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300 font-medium">Error Porcentual:</span>
+                            <span id="result" class="text-2xl text-green-400 font-mono font-bold">?</span>
+                        </div>
+                    </div>
+                    <p class="text-center text-slate-500 text-sm mt-2" id="formula_display"></p>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEO Content Section -->
+
+<section class="py-10 bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article class="prose prose-invert prose-slate max-w-none">
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Midiendo Precisión Experimental con Error Porcentual</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">El error porcentual cuantifica qué tan cerca está tu medición experimental del valor aceptado o teórico. Es un concepto fundamental en ciencia, ingeniería y control de calidad. Esta calculadora está diseñada específicamente para trabajo de laboratorio y análisis científico.</p>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Un error porcentual bajo indica buena precisión, mientras que un error porcentual alto sugiere desviación significativa del valor esperado y puede justificar investigación de los procedimientos experimentales.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">La Fórmula de Error Porcentual</h2>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        Error Porcentual = (|Valor Experimental - Valor Teórico| ÷ |Valor Teórico|) × 100
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">El valor absoluto asegura que el resultado siempre sea positivo (o cero), representando la magnitud del error independientemente de la dirección.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Ejemplo de Cálculo</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Mediste la densidad del aluminio como 2.82 g/cm³. El valor aceptado es 2.70 g/cm³:</p>
+                
+            
+                
+                    <ol class="list-decimal list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li>Calcula el error absoluto: |2.82 - 2.70| = 0.12</li>
+                        
+                        <li>Divide por el teórico: 0.12 ÷ 2.70 = 0.0444</li>
+                        
+                        <li>Convierte a porcentaje: 0.0444 × 100 = 4.44%</li>
+                        
+                        <li>Resultado: 4.44% de error</li>
+                        
+                    </ol>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Interpretando el Error Porcentual</h2>
+                
+            
+                
+                    <div class="overflow-x-auto my-4">
+                        <table class="w-full text-sm text-slate-400">
+                            <thead class="bg-slate-800">
+                                <tr>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Rango de Error</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Interpretación</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Respuesta Típica</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">0-1%</td>
+                                    
+                                    <td class="px-4 py-2">Excelente precisión</td>
+                                    
+                                    <td class="px-4 py-2">Los resultados son altamente confiables</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">1-5%</td>
+                                    
+                                    <td class="px-4 py-2">Buena precisión</td>
+                                    
+                                    <td class="px-4 py-2">Aceptable para la mayoría del trabajo de laboratorio</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">5-10%</td>
+                                    
+                                    <td class="px-4 py-2">Precisión moderada</td>
+                                    
+                                    <td class="px-4 py-2">Revisar procedimiento para mejoras</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">10-20%</td>
+                                    
+                                    <td class="px-4 py-2">Pobre precisión</td>
+                                    
+                                    <td class="px-4 py-2">Identificar y abordar fuentes de error</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">&gt;20%</td>
+                                    
+                                    <td class="px-4 py-2">Muy pobre precisión</td>
+                                    
+                                    <td class="px-4 py-2">Repetir experimento con correcciones</td>
+                                    
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">El error aceptable depende de tu campo y equipo. Experimentos de física de alta precisión pueden requerir <1%, mientras que estudios de biología de campo podrían aceptar 10%. Nuestras <a href='/es/' class='text-green-400 hover:underline'>herramientas de calculadora de porcentaje</a> ayudan con varios cálculos científicos.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Tipos de Errores en Experimentos</h2>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Errores Sistemáticos</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Errores consistentes que sesgan todas las mediciones en una dirección. Ejemplos: equipo mal calibrado, técnica incorrecta, factores ambientales. Estos a menudo son identificables y corregibles.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Errores Aleatorios</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Variaciones impredecibles en las mediciones. Ejemplos: límites de precisión de lectura, fluctuaciones ambientales. Se reducen tomando múltiples mediciones y promediando.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Errores Humanos</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Errores en procedimiento, lectura o registro. Ejemplos: error de paralaje, errores de cálculo, errores de transcripción. Se minimizan mediante técnica cuidadosa y verificación.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Fuentes Comunes de Error de Laboratorio</h2>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Calibración de equipo</strong> – Balanzas, termómetros y medidores pueden desviarse de la configuración de fábrica</li>
+                        
+                        <li><strong>Precisión de lectura</strong> – Los instrumentos analógicos tienen incertidumbre de lectura inherente</li>
+                        
+                        <li><strong>Condiciones ambientales</strong> – Temperatura, humedad y presión afectan muchas mediciones</li>
+                        
+                        <li><strong>Pureza de muestra</strong> – La contaminación afecta propiedades químicas y físicas</li>
+                        
+                        <li><strong>Variación de técnica</strong> – Tiempo, ángulos y procedimientos varían entre operadores</li>
+                        
+                        <li><strong>Redondeo de cálculos</strong> – El redondeo intermedio acumula error</li>
+                        
+                    </ul>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Reduciendo el Error Porcentual</h2>
+                
+            
+                
+                    <ol class="list-decimal list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Calibrar equipo</strong> – Verificar contra estándares conocidos antes de medir</li>
+                        
+                        <li><strong>Tomar múltiples mediciones</strong> – El promedio reduce el impacto del error aleatorio</li>
+                        
+                        <li><strong>Controlar variables</strong> – Mantener condiciones consistentes durante todo el proceso</li>
+                        
+                        <li><strong>Usar precisión apropiada</strong> – Coincidir la precisión del instrumento con las necesidades de medición</li>
+                        
+                        <li><strong>Seguir protocolos establecidos</strong> – Los procedimientos estandarizados reducen la variación de técnica</li>
+                        
+                        <li><strong>Documentar todo</strong> – Rastrear condiciones y posibles fuentes de error</li>
+                        
+                    </ol>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Cálculos de Error Relacionados</h2>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Error Absoluto</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">La diferencia simple entre valores experimentales y teóricos (mostrado en esta calculadora). Útil cuando la magnitud de la diferencia importa más que la precisión relativa.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Error Relativo</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Error absoluto dividido por el valor teórico (antes de multiplicar por 100). Igual que el error porcentual pero expresado como decimal.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">¿Necesitas Cálculos Relacionados?</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Encuentra valores originales con nuestra <a href='/es/reverse-percentage-calculator/' class='text-green-400 hover:underline'>calculadora de porcentaje inverso</a>. Para promediar múltiples mediciones, usa nuestra <a href='/es/average-percentage-calculator/' class='text-green-400 hover:underline'>calculadora de porcentaje promedio</a>.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Características de la Calculadora</h2>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Cálculo de Error Instantáneo</strong> – Los resultados aparecen mientras escribes</li>
+                        
+                        <li><strong>Doble Salida</strong> – Ve tanto error porcentual como absoluto</li>
+                        
+                        <li><strong>Muestra de Fórmula</strong> – Verifica el cálculo para informes de laboratorio</li>
+                        
+                        <li><strong>Alta Precisión</strong> – Preciso a 4 lugares decimales</li>
+                        
+                        <li><strong>Gratis para Estudiantes</strong> – Sin registro ni pago requerido</li>
+                        
+                    </ul>
+                
+            
+        </article>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+
+<section class="py-10" id="faq">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl font-bold text-white text-center mb-8">Frequently Asked Questions</h2>
+        
+        <div class="space-y-3">
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(1)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuál es la fórmula de error porcentual para química?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-1" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Igual que física: (|Experimental - Aceptado| / Aceptado) × 100. Es universal en las ciencias.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(2)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Qué es un buen error porcentual para un laboratorio de física?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-2" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Generalmente &lt;5% es bueno. &lt;1% es excelente. Los niveles aceptables dependen del equipo y tipo de experimento.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(3)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿El error porcentual siempre es positivo?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-3" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        El error porcentual estándar usa valor absoluto, así que siempre es positivo (o cero para precisión perfecta).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(4)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Qué causa alto error porcentual en experimentos?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-4" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Causas comunes: calibración de equipo, técnica de medición, factores ambientales, errores de cálculo, errores de procedimiento.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(5)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Puede el error porcentual ser cero?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-5" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Sí, si tu valor experimental es exactamente igual al valor teórico.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(6)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuál es la diferencia entre precisión y exactitud?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-6" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Exactitud = qué tan cerca del valor verdadero (error porcentual). Precisión = qué tan consistentes son las mediciones repetidas (desviación estándar).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(7)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo reduzco el error porcentual?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-7" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Usa instrumentos calibrados, toma múltiples mediciones y promedia, mejora la técnica, controla variables.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(8)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Qué pasa si el valor teórico es cero?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-8" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        El error porcentual no está definido (división por cero). Usa error absoluto en su lugar.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(9)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo reporto el error en un informe de laboratorio?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-9" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Indica: &#x27;El error porcentual fue X%&#x27; e incluye probables fuentes de error (equipo, procedimiento, ambiente).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(10)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Qué es error relativo vs error porcentual?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-10" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Error relativo = |Exp - Teo| / |Teo|. Error porcentual = error relativo × 100.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(11)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Es aceptable un error del 10%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-11" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-11" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Depende del contexto. Para estimaciones aproximadas, sí. Para instrumentos de precisión, no. Compara con la precisión esperada de tu equipo.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(12)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo calculo el error para múltiples ensayos?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-12" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Calcula el error porcentual para cada ensayo, o usa el promedio de los ensayos como tu valor experimental, luego calcula un solo error porcentual.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                            <span class="text-slate-900 font-bold text-lg">%</span>
+                        </div>
+                        <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                    </div>
+                    <p class="text-sm text-slate-400">Herramientas Gratuitas de Calculadora de Porcentaje en Línea</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/es/" class="text-sm text-slate-400 hover:text-green-400">Inicio</a></li>
+                        <li><a href="/es/#tools" class="text-sm text-slate-400 hover:text-green-400">Calculadoras</a></li>
+                    </ul>
+                </div>
+
+                <!-- Pages (Privacy, About, Contact, etc.) -->
+                
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        
+                        <li><a href="/es/page/about/" class="text-sm text-slate-400 hover:text-green-400">Acerca de Nosotros</a></li>
+                        
+                        <li><a href="/es/page/contact/" class="text-sm text-slate-400 hover:text-green-400">Contacto</a></li>
+                        
+                        <li><a href="/es/page/disclaimer/" class="text-sm text-slate-400 hover:text-green-400">Aviso Legal</a></li>
+                        
+                        <li><a href="/es/page/privacy-policy/" class="text-sm text-slate-400 hover:text-green-400">Política de Privacidad</a></li>
+                        
+                        <li><a href="/es/page/terms-of-use/" class="text-sm text-slate-400 hover:text-green-400">Términos de Uso</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center">
+                <p class="text-sm text-slate-500">©  Percentage Calculators. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            menu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        }
+
+        function toggleLangDropdown() {
+            const dropdown = document.getElementById('langDropdown');
+            const arrow = document.getElementById('langArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close tools dropdown if open
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsArrow = document.getElementById('toolsArrow');
+            if (toolsDropdown) toolsDropdown.classList.add('hidden');
+            if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        function toggleToolsDropdown() {
+            const dropdown = document.getElementById('toolsDropdown');
+            const arrow = document.getElementById('toolsArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close lang dropdown if open
+            const langDropdown = document.getElementById('langDropdown');
+            const langArrow = document.getElementById('langArrow');
+            if (langDropdown) langDropdown.classList.add('hidden');
+            if (langArrow) langArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            const langDropdown = document.getElementById('langDropdown');
+            const langBtn = document.getElementById('langDropdownBtn');
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
+            const langArrow = document.getElementById('langArrow');
+            const toolsArrow = document.getElementById('toolsArrow');
+
+            // Close language dropdown
+            if (langDropdown && langBtn && !langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
+                langDropdown.classList.add('hidden');
+                if (langArrow) langArrow.classList.remove('rotate-180');
+            }
+
+            // Close tools dropdown
+            if (toolsDropdown && toolsBtn && !toolsBtn.contains(e.target) && !toolsDropdown.contains(e.target)) {
+                toolsDropdown.classList.add('hidden');
+                if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+            }
+        });
+    </script>
+
+    
+<script>
+function calculate(){const e=parseFloat(document.getElementById('experimental').value),t=parseFloat(document.getElementById('theoretical').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),a=document.getElementById('absolute_error');if(!isNaN(e)&&!isNaN(t)&&t!==0){const abs=Math.abs(e-t),pct=(abs/Math.abs(t))*100;r.textContent=formatNumber(pct)+'%';if(a)a.textContent=formatNumber(abs);if(f)f.textContent='(|'+e+' - '+t+'| ÷ |'+t+'|) × 100 = '+formatNumber(pct)+'%'}else{r.textContent='?';if(a)a.textContent='?';if(f)f.textContent=''}}function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}
+
+function toggleFaq(index) {
+    const answer = document.getElementById('faq-answer-' + index);
+    const icon = document.querySelector('.faq-icon-' + index);
+    
+    if (answer.classList.contains('active')) {
+        answer.classList.remove('active');
+        icon.classList.remove('rotate-180');
+    } else {
+        document.querySelectorAll('.accordion-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('[class*="faq-icon-"]').forEach(el => el.classList.remove('rotate-180'));
+        
+        answer.classList.add('active');
+        icon.classList.add('rotate-180');
+    }
+}
+</script>
+
+
+    
+</body>
+</html>

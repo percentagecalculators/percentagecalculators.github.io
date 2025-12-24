@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculatrice de Variation en Pourcentage | Trouver la Variation en Pourcentage Entre Deux Nombres</title>
+    <meta name="description" content="Calculatrice gratuite de variation en pourcentage. Calculez l&#x27;augmentation ou la diminution en pourcentage entre deux valeurs. Suivez les variations boursières, les variations de prix et les métriques de performance.">
+    
+    
+
+<meta name="keywords" content="calculatrice variation pourcentage, variation en pourcentage, calculer variation pourcentage, augmentation diminution pourcentage, différence pourcentage">
+
+
+<!-- Schema.org FAQPage markup -->
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        
+        {
+            "@type": "Question",
+            "name": "Quelle est la variation en pourcentage de 50 à 75 ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La variation est +50%. Calcul : ((75\u002D50)/50) × 100 \u003D 50% d\u0027augmentation."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Comment calculer la variation en pourcentage dans Excel ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Utilisez la formule : \u003D(Nouveau\u002DAncien)/Ancien*100 ou formatez en pourcentage : \u003D(Nouveau\u002DAncien)/Ancien puis appliquez le format %."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Quelle est la variation en pourcentage de 80 à 60 ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La variation est \u002D25%. Calcul : ((60\u002D80)/80) × 100 \u003D \u002D25% (une diminution)."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Pourquoi l\u0027ordre est\u002Dil important dans la variation en pourcentage ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Parce que le dénominateur (base) doit être la valeur originale. Échanger donne un résultat différent : 50→75 est +50%, mais 75→50 est \u002D33,3%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "La variation en pourcentage est\u002Delle la même que le taux de croissance ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pour une seule période, oui. Le taux de croissance fait généralement référence à la variation en pourcentage dans le temps, souvent composée."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Et si l\u0027ancienne valeur est négative ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La formule fonctionne toujours mathématiquement, mais l\u0027interprétation devient complexe. Passer de \u002D50 à \u002D25 montre +50% (se rapprochant de zéro)."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Que signifie une variation de \u002D100% ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Une variation de \u002D100% signifie que la valeur est tombée à zéro. Vous ne pouvez pas diminuer de plus de 100% (cela impliquerait des valeurs négatives)."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Comment calculer la variation année sur année ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Utilisez cette formule avec l\u0027année précédente comme \u0027Ancienne\u0027 et l\u0027année courante comme \u0027Nouvelle\u0027. Le résultat montre la croissance ou le déclin annuel."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Quelle est la variation de 0 à 100 ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "C\u0027est mathématiquement indéfini (division par zéro). Toute variation à partir de zéro est infinie en termes de pourcentage."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "La variation en pourcentage peut\u002Delle dépasser 100% ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui, pour les augmentations. Une variation de 20 à 100 est +400%. Cependant, les diminutions ne peuvent pas dépasser 100%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Comment comparer deux variations en pourcentage ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Comparez\u002Dles directement si elles utilisent la même période de base. Sinon, convertissez au même cadre temporel ou utilisez des nombres indices."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Quelle est la différence entre variation absolue et relative ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La variation absolue est la différence brute (Nouveau \u002D Ancien). La variation relative (pourcentage) est la différence comme proportion de l\u0027original."
+            }
+        }
+        
+    ]
+}
+</script>
+
+
+<!-- Schema.org WebApplication markup -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Calculatrice de Variation en Pourcentage - Percentage Calculators",
+    "url": "https://percentagecalculators.github.io/fr/percentage-change-calculator/",
+    "description": "Calculatrice gratuite de variation en pourcentage. Calculez l&#x27;augmentation ou la diminution en pourcentage entre deux valeurs. Suivez les variations boursières, les variations de prix et les métriques de performance.",
+    "applicationCategory": "CalculatorApplication",
+    "operatingSystem": "Any",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    }
+}
+</script>
+
+    
+    <!-- Hreflang Tags (only if multiple translations exist) -->
+    
+    
+    <link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-change-calculator/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-change-calculator/" />
+    
+    
+
+    <!-- Canonical -->
+    
+<link rel="canonical" href="https://percentagecalculators.github.io/fr/percentage-change-calculator/" />
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['SF Mono', 'Monaco', 'Consolas', 'Courier New', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .accordion-content.active {
+            max-height: 1000px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+
+        
+    </style>
+
+    
+
+    
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-950 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <!-- Logo -->
+                <a href="/fr/" class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                        <span class="text-slate-900 font-bold text-lg">%</span>
+                    </div>
+                    <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-1 text-sm">
+                    <a href="/fr/"
+                       class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white">
+                        Accueil
+                    </a>
+
+                    <!-- Tools Dropdown -->
+                    
+                    <div class="relative">
+                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <span>Calculatrices</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="toolsArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="toolsDropdown" class="hidden absolute left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50 max-h-96 overflow-y-auto">
+                            
+                            <a href="/fr/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculatrice d&#x27;Augmentation en Pourcentage</a>
+                            
+                            <a href="/fr/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculatrice de Diminution en Pourcentage</a>
+                            
+                            <a href="/fr/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculatrice de Variation en Pourcentage</a>
+                            
+                            <a href="/fr/percentage-difference-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculatrice de Différence en Pourcentage</a>
+                            
+                            <a href="/fr/percentage-off-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculatrice de Pourcentage de Réduction</a>
+                            
+                            <a href="/fr/fraction-to-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculatrice Fraction vers Pourcentage</a>
+                            
+                            <a href="/fr/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculatrice de Croissance en Pourcentage</a>
+                            
+                            <a href="/fr/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculatrice de Pourcentage Inversé</a>
+                            
+                            <a href="/fr/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculatrice d&#x27;Erreur en Pourcentage</a>
+                            
+                            <a href="/fr/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculatrice de Pourcentage Moyen</a>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <!-- Language Dropdown (only show if multiple languages available) -->
+                    
+                    <div class="relative ml-4">
+                        <button onclick="toggleLangDropdown()" id="langDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                            </svg>
+                            <span>FR</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="langArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="langDropdown" class="hidden absolute right-0 mt-1 w-40 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50">
+                            
+                            <a href="/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                English
+                            </a>
+                            
+                            <a href="/nl/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Nederlands
+                            </a>
+                            
+                            <a href="/pt/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Português
+                            </a>
+                            
+                            <a href="/es/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Español
+                            </a>
+                            
+                            <a href="/fr/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-green-400">
+                                Français
+                            </a>
+                            
+                            <a href="/de/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Deutsch
+                            </a>
+                            
+                            <a href="/hi/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                हिन्दी
+                            </a>
+                            
+                            <a href="/bn/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                বাংলা
+                            </a>
+                            
+                            <a href="/zh-cn/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                简体中文
+                            </a>
+                            
+                            <a href="/id/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Indonesia
+                            </a>
+                            
+                            <a href="/th/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                ไทย
+                            </a>
+                            
+                            <a href="/zh-tw/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                繁體中文
+                            </a>
+                            
+                            <a href="/it/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Italiano
+                            </a>
+                            
+                            <a href="/ja/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                日本語
+                            </a>
+                            
+                            <a href="/ms/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Melayu
+                            </a>
+                            
+                            <a href="/ar/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                العربية
+                            </a>
+                            
+                            <a href="/ko/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                한국어
+                            </a>
+                            
+                            <a href="/ru/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Русский
+                            </a>
+                            
+                            <a href="/vi/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Tiếng Việt
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white">
+                    <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden border-t border-slate-800 py-4">
+                <a href="/fr/"
+                   class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">
+                    Accueil
+                </a>
+
+                <!-- Mobile Tools List -->
+                
+                <div class="mt-2 border-t border-slate-800 pt-2">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Calculatrices</p>
+                    
+                    <a href="/fr/percentage-increase-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculatrice d&#x27;Augmentation en Pourcentage</a>
+                    
+                    <a href="/fr/percentage-decrease-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculatrice de Diminution en Pourcentage</a>
+                    
+                    <a href="/fr/percentage-change-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculatrice de Variation en Pourcentage</a>
+                    
+                    <a href="/fr/percentage-difference-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculatrice de Différence en Pourcentage</a>
+                    
+                    <a href="/fr/percentage-off-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculatrice de Pourcentage de Réduction</a>
+                    
+                    <a href="/fr/fraction-to-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculatrice Fraction vers Pourcentage</a>
+                    
+                    <a href="/fr/percentage-growth-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculatrice de Croissance en Pourcentage</a>
+                    
+                    <a href="/fr/reverse-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculatrice de Pourcentage Inversé</a>
+                    
+                    <a href="/fr/percentage-error-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculatrice d&#x27;Erreur en Pourcentage</a>
+                    
+                    <a href="/fr/average-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculatrice de Pourcentage Moyen</a>
+                    
+                </div>
+                
+
+                <!-- Mobile Language Switcher -->
+                
+                <div class="mt-4 border-t border-slate-800 pt-4">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Language</p>
+                    <div class="flex flex-wrap gap-2 px-3 mt-2">
+                        
+                        <a href="/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            English
+                        </a>
+                        
+                        <a href="/nl/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Nederlands
+                        </a>
+                        
+                        <a href="/pt/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Português
+                        </a>
+                        
+                        <a href="/es/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Español
+                        </a>
+                        
+                        <a href="/fr/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center bg-slate-700 text-green-400">
+                            Français
+                        </a>
+                        
+                        <a href="/de/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Deutsch
+                        </a>
+                        
+                        <a href="/hi/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            हिन्दी
+                        </a>
+                        
+                        <a href="/bn/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            বাংলা
+                        </a>
+                        
+                        <a href="/zh-cn/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            简体中文
+                        </a>
+                        
+                        <a href="/id/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Indonesia
+                        </a>
+                        
+                        <a href="/th/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            ไทย
+                        </a>
+                        
+                        <a href="/zh-tw/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            繁體中文
+                        </a>
+                        
+                        <a href="/it/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Italiano
+                        </a>
+                        
+                        <a href="/ja/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            日本語
+                        </a>
+                        
+                        <a href="/ms/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Melayu
+                        </a>
+                        
+                        <a href="/ar/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            العربية
+                        </a>
+                        
+                        <a href="/ko/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            한국어
+                        </a>
+                        
+                        <a href="/ru/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Русский
+                        </a>
+                        
+                        <a href="/vi/percentage-change-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Tiếng Việt
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Breadcrumb -->
+<nav class="bg-slate-950 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <ol class="flex items-center text-sm text-slate-400">
+            <li>
+                <a href="/fr/" class="hover:text-green-400">
+                    Accueil
+                </a>
+            </li>
+            <li class="mx-2">/</li>
+            <li class="text-green-400">Calculatrice de Variation en Pourcentage</li>
+        </ol>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-slate-950 border-b border-slate-800 py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-white mb-3">
+            Calculatrice de Variation en Pourcentage
+        </h1>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+            Calculez la variation en pourcentage entre deux valeurs. Voyez si le changement est une augmentation ou une diminution et obtenez le pourcentage exact instantanément.
+        </p>
+    </div>
+</section>
+
+<!-- Calculator Section -->
+<section class="py-8">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+            <div class="bg-slate-900 px-6 py-4 border-b border-slate-700">
+                <h2 class="text-lg font-semibold text-white flex items-center">
+                    
+                    <span class="mr-3"><svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/></svg></span>
+                    
+                    Calculatrice de Variation en Pourcentage
+                </h2>
+            </div>
+            
+            <div class="p-6">
+                <!-- Dynamic Calculator based on tool_type -->
+                
+                <!-- Percentage Change Calculator -->
+                <div class="space-y-4">
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">Ancienne Valeur (Originale)</label>
+                        <input type="number" id="old_value" step="any" placeholder="Entrez la valeur de départ" oninput="calculate()"
+                               class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">Nouvelle Valeur (Actuelle)</label>
+                        <input type="number" id="new_value" step="any" placeholder="Entrez la valeur finale" oninput="calculate()"
+                               class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                    </div>
+                    <div class="border-t border-slate-700 pt-4 mt-4">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-slate-400">Type de Variation:</span>
+                            <span id="change_type" class="font-medium">—</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300 font-medium">Variation en Pourcentage:</span>
+                            <span id="result" class="text-2xl text-green-400 font-mono font-bold">?</span>
+                        </div>
+                    </div>
+                    <p class="text-center text-slate-500 text-sm mt-2" id="formula_display"></p>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEO Content Section -->
+
+<section class="py-10 bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article class="prose prose-invert prose-slate max-w-none">
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Qu&#x27;est-ce que la Variation en Pourcentage ?</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">La variation en pourcentage mesure combien une valeur a augmenté ou diminué par rapport à son montant original. Elle est exprimée en pourcentage, ce qui facilite la comparaison des changements à différentes échelles. Cette calculatrice détermine instantanément à la fois la direction (augmentation ou diminution) et l'amplitude du changement.</p>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Comprendre la variation en pourcentage est crucial pour suivre les performances financières, analyser les tendances, mesurer la croissance et prendre des décisions basées sur les données. Que vous surveilliez les prix des actions, compariez les chiffres de ventes ou évaluiez les métriques personnelles, cet outil fournit des résultats clairs et précis.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">La Formule de Variation en Pourcentage</h2>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        Variation en Pourcentage = ((Nouvelle Valeur - Ancienne Valeur) ÷ Ancienne Valeur) × 100
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">La formule soustrait l'original du courant, divise par l'original, et multiplie par 100 pour convertir en pourcentage. Un résultat positif indique une augmentation ; un résultat négatif indique une diminution.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Exemple Étape par Étape</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Si le prix d'une action est passé de 45 € à 54 € :</p>
+                
+            
+                
+                    <ol class="list-decimal list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li>Calculez la différence : 54 € - 45 € = 9 €</li>
+                        
+                        <li>Divisez par l'original : 9 € ÷ 45 € = 0,20</li>
+                        
+                        <li>Convertissez en pourcentage : 0,20 × 100 = 20%</li>
+                        
+                        <li>Résultat : +20% d'augmentation</li>
+                        
+                    </ol>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Variation en Pourcentage vs. Différence en Pourcentage</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Il est important de comprendre quand utiliser chaque calcul :</p>
+                
+            
+                
+                    <div class="overflow-x-auto my-4">
+                        <table class="w-full text-sm text-slate-400">
+                            <thead class="bg-slate-800">
+                                <tr>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Aspect</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Variation en Pourcentage</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Différence en Pourcentage</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">Cas d&#x27;Utilisation</td>
+                                    
+                                    <td class="px-4 py-2">Comparaisons avant/après</td>
+                                    
+                                    <td class="px-4 py-2">Comparer deux valeurs indépendantes</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">Direction</td>
+                                    
+                                    <td class="px-4 py-2">Montre augmentation (+) ou diminution (-)</td>
+                                    
+                                    <td class="px-4 py-2">Toujours positive</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">Valeur de Base</td>
+                                    
+                                    <td class="px-4 py-2">Utilise la valeur originale (ancienne)</td>
+                                    
+                                    <td class="px-4 py-2">Utilise la moyenne des deux valeurs</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">L&#x27;Ordre Compte ?</td>
+                                    
+                                    <td class="px-4 py-2">Oui - l&#x27;ancienne valeur doit venir en premier</td>
+                                    
+                                    <td class="px-4 py-2">Non - même résultat dans les deux sens</td>
+                                    
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Utilisez cette calculatrice de variation en pourcentage quand vous avez un scénario clair 'avant' et 'après'. Pour comparer deux valeurs sans élément temporel, essayez notre <a href='/fr/percentage-difference-calculator/' class='text-green-400 hover:underline'>calculatrice de différence en pourcentage</a>.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Applications du Monde Réel</h2>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Marchés Financiers</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Suivez les performances boursières, les fluctuations de cryptomonnaie et les rendements d'investissement. Si votre portefeuille est passé de 25 000 € à 28 500 €, c'est un gain de 14%.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Métriques d&#x27;Entreprise</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Comparez les revenus entre périodes, mesurez la croissance des clients, analysez les changements de taux de conversion. Les revenus mensuels passant de 150 000 € à 172 500 € représentent une augmentation de 15%.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Finances Personnelles</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Surveillez les changements de salaire, les augmentations de loyer ou les variations de dépenses. Une augmentation de loyer de 1 400 € à 1 498 € est une hausse de 7%.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Données Scientifiques</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Analysez les résultats expérimentaux, les changements de population ou les variations de mesure. Une colonie bactérienne passant de 1 000 à 4 500 cellules montre une croissance de 350%. Nos <a href='/fr/' class='text-green-400 hover:underline'>outils de calcul de pourcentage</a> simplifient l'analyse.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Comprendre les Résultats</h2>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Variation en Pourcentage Positive</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Un résultat positif (montré avec un signe +) indique que la nouvelle valeur est plus grande que l'ancienne valeur – une augmentation s'est produite. Le pourcentage vous dit combien plus grande par rapport à l'original.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Variation en Pourcentage Négative</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Un résultat négatif indique que la nouvelle valeur est plus petite – une diminution s'est produite. Une variation de -25% signifie que la valeur est tombée à 75% de son original.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Cas Spéciaux</h3>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>0% de variation</strong> – Les valeurs sont identiques</li>
+                        
+                        <li><strong>100% d'augmentation</strong> – La valeur a doublé</li>
+                        
+                        <li><strong>-100% de diminution</strong> – La valeur est tombée à zéro</li>
+                        
+                        <li><strong>>100% d'augmentation</strong> – La valeur a plus que doublé (ex., 200% = triplé)</li>
+                        
+                    </ul>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Erreurs Courantes à Éviter</h2>
+                
+            
+                
+                    <ol class="list-decimal list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Inverser les valeurs</strong> – Mettez toujours la valeur originale/antérieure en premier</li>
+                        
+                        <li><strong>Confondre variation et différence</strong> – Elles utilisent des formules différentes</li>
+                        
+                        <li><strong>Additionner les variations en pourcentage</strong> – Une augmentation de 10% puis une diminution de 10% n'égale pas 0%</li>
+                        
+                        <li><strong>Ignorer le signe</strong> – Le +/- indique la direction, pas seulement l'amplitude</li>
+                        
+                    </ol>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Appliquer une Variation en Pourcentage Connue</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Si vous connaissez le pourcentage et voulez l'appliquer, utilisez notre <a href='/fr/percentage-decrease-calculator/' class='text-green-400 hover:underline'>calculatrice de diminution</a> pour les réductions ou la calculatrice d'augmentation pour les additions.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Pourquoi Utiliser Cette Calculatrice ?</h2>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Direction Automatique</strong> – Montre instantanément si c'est une augmentation ou une diminution</li>
+                        
+                        <li><strong>Indicateur Visuel</strong> – Résultat codé par couleur (vert pour augmentation, rouge pour diminution)</li>
+                        
+                        <li><strong>Affichage de Formule</strong> – Voyez le calcul exact pour vérification</li>
+                        
+                        <li><strong>Mises à Jour en Temps Réel</strong> – Les résultats apparaissent pendant que vous tapez</li>
+                        
+                        <li><strong>Gère Tous les Nombres</strong> – Fonctionne avec les décimales, les grands nombres et les négatifs</li>
+                        
+                    </ul>
+                
+            
+        </article>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+
+<section class="py-10" id="faq">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl font-bold text-white text-center mb-8">Frequently Asked Questions</h2>
+        
+        <div class="space-y-3">
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(1)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Quelle est la variation en pourcentage de 50 à 75 ?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-1" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        La variation est +50%. Calcul : ((75-50)/50) × 100 = 50% d&#x27;augmentation.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(2)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Comment calculer la variation en pourcentage dans Excel ?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-2" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Utilisez la formule : =(Nouveau-Ancien)/Ancien*100 ou formatez en pourcentage : =(Nouveau-Ancien)/Ancien puis appliquez le format %.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(3)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Quelle est la variation en pourcentage de 80 à 60 ?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-3" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        La variation est -25%. Calcul : ((60-80)/80) × 100 = -25% (une diminution).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(4)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Pourquoi l&#x27;ordre est-il important dans la variation en pourcentage ?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-4" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Parce que le dénominateur (base) doit être la valeur originale. Échanger donne un résultat différent : 50→75 est +50%, mais 75→50 est -33,3%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(5)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">La variation en pourcentage est-elle la même que le taux de croissance ?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-5" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Pour une seule période, oui. Le taux de croissance fait généralement référence à la variation en pourcentage dans le temps, souvent composée.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(6)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Et si l&#x27;ancienne valeur est négative ?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-6" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        La formule fonctionne toujours mathématiquement, mais l&#x27;interprétation devient complexe. Passer de -50 à -25 montre +50% (se rapprochant de zéro).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(7)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Que signifie une variation de -100% ?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-7" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Une variation de -100% signifie que la valeur est tombée à zéro. Vous ne pouvez pas diminuer de plus de 100% (cela impliquerait des valeurs négatives).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(8)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Comment calculer la variation année sur année ?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-8" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Utilisez cette formule avec l&#x27;année précédente comme &#x27;Ancienne&#x27; et l&#x27;année courante comme &#x27;Nouvelle&#x27;. Le résultat montre la croissance ou le déclin annuel.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(9)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Quelle est la variation de 0 à 100 ?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-9" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        C&#x27;est mathématiquement indéfini (division par zéro). Toute variation à partir de zéro est infinie en termes de pourcentage.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(10)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">La variation en pourcentage peut-elle dépasser 100% ?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-10" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Oui, pour les augmentations. Une variation de 20 à 100 est +400%. Cependant, les diminutions ne peuvent pas dépasser 100%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(11)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Comment comparer deux variations en pourcentage ?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-11" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-11" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Comparez-les directement si elles utilisent la même période de base. Sinon, convertissez au même cadre temporel ou utilisez des nombres indices.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(12)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Quelle est la différence entre variation absolue et relative ?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-12" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        La variation absolue est la différence brute (Nouveau - Ancien). La variation relative (pourcentage) est la différence comme proportion de l&#x27;original.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                            <span class="text-slate-900 font-bold text-lg">%</span>
+                        </div>
+                        <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                    </div>
+                    <p class="text-sm text-slate-400">Outils de Calculatrice de Pourcentage en Ligne Gratuits</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/fr/" class="text-sm text-slate-400 hover:text-green-400">Accueil</a></li>
+                        <li><a href="/fr/#tools" class="text-sm text-slate-400 hover:text-green-400">Calculatrices</a></li>
+                    </ul>
+                </div>
+
+                <!-- Pages (Privacy, About, Contact, etc.) -->
+                
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        
+                        <li><a href="/fr/page/about/" class="text-sm text-slate-400 hover:text-green-400">À Propos de Nous</a></li>
+                        
+                        <li><a href="/fr/page/contact/" class="text-sm text-slate-400 hover:text-green-400">Nous Contacter</a></li>
+                        
+                        <li><a href="/fr/page/disclaimer/" class="text-sm text-slate-400 hover:text-green-400">Avis de Non-Responsabilité</a></li>
+                        
+                        <li><a href="/fr/page/privacy-policy/" class="text-sm text-slate-400 hover:text-green-400">Politique de Confidentialité</a></li>
+                        
+                        <li><a href="/fr/page/terms-of-use/" class="text-sm text-slate-400 hover:text-green-400">Conditions d&#x27;Utilisation</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center">
+                <p class="text-sm text-slate-500">©  Percentage Calculators. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            menu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        }
+
+        function toggleLangDropdown() {
+            const dropdown = document.getElementById('langDropdown');
+            const arrow = document.getElementById('langArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close tools dropdown if open
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsArrow = document.getElementById('toolsArrow');
+            if (toolsDropdown) toolsDropdown.classList.add('hidden');
+            if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        function toggleToolsDropdown() {
+            const dropdown = document.getElementById('toolsDropdown');
+            const arrow = document.getElementById('toolsArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close lang dropdown if open
+            const langDropdown = document.getElementById('langDropdown');
+            const langArrow = document.getElementById('langArrow');
+            if (langDropdown) langDropdown.classList.add('hidden');
+            if (langArrow) langArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            const langDropdown = document.getElementById('langDropdown');
+            const langBtn = document.getElementById('langDropdownBtn');
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
+            const langArrow = document.getElementById('langArrow');
+            const toolsArrow = document.getElementById('toolsArrow');
+
+            // Close language dropdown
+            if (langDropdown && langBtn && !langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
+                langDropdown.classList.add('hidden');
+                if (langArrow) langArrow.classList.remove('rotate-180');
+            }
+
+            // Close tools dropdown
+            if (toolsDropdown && toolsBtn && !toolsBtn.contains(e.target) && !toolsDropdown.contains(e.target)) {
+                toolsDropdown.classList.add('hidden');
+                if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+            }
+        });
+    </script>
+
+    
+<script>
+function calculate(){const o=parseFloat(document.getElementById('old_value').value),n=parseFloat(document.getElementById('new_value').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),t=document.getElementById('change_type');if(!isNaN(o)&&!isNaN(n)&&o!==0){const diff=n-o,pct=(diff/Math.abs(o))*100,sign=pct>=0?'+':'';r.textContent=sign+formatNumber(pct)+'%';if(t)t.textContent=pct>=0?'Increase':'Decrease';if(f)f.textContent='(('+n+' - '+o+') ÷ '+o+') × 100 = '+sign+formatNumber(pct)+'%'}else{r.textContent='?';if(t)t.textContent='?';if(f)f.textContent=''}}function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}
+
+function toggleFaq(index) {
+    const answer = document.getElementById('faq-answer-' + index);
+    const icon = document.querySelector('.faq-icon-' + index);
+    
+    if (answer.classList.contains('active')) {
+        answer.classList.remove('active');
+        icon.classList.remove('rotate-180');
+    } else {
+        document.querySelectorAll('.accordion-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('[class*="faq-icon-"]').forEach(el => el.classList.remove('rotate-180'));
+        
+        answer.classList.add('active');
+        icon.classList.add('rotate-180');
+    }
+}
+</script>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="id" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Kalkulator Kenaikan Persentase | Tambahkan Persentase ke Angka</title>
+    <meta name="description" content="Kalkulator kenaikan persentase gratis. Tambahkan persentase apapun ke angka secara instan. Hitung kenaikan gaji, margin keuntungan, hasil investasi dan lainnya.">
+    
+    
+
+<meta name="keywords" content="kalkulator kenaikan persentase, tambah persentase ke angka, hitung kenaikan, kalkulator margin, kenaikan persentase">
+
+
+<!-- Schema.org FAQPage markup -->
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        
+        {
+            "@type": "Question",
+            "name": "Bagaimana cara menambahkan 20% ke angka?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kalikan angka dengan 1,20. Misalnya, 100 + 20% \u003D 100 × 1,20 \u003D 120. Jumlah kenaikan adalah 20."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Berapa 500 ditambah 15 persen?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "500 ditambah 15% sama dengan 575. Perhitungan: 500 × 0,15 \u003D 75 (kenaikan), lalu 500 + 75 \u003D 575."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Bagaimana menghitung gaji baru setelah kenaikan 5%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kalikan gaji Anda saat ini dengan 1,05. Untuk Rp60.000.000 dengan kenaikan 5%: Rp60.000.000 × 1,05 \u003D Rp63.000.000. Anda mendapat Rp3.000.000."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Apa rumus untuk menambahkan persentase?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nilai Baru \u003D Awal × (1 + Persentase/100). Ini menggabungkan nilai awal dengan kenaikan persentase dalam satu langkah."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Bagaimana cara menambahkan margin 40% ke biaya produk?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kalikan biaya dengan 1,40. Jika produk berharga Rp250.000, harga jual adalah Rp250.000 × 1,40 \u003D Rp350.000. Marginnya Rp100.000."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Apa artinya menaikkan 100%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kenaikan 100% menggandakan nilai awal. 50 dinaikkan 100% \u003D 50 + 50 \u003D 100."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Bisakah menaikkan lebih dari 100%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ya. Kenaikan 200% melipattigakan nilai awal (100% awal + 200% kenaikan \u003D 300% \u003D 3×). Jadi 50 + 200% \u003D 150."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Bagaimana kenaikan persentase berturut\u002Dturut bekerja?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mereka majemuk, tidak ditambahkan. Dua kenaikan 10%: 100 × 1,10 × 1,10 \u003D 121, bukan 120. Masing\u002Dmasing diterapkan ke nilai baru."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Berapa 80 dinaikkan 25%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "80 dinaikkan 25% \u003D 100. Perhitungan: 80 × 1,25 \u003D 100. Jumlah kenaikan adalah 20."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Bagaimana cara menambahkan pajak 8,5% ke harga?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kalikan dengan 1,085. Untuk barang Rp500.000: Rp500.000 × 1,085 \u003D Rp542.500. Jumlah pajak adalah Rp42.500."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Berapa kenaikan dari 200 ke 250?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Jumlah kenaikan adalah 50. Sebagai persentase: (50/200) × 100 \u003D 25% kenaikan."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Bagaimana menghitung persentase bunga majemuk?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Untuk setiap periode, kalikan dengan (1 + tingkat). Untuk 3 tahun pada 5%: Pokok × 1,05 × 1,05 × 1,05 \u003D Pokok × 1,157625."
+            }
+        }
+        
+    ]
+}
+</script>
+
+
+<!-- Schema.org WebApplication markup -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Kalkulator Kenaikan Persentase - Percentage Calculators",
+    "url": "https://percentagecalculators.github.io/id/percentage-increase-calculator/",
+    "description": "Kalkulator kenaikan persentase gratis. Tambahkan persentase apapun ke angka secara instan. Hitung kenaikan gaji, margin keuntungan, hasil investasi dan lainnya.",
+    "applicationCategory": "CalculatorApplication",
+    "operatingSystem": "Any",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    }
+}
+</script>
+
+    
+    <!-- Hreflang Tags (only if multiple translations exist) -->
+    
+    
+    <link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-increase-calculator/" />
+    
+    
+
+    <!-- Canonical -->
+    
+<link rel="canonical" href="https://percentagecalculators.github.io/id/percentage-increase-calculator/" />
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['SF Mono', 'Monaco', 'Consolas', 'Courier New', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .accordion-content.active {
+            max-height: 1000px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+
+        
+    </style>
+
+    
+
+    
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-950 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <!-- Logo -->
+                <a href="/id/" class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                        <span class="text-slate-900 font-bold text-lg">%</span>
+                    </div>
+                    <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-1 text-sm">
+                    <a href="/id/"
+                       class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white">
+                        Beranda
+                    </a>
+
+                    <!-- Tools Dropdown -->
+                    
+                    <div class="relative">
+                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <span>Kalkulator</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="toolsArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="toolsDropdown" class="hidden absolute left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50 max-h-96 overflow-y-auto">
+                            
+                            <a href="/id/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Kalkulator Kenaikan Persentase</a>
+                            
+                            <a href="/id/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Kalkulator Penurunan Persentase</a>
+                            
+                            <a href="/id/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Kalkulator Perubahan Persentase</a>
+                            
+                            <a href="/id/percentage-difference-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Kalkulator Perbedaan Persentase</a>
+                            
+                            <a href="/id/percentage-off-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Kalkulator Persentase Diskon</a>
+                            
+                            <a href="/id/fraction-to-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Kalkulator Pecahan ke Persentase</a>
+                            
+                            <a href="/id/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Kalkulator Pertumbuhan Persentase</a>
+                            
+                            <a href="/id/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Kalkulator Persentase Mundur</a>
+                            
+                            <a href="/id/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Kalkulator Kesalahan Persentase</a>
+                            
+                            <a href="/id/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Kalkulator Persentase Rata-rata</a>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <!-- Language Dropdown (only show if multiple languages available) -->
+                    
+                    <div class="relative ml-4">
+                        <button onclick="toggleLangDropdown()" id="langDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                            </svg>
+                            <span>ID</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="langArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="langDropdown" class="hidden absolute right-0 mt-1 w-40 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50">
+                            
+                            <a href="/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                English
+                            </a>
+                            
+                            <a href="/nl/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Nederlands
+                            </a>
+                            
+                            <a href="/pt/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Português
+                            </a>
+                            
+                            <a href="/es/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Español
+                            </a>
+                            
+                            <a href="/fr/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Français
+                            </a>
+                            
+                            <a href="/de/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Deutsch
+                            </a>
+                            
+                            <a href="/hi/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                हिन्दी
+                            </a>
+                            
+                            <a href="/bn/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                বাংলা
+                            </a>
+                            
+                            <a href="/zh-cn/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                简体中文
+                            </a>
+                            
+                            <a href="/id/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-green-400">
+                                Bahasa Indonesia
+                            </a>
+                            
+                            <a href="/th/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                ไทย
+                            </a>
+                            
+                            <a href="/zh-tw/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                繁體中文
+                            </a>
+                            
+                            <a href="/it/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Italiano
+                            </a>
+                            
+                            <a href="/ja/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                日本語
+                            </a>
+                            
+                            <a href="/ms/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Melayu
+                            </a>
+                            
+                            <a href="/ar/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                العربية
+                            </a>
+                            
+                            <a href="/ko/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                한국어
+                            </a>
+                            
+                            <a href="/ru/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Русский
+                            </a>
+                            
+                            <a href="/vi/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Tiếng Việt
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white">
+                    <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden border-t border-slate-800 py-4">
+                <a href="/id/"
+                   class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">
+                    Beranda
+                </a>
+
+                <!-- Mobile Tools List -->
+                
+                <div class="mt-2 border-t border-slate-800 pt-2">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Kalkulator</p>
+                    
+                    <a href="/id/percentage-increase-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Kalkulator Kenaikan Persentase</a>
+                    
+                    <a href="/id/percentage-decrease-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Kalkulator Penurunan Persentase</a>
+                    
+                    <a href="/id/percentage-change-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Kalkulator Perubahan Persentase</a>
+                    
+                    <a href="/id/percentage-difference-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Kalkulator Perbedaan Persentase</a>
+                    
+                    <a href="/id/percentage-off-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Kalkulator Persentase Diskon</a>
+                    
+                    <a href="/id/fraction-to-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Kalkulator Pecahan ke Persentase</a>
+                    
+                    <a href="/id/percentage-growth-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Kalkulator Pertumbuhan Persentase</a>
+                    
+                    <a href="/id/reverse-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Kalkulator Persentase Mundur</a>
+                    
+                    <a href="/id/percentage-error-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Kalkulator Kesalahan Persentase</a>
+                    
+                    <a href="/id/average-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Kalkulator Persentase Rata-rata</a>
+                    
+                </div>
+                
+
+                <!-- Mobile Language Switcher -->
+                
+                <div class="mt-4 border-t border-slate-800 pt-4">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Language</p>
+                    <div class="flex flex-wrap gap-2 px-3 mt-2">
+                        
+                        <a href="/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            English
+                        </a>
+                        
+                        <a href="/nl/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Nederlands
+                        </a>
+                        
+                        <a href="/pt/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Português
+                        </a>
+                        
+                        <a href="/es/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Español
+                        </a>
+                        
+                        <a href="/fr/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Français
+                        </a>
+                        
+                        <a href="/de/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Deutsch
+                        </a>
+                        
+                        <a href="/hi/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            हिन्दी
+                        </a>
+                        
+                        <a href="/bn/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            বাংলা
+                        </a>
+                        
+                        <a href="/zh-cn/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            简体中文
+                        </a>
+                        
+                        <a href="/id/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center bg-slate-700 text-green-400">
+                            Bahasa Indonesia
+                        </a>
+                        
+                        <a href="/th/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            ไทย
+                        </a>
+                        
+                        <a href="/zh-tw/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            繁體中文
+                        </a>
+                        
+                        <a href="/it/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Italiano
+                        </a>
+                        
+                        <a href="/ja/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            日本語
+                        </a>
+                        
+                        <a href="/ms/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Melayu
+                        </a>
+                        
+                        <a href="/ar/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            العربية
+                        </a>
+                        
+                        <a href="/ko/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            한국어
+                        </a>
+                        
+                        <a href="/ru/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Русский
+                        </a>
+                        
+                        <a href="/vi/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Tiếng Việt
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Breadcrumb -->
+<nav class="bg-slate-950 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <ol class="flex items-center text-sm text-slate-400">
+            <li>
+                <a href="/id/" class="hover:text-green-400">
+                    Beranda
+                </a>
+            </li>
+            <li class="mx-2">/</li>
+            <li class="text-green-400">Kalkulator Kenaikan Persentase</li>
+        </ol>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-slate-950 border-b border-slate-800 py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-white mb-3">
+            Kalkulator Kenaikan Persentase
+        </h1>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+            Hitung hasil dari menaikkan angka dengan persentase apapun. Lihat nilai akhir dan jumlah kenaikan secara instan.
+        </p>
+    </div>
+</section>
+
+<!-- Calculator Section -->
+<section class="py-8">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+            <div class="bg-slate-900 px-6 py-4 border-b border-slate-700">
+                <h2 class="text-lg font-semibold text-white flex items-center">
+                    
+                    <span class="mr-3"><svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg></span>
+                    
+                    Kalkulator Kenaikan Persentase
+                </h2>
+            </div>
+            
+            <div class="p-6">
+                <!-- Dynamic Calculator based on tool_type -->
+                
+                <!-- Percentage Increase Calculator -->
+                <div class="space-y-4">
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">Nilai Awal</label>
+                        <input type="number" id="original_value" step="any" placeholder="Masukkan angka awal" oninput="calculate()"
+                               class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">Naikkan Sebesar</label>
+                        <div class="flex-1 flex items-center gap-2">
+                            <input type="number" id="increase_percent" step="any" placeholder="Masukkan persentase" oninput="calculate()"
+                                   class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                            <span class="text-slate-400 text-lg">%</span>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-700 pt-4 mt-4">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-slate-400">Jumlah Kenaikan:</span>
+                            <span id="increase_amount" class="text-slate-300 font-mono">?</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300 font-medium">Nilai Baru:</span>
+                            <span id="result" class="text-2xl text-green-400 font-mono font-bold">?</span>
+                        </div>
+                    </div>
+                    <p class="text-center text-slate-500 text-sm mt-2" id="formula_display"></p>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEO Content Section -->
+
+<section class="py-10 bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article class="prose prose-invert prose-slate max-w-none">
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Cara Menambahkan Persentase ke Angka Apapun</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Menambahkan persentase ke angka adalah salah satu operasi matematika paling umum dalam kehidupan sehari-hari. Baik Anda menghitung kenaikan gaji, menentukan margin ritel, atau menghitung hasil investasi, kalkulator kenaikan persentase ini melakukan perhitungan secara instan dan menunjukkan nilai akhir serta jumlah kenaikan yang tepat.</p>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Kalkulator kami menghilangkan kesalahan manual dan memberikan hasil real-time saat Anda mengetik. Cukup masukkan nilai awal dan persentase yang ingin Anda tambahkan, dan lihat kalkulator menampilkan nilai baru Anda bersama dengan rumus langkah demi langkah.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Rumus Kenaikan Persentase Dijelaskan</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Memahami matematika di balik kenaikan persentase membantu Anda memverifikasi perhitungan dan melakukan perhitungan mental saat diperlukan. Ada dua cara yang setara untuk menghitung kenaikan persentase:</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Metode 1: Perhitungan Dua Langkah</h3>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        Jumlah Kenaikan = Nilai Awal × (Persentase ÷ 100)
+Nilai Baru = Nilai Awal + Jumlah Kenaikan
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Metode ini intuitif karena Anda pertama menghitung berapa yang Anda tambahkan, lalu menambahkannya ke nilai awal. Misalnya, untuk menaikkan 200 sebesar 15%: Pertama hitung 200 × 0,15 = 30 (kenaikan), lalu tambahkan 200 + 30 = 230.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Metode 2: Pengali Satu Langkah</h3>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        Nilai Baru = Nilai Awal × (1 + Persentase ÷ 100)
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Metode ini lebih cepat untuk perhitungan berulang. Untuk 200 dinaikkan 15%: 200 × 1,15 = 230. Pengali (1,15) mewakili 100% dari nilai awal ditambah 15% tambahan.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Referensi Cepat: Pengali Persentase Umum</h2>
+                
+            
+                
+                    <div class="overflow-x-auto my-4">
+                        <table class="w-full text-sm text-slate-400">
+                            <thead class="bg-slate-800">
+                                <tr>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Kenaikan Persentase</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Pengali</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Contoh (dari 100)</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">5%</td>
+                                    
+                                    <td class="px-4 py-2">1,05</td>
+                                    
+                                    <td class="px-4 py-2">105</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">10%</td>
+                                    
+                                    <td class="px-4 py-2">1,10</td>
+                                    
+                                    <td class="px-4 py-2">110</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">15%</td>
+                                    
+                                    <td class="px-4 py-2">1,15</td>
+                                    
+                                    <td class="px-4 py-2">115</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">20%</td>
+                                    
+                                    <td class="px-4 py-2">1,20</td>
+                                    
+                                    <td class="px-4 py-2">120</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">25%</td>
+                                    
+                                    <td class="px-4 py-2">1,25</td>
+                                    
+                                    <td class="px-4 py-2">125</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">50%</td>
+                                    
+                                    <td class="px-4 py-2">1,50</td>
+                                    
+                                    <td class="px-4 py-2">150</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">75%</td>
+                                    
+                                    <td class="px-4 py-2">1,75</td>
+                                    
+                                    <td class="px-4 py-2">175</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">100%</td>
+                                    
+                                    <td class="px-4 py-2">2,00</td>
+                                    
+                                    <td class="px-4 py-2">200</td>
+                                    
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Aplikasi Dunia Nyata</h2>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Kenaikan Gaji dan Upah</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Ketika atasan Anda mengumumkan kenaikan persentase, Anda dapat langsung menghitung gaji baru Anda. Misalnya, jika Anda menghasilkan Rp55.000.000 per tahun dan menerima kenaikan 4%, masukkan 55000000 dan 4 untuk melihat gaji baru Anda Rp57.200.000 – kenaikan Rp2.200.000.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Perhitungan Margin Ritel</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Pedagang menggunakan markup persentase untuk menetapkan harga jual. Jika barang grosir berharga Rp450.000 dan Anda menerapkan markup 60%, harga jual Anda menjadi Rp720.000. Alat ini adalah bagian dari rangkaian lengkap <a href='/id/' class='text-green-400 hover:underline'>kalkulator persentase online gratis</a> kami yang dirancang untuk perhitungan bisnis.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Hasil Investasi</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Hitung berapa banyak investasi Anda tumbuh dengan tingkat pengembalian tertentu. Investasi Rp100.000.000 dengan pengembalian tahunan 8% menjadi Rp108.000.000 setelah satu tahun.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Penyesuaian Inflasi</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Sesuaikan harga atau anggaran untuk inflasi. Jika biaya adalah Rp500.000.000 dan inflasi 3,5%, anggaran yang disesuaikan untuk tahun depan harus Rp517.500.000.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Memahami Kenaikan Majemuk vs Sederhana</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Konsep kritis saat bekerja dengan kenaikan persentase adalah perbedaan antara perhitungan sederhana dan majemuk.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Kenaikan Sederhana (Satu Kali)</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Kalkulator ini melakukan kenaikan persentase sederhana, satu kali. Anda menerapkan persentase satu kali ke nilai awal. Ini sesuai untuk kenaikan satu kali, markup satu kali, atau pengembalian tahunan yang dihitung secara individual.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Kenaikan Majemuk (Periode Ganda)</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Ketika kenaikan persentase diterapkan berulang kali (seperti bunga majemuk multi-tahun), setiap kenaikan dibangun di atas hasil sebelumnya. Dua kenaikan berturut-turut 10% tidak sama dengan 20% – sama dengan 21% total karena kenaikan kedua diterapkan ke nilai yang sudah dinaikkan.</p>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li>Tahun 1: Rp100.000 + 10% = Rp110.000</li>
+                        
+                        <li>Tahun 2: Rp110.000 + 10% = Rp121.000 (bukan Rp120.000)</li>
+                        
+                        <li>Total kenaikan: 21%, bukan 20%</li>
+                        
+                    </ul>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Tips untuk Perhitungan Persentase yang Akurat</h2>
+                
+            
+                
+                    <ol class="list-decimal list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li>Periksa kembali nilai awal Anda sebelum menghitung</li>
+                        
+                        <li>Untuk persentase lebih dari 100%, ingat nilai akan lebih dari dua kali lipat</li>
+                        
+                        <li>Saat menambahkan pajak ke harga, persentase diterapkan ke jumlah sebelum pajak</li>
+                        
+                        <li>Untuk kenaikan berurutan, terapkan setiap persentase ke nilai baru, bukan ke nilai awal</li>
+                        
+                        <li>Gunakan presisi desimal saat akurasi penting (masukkan 7,5, bukan hanya 7 atau 8)</li>
+                        
+                    </ol>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Kasus Khusus dan Skenario Edge</h2>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Kenaikan Lebih dari 100%</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Ya, Anda dapat menaikkan lebih dari 100%. Kenaikan 100% menggandakan nilai; kenaikan 200% melipattigakannya; kenaikan 300% melipatempatkalinya. Misalnya, 50 dinaikkan 200% sama dengan 150 (50 + 100 = 150).</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Persentase Pecahan</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Kalkulator ini menangani persentase desimal seperti 3,75% atau 0,5% dengan presisi. Masukkan persis seperti yang diperlukan untuk perhitungan keuangan yang akurat.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Nilai Awal Negatif</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Meskipun kurang umum, kalkulator juga berfungsi dengan angka negatif. Menaikkan -50 sebesar 20% menghasilkan -60 (nilai absolut bertambah, membuat angka lebih negatif).</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Perlu Mengurangi Persentase?</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Jika Anda perlu mengurangi persentase dari angka – untuk diskon, depresiasi, atau pengurangan – gunakan <a href='/id/percentage-decrease-calculator/' class='text-green-400 hover:underline'>kalkulator penurunan persentase</a> kami yang menampilkan jumlah pengurangan dan nilai akhir.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Mengapa Menggunakan Kalkulator Kenaikan Persentase Ini?</h2>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Hasil Instan</strong> – Jawaban muncul saat Anda mengetik tanpa perlu klik tombol</li>
+                        
+                        <li><strong>Output Ganda</strong> – Lihat nilai akhir DAN jumlah kenaikan</li>
+                        
+                        <li><strong>Tampilan Rumus</strong> – Verifikasi perhitungan dengan rumus yang terlihat</li>
+                        
+                        <li><strong>Presisi Tak Terbatas</strong> – Menangani nilai desimal untuk akurasi keuangan</li>
+                        
+                        <li><strong>Tanpa Pendaftaran</strong> – Gratis digunakan tanpa membuat akun</li>
+                        
+                        <li><strong>Ramah Mobile</strong> – Berfungsi sempurna di ponsel, tablet, dan komputer</li>
+                        
+                    </ul>
+                
+            
+        </article>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+
+<section class="py-10" id="faq">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl font-bold text-white text-center mb-8">Frequently Asked Questions</h2>
+        
+        <div class="space-y-3">
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(1)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Bagaimana cara menambahkan 20% ke angka?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-1" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Kalikan angka dengan 1,20. Misalnya, 100 + 20% = 100 × 1,20 = 120. Jumlah kenaikan adalah 20.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(2)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Berapa 500 ditambah 15 persen?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-2" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        500 ditambah 15% sama dengan 575. Perhitungan: 500 × 0,15 = 75 (kenaikan), lalu 500 + 75 = 575.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(3)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Bagaimana menghitung gaji baru setelah kenaikan 5%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-3" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Kalikan gaji Anda saat ini dengan 1,05. Untuk Rp60.000.000 dengan kenaikan 5%: Rp60.000.000 × 1,05 = Rp63.000.000. Anda mendapat Rp3.000.000.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(4)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Apa rumus untuk menambahkan persentase?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-4" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Nilai Baru = Awal × (1 + Persentase/100). Ini menggabungkan nilai awal dengan kenaikan persentase dalam satu langkah.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(5)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Bagaimana cara menambahkan margin 40% ke biaya produk?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-5" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Kalikan biaya dengan 1,40. Jika produk berharga Rp250.000, harga jual adalah Rp250.000 × 1,40 = Rp350.000. Marginnya Rp100.000.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(6)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Apa artinya menaikkan 100%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-6" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Kenaikan 100% menggandakan nilai awal. 50 dinaikkan 100% = 50 + 50 = 100.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(7)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Bisakah menaikkan lebih dari 100%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-7" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Ya. Kenaikan 200% melipattigakan nilai awal (100% awal + 200% kenaikan = 300% = 3×). Jadi 50 + 200% = 150.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(8)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Bagaimana kenaikan persentase berturut-turut bekerja?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-8" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Mereka majemuk, tidak ditambahkan. Dua kenaikan 10%: 100 × 1,10 × 1,10 = 121, bukan 120. Masing-masing diterapkan ke nilai baru.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(9)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Berapa 80 dinaikkan 25%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-9" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        80 dinaikkan 25% = 100. Perhitungan: 80 × 1,25 = 100. Jumlah kenaikan adalah 20.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(10)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Bagaimana cara menambahkan pajak 8,5% ke harga?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-10" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Kalikan dengan 1,085. Untuk barang Rp500.000: Rp500.000 × 1,085 = Rp542.500. Jumlah pajak adalah Rp42.500.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(11)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Berapa kenaikan dari 200 ke 250?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-11" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-11" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Jumlah kenaikan adalah 50. Sebagai persentase: (50/200) × 100 = 25% kenaikan.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(12)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Bagaimana menghitung persentase bunga majemuk?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-12" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Untuk setiap periode, kalikan dengan (1 + tingkat). Untuk 3 tahun pada 5%: Pokok × 1,05 × 1,05 × 1,05 = Pokok × 1,157625.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                            <span class="text-slate-900 font-bold text-lg">%</span>
+                        </div>
+                        <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                    </div>
+                    <p class="text-sm text-slate-400">Alat Kalkulator Persentase Online Gratis</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/id/" class="text-sm text-slate-400 hover:text-green-400">Beranda</a></li>
+                        <li><a href="/id/#tools" class="text-sm text-slate-400 hover:text-green-400">Kalkulator</a></li>
+                    </ul>
+                </div>
+
+                <!-- Pages (Privacy, About, Contact, etc.) -->
+                
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        
+                        <li><a href="/id/page/about/" class="text-sm text-slate-400 hover:text-green-400">Tentang Kami</a></li>
+                        
+                        <li><a href="/id/page/contact/" class="text-sm text-slate-400 hover:text-green-400">Hubungi Kami</a></li>
+                        
+                        <li><a href="/id/page/disclaimer/" class="text-sm text-slate-400 hover:text-green-400">Penafian</a></li>
+                        
+                        <li><a href="/id/page/privacy-policy/" class="text-sm text-slate-400 hover:text-green-400">Kebijakan Privasi</a></li>
+                        
+                        <li><a href="/id/page/terms-of-use/" class="text-sm text-slate-400 hover:text-green-400">Syarat Penggunaan</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center">
+                <p class="text-sm text-slate-500">©  Percentage Calculators. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            menu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        }
+
+        function toggleLangDropdown() {
+            const dropdown = document.getElementById('langDropdown');
+            const arrow = document.getElementById('langArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close tools dropdown if open
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsArrow = document.getElementById('toolsArrow');
+            if (toolsDropdown) toolsDropdown.classList.add('hidden');
+            if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        function toggleToolsDropdown() {
+            const dropdown = document.getElementById('toolsDropdown');
+            const arrow = document.getElementById('toolsArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close lang dropdown if open
+            const langDropdown = document.getElementById('langDropdown');
+            const langArrow = document.getElementById('langArrow');
+            if (langDropdown) langDropdown.classList.add('hidden');
+            if (langArrow) langArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            const langDropdown = document.getElementById('langDropdown');
+            const langBtn = document.getElementById('langDropdownBtn');
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
+            const langArrow = document.getElementById('langArrow');
+            const toolsArrow = document.getElementById('toolsArrow');
+
+            // Close language dropdown
+            if (langDropdown && langBtn && !langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
+                langDropdown.classList.add('hidden');
+                if (langArrow) langArrow.classList.remove('rotate-180');
+            }
+
+            // Close tools dropdown
+            if (toolsDropdown && toolsBtn && !toolsBtn.contains(e.target) && !toolsDropdown.contains(e.target)) {
+                toolsDropdown.classList.add('hidden');
+                if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+            }
+        });
+    </script>
+
+    
+<script>
+function calculate(){const o=parseFloat(document.getElementById('original_value').value),p=parseFloat(document.getElementById('increase_percent').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),i=document.getElementById('increase_amount');if(!isNaN(o)&&!isNaN(p)){const inc=o*(p/100),res=o+inc;r.textContent=formatNumber(res);if(i)i.textContent=formatNumber(inc);if(f)f.textContent=o+' + ('+o+' × '+p+'%) = '+formatNumber(res)}else{r.textContent='?';if(i)i.textContent='?';if(f)f.textContent=''}}function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}
+
+function toggleFaq(index) {
+    const answer = document.getElementById('faq-answer-' + index);
+    const icon = document.querySelector('.faq-icon-' + index);
+    
+    if (answer.classList.contains('active')) {
+        answer.classList.remove('active');
+        icon.classList.remove('rotate-180');
+    } else {
+        document.querySelectorAll('.accordion-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('[class*="faq-icon-"]').forEach(el => el.classList.remove('rotate-180'));
+        
+        answer.classList.add('active');
+        icon.classList.add('rotate-180');
+    }
+}
+</script>
+
+
+    
+</body>
+</html>

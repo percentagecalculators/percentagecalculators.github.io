@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculadora de Porcentaje Promedio | Encuentra el Promedio de Múltiples Porcentajes</title>
+    <meta name="description" content="Calculadora gratuita de porcentaje promedio. Calcula el promedio de múltiples porcentajes al instante. Perfecta para promedios de calificaciones, métricas de rendimiento y análisis estadístico.">
+    
+    
+
+<meta name="keywords" content="calculadora de porcentaje promedio, promedio de porcentajes, calcular porcentaje promedio, promedio de calificaciones, calculadora de media de porcentajes">
+
+
+<!-- Schema.org FAQPage markup -->
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuál es el promedio de 70%, 80% y 90%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El promedio es 80%. Cálculo: (70+80+90) ÷ 3 \u003D 240 ÷ 3 \u003D 80%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo calculo mi promedio de calificaciones?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Suma todos los porcentajes de calificaciones y divide por el conteo. Para clases de peso igual: (Calificación1 + Calificación2 + ...) ÷ Número de clases."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Puedo promediar porcentajes de diferentes bases?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí para promedio simple si tienen peso igual. Para grupos de diferente tamaño, usa promedio ponderado."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuál es el promedio de 85, 92, 78, 95?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El promedio es 87.5%. Cálculo: (85+92+78+95) ÷ 4 \u003D 350 ÷ 4 \u003D 87.5%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuándo está mal el promedio simple?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Cuando los porcentajes representan grupos de diferente tamaño o tienen diferente importancia. Entonces usa promedio ponderado."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuál es el promedio de 50% y 100%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El promedio es 75%. Cálculo: (50+100) ÷ 2 \u003D 75%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo encuentro el promedio ponderado de porcentajes?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Multiplica cada porcentaje por su peso, suma los productos, divide por el peso total: Suma(% × peso) / Suma(pesos)."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Puede el porcentaje promedio exceder el 100%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, si los porcentajes de entrada exceden el 100%. El promedio de 150% y 200% es 175%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuál es el promedio de cinco valores del 20%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El promedio es 20%. (20+20+20+20+20) ÷ 5 \u003D 20%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuántos valores puedo promediar?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ingresa cualquier cantidad de valores separados por comas o espacios. La calculadora los maneja todos."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Qué pasa si ingreso valores no numéricos?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La calculadora filtra las entradas no numéricas y promedia solo los números válidos."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuál es el promedio de 60, 70, 80, 90, 100?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El promedio es 80%. Cálculo: (60+70+80+90+100) ÷ 5 \u003D 400 ÷ 5 \u003D 80%."
+            }
+        }
+        
+    ]
+}
+</script>
+
+
+<!-- Schema.org WebApplication markup -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Calculadora de Porcentaje Promedio - Percentage Calculators",
+    "url": "https://percentagecalculators.github.io/es/average-percentage-calculator/",
+    "description": "Calculadora gratuita de porcentaje promedio. Calcula el promedio de múltiples porcentajes al instante. Perfecta para promedios de calificaciones, métricas de rendimiento y análisis estadístico.",
+    "applicationCategory": "CalculatorApplication",
+    "operatingSystem": "Any",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    }
+}
+</script>
+
+    
+    <!-- Hreflang Tags (only if multiple translations exist) -->
+    
+    
+    <link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/average-percentage-calculator/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/average-percentage-calculator/" />
+    
+    
+
+    <!-- Canonical -->
+    
+<link rel="canonical" href="https://percentagecalculators.github.io/es/average-percentage-calculator/" />
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['SF Mono', 'Monaco', 'Consolas', 'Courier New', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .accordion-content.active {
+            max-height: 1000px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+
+        
+    </style>
+
+    
+
+    
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-950 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <!-- Logo -->
+                <a href="/es/" class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                        <span class="text-slate-900 font-bold text-lg">%</span>
+                    </div>
+                    <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-1 text-sm">
+                    <a href="/es/"
+                       class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white">
+                        Inicio
+                    </a>
+
+                    <!-- Tools Dropdown -->
+                    
+                    <div class="relative">
+                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <span>Calculadoras</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="toolsArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="toolsDropdown" class="hidden absolute left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50 max-h-96 overflow-y-auto">
+                            
+                            <a href="/es/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Aumento Porcentual</a>
+                            
+                            <a href="/es/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Disminución Porcentual</a>
+                            
+                            <a href="/es/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Cambio Porcentual</a>
+                            
+                            <a href="/es/percentage-difference-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Diferencia Porcentual</a>
+                            
+                            <a href="/es/percentage-off-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentaje de Descuento</a>
+                            
+                            <a href="/es/fraction-to-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Fracción a Porcentaje</a>
+                            
+                            <a href="/es/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Crecimiento Porcentual</a>
+                            
+                            <a href="/es/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentaje Inverso</a>
+                            
+                            <a href="/es/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Error Porcentual</a>
+                            
+                            <a href="/es/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentaje Promedio</a>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <!-- Language Dropdown (only show if multiple languages available) -->
+                    
+                    <div class="relative ml-4">
+                        <button onclick="toggleLangDropdown()" id="langDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                            </svg>
+                            <span>ES</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="langArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="langDropdown" class="hidden absolute right-0 mt-1 w-40 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50">
+                            
+                            <a href="/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                English
+                            </a>
+                            
+                            <a href="/nl/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Nederlands
+                            </a>
+                            
+                            <a href="/pt/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Português
+                            </a>
+                            
+                            <a href="/es/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-green-400">
+                                Español
+                            </a>
+                            
+                            <a href="/fr/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Français
+                            </a>
+                            
+                            <a href="/de/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Deutsch
+                            </a>
+                            
+                            <a href="/hi/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                हिन्दी
+                            </a>
+                            
+                            <a href="/bn/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                বাংলা
+                            </a>
+                            
+                            <a href="/zh-cn/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                简体中文
+                            </a>
+                            
+                            <a href="/id/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Indonesia
+                            </a>
+                            
+                            <a href="/th/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                ไทย
+                            </a>
+                            
+                            <a href="/zh-tw/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                繁體中文
+                            </a>
+                            
+                            <a href="/it/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Italiano
+                            </a>
+                            
+                            <a href="/ja/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                日本語
+                            </a>
+                            
+                            <a href="/ms/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Melayu
+                            </a>
+                            
+                            <a href="/ar/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                العربية
+                            </a>
+                            
+                            <a href="/ko/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                한국어
+                            </a>
+                            
+                            <a href="/ru/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Русский
+                            </a>
+                            
+                            <a href="/vi/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Tiếng Việt
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white">
+                    <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden border-t border-slate-800 py-4">
+                <a href="/es/"
+                   class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">
+                    Inicio
+                </a>
+
+                <!-- Mobile Tools List -->
+                
+                <div class="mt-2 border-t border-slate-800 pt-2">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Calculadoras</p>
+                    
+                    <a href="/es/percentage-increase-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Aumento Porcentual</a>
+                    
+                    <a href="/es/percentage-decrease-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Disminución Porcentual</a>
+                    
+                    <a href="/es/percentage-change-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Cambio Porcentual</a>
+                    
+                    <a href="/es/percentage-difference-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Diferencia Porcentual</a>
+                    
+                    <a href="/es/percentage-off-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentaje de Descuento</a>
+                    
+                    <a href="/es/fraction-to-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Fracción a Porcentaje</a>
+                    
+                    <a href="/es/percentage-growth-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Crecimiento Porcentual</a>
+                    
+                    <a href="/es/reverse-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentaje Inverso</a>
+                    
+                    <a href="/es/percentage-error-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Error Porcentual</a>
+                    
+                    <a href="/es/average-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentaje Promedio</a>
+                    
+                </div>
+                
+
+                <!-- Mobile Language Switcher -->
+                
+                <div class="mt-4 border-t border-slate-800 pt-4">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Language</p>
+                    <div class="flex flex-wrap gap-2 px-3 mt-2">
+                        
+                        <a href="/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            English
+                        </a>
+                        
+                        <a href="/nl/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Nederlands
+                        </a>
+                        
+                        <a href="/pt/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Português
+                        </a>
+                        
+                        <a href="/es/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center bg-slate-700 text-green-400">
+                            Español
+                        </a>
+                        
+                        <a href="/fr/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Français
+                        </a>
+                        
+                        <a href="/de/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Deutsch
+                        </a>
+                        
+                        <a href="/hi/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            हिन्दी
+                        </a>
+                        
+                        <a href="/bn/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            বাংলা
+                        </a>
+                        
+                        <a href="/zh-cn/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            简体中文
+                        </a>
+                        
+                        <a href="/id/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Indonesia
+                        </a>
+                        
+                        <a href="/th/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            ไทย
+                        </a>
+                        
+                        <a href="/zh-tw/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            繁體中文
+                        </a>
+                        
+                        <a href="/it/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Italiano
+                        </a>
+                        
+                        <a href="/ja/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            日本語
+                        </a>
+                        
+                        <a href="/ms/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Melayu
+                        </a>
+                        
+                        <a href="/ar/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            العربية
+                        </a>
+                        
+                        <a href="/ko/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            한국어
+                        </a>
+                        
+                        <a href="/ru/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Русский
+                        </a>
+                        
+                        <a href="/vi/average-percentage-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Tiếng Việt
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Breadcrumb -->
+<nav class="bg-slate-950 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <ol class="flex items-center text-sm text-slate-400">
+            <li>
+                <a href="/es/" class="hover:text-green-400">
+                    Inicio
+                </a>
+            </li>
+            <li class="mx-2">/</li>
+            <li class="text-green-400">Calculadora de Porcentaje Promedio</li>
+        </ol>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-slate-950 border-b border-slate-800 py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-white mb-3">
+            Calculadora de Porcentaje Promedio
+        </h1>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+            Calcula el promedio de múltiples porcentajes. Ingresa tus valores separados por comas para obtener el promedio, suma y conteo al instante.
+        </p>
+    </div>
+</section>
+
+<!-- Calculator Section -->
+<section class="py-8">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+            <div class="bg-slate-900 px-6 py-4 border-b border-slate-700">
+                <h2 class="text-lg font-semibold text-white flex items-center">
+                    
+                    <span class="mr-3"><svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg></span>
+                    
+                    Calculadora de Porcentaje Promedio
+                </h2>
+            </div>
+            
+            <div class="p-6">
+                <!-- Dynamic Calculator based on tool_type -->
+                
+                <!-- Average Percentage Calculator -->
+                <div class="space-y-4">
+                    <div class="flex flex-col gap-2">
+                        <label class="text-slate-300 text-sm">Ingresa los Porcentajes</label>
+                        <input type="text" id="percentages" placeholder="ej., 85, 92, 78, 88, 95" oninput="calculate()"
+                               class="w-full px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                        <p class="text-slate-500 text-xs">Separate values with commas or spaces</p>
+                    </div>
+                    <div class="border-t border-slate-700 pt-4 mt-4">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-slate-400">Número de Valores:</span>
+                            <span id="count" class="text-slate-300 font-mono">0</span>
+                        </div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-slate-400">Suma de Porcentajes:</span>
+                            <span id="sum" class="text-slate-300 font-mono">0%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300 font-medium">Porcentaje Promedio:</span>
+                            <span id="result" class="text-2xl text-green-400 font-mono font-bold">?</span>
+                        </div>
+                    </div>
+                    <p class="text-center text-slate-500 text-sm mt-2" id="formula_display"></p>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEO Content Section -->
+
+<section class="py-10 bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article class="prose prose-invert prose-slate max-w-none">
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Calcula el Promedio de Múltiples Porcentajes</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Encontrar el promedio de múltiples porcentajes es una tarea común en académicos, negocios y análisis de datos. Esta calculadora maneja cualquier cantidad de valores de porcentaje, proporcionando el promedio, suma y conteo al instante.</p>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Simplemente ingresa tus porcentajes separados por comas (ej., 85, 92, 78, 88), y la calculadora muestra tus resultados en tiempo real mientras escribes.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">La Fórmula del Promedio Simple</h2>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        Porcentaje Promedio = (Suma de todos los porcentajes) ÷ (Número de porcentajes)
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Esto se llama media aritmética – trata todos los valores igualmente y encuentra la tendencia central.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Ejemplo de Cálculo</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Porcentajes de calificaciones: 85%, 92%, 78%, 90%, 80%</p>
+                
+            
+                
+                    <ol class="list-decimal list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li>Suma: 85 + 92 + 78 + 90 + 80 = 425</li>
+                        
+                        <li>Conteo: 5 valores</li>
+                        
+                        <li>Promedio: 425 ÷ 5 = 85%</li>
+                        
+                    </ol>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Cuándo Usar Promedio Simple</h2>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Escenarios de Peso Igual</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">El promedio simple funciona perfectamente cuando todos los valores tienen igual importancia:</p>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Exámenes de peso igual</strong> – Cinco pruebas, cada una contando igualmente hacia la calificación final</li>
+                        
+                        <li><strong>Calificaciones de rendimiento</strong> – Revisiones mensuales con peso igual por mes</li>
+                        
+                        <li><strong>Respuestas de encuestas</strong> – El porcentaje de cada encuestado cuenta igualmente</li>
+                        
+                        <li><strong>Mediciones múltiples</strong> – Experimentos repetidos con igual validez</li>
+                        
+                    </ul>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Cuándo NO Usar Promedio Simple</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">El promedio simple puede dar resultados engañosos en estos escenarios:</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Diferentes Tamaños de Muestra</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Si los porcentajes representan grupos de diferentes tamaños, el promedio simple está mal. Ejemplo: La Empresa A tiene 80% de satisfacción (1,000 clientes) y la Empresa B tiene 90% de satisfacción (100 clientes). El promedio combinado no es 85% – está más cerca de 80.9% porque la Empresa A tiene más peso.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Diferentes Pesos</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Cuando las categorías tienen diferente importancia (como exámenes con diferentes valores de crédito), usa promedio ponderado en su lugar. Nuestra <a href='/es/' class='text-green-400 hover:underline'>página de herramientas de porcentaje</a> ofrece varias opciones de cálculo.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Promedio Simple vs. Promedio Ponderado</h2>
+                
+            
+                
+                    <div class="overflow-x-auto my-4">
+                        <table class="w-full text-sm text-slate-400">
+                            <thead class="bg-slate-800">
+                                <tr>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Aspecto</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Promedio Simple</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Promedio Ponderado</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">Fórmula</td>
+                                    
+                                    <td class="px-4 py-2">Suma ÷ Conteo</td>
+                                    
+                                    <td class="px-4 py-2">Suma(Valor × Peso) ÷ Suma(Pesos)</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">Suposición</td>
+                                    
+                                    <td class="px-4 py-2">Todos los valores igualmente importantes</td>
+                                    
+                                    <td class="px-4 py-2">Los valores tienen diferente importancia</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">Usar Cuando</td>
+                                    
+                                    <td class="px-4 py-2">Datos de peso igual</td>
+                                    
+                                    <td class="px-4 py-2">Diferentes tamaños de muestra o importancia</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">Ejemplo</td>
+                                    
+                                    <td class="px-4 py-2">5 exámenes iguales</td>
+                                    
+                                    <td class="px-4 py-2">Parcial 30%, Final 70%</td>
+                                    
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Aplicaciones Comunes</h2>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Calificaciones Académicas</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Promedia tus porcentajes de exámenes, tareas o cursos. Si todas las evaluaciones tienen peso igual, esta calculadora te da tu promedio de calificaciones preciso.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Métricas de Rendimiento</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Combina múltiples KPIs basados en porcentaje: tasas de finalización, puntuaciones de satisfacción, calificaciones de eficiencia. Perfecto para revisiones de rendimiento mensuales o trimestrales.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Análisis de Encuestas</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Promedia múltiples porcentajes de satisfacción o aprobación a través de diferentes preguntas o períodos de tiempo.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Estadísticas Deportivas</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Calcula porcentajes promedio de tiro, tasas de finalización o tasas de éxito a través de múltiples juegos o temporadas.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Perspectivas Estadísticas</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Más allá del promedio, esta calculadora también muestra:</p>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Suma</strong> – Total de todos los porcentajes ingresados (útil para verificación)</li>
+                        
+                        <li><strong>Conteo</strong> – Cuántos valores se promediaron</li>
+                        
+                        <li><strong>Fórmula</strong> – El cálculo exacto realizado</li>
+                        
+                    </ul>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Consejos para Promediar con Precisión</h2>
+                
+            
+                
+                    <ol class="list-decimal list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Verifica pesos iguales</strong> – Confirma que todos los valores deben contar igualmente antes de usar promedio simple</li>
+                        
+                        <li><strong>Revisa valores atípicos</strong> – Un valor extremo puede sesgar significativamente el promedio</li>
+                        
+                        <li><strong>Considera la mediana</strong> – Para datos sesgados, la mediana puede representar mejor lo 'típico'</li>
+                        
+                        <li><strong>Incluye todos los valores relevantes</strong> – No elijas selectivamente qué porcentajes incluir</li>
+                        
+                        <li><strong>Mantén consistencia</strong> – Todos los porcentajes deben calcularse de la misma manera</li>
+                        
+                    </ol>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">¿Necesitas Cálculos Relacionados?</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Mide la precisión experimental con nuestra <a href='/es/percentage-error-calculator/' class='text-green-400 hover:underline'>calculadora de error porcentual</a> que compara valores medidos vs. teóricos.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Características de la Calculadora</h2>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Valores Ilimitados</strong> – Ingresa tantos porcentajes como necesites</li>
+                        
+                        <li><strong>Entrada Flexible</strong> – Separa valores con comas o espacios</li>
+                        
+                        <li><strong>Resultados en Tiempo Real</strong> – El promedio se actualiza mientras escribes</li>
+                        
+                        <li><strong>Salida Completa</strong> – Muestra promedio, suma y conteo</li>
+                        
+                        <li><strong>Muestra de Fórmula</strong> – Ve el cálculo exacto</li>
+                        
+                        <li><strong>Gratis para Usar</strong> – Sin registro requerido</li>
+                        
+                    </ul>
+                
+            
+        </article>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+
+<section class="py-10" id="faq">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl font-bold text-white text-center mb-8">Frequently Asked Questions</h2>
+        
+        <div class="space-y-3">
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(1)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuál es el promedio de 70%, 80% y 90%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-1" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        El promedio es 80%. Cálculo: (70+80+90) ÷ 3 = 240 ÷ 3 = 80%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(2)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo calculo mi promedio de calificaciones?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-2" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Suma todos los porcentajes de calificaciones y divide por el conteo. Para clases de peso igual: (Calificación1 + Calificación2 + ...) ÷ Número de clases.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(3)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Puedo promediar porcentajes de diferentes bases?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-3" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Sí para promedio simple si tienen peso igual. Para grupos de diferente tamaño, usa promedio ponderado.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(4)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuál es el promedio de 85, 92, 78, 95?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-4" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        El promedio es 87.5%. Cálculo: (85+92+78+95) ÷ 4 = 350 ÷ 4 = 87.5%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(5)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuándo está mal el promedio simple?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-5" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Cuando los porcentajes representan grupos de diferente tamaño o tienen diferente importancia. Entonces usa promedio ponderado.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(6)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuál es el promedio de 50% y 100%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-6" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        El promedio es 75%. Cálculo: (50+100) ÷ 2 = 75%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(7)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo encuentro el promedio ponderado de porcentajes?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-7" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Multiplica cada porcentaje por su peso, suma los productos, divide por el peso total: Suma(% × peso) / Suma(pesos).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(8)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Puede el porcentaje promedio exceder el 100%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-8" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Sí, si los porcentajes de entrada exceden el 100%. El promedio de 150% y 200% es 175%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(9)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuál es el promedio de cinco valores del 20%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-9" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        El promedio es 20%. (20+20+20+20+20) ÷ 5 = 20%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(10)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuántos valores puedo promediar?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-10" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Ingresa cualquier cantidad de valores separados por comas o espacios. La calculadora los maneja todos.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(11)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Qué pasa si ingreso valores no numéricos?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-11" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-11" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        La calculadora filtra las entradas no numéricas y promedia solo los números válidos.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(12)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuál es el promedio de 60, 70, 80, 90, 100?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-12" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        El promedio es 80%. Cálculo: (60+70+80+90+100) ÷ 5 = 400 ÷ 5 = 80%.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                            <span class="text-slate-900 font-bold text-lg">%</span>
+                        </div>
+                        <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                    </div>
+                    <p class="text-sm text-slate-400">Herramientas Gratuitas de Calculadora de Porcentaje en Línea</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/es/" class="text-sm text-slate-400 hover:text-green-400">Inicio</a></li>
+                        <li><a href="/es/#tools" class="text-sm text-slate-400 hover:text-green-400">Calculadoras</a></li>
+                    </ul>
+                </div>
+
+                <!-- Pages (Privacy, About, Contact, etc.) -->
+                
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        
+                        <li><a href="/es/page/about/" class="text-sm text-slate-400 hover:text-green-400">Acerca de Nosotros</a></li>
+                        
+                        <li><a href="/es/page/contact/" class="text-sm text-slate-400 hover:text-green-400">Contacto</a></li>
+                        
+                        <li><a href="/es/page/disclaimer/" class="text-sm text-slate-400 hover:text-green-400">Aviso Legal</a></li>
+                        
+                        <li><a href="/es/page/privacy-policy/" class="text-sm text-slate-400 hover:text-green-400">Política de Privacidad</a></li>
+                        
+                        <li><a href="/es/page/terms-of-use/" class="text-sm text-slate-400 hover:text-green-400">Términos de Uso</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center">
+                <p class="text-sm text-slate-500">©  Percentage Calculators. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            menu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        }
+
+        function toggleLangDropdown() {
+            const dropdown = document.getElementById('langDropdown');
+            const arrow = document.getElementById('langArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close tools dropdown if open
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsArrow = document.getElementById('toolsArrow');
+            if (toolsDropdown) toolsDropdown.classList.add('hidden');
+            if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        function toggleToolsDropdown() {
+            const dropdown = document.getElementById('toolsDropdown');
+            const arrow = document.getElementById('toolsArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close lang dropdown if open
+            const langDropdown = document.getElementById('langDropdown');
+            const langArrow = document.getElementById('langArrow');
+            if (langDropdown) langDropdown.classList.add('hidden');
+            if (langArrow) langArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            const langDropdown = document.getElementById('langDropdown');
+            const langBtn = document.getElementById('langDropdownBtn');
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
+            const langArrow = document.getElementById('langArrow');
+            const toolsArrow = document.getElementById('toolsArrow');
+
+            // Close language dropdown
+            if (langDropdown && langBtn && !langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
+                langDropdown.classList.add('hidden');
+                if (langArrow) langArrow.classList.remove('rotate-180');
+            }
+
+            // Close tools dropdown
+            if (toolsDropdown && toolsBtn && !toolsBtn.contains(e.target) && !toolsDropdown.contains(e.target)) {
+                toolsDropdown.classList.add('hidden');
+                if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+            }
+        });
+    </script>
+
+    
+<script>
+function calculate(){const i=document.getElementById('percentages').value,r=document.getElementById('result'),f=document.getElementById('formula_display'),c=document.getElementById('count'),s=document.getElementById('sum');const v=i.split(/[,\s]+/).map(x=>parseFloat(x.trim())).filter(x=>!isNaN(x));if(v.length>0){const sum=v.reduce((a,b)=>a+b,0),avg=sum/v.length;r.textContent=formatNumber(avg)+'%';if(c)c.textContent=v.length;if(s)s.textContent=formatNumber(sum)+'%';if(f)f.textContent='('+v.join(' + ')+') ÷ '+v.length+' = '+formatNumber(avg)+'%'}else{r.textContent='?';if(c)c.textContent='0';if(s)s.textContent='0%';if(f)f.textContent=''}}function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}
+
+function toggleFaq(index) {
+    const answer = document.getElementById('faq-answer-' + index);
+    const icon = document.querySelector('.faq-icon-' + index);
+    
+    if (answer.classList.contains('active')) {
+        answer.classList.remove('active');
+        icon.classList.remove('rotate-180');
+    } else {
+        document.querySelectorAll('.accordion-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('[class*="faq-icon-"]').forEach(el => el.classList.remove('rotate-180'));
+        
+        answer.classList.add('active');
+        icon.classList.add('rotate-180');
+    }
+}
+</script>
+
+
+    
+</body>
+</html>

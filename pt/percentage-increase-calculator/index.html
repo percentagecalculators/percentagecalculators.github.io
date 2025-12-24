@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="pt" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculadora de Aumento Percentual | Adicionar Porcentagem a Número</title>
+    <meta name="description" content="Calculadora de aumento percentual gratuita. Adicione qualquer porcentagem a um número instantaneamente. Calcule aumentos salariais, acréscimos de preços, aumentos de impostos e crescimento.">
+    
+    
+
+<meta name="keywords" content="calculadora de aumento percentual, adicionar porcentagem, aumentar por porcentagem, calculadora de aumento, calculadora de crescimento percentual">
+
+
+<!-- Schema.org FAQPage markup -->
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        
+        {
+            "@type": "Question",
+            "name": "Como adiciono 20% a um número?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Multiplique o número por 1,20. Por exemplo, 100 + 20% \u003D 100 × 1,20 \u003D 120. O valor do aumento é 20."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Quanto é 500 mais 15 por cento?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "500 mais 15% é igual a 575. Cálculo: 500 × 0,15 \u003D 75 (aumento), depois 500 + 75 \u003D 575."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Como calculo meu novo salário após um aumento de 5%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Multiplique seu salário atual por 1,05. Para R$60.000 com 5% de aumento: R$60.000 × 1,05 \u003D R$63.000. Você ganha R$3.000."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Qual é a fórmula para adicionar uma porcentagem?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Novo Valor \u003D Original × (1 + Porcentagem/100). Isso combina o original com o aumento percentual em um único passo."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Como adiciono 40% de acréscimo a um custo de produto?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Multiplique o custo por 1,40. Se o produto custa R$25, o preço de venda é R$25 × 1,40 \u003D R$35. O acréscimo é R$10."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "O que significa aumentar em 100%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Um aumento de 100% dobra o valor original. 50 aumentado em 100% \u003D 50 + 50 \u003D 100."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Posso aumentar mais de 100%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim. Um aumento de 200% triplica o original (100% original + 200% aumento \u003D 300% \u003D 3×). Então 50 + 200% \u003D 150."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Como funcionam aumentos percentuais consecutivos?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Eles se compõem, não se somam. Dois aumentos de 10%: 100 × 1,10 × 1,10 \u003D 121, não 120. Cada um se aplica ao novo valor."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Quanto é 80 aumentado em 25%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "80 aumentado em 25% \u003D 100. Cálculo: 80 × 1,25 \u003D 100. O valor do aumento é 20."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Como adiciono 8,5% de imposto a um preço?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Multiplique por 1,085. Para um item de R$50: R$50 × 1,085 \u003D R$54,25. O valor do imposto é R$4,25."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Qual é o aumento de 200 para 250?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "O valor do aumento é 50. Como porcentagem: (50/200) × 100 \u003D 25% de aumento."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "Como calculo porcentagem de juros compostos?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Para cada período, multiplique por (1 + taxa). Para 3 anos a 5%: Principal × 1,05 × 1,05 × 1,05 \u003D Principal × 1,157625."
+            }
+        }
+        
+    ]
+}
+</script>
+
+
+<!-- Schema.org WebApplication markup -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Calculadora de Aumento Percentual - Percentage Calculators",
+    "url": "https://percentagecalculators.github.io/pt/percentage-increase-calculator/",
+    "description": "Calculadora de aumento percentual gratuita. Adicione qualquer porcentagem a um número instantaneamente. Calcule aumentos salariais, acréscimos de preços, aumentos de impostos e crescimento.",
+    "applicationCategory": "CalculatorApplication",
+    "operatingSystem": "Any",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    }
+}
+</script>
+
+    
+    <!-- Hreflang Tags (only if multiple translations exist) -->
+    
+    
+    <link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-increase-calculator/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-increase-calculator/" />
+    
+    
+
+    <!-- Canonical -->
+    
+<link rel="canonical" href="https://percentagecalculators.github.io/pt/percentage-increase-calculator/" />
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['SF Mono', 'Monaco', 'Consolas', 'Courier New', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .accordion-content.active {
+            max-height: 1000px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+
+        
+    </style>
+
+    
+
+    
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-950 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <!-- Logo -->
+                <a href="/pt/" class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                        <span class="text-slate-900 font-bold text-lg">%</span>
+                    </div>
+                    <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-1 text-sm">
+                    <a href="/pt/"
+                       class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white">
+                        Início
+                    </a>
+
+                    <!-- Tools Dropdown -->
+                    
+                    <div class="relative">
+                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <span>Calculadoras</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="toolsArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="toolsDropdown" class="hidden absolute left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50 max-h-96 overflow-y-auto">
+                            
+                            <a href="/pt/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Aumento Percentual</a>
+                            
+                            <a href="/pt/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Diminuição Percentual</a>
+                            
+                            <a href="/pt/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Variação Percentual</a>
+                            
+                            <a href="/pt/percentage-difference-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Diferença Percentual</a>
+                            
+                            <a href="/pt/percentage-off-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentagem de Desconto</a>
+                            
+                            <a href="/pt/fraction-to-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Fração para Porcentagem</a>
+                            
+                            <a href="/pt/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Crescimento Percentual</a>
+                            
+                            <a href="/pt/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentagem Reversa</a>
+                            
+                            <a href="/pt/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Erro Percentual</a>
+                            
+                            <a href="/pt/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Média de Porcentagem</a>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <!-- Language Dropdown (only show if multiple languages available) -->
+                    
+                    <div class="relative ml-4">
+                        <button onclick="toggleLangDropdown()" id="langDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                            </svg>
+                            <span>PT</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="langArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="langDropdown" class="hidden absolute right-0 mt-1 w-40 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50">
+                            
+                            <a href="/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                English
+                            </a>
+                            
+                            <a href="/nl/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Nederlands
+                            </a>
+                            
+                            <a href="/pt/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-green-400">
+                                Português
+                            </a>
+                            
+                            <a href="/es/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Español
+                            </a>
+                            
+                            <a href="/fr/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Français
+                            </a>
+                            
+                            <a href="/de/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Deutsch
+                            </a>
+                            
+                            <a href="/hi/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                हिन्दी
+                            </a>
+                            
+                            <a href="/bn/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                বাংলা
+                            </a>
+                            
+                            <a href="/zh-cn/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                简体中文
+                            </a>
+                            
+                            <a href="/id/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Indonesia
+                            </a>
+                            
+                            <a href="/th/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                ไทย
+                            </a>
+                            
+                            <a href="/zh-tw/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                繁體中文
+                            </a>
+                            
+                            <a href="/it/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Italiano
+                            </a>
+                            
+                            <a href="/ja/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                日本語
+                            </a>
+                            
+                            <a href="/ms/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Melayu
+                            </a>
+                            
+                            <a href="/ar/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                العربية
+                            </a>
+                            
+                            <a href="/ko/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                한국어
+                            </a>
+                            
+                            <a href="/ru/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Русский
+                            </a>
+                            
+                            <a href="/vi/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Tiếng Việt
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white">
+                    <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden border-t border-slate-800 py-4">
+                <a href="/pt/"
+                   class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">
+                    Início
+                </a>
+
+                <!-- Mobile Tools List -->
+                
+                <div class="mt-2 border-t border-slate-800 pt-2">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Calculadoras</p>
+                    
+                    <a href="/pt/percentage-increase-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Aumento Percentual</a>
+                    
+                    <a href="/pt/percentage-decrease-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Diminuição Percentual</a>
+                    
+                    <a href="/pt/percentage-change-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Variação Percentual</a>
+                    
+                    <a href="/pt/percentage-difference-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Diferença Percentual</a>
+                    
+                    <a href="/pt/percentage-off-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentagem de Desconto</a>
+                    
+                    <a href="/pt/fraction-to-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Fração para Porcentagem</a>
+                    
+                    <a href="/pt/percentage-growth-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Crescimento Percentual</a>
+                    
+                    <a href="/pt/reverse-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentagem Reversa</a>
+                    
+                    <a href="/pt/percentage-error-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Erro Percentual</a>
+                    
+                    <a href="/pt/average-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Média de Porcentagem</a>
+                    
+                </div>
+                
+
+                <!-- Mobile Language Switcher -->
+                
+                <div class="mt-4 border-t border-slate-800 pt-4">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Language</p>
+                    <div class="flex flex-wrap gap-2 px-3 mt-2">
+                        
+                        <a href="/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            English
+                        </a>
+                        
+                        <a href="/nl/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Nederlands
+                        </a>
+                        
+                        <a href="/pt/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center bg-slate-700 text-green-400">
+                            Português
+                        </a>
+                        
+                        <a href="/es/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Español
+                        </a>
+                        
+                        <a href="/fr/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Français
+                        </a>
+                        
+                        <a href="/de/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Deutsch
+                        </a>
+                        
+                        <a href="/hi/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            हिन्दी
+                        </a>
+                        
+                        <a href="/bn/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            বাংলা
+                        </a>
+                        
+                        <a href="/zh-cn/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            简体中文
+                        </a>
+                        
+                        <a href="/id/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Indonesia
+                        </a>
+                        
+                        <a href="/th/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            ไทย
+                        </a>
+                        
+                        <a href="/zh-tw/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            繁體中文
+                        </a>
+                        
+                        <a href="/it/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Italiano
+                        </a>
+                        
+                        <a href="/ja/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            日本語
+                        </a>
+                        
+                        <a href="/ms/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Melayu
+                        </a>
+                        
+                        <a href="/ar/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            العربية
+                        </a>
+                        
+                        <a href="/ko/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            한국어
+                        </a>
+                        
+                        <a href="/ru/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Русский
+                        </a>
+                        
+                        <a href="/vi/percentage-increase-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Tiếng Việt
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Breadcrumb -->
+<nav class="bg-slate-950 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <ol class="flex items-center text-sm text-slate-400">
+            <li>
+                <a href="/pt/" class="hover:text-green-400">
+                    Início
+                </a>
+            </li>
+            <li class="mx-2">/</li>
+            <li class="text-green-400">Calculadora de Aumento Percentual</li>
+        </ol>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-slate-950 border-b border-slate-800 py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-white mb-3">
+            Calculadora de Aumento Percentual
+        </h1>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+            Calcule o resultado de aumentar um número por qualquer porcentagem. Veja tanto o valor final quanto o valor do aumento instantaneamente.
+        </p>
+    </div>
+</section>
+
+<!-- Calculator Section -->
+<section class="py-8">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+            <div class="bg-slate-900 px-6 py-4 border-b border-slate-700">
+                <h2 class="text-lg font-semibold text-white flex items-center">
+                    
+                    <span class="mr-3"><svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg></span>
+                    
+                    Calculadora de Aumento Percentual
+                </h2>
+            </div>
+            
+            <div class="p-6">
+                <!-- Dynamic Calculator based on tool_type -->
+                
+                <!-- Percentage Increase Calculator -->
+                <div class="space-y-4">
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">Valor Original</label>
+                        <input type="number" id="original_value" step="any" placeholder="Insira o número inicial" oninput="calculate()"
+                               class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">Aumentar em</label>
+                        <div class="flex-1 flex items-center gap-2">
+                            <input type="number" id="increase_percent" step="any" placeholder="Insira a porcentagem" oninput="calculate()"
+                                   class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                            <span class="text-slate-400 text-lg">%</span>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-700 pt-4 mt-4">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-slate-400">Valor do Aumento:</span>
+                            <span id="increase_amount" class="text-slate-300 font-mono">?</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300 font-medium">Novo Valor:</span>
+                            <span id="result" class="text-2xl text-green-400 font-mono font-bold">?</span>
+                        </div>
+                    </div>
+                    <p class="text-center text-slate-500 text-sm mt-2" id="formula_display"></p>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEO Content Section -->
+
+<section class="py-10 bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article class="prose prose-invert prose-slate max-w-none">
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Como Adicionar uma Porcentagem a Qualquer Número</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Adicionar uma porcentagem a um número é uma das operações matemáticas mais comuns que realizamos diariamente. Seja calculando um aumento salarial, determinando o preço após impostos, marcando produtos ou entendendo taxas de crescimento, esta calculadora de aumento percentual fornece resultados instantâneos e precisos.</p>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Basta inserir seu valor original e a porcentagem pela qual deseja aumentá-lo. A calculadora mostra instantaneamente tanto o novo valor quanto o valor do aumento, completo com a fórmula para verificação.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">A Fórmula de Aumento Percentual</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Existem duas abordagens matemáticas equivalentes para calcular um aumento percentual:</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Método 1: Calcular Depois Adicionar</h3>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        Valor do Aumento = Valor Original × (Porcentagem ÷ 100)
+Novo Valor = Valor Original + Valor do Aumento
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Esta abordagem é direta: primeiro encontre a quanto o percentual equivale, depois adicione ao original. Por exemplo, para aumentar 500 em 20%: Calcule 500 × 0,20 = 100, depois adicione 500 + 100 = 600.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Método 2: Multiplicador Direto</h3>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        Novo Valor = Valor Original × (1 + Porcentagem ÷ 100)
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Este método de passo único é mais eficiente. Para 500 aumentado em 20%: 500 × 1,20 = 600. O multiplicador 1,20 representa o 100% original mais os 20% adicionais.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Referência Rápida: Multiplicadores de Aumento Percentual</h2>
+                
+            
+                
+                    <div class="overflow-x-auto my-4">
+                        <table class="w-full text-sm text-slate-400">
+                            <thead class="bg-slate-800">
+                                <tr>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Aumento %</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Multiplicador</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Exemplo (de 100)</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">5%</td>
+                                    
+                                    <td class="px-4 py-2">1,05</td>
+                                    
+                                    <td class="px-4 py-2">105</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">10%</td>
+                                    
+                                    <td class="px-4 py-2">1,10</td>
+                                    
+                                    <td class="px-4 py-2">110</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">15%</td>
+                                    
+                                    <td class="px-4 py-2">1,15</td>
+                                    
+                                    <td class="px-4 py-2">115</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">20%</td>
+                                    
+                                    <td class="px-4 py-2">1,20</td>
+                                    
+                                    <td class="px-4 py-2">120</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">25%</td>
+                                    
+                                    <td class="px-4 py-2">1,25</td>
+                                    
+                                    <td class="px-4 py-2">125</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">50%</td>
+                                    
+                                    <td class="px-4 py-2">1,50</td>
+                                    
+                                    <td class="px-4 py-2">150</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">75%</td>
+                                    
+                                    <td class="px-4 py-2">1,75</td>
+                                    
+                                    <td class="px-4 py-2">175</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">100%</td>
+                                    
+                                    <td class="px-4 py-2">2,00</td>
+                                    
+                                    <td class="px-4 py-2">200</td>
+                                    
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Aplicações Práticas de Aumento Percentual</h2>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Cálculos de Aumentos Salariais</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Quando você recebe um aumento de 5%, seu novo salário é o antigo multiplicado por 1,05. Um salário de R$60.000 com 5% de aumento torna-se R$60.000 × 1,05 = R$63.000. O aumento é de R$3.000.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Acréscimo de Preço Comercial</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Varejistas adicionam uma porcentagem de acréscimo ao custo atacadista. Um produto que custa R$40 com 60% de acréscimo é vendido por R$40 × 1,60 = R$64. Visite nossa <a href='/pt/' class='text-green-400 hover:underline'>página inicial de calculadoras de porcentagem</a> para mais ferramentas.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Cálculos de Impostos e Taxas</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Adicione imposto sobre vendas multiplicando pela (1 + taxa de imposto). Uma compra de R$85 com 8% de imposto: R$85 × 1,08 = R$91,80.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Taxas de Juros</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Juros simples adicionam uma porcentagem ao principal. R$1.000 a 5% de juros ao ano: R$1.000 × 1,05 = R$1.050 após um ano.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Aumentos Simples vs. Compostos</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Um conceito crítico ao trabalhar com aumentos percentuais é a diferença entre cálculos simples e compostos.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Aumento Simples (Único)</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Esta calculadora realiza aumentos percentuais simples, únicos. Você aplica a porcentagem uma vez ao valor original. Isso é apropriado para aumentos únicos, acréscimos únicos ou retornos anuais calculados individualmente.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Aumentos Compostos (Múltiplos Períodos)</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Quando aumentos percentuais se aplicam repetidamente (como juros compostos de múltiplos anos), cada aumento se baseia no resultado anterior. Dois aumentos consecutivos de 10% não equivalem a 20% – eles equivalem a 21% no total porque o segundo aumento se aplica ao valor já aumentado.</p>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li>Ano 1: R$100 + 10% = R$110</li>
+                        
+                        <li>Ano 2: R$110 + 10% = R$121 (não R$120)</li>
+                        
+                        <li>Aumento total: 21%, não 20%</li>
+                        
+                    </ul>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Dicas para Cálculos Percentuais Precisos</h2>
+                
+            
+                
+                    <ol class="list-decimal list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li>Verifique seu valor inicial antes de calcular</li>
+                        
+                        <li>Para porcentagens acima de 100%, lembre-se de que o valor mais que dobrará</li>
+                        
+                        <li>Ao adicionar imposto a um preço, a porcentagem é aplicada ao valor pré-imposto</li>
+                        
+                        <li>Para aumentos sequenciais, aplique cada porcentagem ao novo valor, não ao original</li>
+                        
+                        <li>Use precisão decimal quando a exatidão importar (insira 7,5, não apenas 7 ou 8)</li>
+                        
+                    </ol>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Casos Especiais e Cenários Extremos</h2>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Aumentos Acima de 100%</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Sim, você pode aumentar mais de 100%. Um aumento de 100% dobra o valor; um aumento de 200% triplica; um aumento de 300% quadruplica. Por exemplo, 50 aumentado em 200% equivale a 150 (50 + 100 = 150).</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Porcentagens Fracionárias</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Esta calculadora lida com porcentagens decimais como 3,75% ou 0,5% com precisão. Insira-as exatamente como necessário para cálculos financeiros precisos.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Valores Iniciais Negativos</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Embora menos comum, a calculadora funciona com números negativos também. Aumentar -50 em 20% dá -60 (o valor absoluto cresce, tornando o número mais negativo).</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Precisa Subtrair uma Porcentagem?</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Se você precisa subtrair uma porcentagem de um número – para descontos, depreciação ou reduções – use nossa <a href='/pt/percentage-decrease-calculator/' class='text-green-400 hover:underline'>calculadora de diminuição percentual</a> que mostra o valor da redução e o valor final.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Por Que Usar Esta Calculadora de Aumento Percentual?</h2>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Resultados Instantâneos</strong> – Respostas aparecem enquanto você digita, sem necessidade de clicar em botões</li>
+                        
+                        <li><strong>Saída Dupla</strong> – Veja tanto o valor final QUANTO o valor do aumento</li>
+                        
+                        <li><strong>Exibição de Fórmula</strong> – Verifique o cálculo com a fórmula visível</li>
+                        
+                        <li><strong>Precisão Ilimitada</strong> – Lida com valores decimais para precisão financeira</li>
+                        
+                        <li><strong>Sem Registro</strong> – Grátis para usar sem criar uma conta</li>
+                        
+                        <li><strong>Compatível com Celular</strong> – Funciona perfeitamente em telefones, tablets e computadores</li>
+                        
+                    </ul>
+                
+            
+        </article>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+
+<section class="py-10" id="faq">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl font-bold text-white text-center mb-8">Frequently Asked Questions</h2>
+        
+        <div class="space-y-3">
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(1)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Como adiciono 20% a um número?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-1" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Multiplique o número por 1,20. Por exemplo, 100 + 20% = 100 × 1,20 = 120. O valor do aumento é 20.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(2)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Quanto é 500 mais 15 por cento?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-2" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        500 mais 15% é igual a 575. Cálculo: 500 × 0,15 = 75 (aumento), depois 500 + 75 = 575.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(3)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Como calculo meu novo salário após um aumento de 5%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-3" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Multiplique seu salário atual por 1,05. Para R$60.000 com 5% de aumento: R$60.000 × 1,05 = R$63.000. Você ganha R$3.000.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(4)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Qual é a fórmula para adicionar uma porcentagem?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-4" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Novo Valor = Original × (1 + Porcentagem/100). Isso combina o original com o aumento percentual em um único passo.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(5)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Como adiciono 40% de acréscimo a um custo de produto?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-5" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Multiplique o custo por 1,40. Se o produto custa R$25, o preço de venda é R$25 × 1,40 = R$35. O acréscimo é R$10.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(6)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">O que significa aumentar em 100%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-6" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Um aumento de 100% dobra o valor original. 50 aumentado em 100% = 50 + 50 = 100.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(7)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Posso aumentar mais de 100%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-7" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Sim. Um aumento de 200% triplica o original (100% original + 200% aumento = 300% = 3×). Então 50 + 200% = 150.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(8)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Como funcionam aumentos percentuais consecutivos?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-8" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Eles se compõem, não se somam. Dois aumentos de 10%: 100 × 1,10 × 1,10 = 121, não 120. Cada um se aplica ao novo valor.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(9)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Quanto é 80 aumentado em 25%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-9" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        80 aumentado em 25% = 100. Cálculo: 80 × 1,25 = 100. O valor do aumento é 20.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(10)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Como adiciono 8,5% de imposto a um preço?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-10" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Multiplique por 1,085. Para um item de R$50: R$50 × 1,085 = R$54,25. O valor do imposto é R$4,25.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(11)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Qual é o aumento de 200 para 250?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-11" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-11" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        O valor do aumento é 50. Como porcentagem: (50/200) × 100 = 25% de aumento.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(12)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">Como calculo porcentagem de juros compostos?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-12" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Para cada período, multiplique por (1 + taxa). Para 3 anos a 5%: Principal × 1,05 × 1,05 × 1,05 = Principal × 1,157625.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                            <span class="text-slate-900 font-bold text-lg">%</span>
+                        </div>
+                        <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                    </div>
+                    <p class="text-sm text-slate-400">Ferramentas de Calculadora de Porcentagem Online Gratuitas</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/pt/" class="text-sm text-slate-400 hover:text-green-400">Início</a></li>
+                        <li><a href="/pt/#tools" class="text-sm text-slate-400 hover:text-green-400">Calculadoras</a></li>
+                    </ul>
+                </div>
+
+                <!-- Pages (Privacy, About, Contact, etc.) -->
+                
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        
+                        <li><a href="/pt/page/about/" class="text-sm text-slate-400 hover:text-green-400">Sobre Nós</a></li>
+                        
+                        <li><a href="/pt/page/contact/" class="text-sm text-slate-400 hover:text-green-400">Entre em Contato</a></li>
+                        
+                        <li><a href="/pt/page/disclaimer/" class="text-sm text-slate-400 hover:text-green-400">Isenção de Responsabilidade</a></li>
+                        
+                        <li><a href="/pt/page/privacy-policy/" class="text-sm text-slate-400 hover:text-green-400">Política de Privacidade</a></li>
+                        
+                        <li><a href="/pt/page/terms-of-use/" class="text-sm text-slate-400 hover:text-green-400">Termos de Uso</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center">
+                <p class="text-sm text-slate-500">©  Percentage Calculators. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            menu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        }
+
+        function toggleLangDropdown() {
+            const dropdown = document.getElementById('langDropdown');
+            const arrow = document.getElementById('langArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close tools dropdown if open
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsArrow = document.getElementById('toolsArrow');
+            if (toolsDropdown) toolsDropdown.classList.add('hidden');
+            if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        function toggleToolsDropdown() {
+            const dropdown = document.getElementById('toolsDropdown');
+            const arrow = document.getElementById('toolsArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close lang dropdown if open
+            const langDropdown = document.getElementById('langDropdown');
+            const langArrow = document.getElementById('langArrow');
+            if (langDropdown) langDropdown.classList.add('hidden');
+            if (langArrow) langArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            const langDropdown = document.getElementById('langDropdown');
+            const langBtn = document.getElementById('langDropdownBtn');
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
+            const langArrow = document.getElementById('langArrow');
+            const toolsArrow = document.getElementById('toolsArrow');
+
+            // Close language dropdown
+            if (langDropdown && langBtn && !langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
+                langDropdown.classList.add('hidden');
+                if (langArrow) langArrow.classList.remove('rotate-180');
+            }
+
+            // Close tools dropdown
+            if (toolsDropdown && toolsBtn && !toolsBtn.contains(e.target) && !toolsDropdown.contains(e.target)) {
+                toolsDropdown.classList.add('hidden');
+                if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+            }
+        });
+    </script>
+
+    
+<script>
+function calculate(){const o=parseFloat(document.getElementById('original_value').value),p=parseFloat(document.getElementById('increase_percent').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),i=document.getElementById('increase_amount');if(!isNaN(o)&&!isNaN(p)){const inc=o*(p/100),res=o+inc;r.textContent=formatNumber(res);if(i)i.textContent=formatNumber(inc);if(f)f.textContent=o+' + ('+o+' × '+p+'%) = '+formatNumber(res)}else{r.textContent='?';if(i)i.textContent='?';if(f)f.textContent=''}}function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}
+
+function toggleFaq(index) {
+    const answer = document.getElementById('faq-answer-' + index);
+    const icon = document.querySelector('.faq-icon-' + index);
+    
+    if (answer.classList.contains('active')) {
+        answer.classList.remove('active');
+        icon.classList.remove('rotate-180');
+    } else {
+        document.querySelectorAll('.accordion-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('[class*="faq-icon-"]').forEach(el => el.classList.remove('rotate-180'));
+        
+        answer.classList.add('active');
+        icon.classList.add('rotate-180');
+    }
+}
+</script>
+
+
+    
+</body>
+</html>

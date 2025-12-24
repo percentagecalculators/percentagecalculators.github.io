@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculadora de Disminución Porcentual | Restar Porcentaje de un Número</title>
+    <meta name="description" content="Calculadora gratuita de disminución porcentual. Resta cualquier porcentaje de un número al instante. Calcula depreciación, metas de pérdida de peso, recortes de presupuesto y reducciones.">
+    
+    
+
+<meta name="keywords" content="calculadora de disminución porcentual, restar porcentaje, reducir por porcentaje, calculadora de depreciación, reducción porcentual">
+
+
+<!-- Schema.org FAQPage markup -->
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo resto el 25% de un número?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Multiplica el número por 0.75. Por ejemplo, 200 \u002D 25% \u003D 200 × 0.75 \u003D 150. El monto de la disminución es 50."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuánto es 80 menos el 15 por ciento?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "80 menos el 15% es igual a 68. Cálculo: 80 × 0.15 \u003D 12 (disminución), luego 80 \u002D 12 \u003D 68."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo calculo la depreciación?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Multiplica el valor del activo por (1 \u002D tasa de depreciación). Para 20% de depreciación en $10,000: $10,000 × 0.80 \u003D $8,000."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuál es la fórmula para restar un porcentaje?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nuevo Valor \u003D Original × (1 \u002D Porcentaje/100). Para 30% de descuento en $50: $50 × 0.70 \u003D $35."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuánto es el 40% de descuento en $120?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "$120 con 40% de descuento \u003D $72. Ahorras $48. Cálculo: $120 × 0.60 \u003D $72."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Qué significa una disminución del 100%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Una disminución del 100% reduce el valor a cero. 50 disminuido en un 100% \u003D 50 \u002D 50 \u003D 0."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Por qué necesito más del 50% de ganancia para recuperarme de una pérdida del 50%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Porque el porcentaje de ganancia se aplica al monto reducido. Después de una pérdida del 50%, tienes la mitad. Para duplicar y volver, necesitas una ganancia del 100%."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo funcionan los descuentos consecutivos?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Se multiplican, no se suman. 20% de descuento luego 10% de descuento: 100 × 0.80 × 0.90 \u003D 72 (28% total, no 30%)."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuánto es 500 disminuido en un 35%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "500 disminuido en un 35% \u003D 325. Cálculo: 500 × 0.65 \u003D 325. La disminución es 175."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cómo encuentro el precio original antes de un descuento?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Divide el precio de venta por (1 \u002D descuento%). Si pagaste $60 después de 25% de descuento: $60 ÷ 0.75 \u003D $80 original."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Puede una disminución ser negativa?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ingresar un porcentaje negativo en realidad aumentaría el valor. Usa la calculadora de aumento para adiciones."
+            }
+        },
+        
+        {
+            "@type": "Question",
+            "name": "¿Cuánto es 1000 menos el 7.5%?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "1000 menos el 7.5% \u003D 925. Cálculo: 1000 × 0.075 \u003D 75, luego 1000 \u002D 75 \u003D 925."
+            }
+        }
+        
+    ]
+}
+</script>
+
+
+<!-- Schema.org WebApplication markup -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Calculadora de Disminución Porcentual - Percentage Calculators",
+    "url": "https://percentagecalculators.github.io/es/percentage-decrease-calculator/",
+    "description": "Calculadora gratuita de disminución porcentual. Resta cualquier porcentaje de un número al instante. Calcula depreciación, metas de pérdida de peso, recortes de presupuesto y reducciones.",
+    "applicationCategory": "CalculatorApplication",
+    "operatingSystem": "Any",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    }
+}
+</script>
+
+    
+    <!-- Hreflang Tags (only if multiple translations exist) -->
+    
+    
+    <link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-decrease-calculator/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-decrease-calculator/" />
+    
+    
+
+    <!-- Canonical -->
+    
+<link rel="canonical" href="https://percentagecalculators.github.io/es/percentage-decrease-calculator/" />
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['SF Mono', 'Monaco', 'Consolas', 'Courier New', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .accordion-content.active {
+            max-height: 1000px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+
+        
+    </style>
+
+    
+
+    
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-950 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <!-- Logo -->
+                <a href="/es/" class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                        <span class="text-slate-900 font-bold text-lg">%</span>
+                    </div>
+                    <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-1 text-sm">
+                    <a href="/es/"
+                       class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white">
+                        Inicio
+                    </a>
+
+                    <!-- Tools Dropdown -->
+                    
+                    <div class="relative">
+                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <span>Calculadoras</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="toolsArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="toolsDropdown" class="hidden absolute left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50 max-h-96 overflow-y-auto">
+                            
+                            <a href="/es/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Aumento Porcentual</a>
+                            
+                            <a href="/es/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Disminución Porcentual</a>
+                            
+                            <a href="/es/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Cambio Porcentual</a>
+                            
+                            <a href="/es/percentage-difference-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Diferencia Porcentual</a>
+                            
+                            <a href="/es/percentage-off-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentaje de Descuento</a>
+                            
+                            <a href="/es/fraction-to-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Fracción a Porcentaje</a>
+                            
+                            <a href="/es/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Crecimiento Porcentual</a>
+                            
+                            <a href="/es/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentaje Inverso</a>
+                            
+                            <a href="/es/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Error Porcentual</a>
+                            
+                            <a href="/es/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">Calculadora de Porcentaje Promedio</a>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <!-- Language Dropdown (only show if multiple languages available) -->
+                    
+                    <div class="relative ml-4">
+                        <button onclick="toggleLangDropdown()" id="langDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                            </svg>
+                            <span>ES</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="langArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="langDropdown" class="hidden absolute right-0 mt-1 w-40 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50">
+                            
+                            <a href="/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                English
+                            </a>
+                            
+                            <a href="/nl/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Nederlands
+                            </a>
+                            
+                            <a href="/pt/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Português
+                            </a>
+                            
+                            <a href="/es/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-green-400">
+                                Español
+                            </a>
+                            
+                            <a href="/fr/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Français
+                            </a>
+                            
+                            <a href="/de/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Deutsch
+                            </a>
+                            
+                            <a href="/hi/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                हिन्दी
+                            </a>
+                            
+                            <a href="/bn/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                বাংলা
+                            </a>
+                            
+                            <a href="/zh-cn/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                简体中文
+                            </a>
+                            
+                            <a href="/id/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Indonesia
+                            </a>
+                            
+                            <a href="/th/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                ไทย
+                            </a>
+                            
+                            <a href="/zh-tw/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                繁體中文
+                            </a>
+                            
+                            <a href="/it/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Italiano
+                            </a>
+                            
+                            <a href="/ja/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                日本語
+                            </a>
+                            
+                            <a href="/ms/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Melayu
+                            </a>
+                            
+                            <a href="/ar/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                العربية
+                            </a>
+                            
+                            <a href="/ko/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                한국어
+                            </a>
+                            
+                            <a href="/ru/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Русский
+                            </a>
+                            
+                            <a href="/vi/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Tiếng Việt
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white">
+                    <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden border-t border-slate-800 py-4">
+                <a href="/es/"
+                   class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">
+                    Inicio
+                </a>
+
+                <!-- Mobile Tools List -->
+                
+                <div class="mt-2 border-t border-slate-800 pt-2">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Calculadoras</p>
+                    
+                    <a href="/es/percentage-increase-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Aumento Porcentual</a>
+                    
+                    <a href="/es/percentage-decrease-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Disminución Porcentual</a>
+                    
+                    <a href="/es/percentage-change-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Cambio Porcentual</a>
+                    
+                    <a href="/es/percentage-difference-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Diferencia Porcentual</a>
+                    
+                    <a href="/es/percentage-off-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentaje de Descuento</a>
+                    
+                    <a href="/es/fraction-to-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Fracción a Porcentaje</a>
+                    
+                    <a href="/es/percentage-growth-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Crecimiento Porcentual</a>
+                    
+                    <a href="/es/reverse-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentaje Inverso</a>
+                    
+                    <a href="/es/percentage-error-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Error Porcentual</a>
+                    
+                    <a href="/es/average-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">Calculadora de Porcentaje Promedio</a>
+                    
+                </div>
+                
+
+                <!-- Mobile Language Switcher -->
+                
+                <div class="mt-4 border-t border-slate-800 pt-4">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Language</p>
+                    <div class="flex flex-wrap gap-2 px-3 mt-2">
+                        
+                        <a href="/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            English
+                        </a>
+                        
+                        <a href="/nl/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Nederlands
+                        </a>
+                        
+                        <a href="/pt/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Português
+                        </a>
+                        
+                        <a href="/es/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center bg-slate-700 text-green-400">
+                            Español
+                        </a>
+                        
+                        <a href="/fr/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Français
+                        </a>
+                        
+                        <a href="/de/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Deutsch
+                        </a>
+                        
+                        <a href="/hi/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            हिन्दी
+                        </a>
+                        
+                        <a href="/bn/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            বাংলা
+                        </a>
+                        
+                        <a href="/zh-cn/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            简体中文
+                        </a>
+                        
+                        <a href="/id/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Indonesia
+                        </a>
+                        
+                        <a href="/th/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            ไทย
+                        </a>
+                        
+                        <a href="/zh-tw/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            繁體中文
+                        </a>
+                        
+                        <a href="/it/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Italiano
+                        </a>
+                        
+                        <a href="/ja/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            日本語
+                        </a>
+                        
+                        <a href="/ms/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Melayu
+                        </a>
+                        
+                        <a href="/ar/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            العربية
+                        </a>
+                        
+                        <a href="/ko/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            한국어
+                        </a>
+                        
+                        <a href="/ru/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Русский
+                        </a>
+                        
+                        <a href="/vi/percentage-decrease-calculator/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Tiếng Việt
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Breadcrumb -->
+<nav class="bg-slate-950 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <ol class="flex items-center text-sm text-slate-400">
+            <li>
+                <a href="/es/" class="hover:text-green-400">
+                    Inicio
+                </a>
+            </li>
+            <li class="mx-2">/</li>
+            <li class="text-green-400">Calculadora de Disminución Porcentual</li>
+        </ol>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-slate-950 border-b border-slate-800 py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-white mb-3">
+            Calculadora de Disminución Porcentual
+        </h1>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+            Calcula el resultado de disminuir un número por cualquier porcentaje. Ve tanto el valor final como el monto de la reducción al instante.
+        </p>
+    </div>
+</section>
+
+<!-- Calculator Section -->
+<section class="py-8">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+            <div class="bg-slate-900 px-6 py-4 border-b border-slate-700">
+                <h2 class="text-lg font-semibold text-white flex items-center">
+                    
+                    <span class="mr-3"><svg class="w-6 h-6 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/></svg></span>
+                    
+                    Calculadora de Disminución Porcentual
+                </h2>
+            </div>
+            
+            <div class="p-6">
+                <!-- Dynamic Calculator based on tool_type -->
+                
+                <!-- Percentage Decrease Calculator -->
+                <div class="space-y-4">
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">Valor Original</label>
+                        <input type="number" id="original_value" step="any" placeholder="Ingresa el número inicial" oninput="calculate()"
+                               class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <label class="text-slate-300 text-sm sm:w-32">Disminuir en</label>
+                        <div class="flex-1 flex items-center gap-2">
+                            <input type="number" id="decrease_percent" step="any" placeholder="Ingresa el porcentaje" oninput="calculate()"
+                                   class="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded text-white font-mono focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+                            <span class="text-slate-400 text-lg">%</span>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-700 pt-4 mt-4">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-slate-400">Monto de la Disminución:</span>
+                            <span id="decrease_amount" class="text-slate-300 font-mono">?</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-slate-300 font-medium">Nuevo Valor:</span>
+                            <span id="result" class="text-2xl text-green-400 font-mono font-bold">?</span>
+                        </div>
+                    </div>
+                    <p class="text-center text-slate-500 text-sm mt-2" id="formula_display"></p>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEO Content Section -->
+
+<section class="py-10 bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article class="prose prose-invert prose-slate max-w-none">
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Cómo Restar un Porcentaje de Cualquier Número</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Restar un porcentaje de un número es esencial para calcular depreciación, establecer metas de pérdida de peso, determinar recortes de presupuesto y aplicar descuentos. Esta herramienta muestra tanto el monto de la reducción como el valor final instantáneamente mientras escribes.</p>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Ya sea que estés calculando cuánto se deprecia un auto, calculando tu peso meta después de perder cierto porcentaje, o determinando el impacto de reducciones de presupuesto, esta calculadora de disminución porcentual proporciona resultados precisos con la fórmula completa mostrada para verificación.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">La Fórmula de Disminución Porcentual</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Hay dos enfoques matemáticamente equivalentes para calcular una disminución porcentual:</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Método 1: Calcular y Luego Restar</h3>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        Monto de Disminución = Valor Original × (Porcentaje ÷ 100)
+Nuevo Valor = Valor Original - Monto de Disminución
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Este enfoque es directo: primero encuentra a cuánto equivale el porcentaje, luego réstalo. Por ejemplo, para disminuir 500 en un 30%: Calcula 500 × 0.30 = 150, luego resta 500 - 150 = 350.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Método 2: Multiplicador Directo</h3>
+                
+            
+                
+                    <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 font-mono text-green-400 text-center">
+                        Nuevo Valor = Valor Original × (1 - Porcentaje ÷ 100)
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Este método de un solo paso es eficiente para cálculos rápidos. Para 500 disminuido en un 30%: 500 × 0.70 = 350. El multiplicador 0.70 representa mantener el 70% (100% - 30%) del original.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Referencia Rápida: Multiplicadores de Disminución Porcentual</h2>
+                
+            
+                
+                    <div class="overflow-x-auto my-4">
+                        <table class="w-full text-sm text-slate-400">
+                            <thead class="bg-slate-800">
+                                <tr>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Disminución %</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Mantiene %</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Multiplicador</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Ejemplo (desde 100)</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">10%</td>
+                                    
+                                    <td class="px-4 py-2">90%</td>
+                                    
+                                    <td class="px-4 py-2">0.90</td>
+                                    
+                                    <td class="px-4 py-2">90</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">20%</td>
+                                    
+                                    <td class="px-4 py-2">80%</td>
+                                    
+                                    <td class="px-4 py-2">0.80</td>
+                                    
+                                    <td class="px-4 py-2">80</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">25%</td>
+                                    
+                                    <td class="px-4 py-2">75%</td>
+                                    
+                                    <td class="px-4 py-2">0.75</td>
+                                    
+                                    <td class="px-4 py-2">75</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">33.33%</td>
+                                    
+                                    <td class="px-4 py-2">66.67%</td>
+                                    
+                                    <td class="px-4 py-2">0.6667</td>
+                                    
+                                    <td class="px-4 py-2">66.67</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">50%</td>
+                                    
+                                    <td class="px-4 py-2">50%</td>
+                                    
+                                    <td class="px-4 py-2">0.50</td>
+                                    
+                                    <td class="px-4 py-2">50</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">75%</td>
+                                    
+                                    <td class="px-4 py-2">25%</td>
+                                    
+                                    <td class="px-4 py-2">0.25</td>
+                                    
+                                    <td class="px-4 py-2">25</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">90%</td>
+                                    
+                                    <td class="px-4 py-2">10%</td>
+                                    
+                                    <td class="px-4 py-2">0.10</td>
+                                    
+                                    <td class="px-4 py-2">10</td>
+                                    
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Aplicaciones Prácticas de Disminución Porcentual</h2>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Depreciación de Activos</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Vehículos, equipos y otros activos pierden valor con el tiempo. Si un auto con valor de $35,000 se deprecia 15% anualmente, después de un año vale $35,000 × 0.85 = $29,750. Esta <a href='/es/' class='text-green-400 hover:underline'>calculadora de porcentaje</a> hace estos cálculos sin esfuerzo.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Metas de Pérdida de Peso</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Los profesionales de la salud a menudo recomiendan la pérdida de peso como un porcentaje del peso corporal. Si pesas 200 libras y tu meta es perder el 12%, tu peso objetivo es 200 × 0.88 = 176 libras – una pérdida de 24 libras.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Reducciones de Presupuesto</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Las organizaciones frecuentemente necesitan recortar presupuestos por un porcentaje. Un presupuesto de $2.5 millones reducido en un 8% se convierte en $2.5M × 0.92 = $2.3 millones, ahorrando $200,000.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Pérdidas en el Mercado de Valores</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Rastrea fácilmente las caídas del portafolio. Un portafolio de $50,000 que cae un 18% ahora vale $50,000 × 0.82 = $41,000.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Las Matemáticas de la Recuperación Después de una Disminución</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Un concepto importante que sorprende a muchas personas: recuperarse de una disminución porcentual requiere un aumento porcentual MAYOR.</p>
+                
+            
+                
+                    <h3 class="text-lg font-semibold text-slate-200 mt-6 mb-3">Por Qué la Recuperación Requiere un Porcentaje Mayor</h3>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Después de una disminución, tu base es más pequeña. El aumento porcentual se aplica a esta base más pequeña, así que necesitas un porcentaje mayor para volver al valor original.</p>
+                
+            
+                
+                    <div class="overflow-x-auto my-4">
+                        <table class="w-full text-sm text-slate-400">
+                            <thead class="bg-slate-800">
+                                <tr>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Original</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Después de Disminución</th>
+                                    
+                                    <th class="px-4 py-2 text-left text-slate-300">Recuperación Necesaria</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">$100</td>
+                                    
+                                    <td class="px-4 py-2">$90 (10% pérdida)</td>
+                                    
+                                    <td class="px-4 py-2">11.11% ganancia</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">$100</td>
+                                    
+                                    <td class="px-4 py-2">$80 (20% pérdida)</td>
+                                    
+                                    <td class="px-4 py-2">25% ganancia</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">$100</td>
+                                    
+                                    <td class="px-4 py-2">$50 (50% pérdida)</td>
+                                    
+                                    <td class="px-4 py-2">100% ganancia</td>
+                                    
+                                </tr>
+                                
+                                <tr class="border-b border-slate-700">
+                                    
+                                    <td class="px-4 py-2">$100</td>
+                                    
+                                    <td class="px-4 py-2">$25 (75% pérdida)</td>
+                                    
+                                    <td class="px-4 py-2">300% ganancia</td>
+                                    
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Esto explica por qué una caída del mercado del 50% requiere una ganancia del 100% para recuperarse – necesitas duplicar tu portafolio reducido.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Disminuciones Porcentuales Consecutivas</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Al aplicar múltiples disminuciones porcentuales, se componen (multiplican), no simplemente se suman:</p>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li>10% de disminución seguido de 10% de disminución ≠ 20% de disminución total</li>
+                        
+                        <li>En cambio: 100 × 0.90 × 0.90 = 81 (una disminución total del 19%)</li>
+                        
+                        <li>Cada disminución se aplica al valor ya reducido</li>
+                        
+                    </ul>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Es por esto que las ventas con 'extra 20% de descuento sobre el precio ya reducido' dan menos descuento total de lo que los porcentajes sugieren.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Limitaciones: ¿Puedes Disminuir Más del 100%?</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">En la mayoría de los contextos del mundo real, una disminución no puede exceder el 100% porque no puedes reducir algo por debajo de cero. Una disminución del 100% lleva cualquier valor positivo a exactamente cero. Sin embargo, nuestra calculadora procesará valores mayores al 100%, resultando en números negativos – lo cual puede tener significado en contextos financieros o científicos específicos.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">¿Necesitas Sumar un Porcentaje?</h2>
+                
+            
+                
+                    <p class="text-slate-400 mb-4 leading-relaxed">Si necesitas sumar un porcentaje a un número – para aumentos, márgenes o crecimiento – usa nuestra <a href='/es/percentage-increase-calculator/' class='text-green-400 hover:underline'>calculadora de aumento porcentual</a>. Para rastrear cambios entre dos valores conocidos, la <a href='/es/percentage-change-calculator/' class='text-green-400 hover:underline'>calculadora de cambio porcentual</a> muestra tanto la dirección como la magnitud.</p>
+                
+            
+                
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Características de la Calculadora</h2>
+                
+            
+                
+                    <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                        
+                        <li><strong>Cálculo en Tiempo Real</strong> – Los resultados se actualizan instantáneamente mientras escribes</li>
+                        
+                        <li><strong>Doble Visualización</strong> – Muestra tanto el valor final como el monto de la disminución</li>
+                        
+                        <li><strong>Visibilidad de Fórmula</strong> – Ve el cálculo exacto realizado</li>
+                        
+                        <li><strong>Soporte Decimal</strong> – Maneja porcentajes precisos como 7.25%</li>
+                        
+                        <li><strong>Gratis e Ilimitado</strong> – Sin registro, sin límites en cálculos</li>
+                        
+                    </ul>
+                
+            
+        </article>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+
+<section class="py-10" id="faq">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl font-bold text-white text-center mb-8">Frequently Asked Questions</h2>
+        
+        <div class="space-y-3">
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(1)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo resto el 25% de un número?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-1" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Multiplica el número por 0.75. Por ejemplo, 200 - 25% = 200 × 0.75 = 150. El monto de la disminución es 50.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(2)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuánto es 80 menos el 15 por ciento?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-2" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        80 menos el 15% es igual a 68. Cálculo: 80 × 0.15 = 12 (disminución), luego 80 - 12 = 68.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(3)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo calculo la depreciación?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-3" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Multiplica el valor del activo por (1 - tasa de depreciación). Para 20% de depreciación en $10,000: $10,000 × 0.80 = $8,000.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(4)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuál es la fórmula para restar un porcentaje?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-4" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Nuevo Valor = Original × (1 - Porcentaje/100). Para 30% de descuento en $50: $50 × 0.70 = $35.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(5)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuánto es el 40% de descuento en $120?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-5" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        $120 con 40% de descuento = $72. Ahorras $48. Cálculo: $120 × 0.60 = $72.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(6)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Qué significa una disminución del 100%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-6" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Una disminución del 100% reduce el valor a cero. 50 disminuido en un 100% = 50 - 50 = 0.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(7)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Por qué necesito más del 50% de ganancia para recuperarme de una pérdida del 50%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-7" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Porque el porcentaje de ganancia se aplica al monto reducido. Después de una pérdida del 50%, tienes la mitad. Para duplicar y volver, necesitas una ganancia del 100%.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(8)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo funcionan los descuentos consecutivos?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-8" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Se multiplican, no se suman. 20% de descuento luego 10% de descuento: 100 × 0.80 × 0.90 = 72 (28% total, no 30%).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(9)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuánto es 500 disminuido en un 35%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-9" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        500 disminuido en un 35% = 325. Cálculo: 500 × 0.65 = 325. La disminución es 175.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(10)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cómo encuentro el precio original antes de un descuento?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-10" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Divide el precio de venta por (1 - descuento%). Si pagaste $60 después de 25% de descuento: $60 ÷ 0.75 = $80 original.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(11)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Puede una disminución ser negativa?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-11" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-11" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        Ingresar un porcentaje negativo en realidad aumentaría el valor. Usa la calculadora de aumento para adiciones.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
+                <button onclick="toggleFaq(12)" 
+                        class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-slate-750 transition-colors">
+                    <span class="font-medium text-white pr-4">¿Cuánto es 1000 menos el 7.5%?</span>
+                    <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform faq-icon-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="faq-answer-12" class="accordion-content">
+                    <div class="px-6 pb-4 text-slate-400">
+                        1000 menos el 7.5% = 925. Cálculo: 1000 × 0.075 = 75, luego 1000 - 75 = 925.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                            <span class="text-slate-900 font-bold text-lg">%</span>
+                        </div>
+                        <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                    </div>
+                    <p class="text-sm text-slate-400">Herramientas Gratuitas de Calculadora de Porcentaje en Línea</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/es/" class="text-sm text-slate-400 hover:text-green-400">Inicio</a></li>
+                        <li><a href="/es/#tools" class="text-sm text-slate-400 hover:text-green-400">Calculadoras</a></li>
+                    </ul>
+                </div>
+
+                <!-- Pages (Privacy, About, Contact, etc.) -->
+                
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        
+                        <li><a href="/es/page/about/" class="text-sm text-slate-400 hover:text-green-400">Acerca de Nosotros</a></li>
+                        
+                        <li><a href="/es/page/contact/" class="text-sm text-slate-400 hover:text-green-400">Contacto</a></li>
+                        
+                        <li><a href="/es/page/disclaimer/" class="text-sm text-slate-400 hover:text-green-400">Aviso Legal</a></li>
+                        
+                        <li><a href="/es/page/privacy-policy/" class="text-sm text-slate-400 hover:text-green-400">Política de Privacidad</a></li>
+                        
+                        <li><a href="/es/page/terms-of-use/" class="text-sm text-slate-400 hover:text-green-400">Términos de Uso</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center">
+                <p class="text-sm text-slate-500">©  Percentage Calculators. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            menu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        }
+
+        function toggleLangDropdown() {
+            const dropdown = document.getElementById('langDropdown');
+            const arrow = document.getElementById('langArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close tools dropdown if open
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsArrow = document.getElementById('toolsArrow');
+            if (toolsDropdown) toolsDropdown.classList.add('hidden');
+            if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        function toggleToolsDropdown() {
+            const dropdown = document.getElementById('toolsDropdown');
+            const arrow = document.getElementById('toolsArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close lang dropdown if open
+            const langDropdown = document.getElementById('langDropdown');
+            const langArrow = document.getElementById('langArrow');
+            if (langDropdown) langDropdown.classList.add('hidden');
+            if (langArrow) langArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            const langDropdown = document.getElementById('langDropdown');
+            const langBtn = document.getElementById('langDropdownBtn');
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
+            const langArrow = document.getElementById('langArrow');
+            const toolsArrow = document.getElementById('toolsArrow');
+
+            // Close language dropdown
+            if (langDropdown && langBtn && !langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
+                langDropdown.classList.add('hidden');
+                if (langArrow) langArrow.classList.remove('rotate-180');
+            }
+
+            // Close tools dropdown
+            if (toolsDropdown && toolsBtn && !toolsBtn.contains(e.target) && !toolsDropdown.contains(e.target)) {
+                toolsDropdown.classList.add('hidden');
+                if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+            }
+        });
+    </script>
+
+    
+<script>
+function calculate(){const o=parseFloat(document.getElementById('original_value').value),p=parseFloat(document.getElementById('decrease_percent').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),d=document.getElementById('decrease_amount');if(!isNaN(o)&&!isNaN(p)){const dec=o*(p/100),res=o-dec;r.textContent=formatNumber(res);if(d)d.textContent=formatNumber(dec);if(f)f.textContent=o+' - ('+o+' × '+p+'%) = '+formatNumber(res)}else{r.textContent='?';if(d)d.textContent='?';if(f)f.textContent=''}}function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}
+
+function toggleFaq(index) {
+    const answer = document.getElementById('faq-answer-' + index);
+    const icon = document.querySelector('.faq-icon-' + index);
+    
+    if (answer.classList.contains('active')) {
+        answer.classList.remove('active');
+        icon.classList.remove('rotate-180');
+    } else {
+        document.querySelectorAll('.accordion-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('[class*="faq-icon-"]').forEach(el => el.classList.remove('rotate-180'));
+        
+        answer.classList.add('active');
+        icon.classList.add('rotate-180');
+    }
+}
+</script>
+
+
+    
+</body>
+</html>

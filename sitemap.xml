@@ -1,90 +1,750 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <!-- Homepage with translations -->
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/" />
+        
+        <xhtml:link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/" />
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
 
-<url>
-  <loc>https://percentagecalculators.github.io/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/percentage-increase-calculator/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/percentage-decrease-calculator/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/percentage-change-calculator/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/percentage-difference-calculator/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/percentage-off-calculator/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/fraction-to-percentage-calculator/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/percentage-growth-calculator/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/reverse-percentage-calculator/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/percentage-error-calculator/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/average-percentage-calculator/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/page/about/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/page/contact/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/page/disclaimer/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/page/privacy-policy/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://percentagecalculators.github.io/page/terms-of-use/</loc>
-  <lastmod>2025-12-23T08:26:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+    <!-- Tool pages -->
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/average-percentage-calculator/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/average-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/average-percentage-calculator/" />
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/fraction-to-percentage-calculator/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/fraction-to-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/fraction-to-percentage-calculator/" />
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/percentage-change-calculator/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-change-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-change-calculator/" />
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/percentage-decrease-calculator/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-decrease-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-decrease-calculator/" />
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/percentage-difference-calculator/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-difference-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-difference-calculator/" />
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/percentage-error-calculator/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-error-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-error-calculator/" />
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/percentage-growth-calculator/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-growth-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-growth-calculator/" />
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/percentage-increase-calculator/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-increase-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-increase-calculator/" />
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/percentage-off-calculator/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/percentage-off-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/percentage-off-calculator/" />
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/reverse-percentage-calculator/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="nl" href="https://percentagecalculators.github.io/nl/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/reverse-percentage-calculator/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/reverse-percentage-calculator/" />
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
 
+    <!-- Static pages -->
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/page/about/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/page/about/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/page/about/" />
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/page/contact/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/page/contact/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/page/contact/" />
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/page/disclaimer/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/page/disclaimer/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/page/disclaimer/" />
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/page/privacy-policy/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/page/privacy-policy/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/page/privacy-policy/" />
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://percentagecalculators.github.io/page/terms-of-use/</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/page/terms-of-use/" />
+        
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/page/terms-of-use/" />
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
 
 </urlset>

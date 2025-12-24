@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="zh-tw" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>關於百分比計算器 | 免費在線計算器工具 - Percentage Calculators</title>
+    <meta name="description" content="了解百分比計算器 - 您進行精確百分比計算的免費在線目的地。由Subash Geetha Krishnan創建，為所有人簡化數學。">
+    
+    
+
+<meta name="keywords" content="關於百分比計算器, 免費計算器工具, 在線數學工具, 百分比計算器網站">
+
+
+    
+    <!-- Hreflang Tags (only if multiple translations exist) -->
+    
+    
+    <link rel="alternate" hreflang="en" href="https://percentagecalculators.github.io/page/about/" />
+    
+    <link rel="alternate" hreflang="pt" href="https://percentagecalculators.github.io/pt/page/about/" />
+    
+    <link rel="alternate" hreflang="es" href="https://percentagecalculators.github.io/es/page/about/" />
+    
+    <link rel="alternate" hreflang="fr" href="https://percentagecalculators.github.io/fr/page/about/" />
+    
+    <link rel="alternate" hreflang="de" href="https://percentagecalculators.github.io/de/page/about/" />
+    
+    <link rel="alternate" hreflang="hi" href="https://percentagecalculators.github.io/hi/page/about/" />
+    
+    <link rel="alternate" hreflang="bn" href="https://percentagecalculators.github.io/bn/page/about/" />
+    
+    <link rel="alternate" hreflang="zh-cn" href="https://percentagecalculators.github.io/zh-cn/page/about/" />
+    
+    <link rel="alternate" hreflang="id" href="https://percentagecalculators.github.io/id/page/about/" />
+    
+    <link rel="alternate" hreflang="th" href="https://percentagecalculators.github.io/th/page/about/" />
+    
+    <link rel="alternate" hreflang="zh-tw" href="https://percentagecalculators.github.io/zh-tw/page/about/" />
+    
+    <link rel="alternate" hreflang="it" href="https://percentagecalculators.github.io/it/page/about/" />
+    
+    <link rel="alternate" hreflang="ja" href="https://percentagecalculators.github.io/ja/page/about/" />
+    
+    <link rel="alternate" hreflang="ms" href="https://percentagecalculators.github.io/ms/page/about/" />
+    
+    <link rel="alternate" hreflang="ar" href="https://percentagecalculators.github.io/ar/page/about/" />
+    
+    <link rel="alternate" hreflang="ko" href="https://percentagecalculators.github.io/ko/page/about/" />
+    
+    <link rel="alternate" hreflang="ru" href="https://percentagecalculators.github.io/ru/page/about/" />
+    
+    <link rel="alternate" hreflang="vi" href="https://percentagecalculators.github.io/vi/page/about/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://percentagecalculators.github.io/page/about/" />
+    
+    
+
+    <!-- Canonical -->
+    
+<link rel="canonical" href="https://percentagecalculators.github.io/zh-tw/page/about" />
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['SF Mono', 'Monaco', 'Consolas', 'Courier New', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .accordion-content.active {
+            max-height: 1000px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+
+        
+    </style>
+
+    
+
+    
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-950 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <!-- Logo -->
+                <a href="/zh-tw/" class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                        <span class="text-slate-900 font-bold text-lg">%</span>
+                    </div>
+                    <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-1 text-sm">
+                    <a href="/zh-tw/"
+                       class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white">
+                        首頁
+                    </a>
+
+                    <!-- Tools Dropdown -->
+                    
+                    <div class="relative">
+                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <span>計算器</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="toolsArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="toolsDropdown" class="hidden absolute left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50 max-h-96 overflow-y-auto">
+                            
+                            <a href="/zh-tw/percentage-increase-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">百分比增加計算器</a>
+                            
+                            <a href="/zh-tw/percentage-decrease-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">百分比減少計算器</a>
+                            
+                            <a href="/zh-tw/percentage-change-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">百分比變化計算器</a>
+                            
+                            <a href="/zh-tw/percentage-difference-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">百分比差異計算器</a>
+                            
+                            <a href="/zh-tw/percentage-off-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">百分比折扣計算器</a>
+                            
+                            <a href="/zh-tw/fraction-to-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">分數轉百分比計算器</a>
+                            
+                            <a href="/zh-tw/percentage-growth-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">百分比增長計算器</a>
+                            
+                            <a href="/zh-tw/reverse-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">逆向百分比計算器</a>
+                            
+                            <a href="/zh-tw/percentage-error-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">百分比誤差計算器</a>
+                            
+                            <a href="/zh-tw/average-percentage-calculator/"
+                               class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white">百分比平均計算器</a>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <!-- Language Dropdown (only show if multiple languages available) -->
+                    
+                    <div class="relative ml-4">
+                        <button onclick="toggleLangDropdown()" id="langDropdownBtn"
+                                class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                            </svg>
+                            <span>ZH-TW</span>
+                            <svg class="w-3.5 h-3.5 transition-transform" id="langArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="langDropdown" class="hidden absolute right-0 mt-1 w-40 bg-slate-800 border border-slate-700 rounded-lg shadow-xl py-1 z-50">
+                            
+                            <a href="/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                English
+                            </a>
+                            
+                            <a href="/pt/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Português
+                            </a>
+                            
+                            <a href="/es/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Español
+                            </a>
+                            
+                            <a href="/fr/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Français
+                            </a>
+                            
+                            <a href="/de/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Deutsch
+                            </a>
+                            
+                            <a href="/hi/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                हिन्दी
+                            </a>
+                            
+                            <a href="/bn/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                বাংলা
+                            </a>
+                            
+                            <a href="/zh-cn/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                简体中文
+                            </a>
+                            
+                            <a href="/id/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Indonesia
+                            </a>
+                            
+                            <a href="/th/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                ไทย
+                            </a>
+                            
+                            <a href="/zh-tw/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-green-400">
+                                繁體中文
+                            </a>
+                            
+                            <a href="/it/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Italiano
+                            </a>
+                            
+                            <a href="/ja/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                日本語
+                            </a>
+                            
+                            <a href="/ms/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Bahasa Melayu
+                            </a>
+                            
+                            <a href="/ar/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                العربية
+                            </a>
+                            
+                            <a href="/ko/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                한국어
+                            </a>
+                            
+                            <a href="/ru/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Русский
+                            </a>
+                            
+                            <a href="/vi/page/about/"
+                               class="block px-4 py-2 text-sm hover:bg-slate-700 text-slate-300 hover:text-white">
+                                Tiếng Việt
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white">
+                    <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden border-t border-slate-800 py-4">
+                <a href="/zh-tw/"
+                   class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">
+                    首頁
+                </a>
+
+                <!-- Mobile Tools List -->
+                
+                <div class="mt-2 border-t border-slate-800 pt-2">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">計算器</p>
+                    
+                    <a href="/zh-tw/percentage-increase-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">百分比增加計算器</a>
+                    
+                    <a href="/zh-tw/percentage-decrease-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">百分比減少計算器</a>
+                    
+                    <a href="/zh-tw/percentage-change-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">百分比變化計算器</a>
+                    
+                    <a href="/zh-tw/percentage-difference-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">百分比差異計算器</a>
+                    
+                    <a href="/zh-tw/percentage-off-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">百分比折扣計算器</a>
+                    
+                    <a href="/zh-tw/fraction-to-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">分數轉百分比計算器</a>
+                    
+                    <a href="/zh-tw/percentage-growth-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">百分比增長計算器</a>
+                    
+                    <a href="/zh-tw/reverse-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">逆向百分比計算器</a>
+                    
+                    <a href="/zh-tw/percentage-error-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">百分比誤差計算器</a>
+                    
+                    <a href="/zh-tw/average-percentage-calculator/"
+                       class="block px-3 py-2 text-slate-300 hover:bg-slate-800 rounded">百分比平均計算器</a>
+                    
+                </div>
+                
+
+                <!-- Mobile Language Switcher -->
+                
+                <div class="mt-4 border-t border-slate-800 pt-4">
+                    <p class="px-3 py-1 text-xs font-semibold text-slate-500 uppercase">Language</p>
+                    <div class="flex flex-wrap gap-2 px-3 mt-2">
+                        
+                        <a href="/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            English
+                        </a>
+                        
+                        <a href="/pt/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Português
+                        </a>
+                        
+                        <a href="/es/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Español
+                        </a>
+                        
+                        <a href="/fr/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Français
+                        </a>
+                        
+                        <a href="/de/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Deutsch
+                        </a>
+                        
+                        <a href="/hi/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            हिन्दी
+                        </a>
+                        
+                        <a href="/bn/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            বাংলা
+                        </a>
+                        
+                        <a href="/zh-cn/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            简体中文
+                        </a>
+                        
+                        <a href="/id/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Indonesia
+                        </a>
+                        
+                        <a href="/th/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            ไทย
+                        </a>
+                        
+                        <a href="/zh-tw/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center bg-slate-700 text-green-400">
+                            繁體中文
+                        </a>
+                        
+                        <a href="/it/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Italiano
+                        </a>
+                        
+                        <a href="/ja/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            日本語
+                        </a>
+                        
+                        <a href="/ms/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Bahasa Melayu
+                        </a>
+                        
+                        <a href="/ar/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            العربية
+                        </a>
+                        
+                        <a href="/ko/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            한국어
+                        </a>
+                        
+                        <a href="/ru/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Русский
+                        </a>
+                        
+                        <a href="/vi/page/about/"
+                           class="px-3 py-2 text-sm rounded text-center text-slate-400 hover:bg-slate-800">
+                            Tiếng Việt
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Breadcrumb -->
+<div class="bg-slate-900 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <nav class="flex items-center space-x-2 text-sm">
+            <a href="/zh-tw/" class="text-slate-400 hover:text-green-400">
+                首頁
+            </a>
+            <svg class="w-4 h-4 text-slate-600" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span class="text-slate-300">關於我們</span>
+        </nav>
+    </div>
+</div>
+
+<!-- Hero Section -->
+<section class="bg-slate-950 border-b border-slate-800 py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-2xl md:text-3xl font-bold text-white">關於百分比計算器</h1>
+    </div>
+</section>
+
+<!-- Content -->
+<section class="py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-800 border border-slate-700 rounded-lg p-6 md:p-8">
+            <article class="prose prose-invert max-w-none">
+                
+                    
+                        
+                            <h2 class="text-xl font-bold text-white mt-8 mb-4 first:mt-0">我們的使命</h2>
+                        
+                    
+                        
+                            <p class="text-slate-400 mb-4 leading-relaxed">百分比計算器的創建目標很簡單：使百分比計算快速、準確且對所有人都易於訪問。無論您是做家庭作業的學生、分析業務指標的專業人士，還是在餐廳計算小費的人 - 我們都能為您服務。</p>
+                        
+                    
+                        
+                            <h2 class="text-xl font-bold text-white mt-8 mb-4 first:mt-0">我們是誰</h2>
+                        
+                    
+                        
+                            <p class="text-slate-400 mb-4 leading-relaxed">大家好！我是<strong>Subash Geetha Krishnan</strong>，擁有超過15年企業技術經驗的技術主管。我在新加坡工作，致力於解決複雜的技術問題並構建簡化生活的工具。</p>
+                        
+                    
+                        
+                            <p class="text-slate-400 mb-4 leading-relaxed">經過多年搜索簡單可靠的在線百分比計算器，發現大多數選項都充滿了廣告或缺乏功能，我決定構建更好的東西。百分比計算器是結果 - 一套乾淨、快速且完全免費的工具。</p>
+                        
+                    
+                        
+                            <h2 class="text-xl font-bold text-white mt-8 mb-4 first:mt-0">我們提供什麼</h2>
+                        
+                    
+                        
+                            <p class="text-slate-400 mb-4 leading-relaxed">我們的平台包括10個專門的百分比計算器，每個都為特定用例設計：</p>
+                        
+                    
+                        
+                            <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                                
+                                <li><strong>百分比增長計算器</strong> - 為增幅、加價和增長向數字添加百分比</li>
+                                
+                                <li><strong>百分比下降計算器</strong> - 為折扣、折舊和減少從數字中減去百分比</li>
+                                
+                                <li><strong>百分比變化計算器</strong> - 查找兩個值隨時間的變化</li>
+                                
+                                <li><strong>百分比差異計算器</strong> - 對稱地比較兩個數字</li>
+                                
+                                <li><strong>百分比折扣計算器</strong> - 計算購物時的銷售價格和節省</li>
+                                
+                                <li><strong>分數轉百分比計算器</strong> - 將分數和測試分數轉換為百分比</li>
+                                
+                                <li><strong>百分比增長計算器</strong> - 跟踪業務指標和KPI</li>
+                                
+                                <li><strong>反向百分比計算器</strong> - 從百分比中查找原始數字</li>
+                                
+                                <li><strong>百分比誤差計算器</strong> - 計算實驗室工作的實驗精度</li>
+                                
+                                <li><strong>平均百分比計算器</strong> - 查找多個百分比的平均值</li>
+                                
+                            </ul>
+                        
+                    
+                        
+                            <h2 class="text-xl font-bold text-white mt-8 mb-4 first:mt-0">為什麼選擇我們？</h2>
+                        
+                    
+                        
+                            <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                                
+                                <li><strong>100%免費</strong> - 所有工具完全免費，無需註冊</li>
+                                
+                                <li><strong>即時結果</strong> - 您輸入時計算發生，無需單擊按鈕</li>
+                                
+                                <li><strong>移動友好</strong> - 在任何設備上完美運行</li>
+                                
+                                <li><strong>無廣告泛濫</strong> - 專注於功能的乾淨界面</li>
+                                
+                                <li><strong>隱私第一</strong> - 我們不跟踪您的計算或出售您的數據</li>
+                                
+                                <li><strong>公式顯示</strong> - 查看每次計算背後的數學運算以邊學邊做</li>
+                                
+                            </ul>
+                        
+                    
+                        
+                            <h2 class="text-xl font-bold text-white mt-8 mb-4 first:mt-0">我們的承諾</h2>
+                        
+                    
+                        
+                            <p class="text-slate-400 mb-4 leading-relaxed">我們承諾保持百分比計算器免費、快速和可靠。我們根據用戶反饋不斷改進工具，並添加新功能來幫助您進行計算。</p>
+                        
+                    
+                        
+                            <p class="text-slate-400 mb-4 leading-relaxed">有建議或找到了錯誤？我們很想聽取您的意見！訪問我們的<a href='/zh-tw/contact/' class='text-green-400 hover:underline'>聯繫頁面</a>與我們聯繫。</p>
+                        
+                    
+                        
+                            <h2 class="text-xl font-bold text-white mt-8 mb-4 first:mt-0">與我們聯繫</h2>
+                        
+                    
+                        
+                            <p class="text-slate-400 mb-4 leading-relaxed">在社交媒體上關注我們以獲取更新、提示和更多內容：</p>
+                        
+                    
+                        
+                            <ul class="list-disc list-inside text-slate-400 mb-4 space-y-2">
+                                
+                                <li><a href='https://www.linkedin.com/in/buzzsubash' class='text-green-400 hover:underline' target='_blank' rel='noopener'>LinkedIn</a></li>
+                                
+                                <li><a href='https://x.com/buzzsubash' class='text-green-400 hover:underline' target='_blank' rel='noopener'>Twitter/X</a></li>
+                                
+                                <li><a href='https://github.com/buzzsubash' class='text-green-400 hover:underline' target='_blank' rel='noopener'>GitHub</a></li>
+                                
+                                <li><a href='https://www.facebook.com/buzzsubash/' class='text-green-400 hover:underline' target='_blank' rel='noopener'>Facebook</a></li>
+                                
+                            </ul>
+                        
+                    
+                
+            </article>
+
+            
+            <div class="mt-8 pt-4 border-t border-slate-700">
+                <p class="text-sm text-slate-500">
+                    Last updated: December 24, 2025
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                            <span class="text-slate-900 font-bold text-lg">%</span>
+                        </div>
+                        <span class="text-lg font-bold text-white">Percentage Calculators</span>
+                    </div>
+                    <p class="text-sm text-slate-400">免費線上百分比計算器工具</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/zh-tw/" class="text-sm text-slate-400 hover:text-green-400">首頁</a></li>
+                        <li><a href="/zh-tw/#tools" class="text-sm text-slate-400 hover:text-green-400">計算器</a></li>
+                    </ul>
+                </div>
+
+                <!-- Pages (Privacy, About, Contact, etc.) -->
+                
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        
+                        <li><a href="/zh-tw/page/about/" class="text-sm text-slate-400 hover:text-green-400">關於我們</a></li>
+                        
+                        <li><a href="/zh-tw/page/contact/" class="text-sm text-slate-400 hover:text-green-400">聯繫我們</a></li>
+                        
+                        <li><a href="/zh-tw/page/disclaimer/" class="text-sm text-slate-400 hover:text-green-400">免責聲明</a></li>
+                        
+                        <li><a href="/zh-tw/page/privacy-policy/" class="text-sm text-slate-400 hover:text-green-400">隱私政策</a></li>
+                        
+                        <li><a href="/zh-tw/page/terms-of-use/" class="text-sm text-slate-400 hover:text-green-400">使用條款</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center">
+                <p class="text-sm text-slate-500">©  Percentage Calculators. 版權所有。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            menu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        }
+
+        function toggleLangDropdown() {
+            const dropdown = document.getElementById('langDropdown');
+            const arrow = document.getElementById('langArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close tools dropdown if open
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsArrow = document.getElementById('toolsArrow');
+            if (toolsDropdown) toolsDropdown.classList.add('hidden');
+            if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        function toggleToolsDropdown() {
+            const dropdown = document.getElementById('toolsDropdown');
+            const arrow = document.getElementById('toolsArrow');
+            if (!dropdown || !arrow) return;
+
+            // Close lang dropdown if open
+            const langDropdown = document.getElementById('langDropdown');
+            const langArrow = document.getElementById('langArrow');
+            if (langDropdown) langDropdown.classList.add('hidden');
+            if (langArrow) langArrow.classList.remove('rotate-180');
+
+            dropdown.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            const langDropdown = document.getElementById('langDropdown');
+            const langBtn = document.getElementById('langDropdownBtn');
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
+            const langArrow = document.getElementById('langArrow');
+            const toolsArrow = document.getElementById('toolsArrow');
+
+            // Close language dropdown
+            if (langDropdown && langBtn && !langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
+                langDropdown.classList.add('hidden');
+                if (langArrow) langArrow.classList.remove('rotate-180');
+            }
+
+            // Close tools dropdown
+            if (toolsDropdown && toolsBtn && !toolsBtn.contains(e.target) && !toolsDropdown.contains(e.target)) {
+                toolsDropdown.classList.add('hidden');
+                if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+            }
+        });
+    </script>
+
+    
+
+    
+</body>
+</html>
