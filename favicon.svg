@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <style>
+    .bg { fill: #22c55e; }
+    .symbol { fill: #0f172a; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #22c55e; }
+      .symbol { fill: #0f172a; }
+    }
+  </style>
+  <rect class="bg" width="48" height="48" rx="8"/>
+  <text class="symbol" x="24" y="35" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle">%</text>
+</svg>
