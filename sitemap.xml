@@ -7686,4 +7686,29 @@
         <priority>0.3</priority>
     </url>
 
+    <url>
+        <loc>https://percentagecalculators.github.io/nl/page/about/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://percentagecalculators.github.io/nl/page/contact/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://percentagecalculators.github.io/nl/page/disclaimer/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://percentagecalculators.github.io/nl/page/privacy-policy/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://percentagecalculators.github.io/nl/page/terms-of-use/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
 </urlset>
