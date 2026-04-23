@@ -292,7 +292,7 @@
                 </a>
 
                 <!-- Desktop Navigation -->
-                <nav class="hidden md:flex items-center space-x-1 text-sm">
+                <nav aria-label="Main navigation" class="hidden md:flex items-center space-x-1 text-sm">
                     <a href="/it/"
                        class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white">
                         Home
@@ -301,7 +301,7 @@
                     <!-- Tools Dropdown -->
                     
                     <div class="relative">
-                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn"
+                        <button onclick="toggleToolsDropdown()" id="toolsDropdownBtn" aria-expanded="false"
                                 class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
                             <span>Calcolatori</span>
                             <svg class="w-3.5 h-3.5 transition-transform" id="toolsArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -347,7 +347,7 @@
                     <!-- Language Dropdown (only show if multiple languages available) -->
                     
                     <div class="relative ml-4">
-                        <button onclick="toggleLangDropdown()" id="langDropdownBtn"
+                        <button onclick="toggleLangDropdown()" id="langDropdownBtn" aria-expanded="false"
                                 class="px-3 py-1.5 rounded hover:bg-slate-800 text-slate-300 hover:text-white flex items-center space-x-1">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
@@ -460,7 +460,7 @@
                 </nav>
 
                 <!-- Mobile Menu Button -->
-                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white">
+                <button onclick="toggleMobileMenu()" aria-label="Toggle navigation menu" class="md:hidden p-2 text-slate-400 hover:text-white">
                     <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
                     </svg>
@@ -627,7 +627,7 @@
     <main>
         
 <!-- Breadcrumb -->
-<nav class="bg-slate-950 border-b border-slate-800">
+<nav aria-label="Breadcrumb" class="bg-slate-950 border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
         <ol class="flex items-center text-sm text-slate-400">
             <li>
@@ -660,12 +660,12 @@
     <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden">
             <div class="bg-slate-900 px-6 py-4 border-b border-slate-700">
-                <h2 class="text-lg font-semibold text-white flex items-center">
+                <div class="text-lg font-semibold text-white flex items-center">
                     
                     <span class="mr-3"><svg class="w-6 h-6 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg></span>
                     
                     Calcolatore Percentuale Inversa
-                </h2>
+                </div>
             </div>
             
             <div class="p-6">
@@ -710,7 +710,7 @@
         <article class="prose prose-invert prose-slate max-w-none">
             
                 
-                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Calcolo all&#x27;indietro da una percentuale</h2>
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4 first:mt-0">Calcolo all&#x27;indietro da una percentuale</h2>
                 
             
                 
@@ -718,7 +718,7 @@
                 
             
                 
-                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Formula della percentuale inversa</h2>
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4 first:mt-0">Formula della percentuale inversa</h2>
                 
             
                 
@@ -748,7 +748,7 @@
                 
             
                 
-                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Casi d&#x27;uso comuni</h2>
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4 first:mt-0">Casi d&#x27;uso comuni</h2>
                 
             
                 
@@ -761,7 +761,7 @@
                 
             
                 
-                    <h2 class="text-xl font-bold text-white mt-8 mb-4">Tabella di riferimento rapido</h2>
+                    <h2 class="text-xl font-bold text-white mt-8 mb-4 first:mt-0">Tabella di riferimento rapido</h2>
                 
             
                 
@@ -1111,31 +1111,39 @@
         function toggleLangDropdown() {
             const dropdown = document.getElementById('langDropdown');
             const arrow = document.getElementById('langArrow');
+            const btn = document.getElementById('langDropdownBtn');
             if (!dropdown || !arrow) return;
 
             // Close tools dropdown if open
             const toolsDropdown = document.getElementById('toolsDropdown');
             const toolsArrow = document.getElementById('toolsArrow');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
             if (toolsDropdown) toolsDropdown.classList.add('hidden');
             if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+            if (toolsBtn) toolsBtn.setAttribute('aria-expanded', 'false');
 
             dropdown.classList.toggle('hidden');
             arrow.classList.toggle('rotate-180');
+            if (btn) btn.setAttribute('aria-expanded', String(!dropdown.classList.contains('hidden')));
         }
 
         function toggleToolsDropdown() {
             const dropdown = document.getElementById('toolsDropdown');
             const arrow = document.getElementById('toolsArrow');
+            const btn = document.getElementById('toolsDropdownBtn');
             if (!dropdown || !arrow) return;
 
             // Close lang dropdown if open
             const langDropdown = document.getElementById('langDropdown');
             const langArrow = document.getElementById('langArrow');
+            const langBtn = document.getElementById('langDropdownBtn');
             if (langDropdown) langDropdown.classList.add('hidden');
             if (langArrow) langArrow.classList.remove('rotate-180');
+            if (langBtn) langBtn.setAttribute('aria-expanded', 'false');
 
             dropdown.classList.toggle('hidden');
             arrow.classList.toggle('rotate-180');
+            if (btn) btn.setAttribute('aria-expanded', String(!dropdown.classList.contains('hidden')));
         }
 
         // Close dropdowns when clicking outside
@@ -1151,14 +1159,47 @@
             if (langDropdown && langBtn && !langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
                 langDropdown.classList.add('hidden');
                 if (langArrow) langArrow.classList.remove('rotate-180');
+                langBtn.setAttribute('aria-expanded', 'false');
             }
 
             // Close tools dropdown
             if (toolsDropdown && toolsBtn && !toolsBtn.contains(e.target) && !toolsDropdown.contains(e.target)) {
                 toolsDropdown.classList.add('hidden');
                 if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+                toolsBtn.setAttribute('aria-expanded', 'false');
             }
         });
+
+        // Close dropdowns on Escape key; return focus to trigger button
+        document.addEventListener('keydown', function(e) {
+            if (e.key !== 'Escape') return;
+            const langDropdown = document.getElementById('langDropdown');
+            const langBtn = document.getElementById('langDropdownBtn');
+            const langArrow = document.getElementById('langArrow');
+            const toolsDropdown = document.getElementById('toolsDropdown');
+            const toolsBtn = document.getElementById('toolsDropdownBtn');
+            const toolsArrow = document.getElementById('toolsArrow');
+            if (langDropdown && !langDropdown.classList.contains('hidden')) {
+                langDropdown.classList.add('hidden');
+                if (langArrow) langArrow.classList.remove('rotate-180');
+                if (langBtn) { langBtn.setAttribute('aria-expanded', 'false'); langBtn.focus(); }
+            }
+            if (toolsDropdown && !toolsDropdown.classList.contains('hidden')) {
+                toolsDropdown.classList.add('hidden');
+                if (toolsArrow) toolsArrow.classList.remove('rotate-180');
+                if (toolsBtn) { toolsBtn.setAttribute('aria-expanded', 'false'); toolsBtn.focus(); }
+            }
+        });
+
+        // Close mobile menu automatically when a nav link is tapped
+        const mobileMenuEl = document.getElementById('mobileMenu');
+        if (mobileMenuEl) {
+            mobileMenuEl.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A' && !mobileMenuEl.classList.contains('hidden')) {
+                    toggleMobileMenu();
+                }
+            });
+        }
     </script>
 
     
