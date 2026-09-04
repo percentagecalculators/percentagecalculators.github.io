@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free percentage off calculator. Calculate sale prices and savings instantly. Find the final price after any discount. Your shopping companion for deals.">
+    <meta name="author" content="Percentage Calculators">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://percentagecalculators.github.io/percentage-off-calculator">
+    <title>Percentage Off Calculator | Discount &amp; Sale Price Calculator</title>
+
+    <link rel="preload" href="/fonts/dm-sans-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/jetbrains-mono-variable.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="icon" href="/favicon.ico">
+    <meta name="theme-color" content="#0f172a">
+
+    <style></style>
+    <link rel="preload" href="/typography.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="/typography.min.css">
+        <link rel="stylesheet" href="/styles.min.css">
+    </noscript>
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Percentage Off Calculator","url":"https://percentagecalculators.github.io/percentage-off-calculator","description":"Free percentage off calculator. Calculate sale prices and savings instantly. Find the final price after any discount. Your shopping companion for deals.","applicationCategory":"CalculatorApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+    
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I calculate 20% off?","acceptedAnswer":{"@type":"Answer","text":"Multiply the price by 0.80 (or subtract 20% of the price). $50 with 20% off: $50 \u00d7 0.80 = $40."}},{"@type":"Question","name":"What is 25% off $60?","acceptedAnswer":{"@type":"Answer","text":"25% off $60 = $45. You save $15. Calculation: $60 \u00d7 0.75 = $45."}},{"@type":"Question","name":"How do I calculate the original price from sale price?","acceptedAnswer":{"@type":"Answer","text":"Divide sale price by (1 - discount/100). If sale is $60 after 25% off: $60 \u00f7 0.75 = $80 original."}},{"@type":"Question","name":"What is 40% off $75?","acceptedAnswer":{"@type":"Answer","text":"40% off $75 = $45. You save $30. Calculation: $75 \u00d7 0.60 = $45."}},{"@type":"Question","name":"How do stacked discounts work?","acceptedAnswer":{"@type":"Answer","text":"They multiply, not add. 20% off then 10% off = 0.80 \u00d7 0.90 = 0.72 = 28% total discount, not 30%."}},{"@type":"Question","name":"Is 50% off the same as half price?","acceptedAnswer":{"@type":"Answer","text":"Yes, 50% off means you pay 50% of the original, which is half price."}},{"@type":"Question","name":"What is 15% off $200?","acceptedAnswer":{"@type":"Answer","text":"15% off $200 = $170. You save $30. Calculation: $200 \u00d7 0.85 = $170."}},{"@type":"Question","name":"How do I calculate discount percentage?","acceptedAnswer":{"@type":"Answer","text":"((Original - Sale) \u00f7 Original) \u00d7 100. If original is $80 and sale is $60: (20\u00f780) \u00d7 100 = 25% off."}},{"@type":"Question","name":"What is 33% off?","acceptedAnswer":{"@type":"Answer","text":"33% off means you pay 67% of the original price. On $99: $99 \u00d7 0.67 = $66.33."}},{"@type":"Question","name":"Is tax calculated before or after discount?","acceptedAnswer":{"@type":"Answer","text":"Tax is typically on the sale price (after discount), not the original price."}},{"@type":"Question","name":"What is 30% off $150?","acceptedAnswer":{"@type":"Answer","text":"30% off $150 = $105. Savings: $45. Calculation: $150 \u00d7 0.70 = $105."}},{"@type":"Question","name":"How much is 10% off $89?","acceptedAnswer":{"@type":"Answer","text":"10% off $89 = $80.10. You save $8.90. Calculation: $89 \u00d7 0.90 = $80.10."}}]}</script>
+
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+    <script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5426315045205785"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header>
+    <nav class="top-nav" aria-label="Primary navigation">
+        <a href="/" class="logo">
+            <span class="logo-icon" aria-hidden="true">%</span>
+            <span>Percentage Calculators</span>
+        </a>
+        <div class="category-strip">
+            <div class="cat-menu-item"><a href="/" class="cat-menu-btn">Home</a></div><div class="cat-menu-item" data-cat-key="core"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-core">Core<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-core"><div class="menu-panel-header"><span class="more-menu-icon">%</span><div><strong>Core Percentage Tools</strong><p>The essentials: find a percentage, increase or decrease a number, and compare two values.</p></div></div><div class="menu-panel-links"><a href="/">Percentage Calculator</a><a href="/percentage-increase-calculator">Percentage Increase Calculator</a><a href="/percentage-decrease-calculator">Percentage Decrease Calculator</a><a href="/percentage-change-calculator">Percentage Change Calculator</a><a href="/percentage-difference-calculator">Percentage Difference Calculator</a><a href="/percentage-off-calculator">Percentage Off Calculator</a><a href="/reverse-percentage-calculator">Reverse Percentage Calculator</a><a href="/percentage-error-calculator">Percentage Error Calculator</a><a href="/average-percentage-calculator">Average Percentage Calculator</a><a href="/percentage-point-calculator">Percentage Point Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="converters"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-converters">Converters<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-converters"><div class="menu-panel-header"><span class="more-menu-icon">=</span><div><strong>Converters</strong><p>Convert between percentages, fractions, decimals, ratios, and other unit forms.</p></div></div><div class="menu-panel-links"><a href="/fraction-to-percentage-calculator">Fraction to Percentage Calculator</a><a href="/decimal-to-percentage-calculator">Decimal to Percentage Calculator</a><a href="/ratio-to-percentage-calculator">Ratio to Percentage Calculator</a><a href="/ppm-to-percentage-calculator">PPM to Percentage Calculator</a><a href="/basis-points-calculator">Basis Points Calculator</a><a href="/slope-percentage-calculator">Slope Percentage Calculator</a><a href="/alcohol-proof-calculator">Alcohol Proof Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="health-fitness"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-health-fitness">Health<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-health-fitness"><div class="menu-panel-header"><span class="more-menu-icon">+</span><div><strong>Health &amp; Fitness</strong><p>Body fat, BMI, body composition, and weight-loss percentage calculators.</p></div></div><div class="menu-panel-links"><a href="/body-fat-percentage-calculator">Body Fat Percentage Calculator</a><a href="/bmi-calculator">BMI Calculator</a><a href="/body-composition-calculator">Body Composition Calculator</a><a href="/weight-loss-percentage-calculator">Weight Loss Percentage Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="education"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-education">Education<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-education"><div class="menu-panel-header"><span class="more-menu-icon">ED</span><div><strong>Education</strong><p>GPA, CGPA, SGPA, marks, and percentile conversions for students.</p></div></div><div class="menu-panel-links"><a href="/gpa-to-percentage-calculator">GPA to Percentage Calculator</a><a href="/cgpa-to-percentage-calculator">CGPA to Percentage Calculator</a><a href="/sgpa-to-percentage-calculator">SGPA to Percentage Calculator</a><a href="/marks-percentage-calculator">Marks Percentage Calculator</a><a href="/percentile-to-percentage-calculator">Percentile to Percentage Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="finance"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-finance">Finance<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-finance"><div class="menu-panel-header"><span class="more-menu-icon">$</span><div><strong>Finance &amp; Business</strong><p>Interest rates, profit margins, markup, salary raises, and business growth.</p></div></div><div class="menu-panel-links"><a href="/percentage-growth-calculator">Percentage Growth Calculator</a><a href="/apy-calculator">APY Calculator</a><a href="/apr-calculator">APR Calculator</a><a href="/apr-apy-converter">APR to APY Converter</a><a href="/simple-interest-calculator">Simple Interest Calculator</a><a href="/compound-interest-calculator">Compound Interest Calculator</a><a href="/loan-interest-calculator">Loan Interest Calculator</a><a href="/profit-percentage-calculator">Profit Percentage Calculator</a><a href="/profit-margin-calculator">Profit Margin Calculator</a><a href="/markup-calculator">Markup Calculator</a><a href="/gross-margin-calculator">Gross Margin Calculator</a><a href="/salary-increase-calculator">Salary Increase Calculator</a><a href="/commission-calculator">Commission Calculator</a><a href="/depreciation-calculator">Depreciation Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="everyday"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-everyday">Everyday<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-everyday"><div class="menu-panel-header"><span class="more-menu-icon">..</span><div><strong>Everyday &amp; Niche</strong><p>Tips, win rates, baking ratios, food cost, and solution-concentration percentages.</p></div></div><div class="menu-panel-links"><a href="/tip-calculator">Tip Calculator</a><a href="/win-loss-percentage-calculator">Win/Loss Percentage Calculator</a><a href="/bakers-percentage-calculator">Baker&#x27;s Percentage Calculator</a><a href="/food-cost-percentage-calculator">Food Cost Percentage Calculator</a><a href="/percent-solution-calculator">Percent Solution Calculator</a></div></div></div><div class="cat-menu-item" id="moreMenuItem" style="display:none"><button type="button" class="cat-menu-btn" id="moreMenuBtn" aria-expanded="false" aria-controls="moreMenuPanel">More<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu more-menu" id="moreMenuPanel"><div class="more-menu-section" data-cat-key="core"><div class="more-menu-heading"><span class="more-menu-icon">%</span>Core Percentage Tools</div><a href="/">Percentage Calculator</a><a href="/percentage-increase-calculator">Percentage Increase Calculator</a><a href="/percentage-decrease-calculator">Percentage Decrease Calculator</a><a href="/percentage-change-calculator">Percentage Change Calculator</a><a href="/percentage-difference-calculator">Percentage Difference Calculator</a><a href="/percentage-off-calculator">Percentage Off Calculator</a><a href="/reverse-percentage-calculator">Reverse Percentage Calculator</a><a href="/percentage-error-calculator">Percentage Error Calculator</a><a href="/average-percentage-calculator">Average Percentage Calculator</a><a href="/percentage-point-calculator">Percentage Point Calculator</a></div><div class="more-menu-section" data-cat-key="converters"><div class="more-menu-heading"><span class="more-menu-icon">=</span>Converters</div><a href="/fraction-to-percentage-calculator">Fraction to Percentage Calculator</a><a href="/decimal-to-percentage-calculator">Decimal to Percentage Calculator</a><a href="/ratio-to-percentage-calculator">Ratio to Percentage Calculator</a><a href="/ppm-to-percentage-calculator">PPM to Percentage Calculator</a><a href="/basis-points-calculator">Basis Points Calculator</a><a href="/slope-percentage-calculator">Slope Percentage Calculator</a><a href="/alcohol-proof-calculator">Alcohol Proof Calculator</a></div><div class="more-menu-section" data-cat-key="health-fitness"><div class="more-menu-heading"><span class="more-menu-icon">+</span>Health &amp; Fitness</div><a href="/body-fat-percentage-calculator">Body Fat Percentage Calculator</a><a href="/bmi-calculator">BMI Calculator</a><a href="/body-composition-calculator">Body Composition Calculator</a><a href="/weight-loss-percentage-calculator">Weight Loss Percentage Calculator</a></div><div class="more-menu-section" data-cat-key="education"><div class="more-menu-heading"><span class="more-menu-icon">ED</span>Education</div><a href="/gpa-to-percentage-calculator">GPA to Percentage Calculator</a><a href="/cgpa-to-percentage-calculator">CGPA to Percentage Calculator</a><a href="/sgpa-to-percentage-calculator">SGPA to Percentage Calculator</a><a href="/marks-percentage-calculator">Marks Percentage Calculator</a><a href="/percentile-to-percentage-calculator">Percentile to Percentage Calculator</a></div><div class="more-menu-section" data-cat-key="finance"><div class="more-menu-heading"><span class="more-menu-icon">$</span>Finance &amp; Business</div><a href="/percentage-growth-calculator">Percentage Growth Calculator</a><a href="/apy-calculator">APY Calculator</a><a href="/apr-calculator">APR Calculator</a><a href="/apr-apy-converter">APR to APY Converter</a><a href="/simple-interest-calculator">Simple Interest Calculator</a><a href="/compound-interest-calculator">Compound Interest Calculator</a><a href="/loan-interest-calculator">Loan Interest Calculator</a><a href="/profit-percentage-calculator">Profit Percentage Calculator</a><a href="/profit-margin-calculator">Profit Margin Calculator</a><a href="/markup-calculator">Markup Calculator</a><a href="/gross-margin-calculator">Gross Margin Calculator</a><a href="/salary-increase-calculator">Salary Increase Calculator</a><a href="/commission-calculator">Commission Calculator</a><a href="/depreciation-calculator">Depreciation Calculator</a></div><div class="more-menu-section" data-cat-key="everyday"><div class="more-menu-heading"><span class="more-menu-icon">..</span>Everyday &amp; Niche</div><a href="/tip-calculator">Tip Calculator</a><a href="/win-loss-percentage-calculator">Win/Loss Percentage Calculator</a><a href="/bakers-percentage-calculator">Baker&#x27;s Percentage Calculator</a><a href="/food-cost-percentage-calculator">Food Cost Percentage Calculator</a><a href="/percent-solution-calculator">Percent Solution Calculator</a></div></div></div>
+        </div>
+        <button type="button" class="nav-hamburger" id="navHamburgerBtn" aria-expanded="false" aria-controls="navDrawer" aria-label="Open menu"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg></button>
+    </nav>
+</header>
+<div id="navDrawerBackdrop" hidden></div><div class="nav-drawer-panel" id="navDrawer" role="dialog" aria-modal="true" aria-label="Site navigation" hidden><button type="button" class="nav-drawer-close" id="navDrawerClose" aria-label="Close menu"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg></button><div class="nav-drawer-section"><a href="/">Home</a></div><div class="nav-drawer-section" data-cluster="core"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-core"><span class="more-menu-icon">%</span><span><strong>Core Percentage Tools</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-core"><a href="/">Percentage Calculator</a><a href="/percentage-increase-calculator">Percentage Increase Calculator</a><a href="/percentage-decrease-calculator">Percentage Decrease Calculator</a><a href="/percentage-change-calculator">Percentage Change Calculator</a><a href="/percentage-difference-calculator">Percentage Difference Calculator</a><a href="/percentage-off-calculator">Percentage Off Calculator</a><a href="/reverse-percentage-calculator">Reverse Percentage Calculator</a><a href="/percentage-error-calculator">Percentage Error Calculator</a><a href="/average-percentage-calculator">Average Percentage Calculator</a><a href="/percentage-point-calculator">Percentage Point Calculator</a></div></div><div class="nav-drawer-section" data-cluster="converters"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-converters"><span class="more-menu-icon">=</span><span><strong>Converters</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-converters"><a href="/fraction-to-percentage-calculator">Fraction to Percentage Calculator</a><a href="/decimal-to-percentage-calculator">Decimal to Percentage Calculator</a><a href="/ratio-to-percentage-calculator">Ratio to Percentage Calculator</a><a href="/ppm-to-percentage-calculator">PPM to Percentage Calculator</a><a href="/basis-points-calculator">Basis Points Calculator</a><a href="/slope-percentage-calculator">Slope Percentage Calculator</a><a href="/alcohol-proof-calculator">Alcohol Proof Calculator</a></div></div><div class="nav-drawer-section" data-cluster="health-fitness"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-health-fitness"><span class="more-menu-icon">+</span><span><strong>Health &amp; Fitness</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-health-fitness"><a href="/body-fat-percentage-calculator">Body Fat Percentage Calculator</a><a href="/bmi-calculator">BMI Calculator</a><a href="/body-composition-calculator">Body Composition Calculator</a><a href="/weight-loss-percentage-calculator">Weight Loss Percentage Calculator</a></div></div><div class="nav-drawer-section" data-cluster="education"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-education"><span class="more-menu-icon">ED</span><span><strong>Education</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-education"><a href="/gpa-to-percentage-calculator">GPA to Percentage Calculator</a><a href="/cgpa-to-percentage-calculator">CGPA to Percentage Calculator</a><a href="/sgpa-to-percentage-calculator">SGPA to Percentage Calculator</a><a href="/marks-percentage-calculator">Marks Percentage Calculator</a><a href="/percentile-to-percentage-calculator">Percentile to Percentage Calculator</a></div></div><div class="nav-drawer-section" data-cluster="finance"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-finance"><span class="more-menu-icon">$</span><span><strong>Finance &amp; Business</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-finance"><a href="/percentage-growth-calculator">Percentage Growth Calculator</a><a href="/apy-calculator">APY Calculator</a><a href="/apr-calculator">APR Calculator</a><a href="/apr-apy-converter">APR to APY Converter</a><a href="/simple-interest-calculator">Simple Interest Calculator</a><a href="/compound-interest-calculator">Compound Interest Calculator</a><a href="/loan-interest-calculator">Loan Interest Calculator</a><a href="/profit-percentage-calculator">Profit Percentage Calculator</a><a href="/profit-margin-calculator">Profit Margin Calculator</a><a href="/markup-calculator">Markup Calculator</a><a href="/gross-margin-calculator">Gross Margin Calculator</a><a href="/salary-increase-calculator">Salary Increase Calculator</a><a href="/commission-calculator">Commission Calculator</a><a href="/depreciation-calculator">Depreciation Calculator</a></div></div><div class="nav-drawer-section" data-cluster="everyday"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-everyday"><span class="more-menu-icon">..</span><span><strong>Everyday &amp; Niche</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-everyday"><a href="/tip-calculator">Tip Calculator</a><a href="/win-loss-percentage-calculator">Win/Loss Percentage Calculator</a><a href="/bakers-percentage-calculator">Baker&#x27;s Percentage Calculator</a><a href="/food-cost-percentage-calculator">Food Cost Percentage Calculator</a><a href="/percent-solution-calculator">Percent Solution Calculator</a></div></div></div>
+
+<main id="main-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Percentage Off Calculator</li></ol></nav><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://percentagecalculators.github.io/"},{"@type":"ListItem","position":2,"name":"Percentage Off Calculator"}]}</script>
+    <section class="hero">
+        <h1>Percentage Off Calculator</h1>
+        <p class="subtitle">Type in the <strong>original price</strong> and the <strong>discount percentage</strong>, and this <strong>percentage off calculator</strong> shows you the <strong>sale price</strong> and exactly how much <strong>money you save</strong>. Next time you see a "30% off" sign, you'll know what you're actually paying.</p>
+    </section>
+
+    <aside class="ad-slot ad-slot-header" aria-label="Advertisement"><ins class="adsbygoogle" id="adsense-header" data-ad-client="ca-pub-5426315045205785" data-ad-slot="3575522428"></ins><script>(function(){var ins=document.getElementById("adsense-header");if(window.innerWidth>=728){ins.style.display="inline-block";ins.style.width="728px";ins.style.height="90px";}else{ins.style.display="inline-block";ins.style.width="300px";ins.style.height="100px";}(adsbygoogle=window.adsbygoogle||[]).push({});})();</script></aside>
+
+    <section class="tool-section">
+        <form data-mode="" data-layout="raw" novalidate>
+            <div class="tool-card">
+  <div class="tool-card-head"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H2l7 7-7 7h7m6-14h7l-7 7 7 7h-7"/></svg>Percentage Off Calculator</div>
+  <div class="tool-card-body">
+    <div class="calc-field"><label for="original_price">Original Price ($)</label><input type="number" id="original_price" step="any" placeholder="Enter price" oninput="calculate()"></div>
+    <div class="calc-field">
+      <label for="discount_percent">Discount</label>
+      <div class="input-row"><input type="number" id="discount_percent" step="any" placeholder="Enter discount %" oninput="calculate()"><span class="unit">%</span></div>
+    </div>
+    <div class="calc-results">
+      <div class="calc-result-row"><span class="label">You Save:</span><span class="value" id="savings_amount">?</span></div>
+      <div class="calc-result-row primary"><span class="label">Final Price:</span><span class="value" id="result">?</span></div>
+    </div>
+    <p class="calc-formula" id="formula_display"></p>
+  </div>
+</div>
+        </form>
+        
+        
+    </section>
+
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><aside class="ad-slot" aria-label="Advertisement"><ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5426315045205785" data-ad-slot="2877013843"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></aside><h2>Your Ultimate Shopping Discount Calculator</h2>
+<p>Never wonder about sale prices again! This discount calculator instantly shows you exactly what you'll pay and how much you'll save. Whether it's Black Friday deals, clearance sales, or everyday discounts, know your final price before you reach the checkout.</p>
+<p>Simply enter the original price and the discount percentage, and our calculator displays both the sale price and your total savings in real-time as you type.</p>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>How Discount Calculations Work</h2>
+<h3>The Basic Discount Formula</h3>
+<div class="formula-block">Sale Price = Original Price × (1 - Discount% ÷ 100)<br>Savings = Original Price × (Discount% ÷ 100)</div>
+<p>For example, a $80 item with 25% off: $80 × 0.75 = $60 sale price, with $20 in savings.</p>
+</div></div></div></section>
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><h2>Quick Reference: Common Discounts</h2>
+<table>
+<thead>
+<tr><th>Discount</th><th>Multiplier</th><th>You Pay</th><th>On $100 Item</th></tr>
+</thead>
+<tbody>
+<tr><td>10% off</td><td>0.90</td><td>90%</td><td>$90</td></tr>
+<tr><td>15% off</td><td>0.85</td><td>85%</td><td>$85</td></tr>
+<tr><td>20% off</td><td>0.80</td><td>80%</td><td>$80</td></tr>
+<tr><td>25% off</td><td>0.75</td><td>75%</td><td>$75</td></tr>
+<tr><td>30% off</td><td>0.70</td><td>70%</td><td>$70</td></tr>
+<tr><td>40% off</td><td>0.60</td><td>60%</td><td>$60</td></tr>
+<tr><td>50% off</td><td>0.50</td><td>50%</td><td>$50</td></tr>
+<tr><td>75% off</td><td>0.25</td><td>25%</td><td>$25</td></tr>
+</tbody>
+</table>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>Understanding Stacked Discounts</h2>
+<p>Many stores offer 'extra' discounts on already-reduced items. Understanding how these stack is crucial for calculating your true savings.</p>
+<h3>How Stacked Discounts Work</h3>
+<p>When a store advertises '25% off + extra 10% at checkout,' the discounts apply sequentially, not combined:</p>
+<ol>
+<li>Original price: $100</li>
+<li>After 25% off: $100 × 0.75 = $75</li>
+<li>After extra 10%: $75 × 0.90 = $67.50</li>
+<li>Total discount: 32.5%, NOT 35%</li>
+</ol>
+<p>This is why stacked discounts always give less than the sum of the percentages. Use our <a href="/">percentage calculation tools</a> to calculate each step.</p>
+</div></div></div></section>
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><h2>Types of Retail Discounts</h2>
+<h3>Percentage Off</h3>
+<p>The most common type – a fixed percentage reduction from the original price. '40% off everything' means you pay 60% of all original prices.</p>
+<h3>BOGO (Buy One Get One)</h3>
+<ul>
+<li><strong>BOGO Free</strong> – Second item free (50% off when buying 2)</li>
+<li><strong>BOGO 50% Off</strong> – Second item half price (25% off when buying 2)</li>
+<li><strong>BOGO 25% Off</strong> – Second item 25% off (12.5% off when buying 2)</li>
+</ul>
+<h3>Dollar-Off vs. Percentage Off</h3>
+<p>Sometimes choosing between '$10 off' and '20% off' depends on the price:</p>
+<ul>
+<li>Under $50: $10 off is better than 20% off</li>
+<li>Exactly $50: They're equal</li>
+<li>Over $50: 20% off is better</li>
+</ul>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>Sales Tax Considerations</h2>
+<p>In most jurisdictions, sales tax applies to the discounted price, not the original. So a $100 item at 20% off with 8% tax:</p>
+<ol>
+<li>Discount: $100 × 0.80 = $80</li>
+<li>Tax: $80 × 0.08 = $6.40</li>
+<li>Total: $80 + $6.40 = $86.40</li>
+</ol>
+</div></div></div></section>
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><h2>Smart Shopping Tips</h2>
+<ul>
+<li><strong>Compare unit prices</strong> – A smaller package at 40% off might still cost more per unit than the larger package at 20% off</li>
+<li><strong>Check price history</strong> – Some 'sales' are from inflated original prices</li>
+<li><strong>Consider timing</strong> – End-of-season clearances often offer deeper discounts</li>
+<li><strong>Stack strategically</strong> – Apply coupons after store discounts for maximum savings</li>
+<li><strong>Don't buy just because it's on sale</strong> – 50% off something you don't need is 100% waste</li>
+</ul>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>Comparing Prices Between Stores?</h2>
+<p>Use our <a href="/percentage-difference-calculator">percentage difference calculator</a> to see how much prices vary. For fraction discounts (like '1/3 off'), our <a href="/fraction-to-percentage-calculator">fraction to percentage converter</a> can help.</p>
+</div></div></div></section>
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><h2>Why Use This Calculator?</h2>
+<ul>
+<li><strong>Instant Results</strong> – See sale price as you type</li>
+<li><strong>Dual Display</strong> – Shows both final price AND savings amount</li>
+<li><strong>Mobile Friendly</strong> – Use it in the store while shopping</li>
+<li><strong>Formula Shown</strong> – Understand the calculation</li>
+<li><strong>Completely Free</strong> – No app download needed</li>
+</ul></div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="section-header"><h2>Frequently Asked Questions</h2></div><dl class="faq-list"><div class="faq-item"><dt>How do I calculate 20% off?</dt><dd>Multiply the price by 0.80 (or subtract 20% of the price). $50 with 20% off: $50 × 0.80 = $40.</dd></div><div class="faq-item"><dt>What is 25% off $60?</dt><dd>25% off $60 = $45. You save $15. Calculation: $60 × 0.75 = $45.</dd></div><div class="faq-item"><dt>How do I calculate the original price from sale price?</dt><dd>Divide sale price by (1 - discount/100). If sale is $60 after 25% off: $60 ÷ 0.75 = $80 original.</dd></div><div class="faq-item"><dt>What is 40% off $75?</dt><dd>40% off $75 = $45. You save $30. Calculation: $75 × 0.60 = $45.</dd></div><div class="faq-item"><dt>How do stacked discounts work?</dt><dd>They multiply, not add. 20% off then 10% off = 0.80 × 0.90 = 0.72 = 28% total discount, not 30%.</dd></div><div class="faq-item"><dt>Is 50% off the same as half price?</dt><dd>Yes, 50% off means you pay 50% of the original, which is half price.</dd></div><div class="faq-item"><dt>What is 15% off $200?</dt><dd>15% off $200 = $170. You save $30. Calculation: $200 × 0.85 = $170.</dd></div><div class="faq-item"><dt>How do I calculate discount percentage?</dt><dd>((Original - Sale) ÷ Original) × 100. If original is $80 and sale is $60: (20÷80) × 100 = 25% off.</dd></div><div class="faq-item"><dt>What is 33% off?</dt><dd>33% off means you pay 67% of the original price. On $99: $99 × 0.67 = $66.33.</dd></div><div class="faq-item"><dt>Is tax calculated before or after discount?</dt><dd>Tax is typically on the sale price (after discount), not the original price.</dd></div><div class="faq-item"><dt>What is 30% off $150?</dt><dd>30% off $150 = $105. Savings: $45. Calculation: $150 × 0.70 = $105.</dd></div><div class="faq-item"><dt>How much is 10% off $89?</dt><dd>10% off $89 = $80.10. You save $8.90. Calculation: $89 × 0.90 = $80.10.</dd></div></dl></div></section>
+<aside class="ad-slot" aria-label="Advertisement"><ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5426315045205785" data-ad-slot="3843445306"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></aside>
+
+</main>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand-row">
+            <a href="/" class="footer-logo">
+                <span class="logo-icon" aria-hidden="true">%</span>
+                <span>Percentage Calculators</span>
+            </a>
+            <p class="footer-tagline">Free online percentage calculators. Every calculation runs entirely in your browser — instant results, no sign-up.</p>
+        </div>
+        <nav class="footer-mega" id="all-tools" aria-label="Site map">
+            <div class="footer-mega-row"><div class="footer-mega-label">Core Percentage Tools <span class="footer-mega-count">(10)</span></div><div class="footer-mega-links"><a href="/">Percentage Calculator</a><a href="/percentage-increase-calculator">Percentage Increase Calculator</a><a href="/percentage-decrease-calculator">Percentage Decrease Calculator</a><a href="/percentage-change-calculator">Percentage Change Calculator</a><a href="/percentage-difference-calculator">Percentage Difference Calculator</a><a href="/percentage-off-calculator">Percentage Off Calculator</a><a href="/reverse-percentage-calculator">Reverse Percentage Calculator</a><a href="/percentage-error-calculator">Percentage Error Calculator</a><a href="/average-percentage-calculator">Average Percentage Calculator</a><a href="/percentage-point-calculator">Percentage Point Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Converters <span class="footer-mega-count">(7)</span></div><div class="footer-mega-links"><a href="/fraction-to-percentage-calculator">Fraction to Percentage Calculator</a><a href="/decimal-to-percentage-calculator">Decimal to Percentage Calculator</a><a href="/ratio-to-percentage-calculator">Ratio to Percentage Calculator</a><a href="/ppm-to-percentage-calculator">PPM to Percentage Calculator</a><a href="/basis-points-calculator">Basis Points Calculator</a><a href="/slope-percentage-calculator">Slope Percentage Calculator</a><a href="/alcohol-proof-calculator">Alcohol Proof Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Health &amp; Fitness <span class="footer-mega-count">(4)</span></div><div class="footer-mega-links"><a href="/body-fat-percentage-calculator">Body Fat Percentage Calculator</a><a href="/bmi-calculator">BMI Calculator</a><a href="/body-composition-calculator">Body Composition Calculator</a><a href="/weight-loss-percentage-calculator">Weight Loss Percentage Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Education <span class="footer-mega-count">(5)</span></div><div class="footer-mega-links"><a href="/gpa-to-percentage-calculator">GPA to Percentage Calculator</a><a href="/cgpa-to-percentage-calculator">CGPA to Percentage Calculator</a><a href="/sgpa-to-percentage-calculator">SGPA to Percentage Calculator</a><a href="/marks-percentage-calculator">Marks Percentage Calculator</a><a href="/percentile-to-percentage-calculator">Percentile to Percentage Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Finance &amp; Business <span class="footer-mega-count">(14)</span></div><div class="footer-mega-links"><a href="/percentage-growth-calculator">Percentage Growth Calculator</a><a href="/apy-calculator">APY Calculator</a><a href="/apr-calculator">APR Calculator</a><a href="/apr-apy-converter">APR to APY Converter</a><a href="/simple-interest-calculator">Simple Interest Calculator</a><a href="/compound-interest-calculator">Compound Interest Calculator</a><a href="/loan-interest-calculator">Loan Interest Calculator</a><a href="/profit-percentage-calculator">Profit Percentage Calculator</a><a href="/profit-margin-calculator">Profit Margin Calculator</a><a href="/markup-calculator">Markup Calculator</a><a href="/gross-margin-calculator">Gross Margin Calculator</a><a href="/salary-increase-calculator">Salary Increase Calculator</a><a href="/commission-calculator">Commission Calculator</a><a href="/depreciation-calculator">Depreciation Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Everyday &amp; Niche <span class="footer-mega-count">(5)</span></div><div class="footer-mega-links"><a href="/tip-calculator">Tip Calculator</a><a href="/win-loss-percentage-calculator">Win/Loss Percentage Calculator</a><a href="/bakers-percentage-calculator">Baker&#x27;s Percentage Calculator</a><a href="/food-cost-percentage-calculator">Food Cost Percentage Calculator</a><a href="/percent-solution-calculator">Percent Solution Calculator</a></div></div>
+        </nav>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Percentage Calculators. All rights reserved.</p>
+            <nav aria-label="Footer links">
+                <div class="footer-legal-links">
+                    <a href="/about">About</a><a href="/contact">Contact</a><a href="/disclaimer">Disclaimer</a><a href="/privacy-policy">Privacy Policy</a><a href="/terms-of-use">Terms of Use</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+
+<script>function calculate(){const p=parseFloat(document.getElementById('original_price').value),d=parseFloat(document.getElementById('discount_percent').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),s=document.getElementById('savings_amount');if(!isNaN(p)&&!isNaN(d)&&p>=0&&d>=0){const sav=p*(d/100),fin=p-sav;r.textContent='$'+formatNumber(fin);if(s)s.textContent='$'+formatNumber(sav);if(f)f.textContent='$'+p+' - ($'+p+' × '+d+'%) = $'+formatNumber(fin)}else{r.textContent='$?';if(s)s.textContent='$?';if(f)f.textContent=''}}
+function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}</script>
+<script>
+  function initCategoryDropdowns() {
+    var buttons = document.querySelectorAll('.cat-menu-btn');
+    function closeAll(except) {
+      buttons.forEach(function (b) {
+        if (b === except) return;
+        b.setAttribute('aria-expanded', 'false');
+        var menu = document.getElementById(b.getAttribute('aria-controls'));
+        if (menu) menu.classList.remove('open');
+      });
+    }
+    function positionMenu(b, menu) {
+      var rect = b.getBoundingClientRect();
+      menu.style.top = (rect.bottom + 8) + 'px';
+      menu.style.left = Math.max(8, Math.min(rect.left, window.innerWidth - menu.offsetWidth - 8)) + 'px';
+    }
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var expanded = b.getAttribute('aria-expanded') === 'true';
+        closeAll();
+        var menu = document.getElementById(b.getAttribute('aria-controls'));
+        if (!expanded && menu) {
+          menu.classList.add('open');
+          positionMenu(b, menu);
+          b.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+    document.addEventListener('click', function () { closeAll(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(); });
+    window.addEventListener('scroll', function () { closeAll(); }, { passive: true });
+    return closeAll;
+  }
+  function initPriorityNav(closeAll) {
+    var strip = document.querySelector('.category-strip');
+    var moreItem = document.getElementById('moreMenuItem');
+    if (!strip || !moreItem) return;
+    var items = Array.prototype.slice.call(strip.querySelectorAll('.cat-menu-item[data-cat-key]'));
+    var sections = document.querySelectorAll('.more-menu-section');
+    function layout() {
+      items.forEach(function (item) { item.style.removeProperty('display'); });
+      sections.forEach(function (s) { s.classList.remove('cat-visible'); });
+      moreItem.style.display = 'flex';
+
+      var available = strip.clientWidth;
+      var gap = parseFloat(getComputedStyle(strip).columnGap) || 0;
+      var fixedWidth = 0;
+      Array.prototype.forEach.call(strip.children, function (el) {
+        if (el !== moreItem && items.indexOf(el) === -1) {
+          fixedWidth += el.getBoundingClientRect().width + gap;
+        }
+      });
+      var moreWidth = moreItem.getBoundingClientRect().width + gap;
+      var itemWidths = items.map(function (it) { return it.getBoundingClientRect().width + gap; });
+      var total = itemWidths.reduce(function (a, b) { return a + b; }, fixedWidth);
+
+      if (total <= available) {
+        moreItem.style.display = 'none';
+        return;
+      }
+
+      var used = fixedWidth;
+      var visibleCount = 0;
+      for (var i = 0; i < itemWidths.length; i++) {
+        if (used + itemWidths[i] + moreWidth > available) break;
+        used += itemWidths[i];
+        visibleCount++;
+      }
+
+      items.forEach(function (item, idx) {
+        if (idx >= visibleCount) {
+          item.style.display = 'none';
+          var section = document.querySelector('.more-menu-section[data-cat-key="' + item.getAttribute('data-cat-key') + '"]');
+          if (section) section.classList.add('cat-visible');
+        }
+      });
+    }
+    var resizeTimer;
+    window.addEventListener('resize', function () {
+      closeAll();
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(layout, 100);
+    });
+    layout();
+    window.addEventListener('load', layout);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(layout);
+    }
+  }
+  function initMobileDrawer() {
+    var hamburger = document.getElementById('navHamburgerBtn');
+    var drawer = document.getElementById('navDrawer');
+    var backdrop = document.getElementById('navDrawerBackdrop');
+    var closeBtn = document.getElementById('navDrawerClose');
+    if (!hamburger || !drawer || !backdrop) return;
+    var sectionButtons = drawer.querySelectorAll('.drawer-section-btn');
+    function isOpen() { return drawer.classList.contains('open'); }
+    function openDrawer() {
+      drawer.hidden = false;
+      backdrop.hidden = false;
+      setTimeout(function () {
+        drawer.classList.add('open');
+        backdrop.classList.add('open');
+      }, 10);
+      hamburger.setAttribute('aria-expanded', 'true');
+      document.body.classList.add('drawer-open');
+    }
+    function closeDrawer() {
+      drawer.classList.remove('open');
+      backdrop.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('drawer-open');
+      setTimeout(function () {
+        if (!isOpen()) { drawer.hidden = true; backdrop.hidden = true; }
+      }, 220);
+    }
+    hamburger.addEventListener('click', function () { isOpen() ? closeDrawer() : openDrawer(); });
+    closeBtn.addEventListener('click', closeDrawer);
+    backdrop.addEventListener('click', closeDrawer);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && isOpen()) closeDrawer(); });
+    sectionButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        var panel = document.getElementById(btn.getAttribute('aria-controls'));
+        if (panel) panel.classList.toggle('open', !expanded);
+      });
+    });
+    var mq = window.matchMedia('(min-width:769px)');
+    var mqHandler = function (e) { if (e.matches && isOpen()) closeDrawer(); };
+    if (mq.addEventListener) mq.addEventListener('change', mqHandler);
+    else mq.addListener(mqHandler);
+  }
+  function wrapTables() {
+    document.querySelectorAll('.article table').forEach(function (table) {
+      if (table.closest('.table-scroll')) return;
+      var wrap = document.createElement('div');
+      wrap.className = 'table-scroll';
+      table.parentNode.insertBefore(wrap, table);
+      wrap.appendChild(table);
+    });
+  }
+  function initToolForm() {
+    var form = document.querySelector('.tool-section form');
+    if (!form) return;
+    form.addEventListener('submit', function (e) { e.preventDefault(); });
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    var closeAll = initCategoryDropdowns();
+    initPriorityNav(closeAll);
+    initMobileDrawer();
+    wrapTables();
+    initToolForm();
+  });
+</script>
+</body>
+</html>

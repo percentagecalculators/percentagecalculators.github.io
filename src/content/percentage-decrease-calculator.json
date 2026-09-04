@@ -1,0 +1,63 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "meta_title": "Percentage Decrease Calculator | Subtract Percentage from Number",
+  "meta_description": "Free percentage decrease calculator. Subtract any percentage from a number instantly. Calculate depreciation, weight loss targets, budget cuts and reductions.",
+  "h1": "Percentage Decrease Calculator",
+  "subtitle": "Enter your <strong>starting number</strong> and the <strong>percentage to subtract</strong>, and this <strong>percentage decrease calculator</strong> gives you the <strong>reduction amount</strong> and the <strong>final value</strong>. So if you're wondering what 500 minus 20% is — it's 400, and you just saved yourself some mental math.",
+  "card": {
+    "layout": "raw",
+    "fields_html": "<div class=\"tool-card\">\n  <div class=\"tool-card-head\"><svg class=\"icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M13 17H5m0 0l4-4m-4 4l4 4m6-10h8m0 0l-4-4m4 4l-4 4\"/></svg>Percentage Decrease Calculator</div>\n  <div class=\"tool-card-body\">\n    <div class=\"calc-field\">\n      <label for=\"original_value\">Original Value</label>\n      <input type=\"number\" id=\"original_value\" step=\"any\" placeholder=\"Enter starting number\" oninput=\"calculate()\">\n    </div>\n    <div class=\"calc-field\">\n      <label for=\"decrease_percent\">Decrease by</label>\n      <div class=\"input-row\">\n        <input type=\"number\" id=\"decrease_percent\" step=\"any\" placeholder=\"Enter percentage\" oninput=\"calculate()\">\n        <span class=\"unit\">%</span>\n      </div>\n    </div>\n    <div class=\"calc-results\">\n      <div class=\"calc-result-row\"><span class=\"label\">Decrease Amount:</span><span class=\"value\" id=\"decrease_amount\">?</span></div>\n      <div class=\"calc-result-row primary\"><span class=\"label\">New Value:</span><span class=\"value\" id=\"result\">?</span></div>\n    </div>\n    <p class=\"calc-formula\" id=\"formula_display\"></p>\n  </div>\n</div>"
+  },
+  "script": "function calculate(){const o=parseFloat(document.getElementById('original_value').value),p=parseFloat(document.getElementById('decrease_percent').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),d=document.getElementById('decrease_amount');if(!isNaN(o)&&!isNaN(p)){const dec=o*(p/100),res=o-dec;r.textContent=formatNumber(res);if(d)d.textContent=formatNumber(dec);if(f)f.textContent=o+' - ('+o+' × '+p+'%) = '+formatNumber(res)}else{r.textContent='?';if(d)d.textContent='?';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}",
+  "content_html": "<h2>How to Subtract a Percentage from Any Number</h2>\n<p>Subtracting a percentage from a number is essential for calculating depreciation, setting weight loss goals, determining budget cuts, and applying discounts. This tool shows both the reduction amount and the final value instantly as you type.</p>\n<p>Whether you're figuring out how much a car depreciates, calculating your target weight after losing a certain percentage, or determining the impact of budget reductions, this percentage decrease calculator provides accurate results with the complete formula displayed for verification.</p>\n<h2>The Percentage Decrease Formula</h2>\n<p>There are two mathematically equivalent approaches to calculating a percentage decrease:</p>\n<h3>Method 1: Calculate Then Subtract</h3>\n<div class=\"formula-block\">Decrease Amount = Original Value × (Percentage ÷ 100)<br>New Value = Original Value - Decrease Amount</div>\n<p>This approach is straightforward: first find what the percentage equals, then subtract it. For example, to decrease 500 by 30%: Calculate 500 × 0.30 = 150, then subtract 500 - 150 = 350.</p>\n<h3>Method 2: Direct Multiplier</h3>\n<div class=\"formula-block\">New Value = Original Value × (1 - Percentage ÷ 100)</div>\n<p>This single-step method is efficient for quick calculations. For 500 decreased by 30%: 500 × 0.70 = 350. The multiplier 0.70 represents keeping 70% (100% - 30%) of the original.</p>\n<h2>Quick Reference: Percentage Decrease Multipliers</h2>\n<table>\n<thead>\n<tr><th>Decrease %</th><th>Keep %</th><th>Multiplier</th><th>Example (from 100)</th></tr>\n</thead>\n<tbody>\n<tr><td>10%</td><td>90%</td><td>0.90</td><td>90</td></tr>\n<tr><td>20%</td><td>80%</td><td>0.80</td><td>80</td></tr>\n<tr><td>25%</td><td>75%</td><td>0.75</td><td>75</td></tr>\n<tr><td>33.33%</td><td>66.67%</td><td>0.6667</td><td>66.67</td></tr>\n<tr><td>50%</td><td>50%</td><td>0.50</td><td>50</td></tr>\n<tr><td>75%</td><td>25%</td><td>0.25</td><td>25</td></tr>\n<tr><td>90%</td><td>10%</td><td>0.10</td><td>10</td></tr>\n</tbody>\n</table>\n<h2>Practical Applications of Percentage Decrease</h2>\n<h3>Asset Depreciation</h3>\n<p>Vehicles, equipment, and other assets lose value over time. If a car worth $35,000 depreciates 15% annually, after one year it's worth $35,000 × 0.85 = $29,750. This <a href=\"/\">percentage calculator</a> makes these calculations effortless.</p>\n<h3>Weight Loss Goals</h3>\n<p>Health professionals often recommend weight loss as a percentage of body weight. If you weigh 200 pounds and your goal is to lose 12%, your target weight is 200 × 0.88 = 176 pounds – a loss of 24 pounds.</p>\n<h3>Budget Reductions</h3>\n<p>Organizations frequently need to cut budgets by a percentage. A $2.5 million budget reduced by 8% becomes $2.5M × 0.92 = $2.3 million, saving $200,000.</p>\n<h3>Stock Market Losses</h3>\n<p>Track portfolio declines easily. A $50,000 portfolio that drops 18% is now worth $50,000 × 0.82 = $41,000.</p>\n<h2>The Mathematics of Recovery After Decrease</h2>\n<p>An important concept that surprises many people: recovering from a percentage decrease requires a LARGER percentage increase.</p>\n<h3>Why Recovery Requires a Bigger Percentage</h3>\n<p>After a decrease, your base is smaller. The percentage increase applies to this smaller base, so you need a higher percentage to return to the original value.</p>\n<table>\n<thead>\n<tr><th>Original</th><th>After Decrease</th><th>Recovery Needed</th></tr>\n</thead>\n<tbody>\n<tr><td>$100</td><td>$90 (10% loss)</td><td>11.11% gain</td></tr>\n<tr><td>$100</td><td>$80 (20% loss)</td><td>25% gain</td></tr>\n<tr><td>$100</td><td>$50 (50% loss)</td><td>100% gain</td></tr>\n<tr><td>$100</td><td>$25 (75% loss)</td><td>300% gain</td></tr>\n</tbody>\n</table>\n<p>This explains why a 50% market crash requires a 100% gain to break even – you need to double your reduced portfolio.</p>\n<h2>Consecutive Percentage Decreases</h2>\n<p>When applying multiple percentage decreases, they compound (multiply), they don't simply add:</p>\n<ul>\n<li>10% decrease followed by 10% decrease ≠ 20% total decrease</li>\n<li>Instead: 100 × 0.90 × 0.90 = 81 (a 19% total decrease)</li>\n<li>Each decrease applies to the already-reduced value</li>\n</ul>\n<p>This is why sales with 'extra 20% off the already reduced price' give less total discount than the percentages suggest.</p>\n<h2>Limitations: Can You Decrease by More Than 100%?</h2>\n<p>In most real-world contexts, a decrease cannot exceed 100% because you cannot reduce something below zero. A 100% decrease brings any positive value to exactly zero. However, our calculator will process values over 100%, resulting in negative numbers – which may be meaningful in specific financial or scientific contexts.</p>\n<h2>Need to Add a Percentage Instead?</h2>\n<p>If you need to add a percentage to a number – for raises, markups, or growth – use our <a href=\"/percentage-increase-calculator\">percentage increase calculator</a>. For tracking changes between two known values, the <a href=\"/percentage-change-calculator\">percentage change calculator</a> shows both direction and magnitude.</p>\n<h2>Calculator Features</h2>\n<ul>\n<li><strong>Real-Time Calculation</strong> – Results update instantly as you type</li>\n<li><strong>Dual Display</strong> – Shows both the final value and the decrease amount</li>\n<li><strong>Formula Visibility</strong> – See the exact calculation performed</li>\n<li><strong>Decimal Support</strong> – Handles precise percentages like 7.25%</li>\n<li><strong>Free and Unlimited</strong> – No sign-up, no limits on calculations</li>\n</ul>",
+  "faq": [
+    {
+      "question": "How do I subtract 25% from a number?",
+      "answer": "Multiply the number by 0.75. For example, 200 - 25% = 200 × 0.75 = 150. The decrease amount is 50."
+    },
+    {
+      "question": "What is 80 minus 15 percent?",
+      "answer": "80 minus 15% equals 68. Calculation: 80 × 0.15 = 12 (decrease), then 80 - 12 = 68."
+    },
+    {
+      "question": "How do I calculate depreciation?",
+      "answer": "Multiply the asset value by (1 - depreciation rate). For 20% depreciation on $10,000: $10,000 × 0.80 = $8,000."
+    },
+    {
+      "question": "What is the formula for subtracting a percentage?",
+      "answer": "New Value = Original × (1 - Percentage/100). For 30% off $50: $50 × 0.70 = $35."
+    },
+    {
+      "question": "How much is 40% off $120?",
+      "answer": "$120 with 40% off = $72. Calculation: $120 × 0.60 = $72. You save $48."
+    },
+    {
+      "question": "What does a 100% decrease mean?",
+      "answer": "A 100% decrease reduces the value to zero. 50 decreased by 100% = 50 - 50 = 0."
+    },
+    {
+      "question": "Why do I need more than 50% gain to recover from 50% loss?",
+      "answer": "Because the gain percentage applies to the reduced amount. After 50% loss, you have half. To double back, you need 100% gain."
+    },
+    {
+      "question": "How do consecutive discounts work?",
+      "answer": "They multiply, not add. 20% off then 10% off: 100 × 0.80 × 0.90 = 72 (28% total, not 30%)."
+    },
+    {
+      "question": "What is 500 decreased by 35%?",
+      "answer": "500 decreased by 35% = 325. Calculation: 500 × 0.65 = 325. The decrease is 175."
+    },
+    {
+      "question": "How do I find the original price before a discount?",
+      "answer": "Divide the sale price by (1 - discount%). If you paid $60 after 25% off: $60 ÷ 0.75 = $80 original."
+    },
+    {
+      "question": "Can a decrease be negative?",
+      "answer": "Entering a negative percentage would actually increase the value. Use the increase calculator for additions."
+    },
+    {
+      "question": "What is 1000 minus 7.5%?",
+      "answer": "1000 minus 7.5% = 925. Calculation: 1000 × 0.075 = 75, then 1000 - 75 = 925."
+    }
+  ]
+}

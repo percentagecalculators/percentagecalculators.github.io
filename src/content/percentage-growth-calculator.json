@@ -1,0 +1,63 @@
+{
+  "slug": "percentage-growth-calculator",
+  "meta_title": "Percentage Growth Calculator | Business Growth Rate Calculator",
+  "meta_description": "Free percentage growth calculator. Calculate growth rates for revenue, customers, sales, and KPIs. Track business performance with accurate growth metrics.",
+  "h1": "Percentage Growth Calculator",
+  "subtitle": "Enter an <strong>initial value</strong> and a <strong>final value</strong>, and this <strong>percentage growth calculator</strong> shows you the <strong>growth rate</strong> and <strong>growth amount</strong>. It answers the question: by what percentage did your number grow from point A to point B?",
+  "card": {
+    "layout": "raw",
+    "fields_html": "<div class=\"tool-card\">\n  <div class=\"tool-card-head\"><svg class=\"icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M23 6l-9.5 9.5-5-5L1 18M17 6h6v6\"/></svg>Percentage Growth Calculator</div>\n  <div class=\"tool-card-body\">\n    <div class=\"calc-field\"><label for=\"initial_value\">Initial Value</label><input type=\"number\" id=\"initial_value\" step=\"any\" placeholder=\"Starting value\" oninput=\"calculate()\"></div>\n    <div class=\"calc-field\"><label for=\"final_value\">Final Value</label><input type=\"number\" id=\"final_value\" step=\"any\" placeholder=\"Ending value\" oninput=\"calculate()\"></div>\n    <div class=\"calc-results\">\n      <div class=\"calc-result-row\"><span class=\"label\">Growth Amount:</span><span class=\"value\" id=\"growth_amount\">?</span></div>\n      <div class=\"calc-result-row primary\"><span class=\"label\">Growth Rate:</span><span class=\"value\" id=\"result\">?</span></div>\n    </div>\n    <p class=\"calc-formula\" id=\"formula_display\"></p>\n  </div>\n</div>"
+  },
+  "script": "function calculate(){const s=parseFloat(document.getElementById('initial_value').value),e=parseFloat(document.getElementById('final_value').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),g=document.getElementById('growth_amount');if(!isNaN(s)&&!isNaN(e)&&s!==0){const ga=e-s,gp=((e-s)/Math.abs(s))*100,sign=gp>=0?'+':'';r.textContent=sign+formatNumber(gp)+'%';if(g)g.textContent=sign+formatNumber(ga);if(f)f.textContent='(('+e+' - '+s+') ÷ '+s+') × 100 = '+sign+formatNumber(gp)+'%'}else{r.textContent='?';if(g)g.textContent='?';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}",
+  "content_html": "<h2>Measure Business Growth with Precision</h2>\n<p>Growth rate is one of the most important metrics in business. Whether you're tracking revenue, customers, website traffic, or any other KPI, this calculator provides instant, accurate growth rate calculations.</p>\n<p>Simply enter your starting value (beginning of period) and ending value (end of period) to see the percentage growth rate along with the absolute growth amount.</p>\n<h2>The Growth Rate Formula</h2>\n<div class=\"formula-block\">Growth Rate = ((Ending Value - Starting Value) ÷ Starting Value) × 100</div>\n<p>This formula calculates the relative change from your baseline value. A positive result indicates growth; a negative result indicates decline.</p>\n<h3>Example Calculation</h3>\n<p>Revenue grew from $850,000 to $1,020,000:</p>\n<ol>\n<li>Growth amount: $1,020,000 - $850,000 = $170,000</li>\n<li>Divide by starting value: $170,000 ÷ $850,000 = 0.20</li>\n<li>Convert to percentage: 0.20 × 100 = 20%</li>\n<li>Result: 20% revenue growth</li>\n</ol>\n<h2>Key Business Metrics to Track</h2>\n<h3>Revenue Growth</h3>\n<p>The most fundamental business metric. Compare quarter-over-quarter or year-over-year revenue to measure financial health and trajectory. Investors particularly value consistent revenue growth.</p>\n<h3>Customer Growth</h3>\n<p>Track how your customer base expands over time. Growing from 1,200 to 1,560 customers represents 30% customer growth – a strong indicator of product-market fit.</p>\n<h3>User Engagement Metrics</h3>\n<p>Monitor growth in active users, session duration, page views, or any engagement metric. Our <a href=\"/\">percentage calculator suite</a> makes tracking these metrics effortless.</p>\n<h3>Sales Performance</h3>\n<p>Measure sales team performance by tracking growth in deals closed, average deal size, or conversion rates.</p>\n<h2>Year-Over-Year (YoY) Growth</h2>\n<p>YoY growth compares the same period across years, eliminating seasonal variations:</p>\n<ul>\n<li><strong>Q1 2024 vs Q1 2023</strong> – Compare same quarter across years</li>\n<li><strong>December 2024 vs December 2023</strong> – Same month comparison</li>\n<li><strong>Full Year 2024 vs Full Year 2023</strong> – Annual comparison</li>\n</ul>\n<p>YoY growth is preferred for seasonal businesses because it compares like periods.</p>\n<h2>Understanding Compound Annual Growth Rate (CAGR)</h2>\n<p>For multi-year growth, CAGR provides the smoothed annual growth rate:</p>\n<div class=\"formula-block\">CAGR = ((Ending Value ÷ Starting Value)^(1/Years) - 1) × 100</div>\n<p>Example: Growth from $100,000 to $150,000 over 3 years = CAGR of 14.47% (not 50% ÷ 3 = 16.67%)</p>\n<h2>Growth vs. Decline</h2>\n<p>This calculator handles both growth (positive results) and decline (negative results):</p>\n<table>\n<thead>\n<tr><th>Scenario</th><th>Calculation</th><th>Result</th></tr>\n</thead>\n<tbody>\n<tr><td>Growth: 100 → 150</td><td>((150-100)/100)×100</td><td>+50%</td></tr>\n<tr><td>Decline: 150 → 100</td><td>((100-150)/150)×100</td><td>-33.3%</td></tr>\n<tr><td>No change: 100 → 100</td><td>((100-100)/100)×100</td><td>0%</td></tr>\n</tbody>\n</table>\n<h2>Setting Growth Targets</h2>\n<p>Use growth calculations to set realistic targets:</p>\n<ul>\n<li><strong>Conservative</strong>: Match industry average growth (typically 5-15% annually)</li>\n<li><strong>Moderate</strong>: Slightly exceed past performance</li>\n<li><strong>Aggressive</strong>: 2-3× historical growth (requires significant investment)</li>\n<li><strong>Hypergrowth</strong>: 40%+ annually (typically VC-funded startups)</li>\n</ul>\n<h2>Need Related Calculations?</h2>\n<p>Convert fractions (like 'grew by 3/4') using our <a href=\"/fraction-to-percentage-calculator\">fraction to percentage calculator</a>. To find original values when you know the final result and growth rate, use our <a href=\"/reverse-percentage-calculator\">reverse percentage calculator</a>.</p>\n<h2>Calculator Features</h2>\n<ul>\n<li><strong>Instant Results</strong> – Growth rate appears as you type</li>\n<li><strong>Dual Display</strong> – See both percentage and absolute growth</li>\n<li><strong>Direction Indicator</strong> – Clearly shows growth (+) or decline (-)</li>\n<li><strong>High Precision</strong> – Accurate for financial reporting</li>\n<li><strong>No Sign-Up Required</strong> – Free and immediate use</li>\n</ul>",
+  "faq": [
+    {
+      "question": "What is a good growth rate?",
+      "answer": "Varies by industry. 5-15% annually is typical for established businesses. 20%+ is strong growth. 40%+ is hypergrowth (common in tech startups)."
+    },
+    {
+      "question": "How do I calculate year-over-year growth?",
+      "answer": "Use the same formula with values from the same period in consecutive years. ((This Year - Last Year) / Last Year) × 100."
+    },
+    {
+      "question": "What is the growth from 200 to 250?",
+      "answer": "25% growth. Calculation: ((250-200)/200) × 100 = 25%."
+    },
+    {
+      "question": "How do I calculate monthly growth rate?",
+      "answer": "Compare consecutive months: ((Current Month - Previous Month) / Previous Month) × 100."
+    },
+    {
+      "question": "What is negative growth?",
+      "answer": "Negative growth means decline. Going from 100 to 80 is -20% growth (a decrease)."
+    },
+    {
+      "question": "How do I calculate CAGR?",
+      "answer": "CAGR = ((Final/Initial)^(1/years) - 1) × 100. It's the smoothed annual rate over multiple years."
+    },
+    {
+      "question": "What if starting value is zero?",
+      "answer": "Growth from zero is mathematically undefined (division by zero). Use absolute change instead."
+    },
+    {
+      "question": "What is the growth from 500 to 750?",
+      "answer": "50% growth. Calculation: ((750-500)/500) × 100 = 50%."
+    },
+    {
+      "question": "How do I compare growth rates across different scales?",
+      "answer": "Use percentages, not absolute numbers. 10% growth is comparable whether the base is $1,000 or $1,000,000."
+    },
+    {
+      "question": "What is quarter-over-quarter growth?",
+      "answer": "Growth from one quarter to the next: ((Q2 - Q1) / Q1) × 100."
+    },
+    {
+      "question": "Can growth exceed 100%?",
+      "answer": "Yes. Going from 50 to 150 is 200% growth (the value tripled)."
+    },
+    {
+      "question": "How do I calculate average growth over multiple periods?",
+      "answer": "Use geometric mean or CAGR, not arithmetic average, for accurate multi-period growth rates."
+    }
+  ]
+}

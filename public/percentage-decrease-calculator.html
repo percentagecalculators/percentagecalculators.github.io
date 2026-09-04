@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free percentage decrease calculator. Subtract any percentage from a number instantly. Calculate depreciation, weight loss targets, budget cuts and reductions.">
+    <meta name="author" content="Percentage Calculators">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://percentagecalculators.github.io/percentage-decrease-calculator">
+    <title>Percentage Decrease Calculator | Subtract Percentage from Number</title>
+
+    <link rel="preload" href="/fonts/dm-sans-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/jetbrains-mono-variable.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="icon" href="/favicon.ico">
+    <meta name="theme-color" content="#0f172a">
+
+    <style></style>
+    <link rel="preload" href="/typography.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="/typography.min.css">
+        <link rel="stylesheet" href="/styles.min.css">
+    </noscript>
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Percentage Decrease Calculator","url":"https://percentagecalculators.github.io/percentage-decrease-calculator","description":"Free percentage decrease calculator. Subtract any percentage from a number instantly. Calculate depreciation, weight loss targets, budget cuts and reductions.","applicationCategory":"CalculatorApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+    
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I subtract 25% from a number?","acceptedAnswer":{"@type":"Answer","text":"Multiply the number by 0.75. For example, 200 - 25% = 200 \u00d7 0.75 = 150. The decrease amount is 50."}},{"@type":"Question","name":"What is 80 minus 15 percent?","acceptedAnswer":{"@type":"Answer","text":"80 minus 15% equals 68. Calculation: 80 \u00d7 0.15 = 12 (decrease), then 80 - 12 = 68."}},{"@type":"Question","name":"How do I calculate depreciation?","acceptedAnswer":{"@type":"Answer","text":"Multiply the asset value by (1 - depreciation rate). For 20% depreciation on $10,000: $10,000 \u00d7 0.80 = $8,000."}},{"@type":"Question","name":"What is the formula for subtracting a percentage?","acceptedAnswer":{"@type":"Answer","text":"New Value = Original \u00d7 (1 - Percentage/100). For 30% off $50: $50 \u00d7 0.70 = $35."}},{"@type":"Question","name":"How much is 40% off $120?","acceptedAnswer":{"@type":"Answer","text":"$120 with 40% off = $72. Calculation: $120 \u00d7 0.60 = $72. You save $48."}},{"@type":"Question","name":"What does a 100% decrease mean?","acceptedAnswer":{"@type":"Answer","text":"A 100% decrease reduces the value to zero. 50 decreased by 100% = 50 - 50 = 0."}},{"@type":"Question","name":"Why do I need more than 50% gain to recover from 50% loss?","acceptedAnswer":{"@type":"Answer","text":"Because the gain percentage applies to the reduced amount. After 50% loss, you have half. To double back, you need 100% gain."}},{"@type":"Question","name":"How do consecutive discounts work?","acceptedAnswer":{"@type":"Answer","text":"They multiply, not add. 20% off then 10% off: 100 \u00d7 0.80 \u00d7 0.90 = 72 (28% total, not 30%)."}},{"@type":"Question","name":"What is 500 decreased by 35%?","acceptedAnswer":{"@type":"Answer","text":"500 decreased by 35% = 325. Calculation: 500 \u00d7 0.65 = 325. The decrease is 175."}},{"@type":"Question","name":"How do I find the original price before a discount?","acceptedAnswer":{"@type":"Answer","text":"Divide the sale price by (1 - discount%). If you paid $60 after 25% off: $60 \u00f7 0.75 = $80 original."}},{"@type":"Question","name":"Can a decrease be negative?","acceptedAnswer":{"@type":"Answer","text":"Entering a negative percentage would actually increase the value. Use the increase calculator for additions."}},{"@type":"Question","name":"What is 1000 minus 7.5%?","acceptedAnswer":{"@type":"Answer","text":"1000 minus 7.5% = 925. Calculation: 1000 \u00d7 0.075 = 75, then 1000 - 75 = 925."}}]}</script>
+
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+    <script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5426315045205785"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header>
+    <nav class="top-nav" aria-label="Primary navigation">
+        <a href="/" class="logo">
+            <span class="logo-icon" aria-hidden="true">%</span>
+            <span>Percentage Calculators</span>
+        </a>
+        <div class="category-strip">
+            <div class="cat-menu-item"><a href="/" class="cat-menu-btn">Home</a></div><div class="cat-menu-item" data-cat-key="core"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-core">Core<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-core"><div class="menu-panel-header"><span class="more-menu-icon">%</span><div><strong>Core Percentage Tools</strong><p>The essentials: find a percentage, increase or decrease a number, and compare two values.</p></div></div><div class="menu-panel-links"><a href="/">Percentage Calculator</a><a href="/percentage-increase-calculator">Percentage Increase Calculator</a><a href="/percentage-decrease-calculator">Percentage Decrease Calculator</a><a href="/percentage-change-calculator">Percentage Change Calculator</a><a href="/percentage-difference-calculator">Percentage Difference Calculator</a><a href="/percentage-off-calculator">Percentage Off Calculator</a><a href="/reverse-percentage-calculator">Reverse Percentage Calculator</a><a href="/percentage-error-calculator">Percentage Error Calculator</a><a href="/average-percentage-calculator">Average Percentage Calculator</a><a href="/percentage-point-calculator">Percentage Point Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="converters"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-converters">Converters<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-converters"><div class="menu-panel-header"><span class="more-menu-icon">=</span><div><strong>Converters</strong><p>Convert between percentages, fractions, decimals, ratios, and other unit forms.</p></div></div><div class="menu-panel-links"><a href="/fraction-to-percentage-calculator">Fraction to Percentage Calculator</a><a href="/decimal-to-percentage-calculator">Decimal to Percentage Calculator</a><a href="/ratio-to-percentage-calculator">Ratio to Percentage Calculator</a><a href="/ppm-to-percentage-calculator">PPM to Percentage Calculator</a><a href="/basis-points-calculator">Basis Points Calculator</a><a href="/slope-percentage-calculator">Slope Percentage Calculator</a><a href="/alcohol-proof-calculator">Alcohol Proof Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="health-fitness"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-health-fitness">Health<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-health-fitness"><div class="menu-panel-header"><span class="more-menu-icon">+</span><div><strong>Health &amp; Fitness</strong><p>Body fat, BMI, body composition, and weight-loss percentage calculators.</p></div></div><div class="menu-panel-links"><a href="/body-fat-percentage-calculator">Body Fat Percentage Calculator</a><a href="/bmi-calculator">BMI Calculator</a><a href="/body-composition-calculator">Body Composition Calculator</a><a href="/weight-loss-percentage-calculator">Weight Loss Percentage Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="education"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-education">Education<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-education"><div class="menu-panel-header"><span class="more-menu-icon">ED</span><div><strong>Education</strong><p>GPA, CGPA, SGPA, marks, and percentile conversions for students.</p></div></div><div class="menu-panel-links"><a href="/gpa-to-percentage-calculator">GPA to Percentage Calculator</a><a href="/cgpa-to-percentage-calculator">CGPA to Percentage Calculator</a><a href="/sgpa-to-percentage-calculator">SGPA to Percentage Calculator</a><a href="/marks-percentage-calculator">Marks Percentage Calculator</a><a href="/percentile-to-percentage-calculator">Percentile to Percentage Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="finance"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-finance">Finance<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-finance"><div class="menu-panel-header"><span class="more-menu-icon">$</span><div><strong>Finance &amp; Business</strong><p>Interest rates, profit margins, markup, salary raises, and business growth.</p></div></div><div class="menu-panel-links"><a href="/percentage-growth-calculator">Percentage Growth Calculator</a><a href="/apy-calculator">APY Calculator</a><a href="/apr-calculator">APR Calculator</a><a href="/apr-apy-converter">APR to APY Converter</a><a href="/simple-interest-calculator">Simple Interest Calculator</a><a href="/compound-interest-calculator">Compound Interest Calculator</a><a href="/loan-interest-calculator">Loan Interest Calculator</a><a href="/profit-percentage-calculator">Profit Percentage Calculator</a><a href="/profit-margin-calculator">Profit Margin Calculator</a><a href="/markup-calculator">Markup Calculator</a><a href="/gross-margin-calculator">Gross Margin Calculator</a><a href="/salary-increase-calculator">Salary Increase Calculator</a><a href="/commission-calculator">Commission Calculator</a><a href="/depreciation-calculator">Depreciation Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="everyday"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-everyday">Everyday<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-everyday"><div class="menu-panel-header"><span class="more-menu-icon">..</span><div><strong>Everyday &amp; Niche</strong><p>Tips, win rates, baking ratios, food cost, and solution-concentration percentages.</p></div></div><div class="menu-panel-links"><a href="/tip-calculator">Tip Calculator</a><a href="/win-loss-percentage-calculator">Win/Loss Percentage Calculator</a><a href="/bakers-percentage-calculator">Baker&#x27;s Percentage Calculator</a><a href="/food-cost-percentage-calculator">Food Cost Percentage Calculator</a><a href="/percent-solution-calculator">Percent Solution Calculator</a></div></div></div><div class="cat-menu-item" id="moreMenuItem" style="display:none"><button type="button" class="cat-menu-btn" id="moreMenuBtn" aria-expanded="false" aria-controls="moreMenuPanel">More<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu more-menu" id="moreMenuPanel"><div class="more-menu-section" data-cat-key="core"><div class="more-menu-heading"><span class="more-menu-icon">%</span>Core Percentage Tools</div><a href="/">Percentage Calculator</a><a href="/percentage-increase-calculator">Percentage Increase Calculator</a><a href="/percentage-decrease-calculator">Percentage Decrease Calculator</a><a href="/percentage-change-calculator">Percentage Change Calculator</a><a href="/percentage-difference-calculator">Percentage Difference Calculator</a><a href="/percentage-off-calculator">Percentage Off Calculator</a><a href="/reverse-percentage-calculator">Reverse Percentage Calculator</a><a href="/percentage-error-calculator">Percentage Error Calculator</a><a href="/average-percentage-calculator">Average Percentage Calculator</a><a href="/percentage-point-calculator">Percentage Point Calculator</a></div><div class="more-menu-section" data-cat-key="converters"><div class="more-menu-heading"><span class="more-menu-icon">=</span>Converters</div><a href="/fraction-to-percentage-calculator">Fraction to Percentage Calculator</a><a href="/decimal-to-percentage-calculator">Decimal to Percentage Calculator</a><a href="/ratio-to-percentage-calculator">Ratio to Percentage Calculator</a><a href="/ppm-to-percentage-calculator">PPM to Percentage Calculator</a><a href="/basis-points-calculator">Basis Points Calculator</a><a href="/slope-percentage-calculator">Slope Percentage Calculator</a><a href="/alcohol-proof-calculator">Alcohol Proof Calculator</a></div><div class="more-menu-section" data-cat-key="health-fitness"><div class="more-menu-heading"><span class="more-menu-icon">+</span>Health &amp; Fitness</div><a href="/body-fat-percentage-calculator">Body Fat Percentage Calculator</a><a href="/bmi-calculator">BMI Calculator</a><a href="/body-composition-calculator">Body Composition Calculator</a><a href="/weight-loss-percentage-calculator">Weight Loss Percentage Calculator</a></div><div class="more-menu-section" data-cat-key="education"><div class="more-menu-heading"><span class="more-menu-icon">ED</span>Education</div><a href="/gpa-to-percentage-calculator">GPA to Percentage Calculator</a><a href="/cgpa-to-percentage-calculator">CGPA to Percentage Calculator</a><a href="/sgpa-to-percentage-calculator">SGPA to Percentage Calculator</a><a href="/marks-percentage-calculator">Marks Percentage Calculator</a><a href="/percentile-to-percentage-calculator">Percentile to Percentage Calculator</a></div><div class="more-menu-section" data-cat-key="finance"><div class="more-menu-heading"><span class="more-menu-icon">$</span>Finance &amp; Business</div><a href="/percentage-growth-calculator">Percentage Growth Calculator</a><a href="/apy-calculator">APY Calculator</a><a href="/apr-calculator">APR Calculator</a><a href="/apr-apy-converter">APR to APY Converter</a><a href="/simple-interest-calculator">Simple Interest Calculator</a><a href="/compound-interest-calculator">Compound Interest Calculator</a><a href="/loan-interest-calculator">Loan Interest Calculator</a><a href="/profit-percentage-calculator">Profit Percentage Calculator</a><a href="/profit-margin-calculator">Profit Margin Calculator</a><a href="/markup-calculator">Markup Calculator</a><a href="/gross-margin-calculator">Gross Margin Calculator</a><a href="/salary-increase-calculator">Salary Increase Calculator</a><a href="/commission-calculator">Commission Calculator</a><a href="/depreciation-calculator">Depreciation Calculator</a></div><div class="more-menu-section" data-cat-key="everyday"><div class="more-menu-heading"><span class="more-menu-icon">..</span>Everyday &amp; Niche</div><a href="/tip-calculator">Tip Calculator</a><a href="/win-loss-percentage-calculator">Win/Loss Percentage Calculator</a><a href="/bakers-percentage-calculator">Baker&#x27;s Percentage Calculator</a><a href="/food-cost-percentage-calculator">Food Cost Percentage Calculator</a><a href="/percent-solution-calculator">Percent Solution Calculator</a></div></div></div>
+        </div>
+        <button type="button" class="nav-hamburger" id="navHamburgerBtn" aria-expanded="false" aria-controls="navDrawer" aria-label="Open menu"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg></button>
+    </nav>
+</header>
+<div id="navDrawerBackdrop" hidden></div><div class="nav-drawer-panel" id="navDrawer" role="dialog" aria-modal="true" aria-label="Site navigation" hidden><button type="button" class="nav-drawer-close" id="navDrawerClose" aria-label="Close menu"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg></button><div class="nav-drawer-section"><a href="/">Home</a></div><div class="nav-drawer-section" data-cluster="core"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-core"><span class="more-menu-icon">%</span><span><strong>Core Percentage Tools</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-core"><a href="/">Percentage Calculator</a><a href="/percentage-increase-calculator">Percentage Increase Calculator</a><a href="/percentage-decrease-calculator">Percentage Decrease Calculator</a><a href="/percentage-change-calculator">Percentage Change Calculator</a><a href="/percentage-difference-calculator">Percentage Difference Calculator</a><a href="/percentage-off-calculator">Percentage Off Calculator</a><a href="/reverse-percentage-calculator">Reverse Percentage Calculator</a><a href="/percentage-error-calculator">Percentage Error Calculator</a><a href="/average-percentage-calculator">Average Percentage Calculator</a><a href="/percentage-point-calculator">Percentage Point Calculator</a></div></div><div class="nav-drawer-section" data-cluster="converters"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-converters"><span class="more-menu-icon">=</span><span><strong>Converters</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-converters"><a href="/fraction-to-percentage-calculator">Fraction to Percentage Calculator</a><a href="/decimal-to-percentage-calculator">Decimal to Percentage Calculator</a><a href="/ratio-to-percentage-calculator">Ratio to Percentage Calculator</a><a href="/ppm-to-percentage-calculator">PPM to Percentage Calculator</a><a href="/basis-points-calculator">Basis Points Calculator</a><a href="/slope-percentage-calculator">Slope Percentage Calculator</a><a href="/alcohol-proof-calculator">Alcohol Proof Calculator</a></div></div><div class="nav-drawer-section" data-cluster="health-fitness"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-health-fitness"><span class="more-menu-icon">+</span><span><strong>Health &amp; Fitness</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-health-fitness"><a href="/body-fat-percentage-calculator">Body Fat Percentage Calculator</a><a href="/bmi-calculator">BMI Calculator</a><a href="/body-composition-calculator">Body Composition Calculator</a><a href="/weight-loss-percentage-calculator">Weight Loss Percentage Calculator</a></div></div><div class="nav-drawer-section" data-cluster="education"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-education"><span class="more-menu-icon">ED</span><span><strong>Education</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-education"><a href="/gpa-to-percentage-calculator">GPA to Percentage Calculator</a><a href="/cgpa-to-percentage-calculator">CGPA to Percentage Calculator</a><a href="/sgpa-to-percentage-calculator">SGPA to Percentage Calculator</a><a href="/marks-percentage-calculator">Marks Percentage Calculator</a><a href="/percentile-to-percentage-calculator">Percentile to Percentage Calculator</a></div></div><div class="nav-drawer-section" data-cluster="finance"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-finance"><span class="more-menu-icon">$</span><span><strong>Finance &amp; Business</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-finance"><a href="/percentage-growth-calculator">Percentage Growth Calculator</a><a href="/apy-calculator">APY Calculator</a><a href="/apr-calculator">APR Calculator</a><a href="/apr-apy-converter">APR to APY Converter</a><a href="/simple-interest-calculator">Simple Interest Calculator</a><a href="/compound-interest-calculator">Compound Interest Calculator</a><a href="/loan-interest-calculator">Loan Interest Calculator</a><a href="/profit-percentage-calculator">Profit Percentage Calculator</a><a href="/profit-margin-calculator">Profit Margin Calculator</a><a href="/markup-calculator">Markup Calculator</a><a href="/gross-margin-calculator">Gross Margin Calculator</a><a href="/salary-increase-calculator">Salary Increase Calculator</a><a href="/commission-calculator">Commission Calculator</a><a href="/depreciation-calculator">Depreciation Calculator</a></div></div><div class="nav-drawer-section" data-cluster="everyday"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-everyday"><span class="more-menu-icon">..</span><span><strong>Everyday &amp; Niche</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-everyday"><a href="/tip-calculator">Tip Calculator</a><a href="/win-loss-percentage-calculator">Win/Loss Percentage Calculator</a><a href="/bakers-percentage-calculator">Baker&#x27;s Percentage Calculator</a><a href="/food-cost-percentage-calculator">Food Cost Percentage Calculator</a><a href="/percent-solution-calculator">Percent Solution Calculator</a></div></div></div>
+
+<main id="main-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Percentage Decrease Calculator</li></ol></nav><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://percentagecalculators.github.io/"},{"@type":"ListItem","position":2,"name":"Percentage Decrease Calculator"}]}</script>
+    <section class="hero">
+        <h1>Percentage Decrease Calculator</h1>
+        <p class="subtitle">Enter your <strong>starting number</strong> and the <strong>percentage to subtract</strong>, and this <strong>percentage decrease calculator</strong> gives you the <strong>reduction amount</strong> and the <strong>final value</strong>. So if you're wondering what 500 minus 20% is — it's 400, and you just saved yourself some mental math.</p>
+    </section>
+
+    <aside class="ad-slot ad-slot-header" aria-label="Advertisement"><ins class="adsbygoogle" id="adsense-header" data-ad-client="ca-pub-5426315045205785" data-ad-slot="3575522428"></ins><script>(function(){var ins=document.getElementById("adsense-header");if(window.innerWidth>=728){ins.style.display="inline-block";ins.style.width="728px";ins.style.height="90px";}else{ins.style.display="inline-block";ins.style.width="300px";ins.style.height="100px";}(adsbygoogle=window.adsbygoogle||[]).push({});})();</script></aside>
+
+    <section class="tool-section">
+        <form data-mode="" data-layout="raw" novalidate>
+            <div class="tool-card">
+  <div class="tool-card-head"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 17H5m0 0l4-4m-4 4l4 4m6-10h8m0 0l-4-4m4 4l-4 4"/></svg>Percentage Decrease Calculator</div>
+  <div class="tool-card-body">
+    <div class="calc-field">
+      <label for="original_value">Original Value</label>
+      <input type="number" id="original_value" step="any" placeholder="Enter starting number" oninput="calculate()">
+    </div>
+    <div class="calc-field">
+      <label for="decrease_percent">Decrease by</label>
+      <div class="input-row">
+        <input type="number" id="decrease_percent" step="any" placeholder="Enter percentage" oninput="calculate()">
+        <span class="unit">%</span>
+      </div>
+    </div>
+    <div class="calc-results">
+      <div class="calc-result-row"><span class="label">Decrease Amount:</span><span class="value" id="decrease_amount">?</span></div>
+      <div class="calc-result-row primary"><span class="label">New Value:</span><span class="value" id="result">?</span></div>
+    </div>
+    <p class="calc-formula" id="formula_display"></p>
+  </div>
+</div>
+        </form>
+        
+        
+    </section>
+
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><aside class="ad-slot" aria-label="Advertisement"><ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5426315045205785" data-ad-slot="2877013843"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></aside><h2>How to Subtract a Percentage from Any Number</h2>
+<p>Subtracting a percentage from a number is essential for calculating depreciation, setting weight loss goals, determining budget cuts, and applying discounts. This tool shows both the reduction amount and the final value instantly as you type.</p>
+<p>Whether you're figuring out how much a car depreciates, calculating your target weight after losing a certain percentage, or determining the impact of budget reductions, this percentage decrease calculator provides accurate results with the complete formula displayed for verification.</p>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>The Percentage Decrease Formula</h2>
+<p>There are two mathematically equivalent approaches to calculating a percentage decrease:</p>
+<h3>Method 1: Calculate Then Subtract</h3>
+<div class="formula-block">Decrease Amount = Original Value × (Percentage ÷ 100)<br>New Value = Original Value - Decrease Amount</div>
+<p>This approach is straightforward: first find what the percentage equals, then subtract it. For example, to decrease 500 by 30%: Calculate 500 × 0.30 = 150, then subtract 500 - 150 = 350.</p>
+<h3>Method 2: Direct Multiplier</h3>
+<div class="formula-block">New Value = Original Value × (1 - Percentage ÷ 100)</div>
+<p>This single-step method is efficient for quick calculations. For 500 decreased by 30%: 500 × 0.70 = 350. The multiplier 0.70 represents keeping 70% (100% - 30%) of the original.</p>
+</div></div></div></section>
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><h2>Quick Reference: Percentage Decrease Multipliers</h2>
+<table>
+<thead>
+<tr><th>Decrease %</th><th>Keep %</th><th>Multiplier</th><th>Example (from 100)</th></tr>
+</thead>
+<tbody>
+<tr><td>10%</td><td>90%</td><td>0.90</td><td>90</td></tr>
+<tr><td>20%</td><td>80%</td><td>0.80</td><td>80</td></tr>
+<tr><td>25%</td><td>75%</td><td>0.75</td><td>75</td></tr>
+<tr><td>33.33%</td><td>66.67%</td><td>0.6667</td><td>66.67</td></tr>
+<tr><td>50%</td><td>50%</td><td>0.50</td><td>50</td></tr>
+<tr><td>75%</td><td>25%</td><td>0.25</td><td>25</td></tr>
+<tr><td>90%</td><td>10%</td><td>0.10</td><td>10</td></tr>
+</tbody>
+</table>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>Practical Applications of Percentage Decrease</h2>
+<h3>Asset Depreciation</h3>
+<p>Vehicles, equipment, and other assets lose value over time. If a car worth $35,000 depreciates 15% annually, after one year it's worth $35,000 × 0.85 = $29,750. This <a href="/">percentage calculator</a> makes these calculations effortless.</p>
+<h3>Weight Loss Goals</h3>
+<p>Health professionals often recommend weight loss as a percentage of body weight. If you weigh 200 pounds and your goal is to lose 12%, your target weight is 200 × 0.88 = 176 pounds – a loss of 24 pounds.</p>
+<h3>Budget Reductions</h3>
+<p>Organizations frequently need to cut budgets by a percentage. A $2.5 million budget reduced by 8% becomes $2.5M × 0.92 = $2.3 million, saving $200,000.</p>
+<h3>Stock Market Losses</h3>
+<p>Track portfolio declines easily. A $50,000 portfolio that drops 18% is now worth $50,000 × 0.82 = $41,000.</p>
+</div></div></div></section>
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><h2>The Mathematics of Recovery After Decrease</h2>
+<p>An important concept that surprises many people: recovering from a percentage decrease requires a LARGER percentage increase.</p>
+<h3>Why Recovery Requires a Bigger Percentage</h3>
+<p>After a decrease, your base is smaller. The percentage increase applies to this smaller base, so you need a higher percentage to return to the original value.</p>
+<table>
+<thead>
+<tr><th>Original</th><th>After Decrease</th><th>Recovery Needed</th></tr>
+</thead>
+<tbody>
+<tr><td>$100</td><td>$90 (10% loss)</td><td>11.11% gain</td></tr>
+<tr><td>$100</td><td>$80 (20% loss)</td><td>25% gain</td></tr>
+<tr><td>$100</td><td>$50 (50% loss)</td><td>100% gain</td></tr>
+<tr><td>$100</td><td>$25 (75% loss)</td><td>300% gain</td></tr>
+</tbody>
+</table>
+<p>This explains why a 50% market crash requires a 100% gain to break even – you need to double your reduced portfolio.</p>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>Consecutive Percentage Decreases</h2>
+<p>When applying multiple percentage decreases, they compound (multiply), they don't simply add:</p>
+<ul>
+<li>10% decrease followed by 10% decrease ≠ 20% total decrease</li>
+<li>Instead: 100 × 0.90 × 0.90 = 81 (a 19% total decrease)</li>
+<li>Each decrease applies to the already-reduced value</li>
+</ul>
+<p>This is why sales with 'extra 20% off the already reduced price' give less total discount than the percentages suggest.</p>
+</div></div></div></section>
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><h2>Limitations: Can You Decrease by More Than 100%?</h2>
+<p>In most real-world contexts, a decrease cannot exceed 100% because you cannot reduce something below zero. A 100% decrease brings any positive value to exactly zero. However, our calculator will process values over 100%, resulting in negative numbers – which may be meaningful in specific financial or scientific contexts.</p>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>Need to Add a Percentage Instead?</h2>
+<p>If you need to add a percentage to a number – for raises, markups, or growth – use our <a href="/percentage-increase-calculator">percentage increase calculator</a>. For tracking changes between two known values, the <a href="/percentage-change-calculator">percentage change calculator</a> shows both direction and magnitude.</p>
+</div></div></div></section>
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><h2>Calculator Features</h2>
+<ul>
+<li><strong>Real-Time Calculation</strong> – Results update instantly as you type</li>
+<li><strong>Dual Display</strong> – Shows both the final value and the decrease amount</li>
+<li><strong>Formula Visibility</strong> – See the exact calculation performed</li>
+<li><strong>Decimal Support</strong> – Handles precise percentages like 7.25%</li>
+<li><strong>Free and Unlimited</strong> – No sign-up, no limits on calculations</li>
+</ul></div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="section-header"><h2>Frequently Asked Questions</h2></div><dl class="faq-list"><div class="faq-item"><dt>How do I subtract 25% from a number?</dt><dd>Multiply the number by 0.75. For example, 200 - 25% = 200 × 0.75 = 150. The decrease amount is 50.</dd></div><div class="faq-item"><dt>What is 80 minus 15 percent?</dt><dd>80 minus 15% equals 68. Calculation: 80 × 0.15 = 12 (decrease), then 80 - 12 = 68.</dd></div><div class="faq-item"><dt>How do I calculate depreciation?</dt><dd>Multiply the asset value by (1 - depreciation rate). For 20% depreciation on $10,000: $10,000 × 0.80 = $8,000.</dd></div><div class="faq-item"><dt>What is the formula for subtracting a percentage?</dt><dd>New Value = Original × (1 - Percentage/100). For 30% off $50: $50 × 0.70 = $35.</dd></div><div class="faq-item"><dt>How much is 40% off $120?</dt><dd>$120 with 40% off = $72. Calculation: $120 × 0.60 = $72. You save $48.</dd></div><div class="faq-item"><dt>What does a 100% decrease mean?</dt><dd>A 100% decrease reduces the value to zero. 50 decreased by 100% = 50 - 50 = 0.</dd></div><div class="faq-item"><dt>Why do I need more than 50% gain to recover from 50% loss?</dt><dd>Because the gain percentage applies to the reduced amount. After 50% loss, you have half. To double back, you need 100% gain.</dd></div><div class="faq-item"><dt>How do consecutive discounts work?</dt><dd>They multiply, not add. 20% off then 10% off: 100 × 0.80 × 0.90 = 72 (28% total, not 30%).</dd></div><div class="faq-item"><dt>What is 500 decreased by 35%?</dt><dd>500 decreased by 35% = 325. Calculation: 500 × 0.65 = 325. The decrease is 175.</dd></div><div class="faq-item"><dt>How do I find the original price before a discount?</dt><dd>Divide the sale price by (1 - discount%). If you paid $60 after 25% off: $60 ÷ 0.75 = $80 original.</dd></div><div class="faq-item"><dt>Can a decrease be negative?</dt><dd>Entering a negative percentage would actually increase the value. Use the increase calculator for additions.</dd></div><div class="faq-item"><dt>What is 1000 minus 7.5%?</dt><dd>1000 minus 7.5% = 925. Calculation: 1000 × 0.075 = 75, then 1000 - 75 = 925.</dd></div></dl></div></section>
+<aside class="ad-slot" aria-label="Advertisement"><ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5426315045205785" data-ad-slot="3843445306"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></aside>
+
+</main>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand-row">
+            <a href="/" class="footer-logo">
+                <span class="logo-icon" aria-hidden="true">%</span>
+                <span>Percentage Calculators</span>
+            </a>
+            <p class="footer-tagline">Free online percentage calculators. Every calculation runs entirely in your browser — instant results, no sign-up.</p>
+        </div>
+        <nav class="footer-mega" id="all-tools" aria-label="Site map">
+            <div class="footer-mega-row"><div class="footer-mega-label">Core Percentage Tools <span class="footer-mega-count">(10)</span></div><div class="footer-mega-links"><a href="/">Percentage Calculator</a><a href="/percentage-increase-calculator">Percentage Increase Calculator</a><a href="/percentage-decrease-calculator">Percentage Decrease Calculator</a><a href="/percentage-change-calculator">Percentage Change Calculator</a><a href="/percentage-difference-calculator">Percentage Difference Calculator</a><a href="/percentage-off-calculator">Percentage Off Calculator</a><a href="/reverse-percentage-calculator">Reverse Percentage Calculator</a><a href="/percentage-error-calculator">Percentage Error Calculator</a><a href="/average-percentage-calculator">Average Percentage Calculator</a><a href="/percentage-point-calculator">Percentage Point Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Converters <span class="footer-mega-count">(7)</span></div><div class="footer-mega-links"><a href="/fraction-to-percentage-calculator">Fraction to Percentage Calculator</a><a href="/decimal-to-percentage-calculator">Decimal to Percentage Calculator</a><a href="/ratio-to-percentage-calculator">Ratio to Percentage Calculator</a><a href="/ppm-to-percentage-calculator">PPM to Percentage Calculator</a><a href="/basis-points-calculator">Basis Points Calculator</a><a href="/slope-percentage-calculator">Slope Percentage Calculator</a><a href="/alcohol-proof-calculator">Alcohol Proof Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Health &amp; Fitness <span class="footer-mega-count">(4)</span></div><div class="footer-mega-links"><a href="/body-fat-percentage-calculator">Body Fat Percentage Calculator</a><a href="/bmi-calculator">BMI Calculator</a><a href="/body-composition-calculator">Body Composition Calculator</a><a href="/weight-loss-percentage-calculator">Weight Loss Percentage Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Education <span class="footer-mega-count">(5)</span></div><div class="footer-mega-links"><a href="/gpa-to-percentage-calculator">GPA to Percentage Calculator</a><a href="/cgpa-to-percentage-calculator">CGPA to Percentage Calculator</a><a href="/sgpa-to-percentage-calculator">SGPA to Percentage Calculator</a><a href="/marks-percentage-calculator">Marks Percentage Calculator</a><a href="/percentile-to-percentage-calculator">Percentile to Percentage Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Finance &amp; Business <span class="footer-mega-count">(14)</span></div><div class="footer-mega-links"><a href="/percentage-growth-calculator">Percentage Growth Calculator</a><a href="/apy-calculator">APY Calculator</a><a href="/apr-calculator">APR Calculator</a><a href="/apr-apy-converter">APR to APY Converter</a><a href="/simple-interest-calculator">Simple Interest Calculator</a><a href="/compound-interest-calculator">Compound Interest Calculator</a><a href="/loan-interest-calculator">Loan Interest Calculator</a><a href="/profit-percentage-calculator">Profit Percentage Calculator</a><a href="/profit-margin-calculator">Profit Margin Calculator</a><a href="/markup-calculator">Markup Calculator</a><a href="/gross-margin-calculator">Gross Margin Calculator</a><a href="/salary-increase-calculator">Salary Increase Calculator</a><a href="/commission-calculator">Commission Calculator</a><a href="/depreciation-calculator">Depreciation Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Everyday &amp; Niche <span class="footer-mega-count">(5)</span></div><div class="footer-mega-links"><a href="/tip-calculator">Tip Calculator</a><a href="/win-loss-percentage-calculator">Win/Loss Percentage Calculator</a><a href="/bakers-percentage-calculator">Baker&#x27;s Percentage Calculator</a><a href="/food-cost-percentage-calculator">Food Cost Percentage Calculator</a><a href="/percent-solution-calculator">Percent Solution Calculator</a></div></div>
+        </nav>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Percentage Calculators. All rights reserved.</p>
+            <nav aria-label="Footer links">
+                <div class="footer-legal-links">
+                    <a href="/about">About</a><a href="/contact">Contact</a><a href="/disclaimer">Disclaimer</a><a href="/privacy-policy">Privacy Policy</a><a href="/terms-of-use">Terms of Use</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+
+<script>function calculate(){const o=parseFloat(document.getElementById('original_value').value),p=parseFloat(document.getElementById('decrease_percent').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),d=document.getElementById('decrease_amount');if(!isNaN(o)&&!isNaN(p)){const dec=o*(p/100),res=o-dec;r.textContent=formatNumber(res);if(d)d.textContent=formatNumber(dec);if(f)f.textContent=o+' - ('+o+' × '+p+'%) = '+formatNumber(res)}else{r.textContent='?';if(d)d.textContent='?';if(f)f.textContent=''}}
+function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}</script>
+<script>
+  function initCategoryDropdowns() {
+    var buttons = document.querySelectorAll('.cat-menu-btn');
+    function closeAll(except) {
+      buttons.forEach(function (b) {
+        if (b === except) return;
+        b.setAttribute('aria-expanded', 'false');
+        var menu = document.getElementById(b.getAttribute('aria-controls'));
+        if (menu) menu.classList.remove('open');
+      });
+    }
+    function positionMenu(b, menu) {
+      var rect = b.getBoundingClientRect();
+      menu.style.top = (rect.bottom + 8) + 'px';
+      menu.style.left = Math.max(8, Math.min(rect.left, window.innerWidth - menu.offsetWidth - 8)) + 'px';
+    }
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var expanded = b.getAttribute('aria-expanded') === 'true';
+        closeAll();
+        var menu = document.getElementById(b.getAttribute('aria-controls'));
+        if (!expanded && menu) {
+          menu.classList.add('open');
+          positionMenu(b, menu);
+          b.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+    document.addEventListener('click', function () { closeAll(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(); });
+    window.addEventListener('scroll', function () { closeAll(); }, { passive: true });
+    return closeAll;
+  }
+  function initPriorityNav(closeAll) {
+    var strip = document.querySelector('.category-strip');
+    var moreItem = document.getElementById('moreMenuItem');
+    if (!strip || !moreItem) return;
+    var items = Array.prototype.slice.call(strip.querySelectorAll('.cat-menu-item[data-cat-key]'));
+    var sections = document.querySelectorAll('.more-menu-section');
+    function layout() {
+      items.forEach(function (item) { item.style.removeProperty('display'); });
+      sections.forEach(function (s) { s.classList.remove('cat-visible'); });
+      moreItem.style.display = 'flex';
+
+      var available = strip.clientWidth;
+      var gap = parseFloat(getComputedStyle(strip).columnGap) || 0;
+      var fixedWidth = 0;
+      Array.prototype.forEach.call(strip.children, function (el) {
+        if (el !== moreItem && items.indexOf(el) === -1) {
+          fixedWidth += el.getBoundingClientRect().width + gap;
+        }
+      });
+      var moreWidth = moreItem.getBoundingClientRect().width + gap;
+      var itemWidths = items.map(function (it) { return it.getBoundingClientRect().width + gap; });
+      var total = itemWidths.reduce(function (a, b) { return a + b; }, fixedWidth);
+
+      if (total <= available) {
+        moreItem.style.display = 'none';
+        return;
+      }
+
+      var used = fixedWidth;
+      var visibleCount = 0;
+      for (var i = 0; i < itemWidths.length; i++) {
+        if (used + itemWidths[i] + moreWidth > available) break;
+        used += itemWidths[i];
+        visibleCount++;
+      }
+
+      items.forEach(function (item, idx) {
+        if (idx >= visibleCount) {
+          item.style.display = 'none';
+          var section = document.querySelector('.more-menu-section[data-cat-key="' + item.getAttribute('data-cat-key') + '"]');
+          if (section) section.classList.add('cat-visible');
+        }
+      });
+    }
+    var resizeTimer;
+    window.addEventListener('resize', function () {
+      closeAll();
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(layout, 100);
+    });
+    layout();
+    window.addEventListener('load', layout);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(layout);
+    }
+  }
+  function initMobileDrawer() {
+    var hamburger = document.getElementById('navHamburgerBtn');
+    var drawer = document.getElementById('navDrawer');
+    var backdrop = document.getElementById('navDrawerBackdrop');
+    var closeBtn = document.getElementById('navDrawerClose');
+    if (!hamburger || !drawer || !backdrop) return;
+    var sectionButtons = drawer.querySelectorAll('.drawer-section-btn');
+    function isOpen() { return drawer.classList.contains('open'); }
+    function openDrawer() {
+      drawer.hidden = false;
+      backdrop.hidden = false;
+      setTimeout(function () {
+        drawer.classList.add('open');
+        backdrop.classList.add('open');
+      }, 10);
+      hamburger.setAttribute('aria-expanded', 'true');
+      document.body.classList.add('drawer-open');
+    }
+    function closeDrawer() {
+      drawer.classList.remove('open');
+      backdrop.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('drawer-open');
+      setTimeout(function () {
+        if (!isOpen()) { drawer.hidden = true; backdrop.hidden = true; }
+      }, 220);
+    }
+    hamburger.addEventListener('click', function () { isOpen() ? closeDrawer() : openDrawer(); });
+    closeBtn.addEventListener('click', closeDrawer);
+    backdrop.addEventListener('click', closeDrawer);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && isOpen()) closeDrawer(); });
+    sectionButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        var panel = document.getElementById(btn.getAttribute('aria-controls'));
+        if (panel) panel.classList.toggle('open', !expanded);
+      });
+    });
+    var mq = window.matchMedia('(min-width:769px)');
+    var mqHandler = function (e) { if (e.matches && isOpen()) closeDrawer(); };
+    if (mq.addEventListener) mq.addEventListener('change', mqHandler);
+    else mq.addListener(mqHandler);
+  }
+  function wrapTables() {
+    document.querySelectorAll('.article table').forEach(function (table) {
+      if (table.closest('.table-scroll')) return;
+      var wrap = document.createElement('div');
+      wrap.className = 'table-scroll';
+      table.parentNode.insertBefore(wrap, table);
+      wrap.appendChild(table);
+    });
+  }
+  function initToolForm() {
+    var form = document.querySelector('.tool-section form');
+    if (!form) return;
+    form.addEventListener('submit', function (e) { e.preventDefault(); });
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    var closeAll = initCategoryDropdowns();
+    initPriorityNav(closeAll);
+    initMobileDrawer();
+    wrapTables();
+    initToolForm();
+  });
+</script>
+</body>
+</html>

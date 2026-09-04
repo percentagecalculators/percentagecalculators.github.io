@@ -1,0 +1,63 @@
+{
+  "slug": "percentage-increase-calculator",
+  "meta_title": "Percentage Increase Calculator | Add Percentage to Number",
+  "meta_description": "Free percentage increase calculator. Add any percentage to a number instantly. Calculate salary raises, price markups, investment returns and more.",
+  "h1": "Percentage Increase Calculator",
+  "subtitle": "Enter your <strong>starting number</strong> and the <strong>percentage to add</strong>, and this <strong>percentage increase calculator</strong> gives you both the <strong>increase amount</strong> and the <strong>final value</strong>. Think of it as the answer to \"what is 200 plus 15%?\" — which, by the way, is 230.",
+  "card": {
+    "layout": "raw",
+    "fields_html": "<div class=\"tool-card\">\n  <div class=\"tool-card-head\"><svg class=\"icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M13 7h8m0 0v8m0-8l-8 8-4-4-6 6\"/></svg>Percentage Increase Calculator</div>\n  <div class=\"tool-card-body\">\n    <div class=\"calc-field\"><label for=\"original_value\">Original Value</label><input type=\"number\" id=\"original_value\" step=\"any\" placeholder=\"Enter starting number\" oninput=\"calculate()\"></div>\n    <div class=\"calc-field\">\n      <label for=\"increase_percent\">Increase by</label>\n      <div class=\"input-row\"><input type=\"number\" id=\"increase_percent\" step=\"any\" placeholder=\"Enter percentage\" oninput=\"calculate()\"><span class=\"unit\">%</span></div>\n    </div>\n    <div class=\"calc-results\">\n      <div class=\"calc-result-row\"><span class=\"label\">Increase Amount:</span><span class=\"value\" id=\"increase_amount\">?</span></div>\n      <div class=\"calc-result-row primary\"><span class=\"label\">New Value:</span><span class=\"value\" id=\"result\">?</span></div>\n    </div>\n    <p class=\"calc-formula\" id=\"formula_display\"></p>\n  </div>\n</div>"
+  },
+  "script": "function calculate(){const o=parseFloat(document.getElementById('original_value').value),p=parseFloat(document.getElementById('increase_percent').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),i=document.getElementById('increase_amount');if(!isNaN(o)&&!isNaN(p)){const inc=o*(p/100),res=o+inc;r.textContent=formatNumber(res);if(i)i.textContent=formatNumber(inc);if(f)f.textContent=o+' + ('+o+' × '+p+'%) = '+formatNumber(res)}else{r.textContent='?';if(i)i.textContent='?';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}",
+  "content_html": "<h2>How to Add a Percentage to Any Number</h2>\n<p>Adding a percentage to a number is one of the most common mathematical operations in everyday life. Whether you're calculating a salary raise, determining retail markup, or computing investment returns, this percentage increase calculator performs the calculation instantly and shows you both the final value and the exact increase amount.</p>\n<p>Our calculator eliminates manual errors and provides real-time results as you type. Simply enter your original value and the percentage you want to add, and watch as the calculator displays your new value along with the step-by-step formula.</p>\n<h2>The Percentage Increase Formula Explained</h2>\n<p>Understanding the mathematics behind percentage increases helps you verify calculations and perform mental math when needed. There are two equivalent ways to calculate a percentage increase:</p>\n<h3>Method 1: Two-Step Calculation</h3>\n<div class=\"formula-block\">Increase Amount = Original Value × (Percentage ÷ 100)<br>New Value = Original Value + Increase Amount</div>\n<p>This method is intuitive because you first calculate how much you're adding, then add it to the original. For example, to increase 200 by 15%: First calculate 200 × 0.15 = 30 (the increase), then add 200 + 30 = 230.</p>\n<h3>Method 2: One-Step Multiplier</h3>\n<div class=\"formula-block\">New Value = Original Value × (1 + Percentage ÷ 100)</div>\n<p>This method is faster for repeated calculations. For 200 increased by 15%: 200 × 1.15 = 230. The multiplier (1.15) represents 100% of the original plus 15% more.</p>\n<h2>Quick Reference: Common Percentage Multipliers</h2>\n<table>\n<thead>\n<tr><th>Percentage Increase</th><th>Multiplier</th><th>Example (Starting with 100)</th></tr>\n</thead>\n<tbody>\n<tr><td>5%</td><td>1.05</td><td>105</td></tr>\n<tr><td>10%</td><td>1.10</td><td>110</td></tr>\n<tr><td>15%</td><td>1.15</td><td>115</td></tr>\n<tr><td>20%</td><td>1.20</td><td>120</td></tr>\n<tr><td>25%</td><td>1.25</td><td>125</td></tr>\n<tr><td>50%</td><td>1.50</td><td>150</td></tr>\n<tr><td>75%</td><td>1.75</td><td>175</td></tr>\n<tr><td>100%</td><td>2.00</td><td>200</td></tr>\n</tbody>\n</table>\n<h2>Real-World Applications</h2>\n<h3>Salary and Wage Increases</h3>\n<p>When your employer announces a percentage raise, you can instantly calculate your new salary. For example, if you earn $55,000 annually and receive a 4% raise, enter 55000 and 4 to see your new salary of $57,200 – an increase of $2,200.</p>\n<h3>Retail Markup Calculations</h3>\n<p>Retailers use percentage markup to set selling prices. If a wholesale item costs $45 and you apply a 60% markup, your selling price becomes $72. This tool is part of our comprehensive <a href=\"/\">free online percentage calculators</a> suite designed for business calculations.</p>\n<h3>Investment Returns</h3>\n<p>Calculate how much your investment grows with a given return rate. A $10,000 investment with an 8% annual return becomes $10,800 after one year.</p>\n<h3>Inflation Adjustments</h3>\n<p>Adjust prices or budgets for inflation. If costs are $500,000 and inflation is 3.5%, next year's adjusted budget should be $517,500.</p>\n<h2>Understanding Compound vs. Simple Percentage Increases</h2>\n<p>A critical concept when working with percentage increases is the difference between simple and compound calculations.</p>\n<h3>Simple Increase (One-Time)</h3>\n<p>This calculator performs simple, one-time percentage increases. You apply the percentage once to the original value. This is appropriate for single raises, one-time markups, or annual returns calculated individually.</p>\n<h3>Compound Increases (Multiple Periods)</h3>\n<p>When percentage increases apply repeatedly (like multi-year compound interest), each increase builds on the previous result. Two consecutive 10% increases don't equal 20% – they equal 21% total because the second increase applies to the already-increased value.</p>\n<ul>\n<li>Year 1: $100 + 10% = $110</li>\n<li>Year 2: $110 + 10% = $121 (not $120)</li>\n<li>Total increase: 21%, not 20%</li>\n</ul>\n<h2>Tips for Accurate Percentage Calculations</h2>\n<ol>\n<li>Double-check your starting value before calculating</li>\n<li>For percentages over 100%, remember the value will more than double</li>\n<li>When adding tax to a price, the percentage is applied to the pre-tax amount</li>\n<li>For sequential increases, apply each percentage to the new value, not the original</li>\n<li>Use decimal precision when accuracy matters (enter 7.5, not just 7 or 8)</li>\n</ol>\n<h2>Special Cases and Edge Scenarios</h2>\n<h3>Increases Over 100%</h3>\n<p>Yes, you can increase by more than 100%. A 100% increase doubles the value; a 200% increase triples it; a 300% increase quadruples it. For instance, 50 increased by 200% equals 150 (50 + 100 = 150).</p>\n<h3>Fractional Percentages</h3>\n<p>This calculator handles decimal percentages like 3.75% or 0.5% with precision. Enter them exactly as needed for accurate financial calculations.</p>\n<h3>Negative Starting Values</h3>\n<p>While less common, the calculator works with negative numbers too. Increasing -50 by 20% gives -60 (the absolute value grows, making the number more negative).</p>\n<h2>Subtracting a Percentage Instead?</h2>\n<p>If you need to subtract a percentage from a number – for discounts, depreciation, or reductions – use our <a href=\"/percentage-decrease-calculator\">percentage decrease calculator</a> which shows the reduction amount and final value.</p>\n<h2>Why Use This Percentage Increase Calculator?</h2>\n<ul>\n<li><strong>Instant Results</strong> – Answers appear as you type with no button clicks required</li>\n<li><strong>Dual Output</strong> – See both the final value AND the increase amount</li>\n<li><strong>Formula Display</strong> – Verify the calculation with the visible formula</li>\n<li><strong>Unlimited Precision</strong> – Handles decimal values for financial accuracy</li>\n<li><strong>No Registration</strong> – Free to use without creating an account</li>\n<li><strong>Mobile Friendly</strong> – Works perfectly on phones, tablets, and computers</li>\n</ul>",
+  "faq": [
+    {
+      "question": "How do I add 20% to a number?",
+      "answer": "Multiply the number by 1.20. For example, 100 + 20% = 100 × 1.20 = 120. The increase amount is 20."
+    },
+    {
+      "question": "What is 500 plus 15 percent?",
+      "answer": "500 plus 15% equals 575. Calculation: 500 × 0.15 = 75 (increase), then 500 + 75 = 575."
+    },
+    {
+      "question": "How do I calculate my new salary after a 5% raise?",
+      "answer": "Multiply your current salary by 1.05. For $60,000 with 5% raise: $60,000 × 1.05 = $63,000. You gain $3,000."
+    },
+    {
+      "question": "What is the formula for adding a percentage?",
+      "answer": "New Value = Original × (1 + Percentage/100). This combines the original with the percentage increase in one step."
+    },
+    {
+      "question": "How do I add 40% markup to a product cost?",
+      "answer": "Multiply the cost by 1.40. If the product costs $25, the selling price is $25 × 1.40 = $35. Markup is $10."
+    },
+    {
+      "question": "What does it mean to increase by 100%?",
+      "answer": "A 100% increase doubles the original value. 50 increased by 100% = 50 + 50 = 100."
+    },
+    {
+      "question": "Can I increase by more than 100%?",
+      "answer": "Yes. A 200% increase triples the original (100% original + 200% increase = 300% = 3×). So 50 + 200% = 150."
+    },
+    {
+      "question": "How do consecutive percentage increases work?",
+      "answer": "They compound, not add. Two 10% increases: 100 × 1.10 × 1.10 = 121, not 120. Each applies to the new value."
+    },
+    {
+      "question": "What is 80 increased by 25%?",
+      "answer": "80 increased by 25% = 100. Calculation: 80 × 1.25 = 100. The increase amount is 20."
+    },
+    {
+      "question": "How do I add 8.5% tax to a price?",
+      "answer": "Multiply by 1.085. For a $50 item: $50 × 1.085 = $54.25. Tax amount is $4.25."
+    },
+    {
+      "question": "What is the increase from 200 to 250?",
+      "answer": "The increase amount is 50. As a percentage: (50/200) × 100 = 25% increase."
+    },
+    {
+      "question": "How do I calculate compound interest percentage?",
+      "answer": "For each period, multiply by (1 + rate). For 3 years at 5%: Principal × 1.05 × 1.05 × 1.05 = Principal × 1.157625."
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free average percentage calculator. Calculate the mean of multiple percentages instantly. Perfect for grade averages, performance metrics, and statistical analysis.">
+    <meta name="author" content="Percentage Calculators">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://percentagecalculators.github.io/average-percentage-calculator">
+    <title>Average Percentage Calculator | Find Mean of Multiple Percentages</title>
+
+    <link rel="preload" href="/fonts/dm-sans-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/jetbrains-mono-variable.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="icon" href="/favicon.ico">
+    <meta name="theme-color" content="#0f172a">
+
+    <style></style>
+    <link rel="preload" href="/typography.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="/typography.min.css">
+        <link rel="stylesheet" href="/styles.min.css">
+    </noscript>
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Average Percentage Calculator","url":"https://percentagecalculators.github.io/average-percentage-calculator","description":"Free average percentage calculator. Calculate the mean of multiple percentages instantly. Perfect for grade averages, performance metrics, and statistical analysis.","applicationCategory":"CalculatorApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+    
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the average of 70%, 80%, and 90%?","acceptedAnswer":{"@type":"Answer","text":"The average is 80%. Calculation: (70+80+90) \u00f7 3 = 240 \u00f7 3 = 80%."}},{"@type":"Question","name":"How do I calculate my grade average?","acceptedAnswer":{"@type":"Answer","text":"Add all percentage grades and divide by the count. For equal-weight classes: (Grade1 + Grade2 + ...) \u00f7 Number of classes."}},{"@type":"Question","name":"Can I average percentages from different bases?","acceptedAnswer":{"@type":"Answer","text":"Yes for simple average if they have equal weight. For different-sized groups, use weighted average."}},{"@type":"Question","name":"What is the average of 85, 92, 78, 95?","acceptedAnswer":{"@type":"Answer","text":"The average is 87.5%. Calculation: (85+92+78+95) \u00f7 4 = 350 \u00f7 4 = 87.5%."}},{"@type":"Question","name":"When is simple averaging wrong?","acceptedAnswer":{"@type":"Answer","text":"When percentages represent different-sized groups or have different importance. Then use weighted averaging."}},{"@type":"Question","name":"What is the average of 50% and 100%?","acceptedAnswer":{"@type":"Answer","text":"The average is 75%. Calculation: (50+100) \u00f7 2 = 75%."}},{"@type":"Question","name":"How do I find weighted average of percentages?","acceptedAnswer":{"@type":"Answer","text":"Multiply each percentage by its weight, sum the products, divide by total weight: Sum(% \u00d7 weight) / Sum(weights)."}},{"@type":"Question","name":"Can average percentage exceed 100%?","acceptedAnswer":{"@type":"Answer","text":"Yes, if input percentages exceed 100%. Average of 150% and 200% is 175%."}},{"@type":"Question","name":"What is the average of five 20% values?","acceptedAnswer":{"@type":"Answer","text":"The average is 20%. (20+20+20+20+20) \u00f7 5 = 20%."}},{"@type":"Question","name":"How many values can I average?","acceptedAnswer":{"@type":"Answer","text":"Enter any number of values separated by commas or spaces. The calculator handles them all."}},{"@type":"Question","name":"What if I enter non-numeric values?","acceptedAnswer":{"@type":"Answer","text":"The calculator filters out non-numeric entries and averages only valid numbers."}},{"@type":"Question","name":"What is the average of 60, 70, 80, 90, 100?","acceptedAnswer":{"@type":"Answer","text":"The average is 80%. Calculation: (60+70+80+90+100) \u00f7 5 = 400 \u00f7 5 = 80%."}}]}</script>
+
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+    <script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5426315045205785"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header>
+    <nav class="top-nav" aria-label="Primary navigation">
+        <a href="/" class="logo">
+            <span class="logo-icon" aria-hidden="true">%</span>
+            <span>Percentage Calculators</span>
+        </a>
+        <div class="category-strip">
+            <div class="cat-menu-item"><a href="/" class="cat-menu-btn">Home</a></div><div class="cat-menu-item" data-cat-key="core"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-core">Core<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-core"><div class="menu-panel-header"><span class="more-menu-icon">%</span><div><strong>Core Percentage Tools</strong><p>The essentials: find a percentage, increase or decrease a number, and compare two values.</p></div></div><div class="menu-panel-links"><a href="/">Percentage Calculator</a><a href="/percentage-increase-calculator">Percentage Increase Calculator</a><a href="/percentage-decrease-calculator">Percentage Decrease Calculator</a><a href="/percentage-change-calculator">Percentage Change Calculator</a><a href="/percentage-difference-calculator">Percentage Difference Calculator</a><a href="/percentage-off-calculator">Percentage Off Calculator</a><a href="/reverse-percentage-calculator">Reverse Percentage Calculator</a><a href="/percentage-error-calculator">Percentage Error Calculator</a><a href="/average-percentage-calculator">Average Percentage Calculator</a><a href="/percentage-point-calculator">Percentage Point Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="converters"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-converters">Converters<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-converters"><div class="menu-panel-header"><span class="more-menu-icon">=</span><div><strong>Converters</strong><p>Convert between percentages, fractions, decimals, ratios, and other unit forms.</p></div></div><div class="menu-panel-links"><a href="/fraction-to-percentage-calculator">Fraction to Percentage Calculator</a><a href="/decimal-to-percentage-calculator">Decimal to Percentage Calculator</a><a href="/ratio-to-percentage-calculator">Ratio to Percentage Calculator</a><a href="/ppm-to-percentage-calculator">PPM to Percentage Calculator</a><a href="/basis-points-calculator">Basis Points Calculator</a><a href="/slope-percentage-calculator">Slope Percentage Calculator</a><a href="/alcohol-proof-calculator">Alcohol Proof Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="health-fitness"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-health-fitness">Health<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-health-fitness"><div class="menu-panel-header"><span class="more-menu-icon">+</span><div><strong>Health &amp; Fitness</strong><p>Body fat, BMI, body composition, and weight-loss percentage calculators.</p></div></div><div class="menu-panel-links"><a href="/body-fat-percentage-calculator">Body Fat Percentage Calculator</a><a href="/bmi-calculator">BMI Calculator</a><a href="/body-composition-calculator">Body Composition Calculator</a><a href="/weight-loss-percentage-calculator">Weight Loss Percentage Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="education"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-education">Education<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-education"><div class="menu-panel-header"><span class="more-menu-icon">ED</span><div><strong>Education</strong><p>GPA, CGPA, SGPA, marks, and percentile conversions for students.</p></div></div><div class="menu-panel-links"><a href="/gpa-to-percentage-calculator">GPA to Percentage Calculator</a><a href="/cgpa-to-percentage-calculator">CGPA to Percentage Calculator</a><a href="/sgpa-to-percentage-calculator">SGPA to Percentage Calculator</a><a href="/marks-percentage-calculator">Marks Percentage Calculator</a><a href="/percentile-to-percentage-calculator">Percentile to Percentage Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="finance"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-finance">Finance<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-finance"><div class="menu-panel-header"><span class="more-menu-icon">$</span><div><strong>Finance &amp; Business</strong><p>Interest rates, profit margins, markup, salary raises, and business growth.</p></div></div><div class="menu-panel-links"><a href="/percentage-growth-calculator">Percentage Growth Calculator</a><a href="/apy-calculator">APY Calculator</a><a href="/apr-calculator">APR Calculator</a><a href="/apr-apy-converter">APR to APY Converter</a><a href="/simple-interest-calculator">Simple Interest Calculator</a><a href="/compound-interest-calculator">Compound Interest Calculator</a><a href="/loan-interest-calculator">Loan Interest Calculator</a><a href="/profit-percentage-calculator">Profit Percentage Calculator</a><a href="/profit-margin-calculator">Profit Margin Calculator</a><a href="/markup-calculator">Markup Calculator</a><a href="/gross-margin-calculator">Gross Margin Calculator</a><a href="/salary-increase-calculator">Salary Increase Calculator</a><a href="/commission-calculator">Commission Calculator</a><a href="/depreciation-calculator">Depreciation Calculator</a></div></div></div><div class="cat-menu-item" data-cat-key="everyday"><button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="catmenu-everyday">Everyday<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu cat-menu" id="catmenu-everyday"><div class="menu-panel-header"><span class="more-menu-icon">..</span><div><strong>Everyday &amp; Niche</strong><p>Tips, win rates, baking ratios, food cost, and solution-concentration percentages.</p></div></div><div class="menu-panel-links"><a href="/tip-calculator">Tip Calculator</a><a href="/win-loss-percentage-calculator">Win/Loss Percentage Calculator</a><a href="/bakers-percentage-calculator">Baker&#x27;s Percentage Calculator</a><a href="/food-cost-percentage-calculator">Food Cost Percentage Calculator</a><a href="/percent-solution-calculator">Percent Solution Calculator</a></div></div></div><div class="cat-menu-item" id="moreMenuItem" style="display:none"><button type="button" class="cat-menu-btn" id="moreMenuBtn" aria-expanded="false" aria-controls="moreMenuPanel">More<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="tools-menu more-menu" id="moreMenuPanel"><div class="more-menu-section" data-cat-key="core"><div class="more-menu-heading"><span class="more-menu-icon">%</span>Core Percentage Tools</div><a href="/">Percentage Calculator</a><a href="/percentage-increase-calculator">Percentage Increase Calculator</a><a href="/percentage-decrease-calculator">Percentage Decrease Calculator</a><a href="/percentage-change-calculator">Percentage Change Calculator</a><a href="/percentage-difference-calculator">Percentage Difference Calculator</a><a href="/percentage-off-calculator">Percentage Off Calculator</a><a href="/reverse-percentage-calculator">Reverse Percentage Calculator</a><a href="/percentage-error-calculator">Percentage Error Calculator</a><a href="/average-percentage-calculator">Average Percentage Calculator</a><a href="/percentage-point-calculator">Percentage Point Calculator</a></div><div class="more-menu-section" data-cat-key="converters"><div class="more-menu-heading"><span class="more-menu-icon">=</span>Converters</div><a href="/fraction-to-percentage-calculator">Fraction to Percentage Calculator</a><a href="/decimal-to-percentage-calculator">Decimal to Percentage Calculator</a><a href="/ratio-to-percentage-calculator">Ratio to Percentage Calculator</a><a href="/ppm-to-percentage-calculator">PPM to Percentage Calculator</a><a href="/basis-points-calculator">Basis Points Calculator</a><a href="/slope-percentage-calculator">Slope Percentage Calculator</a><a href="/alcohol-proof-calculator">Alcohol Proof Calculator</a></div><div class="more-menu-section" data-cat-key="health-fitness"><div class="more-menu-heading"><span class="more-menu-icon">+</span>Health &amp; Fitness</div><a href="/body-fat-percentage-calculator">Body Fat Percentage Calculator</a><a href="/bmi-calculator">BMI Calculator</a><a href="/body-composition-calculator">Body Composition Calculator</a><a href="/weight-loss-percentage-calculator">Weight Loss Percentage Calculator</a></div><div class="more-menu-section" data-cat-key="education"><div class="more-menu-heading"><span class="more-menu-icon">ED</span>Education</div><a href="/gpa-to-percentage-calculator">GPA to Percentage Calculator</a><a href="/cgpa-to-percentage-calculator">CGPA to Percentage Calculator</a><a href="/sgpa-to-percentage-calculator">SGPA to Percentage Calculator</a><a href="/marks-percentage-calculator">Marks Percentage Calculator</a><a href="/percentile-to-percentage-calculator">Percentile to Percentage Calculator</a></div><div class="more-menu-section" data-cat-key="finance"><div class="more-menu-heading"><span class="more-menu-icon">$</span>Finance &amp; Business</div><a href="/percentage-growth-calculator">Percentage Growth Calculator</a><a href="/apy-calculator">APY Calculator</a><a href="/apr-calculator">APR Calculator</a><a href="/apr-apy-converter">APR to APY Converter</a><a href="/simple-interest-calculator">Simple Interest Calculator</a><a href="/compound-interest-calculator">Compound Interest Calculator</a><a href="/loan-interest-calculator">Loan Interest Calculator</a><a href="/profit-percentage-calculator">Profit Percentage Calculator</a><a href="/profit-margin-calculator">Profit Margin Calculator</a><a href="/markup-calculator">Markup Calculator</a><a href="/gross-margin-calculator">Gross Margin Calculator</a><a href="/salary-increase-calculator">Salary Increase Calculator</a><a href="/commission-calculator">Commission Calculator</a><a href="/depreciation-calculator">Depreciation Calculator</a></div><div class="more-menu-section" data-cat-key="everyday"><div class="more-menu-heading"><span class="more-menu-icon">..</span>Everyday &amp; Niche</div><a href="/tip-calculator">Tip Calculator</a><a href="/win-loss-percentage-calculator">Win/Loss Percentage Calculator</a><a href="/bakers-percentage-calculator">Baker&#x27;s Percentage Calculator</a><a href="/food-cost-percentage-calculator">Food Cost Percentage Calculator</a><a href="/percent-solution-calculator">Percent Solution Calculator</a></div></div></div>
+        </div>
+        <button type="button" class="nav-hamburger" id="navHamburgerBtn" aria-expanded="false" aria-controls="navDrawer" aria-label="Open menu"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg></button>
+    </nav>
+</header>
+<div id="navDrawerBackdrop" hidden></div><div class="nav-drawer-panel" id="navDrawer" role="dialog" aria-modal="true" aria-label="Site navigation" hidden><button type="button" class="nav-drawer-close" id="navDrawerClose" aria-label="Close menu"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg></button><div class="nav-drawer-section"><a href="/">Home</a></div><div class="nav-drawer-section" data-cluster="core"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-core"><span class="more-menu-icon">%</span><span><strong>Core Percentage Tools</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-core"><a href="/">Percentage Calculator</a><a href="/percentage-increase-calculator">Percentage Increase Calculator</a><a href="/percentage-decrease-calculator">Percentage Decrease Calculator</a><a href="/percentage-change-calculator">Percentage Change Calculator</a><a href="/percentage-difference-calculator">Percentage Difference Calculator</a><a href="/percentage-off-calculator">Percentage Off Calculator</a><a href="/reverse-percentage-calculator">Reverse Percentage Calculator</a><a href="/percentage-error-calculator">Percentage Error Calculator</a><a href="/average-percentage-calculator">Average Percentage Calculator</a><a href="/percentage-point-calculator">Percentage Point Calculator</a></div></div><div class="nav-drawer-section" data-cluster="converters"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-converters"><span class="more-menu-icon">=</span><span><strong>Converters</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-converters"><a href="/fraction-to-percentage-calculator">Fraction to Percentage Calculator</a><a href="/decimal-to-percentage-calculator">Decimal to Percentage Calculator</a><a href="/ratio-to-percentage-calculator">Ratio to Percentage Calculator</a><a href="/ppm-to-percentage-calculator">PPM to Percentage Calculator</a><a href="/basis-points-calculator">Basis Points Calculator</a><a href="/slope-percentage-calculator">Slope Percentage Calculator</a><a href="/alcohol-proof-calculator">Alcohol Proof Calculator</a></div></div><div class="nav-drawer-section" data-cluster="health-fitness"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-health-fitness"><span class="more-menu-icon">+</span><span><strong>Health &amp; Fitness</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-health-fitness"><a href="/body-fat-percentage-calculator">Body Fat Percentage Calculator</a><a href="/bmi-calculator">BMI Calculator</a><a href="/body-composition-calculator">Body Composition Calculator</a><a href="/weight-loss-percentage-calculator">Weight Loss Percentage Calculator</a></div></div><div class="nav-drawer-section" data-cluster="education"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-education"><span class="more-menu-icon">ED</span><span><strong>Education</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-education"><a href="/gpa-to-percentage-calculator">GPA to Percentage Calculator</a><a href="/cgpa-to-percentage-calculator">CGPA to Percentage Calculator</a><a href="/sgpa-to-percentage-calculator">SGPA to Percentage Calculator</a><a href="/marks-percentage-calculator">Marks Percentage Calculator</a><a href="/percentile-to-percentage-calculator">Percentile to Percentage Calculator</a></div></div><div class="nav-drawer-section" data-cluster="finance"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-finance"><span class="more-menu-icon">$</span><span><strong>Finance &amp; Business</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-finance"><a href="/percentage-growth-calculator">Percentage Growth Calculator</a><a href="/apy-calculator">APY Calculator</a><a href="/apr-calculator">APR Calculator</a><a href="/apr-apy-converter">APR to APY Converter</a><a href="/simple-interest-calculator">Simple Interest Calculator</a><a href="/compound-interest-calculator">Compound Interest Calculator</a><a href="/loan-interest-calculator">Loan Interest Calculator</a><a href="/profit-percentage-calculator">Profit Percentage Calculator</a><a href="/profit-margin-calculator">Profit Margin Calculator</a><a href="/markup-calculator">Markup Calculator</a><a href="/gross-margin-calculator">Gross Margin Calculator</a><a href="/salary-increase-calculator">Salary Increase Calculator</a><a href="/commission-calculator">Commission Calculator</a><a href="/depreciation-calculator">Depreciation Calculator</a></div></div><div class="nav-drawer-section" data-cluster="everyday"><button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="drawer-everyday"><span class="more-menu-icon">..</span><span><strong>Everyday &amp; Niche</strong></span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-drawer-section-links" id="drawer-everyday"><a href="/tip-calculator">Tip Calculator</a><a href="/win-loss-percentage-calculator">Win/Loss Percentage Calculator</a><a href="/bakers-percentage-calculator">Baker&#x27;s Percentage Calculator</a><a href="/food-cost-percentage-calculator">Food Cost Percentage Calculator</a><a href="/percent-solution-calculator">Percent Solution Calculator</a></div></div></div>
+
+<main id="main-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Average Percentage Calculator</li></ol></nav><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://percentagecalculators.github.io/"},{"@type":"ListItem","position":2,"name":"Average Percentage Calculator"}]}</script>
+    <section class="hero">
+        <h1>Average Percentage Calculator</h1>
+        <p class="subtitle">Type in a list of <strong>percentages</strong> separated by commas, and this <strong>average percentage calculator</strong> gives you the <strong>mean</strong>, <strong>sum</strong>, <strong>count</strong>, and range of your values. Got five test scores as percentages? Drop them all in and see where you land.</p>
+    </section>
+
+    <aside class="ad-slot ad-slot-header" aria-label="Advertisement"><ins class="adsbygoogle" id="adsense-header" data-ad-client="ca-pub-5426315045205785" data-ad-slot="3575522428"></ins><script>(function(){var ins=document.getElementById("adsense-header");if(window.innerWidth>=728){ins.style.display="inline-block";ins.style.width="728px";ins.style.height="90px";}else{ins.style.display="inline-block";ins.style.width="300px";ins.style.height="100px";}(adsbygoogle=window.adsbygoogle||[]).push({});})();</script></aside>
+
+    <section class="tool-section">
+        <form data-mode="" data-layout="raw" novalidate>
+            <div class="tool-card">
+  <div class="tool-card-head"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18M7 15l4-4 4 3 5-6"/></svg>Average Percentage Calculator</div>
+  <div class="tool-card-body">
+    <div class="calc-field">
+      <label for="percentages">Percentages (comma or space separated)</label>
+      <textarea id="percentages" placeholder="e.g. 85, 90, 78, 92" oninput="calculate()"></textarea>
+    </div>
+    <div class="calc-results">
+      <div class="calc-result-row"><span class="label">Count:</span><span class="value" id="count">?</span></div>
+      <div class="calc-result-row"><span class="label">Sum:</span><span class="value" id="sum">?</span></div>
+      <div class="calc-result-row primary"><span class="label">Average:</span><span class="value" id="result">?</span></div>
+    </div>
+    <p class="calc-formula" id="formula_display"></p>
+  </div>
+</div>
+        </form>
+        
+        
+    </section>
+
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><aside class="ad-slot" aria-label="Advertisement"><ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5426315045205785" data-ad-slot="2877013843"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></aside><h2>Calculate the Average of Multiple Percentages</h2>
+<p>Finding the mean of multiple percentages is a common task in academics, business, and data analysis. This calculator handles any number of percentage values, providing the average, sum, and count instantly.</p>
+<p>Simply enter your percentages separated by commas (e.g., 85, 92, 78, 88), and the calculator displays your results in real-time as you type.</p>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>The Simple Average Formula</h2>
+<div class="formula-block">Average Percentage = (Sum of all percentages) ÷ (Number of percentages)</div>
+<p>This is called the arithmetic mean – it treats all values equally and finds the central tendency.</p>
+<h3>Example Calculation</h3>
+<p>Grade percentages: 85%, 92%, 78%, 90%, 80%</p>
+<ol>
+<li>Sum: 85 + 92 + 78 + 90 + 80 = 425</li>
+<li>Count: 5 values</li>
+<li>Average: 425 ÷ 5 = 85%</li>
+</ol>
+</div></div></div></section>
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><h2>When to Use Simple Average</h2>
+<h3>Equal Weight Scenarios</h3>
+<p>Simple averaging works perfectly when all values have equal importance:</p>
+<ul>
+<li><strong>Equal-weighted exams</strong> – Five tests, each counting equally toward final grade</li>
+<li><strong>Performance ratings</strong> – Monthly reviews with equal weight per month</li>
+<li><strong>Survey responses</strong> – Each respondent's percentage counts equally</li>
+<li><strong>Multiple measurements</strong> – Repeated experiments with equal validity</li>
+</ul>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>When NOT to Use Simple Average</h2>
+<p>Simple averaging can give misleading results in these scenarios:</p>
+<h3>Different Sample Sizes</h3>
+<p>If percentages represent different-sized groups, simple averaging is wrong. Example: Company A has 80% satisfaction (1,000 customers) and Company B has 90% satisfaction (100 customers). The combined average isn't 85% – it's closer to 80.9% because Company A has more weight.</p>
+<h3>Different Weights</h3>
+<p>When categories have different importance (like exams worth different credit amounts), use weighted averaging instead. Our <a href="/">percentage tools homepage</a> offers various calculation options.</p>
+</div></div></div></section>
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><h2>Simple Average vs. Weighted Average</h2>
+<table>
+<thead>
+<tr><th>Aspect</th><th>Simple Average</th><th>Weighted Average</th></tr>
+</thead>
+<tbody>
+<tr><td>Formula</td><td>Sum ÷ Count</td><td>Sum(Value × Weight) ÷ Sum(Weights)</td></tr>
+<tr><td>Assumption</td><td>All values equally important</td><td>Values have different importance</td></tr>
+<tr><td>Use When</td><td>Equal-weighted data</td><td>Different-sized samples or importance</td></tr>
+<tr><td>Example</td><td>5 equal exams</td><td>Midterm 30%, Final 70%</td></tr>
+</tbody>
+</table>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>Common Applications</h2>
+<h3>Academic Grades</h3>
+<p>Average your exam, assignment, or course percentages. If all assessments have equal weight, this calculator gives your accurate grade average.</p>
+<h3>Performance Metrics</h3>
+<p>Combine multiple percentage-based KPIs: completion rates, satisfaction scores, efficiency ratings. Perfect for monthly or quarterly performance reviews.</p>
+<h3>Survey Analysis</h3>
+<p>Average multiple satisfaction or approval percentages across different questions or time periods.</p>
+<h3>Sports Statistics</h3>
+<p>Calculate average shooting percentages, completion rates, or success rates across multiple games or seasons.</p>
+</div></div></div></section>
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><h2>Statistical Insights</h2>
+<p>Beyond the average, this calculator also shows:</p>
+<ul>
+<li><strong>Sum</strong> – Total of all percentages entered (useful for verification)</li>
+<li><strong>Count</strong> – How many values were averaged</li>
+<li><strong>Formula</strong> – The exact calculation performed</li>
+</ul>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>Tips for Accurate Averaging</h2>
+<ol>
+<li><strong>Verify equal weights</strong> – Confirm all values should count equally before using simple average</li>
+<li><strong>Check for outliers</strong> – One extreme value can significantly skew the average</li>
+<li><strong>Consider the median</strong> – For skewed data, median may better represent 'typical'</li>
+<li><strong>Include all relevant values</strong> – Don't cherry-pick which percentages to include</li>
+<li><strong>Maintain consistency</strong> – All percentages should be calculated the same way</li>
+</ol>
+</div></div></div></section>
+<section class="block"><div class="block-inner"><div class="content-card"><div class="article"><h2>Need Related Calculations?</h2>
+<p>Measure experimental accuracy with our <a href="/percentage-error-calculator">percentage error calculator</a> which compares measured vs. theoretical values.</p>
+</div></div></div></section>
+<section class="block alt"><div class="block-inner"><div class="content-card"><div class="article"><h2>Calculator Features</h2>
+<ul>
+<li><strong>Unlimited Values</strong> – Enter as many percentages as needed</li>
+<li><strong>Flexible Input</strong> – Separate values with commas or spaces</li>
+<li><strong>Real-Time Results</strong> – Average updates as you type</li>
+<li><strong>Complete Output</strong> – Shows average, sum, and count</li>
+<li><strong>Formula Display</strong> – See the exact calculation</li>
+<li><strong>Free to Use</strong> – No registration required</li>
+</ul></div></div></div></section>
+<section class="block"><div class="block-inner"><div class="section-header"><h2>Frequently Asked Questions</h2></div><dl class="faq-list"><div class="faq-item"><dt>What is the average of 70%, 80%, and 90%?</dt><dd>The average is 80%. Calculation: (70+80+90) ÷ 3 = 240 ÷ 3 = 80%.</dd></div><div class="faq-item"><dt>How do I calculate my grade average?</dt><dd>Add all percentage grades and divide by the count. For equal-weight classes: (Grade1 + Grade2 + ...) ÷ Number of classes.</dd></div><div class="faq-item"><dt>Can I average percentages from different bases?</dt><dd>Yes for simple average if they have equal weight. For different-sized groups, use weighted average.</dd></div><div class="faq-item"><dt>What is the average of 85, 92, 78, 95?</dt><dd>The average is 87.5%. Calculation: (85+92+78+95) ÷ 4 = 350 ÷ 4 = 87.5%.</dd></div><div class="faq-item"><dt>When is simple averaging wrong?</dt><dd>When percentages represent different-sized groups or have different importance. Then use weighted averaging.</dd></div><div class="faq-item"><dt>What is the average of 50% and 100%?</dt><dd>The average is 75%. Calculation: (50+100) ÷ 2 = 75%.</dd></div><div class="faq-item"><dt>How do I find weighted average of percentages?</dt><dd>Multiply each percentage by its weight, sum the products, divide by total weight: Sum(% × weight) / Sum(weights).</dd></div><div class="faq-item"><dt>Can average percentage exceed 100%?</dt><dd>Yes, if input percentages exceed 100%. Average of 150% and 200% is 175%.</dd></div><div class="faq-item"><dt>What is the average of five 20% values?</dt><dd>The average is 20%. (20+20+20+20+20) ÷ 5 = 20%.</dd></div><div class="faq-item"><dt>How many values can I average?</dt><dd>Enter any number of values separated by commas or spaces. The calculator handles them all.</dd></div><div class="faq-item"><dt>What if I enter non-numeric values?</dt><dd>The calculator filters out non-numeric entries and averages only valid numbers.</dd></div><div class="faq-item"><dt>What is the average of 60, 70, 80, 90, 100?</dt><dd>The average is 80%. Calculation: (60+70+80+90+100) ÷ 5 = 400 ÷ 5 = 80%.</dd></div></dl></div></section>
+<aside class="ad-slot" aria-label="Advertisement"><ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5426315045205785" data-ad-slot="3843445306"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></aside>
+
+</main>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand-row">
+            <a href="/" class="footer-logo">
+                <span class="logo-icon" aria-hidden="true">%</span>
+                <span>Percentage Calculators</span>
+            </a>
+            <p class="footer-tagline">Free online percentage calculators. Every calculation runs entirely in your browser — instant results, no sign-up.</p>
+        </div>
+        <nav class="footer-mega" id="all-tools" aria-label="Site map">
+            <div class="footer-mega-row"><div class="footer-mega-label">Core Percentage Tools <span class="footer-mega-count">(10)</span></div><div class="footer-mega-links"><a href="/">Percentage Calculator</a><a href="/percentage-increase-calculator">Percentage Increase Calculator</a><a href="/percentage-decrease-calculator">Percentage Decrease Calculator</a><a href="/percentage-change-calculator">Percentage Change Calculator</a><a href="/percentage-difference-calculator">Percentage Difference Calculator</a><a href="/percentage-off-calculator">Percentage Off Calculator</a><a href="/reverse-percentage-calculator">Reverse Percentage Calculator</a><a href="/percentage-error-calculator">Percentage Error Calculator</a><a href="/average-percentage-calculator">Average Percentage Calculator</a><a href="/percentage-point-calculator">Percentage Point Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Converters <span class="footer-mega-count">(7)</span></div><div class="footer-mega-links"><a href="/fraction-to-percentage-calculator">Fraction to Percentage Calculator</a><a href="/decimal-to-percentage-calculator">Decimal to Percentage Calculator</a><a href="/ratio-to-percentage-calculator">Ratio to Percentage Calculator</a><a href="/ppm-to-percentage-calculator">PPM to Percentage Calculator</a><a href="/basis-points-calculator">Basis Points Calculator</a><a href="/slope-percentage-calculator">Slope Percentage Calculator</a><a href="/alcohol-proof-calculator">Alcohol Proof Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Health &amp; Fitness <span class="footer-mega-count">(4)</span></div><div class="footer-mega-links"><a href="/body-fat-percentage-calculator">Body Fat Percentage Calculator</a><a href="/bmi-calculator">BMI Calculator</a><a href="/body-composition-calculator">Body Composition Calculator</a><a href="/weight-loss-percentage-calculator">Weight Loss Percentage Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Education <span class="footer-mega-count">(5)</span></div><div class="footer-mega-links"><a href="/gpa-to-percentage-calculator">GPA to Percentage Calculator</a><a href="/cgpa-to-percentage-calculator">CGPA to Percentage Calculator</a><a href="/sgpa-to-percentage-calculator">SGPA to Percentage Calculator</a><a href="/marks-percentage-calculator">Marks Percentage Calculator</a><a href="/percentile-to-percentage-calculator">Percentile to Percentage Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Finance &amp; Business <span class="footer-mega-count">(14)</span></div><div class="footer-mega-links"><a href="/percentage-growth-calculator">Percentage Growth Calculator</a><a href="/apy-calculator">APY Calculator</a><a href="/apr-calculator">APR Calculator</a><a href="/apr-apy-converter">APR to APY Converter</a><a href="/simple-interest-calculator">Simple Interest Calculator</a><a href="/compound-interest-calculator">Compound Interest Calculator</a><a href="/loan-interest-calculator">Loan Interest Calculator</a><a href="/profit-percentage-calculator">Profit Percentage Calculator</a><a href="/profit-margin-calculator">Profit Margin Calculator</a><a href="/markup-calculator">Markup Calculator</a><a href="/gross-margin-calculator">Gross Margin Calculator</a><a href="/salary-increase-calculator">Salary Increase Calculator</a><a href="/commission-calculator">Commission Calculator</a><a href="/depreciation-calculator">Depreciation Calculator</a></div></div>
+<div class="footer-mega-row"><div class="footer-mega-label">Everyday &amp; Niche <span class="footer-mega-count">(5)</span></div><div class="footer-mega-links"><a href="/tip-calculator">Tip Calculator</a><a href="/win-loss-percentage-calculator">Win/Loss Percentage Calculator</a><a href="/bakers-percentage-calculator">Baker&#x27;s Percentage Calculator</a><a href="/food-cost-percentage-calculator">Food Cost Percentage Calculator</a><a href="/percent-solution-calculator">Percent Solution Calculator</a></div></div>
+        </nav>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Percentage Calculators. All rights reserved.</p>
+            <nav aria-label="Footer links">
+                <div class="footer-legal-links">
+                    <a href="/about">About</a><a href="/contact">Contact</a><a href="/disclaimer">Disclaimer</a><a href="/privacy-policy">Privacy Policy</a><a href="/terms-of-use">Terms of Use</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+
+<script>function calculate(){const i=document.getElementById('percentages').value,r=document.getElementById('result'),f=document.getElementById('formula_display'),c=document.getElementById('count'),s=document.getElementById('sum');const v=i.split(/[,\s]+/).map(x=>parseFloat(x.trim())).filter(x=>!isNaN(x));if(v.length>0){const sum=v.reduce((a,b)=>a+b,0),avg=sum/v.length;r.textContent=formatNumber(avg)+'%';if(c)c.textContent=v.length;if(s)s.textContent=formatNumber(sum)+'%';if(f)f.textContent='('+v.join(' + ')+') ÷ '+v.length+' = '+formatNumber(avg)+'%'}else{r.textContent='?';if(c)c.textContent='0';if(s)s.textContent='0%';if(f)f.textContent=''}}
+function formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}</script>
+<script>
+  function initCategoryDropdowns() {
+    var buttons = document.querySelectorAll('.cat-menu-btn');
+    function closeAll(except) {
+      buttons.forEach(function (b) {
+        if (b === except) return;
+        b.setAttribute('aria-expanded', 'false');
+        var menu = document.getElementById(b.getAttribute('aria-controls'));
+        if (menu) menu.classList.remove('open');
+      });
+    }
+    function positionMenu(b, menu) {
+      var rect = b.getBoundingClientRect();
+      menu.style.top = (rect.bottom + 8) + 'px';
+      menu.style.left = Math.max(8, Math.min(rect.left, window.innerWidth - menu.offsetWidth - 8)) + 'px';
+    }
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var expanded = b.getAttribute('aria-expanded') === 'true';
+        closeAll();
+        var menu = document.getElementById(b.getAttribute('aria-controls'));
+        if (!expanded && menu) {
+          menu.classList.add('open');
+          positionMenu(b, menu);
+          b.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+    document.addEventListener('click', function () { closeAll(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(); });
+    window.addEventListener('scroll', function () { closeAll(); }, { passive: true });
+    return closeAll;
+  }
+  function initPriorityNav(closeAll) {
+    var strip = document.querySelector('.category-strip');
+    var moreItem = document.getElementById('moreMenuItem');
+    if (!strip || !moreItem) return;
+    var items = Array.prototype.slice.call(strip.querySelectorAll('.cat-menu-item[data-cat-key]'));
+    var sections = document.querySelectorAll('.more-menu-section');
+    function layout() {
+      items.forEach(function (item) { item.style.removeProperty('display'); });
+      sections.forEach(function (s) { s.classList.remove('cat-visible'); });
+      moreItem.style.display = 'flex';
+
+      var available = strip.clientWidth;
+      var gap = parseFloat(getComputedStyle(strip).columnGap) || 0;
+      var fixedWidth = 0;
+      Array.prototype.forEach.call(strip.children, function (el) {
+        if (el !== moreItem && items.indexOf(el) === -1) {
+          fixedWidth += el.getBoundingClientRect().width + gap;
+        }
+      });
+      var moreWidth = moreItem.getBoundingClientRect().width + gap;
+      var itemWidths = items.map(function (it) { return it.getBoundingClientRect().width + gap; });
+      var total = itemWidths.reduce(function (a, b) { return a + b; }, fixedWidth);
+
+      if (total <= available) {
+        moreItem.style.display = 'none';
+        return;
+      }
+
+      var used = fixedWidth;
+      var visibleCount = 0;
+      for (var i = 0; i < itemWidths.length; i++) {
+        if (used + itemWidths[i] + moreWidth > available) break;
+        used += itemWidths[i];
+        visibleCount++;
+      }
+
+      items.forEach(function (item, idx) {
+        if (idx >= visibleCount) {
+          item.style.display = 'none';
+          var section = document.querySelector('.more-menu-section[data-cat-key="' + item.getAttribute('data-cat-key') + '"]');
+          if (section) section.classList.add('cat-visible');
+        }
+      });
+    }
+    var resizeTimer;
+    window.addEventListener('resize', function () {
+      closeAll();
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(layout, 100);
+    });
+    layout();
+    window.addEventListener('load', layout);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(layout);
+    }
+  }
+  function initMobileDrawer() {
+    var hamburger = document.getElementById('navHamburgerBtn');
+    var drawer = document.getElementById('navDrawer');
+    var backdrop = document.getElementById('navDrawerBackdrop');
+    var closeBtn = document.getElementById('navDrawerClose');
+    if (!hamburger || !drawer || !backdrop) return;
+    var sectionButtons = drawer.querySelectorAll('.drawer-section-btn');
+    function isOpen() { return drawer.classList.contains('open'); }
+    function openDrawer() {
+      drawer.hidden = false;
+      backdrop.hidden = false;
+      setTimeout(function () {
+        drawer.classList.add('open');
+        backdrop.classList.add('open');
+      }, 10);
+      hamburger.setAttribute('aria-expanded', 'true');
+      document.body.classList.add('drawer-open');
+    }
+    function closeDrawer() {
+      drawer.classList.remove('open');
+      backdrop.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('drawer-open');
+      setTimeout(function () {
+        if (!isOpen()) { drawer.hidden = true; backdrop.hidden = true; }
+      }, 220);
+    }
+    hamburger.addEventListener('click', function () { isOpen() ? closeDrawer() : openDrawer(); });
+    closeBtn.addEventListener('click', closeDrawer);
+    backdrop.addEventListener('click', closeDrawer);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && isOpen()) closeDrawer(); });
+    sectionButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        var panel = document.getElementById(btn.getAttribute('aria-controls'));
+        if (panel) panel.classList.toggle('open', !expanded);
+      });
+    });
+    var mq = window.matchMedia('(min-width:769px)');
+    var mqHandler = function (e) { if (e.matches && isOpen()) closeDrawer(); };
+    if (mq.addEventListener) mq.addEventListener('change', mqHandler);
+    else mq.addListener(mqHandler);
+  }
+  function wrapTables() {
+    document.querySelectorAll('.article table').forEach(function (table) {
+      if (table.closest('.table-scroll')) return;
+      var wrap = document.createElement('div');
+      wrap.className = 'table-scroll';
+      table.parentNode.insertBefore(wrap, table);
+      wrap.appendChild(table);
+    });
+  }
+  function initToolForm() {
+    var form = document.querySelector('.tool-section form');
+    if (!form) return;
+    form.addEventListener('submit', function (e) { e.preventDefault(); });
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    var closeAll = initCategoryDropdowns();
+    initPriorityNav(closeAll);
+    initMobileDrawer();
+    wrapTables();
+    initToolForm();
+  });
+</script>
+</body>
+</html>
