@@ -222,6 +222,7 @@ def build_site(tools):
         "company_links": [
             {"label": "About", "href": "/about"},
             {"label": "Contact", "href": "/contact"},
+            {"label": "Sitemap", "href": "/sitemap"},
             {"label": "Disclaimer", "href": "/disclaimer"},
             {"label": "Privacy Policy", "href": "/privacy-policy"},
             {"label": "Terms of Use", "href": "/terms-of-use"},
@@ -246,6 +247,8 @@ PAGE_META = {
     "privacy-policy": ("Privacy Policy | Percentage Calculators",
                         "Percentage Calculators' privacy policy: what data we collect (very little), and how our tools handle your input."),
     "terms-of-use": ("Terms of Use | Percentage Calculators", "Terms of use for Percentage Calculators' free online calculators."),
+    "sitemap": ("Sitemap | Percentage Calculators",
+                "Every page on Percentage Calculators, organized by category — a full list of every percentage calculator tool."),
 }
 
 

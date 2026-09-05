@@ -60,5 +60,6 @@
       "answer": "Calculate percent error for each trial, or use the average of trials as your experimental value, then calculate single percent error."
     }
   ],
-  "hint": "Enter your measured and true values to get the percentage error."
+  "hint": "Enter your measured and true values to get the percentage error.",
+  "long_tail_anchor": "Percentage Error Calculator – Experimental vs Theoretical Value"
 }

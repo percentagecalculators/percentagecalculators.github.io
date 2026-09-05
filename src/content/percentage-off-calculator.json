@@ -60,5 +60,6 @@
       "answer": "10% off $89 = $80.10. You save $8.90. Calculation: $89 × 0.90 = $80.10."
     }
   ],
-  "hint": "Enter the original price and discount % to get the sale price."
+  "hint": "Enter the original price and discount % to get the sale price.",
+  "long_tail_anchor": "Percentage Off Calculator – Discount & Sale Price Finder"
 }

@@ -11,5 +11,6 @@
   "script": "function calculate(){const cp=parseFloat(document.getElementById('pm_cost_price').value),sp=parseFloat(document.getElementById('pm_selling_price').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),pa=document.getElementById('pm_profit_amount');if(!isNaN(cp)&&!isNaN(sp)&&sp>0){const profit=sp-cp,margin=(profit/sp)*100;r.textContent=formatNumber(margin)+'%';if(pa)pa.textContent='$'+formatNumber(profit);if(f)f.textContent='($'+sp+' − $'+cp+') ÷ $'+sp+' × 100 = '+formatNumber(margin)+'%'}else{r.textContent='–';if(pa)pa.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter cost price and selling price to get your profit margin."
+  "hint": "Enter cost price and selling price to get your profit margin.",
+  "long_tail_anchor": "Profit Margin Calculator – Margin % on Selling Price"
 }

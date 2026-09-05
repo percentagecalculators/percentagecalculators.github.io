@@ -11,5 +11,6 @@
   "script": "function calculate(){const s=parseFloat(document.getElementById('sgpa_value').value),r=document.getElementById('result'),f=document.getElementById('formula_display');if(!isNaN(s)&&s>=0){const pct=s*9.5;r.textContent=formatNumber(pct)+'%';if(f)f.textContent=s+' × 9.5 = '+formatNumber(pct)+'%'}else{r.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter your semester SGPA to get the equivalent percentage."
+  "hint": "Enter your semester SGPA to get the equivalent percentage.",
+  "long_tail_anchor": "SGPA to Percentage Calculator – Semester GPA to Percent"
 }

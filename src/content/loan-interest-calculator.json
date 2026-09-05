@@ -11,5 +11,6 @@
   "script": "function calculate(){const p=parseFloat(document.getElementById('loan_amount').value),annual=parseFloat(document.getElementById('loan_rate').value),years=parseFloat(document.getElementById('loan_years').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),ti=document.getElementById('total_interest');if(!isNaN(p)&&!isNaN(annual)&&!isNaN(years)&&p>0&&annual>=0&&years>0){const n=years*12,mRate=(annual/100)/12;let emi;if(mRate===0){emi=p/n}else{const fac=Math.pow(1+mRate,n);emi=p*mRate*fac/(fac-1)}const totalInterest=emi*n-p;r.textContent='$'+formatNumber(emi);if(ti)ti.textContent='$'+formatNumber(totalInterest);if(f)f.textContent='$'+p+' at '+annual+'%/yr for '+years+'yr = $'+formatNumber(emi)+'/mo'}else{r.textContent='–';if(ti)ti.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter loan amount, rate, and term to get your monthly EMI."
+  "hint": "Enter loan amount, rate, and term to get your monthly EMI.",
+  "long_tail_anchor": "Loan Interest Calculator – Monthly EMI & Total Interest"
 }

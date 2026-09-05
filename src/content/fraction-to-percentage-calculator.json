@@ -60,5 +60,6 @@
       "answer": "11/20 equals 55%. Calculation: (11 ÷ 20) × 100 = 55%."
     }
   ],
-  "hint": "Enter a numerator and denominator to convert to a percentage."
+  "hint": "Enter a numerator and denominator to convert to a percentage.",
+  "long_tail_anchor": "Fraction to Percentage Calculator – Convert Fractions to Percent"
 }

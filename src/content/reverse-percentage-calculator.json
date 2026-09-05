@@ -60,5 +60,6 @@
       "answer": "100% is 200. Calculation: (150 ÷ 75) × 100 = 200."
     }
   ],
-  "hint": "Enter a value and the percentage it represents to find the original number."
+  "hint": "Enter a value and the percentage it represents to find the original number.",
+  "long_tail_anchor": "Reverse Percentage Calculator – Find the Original Number Before a Percentage"
 }

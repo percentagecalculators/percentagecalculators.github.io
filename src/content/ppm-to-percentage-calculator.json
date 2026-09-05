@@ -11,5 +11,6 @@
   "script": "function calculate(){const ppm=parseFloat(document.getElementById('ppm_value').value),r=document.getElementById('result'),f=document.getElementById('formula_display');if(!isNaN(ppm)&&ppm>=0){const pct=ppm/10000;r.textContent=formatNumber(pct)+'%';if(f)f.textContent=ppm+' ÷ 10,000 = '+formatNumber(pct)+'%'}else{r.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(4)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter a PPM value to get the equivalent percentage."
+  "hint": "Enter a PPM value to get the equivalent percentage.",
+  "long_tail_anchor": "PPM to Percentage Calculator – Parts Per Million to Percent"
 }

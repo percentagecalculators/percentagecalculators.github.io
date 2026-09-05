@@ -36,5 +36,6 @@
       "answer": "Use the formula: ((New Value - Old Value) ÷ Old Value) × 100. If the result is positive, it's an increase; if negative, it's a decrease. From 80 to 100: ((100 - 80) ÷ 80) × 100 = 25% increase."
     }
   ],
-  "hint": "Switch tabs to find a percentage, reverse-solve one, or get percentage change."
+  "hint": "Switch tabs to find a percentage, reverse-solve one, or get percentage change.",
+  "long_tail_anchor": "Percentage Calculator – Find X% of a Number or Percent of Total"
 }

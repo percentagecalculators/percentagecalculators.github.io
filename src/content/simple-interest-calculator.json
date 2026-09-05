@@ -11,5 +11,6 @@
   "script": "function calculate(){const p=parseFloat(document.getElementById('principal').value),rate=parseFloat(document.getElementById('annual_rate').value),t=parseFloat(document.getElementById('time_years').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),i=document.getElementById('interest_amount');if(!isNaN(p)&&!isNaN(rate)&&!isNaN(t)&&p>=0&&rate>=0&&t>=0){const interest=p*(rate/100)*t,total=p+interest;r.textContent='$'+formatNumber(total);if(i)i.textContent='$'+formatNumber(interest);if(f)f.textContent='$'+p+' × '+rate+'% × '+t+' = $'+formatNumber(interest)}else{r.textContent='–';if(i)i.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter principal, annual rate, and time to get interest and total amount."
+  "hint": "Enter principal, annual rate, and time to get interest and total amount.",
+  "long_tail_anchor": "Simple Interest Calculator – Principal, Rate & Time Formula"
 }

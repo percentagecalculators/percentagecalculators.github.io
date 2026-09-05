@@ -11,5 +11,6 @@
   "script": "function calculate(){const m=parseFloat(document.getElementById('marks_obtained').value),t=parseFloat(document.getElementById('total_marks').value),r=document.getElementById('result'),f=document.getElementById('formula_display');if(!isNaN(m)&&!isNaN(t)&&m>=0&&t>0){const pct=(m/t)*100;r.textContent=formatNumber(pct)+'%';if(f)f.textContent=m+' ÷ '+t+' × 100 = '+formatNumber(pct)+'%'}else{r.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter marks obtained and total marks to get your percentage."
+  "hint": "Enter marks obtained and total marks to get your percentage.",
+  "long_tail_anchor": "Marks Percentage Calculator – Exam & Test Score Percentage"
 }

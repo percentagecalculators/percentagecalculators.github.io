@@ -11,5 +11,6 @@
   "script": "function calculate(){const bill=parseFloat(document.getElementById('bill_amount').value),tipPct=parseFloat(document.getElementById('tip_percent').value),people=parseFloat(document.getElementById('split_people').value)||1,r=document.getElementById('result'),f=document.getElementById('formula_display'),ta=document.getElementById('tip_amount'),tot=document.getElementById('total_amount');if(!isNaN(bill)&&!isNaN(tipPct)&&bill>=0&&tipPct>=0&&people>0){const tip=bill*(tipPct/100),total=bill+tip,perPerson=total/people;r.textContent='$'+formatNumber(perPerson);if(ta)ta.textContent='$'+formatNumber(tip);if(tot)tot.textContent='$'+formatNumber(total);if(f)f.textContent='($'+bill+' + '+tipPct+'% tip) ÷ '+people+' = $'+formatNumber(perPerson)+'/person'}else{r.textContent='–';if(ta)ta.textContent='–';if(tot)tot.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter bill, tip %, and people to split between."
+  "hint": "Enter bill, tip %, and people to split between.",
+  "long_tail_anchor": "Tip Calculator – Restaurant Bill Tip & Split Percentage"
 }

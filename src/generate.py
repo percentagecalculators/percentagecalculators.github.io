@@ -317,6 +317,42 @@ def render_info_content(page):
     return out
 
 
+def sitemap_anchor_for(tool):
+    """Long-tail anchor text for the sitemap page only (primary keyword +
+    a secondary/LSI variation per tool, authored in each tool's own
+    content JSON as long_tail_anchor) -- deliberately NOT used in
+    nav/footer, which need short compact labels, not full keyword phrases."""
+    return tool.get("long_tail_anchor") or tool["nav_name"]
+
+
+def render_sitemap_content(site, by_slug):
+    """Human-readable HTML sitemap — built the same way as the nav
+    dropdowns/footer mega menu (from site["nav_groups"], resolved against
+    by_slug), so it always reflects exactly what's actually built, never a
+    stale hand-maintained list. Anchor text here is long-tail/keyword-rich
+    (see sitemap_anchor_for) rather than the short nav_name used elsewhere."""
+    home = by_slug[site["home_slug"]]
+    parts = [
+        "<h2>Home</h2><ul><li><a href=\"%s\">%s</a></li></ul>"
+        % (tool_url(home, site), html.escape(sitemap_anchor_for(home)))
+    ]
+    for group in site["nav_groups"]:
+        items = []
+        for slug in group.get("slugs", []):
+            tool = by_slug[slug]
+            items.append('<li><a href="%s">%s</a></li>' % (tool_url(tool, site), html.escape(sitemap_anchor_for(tool))))
+        for t in group.get("tools", []):
+            url = "/" if t["slug"] == site["home_slug"] else "/%s" % t["slug"]
+            items.append('<li><a href="%s">%s</a></li>' % (url, html.escape(t["name"])))
+        parts.append("<h2>%s</h2><ul>%s</ul>" % (html.escape(group["label"]), "".join(items)))
+    company_items = "".join(
+        '<li><a href="%s">%s</a></li>' % (l["href"], html.escape(l["label"]))
+        for l in site["company_links"]
+    )
+    parts.append("<h2>Company</h2><ul>%s</ul>" % company_items)
+    return "".join(parts)
+
+
 # ---------------------------------------------------------------------------
 # Nav (header dropdowns + mobile drawer) and footer — Priority+ pattern,
 # same as passwordhive/webcamtest's own render_category_dropdowns()/
@@ -586,7 +622,7 @@ def render_info_page(page, site, by_slug, template):
         "BREADCRUMBS": render_breadcrumbs(trail) + breadcrumb_jsonld(trail, site["domain"]),
         "H1": page["h1"],
         "SUBTITLE": page.get("subtitle", ""),
-        "PAGE_CONTENT": render_info_content(page),
+        "PAGE_CONTENT": render_sitemap_content(site, by_slug) if page["slug"] == "sitemap" else render_info_content(page),
         "ARTICLE_PROSE_CLASSES": ARTICLE_PROSE_CLASSES,
         "FOOTER_TAGLINE": site["footer_tagline"],
         "FOOTER_MEGA": render_footer_mega(site, by_slug),

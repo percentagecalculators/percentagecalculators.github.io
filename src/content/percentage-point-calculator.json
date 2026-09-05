@@ -11,5 +11,6 @@
   "script": "function calculate(){const a=parseFloat(document.getElementById('pp_percent_a').value),b=parseFloat(document.getElementById('pp_percent_b').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),rc=document.getElementById('relative_change');if(!isNaN(a)&&!isNaN(b)){const diff=b-a;r.textContent=formatNumber(diff)+' pp';if(rc)rc.textContent=a!==0?formatNumber((diff/a)*100)+'%':'–';if(f)f.textContent=b+'% − '+a+'% = '+formatNumber(diff)+' pp'}else{r.textContent='–';if(rc)rc.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter two percentages to get the difference in percentage points."
+  "hint": "Enter two percentages to get the difference in percentage points.",
+  "long_tail_anchor": "Percentage Point Calculator – Percentage Points vs Percentage Change"
 }

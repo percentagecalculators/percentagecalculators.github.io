@@ -11,5 +11,6 @@
   "script": "function calculate(){const cost=parseFloat(document.getElementById('mk_cost_price').value),markup=parseFloat(document.getElementById('mk_markup_percent').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),ma=document.getElementById('markup_amount');if(!isNaN(cost)&&!isNaN(markup)&&cost>=0&&markup>=0){const markupAmt=cost*(markup/100),sp=cost+markupAmt;r.textContent='$'+formatNumber(sp);if(ma)ma.textContent='$'+formatNumber(markupAmt);if(f)f.textContent='$'+cost+' + ('+markup+'% × $'+cost+') = $'+formatNumber(sp)}else{r.textContent='–';if(ma)ma.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter cost price and markup % to get the selling price."
+  "hint": "Enter cost price and markup % to get the selling price.",
+  "long_tail_anchor": "Markup Calculator – Cost Plus Markup to Selling Price"
 }

@@ -11,5 +11,6 @@
   "script": "function calculate(){const rise=parseFloat(document.getElementById('slope_rise').value),run=parseFloat(document.getElementById('slope_run').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),a=document.getElementById('slope_angle');if(!isNaN(rise)&&!isNaN(run)&&run!==0){const pct=(rise/run)*100,angle=Math.atan(rise/run)*(180/Math.PI);r.textContent=formatNumber(pct)+'%';if(a)a.textContent=formatNumber(angle)+'°';if(f)f.textContent=rise+' ÷ '+run+' × 100 = '+formatNumber(pct)+'%'}else{r.textContent='–';if(a)a.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter rise and run to get the slope percentage and angle."
+  "hint": "Enter rise and run to get the slope percentage and angle.",
+  "long_tail_anchor": "Slope Percentage Calculator – Rise Over Run to Percent Grade & Degrees"
 }

@@ -416,5 +416,10 @@
         ]
       }
     ]
+  },
+  "sitemap": {
+    "h1": "Sitemap",
+    "subtitle": "Every page on Percentage Calculators, organized by category.",
+    "sections": []
   }
 }

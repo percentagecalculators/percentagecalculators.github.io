@@ -60,5 +60,6 @@
       "answer": "For each period, multiply by (1 + rate). For 3 years at 5%: Principal × 1.05 × 1.05 × 1.05 = Principal × 1.157625."
     }
   ],
-  "hint": "Enter a number and percentage to add to get the increased value."
+  "hint": "Enter a number and percentage to add to get the increased value.",
+  "long_tail_anchor": "Percentage Increase Calculator – Add a Percentage to a Number"
 }

@@ -60,5 +60,6 @@
       "answer": "Use geometric mean or CAGR, not arithmetic average, for accurate multi-period growth rates."
     }
   ],
-  "hint": "Enter an initial and final value to get the percentage growth."
+  "hint": "Enter an initial and final value to get the percentage growth.",
+  "long_tail_anchor": "Percentage Growth Calculator – Business & Revenue Growth Rate"
 }

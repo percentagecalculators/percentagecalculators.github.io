@@ -11,5 +11,6 @@
   "script": "function calculate(){const p=parseFloat(document.getElementById('percentile_value').value),r=document.getElementById('result'),f=document.getElementById('formula_display');if(!isNaN(p)&&p>=0&&p<=100){const pct=(p*0.7)+30;r.textContent=formatNumber(pct)+'%';if(f)f.textContent='('+p+' × 0.7) + 30 = '+formatNumber(pct)+'%'}else{r.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter a percentile (0–100) to get an estimated percentage."
+  "hint": "Enter a percentile (0–100) to get an estimated percentage.",
+  "long_tail_anchor": "Percentile to Percentage Calculator – Estimate Percentage from Percentile Rank"
 }

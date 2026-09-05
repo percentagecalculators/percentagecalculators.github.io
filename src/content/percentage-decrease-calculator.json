@@ -60,5 +60,6 @@
       "answer": "1000 minus 7.5% = 925. Calculation: 1000 × 0.075 = 75, then 1000 - 75 = 925."
     }
   ],
-  "hint": "Enter a number and percentage to subtract to get the reduced value."
+  "hint": "Enter a number and percentage to subtract to get the reduced value.",
+  "long_tail_anchor": "Percentage Decrease Calculator – Subtract a Percentage from a Number"
 }

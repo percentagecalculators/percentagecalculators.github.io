@@ -11,5 +11,6 @@
   "script": "function calculate(){const a=parseFloat(document.getElementById('ratio_part_a').value),b=parseFloat(document.getElementById('ratio_part_b').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),t=document.getElementById('ratio_total');if(!isNaN(a)&&!isNaN(b)&&a>=0&&b>=0&&(a+b)>0){const total=a+b,pct=(a/total)*100;r.textContent=formatNumber(pct)+'%';if(t)t.textContent=formatNumber(total);if(f)f.textContent=a+' ÷ ('+a+' + '+b+') × 100 = '+formatNumber(pct)+'%'}else{r.textContent='–';if(t)t.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter both parts of a ratio to get the percentage of the total."
+  "hint": "Enter both parts of a ratio to get the percentage of the total.",
+  "long_tail_anchor": "Ratio to Percentage Calculator – Convert a Ratio to Percent Share"
 }

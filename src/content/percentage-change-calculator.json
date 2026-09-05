@@ -60,5 +60,6 @@
       "answer": "Absolute change is the raw difference (New - Old). Relative (percentage) change is the difference as a proportion of the original."
     }
   ],
-  "hint": "Enter an old and new value to get the percentage change between them."
+  "hint": "Enter an old and new value to get the percentage change between them.",
+  "long_tail_anchor": "Percentage Change Calculator – Percent Increase or Decrease Between Two Values"
 }

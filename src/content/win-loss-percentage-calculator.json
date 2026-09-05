@@ -11,5 +11,6 @@
   "script": "function calculate(){const wins=parseFloat(document.getElementById('wl_wins').value),losses=parseFloat(document.getElementById('wl_losses').value),ties=parseFloat(document.getElementById('wl_ties').value)||0,r=document.getElementById('result'),f=document.getElementById('formula_display'),tg=document.getElementById('total_games');if(!isNaN(wins)&&!isNaN(losses)&&wins>=0&&losses>=0){const total=wins+losses+ties;if(total>0){const pct=(wins/total)*100;r.textContent=formatNumber(pct)+'%';if(tg)tg.textContent=formatNumber(total);if(f)f.textContent=wins+' ÷ '+formatNumber(total)+' × 100 = '+formatNumber(pct)+'%'}else{r.textContent='–';if(tg)tg.textContent='0';if(f)f.textContent=''}}else{r.textContent='–';if(tg)tg.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter wins, losses, and ties to get your win percentage."
+  "hint": "Enter wins, losses, and ties to get your win percentage.",
+  "long_tail_anchor": "Win/Loss Percentage Calculator – Sports Win Rate Formula"
 }

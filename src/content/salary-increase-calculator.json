@@ -11,5 +11,6 @@
   "script": "function calculate(){const cur=parseFloat(document.getElementById('current_salary').value),pct=parseFloat(document.getElementById('raise_percent').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),ra=document.getElementById('raise_amount');if(!isNaN(cur)&&!isNaN(pct)&&cur>=0){const raise=cur*(pct/100),newSalary=cur+raise;r.textContent='$'+formatNumber(newSalary);if(ra)ra.textContent='$'+formatNumber(raise);if(f)f.textContent='$'+cur+' + ('+pct+'% × $'+cur+') = $'+formatNumber(newSalary)}else{r.textContent='–';if(ra)ra.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter your current salary and raise % to get your new salary."
+  "hint": "Enter your current salary and raise % to get your new salary.",
+  "long_tail_anchor": "Salary Increase Calculator – Raise Percentage & Pay Hike"
 }

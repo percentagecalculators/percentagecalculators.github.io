@@ -11,5 +11,6 @@
   "script": "function calculate(){const rev=parseFloat(document.getElementById('gm_revenue').value),cogs=parseFloat(document.getElementById('gm_cogs').value),r=document.getElementById('result'),f=document.getElementById('formula_display'),gp=document.getElementById('gross_profit');if(!isNaN(rev)&&!isNaN(cogs)&&rev>0){const profit=rev-cogs,margin=(profit/rev)*100;r.textContent=formatNumber(margin)+'%';if(gp)gp.textContent='$'+formatNumber(profit);if(f)f.textContent='($'+rev+' − $'+cogs+') ÷ $'+rev+' × 100 = '+formatNumber(margin)+'%'}else{r.textContent='–';if(gp)gp.textContent='–';if(f)f.textContent=''}}\nfunction formatNumber(n){return Number.isInteger(n)?n.toString():parseFloat(n.toFixed(2)).toString()}",
   "content_html": "",
   "faq": [],
-  "hint": "Enter revenue and COGS to get your gross margin percentage."
+  "hint": "Enter revenue and COGS to get your gross margin percentage.",
+  "long_tail_anchor": "Gross Margin Calculator – Revenue & COGS Margin %"
 }
