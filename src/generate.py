@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
 """Renders template.html/template-page.html/template-404.html x data/*.json
-into public/, minifying everything by default. Modeled directly on
-webcam-test.github.io's generate.py (itself modeled on passwordhive's) — same
-minification/critical-CSS pipeline, same tool choices/pinned versions. Run
-`python3 src/build_data.py` first to (re)generate data/site.json,
-data/tools.json, data/pages.json.
+into public/, minifying HTML by default. Run `python3 src/build_data.py`
+first to (re)generate data/site.json, data/tools.json, data/pages.json.
 
-    python3 src/generate.py             # full build, minified
+    python3 src/generate.py             # full build, minified HTML
     python3 src/generate.py --no-minify # fast iteration, unminified output
 
 Every tool is one file — content/<slug>.json carries meta_title/
@@ -16,6 +13,19 @@ tool uses the "raw" card layout: card["fields_html"] is the tool's ENTIRE
 card grid, authored directly in its own JSON file — every calculator here
 has different inputs/outputs, so there is exactly one Python-side render
 branch to maintain regardless of tool count.
+
+Styling is Tailwind via the Play CDN (<script src="https://cdn.tailwindcss.
+com">, loaded in every page's <head>) — there is no compiled/purged Tailwind
+build and no PostCSS step. src/base.css carries only what Tailwind utilities
+can't express: the self-hosted @font-face rules and a set of CSS custom
+properties (light theme on :root, dark theme under .dark) that
+TAILWIND_CONFIG below exposes to Tailwind as semantic color names (bg,
+surface, border, text, accent, ...). Every utility class built from those
+names auto-themes when `.dark` is toggled on <html> — no `dark:` variants
+needed in tool markup itself. THEME_INIT is a small inline script (see
+render_page()) that sets `.dark` before Tailwind's CDN script runs, reading
+localStorage first and falling back to prefers-color-scheme, so there's no
+flash of the wrong theme on load.
 
 Unlike passwordhive, there is no typed what_/how_/article_sections fallback.
 If a tool has no content_html, render_main_sections() renders nothing below
@@ -40,9 +50,6 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "..", "public")
 
 HTML_MINIFIER_PKG = "html-minifier-terser@7.2.0"
 CLEAN_CSS_PKG = "clean-css-cli@5.6.3"
-TAILWIND_PKG = "tailwindcss@3.4.19"
-TAILWIND_TYPOGRAPHY_PKG = "@tailwindcss/typography@0.5.20"
-CRITICAL_PKG = "critical@8.0.0"
 
 # Per-category 2-letter badges for the nav dropdowns/mobile drawer — same
 # lightweight-icon idea as passwordhive's CATEGORY_META, avoiding a
@@ -56,9 +63,70 @@ CATEGORY_BADGES = {
     "everyday": "..",
 }
 
+# A distinct Tailwind stock color per built tool, used for its related-card
+# icon badge tint elsewhere on the site (soundtest.io-style varied accents,
+# rather than every card sharing the single site accent color).
+TOOL_ACCENTS = {
+    "percentage-calculator": "emerald",
+    "percentage-increase-calculator": "blue",
+    "percentage-decrease-calculator": "rose",
+    "percentage-change-calculator": "violet",
+    "percentage-difference-calculator": "amber",
+    "percentage-off-calculator": "orange",
+    "reverse-percentage-calculator": "cyan",
+    "percentage-error-calculator": "red",
+    "average-percentage-calculator": "indigo",
+    "fraction-to-percentage-calculator": "pink",
+    "percentage-growth-calculator": "teal",
+}
+RELATED_COUNT = 4
+
 CHEVRON_SVG = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>'
 CLOSE_SVG = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg>'
 HAMBURGER_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>'
+DEFAULT_TOOL_ICON_SVG = '<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 5 5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>'
+
+# Sets .dark on <html> (and color-scheme, for native form-control theming)
+# before Tailwind's CDN script runs and before body paint, so there's no
+# flash of the wrong theme. Reads localStorage first, falls back to the OS
+# preference. Wrapped in try/catch since localStorage can throw in some
+# privacy-mode contexts.
+THEME_INIT = (
+    "(function(){try{"
+    "var s=localStorage.getItem('theme');"
+    "var d=s?s==='dark':matchMedia('(prefers-color-scheme: dark)').matches;"
+    "document.documentElement.classList.toggle('dark',d);"
+    "document.documentElement.style.colorScheme=d?'dark':'light';"
+    "}catch(e){}})();"
+)
+
+# Exposes base.css's CSS-custom-property color tokens to Tailwind as
+# semantic names, and maps the self-hosted fonts. darkMode:'class' means
+# every dark: variant (and every semantic color utility) is driven by the
+# .dark class THEME_INIT/initThemeToggle() toggle on <html>, not by
+# prefers-color-scheme directly.
+TAILWIND_CONFIG = (
+    "tailwind.config={darkMode:'class',theme:{extend:{colors:{"
+    "bg:'rgb(var(--color-bg) / <alpha-value>)',"
+    "'bg-alt':'rgb(var(--color-bg-alt) / <alpha-value>)',"
+    "surface:'rgb(var(--color-surface) / <alpha-value>)',"
+    "'surface-alt':'rgb(var(--color-surface-alt) / <alpha-value>)',"
+    "border:'rgb(var(--color-border) / <alpha-value>)',"
+    "'border-strong':'rgb(var(--color-border-strong) / <alpha-value>)',"
+    "text:'rgb(var(--color-text) / <alpha-value>)',"
+    "'text-alt':'rgb(var(--color-text-alt) / <alpha-value>)',"
+    "'text-secondary':'rgb(var(--color-text-secondary) / <alpha-value>)',"
+    "'text-muted':'rgb(var(--color-text-muted) / <alpha-value>)',"
+    "accent:'rgb(var(--color-accent) / <alpha-value>)',"
+    "'accent-dark':'rgb(var(--color-accent-dark) / <alpha-value>)',"
+    "'accent-darker':'rgb(var(--color-accent-darker) / <alpha-value>)',"
+    "warning:'rgb(var(--color-warning) / <alpha-value>)',"
+    "danger:'rgb(var(--color-danger) / <alpha-value>)'"
+    "},fontFamily:{"
+    "sans:['DM Sans','DM Sans Fallback','system-ui','-apple-system','sans-serif'],"
+    "mono:['JetBrains Mono','JetBrains Mono Fallback','monospace']"
+    "}}}};"
+)
 
 # ---------------------------------------------------------------------------
 # Tool-card rendering — "raw" is the only layout on this site (see module
@@ -74,11 +142,73 @@ def render_tool_card_body(tool):
 
 
 # ---------------------------------------------------------------------------
+# Related calculators — derived from build_data.py's CATEGORY_GROUPS, never
+# from a group's "tools" placeholder list (those are unbuilt Phase-2 tools
+# that 404 today; they must never appear as links in this prominent,
+# above-the-fold slot on every page).
+# ---------------------------------------------------------------------------
+
+TOOL_ICON_RE = re.compile(r'<svg class="icon"[^>]*>.*?</svg>', re.DOTALL)
+
+
+def extract_tool_icon(tool):
+    match = TOOL_ICON_RE.search(tool.get("card", {}).get("fields_html", ""))
+    return match.group(0) if match else DEFAULT_TOOL_ICON_SVG
+
+
+def truncate_teaser(text, limit=78):
+    if len(text) <= limit:
+        return text
+    return text[:limit].rsplit(" ", 1)[0] + "…"
+
+
+def related_tools_for(tool, site, tools):
+    slug = tool["slug"]
+    same_category = []
+    for group in site["nav_groups"]:
+        if slug in group.get("slugs", []):
+            for s in group["slugs"]:
+                if s != slug and s not in same_category:
+                    same_category.append(s)
+    backfill = [t["slug"] for t in tools if t["slug"] != slug and t["slug"] not in same_category]
+    return (same_category + backfill)[:RELATED_COUNT]
+
+
+def render_related_calculators(tool, site, by_slug, tools):
+    cards = []
+    for slug in related_tools_for(tool, site, tools):
+        related = by_slug[slug]
+        color = TOOL_ACCENTS.get(slug, "emerald")
+        teaser = truncate_teaser(related["meta_description"])
+        cards.append(
+            '<a href="%s" class="related-card group flex flex-col gap-3 rounded-xl border border-border bg-surface p-4 hover:border-border-strong hover:shadow-sm">'
+            '<span class="flex h-9 w-9 items-center justify-center rounded-lg bg-%s-100 text-%s-600 dark:bg-%s-500/15 dark:text-%s-400">%s</span>'
+            '<span class="text-sm font-semibold text-text group-hover:text-accent">%s</span>'
+            '<span class="text-xs leading-snug text-text-muted">%s</span></a>'
+            % (
+                tool_url(related, site), color, color, color, color,
+                extract_tool_icon(related), html.escape(related["nav_name"]), html.escape(teaser),
+            )
+        )
+    return "".join(cards)
+
+
+# ---------------------------------------------------------------------------
 # Main sections (content_html split at each <h2>, plus FAQ) — same mechanism
 # as passwordhive/webcamtest's raw-HTML-override path.
 # ---------------------------------------------------------------------------
 
 H2_SPLIT_RE = re.compile(r"(?=<h2\b)", re.IGNORECASE)
+
+ARTICLE_PROSE_CLASSES = (
+    "article prose dark:prose-invert max-w-none "
+    "prose-headings:text-text prose-p:text-text-secondary prose-li:text-text-secondary prose-ol:text-text-secondary prose-ul:text-text-secondary "
+    "prose-a:text-accent prose-a:no-underline hover:prose-a:underline "
+    "prose-strong:text-text prose-em:text-text-alt "
+    "prose-code:font-mono prose-code:text-accent prose-code:bg-accent/10 prose-code:rounded prose-code:px-1 prose-code:font-normal prose-code:before:content-none prose-code:after:content-none "
+    "prose-th:text-text prose-td:text-text-secondary prose-thead:border-border prose-tr:border-border "
+    "prose-blockquote:border-accent prose-blockquote:text-text-secondary prose-hr:border-border"
+)
 
 
 def split_content_by_h2(content_html):
@@ -96,17 +226,24 @@ def render_faq_section(tool, alt):
     if not tool.get("faq"):
         return None
     items = "".join(
-        '<div class="faq-item"><dt>%s</dt><dd>%s</dd></div>' % (html.escape(f["question"]), f["answer"])
+        '<div class="faq-item border-b border-border py-5 last:border-0">'
+        '<dt class="mb-2 flex gap-2 text-base font-bold text-text"><span class="flex-none text-accent">Q.</span><span>%s</span></dt>'
+        '<dd class="pl-6 text-[0.92rem] leading-relaxed text-text-secondary">%s</dd></div>'
+        % (html.escape(f["question"]), f["answer"])
         for f in tool["faq"]
     )
-    return '<section class="block%s"><div class="block-inner"><div class="section-header"><h2>Frequently Asked Questions</h2></div><dl class="faq-list">%s</dl></div></section>' % (
-        " alt" if alt else "", items
+    bg = "bg-bg-alt" if alt else "bg-bg"
+    return (
+        '<section class="block py-10 %s sm:py-14"><div class="block-inner mx-auto max-w-5xl px-4 sm:px-6">'
+        '<div class="section-header mb-6"><h2 class="text-2xl font-bold text-text">Frequently Asked Questions</h2></div>'
+        '<dl class="faq-list grid grid-cols-1 gap-x-10 md:grid-cols-2">%s</dl>'
+        '</div></section>' % (bg, items)
     )
 
 
 def render_main_sections(tool):
     """Renders everything below the tool card from tool["content_html"]
-    (split into alternating .content-card sections) plus a FAQ section. No
+    (split into alternating bg-bg/bg-bg-alt sections) plus a FAQ section. No
     content fallback: a tool with no content_html renders no content
     sections, never synthesized filler."""
     parts = []
@@ -114,10 +251,12 @@ def render_main_sections(tool):
     if tool.get("content_html"):
         chunks = split_content_by_h2(tool["content_html"])
         for chunk in chunks:
-            cls = "block alt" if section_count % 2 == 1 else "block"
+            bg = "bg-bg-alt" if section_count % 2 == 1 else "bg-bg"
             parts.append(
-                '<section class="%s"><div class="block-inner"><div class="content-card"><div class="article">%s</div></div></div></section>'
-                % (cls, chunk)
+                '<section class="block py-10 %s sm:py-14"><div class="block-inner mx-auto max-w-3xl px-4 sm:px-6">'
+                '<div class="content-card rounded-2xl border border-border bg-surface p-6 sm:p-8">'
+                '<div class="%s">%s</div></div></div></section>'
+                % (bg, ARTICLE_PROSE_CLASSES, chunk)
             )
             section_count += 1
     faq_section = render_faq_section(tool, alt=(section_count % 2 == 1))
@@ -141,8 +280,14 @@ def render_info_content(page):
 # ---------------------------------------------------------------------------
 # Nav (header dropdowns + mobile drawer) and footer — Priority+ pattern,
 # same as passwordhive/webcamtest's own render_category_dropdowns()/
-# render_more_menu()/render_mobile_drawer().
+# render_more_menu()/render_mobile_drawer(). Dropdown/drawer/section
+# open-close state is the native `hidden` attribute (toggled directly in
+# template.html's JS), not a custom CSS class — no component CSS needed.
 # ---------------------------------------------------------------------------
+
+DROPDOWN_LINK_CLASSES = "block rounded-lg px-3 py-2 text-sm text-text-secondary hover:bg-surface-alt hover:text-text"
+NAV_BTN_CLASSES = "cat-menu-btn inline-flex items-center gap-1 rounded-lg px-2.5 py-1.5 text-sm font-medium text-text-secondary hover:bg-surface-alt hover:text-text"
+
 
 def tool_url(tool, site):
     if tool["slug"] == site["home_slug"]:
@@ -160,24 +305,27 @@ def group_links(group, site, by_slug):
 
 
 def render_category_dropdowns(site, by_slug):
-    items = ['<div class="cat-menu-item"><a href="/" class="cat-menu-btn">Home</a></div>']
+    items = [
+        '<div class="cat-menu-item shrink-0"><a href="/" class="%s">Home</a></div>' % NAV_BTN_CLASSES
+    ]
     for group in site["nav_groups"]:
         panel_id = "catmenu-%s" % group["key"]
         badge = CATEGORY_BADGES.get(group["key"], "")
         links = "".join(
-            '<a href="%s">%s</a>' % (url, html.escape(name))
+            '<a href="%s" class="%s">%s</a>' % (url, DROPDOWN_LINK_CLASSES, html.escape(name))
             for url, name in group_links(group, site, by_slug)
         )
         items.append(
-            '<div class="cat-menu-item" data-cat-key="%s">'
-            '<button type="button" class="cat-menu-btn" aria-expanded="false" aria-controls="%s">%s%s</button>'
-            '<div class="tools-menu cat-menu" id="%s">'
-            '<div class="menu-panel-header"><span class="more-menu-icon">%s</span>'
-            '<div><strong>%s</strong><p>%s</p></div></div>'
-            '<div class="menu-panel-links">%s</div>'
+            '<div class="cat-menu-item relative shrink-0" data-cat-key="%s">'
+            '<button type="button" class="%s" aria-expanded="false" aria-controls="%s">%s%s</button>'
+            '<div class="tools-menu cat-menu fixed z-50 w-72 rounded-2xl border border-border bg-surface p-2 shadow-lg" id="%s" hidden>'
+            '<div class="menu-panel-header flex items-start gap-3 border-b border-border p-3">'
+            '<span class="more-menu-icon flex h-8 w-8 flex-none items-center justify-center rounded-lg bg-accent/10 text-sm font-bold text-accent">%s</span>'
+            '<div><strong class="block text-sm font-semibold text-text">%s</strong><p class="mt-0.5 text-xs text-text-muted">%s</p></div></div>'
+            '<div class="menu-panel-links flex flex-col p-1">%s</div>'
             '</div>'
             '</div>' % (
-                group["key"], panel_id, html.escape(group["short_label"]), CHEVRON_SVG, panel_id,
+                group["key"], NAV_BTN_CLASSES, panel_id, html.escape(group["short_label"]), CHEVRON_SVG, panel_id,
                 html.escape(badge), html.escape(group["label"]), html.escape(group["tagline"]), links,
             )
         )
@@ -189,19 +337,20 @@ def render_more_menu(site, by_slug):
     for group in site["nav_groups"]:
         badge = CATEGORY_BADGES.get(group["key"], "")
         links = "".join(
-            '<a href="%s">%s</a>' % (url, html.escape(name))
+            '<a href="%s" class="%s">%s</a>' % (url, DROPDOWN_LINK_CLASSES, html.escape(name))
             for url, name in group_links(group, site, by_slug)
         )
         sections.append(
-            '<div class="more-menu-section" data-cat-key="%s">'
-            '<div class="more-menu-heading"><span class="more-menu-icon">%s</span>%s</div>%s'
+            '<div class="more-menu-section p-1" data-cat-key="%s" hidden>'
+            '<div class="more-menu-heading flex items-center gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-wide text-text-muted">'
+            '<span class="more-menu-icon flex h-5 w-5 flex-none items-center justify-center rounded bg-accent/10 text-[0.65rem] font-bold text-accent">%s</span>%s</div>%s'
             '</div>' % (group["key"], html.escape(badge), html.escape(group["label"]), links)
         )
     return (
-        '<div class="cat-menu-item" id="moreMenuItem" style="display:none">'
-        '<button type="button" class="cat-menu-btn" id="moreMenuBtn" aria-expanded="false" aria-controls="moreMenuPanel">More%s</button>'
-        '<div class="tools-menu more-menu" id="moreMenuPanel">%s</div>'
-        '</div>' % (CHEVRON_SVG, "".join(sections))
+        '<div class="cat-menu-item relative shrink-0" id="moreMenuItem" hidden>'
+        '<button type="button" class="%s" id="moreMenuBtn" aria-expanded="false" aria-controls="moreMenuPanel">More%s</button>'
+        '<div class="tools-menu more-menu fixed z-50 max-h-[70vh] w-72 overflow-y-auto rounded-2xl border border-border bg-surface p-2 shadow-lg" id="moreMenuPanel" hidden>%s</div>'
+        '</div>' % (NAV_BTN_CLASSES, CHEVRON_SVG, "".join(sections))
     )
 
 
@@ -211,26 +360,26 @@ def render_mobile_drawer(site, by_slug):
         panel_id = "drawer-%s" % group["key"]
         badge = CATEGORY_BADGES.get(group["key"], "")
         links = "".join(
-            '<a href="%s">%s</a>' % (url, html.escape(name))
+            '<a href="%s" class="block rounded-lg px-3 py-2 text-sm text-text-secondary hover:bg-surface-alt hover:text-text">%s</a>' % (url, html.escape(name))
             for url, name in group_links(group, site, by_slug)
         )
         sections.append(
-            '<div class="nav-drawer-section" data-cluster="%s">'
-            '<button type="button" class="drawer-section-btn" aria-expanded="false" aria-controls="%s">'
-            '<span class="more-menu-icon">%s</span>'
-            '<span><strong>%s</strong></span>'
-            '%s</button>'
-            '<div class="nav-drawer-section-links" id="%s">%s</div>'
+            '<div class="nav-drawer-section border-b border-border" data-cluster="%s">'
+            '<button type="button" class="drawer-section-btn flex w-full items-center gap-3 px-4 py-3 text-left" aria-expanded="false" aria-controls="%s">'
+            '<span class="more-menu-icon flex h-8 w-8 flex-none items-center justify-center rounded-lg bg-accent/10 text-sm font-bold text-accent">%s</span>'
+            '<span class="flex-1 text-sm font-semibold text-text">%s</span>'
+            '<span class="flex-none text-text-muted">%s</span></button>'
+            '<div class="nav-drawer-section-links px-4 pb-3" id="%s" hidden>%s</div>'
             '</div>' % (
                 group["key"], panel_id, html.escape(badge), html.escape(group["label"]),
                 CHEVRON_SVG, panel_id, links,
             )
         )
     return (
-        '<div id="navDrawerBackdrop" hidden></div>'
-        '<div class="nav-drawer-panel" id="navDrawer" role="dialog" aria-modal="true" aria-label="Site navigation" hidden>'
-        '<button type="button" class="nav-drawer-close" id="navDrawerClose" aria-label="Close menu">%s</button>'
-        '<div class="nav-drawer-section"><a href="/">Home</a></div>'
+        '<div id="navDrawerBackdrop" class="fixed inset-0 z-40 bg-black/50 opacity-0 transition-opacity duration-200" hidden></div>'
+        '<div class="nav-drawer-panel fixed inset-y-0 right-0 z-50 w-[85vw] max-w-sm translate-x-full overflow-y-auto bg-bg-alt shadow-xl transition-transform duration-200" id="navDrawer" role="dialog" aria-modal="true" aria-label="Site navigation" hidden>'
+        '<button type="button" class="nav-drawer-close absolute right-3 top-3 rounded-full p-2 text-text-secondary hover:bg-surface-alt" id="navDrawerClose" aria-label="Close menu">%s</button>'
+        '<div class="border-b border-border p-4"><a href="/" class="block text-sm font-semibold text-text">Home</a></div>'
         '%s'
         '</div>' % (CLOSE_SVG, "".join(sections))
     )
@@ -240,16 +389,25 @@ def render_footer_mega(site, by_slug):
     rows = []
     for group in site["nav_groups"]:
         pairs = group_links(group, site, by_slug)
-        links = "".join('<a href="%s">%s</a>' % (url, html.escape(name)) for url, name in pairs)
+        links = "".join(
+            "<a href=\"%s\" class=\"footer-mega-link inline-block py-1 text-[0.85rem] text-text-secondary hover:text-accent after:ml-2.5 after:text-text-muted after:content-['•'] last:after:content-none\">%s</a>"
+            % (url, html.escape(name))
+            for url, name in pairs
+        )
         rows.append(
-            '<div class="footer-mega-row"><div class="footer-mega-label">%s <span class="footer-mega-count">(%d)</span></div><div class="footer-mega-links">%s</div></div>'
+            '<div class="footer-mega-row border-b border-border py-4 last:border-0">'
+            '<div class="footer-mega-label text-sm font-semibold text-text">%s <span class="footer-mega-count font-normal text-text-muted">(%d)</span></div>'
+            '<div class="footer-mega-links mt-2 leading-7">%s</div></div>'
             % (html.escape(group["label"]), len(pairs), links)
         )
     return "\n".join(rows)
 
 
 def render_footer_company(site):
-    return "".join('<a href="%s">%s</a>' % (l["href"], html.escape(l["label"])) for l in site["company_links"])
+    return "".join(
+        '<a href="%s" class="text-text-secondary hover:text-accent">%s</a>' % (l["href"], html.escape(l["label"]))
+        for l in site["company_links"]
+    )
 
 
 def breadcrumb_trail_for_tool(tool, site):
@@ -262,12 +420,14 @@ def render_breadcrumbs(trail):
     if not trail:
         return ""
     items = []
-    for label, url in trail:
+    for i, (label, url) in enumerate(trail):
+        if i > 0:
+            items.append('<li aria-hidden="true" class="mx-2 text-border-strong">/</li>')
         if url:
-            items.append('<li><a href="%s">%s</a></li>' % (url, html.escape(label)))
+            items.append('<li><a href="%s" class="text-text-secondary hover:text-accent">%s</a></li>' % (url, html.escape(label)))
         else:
-            items.append('<li aria-current="page">%s</li>' % html.escape(label))
-    return '<nav class="breadcrumbs" aria-label="Breadcrumb"><ol>%s</ol></nav>' % "".join(items)
+            items.append('<li aria-current="page" class="text-text">%s</li>' % html.escape(label))
+    return '<nav class="breadcrumbs mx-auto max-w-7xl px-4 pt-3 text-sm sm:px-6" aria-label="Breadcrumb"><ol class="flex flex-wrap items-center">%s</ol></nav>' % "".join(items)
 
 
 # ---------------------------------------------------------------------------
@@ -335,7 +495,7 @@ def apply_tokens(template, tokens):
     return out
 
 
-def render_page(tool, site, by_slug, template, critical_css=""):
+def render_page(tool, site, by_slug, tools, template):
     canonical = "https://%s%s" % (site["domain"], tool_url(tool, site))
     trail = breadcrumb_trail_for_tool(tool, site)
     card = tool.get("card", {})
@@ -349,7 +509,8 @@ def render_page(tool, site, by_slug, template, critical_css=""):
         "WEBAPP_JSONLD": webapp_jsonld(tool, canonical),
         "WEBSITE_JSONLD": website_jsonld(site) if tool["slug"] == site["home_slug"] else "",
         "FAQ_JSONLD": faq_jsonld(tool.get("faq", [])),
-        "CRITICAL_CSS": critical_css,
+        "THEME_INIT": THEME_INIT,
+        "TAILWIND_CONFIG": TAILWIND_CONFIG,
         "CATEGORY_DROPDOWNS": render_category_dropdowns(site, by_slug),
         "MORE_MENU": render_more_menu(site, by_slug),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
@@ -365,6 +526,7 @@ def render_page(tool, site, by_slug, template, critical_css=""):
         "TOOL_EXTRA_SCRIPTS": "",
         "TOOL_SCRIPT": tool.get("script", ""),
         "CODE_SNIPPET": "",
+        "RELATED_CALCULATORS": render_related_calculators(tool, site, by_slug, tools),
         "MAIN_SECTIONS": render_main_sections(tool),
         "FOOTER_TAGLINE": site["footer_tagline"],
         "FOOTER_MEGA": render_footer_mega(site, by_slug),
@@ -374,7 +536,7 @@ def render_page(tool, site, by_slug, template, critical_css=""):
     return apply_tokens(template, tokens)
 
 
-def render_info_page(page, site, by_slug, template, critical_css=""):
+def render_info_page(page, site, by_slug, template):
     canonical = "https://%s/%s" % (site["domain"], page["slug"])
     trail = [("Home", "/"), (page["h1"], None)]
     tokens = {
@@ -382,7 +544,8 @@ def render_info_page(page, site, by_slug, template, critical_css=""):
         "SITE_NAME": site["site_name"],
         "CANONICAL_URL": canonical,
         "META_TITLE": html.escape(page["meta_title"]),
-        "CRITICAL_CSS": critical_css,
+        "THEME_INIT": THEME_INIT,
+        "TAILWIND_CONFIG": TAILWIND_CONFIG,
         "CATEGORY_DROPDOWNS": render_category_dropdowns(site, by_slug),
         "MORE_MENU": render_more_menu(site, by_slug),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
@@ -399,10 +562,11 @@ def render_info_page(page, site, by_slug, template, critical_css=""):
     return apply_tokens(template, tokens)
 
 
-def render_404_page(site, by_slug, template_404, critical_css=""):
+def render_404_page(site, by_slug, template_404):
     tokens = {
         "SITE_NAME": site["site_name"],
-        "CRITICAL_CSS": critical_css,
+        "THEME_INIT": THEME_INIT,
+        "TAILWIND_CONFIG": TAILWIND_CONFIG,
         "CATEGORY_DROPDOWNS": render_category_dropdowns(site, by_slug),
         "MORE_MENU": render_more_menu(site, by_slug),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
@@ -446,123 +610,6 @@ def minify_html_dir(src_dir, dst_dir):
     ])
 
 
-def build_typography_css(out_css, out_css_min):
-    typo_dir = os.path.join(BASE_DIR, "typography")
-    with tempfile.TemporaryDirectory() as tmp:
-        subprocess.run(
-            ["npm", "install", "--no-save", "--prefix", tmp, TAILWIND_PKG, TAILWIND_TYPOGRAPHY_PKG],
-            check=True, capture_output=True, text=True,
-        )
-        env = dict(os.environ)
-        env["NODE_PATH"] = os.path.join(tmp, "node_modules")
-        binary = os.path.join(tmp, "node_modules", ".bin", "tailwindcss")
-        subprocess.run(
-            [binary, "-c", "tailwind.config.js", "-i", "input.css", "-o", out_css],
-            check=True, capture_output=True, text=True, env=env, cwd=typo_dir,
-        )
-    minify_css_file(out_css, out_css_min)
-
-
-def find_chrome_executable():
-    if os.environ.get("PUPPETEER_EXECUTABLE_PATH"):
-        return os.environ["PUPPETEER_EXECUTABLE_PATH"]
-    candidates = [
-        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-        "/usr/bin/google-chrome",
-        "/usr/bin/google-chrome-stable",
-        "/usr/bin/chromium-browser",
-        "/usr/bin/chromium",
-        "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-    ]
-    for c in candidates:
-        if os.path.exists(c):
-            return c
-    return None
-
-
-CRITICAL_EXTRACT_SCRIPT = r'''
-import { generate as criticalGenerate } from "critical";
-import fs from "fs";
-const [,, url, outFile] = process.argv;
-const dimensions = [
-  { width: 390, height: 844 },
-  { width: 768, height: 1024 },
-  { width: 1440, height: 900 },
-];
-try {
-  const { css } = await criticalGenerate({
-    inline: false,
-    base: process.env.CRITICAL_BASE,
-    src: url,
-    dimensions,
-    penthouse: {
-      puppeteer: { executablePath: process.env.PUPPETEER_EXECUTABLE_PATH },
-    },
-  });
-  fs.writeFileSync(outFile, css);
-} catch (err) {
-  console.error(err);
-  process.exit(1);
-}
-'''
-
-CRITICAL_TOOL_SOURCES = ["percentage-calculator", "percentage-increase-calculator"]
-CRITICAL_PAGE_SOURCES = ["about"]
-
-
-def build_critical_css(by_slug, site, template, template_page, styles_min_path, typography_min_path):
-    chrome = find_chrome_executable()
-    if not chrome:
-        raise RuntimeError(
-            "No Chrome/Chromium found for critical-CSS extraction. Set PUPPETEER_EXECUTABLE_PATH "
-            "or install Google Chrome, or run with --no-minify to skip this step."
-        )
-    with tempfile.TemporaryDirectory() as tmp:
-        shutil.copy(styles_min_path, os.path.join(tmp, "styles.min.css"))
-        shutil.copy(typography_min_path, os.path.join(tmp, "typography.min.css"))
-        for slug in CRITICAL_TOOL_SOURCES:
-            tool = by_slug[slug]
-            html_out = render_page(tool, site, by_slug, template, critical_css="")
-            with open(os.path.join(tmp, "%s.html" % slug), "w") as f:
-                f.write(html_out)
-        for slug in CRITICAL_PAGE_SOURCES:
-            page = next(p for p in site["_pages"] if p["slug"] == slug)
-            html_out = render_info_page(page, site, by_slug, template_page, critical_css="")
-            with open(os.path.join(tmp, "%s.html" % slug), "w") as f:
-                f.write(html_out)
-
-        with tempfile.TemporaryDirectory() as npm_tmp:
-            subprocess.run(
-                ["npm", "install", "--no-save", "--prefix", npm_tmp, CRITICAL_PKG],
-                check=True, capture_output=True, text=True,
-            )
-            script_path = os.path.join(npm_tmp, "extract.mjs")
-            with open(script_path, "w") as f:
-                f.write(CRITICAL_EXTRACT_SCRIPT)
-
-            env = dict(os.environ)
-            env["PUPPETEER_EXECUTABLE_PATH"] = chrome
-            env["CRITICAL_BASE"] = tmp
-
-            def extract(slug):
-                out_file = os.path.join(tmp, "%s.critical.css" % slug)
-                result = subprocess.run(
-                    ["node", script_path, "%s.html" % slug, out_file],
-                    capture_output=True, text=True, env=env, cwd=tmp,
-                )
-                if result.returncode != 0:
-                    raise RuntimeError(
-                        "critical CSS extraction failed for %s:\nSTDOUT:\n%s\nSTDERR:\n%s"
-                        % (slug, result.stdout, result.stderr)
-                    )
-                with open(out_file) as f:
-                    return f.read()
-
-            tool_css_parts = [extract(slug) for slug in CRITICAL_TOOL_SOURCES]
-            page_css_parts = [extract(slug) for slug in CRITICAL_PAGE_SOURCES]
-    return "\n".join(tool_css_parts), "\n".join(page_css_parts)
-
-
 # ---------------------------------------------------------------------------
 # Site infra files
 # ---------------------------------------------------------------------------
@@ -595,7 +642,6 @@ def main():
         pages = json.load(f)
 
     by_slug = {t["slug"]: t for t in tools}
-    site["_pages"] = pages  # only used internally by build_critical_css()
 
     with open(os.path.join(BASE_DIR, "template.html")) as f:
         template = f.read()
@@ -603,8 +649,8 @@ def main():
         template_page = f.read()
     with open(os.path.join(BASE_DIR, "template-404.html")) as f:
         template_404 = f.read()
-    with open(os.path.join(BASE_DIR, "styles.css")) as f:
-        styles_src = f.read()
+    with open(os.path.join(BASE_DIR, "base.css")) as f:
+        base_css_src = f.read()
 
     if os.path.exists(OUTPUT_DIR):
         for name in os.listdir(OUTPUT_DIR):
@@ -630,47 +676,31 @@ def main():
         for fname in os.listdir(static_dir):
             shutil.copy(os.path.join(static_dir, fname), os.path.join(OUTPUT_DIR, fname))
 
-    tool_critical_css = ""
-    page_critical_css = ""
-
     if do_minify:
-        styles_min_path = os.path.join(OUTPUT_DIR, "styles.min.css")
-        typography_css_path = os.path.join(OUTPUT_DIR, "typography.css")
-        typography_min_path = os.path.join(OUTPUT_DIR, "typography.min.css")
-
+        base_min_path = os.path.join(OUTPUT_DIR, "base.min.css")
         with tempfile.NamedTemporaryFile("w", suffix=".css", delete=False) as f:
-            f.write(styles_src)
-            styles_tmp_path = f.name
-        minify_css_file(styles_tmp_path, styles_min_path)
-        os.remove(styles_tmp_path)
-
-        build_typography_css(typography_css_path, typography_min_path)
-        os.remove(typography_css_path)
-
-        tool_critical_css, page_critical_css = build_critical_css(
-            by_slug, site, template, template_page, styles_min_path, typography_min_path
-        )
-
+            f.write(base_css_src)
+            base_tmp_path = f.name
+        minify_css_file(base_tmp_path, base_min_path)
+        os.remove(base_tmp_path)
         render_dir = tempfile.mkdtemp(prefix="percentagecalculators_render_")
     else:
         render_dir = OUTPUT_DIR
-        with open(os.path.join(OUTPUT_DIR, "styles.min.css"), "w") as f:
-            f.write(styles_src)
-        with open(os.path.join(OUTPUT_DIR, "typography.min.css"), "w") as f:
-            f.write("")
+        with open(os.path.join(OUTPUT_DIR, "base.min.css"), "w") as f:
+            f.write(base_css_src)
 
     for tool in tools:
-        out_html = render_page(tool, site, by_slug, template, critical_css=tool_critical_css)
+        out_html = render_page(tool, site, by_slug, tools, template)
         filename = "index.html" if tool["slug"] == site["home_slug"] else "%s.html" % tool["slug"]
         with open(os.path.join(render_dir, filename), "w") as f:
             f.write(out_html)
 
     for page in pages:
-        out_html = render_info_page(page, site, by_slug, template_page, critical_css=page_critical_css)
+        out_html = render_info_page(page, site, by_slug, template_page)
         with open(os.path.join(render_dir, "%s.html" % page["slug"]), "w") as f:
             f.write(out_html)
 
-    out_html = render_404_page(site, by_slug, template_404, critical_css=page_critical_css)
+    out_html = render_404_page(site, by_slug, template_404)
     with open(os.path.join(render_dir, "404.html"), "w") as f:
         f.write(out_html)
 
