@@ -92,22 +92,12 @@
         "profit-percentage-calculator",
         "profit-margin-calculator",
         "markup-calculator",
-        "gross-margin-calculator"
+        "gross-margin-calculator",
+        "salary-increase-calculator",
+        "commission-calculator",
+        "depreciation-calculator"
       ],
-      "tools": [
-        {
-          "slug": "salary-increase-calculator",
-          "name": "Salary Increase Calculator"
-        },
-        {
-          "slug": "commission-calculator",
-          "name": "Commission Calculator"
-        },
-        {
-          "slug": "depreciation-calculator",
-          "name": "Depreciation Calculator"
-        }
-      ]
+      "tools": []
     },
     {
       "key": "everyday",

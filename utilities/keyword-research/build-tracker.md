@@ -29,10 +29,10 @@ Status legend: `[ ]` pending · `[~]` in progress · `[x]` done
 - [x] markup-calculator (reverse: cost + markup% -> selling price, violet accent)
 - [x] gross-margin-calculator (revenue/COGS framing, pink accent)
 
-## Batch 4 — Finance: pay + misc
-- [ ] salary-increase-calculator
-- [ ] commission-calculator
-- [ ] depreciation-calculator
+## Batch 4 — Finance: pay + misc — DONE 2026-09-05 (Finance & Business category complete: 14 tools)
+- [x] salary-increase-calculator (rose accent)
+- [x] commission-calculator (sky accent, reused from Education — different category, fine)
+- [x] depreciation-calculator (straight-line method, lime accent, reused from Education)
 
 ## Batch 5 — Converters
 - [ ] decimal-to-percentage-calculator
@@ -68,11 +68,10 @@ Status legend: `[ ]` pending · `[~]` in progress · `[x]` done
 - 2026-09-05: Batch 3 (Finance business) shipped and verified in-browser — loan EMI ($20k,
   7.5%, 5yr -> ~$400.76/mo), profit margin ($40/$55 -> 27.27%), and markup ($40 + 30% ->
   $52) all checked by hand.
-- Accent colors used so far (batches 1-3): sky, purple, fuchsia, lime, yellow, green, cyan,
-  indigo, amber, emerald, red, orange, blue, violet, pink. No color repeats within Finance
-  category yet (teal, green, cyan, indigo, amber, emerald, red, orange, blue, violet, pink
-  = 11 of ~14 finance tools so far). Remaining unused chromatic colors for batch 4 (3 more
-  finance tools): yellow(used in Education — fine, different category), lime(used in
-  Education), fuchsia(used in Education), rose, sky(used in Education), purple(used in
-  Education). Plan: batch 4 uses rose + two colors reused from Education (fine, cross-category
-  reuse is allowed per CLAUDE.md).
+- 2026-09-05: Batch 4 (Finance pay + misc) shipped and verified in-browser — salary increase
+  ($60k + 5% -> $63,000), commission ($5000 x 10% -> $500), and depreciation ($10k asset,
+  $1k salvage, 5yr -> $1800/yr, 18%) all checked by hand. Finance & Business category is
+  now fully built out at 14 tools (percentage-growth-calculator + 13 new).
+- Accent colors: Finance category uses teal, green, cyan, indigo, amber, emerald, red,
+  orange, blue, violet, pink, rose (12 distinct, no repeats) plus sky and lime reused from
+  Education (different category, fine per CLAUDE.md).

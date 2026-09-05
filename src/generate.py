@@ -92,6 +92,9 @@ TOOL_ACCENTS = {
     "profit-margin-calculator": "blue",
     "markup-calculator": "violet",
     "gross-margin-calculator": "pink",
+    "salary-increase-calculator": "rose",
+    "commission-calculator": "sky",
+    "depreciation-calculator": "lime",
 }
 RELATED_COUNT = 4
 

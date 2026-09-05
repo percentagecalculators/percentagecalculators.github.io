@@ -65,6 +65,9 @@ TOOL_SLUGS = [
     "profit-margin-calculator",
     "markup-calculator",
     "gross-margin-calculator",
+    "salary-increase-calculator",
+    "commission-calculator",
+    "depreciation-calculator",
 ]
 
 NAV_NAMES = {
@@ -94,6 +97,9 @@ NAV_NAMES = {
     "profit-margin-calculator": "Profit Margin Calculator",
     "markup-calculator": "Markup Calculator",
     "gross-margin-calculator": "Gross Margin Calculator",
+    "salary-increase-calculator": "Salary Increase Calculator",
+    "commission-calculator": "Commission Calculator",
+    "depreciation-calculator": "Depreciation Calculator",
 }
 
 
@@ -167,13 +173,10 @@ CATEGORY_GROUPS = [
             "percentage-growth-calculator", "apy-calculator", "apr-calculator", "apr-apy-converter",
             "simple-interest-calculator", "compound-interest-calculator", "loan-interest-calculator",
             "profit-percentage-calculator", "profit-margin-calculator", "markup-calculator",
-            "gross-margin-calculator",
+            "gross-margin-calculator", "salary-increase-calculator", "commission-calculator",
+            "depreciation-calculator",
         ],
-        "tools": [
-            {"slug": "salary-increase-calculator", "name": "Salary Increase Calculator"},
-            {"slug": "commission-calculator", "name": "Commission Calculator"},
-            {"slug": "depreciation-calculator", "name": "Depreciation Calculator"},
-        ],
+        "tools": [],
     },
     {
         "key": "everyday",
