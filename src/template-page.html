@@ -21,6 +21,10 @@
 
     <link rel="preload" href="/base.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/base.min.css"></noscript>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
 </head>
 <body class="min-h-screen bg-bg font-sans text-text-alt antialiased">
 <a href="#main-content" class="skip-link sr-only focus:not-sr-only focus:fixed focus:left-2 focus:top-2 focus:z-50 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-white">Skip to content</a>
@@ -53,7 +57,7 @@
     <section class="block py-10 sm:py-14">
         <div class="block-inner mx-auto max-w-7xl px-4 sm:px-6">
             <div class="content-card rounded-2xl border border-border bg-surface p-6 sm:p-8">
-                <div class="article prose dark:prose-invert max-w-none prose-headings:text-text prose-p:text-text-secondary prose-li:text-text-secondary prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-strong:text-text">
+                <div class="{{ARTICLE_PROSE_CLASSES}}">
                     {{PAGE_CONTENT}}
                 </div>
             </div>
@@ -242,12 +246,25 @@
       wrap.appendChild(table);
     });
   }
+  function renderMath() {
+    if (typeof renderMathInElement === 'undefined') return;
+    document.querySelectorAll('.article').forEach(function (el) {
+      renderMathInElement(el, {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '\\(', right: '\\)', display: false }
+        ],
+        throwOnError: false
+      });
+    });
+  }
   document.addEventListener('DOMContentLoaded', function () {
     initThemeToggle();
     var closeAll = initCategoryDropdowns();
     initPriorityNav(closeAll);
     initMobileDrawer();
     wrapTables();
+    renderMath();
   });
 </script>
 </body>

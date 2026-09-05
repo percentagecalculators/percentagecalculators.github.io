@@ -313,3 +313,27 @@ navigational. This was a conscious trade-off made this session in exchange for n
 full discussion. Writing real article content for those 30 tools (a separate, still-pending
 pass — see `utilities/keyword-research/build-tracker.md`) would make a future move to
 body-content links possible, but is not required for the grid-based system to keep working.
+
+## Article content styling (content_html)
+
+Tool pages' `content_html` (and info pages' `sections`) is authored by an external SEO content
+pipeline (`utilities/publish_seo_content.py` splices `output/<slug>/content.html` into each
+tool's `content_html` field — see that script's own docstring) as **bare semantic HTML**, no
+inline Tailwind classes. Both `template.html` and `template-page.html` wrap this content in a
+shared `.article` class (`ARTICLE_PROSE_CLASSES` in `generate.py`, reused via the
+`{{ARTICLE_PROSE_CLASSES}}` token so both templates stay in sync) combining Tailwind's typography
+plugin (`?plugins=typography` on the CDN script tag — headings/p/lists/links/strong/em/code/table
+cells/blockquote/hr) with plain CSS rules in `base.css` for everything Typography leaves at
+browser defaults: `aside` (styled as a callout box), `details`/`summary` (styled as an expandable
+card with a +/− toggle), `dl`/`dt`/`dd` (styled as a glossary), and `b`/`img`. Tables get a
+`.table-scroll` wrapper + header/border treatment — the wrapper itself is added by existing
+client-side JS (`wrapTables()` in both templates, runs on `DOMContentLoaded`), not at build time;
+don't re-add a Python-side wrapper for this, it already exists and would just double up.
+
+**Math formulas:** the pipeline emits LaTeX (`$$...$$` for display math, `\(...\)` for inline —
+**never** single-`$`, since the site is full of literal dollar amounts like "$5,000" that would
+otherwise be misparsed as math delimiters). Both templates load KaTeX + the auto-render extension
+from jsdelivr and call `renderMathInElement()` on every `.article` element on `DOMContentLoaded`
+(see `renderMath()` in each template's script block) — this runs client-side against the already
+-built static HTML, so no server-side math rendering is needed. Verified: KaTeX's default styling
+inherits `color` from its container, so formulas theme correctly in dark mode with no extra CSS.

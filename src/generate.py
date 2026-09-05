@@ -587,6 +587,7 @@ def render_info_page(page, site, by_slug, template):
         "H1": page["h1"],
         "SUBTITLE": page.get("subtitle", ""),
         "PAGE_CONTENT": render_info_content(page),
+        "ARTICLE_PROSE_CLASSES": ARTICLE_PROSE_CLASSES,
         "FOOTER_TAGLINE": site["footer_tagline"],
         "FOOTER_MEGA": render_footer_mega(site, by_slug),
         "FOOTER_COMPANY": render_footer_company(site),

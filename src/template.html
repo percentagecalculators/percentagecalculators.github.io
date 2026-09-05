@@ -22,6 +22,10 @@
     <link rel="preload" href="/base.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/base.min.css"></noscript>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
     <script type="application/ld+json">{{WEBAPP_JSONLD}}</script>
     {{WEBSITE_JSONLD}}
     {{FAQ_JSONLD}}
@@ -255,6 +259,21 @@
     if (!form) return;
     form.addEventListener('submit', function (e) { e.preventDefault(); });
   }
+  function renderMath() {
+    // content_html's formulas use $$...$$ (display) and \(...\) (inline) —
+    // never single-$ delimiters, since the site is full of literal dollar
+    // amounts ($5,000 etc.) that would otherwise be misparsed as math.
+    if (typeof renderMathInElement === 'undefined') return;
+    document.querySelectorAll('.article').forEach(function (el) {
+      renderMathInElement(el, {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '\\(', right: '\\)', display: false }
+        ],
+        throwOnError: false
+      });
+    });
+  }
   document.addEventListener('DOMContentLoaded', function () {
     initThemeToggle();
     var closeAll = initCategoryDropdowns();
@@ -262,6 +281,7 @@
     initMobileDrawer();
     wrapTables();
     initToolForm();
+    renderMath();
   });
 </script>
 </body>

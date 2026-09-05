@@ -68,3 +68,77 @@
   --color-danger:248 113 113;
 }
 html{scroll-behavior:smooth}
+
+/* Article/prose content-element styling. content_html is authored by an
+   external SEO content pipeline (see utilities/publish_seo_content.py) as
+   bare semantic HTML — no inline Tailwind classes — so every tag it can
+   produce needs a real rule here, not a reliance on browser UA defaults.
+   Tailwind's typography plugin (?plugins=typography, see TAILWIND_CONFIG's
+   prose-* modifiers in generate.py's ARTICLE_PROSE_CLASSES) already covers
+   headings/p/lists/links/strong/em/code/table cells/blockquote/hr; the
+   rules below cover everything it leaves at browser defaults: aside,
+   details/summary, dl/dt/dd, b/i, img, and a fuller table treatment
+   (bordered container + header row + scrollable wrapper, since content_html
+   has no per-page markup to add one). Scoped to .article so it only ever
+   touches content_html-derived output (template.html + template-page.html
+   both wrap their content in this class), never tool-card markup. This file
+   is loaded via <link rel="stylesheet"> (see template.html), which places
+   it after the Tailwind CDN <script> in document order, so these plain
+   selectors win the cascade over same-specificity prose-* utilities without
+   needing !important. */
+.article aside{
+  margin:1.5rem 0;
+  padding:1rem 1.25rem;
+  border:1px solid rgb(var(--color-border));
+  border-left:3px solid rgb(var(--color-accent));
+  border-radius:0.75rem;
+  background:rgb(var(--color-surface-alt));
+  color:rgb(var(--color-text-secondary));
+  font-size:0.95rem;
+  line-height:1.6;
+}
+.article details{
+  margin:1.5rem 0;
+  border:1px solid rgb(var(--color-border));
+  border-radius:0.75rem;
+  background:rgb(var(--color-surface));
+  overflow:hidden;
+}
+.article details summary{
+  cursor:pointer;
+  list-style:none;
+  padding:0.875rem 1.25rem;
+  font-weight:600;
+  color:rgb(var(--color-text));
+  background:rgb(var(--color-surface-alt));
+}
+.article details summary::-webkit-details-marker{display:none}
+.article details summary::before{content:"+";display:inline-block;width:1em;color:rgb(var(--color-accent));font-weight:700}
+.article details[open] summary::before{content:"\2212"}
+.article details>*:not(summary){padding:0 1.25rem}
+.article details>*:last-child{padding-bottom:1.25rem}
+.article dl{margin:1.5rem 0}
+.article dt{margin-top:1rem;font-weight:700;color:rgb(var(--color-text))}
+.article dt:first-child{margin-top:0}
+.article dd{
+  margin:0.25rem 0 0;
+  padding-left:1rem;
+  border-left:2px solid rgb(var(--color-border));
+  color:rgb(var(--color-text-secondary));
+}
+.article b{font-weight:700;color:rgb(var(--color-text))}
+.article i{font-style:italic}
+.article img{border-radius:0.75rem;border:1px solid rgb(var(--color-border))}
+.article .table-scroll{
+  margin:1.5rem 0;
+  overflow-x:auto;
+  border:1px solid rgb(var(--color-border));
+  border-radius:0.75rem;
+}
+.article .table-scroll table{margin:0;width:100%;border-collapse:collapse;font-size:0.925rem}
+.article .table-scroll thead tr{background:rgb(var(--color-surface-alt))}
+.article .table-scroll th{padding:0.75rem 1rem;text-align:left;font-weight:700;color:rgb(var(--color-text));white-space:nowrap;border-bottom:2px solid rgb(var(--color-border))}
+.article .table-scroll td{padding:0.75rem 1rem;border-bottom:1px solid rgb(var(--color-border));color:rgb(var(--color-text-secondary))}
+.article .table-scroll tbody tr:last-child td{border-bottom:none}
+.article .table-scroll tbody tr:hover td{background:rgb(var(--color-surface-alt) / 0.6)}
+.article .table-scroll caption{padding:0.625rem 1rem;font-size:0.85rem;color:rgb(var(--color-text-muted));text-align:left;caption-side:top}
