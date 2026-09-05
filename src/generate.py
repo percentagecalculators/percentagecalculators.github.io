@@ -245,7 +245,7 @@ def render_faq_section(tool, alt):
     )
     bg = "bg-bg-alt" if alt else "bg-bg"
     return (
-        '<section class="block py-10 %s sm:py-14"><div class="block-inner mx-auto max-w-5xl px-4 sm:px-6">'
+        '<section class="block py-10 %s sm:py-14"><div class="block-inner mx-auto max-w-7xl px-4 sm:px-6">'
         '<div class="section-header mb-6"><h2 class="text-2xl font-bold text-text">Frequently Asked Questions</h2></div>'
         '<dl class="faq-list grid grid-cols-1 gap-x-10 md:grid-cols-2">%s</dl>'
         '</div></section>' % (bg, items)
@@ -264,7 +264,7 @@ def render_main_sections(tool):
         for chunk in chunks:
             bg = "bg-bg-alt" if section_count % 2 == 1 else "bg-bg"
             parts.append(
-                '<section class="block py-10 %s sm:py-14"><div class="block-inner mx-auto max-w-3xl px-4 sm:px-6">'
+                '<section class="block py-10 %s sm:py-14"><div class="block-inner mx-auto max-w-7xl px-4 sm:px-6">'
                 '<div class="content-card rounded-2xl border border-border bg-surface p-6 sm:p-8">'
                 '<div class="%s">%s</div></div></div></section>'
                 % (bg, ARTICLE_PROSE_CLASSES, chunk)
