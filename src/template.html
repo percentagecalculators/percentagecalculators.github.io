@@ -50,7 +50,12 @@
 <main id="main-content">
     {{BREADCRUMBS}}
 
-    <section class="mx-auto max-w-7xl px-4 pt-4 sm:px-6 sm:pt-6">
+    <section class="mx-auto max-w-3xl px-4 pb-2 pt-8 text-center sm:px-6 sm:pt-10">
+        <h1 class="text-[clamp(1.6rem,4.5vw,2.35rem)] font-bold leading-tight text-text">{{H1}}</h1>
+        <p class="subtitle mt-3 text-base leading-relaxed text-text-secondary [&_strong]:text-text-alt">{{SUBTITLE}}</p>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 pb-4 pt-6 sm:px-6">
         <div class="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)] lg:items-start">
             <div class="tool-section">
                 <form data-mode="{{TOOL_MODE}}" data-layout="{{TOOL_LAYOUT}}"{{TOOL_DATA_ATTRS}} novalidate>
@@ -61,11 +66,6 @@
             </div>
             <div class="related-tools grid grid-cols-1 gap-3 sm:grid-cols-2">{{RELATED_CALCULATORS}}</div>
         </div>
-    </section>
-
-    <section class="mx-auto max-w-3xl px-4 pb-2 pt-10 text-center sm:px-6">
-        <h1 class="text-[clamp(1.6rem,4.5vw,2.35rem)] font-bold leading-tight text-text">{{H1}}</h1>
-        <p class="subtitle mt-3 text-base leading-relaxed text-text-secondary [&_strong]:text-text-alt">{{SUBTITLE}}</p>
     </section>
 
 {{MAIN_SECTIONS}}
