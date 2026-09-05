@@ -84,7 +84,7 @@ RELATED_COUNT = 4
 CHEVRON_SVG = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>'
 CLOSE_SVG = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg>'
 HAMBURGER_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>'
-DEFAULT_TOOL_ICON_SVG = '<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 5 5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>'
+DEFAULT_TOOL_ICON_SVG = '<svg aria-hidden="true" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 5 5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>'
 
 # Sets .dark on <html> (and color-scheme, for native form-control theming)
 # before Tailwind's CDN script runs and before body paint, so there's no
@@ -421,12 +421,6 @@ def render_footer_company(site):
     )
 
 
-def breadcrumb_trail_for_tool(tool, site):
-    if tool["slug"] == site["home_slug"]:
-        return []
-    return [("Home", "/"), (tool["nav_name"], None)]
-
-
 def render_breadcrumbs(trail):
     if not trail:
         return ""
@@ -508,7 +502,6 @@ def apply_tokens(template, tokens):
 
 def render_page(tool, site, by_slug, tools, template):
     canonical = "https://%s%s" % (site["domain"], tool_url(tool, site))
-    trail = breadcrumb_trail_for_tool(tool, site)
     card = tool.get("card", {})
     data_attrs = "".join(' data-%s="%s"' % (k, html.escape(str(v))) for k, v in card.get("data_attrs", {}).items())
 
@@ -526,7 +519,7 @@ def render_page(tool, site, by_slug, tools, template):
         "MORE_MENU": render_more_menu(site, by_slug),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
         "HAMBURGER_ICON": HAMBURGER_SVG,
-        "BREADCRUMBS": render_breadcrumbs(trail) + breadcrumb_jsonld(trail, site["domain"]),
+        "BREADCRUMBS": "",
         "H1": tool["h1"],
         "SUBTITLE": tool["subtitle"],
         "TOOL_MODE": card.get("mode", ""),
