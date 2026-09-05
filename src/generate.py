@@ -138,7 +138,13 @@ def render_tool_card_body(tool):
     layout = card.get("layout", "raw")
     if layout != "raw":
         raise ValueError("Unknown card layout: %r on tool %r (only 'raw' is implemented on this site)" % (layout, tool.get("slug")))
-    return card.get("fields_html", "")
+    # The page's one <h1> lives inside the tool card's own title bar (see
+    # module docstring / the redesign this pattern came from) rather than
+    # floating outside it — fields_html carries a literal "{{H1}}"
+    # placeholder at that spot, resolved here from tool["h1"] so the title
+    # text has one source of truth instead of being duplicated per file.
+    body = card.get("fields_html", "")
+    return body.replace("{{H1}}", html.escape(tool["h1"]))
 
 
 # ---------------------------------------------------------------------------
