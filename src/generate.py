@@ -87,6 +87,11 @@ TOOL_ACCENTS = {
     "apr-apy-converter": "indigo",
     "simple-interest-calculator": "amber",
     "compound-interest-calculator": "emerald",
+    "loan-interest-calculator": "red",
+    "profit-percentage-calculator": "orange",
+    "profit-margin-calculator": "blue",
+    "markup-calculator": "violet",
+    "gross-margin-calculator": "pink",
 }
 RELATED_COUNT = 4
 

@@ -60,6 +60,11 @@ TOOL_SLUGS = [
     "apr-apy-converter",
     "simple-interest-calculator",
     "compound-interest-calculator",
+    "loan-interest-calculator",
+    "profit-percentage-calculator",
+    "profit-margin-calculator",
+    "markup-calculator",
+    "gross-margin-calculator",
 ]
 
 NAV_NAMES = {
@@ -84,6 +89,11 @@ NAV_NAMES = {
     "apr-apy-converter": "APR to APY Converter",
     "simple-interest-calculator": "Simple Interest Calculator",
     "compound-interest-calculator": "Compound Interest Calculator",
+    "loan-interest-calculator": "Loan Interest Calculator",
+    "profit-percentage-calculator": "Profit Percentage Calculator",
+    "profit-margin-calculator": "Profit Margin Calculator",
+    "markup-calculator": "Markup Calculator",
+    "gross-margin-calculator": "Gross Margin Calculator",
 }
 
 
@@ -155,14 +165,11 @@ CATEGORY_GROUPS = [
         "tagline": "Interest rates, profit margins, markup, salary raises, and business growth.",
         "slugs": [
             "percentage-growth-calculator", "apy-calculator", "apr-calculator", "apr-apy-converter",
-            "simple-interest-calculator", "compound-interest-calculator",
+            "simple-interest-calculator", "compound-interest-calculator", "loan-interest-calculator",
+            "profit-percentage-calculator", "profit-margin-calculator", "markup-calculator",
+            "gross-margin-calculator",
         ],
         "tools": [
-            {"slug": "loan-interest-calculator", "name": "Loan Interest Calculator"},
-            {"slug": "profit-percentage-calculator", "name": "Profit Percentage Calculator"},
-            {"slug": "profit-margin-calculator", "name": "Profit Margin Calculator"},
-            {"slug": "markup-calculator", "name": "Markup Calculator"},
-            {"slug": "gross-margin-calculator", "name": "Gross Margin Calculator"},
             {"slug": "salary-increase-calculator", "name": "Salary Increase Calculator"},
             {"slug": "commission-calculator", "name": "Commission Calculator"},
             {"slug": "depreciation-calculator", "name": "Depreciation Calculator"},

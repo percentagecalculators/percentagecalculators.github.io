@@ -22,12 +22,12 @@ Status legend: `[ ]` pending · `[~]` in progress · `[x]` done
 - [x] simple-interest-calculator (amber accent)
 - [x] compound-interest-calculator (emerald accent)
 
-## Batch 3 — Finance: business
-- [ ] loan-interest-calculator
-- [ ] profit-percentage-calculator
-- [ ] profit-margin-calculator
-- [ ] markup-calculator
-- [ ] gross-margin-calculator
+## Batch 3 — Finance: business — DONE 2026-09-05
+- [x] loan-interest-calculator (EMI amortization formula, red accent)
+- [x] profit-percentage-calculator (profit % of cost price, orange accent)
+- [x] profit-margin-calculator (profit % of selling price, blue accent)
+- [x] markup-calculator (reverse: cost + markup% -> selling price, violet accent)
+- [x] gross-margin-calculator (revenue/COGS framing, pink accent)
 
 ## Batch 4 — Finance: pay + misc
 - [ ] salary-increase-calculator
@@ -60,8 +60,19 @@ Status legend: `[ ]` pending · `[~]` in progress · `[x]` done
 - 2026-09-05: Batch 2 (Finance rates) shipped and verified in-browser — compound interest
   ($1000, 5%, 3yr, monthly → $1161.47) and APY (5% nominal, monthly → 5.116%) both checked
   against the textbook formula by hand.
-- Accent colors used so far (batches 1-2): sky, purple, fuchsia, lime, yellow, green, cyan,
-  indigo, amber, emerald. Remaining colors reserved, no repeats yet within Finance category:
-  red, orange, blue, violet, magenta/fuchsia(used), pink, rose, teal(used by
-  percentage-growth-calculator). Plan: batch 3 finance tools get red, orange, blue, violet,
-  pink (5 more distinct, no repeats within Finance through batch 4).
+- Note: profit-percentage-calculator (% of cost price), profit-margin-calculator (% of
+  selling price), markup-calculator (reverse direction: cost+markup%->price), and
+  gross-margin-calculator (revenue/COGS framing) are deliberately 4 distinct but related
+  tools — their formulas overlap by design (same as GPA/CGPA/SGPA), matching the 4 separate
+  search-intent clusters in tool-ideas.md.
+- 2026-09-05: Batch 3 (Finance business) shipped and verified in-browser — loan EMI ($20k,
+  7.5%, 5yr -> ~$400.76/mo), profit margin ($40/$55 -> 27.27%), and markup ($40 + 30% ->
+  $52) all checked by hand.
+- Accent colors used so far (batches 1-3): sky, purple, fuchsia, lime, yellow, green, cyan,
+  indigo, amber, emerald, red, orange, blue, violet, pink. No color repeats within Finance
+  category yet (teal, green, cyan, indigo, amber, emerald, red, orange, blue, violet, pink
+  = 11 of ~14 finance tools so far). Remaining unused chromatic colors for batch 4 (3 more
+  finance tools): yellow(used in Education — fine, different category), lime(used in
+  Education), fuchsia(used in Education), rose, sky(used in Education), purple(used in
+  Education). Plan: batch 4 uses rose + two colors reused from Education (fine, cross-category
+  reuse is allowed per CLAUDE.md).
