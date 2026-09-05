@@ -95,6 +95,12 @@ TOOL_ACCENTS = {
     "salary-increase-calculator": "rose",
     "commission-calculator": "sky",
     "depreciation-calculator": "lime",
+    "decimal-to-percentage-calculator": "teal",
+    "ratio-to-percentage-calculator": "amber",
+    "ppm-to-percentage-calculator": "emerald",
+    "basis-points-calculator": "indigo",
+    "slope-percentage-calculator": "orange",
+    "alcohol-proof-calculator": "red",
 }
 RELATED_COUNT = 4
 

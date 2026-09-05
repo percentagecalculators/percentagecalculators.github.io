@@ -33,34 +33,15 @@
       "short_label": "Converters",
       "tagline": "Convert between percentages, fractions, decimals, ratios, and other unit forms.",
       "slugs": [
-        "fraction-to-percentage-calculator"
+        "fraction-to-percentage-calculator",
+        "decimal-to-percentage-calculator",
+        "ratio-to-percentage-calculator",
+        "ppm-to-percentage-calculator",
+        "basis-points-calculator",
+        "slope-percentage-calculator",
+        "alcohol-proof-calculator"
       ],
-      "tools": [
-        {
-          "slug": "decimal-to-percentage-calculator",
-          "name": "Decimal to Percentage Calculator"
-        },
-        {
-          "slug": "ratio-to-percentage-calculator",
-          "name": "Ratio to Percentage Calculator"
-        },
-        {
-          "slug": "ppm-to-percentage-calculator",
-          "name": "PPM to Percentage Calculator"
-        },
-        {
-          "slug": "basis-points-calculator",
-          "name": "Basis Points Calculator"
-        },
-        {
-          "slug": "slope-percentage-calculator",
-          "name": "Slope Percentage Calculator"
-        },
-        {
-          "slug": "alcohol-proof-calculator",
-          "name": "Alcohol Proof Calculator"
-        }
-      ]
+      "tools": []
     },
     {
       "key": "education",

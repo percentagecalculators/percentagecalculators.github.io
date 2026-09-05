@@ -68,6 +68,12 @@ TOOL_SLUGS = [
     "salary-increase-calculator",
     "commission-calculator",
     "depreciation-calculator",
+    "decimal-to-percentage-calculator",
+    "ratio-to-percentage-calculator",
+    "ppm-to-percentage-calculator",
+    "basis-points-calculator",
+    "slope-percentage-calculator",
+    "alcohol-proof-calculator",
 ]
 
 NAV_NAMES = {
@@ -100,6 +106,12 @@ NAV_NAMES = {
     "salary-increase-calculator": "Salary Increase Calculator",
     "commission-calculator": "Commission Calculator",
     "depreciation-calculator": "Depreciation Calculator",
+    "decimal-to-percentage-calculator": "Decimal to Percentage Calculator",
+    "ratio-to-percentage-calculator": "Ratio to Percentage Calculator",
+    "ppm-to-percentage-calculator": "PPM to Percentage Calculator",
+    "basis-points-calculator": "Basis Points Calculator",
+    "slope-percentage-calculator": "Slope Percentage Calculator",
+    "alcohol-proof-calculator": "Alcohol Proof Calculator",
 }
 
 
@@ -143,15 +155,12 @@ CATEGORY_GROUPS = [
         "label": "Converters",
         "short_label": "Converters",
         "tagline": "Convert between percentages, fractions, decimals, ratios, and other unit forms.",
-        "slugs": ["fraction-to-percentage-calculator"],
-        "tools": [
-            {"slug": "decimal-to-percentage-calculator", "name": "Decimal to Percentage Calculator"},
-            {"slug": "ratio-to-percentage-calculator", "name": "Ratio to Percentage Calculator"},
-            {"slug": "ppm-to-percentage-calculator", "name": "PPM to Percentage Calculator"},
-            {"slug": "basis-points-calculator", "name": "Basis Points Calculator"},
-            {"slug": "slope-percentage-calculator", "name": "Slope Percentage Calculator"},
-            {"slug": "alcohol-proof-calculator", "name": "Alcohol Proof Calculator"},
+        "slugs": [
+            "fraction-to-percentage-calculator", "decimal-to-percentage-calculator",
+            "ratio-to-percentage-calculator", "ppm-to-percentage-calculator", "basis-points-calculator",
+            "slope-percentage-calculator", "alcohol-proof-calculator",
         ],
+        "tools": [],
     },
     {
         "key": "education",

@@ -34,13 +34,13 @@ Status legend: `[ ]` pending · `[~]` in progress · `[x]` done
 - [x] commission-calculator (sky accent, reused from Education — different category, fine)
 - [x] depreciation-calculator (straight-line method, lime accent, reused from Education)
 
-## Batch 5 — Converters
-- [ ] decimal-to-percentage-calculator
-- [ ] ratio-to-percentage-calculator
-- [ ] ppm-to-percentage-calculator
-- [ ] basis-points-calculator
-- [ ] slope-percentage-calculator
-- [ ] alcohol-proof-calculator
+## Batch 5 — Converters — DONE 2026-09-05 (Converters category complete: 7 tools)
+- [x] decimal-to-percentage-calculator (teal accent)
+- [x] ratio-to-percentage-calculator (A as % of A+B total, ":" divider, amber accent)
+- [x] ppm-to-percentage-calculator (÷10,000, emerald accent)
+- [x] basis-points-calculator (÷100, indigo accent)
+- [x] slope-percentage-calculator (rise/run -> slope% + angle in degrees, orange accent)
+- [x] alcohol-proof-calculator (US proof ÷2 = ABV%, red accent)
 
 ## Batch 6 — Everyday & niche
 - [ ] percentage-point-calculator (core group)
@@ -75,3 +75,6 @@ Status legend: `[ ]` pending · `[~]` in progress · `[x]` done
 - Accent colors: Finance category uses teal, green, cyan, indigo, amber, emerald, red,
   orange, blue, violet, pink, rose (12 distinct, no repeats) plus sky and lime reused from
   Education (different category, fine per CLAUDE.md).
+- 2026-09-05: Batch 5 (Converters) shipped and verified in-browser — slope (rise 5, run 100
+  -> 5%, 2.86°) and ratio (3:4 -> total 7, 42.86%) checked by hand. Converters category is
+  now fully built out at 7 tools (fraction-to-percentage-calculator + 6 new).
