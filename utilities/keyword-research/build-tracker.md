@@ -1,5 +1,16 @@
 # Phase 2 build tracker
 
+## Update 2026-09-05: Advanced Silo internal linking shipped
+Two-pillar grid-based silo linking system is now live — see CLAUDE.md's "Internal Linking
+Strategy — Advanced Silo (Grid-Based)" section for the full pillar/hub/supporter map and rules,
+and `utilities/silo_linking/generate_silo_rotation.py` for the implementation. Runs as the last
+build step (`build_data.py` → `generate.py` → `generate_silo_rotation.py`), rotates monthly via
+`.github/workflows/silo-rotation.yml`. Also fixed a pre-existing bug in `generate.py`'s
+`TOOL_ICON_RE` regex that silently fell back to the generic default icon on every related-card
+grid, site-wide, since it never actually matched `class="icon h-5 w-5"` (only bare
+`class="icon"`) — every tool's related-card now shows its own distinct icon.
+
+
 Tracks the ~28 net-new tools from `tool-ideas.md` (health/fitness excluded — see that file).
 Each batch: author `src/content/<slug>.json` (content_html left **empty** for now — to be
 written in a later pass), add a `TOOL_ACCENTS` entry in `generate.py`, move the tool from

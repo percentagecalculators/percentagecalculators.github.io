@@ -188,7 +188,7 @@ def render_tool_card_body(tool):
 # above-the-fold slot on every page).
 # ---------------------------------------------------------------------------
 
-TOOL_ICON_RE = re.compile(r'<svg class="icon"[^>]*>.*?</svg>', re.DOTALL)
+TOOL_ICON_RE = re.compile(r'<svg class="icon[^"]*"[^>]*>.*?</svg>', re.DOTALL)
 
 
 def extract_tool_icon(tool):

@@ -214,3 +214,102 @@ page's per-tab `<div class="tab-panel ...">` wrappers must NOT get this treatmen
 After any card-styling change, rebuild (`build_data.py` then `generate.py`) and actually look at the
 page — in a browser, both light and dark mode, ideally more than one tool for comparison. A CSS
 diff that "should" look right and one that's actually been screenshotted are not the same thing.
+
+## Internal Linking Strategy — Advanced Silo (Grid-Based)
+
+Two-pillar Advanced Silo internal-linking system (Kyle Roof methodology), adapted from
+`mic-tests.github.io`'s own silo implementation. Unlike that site, the link carrier here is
+**the existing "related tools" card grid** (`aside.related-tools`, rendered by
+`render_related_calculators()` in `src/generate.py`, styled with `template.html:62`'s
+`{{RELATED_CALCULATORS}}` slot) — not inline sentence links inside article body copy. Each grid
+card *is* the silo link. This was a deliberate choice for this site: the grid exists at the same
+fixed location on every page regardless of whether that page's `content_html` has been written
+yet, so the silo system works for all 41 tools immediately, with no dependency on the (still
+largely unwritten) article content for the 30 tools added in the Phase 2 expansion.
+
+**Full plan reference:** `/Users/buzzsubash/.claude/plans/curious-hatching-aurora.md` (this
+session's approved plan — includes the full rationale, alternatives considered, and the
+mic-tests comparison in more detail than this summary).
+
+### Pillars, hubs, supporters
+
+| Pillar | File | Keyword | Volume |
+|---|---|---|---|
+| Pillar 1 | `index.html` (percentage-calculator) | "percentage calculator" | 1,830,000/mo |
+| Pillar 2 | `percentage-difference-calculator.html` | "percentage difference calculator" | 301,000/mo |
+
+**Pillar 1's hubs** (utility/conversion/education theme):
+
+| Hub | File | Keyword | Volume | Supporters |
+|---|---|---|---|---|
+| A — Converters | `fraction-to-percentage-calculator.html` | "fraction to percentage" cluster | ~6,600/mo | decimal-to-percentage-calculator, ratio-to-percentage-calculator, ppm-to-percentage-calculator, basis-points-calculator, slope-percentage-calculator, alcohol-proof-calculator |
+| B — Education | `sgpa-to-percentage-calculator.html` | "sgpa to percentage" | 60,500/mo | marks-percentage-calculator, gpa-to-percentage-calculator, cgpa-to-percentage-calculator, percentile-to-percentage-calculator |
+| C — Everyday | `win-loss-percentage-calculator.html` | "calculate win rate" | 14,800/mo | tip-calculator, bakers-percentage-calculator, food-cost-percentage-calculator, percent-solution-calculator |
+
+**Pillar 2's hubs** (comparison/finance theme):
+
+| Hub | File | Keyword | Volume | Supporters |
+|---|---|---|---|---|
+| D — Core comparison | `percentage-increase-calculator.html` | "percentage increase calculator" | 301,000/mo | percentage-decrease-calculator, percentage-change-calculator, percentage-off-calculator, reverse-percentage-calculator, percentage-error-calculator, average-percentage-calculator, percentage-point-calculator |
+| E — Finance/Interest | `apy-calculator.html` | "apy calculator" | 49,500/mo | apr-calculator, apr-apy-converter, simple-interest-calculator, compound-interest-calculator, loan-interest-calculator, percentage-growth-calculator |
+| F — Finance/Profit | `profit-percentage-calculator.html` | "formula for percentage profit" | 33,100/mo | profit-margin-calculator, markup-calculator, gross-margin-calculator, salary-increase-calculator, commission-calculator, depreciation-calculator |
+
+2 pillars + 6 hubs + 33 supporters = 41 (every currently-built tool). No cross-pillar bridging —
+the two pillar groups rotate and bridge fully independently.
+
+### Grid link counts (strict — matches the classic methodology exactly)
+
+| Page type | Card count | Rule |
+|---|---|---|
+| Pillar | exactly 1 | links to whichever of its 3 hubs is first in that month's shuffle. This hoards all authority on the pillar — it never links to more than one hub, and never to a supporter directly. |
+| Hub | 3 or 4 | up to its pillar (always) + left neighbor hub (empty if this hub is first in the pillar's shuffled order) + right neighbor hub (empty if last) + down to the first supporter in its own shuffled chain (always). Only the *middle* hub of each pillar's 3-hub group gets all 4; first/last hubs show 3. |
+| Supporter | 2 or 3 | up to its hub (always) + prev-or-next in its shuffled chain + next-or-bridge (a forward/backward bridge to the adjacent hub's first/last supporter, when this supporter sits at the start/end of its own chain). Only the true endpoints of the *whole pillar's* chain (first supporter of the first hub, last supporter of the last hub) show 2; everything else shows 3. |
+
+Anchor text = each card's existing visible title (`nav_name`), which is already close to the
+target page's primary keyword by construction (e.g. "GPA to Percentage Calculator") — no
+"click here" / generic labels.
+
+**Hard rules (enforced by the script, audited by `--dry-run`):**
+- A supporter's cards never link directly to a pillar
+- A hub never links to a different hub's supporters
+- No page ever links to itself, and no page ever shows the same target twice
+- No cross-pillar leakage except the pillar page's own single hub-link (which stays within its
+  own 3-hub group) — a page under Pillar 1 never links to anything under Pillar 2's silo, or
+  vice versa
+
+### Build order (unchanged habit, now with one more step)
+
+`python3 src/build_data.py` → `python3 src/generate.py` →
+`python3 utilities/silo_linking/generate_silo_rotation.py` (**last**, always). The rotation
+script patches the already-minified `public/*.html` files in place — `generate.py`'s
+`minify_html_dir()` runs html-minifier-terser with `--remove-comments`, so injecting the
+`<!-- SILO_START:grid -->...<!-- SILO_END:grid -->` markers before that step would strip them.
+Re-running `generate.py` without re-running the rotation script afterward reverts every page's
+related-tools grid back to the generic same-category picks baked into `render_related_calculators()`.
+
+**Run manually:**
+```bash
+python3 utilities/silo_linking/generate_silo_rotation.py --dry-run   # preview, no writes
+python3 utilities/silo_linking/generate_silo_rotation.py              # apply
+```
+
+### Monthly rotation (GitHub Actions)
+
+`.github/workflows/silo-rotation.yml` — `cron: '0 16 1-3 * *'` (midnight SGT, days 1–3 as a
+retry safety net) + `workflow_dispatch`. Runs the rotation script against committed
+`public/*.html` and commits only if `git diff` shows changes, using the built-in `GITHUB_TOKEN`.
+This repo has no other GitHub Actions workflows — GitHub Pages serves the committed `public/`
+directly via repo settings, so the workflow's commit to `main` is picked up the same way any
+other commit is.
+
+### Known trade-off vs. the strict methodology
+
+Deliberately different from a body-content silo (and from `mic-tests.github.io`'s own
+implementation): these links live in a sidebar-style card widget next to the tool card, not
+inline inside the main article body. The classic Advanced Silo methodology's rationale for
+body-content-only links is that search engines discount nav/sidebar/footer links as
+navigational. This was a conscious trade-off made this session in exchange for not needing
+`content_html` written for the 30 new tools first — see the plan file referenced above for the
+full discussion. Writing real article content for those 30 tools (a separate, still-pending
+pass — see `utilities/keyword-research/build-tracker.md`) would make a future move to
+body-content links possible, but is not required for the grid-based system to keep working.
