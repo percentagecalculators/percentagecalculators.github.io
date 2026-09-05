@@ -430,14 +430,14 @@ def render_footer_mega(site, by_slug):
     for group in site["nav_groups"]:
         pairs = group_links(group, site, by_slug)
         links = "".join(
-            "<a href=\"%s\" class=\"footer-mega-link inline-block py-1 text-[0.85rem] text-text-secondary hover:text-accent after:ml-2.5 after:text-text-muted after:content-['•'] last:after:content-none\">%s</a>"
+            '<a href="%s" class="footer-mega-link block py-1 text-[0.85rem] text-text-secondary hover:text-accent">%s</a>'
             % (url, html.escape(name))
             for url, name in pairs
         )
         rows.append(
-            '<div class="footer-mega-row border-b border-border py-4 last:border-0">'
+            '<div class="footer-mega-col">'
             '<div class="footer-mega-label text-sm font-semibold text-text">%s <span class="footer-mega-count font-normal text-text-muted">(%d)</span></div>'
-            '<div class="footer-mega-links mt-2 leading-7">%s</div></div>'
+            '<div class="footer-mega-links mt-3 flex flex-col">%s</div></div>'
             % (html.escape(group["label"]), len(pairs), links)
         )
     return "\n".join(rows)
