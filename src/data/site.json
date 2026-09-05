@@ -67,29 +67,14 @@
       "label": "Education",
       "short_label": "Education",
       "tagline": "GPA, CGPA, SGPA, marks, and percentile conversions for students.",
-      "slugs": [],
-      "tools": [
-        {
-          "slug": "gpa-to-percentage-calculator",
-          "name": "GPA to Percentage Calculator"
-        },
-        {
-          "slug": "cgpa-to-percentage-calculator",
-          "name": "CGPA to Percentage Calculator"
-        },
-        {
-          "slug": "sgpa-to-percentage-calculator",
-          "name": "SGPA to Percentage Calculator"
-        },
-        {
-          "slug": "marks-percentage-calculator",
-          "name": "Marks Percentage Calculator"
-        },
-        {
-          "slug": "percentile-to-percentage-calculator",
-          "name": "Percentile to Percentage Calculator"
-        }
-      ]
+      "slugs": [
+        "gpa-to-percentage-calculator",
+        "cgpa-to-percentage-calculator",
+        "sgpa-to-percentage-calculator",
+        "marks-percentage-calculator",
+        "percentile-to-percentage-calculator"
+      ],
+      "tools": []
     },
     {
       "key": "finance",

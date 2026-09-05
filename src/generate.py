@@ -77,6 +77,11 @@ TOOL_ACCENTS = {
     "average-percentage-calculator": "indigo",
     "fraction-to-percentage-calculator": "pink",
     "percentage-growth-calculator": "teal",
+    "gpa-to-percentage-calculator": "sky",
+    "cgpa-to-percentage-calculator": "purple",
+    "sgpa-to-percentage-calculator": "fuchsia",
+    "marks-percentage-calculator": "lime",
+    "percentile-to-percentage-calculator": "yellow",
 }
 RELATED_COUNT = 4
 

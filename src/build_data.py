@@ -50,6 +50,11 @@ TOOL_SLUGS = [
     "average-percentage-calculator",
     "fraction-to-percentage-calculator",
     "percentage-growth-calculator",
+    "gpa-to-percentage-calculator",
+    "cgpa-to-percentage-calculator",
+    "sgpa-to-percentage-calculator",
+    "marks-percentage-calculator",
+    "percentile-to-percentage-calculator",
 ]
 
 NAV_NAMES = {
@@ -64,6 +69,11 @@ NAV_NAMES = {
     "average-percentage-calculator": "Average Percentage Calculator",
     "fraction-to-percentage-calculator": "Fraction to Percentage Calculator",
     "percentage-growth-calculator": "Percentage Growth Calculator",
+    "gpa-to-percentage-calculator": "GPA to Percentage Calculator",
+    "cgpa-to-percentage-calculator": "CGPA to Percentage Calculator",
+    "sgpa-to-percentage-calculator": "SGPA to Percentage Calculator",
+    "marks-percentage-calculator": "Marks Percentage Calculator",
+    "percentile-to-percentage-calculator": "Percentile to Percentage Calculator",
 }
 
 
@@ -122,14 +132,11 @@ CATEGORY_GROUPS = [
         "label": "Education",
         "short_label": "Education",
         "tagline": "GPA, CGPA, SGPA, marks, and percentile conversions for students.",
-        "slugs": [],
-        "tools": [
-            {"slug": "gpa-to-percentage-calculator", "name": "GPA to Percentage Calculator"},
-            {"slug": "cgpa-to-percentage-calculator", "name": "CGPA to Percentage Calculator"},
-            {"slug": "sgpa-to-percentage-calculator", "name": "SGPA to Percentage Calculator"},
-            {"slug": "marks-percentage-calculator", "name": "Marks Percentage Calculator"},
-            {"slug": "percentile-to-percentage-calculator", "name": "Percentile to Percentage Calculator"},
+        "slugs": [
+            "gpa-to-percentage-calculator", "cgpa-to-percentage-calculator", "sgpa-to-percentage-calculator",
+            "marks-percentage-calculator", "percentile-to-percentage-calculator",
         ],
+        "tools": [],
     },
     {
         "key": "finance",
