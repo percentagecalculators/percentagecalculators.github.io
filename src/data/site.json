@@ -63,31 +63,6 @@
       ]
     },
     {
-      "key": "health-fitness",
-      "label": "Health & Fitness",
-      "short_label": "Health",
-      "tagline": "Body fat, BMI, body composition, and weight-loss percentage calculators.",
-      "slugs": [],
-      "tools": [
-        {
-          "slug": "body-fat-percentage-calculator",
-          "name": "Body Fat Percentage Calculator"
-        },
-        {
-          "slug": "bmi-calculator",
-          "name": "BMI Calculator"
-        },
-        {
-          "slug": "body-composition-calculator",
-          "name": "Body Composition Calculator"
-        },
-        {
-          "slug": "weight-loss-percentage-calculator",
-          "name": "Weight Loss Percentage Calculator"
-        }
-      ]
-    },
-    {
       "key": "education",
       "label": "Education",
       "short_label": "Education",

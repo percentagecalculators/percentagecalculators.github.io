@@ -57,7 +57,6 @@ CLEAN_CSS_PKG = "clean-css-cli@5.6.3"
 CATEGORY_BADGES = {
     "core": "%",
     "converters": "=",
-    "health-fitness": "+",
     "education": "ED",
     "finance": "$",
     "everyday": "..",

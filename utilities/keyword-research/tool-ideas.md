@@ -31,13 +31,17 @@ calculator` 301K, `percentage difference calculator` 301K, `percentage change ca
 
 Ranked roughly by combined keyword volume of the cluster.
 
-### Health & fitness (biggest untapped cluster — 1.8M+ combined volume)
-- **Body Fat Percentage Calculator** (Navy/Army method, height+weight or tape-measure input) —
+### Health & fitness — EXCLUDED, different niche (biggest cluster by volume, 1.8M+, but out of scope)
+Deliberately not building this cluster: different audience/vertical from percentage math (fitness
+calculators, not math tools), different content needs (medical disclaimers, imperial/metric,
+gender-specific formulas). Kept here only as a record of what was found and rejected — do not
+add these to `CATEGORY_GROUPS` in `src/build_data.py`.
+- Body Fat Percentage Calculator (Navy/Army method, height+weight or tape-measure input) —
   dominant sub-niche: `body fat calculator` 201K, `body fat percentage calculator` 90.5K, plus
   ~85 long-tail variants (army/navy/usmc method, men/women, chart lookups)
-- **BMI Calculator** (with body-fat-% cross-reference) — `bmi percentage calculator` 3.6K
-- **Body Composition Calculator** (muscle mass %, body water %) — smaller but same audience
-- **Weight Loss Percentage Calculator** — `weight loss percentage calculator` 18.1K
+- BMI Calculator (with body-fat-% cross-reference) — `bmi percentage calculator` 3.6K
+- Body Composition Calculator (muscle mass %, body water %) — smaller but same audience
+- Weight Loss Percentage Calculator — `weight loss percentage calculator` 18.1K
 
 ### Education
 - **GPA ↔ Percentage Converter** — `gpa to percentage` 18.1K + 24 variants (4.0 scale, cgpa,
@@ -88,6 +92,6 @@ Ranked roughly by combined keyword volume of the cluster.
 
 ## Net count
 
-**~32 net-new distinct tools** beyond the 10 already live (some mergeable — e.g. GPA/CGPA/SGPA
-could ship as one "Academic Score Converter" with a mode toggle, same pattern used for
-online-sound-test's tool taxonomy).
+**~28 net-new distinct tools** beyond the 10 already live, excluding the health & fitness cluster
+above (some mergeable — e.g. GPA/CGPA/SGPA could ship as one "Academic Score Converter" with a
+mode toggle, same pattern used for online-sound-test's tool taxonomy).

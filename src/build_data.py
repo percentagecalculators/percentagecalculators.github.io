@@ -16,11 +16,14 @@ percentage-growth-calculator and reverse-percentage-calculator, had real
 calculate() bugs on the old site — fixed here, not carried forward) plus a
 new home tool, percentage-calculator (3-mode: X% of Y / Y is what % of X /
 % change), replacing the old combined index.html. Phase 2 (not built yet)
-adds ~35 more tools from utilities/keyword-research/tool-ideas.md — see
+adds more tools from utilities/keyword-research/tool-ideas.md — see
 CATEGORY_GROUPS below, where those show up as "tools" placeholder entries
 (a 404 until each one's content/<slug>.json is authored and its {slug, name}
 pair is moved into a "slugs" list, same pattern passwordhive's own
-CATEGORY_GROUPS uses for its own planned expansion).
+CATEGORY_GROUPS uses for its own planned expansion). Health/fitness tools
+(body fat %, BMI, body composition, weight loss %) are deliberately excluded —
+different niche/audience from percentage math, kept out of both nav and
+content.
 """
 import json
 import os
@@ -112,19 +115,6 @@ CATEGORY_GROUPS = [
             {"slug": "basis-points-calculator", "name": "Basis Points Calculator"},
             {"slug": "slope-percentage-calculator", "name": "Slope Percentage Calculator"},
             {"slug": "alcohol-proof-calculator", "name": "Alcohol Proof Calculator"},
-        ],
-    },
-    {
-        "key": "health-fitness",
-        "label": "Health & Fitness",
-        "short_label": "Health",
-        "tagline": "Body fat, BMI, body composition, and weight-loss percentage calculators.",
-        "slugs": [],
-        "tools": [
-            {"slug": "body-fat-percentage-calculator", "name": "Body Fat Percentage Calculator"},
-            {"slug": "bmi-calculator", "name": "BMI Calculator"},
-            {"slug": "body-composition-calculator", "name": "Body Composition Calculator"},
-            {"slug": "weight-loss-percentage-calculator", "name": "Weight Loss Percentage Calculator"},
         ],
     },
     {
