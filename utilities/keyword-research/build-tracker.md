@@ -15,12 +15,12 @@ Status legend: `[ ]` pending · `[~]` in progress · `[x]` done
 - [x] marks-percentage-calculator (obtained/total split field, lime accent)
 - [x] percentile-to-percentage-calculator (approx. 0.7×percentile+30, yellow accent — labeled as an estimate since percentile/percentage aren't formally convertible)
 
-## Batch 2 — Finance: rates
-- [ ] apy-calculator
-- [ ] apr-calculator
-- [ ] apr-apy-converter
-- [ ] simple-interest-calculator
-- [ ] compound-interest-calculator
+## Batch 2 — Finance: rates — DONE 2026-09-05
+- [x] apy-calculator (green accent)
+- [x] apr-calculator (cyan accent)
+- [x] apr-apy-converter (indigo accent)
+- [x] simple-interest-calculator (amber accent)
+- [x] compound-interest-calculator (emerald accent)
 
 ## Batch 3 — Finance: business
 - [ ] loan-interest-calculator
@@ -57,7 +57,11 @@ Status legend: `[ ]` pending · `[~]` in progress · `[x]` done
   for the same reason (no FAQ section renders until it's populated later).
 - 2026-09-05: Batch 1 (Education) shipped and verified in-browser (dark + calculation
   correctness spot-checked on gpa-to-percentage-calculator and marks-percentage-calculator).
-- Accent colors used so far: sky, purple, fuchsia, lime, yellow (batch 1). Remaining unused
-  Tailwind stock colors for future batches: green (then colors start repeating across
-  different nav categories, which is fine per CLAUDE.md — only same-category collisions
-  are avoided).
+- 2026-09-05: Batch 2 (Finance rates) shipped and verified in-browser — compound interest
+  ($1000, 5%, 3yr, monthly → $1161.47) and APY (5% nominal, monthly → 5.116%) both checked
+  against the textbook formula by hand.
+- Accent colors used so far (batches 1-2): sky, purple, fuchsia, lime, yellow, green, cyan,
+  indigo, amber, emerald. Remaining colors reserved, no repeats yet within Finance category:
+  red, orange, blue, violet, magenta/fuchsia(used), pink, rose, teal(used by
+  percentage-growth-calculator). Plan: batch 3 finance tools get red, orange, blue, violet,
+  pink (5 more distinct, no repeats within Finance through batch 4).

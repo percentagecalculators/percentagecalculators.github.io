@@ -82,6 +82,11 @@ TOOL_ACCENTS = {
     "sgpa-to-percentage-calculator": "fuchsia",
     "marks-percentage-calculator": "lime",
     "percentile-to-percentage-calculator": "yellow",
+    "apy-calculator": "green",
+    "apr-calculator": "cyan",
+    "apr-apy-converter": "indigo",
+    "simple-interest-calculator": "amber",
+    "compound-interest-calculator": "emerald",
 }
 RELATED_COUNT = 4
 

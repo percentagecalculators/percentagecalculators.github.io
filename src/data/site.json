@@ -82,29 +82,14 @@
       "short_label": "Finance",
       "tagline": "Interest rates, profit margins, markup, salary raises, and business growth.",
       "slugs": [
-        "percentage-growth-calculator"
+        "percentage-growth-calculator",
+        "apy-calculator",
+        "apr-calculator",
+        "apr-apy-converter",
+        "simple-interest-calculator",
+        "compound-interest-calculator"
       ],
       "tools": [
-        {
-          "slug": "apy-calculator",
-          "name": "APY Calculator"
-        },
-        {
-          "slug": "apr-calculator",
-          "name": "APR Calculator"
-        },
-        {
-          "slug": "apr-apy-converter",
-          "name": "APR to APY Converter"
-        },
-        {
-          "slug": "simple-interest-calculator",
-          "name": "Simple Interest Calculator"
-        },
-        {
-          "slug": "compound-interest-calculator",
-          "name": "Compound Interest Calculator"
-        },
         {
           "slug": "loan-interest-calculator",
           "name": "Loan Interest Calculator"

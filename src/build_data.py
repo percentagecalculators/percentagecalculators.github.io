@@ -55,6 +55,11 @@ TOOL_SLUGS = [
     "sgpa-to-percentage-calculator",
     "marks-percentage-calculator",
     "percentile-to-percentage-calculator",
+    "apy-calculator",
+    "apr-calculator",
+    "apr-apy-converter",
+    "simple-interest-calculator",
+    "compound-interest-calculator",
 ]
 
 NAV_NAMES = {
@@ -74,6 +79,11 @@ NAV_NAMES = {
     "sgpa-to-percentage-calculator": "SGPA to Percentage Calculator",
     "marks-percentage-calculator": "Marks Percentage Calculator",
     "percentile-to-percentage-calculator": "Percentile to Percentage Calculator",
+    "apy-calculator": "APY Calculator",
+    "apr-calculator": "APR Calculator",
+    "apr-apy-converter": "APR to APY Converter",
+    "simple-interest-calculator": "Simple Interest Calculator",
+    "compound-interest-calculator": "Compound Interest Calculator",
 }
 
 
@@ -143,13 +153,11 @@ CATEGORY_GROUPS = [
         "label": "Finance & Business",
         "short_label": "Finance",
         "tagline": "Interest rates, profit margins, markup, salary raises, and business growth.",
-        "slugs": ["percentage-growth-calculator"],
+        "slugs": [
+            "percentage-growth-calculator", "apy-calculator", "apr-calculator", "apr-apy-converter",
+            "simple-interest-calculator", "compound-interest-calculator",
+        ],
         "tools": [
-            {"slug": "apy-calculator", "name": "APY Calculator"},
-            {"slug": "apr-calculator", "name": "APR Calculator"},
-            {"slug": "apr-apy-converter", "name": "APR to APY Converter"},
-            {"slug": "simple-interest-calculator", "name": "Simple Interest Calculator"},
-            {"slug": "compound-interest-calculator", "name": "Compound Interest Calculator"},
             {"slug": "loan-interest-calculator", "name": "Loan Interest Calculator"},
             {"slug": "profit-percentage-calculator", "name": "Profit Percentage Calculator"},
             {"slug": "profit-margin-calculator", "name": "Profit Margin Calculator"},
