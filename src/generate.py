@@ -101,6 +101,12 @@ TOOL_ACCENTS = {
     "basis-points-calculator": "indigo",
     "slope-percentage-calculator": "orange",
     "alcohol-proof-calculator": "red",
+    "percentage-point-calculator": "purple",
+    "tip-calculator": "green",
+    "win-loss-percentage-calculator": "yellow",
+    "bakers-percentage-calculator": "orange",
+    "food-cost-percentage-calculator": "red",
+    "percent-solution-calculator": "cyan",
 }
 RELATED_COUNT = 4
 

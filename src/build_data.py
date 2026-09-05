@@ -74,6 +74,12 @@ TOOL_SLUGS = [
     "basis-points-calculator",
     "slope-percentage-calculator",
     "alcohol-proof-calculator",
+    "percentage-point-calculator",
+    "tip-calculator",
+    "win-loss-percentage-calculator",
+    "bakers-percentage-calculator",
+    "food-cost-percentage-calculator",
+    "percent-solution-calculator",
 ]
 
 NAV_NAMES = {
@@ -112,6 +118,12 @@ NAV_NAMES = {
     "basis-points-calculator": "Basis Points Calculator",
     "slope-percentage-calculator": "Slope Percentage Calculator",
     "alcohol-proof-calculator": "Alcohol Proof Calculator",
+    "percentage-point-calculator": "Percentage Point Calculator",
+    "tip-calculator": "Tip Calculator",
+    "win-loss-percentage-calculator": "Win/Loss Percentage Calculator",
+    "bakers-percentage-calculator": "Baker's Percentage Calculator",
+    "food-cost-percentage-calculator": "Food Cost Percentage Calculator",
+    "percent-solution-calculator": "Percent Solution Calculator",
 }
 
 
@@ -145,10 +157,9 @@ CATEGORY_GROUPS = [
             "percentage-calculator", "percentage-increase-calculator", "percentage-decrease-calculator",
             "percentage-change-calculator", "percentage-difference-calculator", "percentage-off-calculator",
             "reverse-percentage-calculator", "percentage-error-calculator", "average-percentage-calculator",
+            "percentage-point-calculator",
         ],
-        "tools": [
-            {"slug": "percentage-point-calculator", "name": "Percentage Point Calculator"},
-        ],
+        "tools": [],
     },
     {
         "key": "converters",
@@ -192,14 +203,11 @@ CATEGORY_GROUPS = [
         "label": "Everyday & Niche",
         "short_label": "Everyday",
         "tagline": "Tips, win rates, baking ratios, food cost, and solution-concentration percentages.",
-        "slugs": [],
-        "tools": [
-            {"slug": "tip-calculator", "name": "Tip Calculator"},
-            {"slug": "win-loss-percentage-calculator", "name": "Win/Loss Percentage Calculator"},
-            {"slug": "bakers-percentage-calculator", "name": "Baker's Percentage Calculator"},
-            {"slug": "food-cost-percentage-calculator", "name": "Food Cost Percentage Calculator"},
-            {"slug": "percent-solution-calculator", "name": "Percent Solution Calculator"},
+        "slugs": [
+            "tip-calculator", "win-loss-percentage-calculator", "bakers-percentage-calculator",
+            "food-cost-percentage-calculator", "percent-solution-calculator",
         ],
+        "tools": [],
     },
 ]
 

@@ -42,13 +42,13 @@ Status legend: `[ ]` pending · `[~]` in progress · `[x]` done
 - [x] slope-percentage-calculator (rise/run -> slope% + angle in degrees, orange accent)
 - [x] alcohol-proof-calculator (US proof ÷2 = ABV%, red accent)
 
-## Batch 6 — Everyday & niche
-- [ ] percentage-point-calculator (core group)
-- [ ] tip-calculator
-- [ ] win-loss-percentage-calculator
-- [ ] bakers-percentage-calculator
-- [ ] food-cost-percentage-calculator
-- [ ] percent-solution-calculator
+## Batch 6 — Everyday & niche — DONE 2026-09-05 (all 6 batches complete — 41 tools live total)
+- [x] percentage-point-calculator (core group; purple accent; distinguishes pp difference from relative % change)
+- [x] tip-calculator (bill/tip%/split people, green accent)
+- [x] win-loss-percentage-calculator (wins/losses/ties, yellow accent)
+- [x] bakers-percentage-calculator (ingredient % of flour weight, orange accent)
+- [x] food-cost-percentage-calculator (ingredient cost / menu price, red accent)
+- [x] percent-solution-calculator (mass/volume % w/v, cyan accent)
 
 ## Notes / decisions log
 - 2026-09-05: health-fitness category removed from nav entirely (see git commit 3aded0b).
@@ -78,3 +78,11 @@ Status legend: `[ ]` pending · `[~]` in progress · `[x]` done
 - 2026-09-05: Batch 5 (Converters) shipped and verified in-browser — slope (rise 5, run 100
   -> 5%, 2.86°) and ratio (3:4 -> total 7, 42.86%) checked by hand. Converters category is
   now fully built out at 7 tools (fraction-to-percentage-calculator + 6 new).
+- 2026-09-05: Batch 6 (Everyday & Niche + Core's percentage-point-calculator) shipped and
+  verified in-browser — tip ($80 + 18% tip / 4 people -> $23.60/person) and percentage
+  point (20% to 25% -> 5pp difference, 25% relative change) checked by hand. This closes
+  out the ENTIRE tool-ideas.md backlog: all 6 batches done, site at 41 tools total
+  (11 original + 30 new), all 5 nav categories fully built (no more "tools" placeholders
+  anywhere in CATEGORY_GROUPS).
+- Next phase (not started): write content_html + faq for all 30 new tools — that's a
+  separate pass, deliberately deferred per the user's original instruction this round.

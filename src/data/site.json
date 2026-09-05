@@ -18,14 +18,10 @@
         "percentage-off-calculator",
         "reverse-percentage-calculator",
         "percentage-error-calculator",
-        "average-percentage-calculator"
+        "average-percentage-calculator",
+        "percentage-point-calculator"
       ],
-      "tools": [
-        {
-          "slug": "percentage-point-calculator",
-          "name": "Percentage Point Calculator"
-        }
-      ]
+      "tools": []
     },
     {
       "key": "converters",
@@ -85,29 +81,14 @@
       "label": "Everyday & Niche",
       "short_label": "Everyday",
       "tagline": "Tips, win rates, baking ratios, food cost, and solution-concentration percentages.",
-      "slugs": [],
-      "tools": [
-        {
-          "slug": "tip-calculator",
-          "name": "Tip Calculator"
-        },
-        {
-          "slug": "win-loss-percentage-calculator",
-          "name": "Win/Loss Percentage Calculator"
-        },
-        {
-          "slug": "bakers-percentage-calculator",
-          "name": "Baker's Percentage Calculator"
-        },
-        {
-          "slug": "food-cost-percentage-calculator",
-          "name": "Food Cost Percentage Calculator"
-        },
-        {
-          "slug": "percent-solution-calculator",
-          "name": "Percent Solution Calculator"
-        }
-      ]
+      "slugs": [
+        "tip-calculator",
+        "win-loss-percentage-calculator",
+        "bakers-percentage-calculator",
+        "food-cost-percentage-calculator",
+        "percent-solution-calculator"
+      ],
+      "tools": []
     }
   ],
   "company_links": [
