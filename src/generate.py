@@ -21,7 +21,9 @@ Unlike passwordhive, there is no typed what_/how_/article_sections fallback.
 If a tool has no content_html, render_main_sections() renders nothing below
 the tool card for it — an honestly empty section, never synthesized filler.
 No Google Analytics: the legacy site never had any GA wiring to port, and no
-measurement ID is invented here.
+measurement ID is invented here. No AdSense either — the ad-slot markup,
+ads.txt, and adsbygoogle.js loader from the legacy site were deliberately
+not carried over.
 """
 import html
 import json
@@ -57,51 +59,6 @@ CATEGORY_BADGES = {
 CHEVRON_SVG = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>'
 CLOSE_SVG = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg>'
 HAMBURGER_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>'
-
-# Real ca-pub client + real ad-unit slots recovered from
-# legacy-bootstrap-site/js/adsense.js (this domain's live, already-approved
-# AdSense account) — see this project's CLAUDE.md "AdSense" section. Ported
-# as-is, not regenerated as new units.
-ADSENSE_CLIENT = "ca-pub-5426315045205785"
-ADSENSE_SLOTS = {
-    "header": "3575522428",
-    "body1": "2877013843",
-    "body2": "3843445306",
-}
-
-
-def render_adsense_loader():
-    return (
-        '<script async crossorigin="anonymous" '
-        'src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=%s"></script>'
-        % ADSENSE_CLIENT
-    )
-
-
-def render_adsense_header():
-    """Responsive leaderboard slot — same sizing logic as the legacy site's
-    js/adsense.js: 728x90 at container width >=728px, 300x100 below that."""
-    return (
-        '<aside class="ad-slot ad-slot-header" aria-label="Advertisement"><ins class="adsbygoogle" id="adsense-header" '
-        'data-ad-client="%s" data-ad-slot="%s"></ins>'
-        "<script>(function(){"
-        'var ins=document.getElementById("adsense-header");'
-        'if(window.innerWidth>=728){ins.style.display="inline-block";ins.style.width="728px";ins.style.height="90px";}'
-        'else{ins.style.display="inline-block";ins.style.width="300px";ins.style.height="100px";}'
-        "(adsbygoogle=window.adsbygoogle||[]).push({});"
-        "})();</script></aside>"
-        % (ADSENSE_CLIENT, ADSENSE_SLOTS["header"])
-    )
-
-
-def render_adsense_fixed(slot_key):
-    return (
-        '<aside class="ad-slot" aria-label="Advertisement"><ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" '
-        'data-ad-client="%s" data-ad-slot="%s"></ins>'
-        '<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></aside>'
-        % (ADSENSE_CLIENT, ADSENSE_SLOTS[slot_key])
-    )
-
 
 # ---------------------------------------------------------------------------
 # Tool-card rendering — "raw" is the only layout on this site (see module
@@ -151,22 +108,12 @@ def render_main_sections(tool):
     """Renders everything below the tool card from tool["content_html"]
     (split into alternating .content-card sections) plus a FAQ section. No
     content fallback: a tool with no content_html renders no content
-    sections, never synthesized filler.
-
-    Ad placement mirrors the legacy site: body1 spliced before the first
-    tool's <h2>, body2 unconditionally at the very end after FAQ."""
+    sections, never synthesized filler."""
     parts = []
     section_count = 0
     if tool.get("content_html"):
         chunks = split_content_by_h2(tool["content_html"])
-        for i, chunk in enumerate(chunks):
-            if i == 0:
-                lead_and_rest = H2_SPLIT_RE.split(chunk, maxsplit=1)
-                if len(lead_and_rest) == 2:
-                    lead, rest = lead_and_rest
-                    chunk = lead + render_adsense_fixed("body1") + rest
-                else:
-                    chunk = chunk + render_adsense_fixed("body1")
+        for chunk in chunks:
             cls = "block alt" if section_count % 2 == 1 else "block"
             parts.append(
                 '<section class="%s"><div class="block-inner"><div class="content-card"><div class="article">%s</div></div></div></section>'
@@ -177,7 +124,6 @@ def render_main_sections(tool):
     if faq_section:
         parts.append(faq_section)
         section_count += 1
-    parts.append(render_adsense_fixed("body2"))
     return "\n".join(parts)
 
 
@@ -404,8 +350,6 @@ def render_page(tool, site, by_slug, template, critical_css=""):
         "WEBSITE_JSONLD": website_jsonld(site) if tool["slug"] == site["home_slug"] else "",
         "FAQ_JSONLD": faq_jsonld(tool.get("faq", [])),
         "CRITICAL_CSS": critical_css,
-        "ADSENSE_LOADER": render_adsense_loader(),
-        "ADSENSE_HEADER": render_adsense_header(),
         "CATEGORY_DROPDOWNS": render_category_dropdowns(site, by_slug),
         "MORE_MENU": render_more_menu(site, by_slug),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
@@ -634,12 +578,6 @@ def write_robots_and_sitemap(site, tools, pages, out_dir):
     )
     with open(os.path.join(out_dir, "sitemap.xml"), "w") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</urlset>' % entries)
-
-    # Same authorized-seller declaration as legacy-bootstrap-site/ads.txt —
-    # re-derived from ADSENSE_CLIENT so it can't drift from the loader/ad
-    # markup above.
-    with open(os.path.join(out_dir, "ads.txt"), "w") as f:
-        f.write("google.com, %s, DIRECT, f08c47fec0942fa0\n" % ADSENSE_CLIENT.replace("ca-", ""))
 
 
 # ---------------------------------------------------------------------------

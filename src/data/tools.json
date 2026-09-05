@@ -442,7 +442,7 @@
       },
       {
         "question": "What is a good percentage error for a physics lab?",
-        "answer": "Generally <5% is good. <1% is excellent. Acceptable levels depend on equipment and experiment type."
+        "answer": "Generally &lt;5% is good. &lt;1% is excellent. Acceptable levels depend on equipment and experiment type."
       },
       {
         "question": "Is percentage error always positive?",
