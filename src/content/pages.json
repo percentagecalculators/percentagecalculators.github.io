@@ -12,25 +12,20 @@
         "heading": "Who We Are",
         "paragraphs": [
           "Hi! I'm <strong>Subash Geetha Krishnan</strong>, a Tech Lead with over 15 years of experience in enterprise technology. Based in Singapore, I've spent my career solving complex technical problems and building tools that make life easier.",
-          "After years of searching for simple, reliable percentage calculators online and finding most options cluttered with ads or lacking features, I decided to build something better. Percentage Calculators is the result – a clean, fast, and completely free suite of tools."
+          "After years of searching for simple, reliable percentage calculators online and finding most options cluttered with ads or lacking features, I decided to build something better. Percentage Calculators is the result – a clean, fast, and completely free suite of tools that has since grown from a handful of calculators into a full library covering everyday math, school grades, and personal finance."
         ]
       },
       {
         "heading": "What We Offer",
         "paragraphs": [
-          "Our platform includes 10 specialized percentage calculators, each designed for specific use cases:"
+          "Our platform now includes 41 specialized percentage calculators, organized into five categories so you can find the right tool fast:"
         ],
         "list": [
-          "<strong>Percentage Increase Calculator</strong> – Add percentages to numbers for raises, markups, and growth",
-          "<strong>Percentage Decrease Calculator</strong> – Subtract percentages for discounts, depreciation, and reductions",
-          "<strong>Percentage Change Calculator</strong> – Find the change between two values over time",
-          "<strong>Percentage Difference Calculator</strong> – Compare two numbers symmetrically",
-          "<strong>Percentage Off Calculator</strong> – Calculate sale prices and savings while shopping",
-          "<strong>Fraction to Percentage Calculator</strong> – Convert fractions and test scores to percentages",
-          "<strong>Percentage Growth Calculator</strong> – Track business metrics and KPIs",
-          "<strong>Reverse Percentage Calculator</strong> – Find original numbers from percentages",
-          "<strong>Percentage Error Calculator</strong> – Calculate experimental accuracy for lab work",
-          "<strong>Average Percentage Calculator</strong> – Find the mean of multiple percentages"
+          "<strong>Core Percentage Tools</strong> – The essentials: find a percentage, increase or decrease a number, and compare two values.",
+          "<strong>Converters</strong> – Convert between percentages, fractions, decimals, ratios, and other unit forms.",
+          "<strong>Education</strong> – GPA, CGPA, SGPA, marks, and percentile conversions for students.",
+          "<strong>Finance &amp; Business</strong> – Interest rates, profit margins, markup, salary raises, and business growth.",
+          "<strong>Everyday &amp; Niche</strong> – Tips, baking ratios, win/loss records, and other one-off percentage problems."
         ]
       },
       {
@@ -47,7 +42,7 @@
       {
         "heading": "Our Commitment",
         "paragraphs": [
-          "We're committed to keeping Percentage Calculators free, fast, and reliable. We continuously improve our tools based on user feedback and add new features to help you with your calculations.",
+          "We're committed to keeping Percentage Calculators free, fast, and reliable. We continuously improve our tools based on user feedback and add new calculators to cover more of the percentage problems people run into every day.",
           "Have a suggestion or found a bug? We'd love to hear from you! Visit our <a href=\"/contact\">Contact page</a> to get in touch."
         ]
       },
@@ -75,18 +70,10 @@
         ]
       },
       {
-        "heading": "Contact Information",
+        "heading": "Reach Us Online",
         "paragraphs": [
-          "<strong>Subash Geetha Krishnan</strong><br>Founder & Developer"
+          "<strong>Subash Geetha Krishnan</strong><br>Founder &amp; Developer, based in Singapore."
         ],
-        "list": [
-          "<strong>Email:</strong> <a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>",
-          "<strong>WhatsApp:</strong> <a href=\"https://wa.me/6594675969\" target=\"_blank\" rel=\"noopener noreferrer\">+65-94675969</a>",
-          "<strong>Location:</strong> Singapore"
-        ]
-      },
-      {
-        "heading": "Connect on Social Media",
         "list": [
           "<strong>LinkedIn:</strong> <a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">linkedin.com/in/buzzsubash</a>",
           "<strong>Twitter/X:</strong> <a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">@buzzsubash</a>",
@@ -111,7 +98,7 @@
       {
         "heading": "Response Time",
         "paragraphs": [
-          "We typically respond within 24-48 hours. For urgent matters, WhatsApp tends to be the fastest way to reach us.",
+          "We typically respond within 24-48 hours.",
           "Thank you for using Percentage Calculators!"
         ]
       }
