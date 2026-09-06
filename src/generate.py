@@ -149,7 +149,7 @@ def render_adsense_header():
     js/adsense.js: 728x90 at viewport width >=728px, 300x100 below that."""
     return (
         '<div class="ad-slot mx-auto my-1 max-w-4xl px-4 text-center sm:px-6" aria-label="Advertisement">'
-        '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted/70">Advertisement</p>'
+        '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">Advertisement</p>'
         '<ins class="adsbygoogle" id="adsense-header" data-ad-client="%s" data-ad-slot="%s"></ins>'
         "<script>(function(){"
         'var ins=document.getElementById("adsense-header");'
@@ -164,7 +164,7 @@ def render_adsense_header():
 def render_adsense_fixed(slot_key):
     return (
         '<div class="ad-slot mx-auto my-1 max-w-4xl px-4 text-center sm:px-6" aria-label="Advertisement">'
-        '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted/70">Advertisement</p>'
+        '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">Advertisement</p>'
         '<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" '
         'data-ad-client="%s" data-ad-slot="%s"></ins>'
         "<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>"
