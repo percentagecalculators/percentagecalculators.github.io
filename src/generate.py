@@ -14,26 +14,34 @@ card grid, authored directly in its own JSON file — every calculator here
 has different inputs/outputs, so there is exactly one Python-side render
 branch to maintain regardless of tool count.
 
-Styling is Tailwind via the Play CDN (<script src="https://cdn.tailwindcss.
-com">, loaded in every page's <head>) — there is no compiled/purged Tailwind
-build and no PostCSS step. src/base.css carries only what Tailwind utilities
-can't express: the self-hosted @font-face rules and a set of CSS custom
-properties (light theme on :root, dark theme under .dark) that
-TAILWIND_CONFIG below exposes to Tailwind as semantic color names (bg,
-surface, border, text, accent, ...). Every utility class built from those
-names auto-themes when `.dark` is toggled on <html> — no `dark:` variants
-needed in tool markup itself. THEME_INIT is a small inline script (see
-render_page()) that sets `.dark` before Tailwind's CDN script runs, reading
-localStorage first and falling back to prefers-color-scheme, so there's no
-flash of the wrong theme on load.
+Styling is Tailwind, compiled+purged+minified at build time (no Play CDN,
+no PostCSS project) via compile_tailwind_css() below, which shells out to
+the Tailwind CLI (src/tailwind.config.js + src/tailwind-input.css) scanning
+every freshly-rendered page in this build's output directory, and writes
+public/tailwind.min.css — every page links that one static stylesheet
+instead of loading a runtime CDN script. src/base.css carries only what
+Tailwind utilities can't express: the self-hosted @font-face rules and a set
+of CSS custom properties (light theme on :root, dark theme under .dark) that
+tailwind.config.js exposes to Tailwind as semantic color names (bg, surface,
+border, text, accent, ...). Every utility class built from those names
+auto-themes when `.dark` is toggled on <html> — no `dark:` variants needed
+in tool markup itself. THEME_INIT is a small inline script (see
+render_page()) that sets `.dark` before body paint, reading localStorage
+first and falling back to prefers-color-scheme, so there's no flash of the
+wrong theme on load.
 
 Unlike passwordhive, there is no typed what_/how_/article_sections fallback.
 If a tool has no content_html, render_main_sections() renders nothing below
 the tool card for it — an honestly empty section, never synthesized filler.
 No Google Analytics: the legacy site never had any GA wiring to port, and no
-measurement ID is invented here. No AdSense either — the ad-slot markup,
-ads.txt, and adsbygoogle.js loader from the legacy site were deliberately
-not carried over.
+measurement ID is invented here.
+
+AdSense is ported as-is from legacy-bootstrap-site/js/adsense.js — same
+already-approved ca-pub client and the same three ad-unit slots (header/
+body1/body2), just re-rendered as inline markup at the equivalent spots in
+the new Tailwind layout instead of being injected by a separate JS file.
+Tool pages only (template.html); the static info pages (about/contact/etc,
+template-page.html) never carried ads on the legacy site either.
 """
 import html
 import json
@@ -50,6 +58,9 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "..", "public")
 
 HTML_MINIFIER_PKG = "html-minifier-terser@7.2.0"
 CLEAN_CSS_PKG = "clean-css-cli@5.6.3"
+TAILWIND_CLI_PKG = "tailwindcss@3.4.17"
+TAILWIND_TYPOGRAPHY_PKG = "@tailwindcss/typography@0.5.15"
+TAILWIND_TOOLCHAIN_DIR = os.path.join(BASE_DIR, "..", ".tailwind-cache")
 
 # Per-category 2-letter badges for the nav dropdowns/mobile drawer — same
 # lightweight-icon idea as passwordhive's CATEGORY_META, avoiding a
@@ -113,6 +124,52 @@ RELATED_COUNT = 4
 CHEVRON_SVG = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>'
 CLOSE_SVG = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg>'
 HAMBURGER_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>'
+
+# Real ca-pub client + real ad-unit slots recovered from
+# legacy-bootstrap-site/js/adsense.js (this domain's live, already-approved
+# AdSense account). Ported as-is, not regenerated as new units.
+ADSENSE_CLIENT = "ca-pub-5426315045205785"
+ADSENSE_SLOTS = {
+    "header": "3575522428",
+    "body1": "2877013843",
+    "body2": "3843445306",
+}
+
+
+def render_adsense_loader():
+    return (
+        '<script async crossorigin="anonymous" '
+        'src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=%s"></script>'
+        % ADSENSE_CLIENT
+    )
+
+
+def render_adsense_header():
+    """Responsive leaderboard slot — same sizing logic as the legacy site's
+    js/adsense.js: 728x90 at viewport width >=728px, 300x100 below that."""
+    return (
+        '<div class="ad-slot mx-auto my-1 max-w-4xl px-4 text-center sm:px-6" aria-label="Advertisement">'
+        '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted/70">Advertisement</p>'
+        '<ins class="adsbygoogle" id="adsense-header" data-ad-client="%s" data-ad-slot="%s"></ins>'
+        "<script>(function(){"
+        'var ins=document.getElementById("adsense-header");'
+        'if(window.innerWidth>=728){ins.style.display="inline-block";ins.style.width="728px";ins.style.height="90px";}'
+        'else{ins.style.display="inline-block";ins.style.width="300px";ins.style.height="100px";}'
+        "(adsbygoogle=window.adsbygoogle||[]).push({});"
+        "})();</script></div>"
+        % (ADSENSE_CLIENT, ADSENSE_SLOTS["header"])
+    )
+
+
+def render_adsense_fixed(slot_key):
+    return (
+        '<div class="ad-slot mx-auto my-1 max-w-4xl px-4 text-center sm:px-6" aria-label="Advertisement">'
+        '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted/70">Advertisement</p>'
+        '<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" '
+        'data-ad-client="%s" data-ad-slot="%s"></ins>'
+        "<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>"
+        % (ADSENSE_CLIENT, ADSENSE_SLOTS[slot_key])
+    )
 DEFAULT_TOOL_ICON_SVG = '<svg aria-hidden="true" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 5 5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>'
 
 # Sets .dark on <html> (and color-scheme, for native form-control theming)
@@ -129,33 +186,60 @@ THEME_INIT = (
     "}catch(e){}})();"
 )
 
-# Exposes base.css's CSS-custom-property color tokens to Tailwind as
-# semantic names, and maps the self-hosted fonts. darkMode:'class' means
-# every dark: variant (and every semantic color utility) is driven by the
-# .dark class THEME_INIT/initThemeToggle() toggle on <html>, not by
-# prefers-color-scheme directly.
-TAILWIND_CONFIG = (
-    "tailwind.config={darkMode:'class',theme:{extend:{colors:{"
-    "bg:'rgb(var(--color-bg) / <alpha-value>)',"
-    "'bg-alt':'rgb(var(--color-bg-alt) / <alpha-value>)',"
-    "surface:'rgb(var(--color-surface) / <alpha-value>)',"
-    "'surface-alt':'rgb(var(--color-surface-alt) / <alpha-value>)',"
-    "border:'rgb(var(--color-border) / <alpha-value>)',"
-    "'border-strong':'rgb(var(--color-border-strong) / <alpha-value>)',"
-    "text:'rgb(var(--color-text) / <alpha-value>)',"
-    "'text-alt':'rgb(var(--color-text-alt) / <alpha-value>)',"
-    "'text-secondary':'rgb(var(--color-text-secondary) / <alpha-value>)',"
-    "'text-muted':'rgb(var(--color-text-muted) / <alpha-value>)',"
-    "accent:'rgb(var(--color-accent) / <alpha-value>)',"
-    "'accent-dark':'rgb(var(--color-accent-dark) / <alpha-value>)',"
-    "'accent-darker':'rgb(var(--color-accent-darker) / <alpha-value>)',"
-    "warning:'rgb(var(--color-warning) / <alpha-value>)',"
-    "danger:'rgb(var(--color-danger) / <alpha-value>)'"
-    "},fontFamily:{"
-    "sans:['DM Sans','DM Sans Fallback','system-ui','-apple-system','sans-serif'],"
-    "mono:['JetBrains Mono','JetBrains Mono Fallback','monospace']"
-    "}}}};"
-)
+def ensure_tailwind_toolchain():
+    """Installs tailwindcss + @tailwindcss/typography into a local, gitignored
+    cache dir under the repo root (npm's own package cache makes repeat
+    installs fast and mostly offline-safe once warm) and returns that
+    install's node_modules path.
+
+    This does NOT use `npx --yes -p tailwindcss -p @tailwindcss/typography`:
+    tested and confirmed broken, because tailwind.config.js's
+    `require("@tailwindcss/typography")` is resolved relative to the config
+    file's own location (inside this repo), not from npx's ephemeral,
+    unrelated temp-install directory -- Node has no way to find the plugin
+    there. Installing both packages into one real node_modules and pointing
+    NODE_PATH at it (see compile_tailwind_css()) sidesteps that entirely."""
+    node_modules = os.path.join(TAILWIND_TOOLCHAIN_DIR, "node_modules")
+    marker = os.path.join(node_modules, ".installed")
+    stamp = "%s|%s" % (TAILWIND_CLI_PKG, TAILWIND_TYPOGRAPHY_PKG)
+    if os.path.exists(marker) and open(marker).read() == stamp:
+        return node_modules
+    os.makedirs(TAILWIND_TOOLCHAIN_DIR, exist_ok=True)
+    result = subprocess.run(
+        ["npm", "install", "--no-save", "--no-audit", "--no-fund",
+         "--prefix", TAILWIND_TOOLCHAIN_DIR, TAILWIND_CLI_PKG, TAILWIND_TYPOGRAPHY_PKG],
+        capture_output=True, text=True,
+    )
+    if result.returncode != 0:
+        raise RuntimeError("tailwindcss toolchain install failed:\n%s" % result.stderr)
+    with open(marker, "w") as f:
+        f.write(stamp)
+    return node_modules
+
+
+def compile_tailwind_css(content_dir, out_path):
+    """Compiles src/tailwind.config.js + src/tailwind-input.css into a single
+    purged, minified stylesheet, scanning content_dir/*.html for every class
+    name actually used -- that directory is this build's freshly-rendered
+    (pre-minify) page output, the one place every literal class string from
+    every template AND every tool's own card.fields_html/content_html/script
+    (all inlined verbatim into the rendered HTML by render_page()) is
+    guaranteed to appear, so nothing gets silently purged."""
+    node_modules = ensure_tailwind_toolchain()
+    tailwind_bin = os.path.join(node_modules, ".bin", "tailwindcss")
+    env = dict(os.environ)
+    env["NODE_PATH"] = node_modules
+    result = subprocess.run(
+        [tailwind_bin,
+         "-c", os.path.join(BASE_DIR, "tailwind.config.js"),
+         "-i", os.path.join(BASE_DIR, "tailwind-input.css"),
+         "-o", out_path,
+         "--content", os.path.join(content_dir, "*.html"),
+         "--minify"],
+        capture_output=True, text=True, env=env,
+    )
+    if result.returncode != 0:
+        raise RuntimeError("tailwindcss build failed:\n%s" % result.stderr)
 
 # ---------------------------------------------------------------------------
 # Tool-card rendering — "raw" is the only layout on this site (see module
@@ -285,7 +369,12 @@ def render_main_sections(tool):
     """Renders everything below the tool card from tool["content_html"]
     (split into alternating bg-bg/bg-bg-alt sections) plus a FAQ section. No
     content fallback: a tool with no content_html renders no content
-    sections, never synthesized filler."""
+    sections, never synthesized filler.
+
+    The two "body" AdSense slots are pulled in from the outer edges of this
+    block into the content flow: body1 sits right after the first section,
+    body2 right before the last (typically the FAQ) — one section in from
+    each end, rather than bracketing the whole thing."""
     parts = []
     section_count = 0
     if tool.get("content_html"):
@@ -303,6 +392,14 @@ def render_main_sections(tool):
     if faq_section:
         parts.append(faq_section)
         section_count += 1
+
+    if not parts:
+        return render_adsense_fixed("body1") + "\n" + render_adsense_fixed("body2")
+
+    body1_idx = min(1, len(parts))
+    parts.insert(body1_idx, render_adsense_fixed("body1"))
+    body2_idx = max(len(parts) - 1, body1_idx + 1)
+    parts.insert(body2_idx, render_adsense_fixed("body2"))
     return "\n".join(parts)
 
 
@@ -579,7 +676,8 @@ def render_page(tool, site, by_slug, tools, template):
         "WEBSITE_JSONLD": website_jsonld(site) if tool["slug"] == site["home_slug"] else "",
         "FAQ_JSONLD": faq_jsonld(tool.get("faq", [])),
         "THEME_INIT": THEME_INIT,
-        "TAILWIND_CONFIG": TAILWIND_CONFIG,
+        "ADSENSE_LOADER": render_adsense_loader(),
+        "ADSENSE_HEADER": render_adsense_header(),
         "CATEGORY_DROPDOWNS": render_category_dropdowns(site, by_slug),
         "MORE_MENU": render_more_menu(site, by_slug),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
@@ -614,7 +712,6 @@ def render_info_page(page, site, by_slug, template):
         "CANONICAL_URL": canonical,
         "META_TITLE": html.escape(page["meta_title"]),
         "THEME_INIT": THEME_INIT,
-        "TAILWIND_CONFIG": TAILWIND_CONFIG,
         "CATEGORY_DROPDOWNS": render_category_dropdowns(site, by_slug),
         "MORE_MENU": render_more_menu(site, by_slug),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
@@ -636,7 +733,6 @@ def render_404_page(site, by_slug, template_404):
     tokens = {
         "SITE_NAME": site["site_name"],
         "THEME_INIT": THEME_INIT,
-        "TAILWIND_CONFIG": TAILWIND_CONFIG,
         "CATEGORY_DROPDOWNS": render_category_dropdowns(site, by_slug),
         "MORE_MENU": render_more_menu(site, by_slug),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
@@ -695,6 +791,12 @@ def write_robots_and_sitemap(site, tools, pages, out_dir):
     )
     with open(os.path.join(out_dir, "sitemap.xml"), "w") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</urlset>' % entries)
+
+    # Same authorized-seller declaration as legacy-bootstrap-site/ads.txt —
+    # re-derived from ADSENSE_CLIENT so it can't drift from the loader/ad
+    # markup above.
+    with open(os.path.join(out_dir, "ads.txt"), "w") as f:
+        f.write("google.com, %s, DIRECT, f08c47fec0942fa0\n" % ADSENSE_CLIENT.replace("ca-", ""))
 
 
 # ---------------------------------------------------------------------------
@@ -773,6 +875,12 @@ def main():
     out_html = render_404_page(site, by_slug, template_404)
     with open(os.path.join(render_dir, "404.html"), "w") as f:
         f.write(out_html)
+
+    # Scans every page just rendered above (pre-minify -- html-minifier-terser
+    # only touches whitespace/comments, never class names, but scanning the
+    # pristine output is simplest) so nothing used anywhere -- template,
+    # per-tool card/content/script JSON -- gets silently purged.
+    compile_tailwind_css(render_dir, os.path.join(OUTPUT_DIR, "tailwind.min.css"))
 
     write_robots_and_sitemap(site, tools, pages, render_dir if not do_minify else OUTPUT_DIR)
     if do_minify:

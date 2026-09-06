@@ -1,6 +1,6 @@
 /* Self-hosted variable fonts (unchanged from the previous design) plus the
    light/dark color tokens Tailwind's config maps semantic names onto (see
-   TAILWIND_CONFIG in generate.py). Everything else — layout, spacing,
+   src/tailwind.config.js). Everything else — layout, spacing,
    component styling — is expressed as Tailwind utility classes directly in
    the templates/content, not here. Toggling the `.dark` class on <html>
    (see THEME_INIT/initThemeToggle in generate.py) flips every token below
@@ -73,8 +73,8 @@ html{scroll-behavior:smooth}
    external SEO content pipeline (see utilities/publish_seo_content.py) as
    bare semantic HTML — no inline Tailwind classes — so every tag it can
    produce needs a real rule here, not a reliance on browser UA defaults.
-   Tailwind's typography plugin (?plugins=typography, see TAILWIND_CONFIG's
-   prose-* modifiers in generate.py's ARTICLE_PROSE_CLASSES) already covers
+   Tailwind's typography plugin (see src/tailwind.config.js's plugins array
+   and the prose-* modifiers in generate.py's ARTICLE_PROSE_CLASSES) already covers
    headings/p/lists/links/strong/em/code/table cells/blockquote/hr; the
    rules below cover everything it leaves at browser defaults: aside,
    details/summary, dl/dt/dd, b/i, img, and a fuller table treatment

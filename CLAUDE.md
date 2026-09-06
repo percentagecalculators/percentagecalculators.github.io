@@ -24,12 +24,23 @@ the active build.
   into `public/*.html`. Use `--no-minify` for readable output while iterating.
 - **Always run both, in order, after touching `src/content/` or `src/data/`.** Editing
   `src/content/*.json` alone does nothing to `public/` until both steps run.
-- Styling is Tailwind via the Play CDN (`<script src="https://cdn.tailwindcss.com">`) — no compiled
-  Tailwind build, no PostCSS. `src/base.css` → `public/base.min.css` carries ONLY what Tailwind
-  utilities can't express: `@font-face` rules and the light/dark CSS custom-property color tokens
-  (`--color-bg`, `--color-accent`, etc.) that `TAILWIND_CONFIG` in `generate.py` exposes as
-  semantic Tailwind color names (`bg`, `surface`, `border`, `text`, `accent`, ...). Everything else
-  is Tailwind utility classes written directly in the templates/content.
+- Styling is Tailwind, **compiled and purged at build time** (no Play CDN, no PostCSS project) —
+  `generate.py`'s `compile_tailwind_css()` shells out to the Tailwind CLI (`src/tailwind.config.js`
+  + `src/tailwind-input.css`), scanning every page this build just rendered (so every literal class
+  string in the templates AND in each tool's own `card.fields_html`/`content_html`/`script` is
+  covered — nothing is purged), and writes `public/tailwind.min.css`, which every page links as a
+  normal stylesheet. The Tailwind CLI + `@tailwindcss/typography` plugin get installed on demand
+  into a local, gitignored `.tailwind-cache/` (first run only; fast after, via npm's own package
+  cache) — same "pinned version via `npx`" pattern already used for `html-minifier-terser`/
+  `clean-css-cli`, just via a real `npm install --prefix` instead of `npx --yes -p`, because a
+  bare `require("@tailwindcss/typography")` inside `tailwind.config.js` can't resolve a plugin npx
+  installed into its own unrelated ephemeral cache dir. `src/base.css` → `public/base.min.css`
+  carries ONLY what Tailwind utilities can't express: `@font-face` rules and the light/dark CSS
+  custom-property color tokens (`--color-bg`, `--color-accent`, etc.) that `src/tailwind.config.js`
+  exposes as semantic Tailwind color names (`bg`, `surface`, `border`, `text`, `accent`, ...).
+  Everything else is Tailwind utility classes written directly in the templates/content. Keep
+  `tailwind.config.js`'s `colors`/`fontFamily` in sync with `base.css` by hand if either changes —
+  the config has no way to read `base.css` itself.
 
 ## Local preview
 

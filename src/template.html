@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <script>{{THEME_INIT}}</script>
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-    <script>{{TAILWIND_CONFIG}}</script>
+    <link rel="stylesheet" href="/tailwind.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{META_DESCRIPTION}}">
     <meta name="author" content="{{SITE_NAME}}">
@@ -29,6 +28,9 @@
     <script type="application/ld+json">{{WEBAPP_JSONLD}}</script>
     {{WEBSITE_JSONLD}}
     {{FAQ_JSONLD}}
+
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+    {{ADSENSE_LOADER}}
 </head>
 <body class="min-h-screen bg-bg font-sans text-text-alt antialiased">
 <a href="#main-content" class="skip-link sr-only focus:not-sr-only focus:fixed focus:left-2 focus:top-2 focus:z-50 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-white">Skip to content</a>
@@ -66,6 +68,8 @@
             <aside class="related-tools grid grid-cols-1 gap-3 sm:grid-cols-2" aria-label="Related calculators">{{RELATED_CALCULATORS}}</aside>
         </div>
     </section>
+
+    {{ADSENSE_HEADER}}
 
 {{MAIN_SECTIONS}}
 
