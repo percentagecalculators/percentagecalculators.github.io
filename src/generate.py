@@ -246,6 +246,27 @@ def compile_tailwind_css(content_dir, out_path):
 # docstring): card["fields_html"] is the tool's entire card grid.
 # ---------------------------------------------------------------------------
 
+# Every tool's fields_html has this exact literal substring at the end of the
+# card's title-bar markup (verified across all 41 tool JSONs — see the
+# "tool-card-head" pattern in CLAUDE.md's design-system doc). Injecting the
+# reset button here, once, in Python means every card gets a working
+# clear-the-form control without hand-editing 41 fields_html blobs or
+# guessing at each tool's own calculate()-function name.
+TOOL_CARD_HEAD_ANCHOR = "{{HINT}}</p></div></div>"
+
+
+def render_reset_button(color):
+    return (
+        '<button type="button" class="reset-btn ml-auto flex h-9 w-9 flex-none items-center justify-center '
+        'rounded-lg border border-border bg-surface text-text-secondary transition-colors hover:border-%s-300 '
+        'hover:bg-%s-50 hover:text-%s-600 dark:hover:border-%s-500/40 dark:hover:bg-%s-500/10 dark:hover:text-%s-400" '
+        'aria-label="Reset calculator" title="Reset calculator">'
+        '<svg class="h-[18px] w-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">'
+        '<path d="M3 12a9 9 0 1 0 3-6.7" stroke-linecap="round"/><path d="M3 3v5h5" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+        "</button>" % (color, color, color, color, color, color)
+    )
+
+
 def render_tool_card_body(tool):
     card = tool.get("card", {})
     layout = card.get("layout", "raw")
@@ -260,6 +281,14 @@ def render_tool_card_body(tool):
     # longer marketing-copy paragraph) is intentionally not rendered here —
     # kept in the content JSON for potential future use, not shown on-page.
     body = card.get("fields_html", "")
+    if TOOL_CARD_HEAD_ANCHOR not in body:
+        raise ValueError("tool-card-head anchor not found on tool %r — can't place its reset button" % tool.get("slug"))
+    color = TOOL_ACCENTS.get(tool["slug"], "emerald")
+    body = body.replace(
+        TOOL_CARD_HEAD_ANCHOR,
+        "{{HINT}}</p></div>" + render_reset_button(color) + "</div>",
+        1,
+    )
     body = body.replace("{{H1}}", html.escape(tool["h1"]))
     body = body.replace("{{HINT}}", html.escape(tool.get("hint", "")))
     return body
@@ -415,10 +444,12 @@ def render_info_content(page):
 
 
 def sitemap_anchor_for(tool):
-    """Long-tail anchor text for the sitemap page only (primary keyword +
-    a secondary/LSI variation per tool, authored in each tool's own
-    content JSON as long_tail_anchor) -- deliberately NOT used in
-    nav/footer, which need short compact labels, not full keyword phrases."""
+    """Long-tail anchor text (primary keyword + a secondary/LSI variation
+    per tool, authored in each tool's own content JSON as long_tail_anchor).
+    Used by both the HTML sitemap and the footer mega menu -- those are the
+    two spots with enough room per link for a full keyword phrase. The
+    header dropdowns and mobile drawer stay on the short nav_name (see
+    group_links) since those are compact, space-constrained UI."""
     return tool.get("long_tail_anchor") or tool["nav_name"]
 
 
@@ -472,6 +503,19 @@ def group_links(group, site, by_slug):
     links = []
     for slug in group.get("slugs", []):
         links.append((tool_url(by_slug[slug], site), by_slug[slug]["nav_name"]))
+    for t in group.get("tools", []):
+        links.append(("/" if t["slug"] == site["home_slug"] else "/%s" % t["slug"], t["name"]))
+    return links
+
+
+def footer_group_links(group, site, by_slug):
+    """Same (url, slugs) resolution as group_links, but with long-tail
+    anchor text (see sitemap_anchor_for) -- the footer mega menu, like the
+    HTML sitemap, has room for a full keyword phrase per link instead of
+    the header dropdowns'/mobile drawer's short nav_name."""
+    links = []
+    for slug in group.get("slugs", []):
+        links.append((tool_url(by_slug[slug], site), sitemap_anchor_for(by_slug[slug])))
     for t in group.get("tools", []):
         links.append(("/" if t["slug"] == site["home_slug"] else "/%s" % t["slug"], t["name"]))
     return links
@@ -561,7 +605,7 @@ def render_mobile_drawer(site, by_slug):
 def render_footer_mega(site, by_slug):
     rows = []
     for group in site["nav_groups"]:
-        pairs = group_links(group, site, by_slug)
+        pairs = footer_group_links(group, site, by_slug)
         links = "".join(
             '<a href="%s" class="footer-mega-link block py-1 text-[0.85rem] text-text-secondary hover:text-accent">%s</a>'
             % (url, html.escape(name))
