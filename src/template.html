@@ -58,18 +58,24 @@
 
     <section class="mx-auto max-w-7xl px-4 pb-4 pt-6 sm:px-6 sm:pt-8">
         <div class="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]">
-            <div class="tool-section">
+            <div class="tool-section lg:col-start-1 lg:row-start-1">
                 <form class="h-full" data-mode="{{TOOL_MODE}}" data-layout="{{TOOL_LAYOUT}}"{{TOOL_DATA_ATTRS}} novalidate>
                     {{TOOL_CARD_BODY}}
                 </form>
                 {{TOOL_WARNING}}
                 {{CODE_SNIPPET}}
             </div>
-            <aside class="related-tools grid grid-cols-1 gap-3 sm:grid-cols-2" aria-label="Related calculators">{{RELATED_CALCULATORS}}</aside>
+            <!-- DOM order (tool card, ad, related grid) is what mobile actually
+                 renders -- grid-cols-1 below lg stacks items in source order
+                 with no grid-column/row overrides, so the ad naturally lands
+                 between the tool card and the related-tools grid instead of
+                 being pushed below every stacked related card. On lg+, the
+                 explicit col/row-start placement below restores the original
+                 2-column layout with the ad full-width beneath both. -->
+            <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2">{{ADSENSE_HEADER}}</div>
+            <aside class="related-tools grid grid-cols-1 gap-3 sm:grid-cols-2 lg:col-start-2 lg:row-start-1" aria-label="Related calculators">{{RELATED_CALCULATORS}}</aside>
         </div>
     </section>
-
-    {{ADSENSE_HEADER}}
 
 {{MAIN_SECTIONS}}
 
