@@ -77,7 +77,8 @@ html{scroll-behavior:smooth}
    and the prose-* modifiers in generate.py's ARTICLE_PROSE_CLASSES) already covers
    headings/p/lists/links/strong/em/code/table cells/blockquote/hr; the
    rules below cover everything it leaves at browser defaults: aside,
-   details/summary, dl/dt/dd, b/i, img, and a fuller table treatment
+   details/summary, dl/dt/dd, b/i, h5/h6 (typography only styles h1-h4),
+   img, and a fuller table treatment
    (bordered container + header row + scrollable wrapper, since content_html
    has no per-page markup to add one). Scoped to .article so it only ever
    touches content_html-derived output (template.html + template-page.html
@@ -126,6 +127,8 @@ html{scroll-behavior:smooth}
   border-left:2px solid rgb(var(--color-border));
   color:rgb(var(--color-text-secondary));
 }
+.article h5{margin:1.5em 0 0.5em;font-size:1em;font-weight:600;line-height:1.5}
+.article h6{margin:1.5em 0 0.5em;font-size:0.95em;font-weight:600;line-height:1.5}
 .article b{font-weight:700;color:rgb(var(--color-text))}
 .article i{font-style:italic}
 .article img{border-radius:0.75rem;border:1px solid rgb(var(--color-border))}
