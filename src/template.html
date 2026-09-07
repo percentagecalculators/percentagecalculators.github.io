@@ -306,6 +306,61 @@
       });
     });
   }
+  function initCopyButtons() {
+    // Wraps each primary result <output> (one per calculator section, tagged
+    // by the shared .calc-result-row.primary/.calc-results markup every
+    // tool's fields_html already uses) with a small copy-to-clipboard button,
+    // injected once here rather than authored per-tool so every calculator
+    // -- present and future -- gets it for free.
+    document.querySelectorAll('.calc-result-row.primary').forEach(function (row) {
+      var output = row.querySelector('output.value');
+      if (!output || output.dataset.copyWired) return;
+      output.dataset.copyWired = 'true';
+      var wrap = document.createElement('span');
+      wrap.className = 'inline-flex items-center gap-2';
+      output.parentNode.insertBefore(wrap, output);
+      wrap.appendChild(output);
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'copy-btn flex h-7 w-7 flex-none items-center justify-center rounded-lg border border-border bg-surface text-text-muted transition-colors hover:border-accent hover:text-accent';
+      btn.setAttribute('aria-label', 'Copy result');
+      btn.setAttribute('title', 'Copy result');
+      btn.innerHTML =
+        '<svg class="copy-icon h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>' +
+        '<svg class="check-icon h-4 w-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" hidden><path d="M20 6 9 17l-5-5"/></svg>';
+      wrap.appendChild(btn);
+      var copyIcon = btn.querySelector('.copy-icon');
+      var checkIcon = btn.querySelector('.check-icon');
+      var revertTimer;
+      btn.addEventListener('click', function () {
+        var text = output.textContent.trim();
+        if (!text || text === '–') return;
+        var showCopied = function () {
+          copyIcon.hidden = true;
+          checkIcon.hidden = false;
+          btn.setAttribute('title', 'Copied!');
+          clearTimeout(revertTimer);
+          revertTimer = setTimeout(function () {
+            copyIcon.hidden = false;
+            checkIcon.hidden = true;
+            btn.setAttribute('title', 'Copy result');
+          }, 1500);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(showCopied, function () {});
+        } else {
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          ta.style.position = 'fixed';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          try { document.execCommand('copy'); showCopied(); } catch (e) {}
+          document.body.removeChild(ta);
+        }
+      });
+    });
+  }
   document.addEventListener('DOMContentLoaded', function () {
     initThemeToggle();
     var closeAll = initCategoryDropdowns();
@@ -313,6 +368,7 @@
     initMobileDrawer();
     wrapTables();
     initToolForm();
+    initCopyButtons();
     renderMath();
   });
 </script>
