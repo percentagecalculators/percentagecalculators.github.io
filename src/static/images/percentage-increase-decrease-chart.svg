@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" role="img" aria-labelledby="pidTitle pidDesc">
+  <title id="pidTitle">Percentage increase and decrease are not symmetric</title>
+  <desc id="pidDesc">Going from 100 to 150 is a 50 percent increase, but going from 150 back to 100 is only a 33.3 percent decrease, because each percentage is calculated against a different starting value.</desc>
+  <rect x="1" y="1" width="558" height="268" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="280" y="34" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0f172a">Same Two Numbers, Different Percentages</text>
+
+  <!-- Row 1: 100 -> 150, +50% -->
+  <text x="40" y="76" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#64748b">100 → 150</text>
+  <rect x="150" y="64" width="180" height="18" rx="3" fill="#94a3b8"/>
+  <text x="335" y="77" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">100</text>
+  <rect x="150" y="90" width="270" height="18" rx="3" fill="#059669"/>
+  <text x="425" y="103" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">150</text>
+  <text x="465" y="93" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#059669">+50%</text>
+
+  <!-- Row 2: 150 -> 100, -33.3% -->
+  <text x="40" y="150" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#64748b">150 → 100</text>
+  <rect x="150" y="138" width="270" height="18" rx="3" fill="#94a3b8"/>
+  <text x="425" y="151" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">150</text>
+  <rect x="150" y="164" width="180" height="18" rx="3" fill="#dc2626"/>
+  <text x="335" y="177" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">100</text>
+  <text x="465" y="167" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#dc2626">−33.3%</text>
+
+  <line x1="40" y1="198" x2="520" y2="198" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="280" y="217" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#334155">Increase is measured against the smaller start value (100);</text>
+  <text x="280" y="235" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#334155">decrease is measured against the larger one (150).</text>
+  <text x="280" y="256" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#64748b">% change = (new − old) ÷ old × 100</text>
+</svg>

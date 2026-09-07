@@ -375,6 +375,91 @@ ARTICLE_PROSE_CLASSES = (
 )
 
 
+HEADING_TAG_RE = re.compile(r'<(h[2-6])([^>]*)>(.*?)</\1>', re.IGNORECASE | re.DOTALL)
+
+
+def slugify_heading(text):
+    slug = re.sub(r"[^a-z0-9]+", "-", html.unescape(re.sub(r"<[^>]+>", "", text)).lower()).strip("-")
+    return slug or "section"
+
+
+def inject_heading_ids(content_html):
+    """Ensures every <h2>-<h6> in content_html carries a stable id (slugified
+    from its text, deduped on collision), reusing any id already authored by
+    hand (e.g. id="worked-examples"). Returns (content_html, tree) where tree
+    is a list of {id, text, children} nodes nested by heading level (h3s
+    nested under their preceding h2, h4s under their h3, etc.), so callers
+    can build a table of contents from the same pass."""
+    seen = {}
+    root = []
+    stack = [(1, root)]
+
+    def repl(m):
+        tag, attrs, inner = m.group(1), m.group(2), m.group(3)
+        level = int(tag[1])
+        text = re.sub(r"<[^>]+>", "", inner).strip()
+        existing = re.search(r'id="([^"]+)"', attrs)
+        if existing:
+            slug = existing.group(1)
+        else:
+            base = slugify_heading(text)
+            slug = base
+            n = 2
+            while slug in seen:
+                slug = f"{base}-{n}"
+                n += 1
+            attrs = f' id="{slug}"{attrs}'
+        seen[slug] = True
+        while stack and stack[-1][0] >= level:
+            stack.pop()
+        node = {"id": slug, "text": text, "children": []}
+        stack[-1][1].append(node)
+        stack.append((level, node["children"]))
+        return f"<{tag}{attrs}>{inner}</{tag}>"
+
+    new_html = HEADING_TAG_RE.sub(repl, content_html)
+    return new_html, root
+
+
+TOC_LIST_STYLES = ["list-decimal", "list-[lower-alpha]", "list-[lower-roman]"]
+
+
+def render_toc_list(nodes, depth=0):
+    items = []
+    for node in nodes:
+        top = depth == 0
+        link_cls = (
+            "text-accent no-underline hover:underline"
+            if top
+            else "text-text-secondary no-underline hover:text-accent hover:underline"
+        )
+        children_html = ""
+        if node["children"]:
+            style = TOC_LIST_STYLES[min(depth + 1, len(TOC_LIST_STYLES) - 1)]
+            children_html = (
+                '<ol class="mt-1.5 %s list-outside space-y-1 pl-5 text-[0.8rem] font-normal marker:text-text-muted">%s</ol>'
+                % (style, render_toc_list(node["children"], depth + 1))
+            )
+        items.append(
+            '<li><a href="#%s" class="%s">%s</a>%s</li>'
+            % (node["id"], link_cls, html.escape(node["text"]), children_html)
+        )
+    return "".join(items)
+
+
+def render_toc(tree):
+    """A compact card, not its own section — meant to sit at the top of the
+    first content-card alongside the intro paragraph, not alone in a
+    full-height band."""
+    list_html = render_toc_list(tree)
+    return (
+        '<nav class="toc mb-6 w-full max-w-2xl rounded-2xl border border-border bg-surface-alt p-5" aria-label="Table of contents">'
+        '<p class="mb-3 text-sm font-bold uppercase tracking-wide text-text-muted">Table of Contents</p>'
+        '<ol class="toc-list list-decimal list-outside space-y-1.5 pl-5 text-sm font-semibold text-text marker:font-bold marker:text-accent">%s</ol>'
+        '</nav>' % list_html
+    )
+
+
 def split_content_by_h2(content_html):
     parts = [p for p in H2_SPLIT_RE.split(content_html) if p.strip()]
     if parts and not re.match(r"^\s*<h2\b", parts[0], re.IGNORECASE):
@@ -418,15 +503,18 @@ def render_main_sections(tool):
     parts = []
     section_count = 0
     if tool.get("content_html"):
-        chunks = split_content_by_h2(tool["content_html"])
+        content_html, heading_tree = inject_heading_ids(tool["content_html"])
+        toc_html = render_toc(heading_tree) if len(heading_tree) >= 3 else ""
+        chunks = split_content_by_h2(content_html)
         for chunk in chunks:
             bg = "bg-bg-alt" if section_count % 2 == 1 else "bg-bg"
             parts.append(
                 '<section class="block py-10 %s sm:py-14"><div class="block-inner mx-auto max-w-7xl px-4 sm:px-6">'
                 '<div class="content-card rounded-2xl border border-border bg-surface p-6 sm:p-8">'
-                '<div class="%s">%s</div></div></div></section>'
-                % (bg, ARTICLE_PROSE_CLASSES, chunk)
+                '<div class="%s">%s%s</div></div></div></section>'
+                % (bg, ARTICLE_PROSE_CLASSES, toc_html, chunk)
             )
+            toc_html = ""
             section_count += 1
     faq_section = render_faq_section(tool, alt=(section_count % 2 == 1))
     if faq_section:
@@ -896,13 +984,20 @@ def main():
     favicon_path = os.path.join(BASE_DIR, "favicon.ico")
     if os.path.exists(favicon_path):
         shutil.copy(favicon_path, os.path.join(OUTPUT_DIR, "favicon.ico"))
-    # Binary/opaque assets that can't be derived from site.json — currently
-    # just the Google Search Console verification file carried over from the
-    # old site (do not modify its contents; it proves domain ownership).
+    # Binary/opaque assets that can't be derived from site.json — the Google
+    # Search Console verification file carried over from the old site (do
+    # not modify its contents; it proves domain ownership), plus any
+    # hand-authored images (e.g. src/static/images/*.svg) referenced from a
+    # tool's content_html. Copied as-is, subdirectories included.
     static_dir = os.path.join(BASE_DIR, "static")
     if os.path.isdir(static_dir):
         for fname in os.listdir(static_dir):
-            shutil.copy(os.path.join(static_dir, fname), os.path.join(OUTPUT_DIR, fname))
+            src_path = os.path.join(static_dir, fname)
+            dst_path = os.path.join(OUTPUT_DIR, fname)
+            if os.path.isdir(src_path):
+                shutil.copytree(src_path, dst_path)
+            else:
+                shutil.copy(src_path, dst_path)
 
     if do_minify:
         base_min_path = os.path.join(OUTPUT_DIR, "base.min.css")
