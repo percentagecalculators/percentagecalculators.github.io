@@ -118,6 +118,7 @@ TOOL_ACCENTS = {
     "bakers-percentage-calculator": "orange",
     "food-cost-percentage-calculator": "red",
     "percent-solution-calculator": "cyan",
+    "percentage-of-a-percentage-calculator": "fuchsia",
 }
 RELATED_COUNT = 4
 

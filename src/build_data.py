@@ -80,6 +80,7 @@ TOOL_SLUGS = [
     "bakers-percentage-calculator",
     "food-cost-percentage-calculator",
     "percent-solution-calculator",
+    "percentage-of-a-percentage-calculator",
 ]
 
 NAV_NAMES = {
@@ -124,6 +125,7 @@ NAV_NAMES = {
     "bakers-percentage-calculator": "Baker's Percentage Calculator",
     "food-cost-percentage-calculator": "Food Cost Percentage Calculator",
     "percent-solution-calculator": "Percent Solution Calculator",
+    "percentage-of-a-percentage-calculator": "Percentage of a Percentage Calculator",
 }
 
 
@@ -157,7 +159,7 @@ CATEGORY_GROUPS = [
             "percentage-calculator", "percentage-increase-calculator", "percentage-decrease-calculator",
             "percentage-change-calculator", "percentage-difference-calculator", "percentage-off-calculator",
             "reverse-percentage-calculator", "percentage-error-calculator", "average-percentage-calculator",
-            "percentage-point-calculator",
+            "percentage-point-calculator", "percentage-of-a-percentage-calculator",
         ],
         "tools": [],
     },

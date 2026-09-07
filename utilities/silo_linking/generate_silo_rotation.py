@@ -85,7 +85,7 @@ SILO_SUPPORTERS = {
     "percentage-increase-calculator": [
         "percentage-decrease-calculator", "percentage-change-calculator", "percentage-off-calculator",
         "reverse-percentage-calculator", "percentage-error-calculator", "average-percentage-calculator",
-        "percentage-point-calculator",
+        "percentage-point-calculator", "percentage-of-a-percentage-calculator",
     ],
     "apy-calculator": [
         "apr-calculator", "apr-apy-converter", "simple-interest-calculator",
