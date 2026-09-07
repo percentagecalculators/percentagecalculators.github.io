@@ -122,6 +122,16 @@ TOOL_ACCENTS = {
 }
 RELATED_COUNT = 4
 
+# The two Advanced Silo pillar pages (see CLAUDE.md's "Internal Linking
+# Strategy") always render with exactly 1 related-tools card, by design --
+# hoarding authority on the pillar. That single card would otherwise be
+# stretched (via the shared 2-column grid row) to match whatever height the
+# tool card itself needs, which looks fine for a normal single-formula card
+# but leaves an ugly, mostly-empty box next to a tall multi-section one (the
+# home page's 5-calculator layout). ASIDE_SELF_START opts those two pages out
+# of that stretch so the lone card just sits at its own natural height.
+PILLAR_SLUGS = {"percentage-calculator", "percentage-difference-calculator"}
+
 CHEVRON_SVG = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>'
 CLOSE_SVG = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg>'
 HAMBURGER_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>'
@@ -739,6 +749,7 @@ def render_page(tool, site, by_slug, tools, template):
         "TOOL_SCRIPT": tool.get("script", ""),
         "CODE_SNIPPET": "",
         "RELATED_CALCULATORS": render_related_calculators(tool, site, by_slug, tools),
+        "ASIDE_SELF_START": " lg:self-start" if tool["slug"] in PILLAR_SLUGS else "",
         "MAIN_SECTIONS": render_main_sections(tool),
         "FOOTER_TAGLINE": site["footer_tagline"],
         "FOOTER_MEGA": render_footer_mega(site, by_slug),
