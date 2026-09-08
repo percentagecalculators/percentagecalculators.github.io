@@ -235,12 +235,8 @@ Two-pillar Advanced Silo internal-linking system (Kyle Roof methodology), adapte
 `{{RELATED_CALCULATORS}}` slot) — not inline sentence links inside article body copy. Each grid
 card *is* the silo link. This was a deliberate choice for this site: the grid exists at the same
 fixed location on every page regardless of whether that page's `content_html` has been written
-yet, so the silo system works for all 41 tools immediately, with no dependency on the (still
-largely unwritten) article content for the 30 tools added in the Phase 2 expansion.
-
-**Full plan reference:** `/Users/buzzsubash/.claude/plans/curious-hatching-aurora.md` (this
-session's approved plan — includes the full rationale, alternatives considered, and the
-mic-tests comparison in more detail than this summary).
+yet, so the silo system works for all 42 tools immediately, with no dependency on article content
+that may still be unwritten for some tools.
 
 ### Pillars, hubs, supporters
 
@@ -265,8 +261,9 @@ mic-tests comparison in more detail than this summary).
 | E — Finance/Interest | `apy-calculator.html` | "apy calculator" | 49,500/mo | apr-calculator, apr-apy-converter, simple-interest-calculator, compound-interest-calculator, loan-interest-calculator, percentage-growth-calculator |
 | F — Finance/Profit | `profit-percentage-calculator.html` | "formula for percentage profit" | 33,100/mo | profit-margin-calculator, markup-calculator, gross-margin-calculator, salary-increase-calculator, commission-calculator, depreciation-calculator |
 
-2 pillars + 6 hubs + 33 supporters = 41 (every currently-built tool). No cross-pillar bridging —
-the two pillar groups rotate and bridge fully independently.
+2 pillars + 6 hubs + 33 supporters = 41 of the site's 42 tools (`percentage-of-a-percentage-calculator`
+was added later and isn't yet slotted into a hub — falls back to the generic same-category picks).
+No cross-pillar bridging — the two pillar groups rotate and bridge fully independently.
 
 ### Grid link counts (strict — matches the classic methodology exactly)
 
@@ -319,11 +316,10 @@ Deliberately different from a body-content silo (and from `mic-tests.github.io`'
 implementation): these links live in a sidebar-style card widget next to the tool card, not
 inline inside the main article body. The classic Advanced Silo methodology's rationale for
 body-content-only links is that search engines discount nav/sidebar/footer links as
-navigational. This was a conscious trade-off made this session in exchange for not needing
-`content_html` written for the 30 new tools first — see the plan file referenced above for the
-full discussion. Writing real article content for those 30 tools (a separate, still-pending
-pass — see `utilities/keyword-research/build-tracker.md`) would make a future move to
-body-content links possible, but is not required for the grid-based system to keep working.
+navigational. This is a deliberate trade-off: it avoids requiring `content_html` to be written for
+every tool before the silo system can work. Writing real article content for tools that still lack
+it (see `utilities/keyword-research/build-tracker.md`) would make a future move to body-content
+links possible, but is not required for the grid-based system to keep working.
 
 ## Article content styling (content_html)
 
@@ -348,3 +344,14 @@ from jsdelivr and call `renderMathInElement()` on every `.article` element on `D
 (see `renderMath()` in each template's script block) — this runs client-side against the already
 -built static HTML, so no server-side math rendering is needed. Verified: KaTeX's default styling
 inherits `color` from its container, so formulas theme correctly in dark mode with no extra CSS.
+
+## Future expansion: multi-language (i18n)
+
+The current Tailwind site is English-only. The archived `legacy-bootstrap-site/` (unrelated old
+codebase — see the note at the top of this file) previously shipped **18 translated languages**
+plus English, each in its own subdirectory (`/ar/`, `/bn/`, `/de/`, `/es/`, `/fr/`, `/hi/`,
+`/id/`, `/it/`, `/ja/`, `/ko/`, `/ms/`, `/nl/`, `/pt/`, `/ru/`, `/th/`, `/vi/`, `/zh-cn/`,
+`/zh-tw/`), cross-linked via `hreflang` tags (20 total per page: 18 languages + `en` +
+`x-default`) on its root `index.html`. If/when this site adds multi-language support, that
+directory structure and hreflang set is the known-working precedent to reference — not a plan
+that's been scoped or started yet, just the prior art.
