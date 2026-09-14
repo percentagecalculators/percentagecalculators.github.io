@@ -692,7 +692,7 @@ def render_mobile_drawer(site, by_slug):
             )
         )
     return (
-        '<div id="navDrawerBackdrop" class="fixed inset-0 z-40 bg-black/50 opacity-0 transition-opacity duration-200" hidden></div>'
+        '<div class="fixed inset-0 z-40 bg-black/50 opacity-0 transition-opacity duration-200" id="navDrawerBackdrop" hidden></div>'
         '<div class="nav-drawer-panel fixed inset-y-0 right-0 z-50 w-[85vw] max-w-sm translate-x-full overflow-y-auto bg-bg-alt shadow-xl transition-transform duration-200" id="navDrawer" role="dialog" aria-modal="true" aria-label="Site navigation" hidden>'
         '<button type="button" class="nav-drawer-close absolute right-3 top-3 rounded-full p-2 text-text-secondary hover:bg-surface-alt" id="navDrawerClose" aria-label="Close menu">%s</button>'
         '<div class="border-b border-border p-4"><a href="/" class="block text-sm font-semibold text-text">Home</a></div>'
