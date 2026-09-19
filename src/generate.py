@@ -33,8 +33,8 @@ wrong theme on load.
 Unlike passwordhive, there is no typed what_/how_/article_sections fallback.
 If a tool has no content_html, render_main_sections() renders nothing below
 the tool card for it — an honestly empty section, never synthesized filler.
-No Google Analytics: the legacy site never had any GA wiring to port, and no
-measurement ID is invented here.
+Google Analytics (GA4, gtag.js) is a static snippet in each template's <head>,
+not generated here; the legacy site never had any GA wiring to port.
 
 AdSense is ported as-is from legacy-bootstrap-site/js/adsense.js — same
 already-approved ca-pub client and the same three ad-unit slots (header/
