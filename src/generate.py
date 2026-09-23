@@ -159,7 +159,7 @@ def render_adsense_header():
     """Responsive leaderboard slot — same sizing logic as the legacy site's
     js/adsense.js: 728x90 at viewport width >=728px, 300x100 below that."""
     return (
-        '<div class="ad-slot mx-auto my-1 max-w-4xl px-4 text-center sm:px-6" aria-label="Advertisement">'
+        '<div class="ad-slot mx-auto my-1 max-w-4xl px-4 text-center sm:px-6">'
         '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">Advertisement</p>'
         '<ins class="adsbygoogle" id="adsense-header" data-ad-client="%s" data-ad-slot="%s"></ins>'
         "<script>(function(){"
@@ -174,7 +174,7 @@ def render_adsense_header():
 
 def render_adsense_fixed(slot_key):
     return (
-        '<div class="ad-slot mx-auto my-1 max-w-4xl px-4 text-center sm:px-6" aria-label="Advertisement">'
+        '<div class="ad-slot mx-auto my-1 max-w-4xl px-4 text-center sm:px-6">'
         '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">Advertisement</p>'
         '<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" '
         'data-ad-client="%s" data-ad-slot="%s"></ins>'
@@ -278,6 +278,16 @@ def render_reset_button(color):
     )
 
 
+# Every calculator here computes live via each field's own oninput handler
+# (see CLAUDE.md's design system doc), so a visible submit control isn't
+# functionally needed -- but a <form> with no submit button at all fails
+# WCAG 2.1 H32 and leaves the Enter key doing nothing in a single-field form.
+# A screen-reader-only submit button satisfies both without changing how any
+# card looks; the existing form-level submit handler in template.html already
+# calls preventDefault() on it.
+SR_ONLY_SUBMIT_BUTTON = '<button type="submit" class="sr-only">Calculate</button>'
+
+
 def render_tool_card_body(tool):
     card = tool.get("card", {})
     layout = card.get("layout", "raw")
@@ -297,7 +307,7 @@ def render_tool_card_body(tool):
     color = TOOL_ACCENTS.get(tool["slug"], "emerald")
     body = body.replace(
         TOOL_CARD_HEAD_ANCHOR,
-        "{{HINT}}</p></div>" + render_reset_button(color) + "</div>",
+        "{{HINT}}</p></div>" + render_reset_button(color) + "</div>" + SR_ONLY_SUBMIT_BUTTON,
         1,
     )
     body = body.replace("{{H1}}", html.escape(tool["h1"]))
@@ -380,7 +390,13 @@ HEADING_TAG_RE = re.compile(r'<(h[2-6])([^>]*)>(.*?)</\1>', re.IGNORECASE | re.D
 
 def slugify_heading(text):
     slug = re.sub(r"[^a-z0-9]+", "-", html.unescape(re.sub(r"<[^>]+>", "", text)).lower()).strip("-")
-    return slug or "section"
+    if not slug:
+        return "section"
+    # An id starting with a digit is valid HTML5 but breaks unescaped CSS
+    # id-selectors (#10-point-...) and some older tooling -- prefix it.
+    if slug[0].isdigit():
+        slug = "s-" + slug
+    return slug
 
 
 def inject_heading_ids(content_html):
@@ -419,6 +435,50 @@ def inject_heading_ids(content_html):
 
     new_html = HEADING_TAG_RE.sub(repl, content_html)
     return new_html, root
+
+
+TABLE_RE = re.compile(r"<table\b([^>]*)>(.*?)</table>", re.IGNORECASE | re.DOTALL)
+CAPTION_RE = re.compile(r"^\s*(<caption\b[^>]*>.*?</caption>)", re.IGNORECASE | re.DOTALL)
+
+
+def ensure_table_tbody(content_html):
+    """Wraps a bare table's row markup in <tbody> when the content pipeline
+    didn't already (some tool JSONs do, some don't -- see prefer-tbody).
+    Leaves a <caption>, if any, as table's own direct child. Purely a
+    structural/semantic fix: <tbody> carries no styling of its own, so
+    nothing about the rendered table changes."""
+    def repl(m):
+        attrs, inner = m.group(1), m.group(2)
+        if re.search(r"<tbody\b", inner, re.IGNORECASE) or re.search(r"<thead\b", inner, re.IGNORECASE):
+            return m.group(0)
+        caption = ""
+        body = inner
+        cap_m = CAPTION_RE.match(inner)
+        if cap_m:
+            caption = cap_m.group(1)
+            body = inner[cap_m.end():]
+        if not body.strip():
+            return m.group(0)
+        return "<table%s>%s<tbody>%s</tbody></table>" % (attrs, caption, body)
+    return TABLE_RE.sub(repl, content_html)
+
+
+ASIDE_RE = re.compile(r"<aside\b([^>]*)>", re.IGNORECASE)
+
+
+def ensure_aside_role(content_html):
+    """Content-authored <aside> callouts (see base.css's `.article aside`)
+    are inline tips/notes within an article, not page-level landmark
+    regions -- without an explicit role they default to the implicit
+    "complementary" landmark role, which collides with the page's own
+    related-tools <aside> and produces duplicate unlabeled landmarks.
+    role="note" is the semantically correct, non-landmark role for this."""
+    def repl(m):
+        attrs = m.group(1)
+        if re.search(r"\brole\s*=", attrs, re.IGNORECASE):
+            return m.group(0)
+        return '<aside role="note"%s>' % attrs
+    return ASIDE_RE.sub(repl, content_html)
 
 
 TOC_LIST_STYLES = ["list-decimal", "list-[lower-alpha]", "list-[lower-roman]"]
@@ -503,7 +563,8 @@ def render_main_sections(tool):
     parts = []
     section_count = 0
     if tool.get("content_html"):
-        content_html, heading_tree = inject_heading_ids(tool["content_html"])
+        raw_html = ensure_aside_role(ensure_table_tbody(tool["content_html"]))
+        content_html, heading_tree = inject_heading_ids(raw_html)
         toc_html = render_toc(heading_tree) if len(heading_tree) >= 3 else ""
         chunks = split_content_by_h2(content_html)
         for chunk in chunks:
@@ -726,6 +787,238 @@ def render_footer_company(site):
     )
 
 
+# ---------------------------------------------------------------------------
+# Shared <body> chrome -- the opening skip-link/<header>/{{MOBILE_DRAWER}}
+# block and the closing <footer> block are byte-identical across
+# template.html/template-page.html/template-404.html. Previously each
+# template hand-duplicated this markup (~40 lines apiece); rendering it once
+# here and injecting it via a single {{SITE_HEADER}}/{{SITE_FOOTER}} token
+# per template removes that duplication and guarantees the three templates
+# can never drift out of sync with each other.
+# ---------------------------------------------------------------------------
+
+def render_site_header(site, by_slug):
+    return (
+        '<body class="min-h-screen bg-bg font-sans text-text-alt antialiased">'
+        '<a href="#main-content" class="skip-link sr-only focus:not-sr-only focus:fixed focus:left-2 focus:top-2 focus:z-50 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-white">Skip to content</a>'
+        '<header class="relative z-40 border-b border-border bg-bg-alt">'
+        '<nav class="top-nav mx-auto flex max-w-7xl items-center gap-3 px-4 py-3 sm:px-6" aria-label="Primary navigation">'
+        '<a href="/" class="logo flex flex-none items-center gap-2.5 text-[1.05rem] font-bold text-text">'
+        '<span class="logo-icon flex h-8 w-8 flex-none items-center justify-center rounded-[10px] bg-gradient-to-br from-accent to-accent-darker text-sm font-extrabold text-white" aria-hidden="true">%%</span>'
+        "<span>%(site_name)s</span>"
+        "</a>"
+        '<div class="category-strip hidden min-w-0 flex-1 items-center justify-end gap-1 overflow-hidden md:flex">'
+        "%(category_dropdowns)s%(more_menu)s"
+        "</div>"
+        '<button type="button" id="themeToggleBtn" aria-label="Toggle dark mode" aria-pressed="false" '
+        'class="ml-auto inline-flex h-9 w-9 flex-none items-center justify-center rounded-full border border-border text-text-secondary hover:bg-surface-alt hover:text-text">'
+        '<svg class="sun h-[18px] w-[18px] dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>'
+        '<svg class="moon hidden h-[18px] w-[18px] dark:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg>'
+        "</button>"
+        '<button type="button" class="nav-hamburger flex flex-none items-center rounded-lg p-2 text-text-secondary hover:bg-surface-alt md:hidden" id="navHamburgerBtn" aria-expanded="false" aria-controls="navDrawer" aria-label="Open menu">%(hamburger)s</button>'
+        "</nav>"
+        "</header>"
+    ) % {
+        "site_name": site["site_name"],
+        "category_dropdowns": render_category_dropdowns(site, by_slug),
+        "more_menu": render_more_menu(site, by_slug),
+        "hamburger": HAMBURGER_SVG,
+    }
+
+
+def render_site_footer(site, by_slug, year="2026"):
+    return (
+        '<footer class="border-t border-border bg-bg-alt">'
+        '<div class="footer-inner mx-auto max-w-7xl px-4 py-10 sm:px-6">'
+        '<div class="footer-brand-row flex flex-col gap-2 pb-8">'
+        '<a href="/" class="footer-logo flex items-center gap-2.5 text-base font-bold text-text">'
+        '<span class="logo-icon flex h-8 w-8 flex-none items-center justify-center rounded-[10px] bg-gradient-to-br from-accent to-accent-darker text-sm font-extrabold text-white" aria-hidden="true">%%</span>'
+        "<span>%(site_name)s</span>"
+        "</a>"
+        '<p class="footer-tagline max-w-md text-sm text-text-secondary">%(footer_tagline)s</p>'
+        "</div>"
+        '<nav class="footer-mega grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 lg:grid-cols-5" id="all-tools" aria-label="Site map">'
+        "%(footer_mega)s"
+        "</nav>"
+        '<div class="footer-bottom mt-8 flex flex-col gap-3 border-t border-border pt-6 sm:flex-row sm:items-center sm:justify-between">'
+        '<p class="text-sm text-text-muted">&copy; %(year)s %(site_name)s. All rights reserved.</p>'
+        '<nav aria-label="Footer links">'
+        '<div class="footer-legal-links flex flex-wrap gap-x-4 gap-y-1 text-sm">'
+        "%(footer_company)s"
+        "</div>"
+        "</nav>"
+        "</div>"
+        "</div>"
+        "</footer>"
+    ) % {
+        "site_name": site["site_name"],
+        "footer_tagline": site["footer_tagline"],
+        "footer_mega": render_footer_mega(site, by_slug),
+        "footer_company": render_footer_company(site),
+        "year": year,
+    }
+
+
+# The theme toggle / category-dropdown / priority-nav / mobile-drawer JS is
+# identical across all three templates -- defined once here and injected via
+# {{NAV_JS_CORE}} instead of being hand-duplicated per template. Each
+# template's own <script> still appends whatever page-type-specific
+# functions it needs (wrapTables/initToolForm/renderMath/initCopyButtons on
+# tool pages, wrapTables/renderMath on info pages, none on the 404 page) and
+# its own DOMContentLoaded listener.
+NAV_JS_CORE = """
+  function initThemeToggle() {
+    var btn = document.getElementById('themeToggleBtn');
+    if (!btn) return;
+    btn.setAttribute('aria-pressed', document.documentElement.classList.contains('dark'));
+    btn.addEventListener('click', function () {
+      var isDark = document.documentElement.classList.toggle('dark');
+      document.documentElement.style.colorScheme = isDark ? 'dark' : 'light';
+      try { localStorage.setItem('theme', isDark ? 'dark' : 'light'); } catch (e) {}
+      btn.setAttribute('aria-pressed', String(isDark));
+    });
+  }
+  function initCategoryDropdowns() {
+    var buttons = document.querySelectorAll('.cat-menu-btn');
+    function closeAll(except) {
+      buttons.forEach(function (b) {
+        if (b === except) return;
+        b.setAttribute('aria-expanded', 'false');
+        var menu = document.getElementById(b.getAttribute('aria-controls'));
+        if (menu) menu.hidden = true;
+      });
+    }
+    function positionMenu(b, menu) {
+      var rect = b.getBoundingClientRect();
+      menu.style.top = (rect.bottom + 8) + 'px';
+      menu.style.left = Math.max(8, Math.min(rect.left, window.innerWidth - menu.offsetWidth - 8)) + 'px';
+    }
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var expanded = b.getAttribute('aria-expanded') === 'true';
+        closeAll();
+        var menu = document.getElementById(b.getAttribute('aria-controls'));
+        if (!expanded && menu) {
+          menu.hidden = false;
+          positionMenu(b, menu);
+          b.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+    document.addEventListener('click', function () { closeAll(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(); });
+    window.addEventListener('scroll', function () { closeAll(); }, { passive: true });
+    return closeAll;
+  }
+  function initPriorityNav(closeAll) {
+    var strip = document.querySelector('.category-strip');
+    var moreItem = document.getElementById('moreMenuItem');
+    if (!strip || !moreItem) return;
+    var items = Array.prototype.slice.call(strip.querySelectorAll('.cat-menu-item[data-cat-key]'));
+    var sections = document.querySelectorAll('.more-menu-section');
+    function layout() {
+      items.forEach(function (item) { item.hidden = false; });
+      sections.forEach(function (s) { s.hidden = true; });
+      moreItem.hidden = false;
+
+      var available = strip.clientWidth;
+      var gap = parseFloat(getComputedStyle(strip).columnGap) || 0;
+      var fixedWidth = 0;
+      Array.prototype.forEach.call(strip.children, function (el) {
+        if (el !== moreItem && items.indexOf(el) === -1) {
+          fixedWidth += el.getBoundingClientRect().width + gap;
+        }
+      });
+      var moreWidth = moreItem.getBoundingClientRect().width + gap;
+      var itemWidths = items.map(function (it) { return it.getBoundingClientRect().width + gap; });
+      var total = itemWidths.reduce(function (a, b) { return a + b; }, fixedWidth);
+
+      if (total <= available) {
+        moreItem.hidden = true;
+        return;
+      }
+
+      var used = fixedWidth;
+      var visibleCount = 0;
+      for (var i = 0; i < itemWidths.length; i++) {
+        if (used + itemWidths[i] + moreWidth > available) break;
+        used += itemWidths[i];
+        visibleCount++;
+      }
+
+      items.forEach(function (item, idx) {
+        if (idx >= visibleCount) {
+          item.hidden = true;
+          var section = document.querySelector('.more-menu-section[data-cat-key="' + item.getAttribute('data-cat-key') + '"]');
+          if (section) section.hidden = false;
+        }
+      });
+    }
+    var resizeTimer;
+    window.addEventListener('resize', function () {
+      closeAll();
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(layout, 100);
+    });
+    layout();
+    window.addEventListener('load', layout);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(layout);
+    }
+  }
+  function initMobileDrawer() {
+    var hamburger = document.getElementById('navHamburgerBtn');
+    var drawer = document.getElementById('navDrawer');
+    var backdrop = document.getElementById('navDrawerBackdrop');
+    var closeBtn = document.getElementById('navDrawerClose');
+    if (!hamburger || !drawer || !backdrop) return;
+    var sectionButtons = drawer.querySelectorAll('.drawer-section-btn');
+    function isOpen() { return !drawer.hidden && drawer.classList.contains('translate-x-0'); }
+    function openDrawer() {
+      drawer.hidden = false;
+      backdrop.hidden = false;
+      setTimeout(function () {
+        drawer.classList.remove('translate-x-full');
+        drawer.classList.add('translate-x-0');
+        backdrop.classList.remove('opacity-0');
+        backdrop.classList.add('opacity-100');
+      }, 10);
+      hamburger.setAttribute('aria-expanded', 'true');
+      document.body.classList.add('overflow-hidden');
+    }
+    function closeDrawer(returnFocus) {
+      drawer.classList.remove('translate-x-0');
+      drawer.classList.add('translate-x-full');
+      backdrop.classList.remove('opacity-100');
+      backdrop.classList.add('opacity-0');
+      hamburger.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('overflow-hidden');
+      if (returnFocus) hamburger.focus();
+      setTimeout(function () {
+        if (!isOpen()) { drawer.hidden = true; backdrop.hidden = true; }
+      }, 220);
+    }
+    hamburger.addEventListener('click', function () { isOpen() ? closeDrawer(false) : openDrawer(); });
+    closeBtn.addEventListener('click', function () { closeDrawer(true); });
+    backdrop.addEventListener('click', function () { closeDrawer(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && isOpen()) closeDrawer(true); });
+    sectionButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        var panel = document.getElementById(btn.getAttribute('aria-controls'));
+        if (panel) panel.hidden = expanded;
+      });
+    });
+    var mq = window.matchMedia('(min-width:769px)');
+    var mqHandler = function (e) { if (e.matches && isOpen()) closeDrawer(false); };
+    if (mq.addEventListener) mq.addEventListener('change', mqHandler);
+    else mq.addListener(mqHandler);
+  }
+""".strip("\n")
+
+
 def render_breadcrumbs(trail):
     if not trail:
         return ""
@@ -821,10 +1114,9 @@ def render_page(tool, site, by_slug, tools, template):
         "THEME_INIT": THEME_INIT,
         "ADSENSE_LOADER": render_adsense_loader(),
         "ADSENSE_HEADER": render_adsense_header(),
-        "CATEGORY_DROPDOWNS": render_category_dropdowns(site, by_slug),
-        "MORE_MENU": render_more_menu(site, by_slug),
+        "SITE_HEADER": render_site_header(site, by_slug),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
-        "HAMBURGER_ICON": HAMBURGER_SVG,
+        "NAV_JS_CORE": NAV_JS_CORE,
         "BREADCRUMBS": "",
         "H1": tool["h1"],
         "SUBTITLE": tool["subtitle"],
@@ -839,10 +1131,7 @@ def render_page(tool, site, by_slug, tools, template):
         "RELATED_CALCULATORS": render_related_calculators(tool, site, by_slug, tools),
         "ASIDE_SELF_START": " lg:self-start" if tool["slug"] in PILLAR_SLUGS else "",
         "MAIN_SECTIONS": render_main_sections(tool),
-        "FOOTER_TAGLINE": site["footer_tagline"],
-        "FOOTER_MEGA": render_footer_mega(site, by_slug),
-        "FOOTER_COMPANY": render_footer_company(site),
-        "YEAR": "2026",
+        "SITE_FOOTER": render_site_footer(site, by_slug),
     }
     return apply_tokens(template, tokens)
 
@@ -856,19 +1145,15 @@ def render_info_page(page, site, by_slug, template):
         "CANONICAL_URL": canonical,
         "META_TITLE": html.escape(page["meta_title"]),
         "THEME_INIT": THEME_INIT,
-        "CATEGORY_DROPDOWNS": render_category_dropdowns(site, by_slug),
-        "MORE_MENU": render_more_menu(site, by_slug),
+        "SITE_HEADER": render_site_header(site, by_slug),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
-        "HAMBURGER_ICON": HAMBURGER_SVG,
+        "NAV_JS_CORE": NAV_JS_CORE,
         "BREADCRUMBS": render_breadcrumbs(trail) + breadcrumb_jsonld(trail, site["domain"]),
         "H1": page["h1"],
         "SUBTITLE": page.get("subtitle", ""),
         "PAGE_CONTENT": render_sitemap_content(site, by_slug) if page["slug"] == "sitemap" else render_info_content(page),
         "ARTICLE_PROSE_CLASSES": ARTICLE_PROSE_CLASSES,
-        "FOOTER_TAGLINE": site["footer_tagline"],
-        "FOOTER_MEGA": render_footer_mega(site, by_slug),
-        "FOOTER_COMPANY": render_footer_company(site),
-        "YEAR": "2026",
+        "SITE_FOOTER": render_site_footer(site, by_slug),
     }
     return apply_tokens(template, tokens)
 
@@ -877,14 +1162,10 @@ def render_404_page(site, by_slug, template_404):
     tokens = {
         "SITE_NAME": site["site_name"],
         "THEME_INIT": THEME_INIT,
-        "CATEGORY_DROPDOWNS": render_category_dropdowns(site, by_slug),
-        "MORE_MENU": render_more_menu(site, by_slug),
+        "SITE_HEADER": render_site_header(site, by_slug),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
-        "HAMBURGER_ICON": HAMBURGER_SVG,
-        "FOOTER_TAGLINE": site["footer_tagline"],
-        "FOOTER_MEGA": render_footer_mega(site, by_slug),
-        "FOOTER_COMPANY": render_footer_company(site),
-        "YEAR": "2026",
+        "NAV_JS_CORE": NAV_JS_CORE,
+        "SITE_FOOTER": render_site_footer(site, by_slug),
     }
     return apply_tokens(template_404, tokens)
 
@@ -917,6 +1198,12 @@ def minify_html_dir(src_dir, dst_dir):
         "--minify-css", "true",
         "--minify-js", "true",
         "--case-sensitive",
+        # Without this, html-minifier-terser re-serializes bare boolean
+        # attributes (e.g. <script defer src=...>) as defer="defer" instead
+        # of leaving them shorthand -- valid HTML either way, but noisy and
+        # flagged by html-validate's attribute-boolean-style rule. Unlike
+        # --minify-css/--minify-js above, this is a plain flag with no value.
+        "--collapse-boolean-attributes",
     ])
 
 

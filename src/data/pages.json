@@ -61,7 +61,7 @@
     ],
     "slug": "about",
     "meta_title": "About Us | Percentage Calculators",
-    "meta_description": "Learn about Percentage Calculators \u2014 a free collection of client-side percentage tools built for speed and accuracy."
+    "meta_description": "Learn about Percentage Calculators \u2014 a free collection of client-side percentage tools built for speed, accuracy, and ease of use on any device."
   },
   {
     "h1": "Contact Us",
@@ -108,7 +108,7 @@
     ],
     "slug": "contact",
     "meta_title": "Contact Us | Percentage Calculators",
-    "meta_description": "Get in touch with the Percentage Calculators team."
+    "meta_description": "Contact the Percentage Calculators team with questions, feedback, or bug reports about our free online percentage tools. We read every message."
   },
   {
     "h1": "Disclaimer",
@@ -287,7 +287,7 @@
     ],
     "slug": "privacy-policy",
     "meta_title": "Privacy Policy | Percentage Calculators",
-    "meta_description": "Percentage Calculators' privacy policy: what data we collect (very little), and how our tools handle your input."
+    "meta_description": "Percentage Calculators' privacy policy: what data we collect (very little), and how our tools handle your input while you use our free calculators."
   },
   {
     "h1": "Terms of Use",
@@ -417,7 +417,7 @@
     ],
     "slug": "terms-of-use",
     "meta_title": "Terms of Use | Percentage Calculators",
-    "meta_description": "Terms of use for Percentage Calculators' free online calculators."
+    "meta_description": "Terms of use for Percentage Calculators' free online calculators, covering acceptable use, liability, and the accuracy of our tools and results."
   },
   {
     "h1": "Sitemap",
@@ -425,6 +425,6 @@
     "sections": [],
     "slug": "sitemap",
     "meta_title": "Sitemap | Percentage Calculators",
-    "meta_description": "Every page on Percentage Calculators, organized by category \u2014 a full list of every percentage calculator tool."
+    "meta_description": "Every page on Percentage Calculators, organized by category \u2014 a full list of every percentage calculator tool, converter, and education resource."
   }
 ]

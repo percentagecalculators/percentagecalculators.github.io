@@ -242,15 +242,17 @@ def build_site(tools):
 
 PAGE_META = {
     "about": ("About Us | Percentage Calculators",
-              "Learn about Percentage Calculators — a free collection of client-side percentage tools built for speed and accuracy."),
-    "contact": ("Contact Us | Percentage Calculators", "Get in touch with the Percentage Calculators team."),
+              "Learn about Percentage Calculators — a free collection of client-side percentage tools built for speed, accuracy, and ease of use on any device."),
+    "contact": ("Contact Us | Percentage Calculators",
+                "Contact the Percentage Calculators team with questions, feedback, or bug reports about our free online percentage tools. We read every message."),
     "disclaimer": ("Disclaimer | Percentage Calculators",
                     "Percentage Calculators' disclaimer: our tools are for informational purposes only and are not a substitute for professional advice."),
     "privacy-policy": ("Privacy Policy | Percentage Calculators",
-                        "Percentage Calculators' privacy policy: what data we collect (very little), and how our tools handle your input."),
-    "terms-of-use": ("Terms of Use | Percentage Calculators", "Terms of use for Percentage Calculators' free online calculators."),
+                        "Percentage Calculators' privacy policy: what data we collect (very little), and how our tools handle your input while you use our free calculators."),
+    "terms-of-use": ("Terms of Use | Percentage Calculators",
+                      "Terms of use for Percentage Calculators' free online calculators, covering acceptable use, liability, and the accuracy of our tools and results."),
     "sitemap": ("Sitemap | Percentage Calculators",
-                "Every page on Percentage Calculators, organized by category — a full list of every percentage calculator tool."),
+                "Every page on Percentage Calculators, organized by category — a full list of every percentage calculator tool, converter, and education resource."),
 }
 
 

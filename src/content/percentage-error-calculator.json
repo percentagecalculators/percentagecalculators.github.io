@@ -1,7 +1,7 @@
 {
   "slug": "percentage-error-calculator",
-  "meta_title": "Percentage Error Calculator | Percent Error for Lab Experiments",
-  "meta_description": "Free percentage error calculator. Calculate percent error between experimental and theoretical values. Essential for physics, chemistry, and biology lab reports.",
+  "meta_title": "Percentage Error Calculator | Percent Error for Labs",
+  "meta_description": "Free percentage error calculator. Calculate percent error between experimental and theoretical values for physics, chemistry, and biology labs.",
   "h1": "Percentage Error Calculator",
   "subtitle": "Enter your <strong>measured (experimental) value</strong> and the <strong>true (theoretical) value</strong>, and this <strong>percentage error calculator</strong> shows you the <strong>percent error</strong> between them. It uses the standard formula: |measured − true| ÷ |true| × 100.",
   "card": {

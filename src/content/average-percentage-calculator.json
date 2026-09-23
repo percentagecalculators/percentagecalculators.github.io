@@ -1,7 +1,7 @@
 {
   "slug": "average-percentage-calculator",
   "meta_title": "Average Percentage Calculator | Simple & Weighted Average",
-  "meta_description": "Free average percentage calculator with simple and weighted modes. Combine percentages from groups of different sizes correctly for grades, surveys, and performance metrics.",
+  "meta_description": "Free average percentage calculator with simple and weighted modes. Combine percentages from groups of different sizes correctly for grades and surveys.",
   "h1": "Average Percentage Calculator",
   "subtitle": "Type in a list of <strong>percentages</strong> separated by commas, and this <strong>average percentage calculator</strong> gives you the <strong>mean</strong>, <strong>sum</strong>, <strong>count</strong>, and range of your values. Add a matching list of <strong>sample sizes</strong> when groups aren't the same size, and it switches to a properly <strong>weighted average</strong> automatically.",
   "card": {
