@@ -159,7 +159,7 @@ def render_adsense_header():
     """Responsive leaderboard slot — same sizing logic as the legacy site's
     js/adsense.js: 728x90 at viewport width >=728px, 300x100 below that."""
     return (
-        '<div class="ad-slot mx-auto my-1 max-w-4xl px-4 text-center sm:px-6">'
+        '<div class="ad-slot mx-auto my-1 max-w-4xl px-2 text-center sm:px-6">'
         '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">Advertisement</p>'
         '<ins class="adsbygoogle" id="adsense-header" data-ad-client="%s" data-ad-slot="%s"></ins>'
         "<script>(function(){"
@@ -174,7 +174,7 @@ def render_adsense_header():
 
 def render_adsense_fixed(slot_key):
     return (
-        '<div class="ad-slot mx-auto my-1 max-w-4xl px-4 text-center sm:px-6">'
+        '<div class="ad-slot mx-auto my-1 max-w-4xl px-2 text-center sm:px-6">'
         '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">Advertisement</p>'
         '<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" '
         'data-ad-client="%s" data-ad-slot="%s"></ins>'
@@ -649,7 +649,7 @@ def render_sitemap_content(site, by_slug):
 # template.html's JS), not a custom CSS class — no component CSS needed.
 # ---------------------------------------------------------------------------
 
-DROPDOWN_LINK_CLASSES = "block rounded-lg px-3 py-2 text-sm text-text-secondary hover:bg-surface-alt hover:text-text"
+DROPDOWN_LINK_CLASSES = "block rounded-lg px-3 py-3 text-sm text-text-secondary hover:bg-surface-alt hover:text-text"
 NAV_BTN_CLASSES = "cat-menu-btn inline-flex items-center gap-1 rounded-lg px-2.5 py-1.5 text-sm font-medium text-text-secondary hover:bg-surface-alt hover:text-text"
 
 
@@ -737,7 +737,7 @@ def render_mobile_drawer(site, by_slug):
         panel_id = "drawer-%s" % group["key"]
         badge = CATEGORY_BADGES.get(group["key"], "")
         links = "".join(
-            '<a href="%s" class="block rounded-lg px-3 py-2 text-sm text-text-secondary hover:bg-surface-alt hover:text-text">%s</a>' % (url, html.escape(name))
+            '<a href="%s" class="%s">%s</a>' % (url, DROPDOWN_LINK_CLASSES, html.escape(name))
             for url, name in group_links(group, site, by_slug)
         )
         sections.append(
@@ -755,7 +755,7 @@ def render_mobile_drawer(site, by_slug):
     return (
         '<div class="fixed inset-0 z-40 bg-black/50 opacity-0 transition-opacity duration-200" id="navDrawerBackdrop" hidden></div>'
         '<div class="nav-drawer-panel fixed inset-y-0 right-0 z-50 w-[85vw] max-w-sm translate-x-full overflow-y-auto bg-bg-alt shadow-xl transition-transform duration-200" id="navDrawer" role="dialog" aria-modal="true" aria-label="Site navigation" hidden>'
-        '<button type="button" class="nav-drawer-close absolute right-3 top-3 rounded-full p-2 text-text-secondary hover:bg-surface-alt" id="navDrawerClose" aria-label="Close menu">%s</button>'
+        '<button type="button" class="nav-drawer-close absolute right-3 top-3 flex h-11 w-11 items-center justify-center rounded-full text-text-secondary hover:bg-surface-alt" id="navDrawerClose" aria-label="Close menu">%s</button>'
         '<div class="border-b border-border p-4"><a href="/" class="block text-sm font-semibold text-text">Home</a></div>'
         '%s'
         '</div>' % (CLOSE_SVG, "".join(sections))
@@ -815,7 +815,7 @@ def render_site_header(site, by_slug):
         '<svg class="sun h-[18px] w-[18px] dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>'
         '<svg class="moon hidden h-[18px] w-[18px] dark:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg>'
         "</button>"
-        '<button type="button" class="nav-hamburger flex flex-none items-center rounded-lg p-2 text-text-secondary hover:bg-surface-alt md:hidden" id="navHamburgerBtn" aria-expanded="false" aria-controls="navDrawer" aria-label="Open menu">%(hamburger)s</button>'
+        '<button type="button" class="nav-hamburger flex h-11 w-11 flex-none items-center justify-center rounded-lg text-text-secondary hover:bg-surface-alt md:hidden" id="navHamburgerBtn" aria-expanded="false" aria-controls="navDrawer" aria-label="Open menu">%(hamburger)s</button>'
         "</nav>"
         "</header>"
     ) % {

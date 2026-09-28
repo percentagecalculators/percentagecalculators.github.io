@@ -145,3 +145,9 @@ html{scroll-behavior:smooth}
 .article .table-scroll tbody tr:last-child td{border-bottom:none}
 .article .table-scroll tbody tr:hover td{background:rgb(var(--color-surface-alt) / 0.6)}
 .article .table-scroll caption{padding:0.625rem 1rem;font-size:0.85rem;color:rgb(var(--color-text-muted));text-align:left;caption-side:top}
+
+/* KaTeX's own stylesheet doesn't constrain a wide display formula's width --
+   on narrow screens a long equation can render wider than its container and
+   push the whole page into horizontal scroll. Same fix as .table-scroll
+   above: let the formula scroll within its own box instead. */
+.article .katex-display{overflow-x:auto;overflow-y:hidden;max-width:100%}
