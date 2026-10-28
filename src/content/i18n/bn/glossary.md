@@ -39,3 +39,5 @@ Decisions (made 2026-10-28):
 | baker's percentage | বেকার্স শতাংশ | |
 | ratio / fraction / decimal | অনুপাত / ভগ্নাংশ / দশমিক | |
 | hydration (baking) | হাইড্রেশন (পানির অনুপাত) | |
+
+Open for review (self-review by Claude, no native reviewer): distilling jargon and finance terms chosen by the translators (OTE, number needed to treat, coefficient of variation) have no settled Bengali usage; Indian/UK institution names are transliterated unverified; some table cells with digits (board/grade labels, fl oz) stay Latin; long finance articles (compound-interest, loan-interest) deserve a native register read.
