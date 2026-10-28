@@ -10,7 +10,7 @@ Tick a box only when ALL are true: written in `src/content/i18n/<lang>/<slug>.js
 
 ## Before any language starts (once)
 
-- [ ] Heading ids: make translated pages reuse the English heading ids (generator change, see guide section 9.1)
+- [x] Heading ids: translated pages reuse the English heading ids (`english_heading_ids()` in `generate.py`)
 - [ ] Number-multiset check added to `validate.py` (digits in prose/tables/FAQ identical to English)
 - [ ] Percent-sign spacing, digit style and currency policy confirmed per language (guide section 8)
 - [ ] Reviewer assigned per language

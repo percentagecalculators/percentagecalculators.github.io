@@ -301,6 +301,12 @@ def translate_card(fields_html, strings):
     return CARD_TEXT_RE.sub(repl, fields_html)
 
 
+def english_heading_ids(content_html):
+    """Heading ids of the English article, in order (see inject_heading_ids)."""
+    html_out, _ = inject_heading_ids(content_html)
+    return [re.search(r'id="([^"]+)"', m.group(2)).group(1) for m in HEADING_TAG_RE.finditer(html_out)]
+
+
 def localize_tools(tools, loc):
     """Translated copies of every tool. content_html/faq come only from the
     translation; a language that hasn't translated an article yet renders
@@ -314,6 +320,8 @@ def localize_tools(tools, loc):
         lt["nav_name"] = loc["ui"]["nav_names"][tool["slug"]]
         lt["content_html"] = tr.get("content_html", "")
         lt["faq"] = tr.get("faq", [])
+        if lt["content_html"]:
+            lt["heading_ids"] = english_heading_ids(tool.get("content_html", ""))
         lt["card"] = dict(tool["card"], fields_html=translate_card(tool["card"]["fields_html"], tr["card_strings"]))
         out.append(lt)
     return out
@@ -603,26 +611,35 @@ def slugify_heading(text):
     return slug
 
 
-def inject_heading_ids(content_html):
+def inject_heading_ids(content_html, fixed_ids=None):
     """Ensures every <h2>-<h6> in content_html carries a stable id (slugified
     from its text, deduped on collision), reusing any id already authored by
     hand (e.g. id="worked-examples"). Returns (content_html, tree) where tree
     is a list of {id, text, children} nodes nested by heading level (h3s
     nested under their preceding h2, h4s under their h3, etc.), so callers
-    can build a table of contents from the same pass."""
+    can build a table of contents from the same pass.
+
+    fixed_ids: ids to use, in heading order (a translation passes the English
+    page's ids so anchors and URLs match across languages; slugify_heading
+    would turn non-Latin text into "section"). Ignored if the heading count
+    differs."""
     seen = {}
     root = []
     stack = [(1, root)]
+    if fixed_ids is not None and len(fixed_ids) != len(HEADING_TAG_RE.findall(content_html)):
+        fixed_ids = None
+    order = iter(fixed_ids or ())
 
     def repl(m):
         tag, attrs, inner = m.group(1), m.group(2), m.group(3)
         level = int(tag[1])
         text = re.sub(r"<[^>]+>", "", inner).strip()
         existing = re.search(r'id="([^"]+)"', attrs)
+        fixed = next(order) if fixed_ids is not None else None
         if existing:
             slug = existing.group(1)
         else:
-            base = slugify_heading(text)
+            base = fixed or slugify_heading(text)
             slug = base
             n = 2
             while slug in seen:
@@ -768,7 +785,7 @@ def render_main_sections(tool):
     section_count = 0
     if tool.get("content_html"):
         raw_html = ensure_aside_role(ensure_table_tbody(tool["content_html"]))
-        content_html, heading_tree = inject_heading_ids(raw_html)
+        content_html, heading_tree = inject_heading_ids(raw_html, tool.get("heading_ids"))
         toc_html = render_toc(heading_tree) if len(heading_tree) >= 3 else ""
         chunks = split_content_by_h2(content_html)
         for chunk in chunks:

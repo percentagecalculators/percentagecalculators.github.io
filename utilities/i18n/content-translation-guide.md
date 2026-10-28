@@ -131,8 +131,7 @@ core concept, the term **real users search for**, not the dictionary term:
 
 ## 9. Open decisions before starting (listed once, answered in the checklist)
 
-1. **Heading `id`s.** `generate.py` slugifies heading text with `[^a-z0-9]`, so translated headings produce
-   broken or generic ids (`section`, `section-2`; "Évolution" becomes `volution`). Anchors such as `#terms` keep
-   working only when the id is authored. A generator change is needed so translated pages reuse the English heading ids.
+1. **Heading `id`s.** Done: translated pages reuse the English heading ids by position (`english_heading_ids()` in
+   `generate.py`), so anchors and TOC links match across languages. The heading count must equal English (validator checks the tag skeleton).
 2. **Percent-sign spacing and digit style** per language (table above).
 3. **Currency symbol policy** (default: unchanged).
