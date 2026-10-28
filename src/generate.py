@@ -174,6 +174,7 @@ UI_EN = {
     "calculate": "Calculate",
     "related_aria": "Related calculators",
     "faq_heading": "Frequently Asked Questions",
+    "faq_q_label": "Q.",
     "toc_label": "Table of Contents",
     "copy_result": "Copy result",
     "copied": "Copied!",
@@ -757,9 +758,9 @@ def render_faq_section(tool, alt):
         return None
     items = "".join(
         '<div class="faq-item border-b border-border py-5 last:border-0">'
-        '<dt class="mb-2 flex gap-2 text-base font-bold text-text"><span class="flex-none text-accent">Q.</span><span>%s</span></dt>'
+        '<dt class="mb-2 flex gap-2 text-base font-bold text-text"><span class="flex-none text-accent">%s</span><span>%s</span></dt>'
         '<dd class="ps-6 text-[0.92rem] leading-relaxed text-text-secondary">%s</dd></div>'
-        % (html.escape(f["question"]), f["answer"])
+        % (html.escape(t("faq_q_label")), html.escape(f["question"]), f["answer"])
         for f in tool["faq"]
     )
     bg = "bg-bg-alt" if alt else "bg-bg"

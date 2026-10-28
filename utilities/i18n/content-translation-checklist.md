@@ -201,8 +201,8 @@ Tick a box only when ALL are true: written in `src/content/i18n/<lang>/<slug>.js
 
 ## es - Spanish
 
-- [ ] `es` glossary reviewed
-- [ ] `es` pilots reviewed (`percentage-calculator`, `compound-interest-calculator`, `gpa-to-percentage-calculator`)
+- [x] `es` glossary reviewed (self-review by Claude, no native reviewer)
+- [x] `es` pilots reviewed (self-review by Claude, no native reviewer) (`percentage-calculator`, `compound-interest-calculator`, `gpa-to-percentage-calculator`)
 - [x] `/es/` article (1,759 words, 6 sections)
 - [x] `/es/` FAQ (6 Q&A)
 - [x] `/es/alcohol-proof-calculator/` article (1,601 words, 5 sections)
@@ -256,7 +256,7 @@ Tick a box only when ALL are true: written in `src/content/i18n/<lang>/<slug>.js
 - [x] `/es/slope-percentage-calculator/` article (1,240 words, 5 sections)
 - [x] `/es/tip-calculator/` article (1,479 words, 8 sections)
 - [x] `/es/win-loss-percentage-calculator/` article (1,816 words, 9 sections)
-- [ ] `es` final: validate --all, build, silo audit, functional test, browser spot-check, committed
+- [x] `es` final: validate --all, build, silo audit, functional test, browser spot-check, committed
 
 ## fr - French
 
