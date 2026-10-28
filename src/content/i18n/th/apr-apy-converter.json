@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "th",
+  "meta_title": "ตัวแปลง APR เป็น APY | แปลงเป็นผลตอบแทนต่อปี",
+  "meta_description": "ตัวแปลง APR เป็น APY ฟรี ใส่ APR และความถี่ในการทบต้นเพื่อดูผลตอบแทนต่อปี (APY) ที่เทียบเท่าได้ทันที",
+  "h1": "ตัวแปลง APR เป็น APY",
+  "subtitle": "ใส่ <strong>APR</strong> และ<strong>ความถี่ในการทบต้น</strong> แล้ว<strong>ตัวแปลง APR เป็น APY</strong> นี้จะแสดง<strong>ผลตอบแทนต่อปี</strong>ที่เทียบเท่า มีประโยชน์เมื่อต้องเปรียบเทียบบัญชีที่แสดงอัตราต่างกัน",
+  "hint": "ใส่ APR และจำนวนงวดทบต้นต่อปี เพื่อดู APY ที่เทียบเท่า",
+  "long_tail_anchor": "เปรียบเทียบอัตรา APR และ APY",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "จำนวนครั้งที่ทบต้น / ปี",
+    "e.g. 12": "เช่น 12",
+    "e.g. 6": "เช่น 6"
+  }
+}

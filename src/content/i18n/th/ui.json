@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "ข้ามไปยังเนื้อหา",
+  "primary_nav": "เมนูหลัก",
+  "toggle_dark": "สลับโหมดมืด",
+  "open_menu": "เปิดเมนู",
+  "close_menu": "ปิดเมนู",
+  "site_nav": "การนำทางไซต์",
+  "home": "หน้าแรก",
+  "more": "เพิ่มเติม",
+  "language": "ภาษา",
+  "reset": "รีเซ็ตเครื่องคำนวณ",
+  "calculate": "คำนวณ",
+  "related_aria": "เครื่องคำนวณที่เกี่ยวข้อง",
+  "faq_heading": "คำถามที่พบบ่อย",
+  "toc_label": "สารบัญ",
+  "copy_result": "คัดลอกผลลัพธ์",
+  "copied": "คัดลอกแล้ว!",
+  "company": "บริษัท",
+  "footer_site_map": "แผนผังเว็บไซต์",
+  "footer_links": "ลิงก์ท้ายหน้า",
+  "rights": "สงวนลิขสิทธิ์",
+  "footer_tagline": "เครื่องคำนวณเปอร์เซ็นต์ออนไลน์ฟรี ทุกการคำนวณทำงานในเบราว์เซอร์ของคุณทั้งหมด ได้ผลลัพธ์ทันที ไม่ต้องสมัครสมาชิก",
+  "native_name": "ไทย",
+  "nav_groups": {
+    "core": {
+      "label": "เครื่องมือเปอร์เซ็นต์พื้นฐาน",
+      "short_label": "พื้นฐาน",
+      "tagline": "สิ่งสำคัญ: หาเปอร์เซ็นต์ เพิ่มหรือลดตัวเลข และเปรียบเทียบสองค่า"
+    },
+    "converters": {
+      "label": "ตัวแปลง",
+      "short_label": "ตัวแปลง",
+      "tagline": "แปลงระหว่างเปอร์เซ็นต์ เศษส่วน ทศนิยม อัตราส่วน และรูปแบบหน่วยอื่น ๆ"
+    },
+    "education": {
+      "label": "การศึกษา",
+      "short_label": "การศึกษา",
+      "tagline": "การแปลง GPA, CGPA, SGPA, คะแนน และเปอร์เซ็นไทล์สำหรับนักเรียนนักศึกษา"
+    },
+    "finance": {
+      "label": "การเงินและธุรกิจ",
+      "short_label": "การเงิน",
+      "tagline": "อัตราดอกเบี้ย อัตรากำไร มาร์กอัป การขึ้นเงินเดือน และการเติบโตของธุรกิจ"
+    },
+    "everyday": {
+      "label": "ชีวิตประจำวันและเฉพาะทาง",
+      "short_label": "ประจำวัน",
+      "tagline": "ทิป อัตราชนะ สัดส่วนการอบขนม ต้นทุนอาหาร และความเข้มข้นเปอร์เซ็นต์ของสารละลาย"
+    }
+  },
+  "company_links": {
+    "/about": "เกี่ยวกับเรา",
+    "/contact": "ติดต่อเรา",
+    "/sitemap": "แผนผังเว็บไซต์",
+    "/disclaimer": "ข้อจำกัดความรับผิดชอบ",
+    "/privacy-policy": "นโยบายความเป็นส่วนตัว",
+    "/terms-of-use": "ข้อกำหนดการใช้งาน"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "เครื่องคำนวณค่าโปรฟแอลกอฮอล์",
+    "apr-apy-converter": "ตัวแปลง APR เป็น APY",
+    "apr-calculator": "เครื่องคำนวณ APR",
+    "apy-calculator": "เครื่องคำนวณ APY",
+    "average-percentage-calculator": "เครื่องคำนวณเปอร์เซ็นต์เฉลี่ย",
+    "bakers-percentage-calculator": "เครื่องคำนวณเปอร์เซ็นต์เบเกอร์",
+    "basis-points-calculator": "เครื่องคำนวณเบซิสพอยต์",
+    "cgpa-to-percentage-calculator": "เครื่องคำนวณ CGPA เป็นเปอร์เซ็นต์",
+    "commission-calculator": "เครื่องคำนวณคอมมิชชัน",
+    "compound-interest-calculator": "เครื่องคำนวณดอกเบี้ยทบต้น",
+    "decimal-to-percentage-calculator": "เครื่องคำนวณทศนิยมเป็นเปอร์เซ็นต์",
+    "depreciation-calculator": "เครื่องคำนวณค่าเสื่อมราคา",
+    "food-cost-percentage-calculator": "เครื่องคำนวณเปอร์เซ็นต์ต้นทุนอาหาร",
+    "fraction-to-percentage-calculator": "เครื่องคำนวณเศษส่วนเป็นเปอร์เซ็นต์",
+    "gpa-to-percentage-calculator": "เครื่องคำนวณ GPA เป็นเปอร์เซ็นต์",
+    "gross-margin-calculator": "เครื่องคำนวณอัตรากำไรขั้นต้น",
+    "loan-interest-calculator": "เครื่องคำนวณดอกเบี้ยเงินกู้",
+    "marks-percentage-calculator": "เครื่องคำนวณเปอร์เซ็นต์คะแนน",
+    "markup-calculator": "เครื่องคำนวณมาร์กอัป",
+    "percent-solution-calculator": "เครื่องคำนวณสารละลายเปอร์เซ็นต์",
+    "percentage-calculator": "เครื่องคำนวณเปอร์เซ็นต์",
+    "percentage-change-calculator": "เครื่องคำนวณการเปลี่ยนแปลงเป็นเปอร์เซ็นต์",
+    "percentage-decrease-calculator": "เครื่องคำนวณเปอร์เซ็นต์ที่ลดลง",
+    "percentage-difference-calculator": "เครื่องคำนวณส่วนต่างเปอร์เซ็นต์",
+    "percentage-error-calculator": "เครื่องคำนวณความคลาดเคลื่อนเปอร์เซ็นต์",
+    "percentage-growth-calculator": "เครื่องคำนวณการเติบโตเป็นเปอร์เซ็นต์",
+    "percentage-increase-calculator": "เครื่องคำนวณเปอร์เซ็นต์ที่เพิ่มขึ้น",
+    "percentage-of-a-percentage-calculator": "เครื่องคำนวณเปอร์เซ็นต์ของเปอร์เซ็นต์",
+    "percentage-off-calculator": "เครื่องคำนวณส่วนลด",
+    "percentage-point-calculator": "เครื่องคำนวณเปอร์เซ็นต์พอยต์",
+    "percentile-to-percentage-calculator": "เครื่องคำนวณเปอร์เซ็นไทล์เป็นเปอร์เซ็นต์",
+    "ppm-to-percentage-calculator": "เครื่องคำนวณ PPM เป็นเปอร์เซ็นต์",
+    "profit-margin-calculator": "เครื่องคำนวณอัตรากำไร",
+    "profit-percentage-calculator": "เครื่องคำนวณเปอร์เซ็นต์กำไร",
+    "ratio-to-percentage-calculator": "เครื่องคำนวณอัตราส่วนเป็นเปอร์เซ็นต์",
+    "reverse-percentage-calculator": "เครื่องคำนวณเปอร์เซ็นต์ย้อนกลับ",
+    "salary-increase-calculator": "เครื่องคำนวณการขึ้นเงินเดือน",
+    "sgpa-to-percentage-calculator": "เครื่องคำนวณ SGPA เป็นเปอร์เซ็นต์",
+    "simple-interest-calculator": "เครื่องคำนวณดอกเบี้ยแบบง่าย",
+    "slope-percentage-calculator": "เครื่องคำนวณความลาดชันเป็นเปอร์เซ็นต์",
+    "tip-calculator": "เครื่องคำนวณทิป",
+    "win-loss-percentage-calculator": "เครื่องคำนวณอัตราชนะ"
+  }
+}
