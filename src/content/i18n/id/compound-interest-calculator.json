@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Bunga Majemuk | Hitung Pertumbuhan dari Waktu ke Waktu",
+  "meta_description": "Kalkulator bunga majemuk gratis. Masukkan pokok, suku bunga tahunan, waktu, dan frekuensi pemajemukan untuk langsung menghitung bunga yang diperoleh dan jumlah total.",
+  "h1": "Kalkulator Bunga Majemuk",
+  "subtitle": "Masukkan <strong>pokok</strong>, <strong>suku bunga tahunan</strong>, <strong>waktu</strong>, dan <strong>frekuensi pemajemukan</strong>, dan <strong>kalkulator bunga majemuk</strong> ini langsung menampilkan <strong>bunga yang diperoleh</strong> dan <strong>jumlah total</strong>.",
+  "hint": "Masukkan pokok, suku bunga, waktu, dan frekuensi pemajemukan untuk mendapatkan jumlah total.",
+  "long_tail_anchor": "Frekuensi pemajemukan dan pertumbuhan",
+  "card_strings": {
+    "Annual Rate": "Suku bunga tahunan",
+    "Compounding / Year": "Pemajemukan / tahun",
+    "Interest Earned:": "Bunga diperoleh:",
+    "Principal ($)": "Pokok ($)",
+    "Time (Years)": "Waktu (tahun)",
+    "Total Amount:": "Jumlah total:",
+    "e.g. 1000": "mis. 1000",
+    "e.g. 12": "mis. 12",
+    "e.g. 3": "mis. 3",
+    "e.g. 5": "mis. 5"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Persentase Baker | Hitung Rasio Bahan",
+  "meta_description": "Kalkulator persentase baker gratis. Masukkan berat tepung dan berat bahan untuk langsung menghitung persentase baker bahan tersebut.",
+  "h1": "Kalkulator Persentase Baker",
+  "subtitle": "Masukkan <strong>berat tepung</strong> dan <strong>berat bahan</strong>, dan <strong>kalkulator persentase baker</strong> ini langsung menghitung <strong>persentase baker</strong> bahan tersebut: setiap bahan dinyatakan relatif terhadap tepung.",
+  "hint": "Masukkan berat tepung dan bahan untuk mendapatkan persentase baker.",
+  "long_tail_anchor": "Hidrasi adonan dan rasio bahan",
+  "card_strings": {
+    "Baker's Percentage:": "Persentase baker:",
+    "Flour Weight (g)": "Berat tepung (g)",
+    "Ingredient Weight (g)": "Berat bahan (g)",
+    "e.g. 350": "mis. 350",
+    "e.g. 500": "mis. 500"
+  }
+}

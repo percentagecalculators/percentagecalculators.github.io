@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Kesalahan Persentase | Galat Relatif untuk Laboratorium",
+  "meta_description": "Kalkulator kesalahan persentase gratis. Hitung kesalahan persentase antara nilai eksperimen dan teori untuk praktikum fisika, kimia, dan biologi.",
+  "h1": "Kalkulator Kesalahan Persentase",
+  "subtitle": "Masukkan <strong>nilai terukur (eksperimen)</strong> dan <strong>nilai sebenarnya (teori)</strong>, dan <strong>kalkulator kesalahan persentase</strong> ini menampilkan <strong>kesalahan persentase</strong> di antara keduanya. Rumus standar yang dipakai: |terukur − sebenarnya| ÷ |sebenarnya| × 100.",
+  "hint": "Masukkan nilai terukur dan nilai sebenarnya untuk mendapatkan kesalahan persentase.",
+  "long_tail_anchor": "Nilai eksperimen versus teori",
+  "card_strings": {
+    "Absolute Error:": "Kesalahan absolut:",
+    "Enter expected value": "Masukkan nilai yang diharapkan",
+    "Enter measured value": "Masukkan nilai terukur",
+    "Experimental (Measured)": "Eksperimen (terukur)",
+    "Percentage Error:": "Kesalahan persentase:",
+    "Theoretical (Expected)": "Teori (diharapkan)"
+  }
+}

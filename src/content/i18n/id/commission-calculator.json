@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Komisi | Hitung Komisi Penjualan yang Diperoleh",
+  "meta_description": "Kalkulator komisi gratis. Masukkan jumlah penjualan dan tarif komisi untuk langsung menghitung komisi yang Anda peroleh.",
+  "h1": "Kalkulator Komisi",
+  "subtitle": "Masukkan <strong>jumlah penjualan</strong> dan <strong>tarif komisi</strong> Anda, dan <strong>kalkulator komisi</strong> ini langsung menghitung <strong>komisi yang Anda peroleh</strong>.",
+  "hint": "Masukkan jumlah penjualan dan tarif komisi untuk mendapatkan komisi yang diperoleh.",
+  "long_tail_anchor": "Persentase komisi penjualan",
+  "card_strings": {
+    "Commission Earned:": "Komisi diperoleh:",
+    "Commission Rate": "Tarif komisi",
+    "Sales Amount ($)": "Jumlah penjualan ($)",
+    "e.g. 10": "mis. 10",
+    "e.g. 5000": "mis. 5000"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "decimal-to-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Desimal ke Persentase | Ubah Desimal ke %",
+  "meta_description": "Kalkulator desimal ke persentase gratis. Masukkan nilai desimal apa pun untuk langsung mengubahnya menjadi persentase: hasil akurat untuk sekolah, pekerjaan, atau keuangan.",
+  "h1": "Kalkulator Desimal ke Persentase",
+  "subtitle": "Masukkan <strong>nilai desimal</strong> dan <strong>kalkulator desimal ke persentase</strong> ini langsung mengubahnya menjadi <strong>persentase</strong>.",
+  "hint": "Masukkan nilai desimal untuk mendapatkan persentase yang setara.",
+  "long_tail_anchor": "Ubah desimal ke persen",
+  "card_strings": {
+    "Decimal Value": "Nilai desimal",
+    "Percentage:": "Persentase:",
+    "e.g. 0.25": "mis. 0.25"
+  }
+}

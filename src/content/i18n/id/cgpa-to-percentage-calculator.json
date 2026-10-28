@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator CGPA ke Persentase | Ubah CGPA 10 Poin ke %",
+  "meta_description": "Kalkulator CGPA ke persentase gratis dengan rumus standar CGPA 10 poin × 9,5. Ubah CGPA Anda menjadi persentase untuk catatan akademik.",
+  "h1": "Kalkulator CGPA ke Persentase",
+  "subtitle": "Masukkan <strong>CGPA</strong> Anda pada <strong>skala standar 10 poin</strong> dan <strong>kalkulator CGPA ke persentase</strong> ini menerapkan rumus yang umum dipakai, <strong>CGPA × 9,5</strong>, untuk langsung memberi Anda <strong>persentase</strong> yang setara.",
+  "hint": "Masukkan CGPA 10 poin Anda untuk mendapatkan persentase yang setara.",
+  "long_tail_anchor": "Ubah CGPA 10 poin ke persen",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA (dari 10)",
+    "Percentage:": "Persentase:",
+    "e.g. 8.2": "mis. 8.2"
+  }
+}

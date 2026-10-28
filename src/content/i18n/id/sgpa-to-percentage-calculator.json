@@ -1,0 +1,15 @@
+{
+  "slug": "sgpa-to-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator SGPA ke Persentase | Ubah SGPA ke Persen",
+  "meta_description": "Kalkulator SGPA ke persentase gratis dengan rumus standar SGPA × 9,5. Langsung ubah SGPA semester Anda menjadi persentase yang setara.",
+  "h1": "Kalkulator SGPA ke Persentase",
+  "subtitle": "Masukkan <strong>SGPA</strong> Anda dan <strong>kalkulator SGPA ke persentase</strong> ini menerapkan rumus standar <strong>SGPA × 9,5</strong> yang dipakai sebagian besar universitas di India untuk langsung memberi Anda <strong>persentase</strong> yang setara.",
+  "hint": "Masukkan SGPA semester Anda untuk mendapatkan persentase yang setara.",
+  "long_tail_anchor": "Ubah GPA semester ke persen",
+  "card_strings": {
+    "Percentage:": "Persentase:",
+    "SGPA (out of 10)": "SGPA (dari 10)",
+    "e.g. 7.8": "mis. 7.8"
+  }
+}

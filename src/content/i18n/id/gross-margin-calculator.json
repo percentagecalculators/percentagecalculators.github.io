@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Margin Kotor | Hitung Margin Laba Kotor %",
+  "meta_description": "Kalkulator margin kotor gratis. Masukkan pendapatan dan harga pokok penjualan (HPP) untuk langsung menghitung laba kotor dan persentase margin kotor.",
+  "h1": "Kalkulator Margin Kotor",
+  "subtitle": "Masukkan <strong>pendapatan</strong> dan <strong>harga pokok penjualan (HPP)</strong> Anda, dan <strong>kalkulator margin kotor</strong> ini langsung menghitung <strong>laba kotor</strong> dan <strong>persentase margin kotor</strong> Anda.",
+  "hint": "Masukkan pendapatan dan HPP untuk mendapatkan persentase margin kotor Anda.",
+  "long_tail_anchor": "Persentase margin dari pendapatan dan HPP",
+  "card_strings": {
+    "COGS ($)": "HPP ($)",
+    "Gross Margin:": "Margin kotor:",
+    "Gross Profit:": "Laba kotor:",
+    "Revenue ($)": "Pendapatan ($)",
+    "e.g. 100000": "mis. 100000",
+    "e.g. 65000": "mis. 65000"
+  }
+}

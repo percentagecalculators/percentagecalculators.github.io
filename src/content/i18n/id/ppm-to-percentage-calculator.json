@@ -1,0 +1,15 @@
+{
+  "slug": "ppm-to-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator PPM ke Persentase | Ubah Bagian per Juta",
+  "meta_description": "Kalkulator PPM ke persentase gratis. Masukkan nilai bagian per juta (ppm) untuk langsung mengubahnya menjadi persentase: akurat untuk kimia dan teknik.",
+  "h1": "Kalkulator PPM ke Persentase",
+  "subtitle": "Masukkan nilai dalam <strong>bagian per juta (ppm)</strong> dan <strong>kalkulator PPM ke persentase</strong> ini langsung mengubahnya menjadi <strong>persentase</strong>, berguna untuk pembacaan konsentrasi dan kemurnian.",
+  "hint": "Masukkan nilai PPM untuk mendapatkan persentase yang setara.",
+  "long_tail_anchor": "Dari bagian per juta ke persen",
+  "card_strings": {
+    "PPM": "ppm",
+    "Percentage:": "Persentase:",
+    "e.g. 2500": "mis. 2500"
+  }
+}

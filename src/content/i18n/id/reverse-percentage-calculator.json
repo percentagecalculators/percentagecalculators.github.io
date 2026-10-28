@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Persentase Terbalik | Cari Angka Asli",
+  "meta_description": "Kalkulator persentase terbalik gratis. Temukan angka asli ketika Anda tahu suatu nilai dan persentasenya: hitung harga sebelum diskon dan lainnya.",
+  "h1": "Kalkulator Persentase Terbalik",
+  "subtitle": "Punya angka dan tahu bahwa itu sekian persen dari sesuatu yang lebih besar? Masukkan <strong>nilai yang diketahui</strong> dan <strong>persentase yang diwakilinya</strong>, dan <strong>kalkulator persentase terbalik</strong> ini menghitung mundur untuk menemukan <strong>angka asli</strong>. Jika 30 adalah 25 % dari total, totalnya 120.",
+  "hint": "Masukkan nilai dan persentase yang diwakilinya untuk menemukan angka asli.",
+  "long_tail_anchor": "Cari angka asli",
+  "card_strings": {
+    "Original Total:": "Total asli:",
+    "Value": "Nilai",
+    "e.g. 30": "mis. 30",
+    "e.g. 45": "mis. 45",
+    "is this % of the total": "adalah % ini dari total"
+  }
+}

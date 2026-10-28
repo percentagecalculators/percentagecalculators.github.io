@@ -1,0 +1,16 @@
+{
+  "slug": "percentile-to-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Persentil ke Persentase | Perkirakan Persentase",
+  "meta_description": "Kalkulator persentil ke persentase gratis. Dapatkan perkiraan persentase dengan cepat dari persentil ujian menggunakan rumus pendekatan yang umum dipakai.",
+  "h1": "Kalkulator Persentil ke Persentase",
+  "subtitle": "Masukkan skor <strong>persentil</strong> Anda dan <strong>kalkulator persentil ke persentase</strong> ini memberi <strong>perkiraan persentase</strong> dengan cepat menggunakan pendekatan yang umum dirujuk. Persentil dan persentase mengukur hal yang berbeda, jadi anggap hasil ini sebagai perkiraan, bukan konversi resmi.",
+  "hint": "Masukkan persentil (0–100) untuk mendapatkan perkiraan persentase.",
+  "long_tail_anchor": "Perkirakan persentase dari peringkat persentil",
+  "card_strings": {
+    "%ile": "pers.",
+    "Estimated Percentage:": "Perkiraan persentase:",
+    "Percentile": "Persentil",
+    "e.g. 85": "mis. 85"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Persentase dari Persentase | Gabungkan Dua %",
+  "meta_description": "Kalkulator persentase dari persentase gratis. Kalikan dua persentase berantai, lalu terapkan tarif gabungan ke suatu nilai untuk pajak atau diskon bertingkat.",
+  "h1": "Kalkulator Persentase dari Persentase",
+  "subtitle": "Masukkan dua <strong>persentase</strong> dan <strong>kalkulator persentase dari persentase</strong> ini mengalikannya dengan cara yang benar untuk memberi Anda <strong>persentase gabungan</strong>: tambahkan nilai awal untuk melihat persis bagaimana nilai itu bergerak melalui kedua langkah.",
+  "hint": "Kalikan dua persentase berantai untuk mendapatkan tarif gabungan.",
+  "long_tail_anchor": "Gabungkan dua persentase berantai",
+  "card_strings": {
+    "Apply to a Value (optional)": "Terapkan ke suatu nilai (opsional)",
+    "Combined Percentage:": "Persentase gabungan:",
+    "Final Value:": "Nilai akhir:",
+    "First Percentage": "Persentase pertama",
+    "Second Percentage": "Persentase kedua",
+    "Value After First %:": "Nilai setelah % pertama:",
+    "e.g. 200": "mis. 200",
+    "e.g. 40": "mis. 40",
+    "e.g. 90": "mis. 90"
+  }
+}

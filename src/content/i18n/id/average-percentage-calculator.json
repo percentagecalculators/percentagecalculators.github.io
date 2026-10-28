@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Persentase Rata-rata | Rata-rata Sederhana dan Tertimbang",
+  "meta_description": "Kalkulator persentase rata-rata gratis dengan mode sederhana dan tertimbang. Gabungkan persentase dari kelompok berukuran berbeda dengan benar untuk nilai dan survei.",
+  "h1": "Kalkulator Persentase Rata-rata",
+  "subtitle": "Ketik daftar <strong>persentase</strong> yang dipisahkan koma, dan <strong>kalkulator persentase rata-rata</strong> ini memberi Anda <strong>rata-rata</strong>, <strong>jumlah</strong>, <strong>banyaknya data</strong>, dan rentang nilai Anda. Tambahkan daftar <strong>ukuran sampel</strong> yang sesuai jika kelompoknya tidak sama besar, dan kalkulator otomatis beralih ke <strong>rata-rata tertimbang</strong> yang benar.",
+  "hint": "Masukkan persentase (dan ukuran sampel, jika ada) untuk rata-rata sederhana atau tertimbang.",
+  "long_tail_anchor": "Rata-rata beberapa persentase",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "Tambahkan satu bobot untuk setiap persentase (misalnya jumlah siswa per kelas atau jumlah responden) agar kelompok berukuran berbeda digabungkan dengan benar.",
+    "Average:": "Rata-rata:",
+    "Count:": "Banyaknya data:",
+    "Percentages (comma or space separated)": "Persentase (dipisahkan koma atau spasi)",
+    "Sample Sizes / Weights (optional)": "Ukuran sampel / bobot (opsional)",
+    "Sum:": "Jumlah:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "mis. 30, 50, 20, 40 (kosongkan untuk rata-rata sederhana)",
+    "e.g. 85, 90, 78, 92": "mis. 85, 90, 78, 92"
+  }
+}

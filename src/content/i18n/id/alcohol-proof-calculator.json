@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Proof Alkohol | Ubah Proof ke Persentase ABV",
+  "meta_description": "Kalkulator proof alkohol gratis. Masukkan nilai proof AS untuk langsung mengubahnya menjadi persentase alkohol menurut volume (ABV): cepat, akurat, dan mudah digunakan.",
+  "h1": "Kalkulator Proof Alkohol",
+  "subtitle": "Masukkan nilai <strong>proof alkohol</strong> (skala AS) dan <strong>kalkulator proof alkohol</strong> ini langsung mengubahnya menjadi persentase <strong>alkohol menurut volume (ABV)</strong>.",
+  "hint": "Masukkan nilai proof AS untuk mendapatkan persentase ABV.",
+  "long_tail_anchor": "Pengubah proof ke persentase ABV",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "Proof (AS)",
+    "e.g. 80": "mis. 80"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Bunga Sederhana | Bunga dan Jumlah Total",
+  "meta_description": "Kalkulator bunga sederhana gratis. Masukkan pokok, suku bunga tahunan, dan waktu untuk langsung menghitung bunga yang diperoleh dan jumlah total.",
+  "h1": "Kalkulator Bunga Sederhana",
+  "subtitle": "Masukkan <strong>pokok</strong>, <strong>suku bunga tahunan</strong>, dan <strong>waktu dalam tahun</strong>, dan <strong>kalkulator bunga sederhana</strong> ini langsung menampilkan <strong>bunga yang diperoleh</strong> dan <strong>jumlah total</strong>.",
+  "hint": "Masukkan pokok, suku bunga tahunan, dan waktu untuk mendapatkan bunga dan jumlah total.",
+  "long_tail_anchor": "Rumus pokok, suku bunga, dan waktu",
+  "card_strings": {
+    "Annual Rate": "Suku bunga tahunan",
+    "Interest Earned:": "Bunga diperoleh:",
+    "Principal ($)": "Pokok ($)",
+    "Time (Years)": "Waktu (tahun)",
+    "Total Amount:": "Jumlah total:",
+    "e.g. 1000": "mis. 1000",
+    "e.g. 3": "mis. 3",
+    "e.g. 5": "mis. 5"
+  }
+}

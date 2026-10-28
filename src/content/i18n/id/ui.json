@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "Langsung ke konten",
+  "primary_nav": "Navigasi utama",
+  "toggle_dark": "Ubah mode gelap",
+  "open_menu": "Buka menu",
+  "close_menu": "Tutup menu",
+  "site_nav": "Navigasi situs",
+  "home": "Beranda",
+  "more": "Lainnya",
+  "language": "Bahasa",
+  "reset": "Atur ulang kalkulator",
+  "calculate": "Hitung",
+  "related_aria": "Kalkulator terkait",
+  "faq_heading": "Pertanyaan yang sering diajukan",
+  "toc_label": "Daftar isi",
+  "copy_result": "Salin hasil",
+  "copied": "Tersalin!",
+  "company": "Perusahaan",
+  "footer_site_map": "Peta situs",
+  "footer_links": "Tautan footer",
+  "rights": "Hak cipta dilindungi undang-undang.",
+  "footer_tagline": "Kalkulator persentase online gratis. Setiap perhitungan berjalan sepenuhnya di browser Anda: hasil instan, tanpa perlu mendaftar.",
+  "native_name": "Bahasa Indonesia",
+  "nav_groups": {
+    "core": {
+      "label": "Alat persentase dasar",
+      "short_label": "Dasar",
+      "tagline": "Yang esensial: mencari persentase, menaikkan atau menurunkan angka, dan membandingkan dua nilai."
+    },
+    "converters": {
+      "label": "Pengubah",
+      "short_label": "Pengubah",
+      "tagline": "Ubah antara persentase, pecahan, desimal, rasio, dan bentuk satuan lainnya."
+    },
+    "education": {
+      "label": "Pendidikan",
+      "short_label": "Pendidikan",
+      "tagline": "Konversi GPA, CGPA, SGPA, nilai, dan persentil untuk pelajar."
+    },
+    "finance": {
+      "label": "Keuangan dan bisnis",
+      "short_label": "Keuangan",
+      "tagline": "Suku bunga, margin laba, markup, kenaikan gaji, dan pertumbuhan bisnis."
+    },
+    "everyday": {
+      "label": "Sehari-hari dan khusus",
+      "short_label": "Sehari-hari",
+      "tagline": "Tip, rasio kemenangan, rasio memanggang, biaya makanan, dan konsentrasi persen larutan."
+    }
+  },
+  "company_links": {
+    "/about": "Tentang",
+    "/contact": "Kontak",
+    "/sitemap": "Peta situs",
+    "/disclaimer": "Penafian",
+    "/privacy-policy": "Kebijakan privasi",
+    "/terms-of-use": "Ketentuan penggunaan"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "Kalkulator Proof Alkohol",
+    "apr-apy-converter": "Pengubah APR ke APY",
+    "apr-calculator": "Kalkulator APR",
+    "apy-calculator": "Kalkulator APY",
+    "average-percentage-calculator": "Kalkulator Persentase Rata-rata",
+    "bakers-percentage-calculator": "Kalkulator Persentase Baker",
+    "basis-points-calculator": "Kalkulator Basis Poin",
+    "cgpa-to-percentage-calculator": "Kalkulator CGPA ke Persentase",
+    "commission-calculator": "Kalkulator Komisi",
+    "compound-interest-calculator": "Kalkulator Bunga Majemuk",
+    "decimal-to-percentage-calculator": "Kalkulator Desimal ke Persentase",
+    "depreciation-calculator": "Kalkulator Penyusutan",
+    "food-cost-percentage-calculator": "Kalkulator Persentase Biaya Makanan",
+    "fraction-to-percentage-calculator": "Kalkulator Pecahan ke Persentase",
+    "gpa-to-percentage-calculator": "Kalkulator GPA ke Persentase",
+    "gross-margin-calculator": "Kalkulator Margin Kotor",
+    "loan-interest-calculator": "Kalkulator Bunga Pinjaman",
+    "marks-percentage-calculator": "Kalkulator Persentase Nilai",
+    "markup-calculator": "Kalkulator Markup",
+    "percent-solution-calculator": "Kalkulator Larutan Persen",
+    "percentage-calculator": "Kalkulator Persentase",
+    "percentage-change-calculator": "Kalkulator Perubahan Persentase",
+    "percentage-decrease-calculator": "Kalkulator Penurunan Persentase",
+    "percentage-difference-calculator": "Kalkulator Selisih Persentase",
+    "percentage-error-calculator": "Kalkulator Kesalahan Persentase",
+    "percentage-growth-calculator": "Kalkulator Pertumbuhan Persentase",
+    "percentage-increase-calculator": "Kalkulator Kenaikan Persentase",
+    "percentage-of-a-percentage-calculator": "Kalkulator Persentase dari Persentase",
+    "percentage-off-calculator": "Kalkulator Diskon",
+    "percentage-point-calculator": "Kalkulator Poin Persentase",
+    "percentile-to-percentage-calculator": "Kalkulator Persentil ke Persentase",
+    "ppm-to-percentage-calculator": "Kalkulator PPM ke Persentase",
+    "profit-margin-calculator": "Kalkulator Margin Laba",
+    "profit-percentage-calculator": "Kalkulator Persentase Laba",
+    "ratio-to-percentage-calculator": "Kalkulator Rasio ke Persentase",
+    "reverse-percentage-calculator": "Kalkulator Persentase Terbalik",
+    "salary-increase-calculator": "Kalkulator Kenaikan Gaji",
+    "sgpa-to-percentage-calculator": "Kalkulator SGPA ke Persentase",
+    "simple-interest-calculator": "Kalkulator Bunga Sederhana",
+    "slope-percentage-calculator": "Kalkulator Persentase Kemiringan",
+    "tip-calculator": "Kalkulator Tip",
+    "win-loss-percentage-calculator": "Kalkulator Menang dan Kalah"
+  }
+}

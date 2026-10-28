@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator APR | Suku Bunga Persentase Tahunan",
+  "meta_description": "Kalkulator APR gratis. Langsung ubah suku bunga periodik menjadi Suku Bunga Persentase Tahunan (APR): cara standar pinjaman dan kartu kredit menyatakan biayanya.",
+  "h1": "Kalkulator APR",
+  "subtitle": "Masukkan <strong>suku bunga periodik</strong> dan <strong>jumlah periode per tahun</strong>, dan <strong>kalkulator APR</strong> ini menghitung <strong>Suku Bunga Persentase Tahunan</strong>: cara standar tanpa pemajemukan yang dipakai pemberi pinjaman untuk menyatakan biaya pinjaman.",
+  "hint": "Masukkan suku bunga periodik dan periode per tahun untuk mendapatkan APR.",
+  "long_tail_anchor": "Kalkulator suku bunga persentase tahunan",
+  "card_strings": {
+    "APR:": "APR:",
+    "Periodic Interest Rate": "Suku bunga periodik",
+    "Periods / Year": "Periode / tahun",
+    "e.g. 1.5": "mis. 1.5",
+    "e.g. 12": "mis. 12"
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "about": {
+    "meta_title": "Tentang Kami | Percentage Calculators",
+    "meta_description": "Kenali Percentage Calculators: kumpulan alat persentase gratis yang berjalan di browser, dibuat untuk kecepatan, akurasi, dan kemudahan di perangkat apa pun.",
+    "h1": "Tentang Percentage Calculators",
+    "sections": [
+      {
+        "heading": "Misi kami",
+        "paragraphs": [
+          "Percentage Calculators dibuat dengan tujuan sederhana: membuat perhitungan persentase cepat, akurat, dan dapat diakses semua orang. Entah Anda pelajar yang mengerjakan PR, profesional yang menganalisis metrik bisnis, atau sekadar menghitung tip di restoran, kami siap membantu."
+        ]
+      },
+      {
+        "heading": "Siapa kami",
+        "paragraphs": [
+          "Halo! Saya <strong>Subash Geetha Krishnan</strong>, Tech Lead dengan pengalaman lebih dari 15 tahun di teknologi perusahaan. Berbasis di Singapura, saya menghabiskan karier untuk memecahkan masalah teknis yang rumit dan membangun alat yang mempermudah hidup.",
+          "Setelah bertahun-tahun mencari kalkulator persentase yang sederhana dan andal di internet, dan mendapati kebanyakan penuh iklan atau kurang fitur, saya memutuskan membuat yang lebih baik. Percentage Calculators adalah hasilnya: rangkaian alat yang bersih, cepat, dan sepenuhnya gratis yang tumbuh dari segelintir kalkulator menjadi pustaka lengkap yang mencakup matematika sehari-hari, nilai sekolah, dan keuangan pribadi."
+        ]
+      },
+      {
+        "heading": "Apa yang kami tawarkan",
+        "paragraphs": [
+          "Platform kami kini mencakup 41 kalkulator persentase khusus, diatur dalam lima kategori agar Anda cepat menemukan alat yang tepat:"
+        ],
+        "list": [
+          "<strong>Alat persentase dasar</strong> – Yang esensial: mencari persentase, menaikkan atau menurunkan angka, dan membandingkan dua nilai.",
+          "<strong>Pengubah</strong> – Ubah antara persentase, pecahan, desimal, rasio, dan bentuk satuan lainnya.",
+          "<strong>Pendidikan</strong> – Konversi GPA, CGPA, SGPA, nilai, dan persentil untuk pelajar.",
+          "<strong>Keuangan dan bisnis</strong> – Suku bunga, margin laba, markup, kenaikan gaji, dan pertumbuhan bisnis.",
+          "<strong>Sehari-hari dan khusus</strong> – Tip, rasio memanggang, catatan menang/kalah, dan masalah persentase sekali pakai lainnya."
+        ]
+      },
+      {
+        "heading": "Mengapa memilih kami?",
+        "list": [
+          "<strong>100 % gratis</strong> – Semua alat sepenuhnya gratis tanpa perlu mendaftar",
+          "<strong>Hasil instan</strong> – Perhitungan terjadi saat Anda mengetik, tanpa tombol untuk diklik",
+          "<strong>Ramah seluler</strong> – Berfungsi sempurna di perangkat apa pun",
+          "<strong>Tanpa iklan berlebihan</strong> – Antarmuka bersih yang berfokus pada fungsi",
+          "<strong>Privasi nomor satu</strong> – Kami tidak melacak perhitungan Anda dan tidak menjual data Anda",
+          "<strong>Rumus ditampilkan</strong> – Lihat matematika di balik setiap perhitungan dan belajar sambil jalan"
+        ]
+      },
+      {
+        "heading": "Komitmen kami",
+        "paragraphs": [
+          "Kami berkomitmen menjaga Percentage Calculators tetap gratis, cepat, dan andal. Kami terus meningkatkan alat berdasarkan masukan pengguna dan menambah kalkulator baru untuk mencakup lebih banyak masalah persentase yang dihadapi orang setiap hari.",
+          "Punya saran atau menemukan bug? Kami senang mendengarnya! Kunjungi <a href=\"/contact\">halaman Kontak</a> kami untuk menghubungi kami."
+        ]
+      },
+      {
+        "heading": "Terhubung dengan kami",
+        "paragraphs": [
+          "Ikuti kami di media sosial untuk kabar terbaru, tips, dan lainnya:"
+        ],
+        "list": [
+          "<a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>",
+          "<a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter/X</a>",
+          "<a href=\"https://github.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>",
+          "<a href=\"https://www.facebook.com/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook</a>"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "meta_title": "Kontak | Percentage Calculators",
+    "meta_description": "Hubungi tim Percentage Calculators untuk pertanyaan, masukan, atau laporan bug tentang alat persentase gratis kami. Kami membaca setiap pesan.",
+    "h1": "Hubungi Kami",
+    "sections": [
+      {
+        "heading": "Hubungi kami",
+        "paragraphs": [
+          "Kami senang mendengar dari Anda! Entah Anda punya pertanyaan, saran, menemukan bug, atau sekadar ingin menyapa, jangan ragu untuk menghubungi kami."
+        ]
+      },
+      {
+        "heading": "Temukan kami di internet",
+        "paragraphs": [
+          "<strong>Subash Geetha Krishnan</strong><br>Pendiri dan pengembang, berbasis di Singapura."
+        ],
+        "list": [
+          "<strong>LinkedIn:</strong> <a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">linkedin.com/in/buzzsubash</a>",
+          "<strong>Twitter/X:</strong> <a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">@buzzsubash</a>",
+          "<strong>GitHub:</strong> <a href=\"https://github.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">github.com/buzzsubash</a>",
+          "<strong>Facebook:</strong> <a href=\"https://www.facebook.com/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">facebook.com/buzzsubash</a>",
+          "<strong>Reddit:</strong> <a href=\"https://www.reddit.com/user/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">u/buzzsubash</a>"
+        ]
+      },
+      {
+        "heading": "Bagaimana kami bisa membantu?",
+        "paragraphs": [
+          "Kami siap membantu dengan:"
+        ],
+        "list": [
+          "<strong>Laporan bug</strong> – Menemukan sesuatu yang tidak berfungsi? Beri tahu kami!",
+          "<strong>Permintaan fitur</strong> – Punya ide untuk kalkulator baru atau perbaikan?",
+          "<strong>Pertanyaan umum</strong> – Butuh bantuan memahami cara menggunakan alat kami?",
+          "<strong>Masukan</strong> – Kami menghargai semua masukan, baik positif maupun membangun",
+          "<strong>Pertanyaan kemitraan</strong> – Tertarik untuk berkolaborasi?"
+        ]
+      },
+      {
+        "heading": "Waktu respons",
+        "paragraphs": [
+          "Kami biasanya membalas dalam 24–48 jam.",
+          "Terima kasih telah menggunakan Percentage Calculators!"
+        ]
+      }
+    ]
+  },
+  "disclaimer": {
+    "meta_title": "Penafian | Percentage Calculators",
+    "meta_description": "Penafian Percentage Calculators: alat kami hanya untuk tujuan informasi dan bukan pengganti nasihat profesional.",
+    "h1": "Penafian",
+    "subtitle": "Terakhir diperbarui: Desember 2024",
+    "sections": [
+      {
+        "heading": "Informasi umum",
+        "paragraphs": [
+          "Informasi yang disediakan oleh Percentage Calculators (“kami”) di situs web ini hanya untuk tujuan informasi dan pendidikan umum. Semua informasi di situs disediakan dengan itikad baik; namun, kami tidak membuat pernyataan atau jaminan apa pun, tersurat maupun tersirat, mengenai keakuratan, kecukupan, keabsahan, keandalan, ketersediaan, atau kelengkapan informasi apa pun di situs."
+        ]
+      },
+      {
+        "heading": "Bukan nasihat profesional",
+        "paragraphs": [
+          "Kalkulator dan informasi di situs web ini tidak dimaksudkan sebagai pengganti nasihat profesional. Hasil dari kalkulator kami tidak boleh dijadikan dasar untuk keputusan keuangan, hukum, medis, atau keputusan profesional lainnya. Selalu mintalah saran dari profesional yang berkualifikasi untuk hal-hal tersebut.",
+          "Secara khusus:"
+        ],
+        "list": [
+          "<strong>Keputusan keuangan:</strong> Jangan hanya mengandalkan kalkulator kami untuk keputusan investasi, pajak, atau keuangan besar. Konsultasikan dengan penasihat keuangan atau akuntan yang berkualifikasi.",
+          "<strong>Pekerjaan ilmiah/akademik:</strong> Meskipun kalkulator kami dirancang agar akurat, selalu verifikasi hasil untuk tugas akademik atau penelitian ilmiah.",
+          "<strong>Keputusan bisnis:</strong> Gunakan alat kami sebagai titik awal, tetapi verifikasikan perhitungan yang memengaruhi operasi bisnis kepada profesional yang sesuai."
+        ]
+      },
+      {
+        "heading": "Akurasi perhitungan",
+        "paragraphs": [
+          "Kami berupaya memastikan kalkulator kami memberikan hasil yang akurat. Namun:"
+        ],
+        "list": [
+          "Hasil dapat dipengaruhi oleh pembulatan atau keterbatasan aritmetika titik mengambang",
+          "Kami tidak dapat menjamin akurasi 100 % di semua skenario",
+          "Pengguna bertanggung jawab memverifikasi hasil untuk penggunaan yang kritis",
+          "Kami menyarankan memeriksa ulang perhitungan yang berdampak signifikan"
+        ]
+      },
+      {
+        "heading": "Tautan eksternal",
+        "paragraphs": [
+          "Situs web ini dapat memuat tautan ke situs eksternal yang tidak disediakan atau dikelola oleh kami. Kami tidak menjamin keakuratan, relevansi, ketepatan waktu, atau kelengkapan informasi apa pun di situs eksternal tersebut. Pencantuman tautan tidak serta-merta berarti rekomendasi atau dukungan atas pandangan yang diungkapkan di dalamnya."
+        ]
+      },
+      {
+        "heading": "Pembatasan tanggung jawab",
+        "paragraphs": [
+          "Dalam keadaan apa pun kami tidak bertanggung jawab kepada Anda atas kerugian atau kerusakan apa pun yang timbul akibat penggunaan situs atau ketergantungan pada informasi apa pun di situs. Penggunaan situs dan ketergantungan Anda pada informasi di dalamnya sepenuhnya menjadi risiko Anda sendiri."
+        ]
+      },
+      {
+        "heading": "Perubahan pada penafian ini",
+        "paragraphs": [
+          "Kami berhak mengubah penafian ini kapan saja. Perubahan berlaku segera setelah diposting di situs web. Penggunaan situs web yang berkelanjutan setelah perubahan berarti Anda menerima penafian yang baru."
+        ]
+      },
+      {
+        "heading": "Hubungi kami",
+        "paragraphs": [
+          "Jika Anda memiliki pertanyaan tentang penafian ini, silakan <a href=\"/contact\">hubungi kami</a>."
+        ]
+      }
+    ]
+  },
+  "privacy-policy": {
+    "meta_title": "Kebijakan Privasi | Percentage Calculators",
+    "meta_description": "Kebijakan privasi Percentage Calculators: data apa yang kami kumpulkan (sangat sedikit) dan bagaimana kalkulator gratis kami memperlakukan input Anda.",
+    "h1": "Kebijakan Privasi",
+    "subtitle": "Terakhir diperbarui: Desember 2024",
+    "sections": [
+      {
+        "heading": "Pendahuluan",
+        "paragraphs": [
+          "Percentage Calculators (“kami”) menghormati privasi Anda dan berkomitmen melindungi data pribadi Anda. Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi Anda saat Anda mengunjungi situs web kami."
+        ]
+      },
+      {
+        "heading": "Informasi yang kami kumpulkan",
+        "paragraphs": [
+          "<strong>Informasi yang Anda berikan</strong>",
+          "Kami dapat mengumpulkan informasi yang Anda berikan secara sukarela, seperti:",
+          "<strong>Informasi yang dikumpulkan secara otomatis</strong>",
+          "Saat Anda mengunjungi situs web kami, kami dapat mengumpulkan secara otomatis:",
+          "<strong>Yang tidak kami kumpulkan</strong>",
+          "Kami ingin jelas tentang apa yang <strong>tidak kami kumpulkan</strong>:"
+        ],
+        "list": [
+          "Informasi kontak (alamat email) saat Anda menghubungi kami",
+          "Masukan dan saran yang Anda kirimkan",
+          "Informasi perangkat (jenis browser, sistem operasi)",
+          "Alamat IP (dianonimkan)",
+          "Halaman yang dikunjungi dan waktu yang dihabiskan di halaman",
+          "Situs web perujuk",
+          "Lokasi geografis umum (tingkat negara/kota)",
+          "Kami tidak menyimpan angka yang Anda masukkan ke kalkulator kami",
+          "Kami tidak melacak riwayat perhitungan Anda",
+          "Kami tidak mewajibkan pembuatan akun atau login",
+          "Kami tidak mengumpulkan informasi pembayaran (layanan kami gratis)"
+        ]
+      },
+      {
+        "heading": "Cara kami menggunakan informasi Anda",
+        "paragraphs": [
+          "Kami menggunakan informasi yang dikumpulkan untuk:"
+        ],
+        "list": [
+          "Menyediakan dan memelihara alat kalkulator kami",
+          "Meningkatkan dan mengoptimalkan situs web kami",
+          "Memahami bagaimana pengguna berinteraksi dengan situs kami",
+          "Menanggapi pertanyaan dan masukan Anda",
+          "Mendeteksi dan mencegah masalah teknis"
+        ]
+      },
+      {
+        "heading": "Cookie dan teknologi pelacakan",
+        "paragraphs": [
+          "Kami menggunakan cookie dan teknologi pelacakan serupa untuk meningkatkan pengalaman Anda:",
+          "Anda dapat mengontrol cookie melalui pengaturan browser. Perlu diketahui bahwa menonaktifkan cookie tertentu dapat memengaruhi fungsi situs web."
+        ],
+        "list": [
+          "<strong>Cookie esensial:</strong> Diperlukan untuk fungsi dasar situs web",
+          "<strong>Cookie analitik:</strong> Membantu kami memahami bagaimana pengunjung menggunakan situs kami (Google Analytics)",
+          "<strong>Cookie preferensi:</strong> Mengingat pengaturan Anda (seperti preferensi bahasa)"
+        ]
+      },
+      {
+        "heading": "Layanan pihak ketiga",
+        "paragraphs": [
+          "Kami dapat menggunakan layanan pihak ketiga yang mengumpulkan informasi:",
+          "Pihak ketiga ini memiliki kebijakan privasi sendiri yang mengatur penggunaan informasi yang mereka kumpulkan."
+        ],
+        "list": [
+          "<strong>Google Analytics:</strong> Untuk analisis lalu lintas situs web",
+          "<strong>Mitra periklanan:</strong> Untuk menampilkan iklan yang relevan"
+        ]
+      },
+      {
+        "heading": "Keamanan data",
+        "paragraphs": [
+          "Kami menerapkan langkah-langkah keamanan yang sesuai untuk melindungi informasi Anda. Namun, tidak ada metode transmisi melalui internet yang 100 % aman, dan kami tidak dapat menjamin keamanan mutlak."
+        ]
+      },
+      {
+        "heading": "Hak Anda",
+        "paragraphs": [
+          "Bergantung pada lokasi Anda, Anda mungkin memiliki hak tertentu terkait data pribadi Anda, termasuk:",
+          "Untuk menggunakan hak-hak ini, silakan <a href=\"/contact\">hubungi kami</a>."
+        ],
+        "list": [
+          "Hak untuk mengakses data pribadi Anda",
+          "Hak untuk memperbaiki data yang tidak akurat",
+          "Hak untuk meminta penghapusan data Anda",
+          "Hak untuk menolak pemrosesan data tertentu"
+        ]
+      },
+      {
+        "heading": "Privasi anak",
+        "paragraphs": [
+          "Situs web kami tidak ditujukan untuk anak di bawah 13 tahun. Kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak di bawah 13 tahun. Jika Anda yakin kami telah mengumpulkan informasi dari anak di bawah 13 tahun, harap segera hubungi kami."
+        ]
+      },
+      {
+        "heading": "Perubahan pada kebijakan ini",
+        "paragraphs": [
+          "Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan apa pun dengan memposting kebijakan baru di halaman ini dan memperbarui tanggal “Terakhir diperbarui”."
+        ]
+      },
+      {
+        "heading": "Hubungi kami",
+        "paragraphs": [
+          "Jika Anda memiliki pertanyaan tentang kebijakan privasi ini atau praktik data kami, silakan hubungi kami:"
+        ],
+        "list": [
+          "<strong>Email:</strong> <a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>",
+          "<strong>Halaman kontak:</strong> <a href=\"/contact\">Hubungi Kami</a>"
+        ]
+      }
+    ]
+  },
+  "terms-of-use": {
+    "meta_title": "Ketentuan Penggunaan | Percentage Calculators",
+    "meta_description": "Ketentuan penggunaan kalkulator online gratis Percentage Calculators, mencakup penggunaan yang dapat diterima, tanggung jawab, dan akurasi alat serta hasil kami.",
+    "h1": "Ketentuan Penggunaan",
+    "subtitle": "Terakhir diperbarui: Desember 2024",
+    "sections": [
+      {
+        "heading": "Persetujuan terhadap ketentuan",
+        "paragraphs": [
+          "Dengan mengakses dan menggunakan Percentage Calculators (“Situs Web”), Anda setuju untuk terikat oleh Ketentuan Penggunaan ini. Jika Anda tidak setuju dengan ketentuan ini, harap jangan gunakan situs web kami."
+        ]
+      },
+      {
+        "heading": "Deskripsi layanan",
+        "paragraphs": [
+          "Percentage Calculators menyediakan alat kalkulator online gratis untuk berbagai perhitungan terkait persentase. Layanan kami mencakup, antara lain:"
+        ],
+        "list": [
+          "Perhitungan kenaikan dan penurunan persentase",
+          "Perhitungan perubahan dan selisih persentase",
+          "Perhitungan diskon dan harga promo",
+          "Konversi pecahan ke persentase",
+          "Perhitungan tingkat pertumbuhan",
+          "Perhitungan kesalahan persentase",
+          "Perhitungan persentase rata-rata"
+        ]
+      },
+      {
+        "heading": "Penggunaan yang dapat diterima",
+        "paragraphs": [
+          "Anda setuju untuk menggunakan Situs Web hanya untuk tujuan yang sah. Anda tidak boleh:"
+        ],
+        "list": [
+          "Menggunakan Situs Web dengan cara yang melanggar hukum atau peraturan yang berlaku",
+          "Mencoba memperoleh akses tidak sah ke sistem atau server kami",
+          "Mengganggu atau merusak fungsi Situs Web",
+          "Menggunakan sistem otomatis atau bot untuk mengakses Situs Web secara berlebihan",
+          "Menyalin, mereproduksi, atau mendistribusikan ulang konten kami tanpa izin",
+          "Menggunakan Situs Web untuk mengirimkan malware atau kode berbahaya"
+        ]
+      },
+      {
+        "heading": "Kekayaan intelektual",
+        "paragraphs": [
+          "Situs Web beserta konten asli, fitur, dan fungsinya dimiliki oleh Percentage Calculators dan dilindungi oleh hukum hak cipta, merek dagang, dan kekayaan intelektual internasional lainnya.",
+          "Anda boleh:",
+          "Anda tidak boleh:"
+        ],
+        "list": [
+          "Menggunakan kalkulator kami untuk tujuan pribadi dan pendidikan",
+          "Membagikan tautan ke Situs Web kami",
+          "Merujuk perhitungan kami dengan atribusi yang tepat",
+          "Menyalin atau meniru desain atau kode kalkulator kami",
+          "Menghapus pemberitahuan hak cipta atau kepemilikan apa pun",
+          "Membingkai atau menyematkan Situs Web kami tanpa izin"
+        ]
+      },
+      {
+        "heading": "Penafian jaminan",
+        "paragraphs": [
+          "Situs Web disediakan dengan dasar “APA ADANYA” dan “SEBAGAIMANA TERSEDIA”. Kami tidak memberikan jaminan apa pun, tersurat maupun tersirat, mengenai:",
+          "Silakan lihat <a href=\"/disclaimer\">Penafian</a> kami untuk informasi lebih lanjut."
+        ],
+        "list": [
+          "Keakuratan atau keandalan perhitungan",
+          "Pengoperasian tanpa gangguan atau bebas kesalahan",
+          "Kesesuaian untuk tujuan tertentu",
+          "Keamanan Situs Web"
+        ]
+      },
+      {
+        "heading": "Pembatasan tanggung jawab",
+        "paragraphs": [
+          "Sejauh diizinkan oleh hukum, Percentage Calculators tidak bertanggung jawab atas kerugian tidak langsung, insidental, khusus, konsekuensial, atau punitif, termasuk namun tidak terbatas pada:"
+        ],
+        "list": [
+          "Kehilangan laba atau pendapatan",
+          "Kehilangan data",
+          "Gangguan bisnis",
+          "Setiap kerugian yang timbul dari penggunaan kalkulator kami"
+        ]
+      },
+      {
+        "heading": "Ganti rugi",
+        "paragraphs": [
+          "Anda setuju untuk mengganti rugi dan membebaskan Percentage Calculators, pemiliknya, dan afiliasinya dari klaim, kerugian, kerusakan, tanggung jawab, dan biaya (termasuk biaya hukum) yang timbul dari penggunaan Situs Web atau pelanggaran ketentuan ini."
+        ]
+      },
+      {
+        "heading": "Tautan pihak ketiga",
+        "paragraphs": [
+          "Situs Web kami dapat memuat tautan ke situs pihak ketiga. Kami tidak bertanggung jawab atas konten, keakuratan, atau praktik situs pihak ketiga mana pun. Mengunjungi situs yang ditautkan adalah risiko Anda sendiri."
+        ]
+      },
+      {
+        "heading": "Perubahan layanan",
+        "paragraphs": [
+          "Kami berhak untuk:",
+          "Penggunaan Situs Web yang berkelanjutan setelah perubahan berarti penerimaan ketentuan yang diubah."
+        ],
+        "list": [
+          "Mengubah atau menghentikan bagian mana pun dari Situs Web tanpa pemberitahuan",
+          "Memperbarui Ketentuan Penggunaan ini kapan saja",
+          "Mengubah fitur atau fungsi kalkulator kami"
+        ]
+      },
+      {
+        "heading": "Hukum yang berlaku",
+        "paragraphs": [
+          "Ketentuan Penggunaan ini diatur dan ditafsirkan sesuai dengan hukum Singapura, tanpa memperhatikan ketentuan pertentangan hukumnya."
+        ]
+      },
+      {
+        "heading": "Keterpisahan",
+        "paragraphs": [
+          "Jika ada ketentuan dalam Ketentuan ini yang dinyatakan tidak dapat dilaksanakan, ketentuan lainnya tetap berlaku sepenuhnya."
+        ]
+      },
+      {
+        "heading": "Hubungi kami",
+        "paragraphs": [
+          "Jika Anda memiliki pertanyaan tentang Ketentuan Penggunaan ini, silakan <a href=\"/contact\">hubungi kami</a>."
+        ],
+        "list": [
+          "<strong>Email:</strong> <a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>"
+        ]
+      }
+    ]
+  },
+  "sitemap": {
+    "meta_title": "Peta Situs | Percentage Calculators",
+    "meta_description": "Semua halaman Percentage Calculators yang diatur menurut kategori: daftar lengkap kalkulator persentase, pengubah, dan sumber belajar.",
+    "h1": "Peta Situs",
+    "subtitle": "Semua halaman Percentage Calculators, diatur menurut kategori.",
+    "sections": []
+  }
+}

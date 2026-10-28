@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Bunga Pinjaman | Cicilan Bulanan dan Total Bunga",
+  "meta_description": "Kalkulator bunga pinjaman gratis. Masukkan jumlah pinjaman, suku bunga tahunan, dan jangka waktu untuk langsung menghitung cicilan bulanan (EMI) dan total bunga yang harus dibayar.",
+  "h1": "Kalkulator Bunga Pinjaman",
+  "subtitle": "Masukkan <strong>jumlah pinjaman</strong>, <strong>suku bunga tahunan</strong>, dan <strong>jangka waktu</strong>, dan <strong>kalkulator bunga pinjaman</strong> ini langsung menghitung <strong>cicilan bulanan (EMI)</strong> dan <strong>total bunga</strong> yang akan Anda bayar.",
+  "hint": "Masukkan jumlah pinjaman, suku bunga, dan jangka waktu untuk mendapatkan cicilan bulanan Anda.",
+  "long_tail_anchor": "Cicilan bulanan dan total bunga",
+  "card_strings": {
+    "Annual Rate": "Suku bunga tahunan",
+    "Loan Amount ($)": "Jumlah pinjaman ($)",
+    "Loan Term (Years)": "Jangka waktu pinjaman (tahun)",
+    "Monthly EMI:": "Cicilan bulanan (EMI):",
+    "Total Interest:": "Total bunga:",
+    "e.g. 20000": "mis. 20000",
+    "e.g. 5": "mis. 5",
+    "e.g. 7.5": "mis. 7.5"
+  }
+}

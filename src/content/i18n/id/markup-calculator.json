@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Markup | Harga Jual dari Biaya + %",
+  "meta_description": "Kalkulator markup gratis. Masukkan harga pokok dan persentase markup yang diinginkan untuk langsung menghitung harga jual yang sebaiknya Anda tetapkan.",
+  "h1": "Kalkulator Markup",
+  "subtitle": "Masukkan <strong>harga pokok</strong> dan <strong>persentase markup</strong> yang diinginkan, dan <strong>kalkulator markup</strong> ini langsung menghitung <strong>harga jual</strong> yang sebaiknya Anda tetapkan.",
+  "hint": "Masukkan harga pokok dan % markup untuk mendapatkan harga jual.",
+  "long_tail_anchor": "Dari biaya plus markup ke harga",
+  "card_strings": {
+    "Cost Price ($)": "Harga pokok ($)",
+    "Markup": "Markup",
+    "Markup Amount:": "Jumlah markup:",
+    "Selling Price:": "Harga jual:",
+    "e.g. 30": "mis. 30",
+    "e.g. 40": "mis. 40"
+  }
+}

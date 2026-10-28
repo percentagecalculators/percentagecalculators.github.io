@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Tip | Hitung Tip dan Bagi Tagihan",
+  "meta_description": "Kalkulator tip gratis. Masukkan jumlah tagihan, persentase tip, dan jumlah orang untuk langsung menghitung tip, total, dan jumlah per orang.",
+  "h1": "Kalkulator Tip",
+  "subtitle": "Masukkan <strong>jumlah tagihan</strong>, <strong>persentase tip</strong>, dan <strong>jumlah orang</strong>, dan <strong>kalkulator tip</strong> ini langsung menghitung <strong>tip</strong>, <strong>total</strong>, dan berapa yang <strong>harus dibayar setiap orang</strong>.",
+  "hint": "Masukkan tagihan, % tip, dan jumlah orang untuk membagi.",
+  "long_tail_anchor": "Pembagi tagihan dan tip restoran",
+  "card_strings": {
+    "Bill Amount ($)": "Jumlah tagihan ($)",
+    "Per Person:": "Per orang:",
+    "Split Between": "Bagi antara",
+    "Tip": "Tip",
+    "Tip Amount:": "Jumlah tip:",
+    "Total:": "Total:",
+    "e.g. 18": "mis. 18",
+    "e.g. 4": "mis. 4",
+    "e.g. 80": "mis. 80"
+  }
+}

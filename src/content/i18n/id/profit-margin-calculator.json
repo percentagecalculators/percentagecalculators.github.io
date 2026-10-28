@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Margin Laba | Hitung Margin Laba %",
+  "meta_description": "Kalkulator margin laba gratis. Masukkan harga pokok dan harga jual untuk langsung menghitung laba dan margin laba terhadap harga jual.",
+  "h1": "Kalkulator Margin Laba",
+  "subtitle": "Masukkan <strong>harga pokok</strong> dan <strong>harga jual</strong>, dan <strong>kalkulator margin laba</strong> ini langsung menghitung <strong>laba</strong> dan <strong>margin laba</strong> sebagai persentase dari harga jual.",
+  "hint": "Masukkan harga pokok dan harga jual untuk mendapatkan margin laba Anda.",
+  "long_tail_anchor": "Persentase margin terhadap harga jual",
+  "card_strings": {
+    "Cost Price ($)": "Harga pokok ($)",
+    "Profit Margin:": "Margin laba:",
+    "Profit:": "Laba:",
+    "Selling Price ($)": "Harga jual ($)",
+    "e.g. 40": "mis. 40",
+    "e.g. 55": "mis. 55"
+  }
+}

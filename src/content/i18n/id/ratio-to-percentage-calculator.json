@@ -1,0 +1,18 @@
+{
+  "slug": "ratio-to-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Rasio ke Persentase | Ubah Rasio ke %",
+  "meta_description": "Kalkulator rasio ke persentase gratis. Masukkan kedua bagian rasio untuk langsung melihat total dan berapa persen yang diwakili bagian pertama.",
+  "h1": "Kalkulator Rasio ke Persentase",
+  "subtitle": "Masukkan kedua bagian <strong>rasio</strong> (seperti 3 : 4), dan <strong>kalkulator rasio ke persentase</strong> ini langsung menampilkan <strong>total</strong> dan berapa <strong>persen</strong> yang diwakili bagian pertama.",
+  "hint": "Masukkan kedua bagian rasio untuk mendapatkan persentase dari total.",
+  "long_tail_anchor": "Ubah rasio ke porsi persen",
+  "card_strings": {
+    "A as % of Total:": "A sebagai % dari total:",
+    "Part A": "Bagian A",
+    "Part B": "Bagian B",
+    "Total:": "Total:",
+    "e.g. 3": "mis. 3",
+    "e.g. 4": "mis. 4"
+  }
+}

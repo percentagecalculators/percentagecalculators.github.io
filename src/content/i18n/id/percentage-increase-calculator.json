@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Kenaikan Persentase | Tambahkan Persen ke Suatu Angka",
+  "meta_description": "Kalkulator kenaikan persentase gratis. Langsung tambahkan persentase apa pun ke suatu angka. Hitung kenaikan gaji, markup harga, imbal hasil investasi, dan lainnya.",
+  "h1": "Kalkulator Kenaikan Persentase",
+  "subtitle": "Masukkan <strong>angka awal</strong> dan <strong>persentase yang ditambahkan</strong>, dan <strong>kalkulator kenaikan persentase</strong> ini memberi Anda <strong>jumlah kenaikan</strong> sekaligus <strong>nilai akhir</strong>. Anggap saja sebagai jawaban atas “berapa 200 ditambah 15 %?”, yang kebetulan adalah 230.",
+  "hint": "Masukkan angka dan persentase yang ditambahkan untuk mendapatkan nilai setelah naik.",
+  "long_tail_anchor": "Tambahkan persen ke suatu angka",
+  "card_strings": {
+    "Enter percentage": "Masukkan persentase",
+    "Enter starting number": "Masukkan angka awal",
+    "Increase Amount:": "Jumlah kenaikan:",
+    "Increase by": "Naikkan sebesar",
+    "New Value:": "Nilai baru:",
+    "Original Value": "Nilai awal"
+  }
+}

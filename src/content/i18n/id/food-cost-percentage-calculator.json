@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Persentase Biaya Makanan | Hitung Biaya Menu %",
+  "meta_description": "Kalkulator persentase biaya makanan gratis. Masukkan biaya bahan dan harga menu untuk langsung menghitung persentase biaya makanan suatu menu.",
+  "h1": "Kalkulator Persentase Biaya Makanan",
+  "subtitle": "Masukkan <strong>biaya bahan</strong> dan <strong>harga menu</strong>, dan <strong>kalkulator persentase biaya makanan</strong> ini langsung menghitung <strong>persentase biaya makanan</strong> untuk menu tersebut.",
+  "hint": "Masukkan biaya bahan dan harga menu untuk mendapatkan persentase biaya makanan.",
+  "long_tail_anchor": "Persentase biaya menu restoran",
+  "card_strings": {
+    "Food Cost Percentage:": "Persentase biaya makanan:",
+    "Ingredient Cost ($)": "Biaya bahan ($)",
+    "Menu Price ($)": "Harga menu ($)",
+    "e.g. 14": "mis. 14",
+    "e.g. 3.50": "mis. 3.50"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "id",
+  "meta_title": "Pengubah APR ke APY | Ubah ke Imbal Hasil Persentase Tahunan",
+  "meta_description": "Pengubah APR ke APY gratis. Masukkan APR dan frekuensi pemajemukan untuk langsung melihat Imbal Hasil Persentase Tahunan (APY) yang setara.",
+  "h1": "Pengubah APR ke APY",
+  "subtitle": "Masukkan <strong>APR</strong> dan <strong>frekuensi pemajemukannya</strong>, dan <strong>pengubah APR ke APY</strong> ini menampilkan <strong>Imbal Hasil Persentase Tahunan</strong> yang setara, berguna untuk membandingkan rekening yang dinyatakan secara berbeda.",
+  "hint": "Masukkan APR dan periode pemajemukan per tahun untuk mendapatkan APY yang setara.",
+  "long_tail_anchor": "Bandingkan suku bunga APR dan APY",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Periode pemajemukan / tahun",
+    "e.g. 12": "mis. 12",
+    "e.g. 6": "mis. 6"
+  }
+}

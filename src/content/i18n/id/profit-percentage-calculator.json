@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Persentase Laba | Hitung % Laba terhadap Biaya",
+  "meta_description": "Kalkulator persentase laba gratis. Masukkan harga pokok dan harga jual untuk langsung menghitung jumlah laba dan persentase laba.",
+  "h1": "Kalkulator Persentase Laba",
+  "subtitle": "Masukkan <strong>harga pokok</strong> dan <strong>harga jual</strong>, dan <strong>kalkulator persentase laba</strong> ini langsung menghitung <strong>laba</strong> dan <strong>persentase laba</strong> terhadap biaya.",
+  "hint": "Masukkan harga pokok dan harga jual untuk mendapatkan persentase laba Anda.",
+  "long_tail_anchor": "Persentase laba terhadap harga pokok",
+  "card_strings": {
+    "Cost Price ($)": "Harga pokok ($)",
+    "Profit Percentage:": "Persentase laba:",
+    "Profit:": "Laba:",
+    "Selling Price ($)": "Harga jual ($)",
+    "e.g. 40": "mis. 40",
+    "e.g. 55": "mis. 55"
+  }
+}

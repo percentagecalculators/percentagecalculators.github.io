@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Perubahan Persentase | Kenaikan/Penurunan Persen",
+  "meta_description": "Kalkulator perubahan persentase gratis. Hitung kenaikan atau penurunan persentase antara dua nilai: pantau perubahan saham dan variasi harga.",
+  "h1": "Kalkulator Perubahan Persentase",
+  "subtitle": "Masukkan <strong>nilai lama</strong> dan <strong>nilai baru</strong>, dan <strong>kalkulator perubahan persentase</strong> ini memberi tahu <strong>kenaikan atau penurunan persentase</strong> di antara keduanya. Hasilnya positif untuk kenaikan dan negatif untuk penurunan: dari 80 ke 100 menghasilkan +25 %.",
+  "hint": "Masukkan nilai lama dan baru untuk mendapatkan perubahan persentase di antara keduanya.",
+  "long_tail_anchor": "Kenaikan atau penurunan persen",
+  "card_strings": {
+    "Change Type:": "Jenis perubahan:",
+    "Enter ending value": "Masukkan nilai akhir",
+    "Enter starting value": "Masukkan nilai awal",
+    "New Value (Current)": "Nilai baru (saat ini)",
+    "Old Value (Original)": "Nilai lama (asli)",
+    "Percentage Change:": "Perubahan persentase:"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "fraction-to-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Pecahan ke Persentase | Ubah ke Persen",
+  "meta_description": "Kalkulator pecahan ke persentase gratis. Langsung ubah pecahan apa pun menjadi persentase: cocok untuk nilai ujian, rasio, dan proporsi.",
+  "h1": "Kalkulator Pecahan ke Persentase",
+  "subtitle": "Masukkan <strong>pembilang</strong> (angka atas) dan <strong>penyebut</strong> (angka bawah), dan <strong>kalkulator pecahan ke persentase</strong> ini mengubah pecahan Anda menjadi <strong>persentase</strong> dan <strong>desimal</strong>. Jadi 3/4 menjadi 75 %: ketik saja dan hitungannya berjalan saat Anda mengetik.",
+  "hint": "Masukkan pembilang dan penyebut untuk mengubahnya menjadi persentase.",
+  "long_tail_anchor": "Ubah pecahan ke persen",
+  "card_strings": {
+    "Decimal Value:": "Nilai desimal:",
+    "Denominator": "Penyebut",
+    "Numerator": "Pembilang",
+    "Percentage:": "Persentase:",
+    "e.g. 3": "mis. 3",
+    "e.g. 4": "mis. 4"
+  }
+}

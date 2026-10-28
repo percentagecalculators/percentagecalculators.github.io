@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Pertumbuhan Persentase | Tingkat Pertumbuhan Bisnis",
+  "meta_description": "Kalkulator pertumbuhan persentase gratis. Hitung tingkat pertumbuhan pendapatan, pelanggan, penjualan, dan KPI. Pantau kinerja bisnis dengan metrik yang akurat.",
+  "h1": "Kalkulator Pertumbuhan Persentase",
+  "subtitle": "Masukkan <strong>nilai awal</strong> dan <strong>nilai akhir</strong>, dan <strong>kalkulator pertumbuhan persentase</strong> ini menampilkan <strong>tingkat pertumbuhan</strong> dan <strong>jumlah pertumbuhan</strong>. Kalkulator ini menjawab pertanyaan: berapa persen angka Anda tumbuh dari titik A ke titik B?",
+  "hint": "Masukkan nilai awal dan nilai akhir untuk mendapatkan pertumbuhan persentase.",
+  "long_tail_anchor": "Tingkat pertumbuhan bisnis dan pendapatan",
+  "card_strings": {
+    "Ending value": "Nilai akhir",
+    "Final Value": "Nilai akhir",
+    "Growth Amount:": "Jumlah pertumbuhan:",
+    "Growth Rate:": "Tingkat pertumbuhan:",
+    "Initial Value": "Nilai awal",
+    "Starting value": "Nilai awal"
+  }
+}

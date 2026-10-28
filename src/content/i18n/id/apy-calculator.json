@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator APY | Imbal Hasil Persentase Tahunan",
+  "meta_description": "Kalkulator APY gratis. Langsung ubah suku bunga nominal dan frekuensi pemajemukannya menjadi Imbal Hasil Persentase Tahunan (APY).",
+  "h1": "Kalkulator APY",
+  "subtitle": "Masukkan <strong>suku bunga nominal</strong> dan seberapa sering <strong>dimajemukkan per tahun</strong>, dan <strong>kalkulator APY</strong> ini menghitung <strong>Imbal Hasil Persentase Tahunan</strong> Anda yang sebenarnya: imbal hasil nyata yang akan Anda peroleh.",
+  "hint": "Masukkan suku bunga nominal dan periode pemajemukan per tahun untuk mendapatkan APY Anda.",
+  "long_tail_anchor": "Kalkulator imbal hasil persentase tahunan",
+  "card_strings": {
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Periode pemajemukan / tahun",
+    "Nominal Interest Rate": "Suku bunga nominal",
+    "e.g. 12": "mis. 12",
+    "e.g. 5": "mis. 5"
+  }
+}

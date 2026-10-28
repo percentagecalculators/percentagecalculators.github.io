@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Persentase Nilai | Hitung Persentase Ujian",
+  "meta_description": "Kalkulator persentase nilai gratis. Masukkan nilai yang diperoleh dan nilai total untuk langsung menghitung persentase ujian atau tes Anda.",
+  "h1": "Kalkulator Persentase Nilai",
+  "subtitle": "Masukkan <strong>nilai yang diperoleh</strong> dan <strong>nilai total</strong>, dan <strong>kalkulator persentase nilai</strong> ini langsung menghitung <strong>persentase ujian</strong> Anda: cocok untuk rapor, lembar nilai, dan pengecekan hasil.",
+  "hint": "Masukkan nilai yang diperoleh dan nilai total untuk mendapatkan persentase Anda.",
+  "long_tail_anchor": "Persentase skor ujian dan tes",
+  "card_strings": {
+    "Marks Obtained": "Nilai diperoleh",
+    "Percentage:": "Persentase:",
+    "Total Marks": "Nilai total",
+    "e.g. 450": "mis. 450",
+    "e.g. 500": "mis. 500"
+  }
+}

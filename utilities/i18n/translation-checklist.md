@@ -315,54 +315,54 @@ Files: `src/content/i18n/<lang>/<slug>.json` (tools/home), `src/content/i18n/<la
 
 ## id - Indonesian
 
-- [ ] `/id/` (home, `percentage-calculator`)
-- [ ] `/id/alcohol-proof-calculator/` **new**
-- [ ] `/id/apr-apy-converter/` **new**
-- [ ] `/id/apr-calculator/` **new**
-- [ ] `/id/apy-calculator/` **new**
-- [ ] `/id/average-percentage-calculator/`
-- [ ] `/id/bakers-percentage-calculator/` **new**
-- [ ] `/id/basis-points-calculator/` **new**
-- [ ] `/id/cgpa-to-percentage-calculator/` **new**
-- [ ] `/id/commission-calculator/` **new**
-- [ ] `/id/compound-interest-calculator/` **new**
-- [ ] `/id/decimal-to-percentage-calculator/` **new**
-- [ ] `/id/depreciation-calculator/` **new**
-- [ ] `/id/food-cost-percentage-calculator/` **new**
-- [ ] `/id/fraction-to-percentage-calculator/`
-- [ ] `/id/gpa-to-percentage-calculator/` **new**
-- [ ] `/id/gross-margin-calculator/` **new**
-- [ ] `/id/loan-interest-calculator/` **new**
-- [ ] `/id/marks-percentage-calculator/` **new**
-- [ ] `/id/markup-calculator/` **new**
-- [ ] `/id/percent-solution-calculator/` **new**
-- [ ] `/id/percentage-change-calculator/`
-- [ ] `/id/percentage-decrease-calculator/`
-- [ ] `/id/percentage-difference-calculator/`
-- [ ] `/id/percentage-error-calculator/`
-- [ ] `/id/percentage-growth-calculator/`
-- [ ] `/id/percentage-increase-calculator/`
-- [ ] `/id/percentage-of-a-percentage-calculator/` **new**
-- [ ] `/id/percentage-off-calculator/`
-- [ ] `/id/percentage-point-calculator/` **new**
-- [ ] `/id/percentile-to-percentage-calculator/` **new**
-- [ ] `/id/ppm-to-percentage-calculator/` **new**
-- [ ] `/id/profit-margin-calculator/` **new**
-- [ ] `/id/profit-percentage-calculator/` **new**
-- [ ] `/id/ratio-to-percentage-calculator/` **new**
-- [ ] `/id/reverse-percentage-calculator/`
-- [ ] `/id/salary-increase-calculator/` **new**
-- [ ] `/id/sgpa-to-percentage-calculator/` **new**
-- [ ] `/id/simple-interest-calculator/` **new**
-- [ ] `/id/slope-percentage-calculator/` **new**
-- [ ] `/id/tip-calculator/` **new**
-- [ ] `/id/win-loss-percentage-calculator/` **new**
-- [ ] `/id/page/about/`
-- [ ] `/id/page/contact/`
-- [ ] `/id/page/disclaimer/`
-- [ ] `/id/page/privacy-policy/`
-- [ ] `/id/page/terms-of-use/`
-- [ ] `/id/page/sitemap/` **new**
+- [x] `/id/` (home, `percentage-calculator`)
+- [x] `/id/alcohol-proof-calculator/` **new**
+- [x] `/id/apr-apy-converter/` **new**
+- [x] `/id/apr-calculator/` **new**
+- [x] `/id/apy-calculator/` **new**
+- [x] `/id/average-percentage-calculator/`
+- [x] `/id/bakers-percentage-calculator/` **new**
+- [x] `/id/basis-points-calculator/` **new**
+- [x] `/id/cgpa-to-percentage-calculator/` **new**
+- [x] `/id/commission-calculator/` **new**
+- [x] `/id/compound-interest-calculator/` **new**
+- [x] `/id/decimal-to-percentage-calculator/` **new**
+- [x] `/id/depreciation-calculator/` **new**
+- [x] `/id/food-cost-percentage-calculator/` **new**
+- [x] `/id/fraction-to-percentage-calculator/`
+- [x] `/id/gpa-to-percentage-calculator/` **new**
+- [x] `/id/gross-margin-calculator/` **new**
+- [x] `/id/loan-interest-calculator/` **new**
+- [x] `/id/marks-percentage-calculator/` **new**
+- [x] `/id/markup-calculator/` **new**
+- [x] `/id/percent-solution-calculator/` **new**
+- [x] `/id/percentage-change-calculator/`
+- [x] `/id/percentage-decrease-calculator/`
+- [x] `/id/percentage-difference-calculator/`
+- [x] `/id/percentage-error-calculator/`
+- [x] `/id/percentage-growth-calculator/`
+- [x] `/id/percentage-increase-calculator/`
+- [x] `/id/percentage-of-a-percentage-calculator/` **new**
+- [x] `/id/percentage-off-calculator/`
+- [x] `/id/percentage-point-calculator/` **new**
+- [x] `/id/percentile-to-percentage-calculator/` **new**
+- [x] `/id/ppm-to-percentage-calculator/` **new**
+- [x] `/id/profit-margin-calculator/` **new**
+- [x] `/id/profit-percentage-calculator/` **new**
+- [x] `/id/ratio-to-percentage-calculator/` **new**
+- [x] `/id/reverse-percentage-calculator/`
+- [x] `/id/salary-increase-calculator/` **new**
+- [x] `/id/sgpa-to-percentage-calculator/` **new**
+- [x] `/id/simple-interest-calculator/` **new**
+- [x] `/id/slope-percentage-calculator/` **new**
+- [x] `/id/tip-calculator/` **new**
+- [x] `/id/win-loss-percentage-calculator/` **new**
+- [x] `/id/page/about/`
+- [x] `/id/page/contact/`
+- [x] `/id/page/disclaimer/`
+- [x] `/id/page/privacy-policy/`
+- [x] `/id/page/terms-of-use/`
+- [x] `/id/page/sitemap/` **new**
 
 ## it - Italian
 

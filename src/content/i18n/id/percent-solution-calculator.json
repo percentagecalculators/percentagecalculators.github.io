@@ -1,0 +1,17 @@
+{
+  "slug": "percent-solution-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Larutan Persen | Konsentrasi Massa/Volume",
+  "meta_description": "Kalkulator larutan persen gratis. Masukkan massa zat terlarut dan volume larutan untuk langsung menghitung konsentrasi persen (% b/v).",
+  "h1": "Kalkulator Larutan Persen",
+  "subtitle": "Masukkan <strong>massa zat terlarut</strong> dan <strong>volume larutan</strong>, dan <strong>kalkulator larutan persen</strong> ini langsung menghitung <strong>konsentrasi persen</strong> (% b/v).",
+  "hint": "Masukkan massa zat terlarut dan volume larutan untuk mendapatkan konsentrasi.",
+  "long_tail_anchor": "Konsentrasi persen massa dan volume",
+  "card_strings": {
+    "Concentration (% w/v):": "Konsentrasi (% b/v):",
+    "Mass of Solute (g)": "Massa zat terlarut (g)",
+    "Volume of Solution (mL)": "Volume larutan (mL)",
+    "e.g. 250": "mis. 250",
+    "e.g. 5": "mis. 5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Selisih Persentase | Bandingkan Dua Nilai",
+  "meta_description": "Kalkulator selisih persentase gratis. Bandingkan dua angka dan temukan selisih persentasenya. Menggunakan rata-rata sebagai dasar untuk perbandingan simetris dan tidak bias.",
+  "h1": "Kalkulator Selisih Persentase",
+  "subtitle": "Masukkan <strong>dua nilai</strong> dan <strong>kalkulator selisih persentase</strong> ini memberi tahu seberapa jauh jaraknya sebagai <strong>persentase</strong>, dengan <strong>rata-rata</strong> keduanya sebagai dasar. Berbeda dengan perubahan persentase, urutan tidak berpengaruh di sini: membandingkan 50 dengan 80 memberi hasil yang sama dengan 80 dengan 50.",
+  "hint": "Masukkan dua nilai untuk mendapatkan selisih persentase di antara keduanya.",
+  "long_tail_anchor": "Bandingkan dua angka secara simetris",
+  "card_strings": {
+    "Absolute Difference:": "Selisih absolut:",
+    "Enter first number": "Masukkan angka pertama",
+    "Enter second number": "Masukkan angka kedua",
+    "First Value": "Nilai pertama",
+    "Percentage Difference:": "Selisih persentase:",
+    "Second Value": "Nilai kedua"
+  }
+}

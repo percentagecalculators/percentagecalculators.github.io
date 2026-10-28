@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Persentase Menang/Kalah | Hitung Rasio Kemenangan",
+  "meta_description": "Kalkulator persentase menang dan kalah gratis. Masukkan jumlah menang, kalah, dan seri untuk langsung menghitung persentase kemenangan Anda di olahraga, permainan, atau kompetisi apa pun.",
+  "h1": "Kalkulator Persentase Menang dan Kalah",
+  "subtitle": "Masukkan jumlah <strong>menang</strong>, <strong>kalah</strong>, dan <strong>seri</strong> jika ada, dan <strong>kalkulator persentase menang dan kalah</strong> ini langsung menghitung <strong>persentase kemenangan</strong> Anda.",
+  "hint": "Masukkan jumlah menang, kalah, dan seri untuk mendapatkan persentase kemenangan Anda.",
+  "long_tail_anchor": "Hitung rasio kemenangan olahraga Anda",
+  "card_strings": {
+    "Losses": "Kalah",
+    "Ties": "Seri",
+    "Total Games:": "Total pertandingan:",
+    "Win Percentage:": "Persentase kemenangan:",
+    "Wins": "Menang",
+    "e.g. 10": "mis. 10",
+    "e.g. 18": "mis. 18",
+    "e.g. 2": "mis. 2"
+  }
+}

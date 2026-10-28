@@ -1,0 +1,15 @@
+{
+  "slug": "basis-points-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Basis Poin | Ubah Basis Poin ke Persentase",
+  "meta_description": "Kalkulator basis poin gratis. Masukkan nilai basis poin (bps) untuk langsung mengubahnya menjadi persentase: hasil akurat untuk keuangan dan trading.",
+  "h1": "Kalkulator Basis Poin",
+  "subtitle": "Masukkan nilai dalam <strong>basis poin (bps)</strong> dan <strong>kalkulator basis poin</strong> ini langsung mengubahnya menjadi <strong>persentase</strong>: cara standar dunia keuangan menyatakan perubahan suku bunga yang kecil.",
+  "hint": "Masukkan basis poin untuk mendapatkan persentase yang setara.",
+  "long_tail_anchor": "Ubah basis poin ke persen",
+  "card_strings": {
+    "Basis Points (bps)": "Basis poin (bps)",
+    "Percentage:": "Persentase:",
+    "e.g. 25": "mis. 25"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Diskon | Harga Setelah Diskon dan Penghematan",
+  "meta_description": "Kalkulator diskon persentase gratis. Hitung harga setelah diskon dan penghematan secara instan. Temukan harga akhir setelah diskon apa pun: teman belanja Anda untuk mendapat promo.",
+  "h1": "Kalkulator Diskon",
+  "subtitle": "Ketik <strong>harga asli</strong> dan <strong>persentase diskon</strong>, dan <strong>kalkulator diskon</strong> ini menampilkan <strong>harga setelah diskon</strong> dan persis berapa <strong>uang yang Anda hemat</strong>. Lain kali Anda melihat tulisan “diskon 30 %”, Anda tahu berapa yang sebenarnya dibayar.",
+  "hint": "Masukkan harga asli dan % diskon untuk mendapatkan harga setelah diskon.",
+  "long_tail_anchor": "Pencari diskon dan harga promo",
+  "card_strings": {
+    "Discount": "Diskon",
+    "Enter discount %": "Masukkan % diskon",
+    "Enter price": "Masukkan harga",
+    "Final Price:": "Harga akhir:",
+    "Original Price ($)": "Harga asli ($)",
+    "You Save:": "Anda hemat:"
+  }
+}

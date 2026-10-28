@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Poin Persentase | Selisih dalam Poin",
+  "meta_description": "Kalkulator poin persentase gratis. Masukkan dua persentase untuk langsung melihat selisih dalam poin persentase dan perubahan persentase relatifnya.",
+  "h1": "Kalkulator Poin Persentase",
+  "subtitle": "Masukkan dua <strong>persentase</strong> dan <strong>kalkulator poin persentase</strong> ini menampilkan <strong>selisih dalam poin persentase</strong>, yang tidak sama dengan perubahan persentase relatif, yang juga ditampilkan sebagai pembanding.",
+  "hint": "Masukkan dua persentase untuk mendapatkan selisih dalam poin persentase.",
+  "long_tail_anchor": "Poin persentase versus perubahan persen",
+  "card_strings": {
+    "Percentage A": "Persentase A",
+    "Percentage B": "Persentase B",
+    "Point Difference:": "Selisih poin:",
+    "Relative Change:": "Perubahan relatif:",
+    "e.g. 20": "mis. 20",
+    "e.g. 25": "mis. 25"
+  }
+}

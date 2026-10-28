@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Kenaikan Gaji | Hitung Gaji Baru Anda",
+  "meta_description": "Kalkulator kenaikan gaji gratis. Masukkan gaji Anda saat ini dan persentase kenaikan untuk langsung menghitung jumlah kenaikan dan gaji baru Anda.",
+  "h1": "Kalkulator Kenaikan Gaji",
+  "subtitle": "Masukkan <strong>gaji Anda saat ini</strong> dan <strong>persentase kenaikan</strong>, dan <strong>kalkulator kenaikan gaji</strong> ini langsung menghitung <strong>jumlah kenaikan</strong> dan <strong>gaji baru</strong> Anda.",
+  "hint": "Masukkan gaji saat ini dan % kenaikan untuk mendapatkan gaji baru Anda.",
+  "long_tail_anchor": "Persentase kenaikan dan penyesuaian gaji",
+  "card_strings": {
+    "Current Salary ($)": "Gaji saat ini ($)",
+    "New Salary:": "Gaji baru:",
+    "Raise": "Kenaikan",
+    "Raise Amount:": "Jumlah kenaikan:",
+    "e.g. 5": "mis. 5",
+    "e.g. 60000": "mis. 60000"
+  }
+}

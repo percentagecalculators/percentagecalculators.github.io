@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Persentase Kemiringan | Dari Tinggi/Jarak ke %",
+  "meta_description": "Kalkulator persentase kemiringan gratis. Masukkan beda tinggi dan jarak mendatar untuk langsung menghitung persentase kemiringan dan sudut yang setara dalam derajat.",
+  "h1": "Kalkulator Persentase Kemiringan",
+  "subtitle": "Masukkan <strong>beda tinggi</strong> dan <strong>jarak mendatar</strong>, dan <strong>kalkulator persentase kemiringan</strong> ini langsung menghitung <strong>persentase kemiringan</strong> dan <strong>sudut dalam derajat</strong> yang setara.",
+  "hint": "Masukkan beda tinggi dan jarak mendatar untuk mendapatkan persentase kemiringan dan sudut.",
+  "long_tail_anchor": "Dari beda tinggi per jarak ke persentase kemiringan",
+  "card_strings": {
+    "Angle:": "Sudut:",
+    "Rise": "Beda tinggi",
+    "Run": "Jarak mendatar",
+    "Slope:": "Kemiringan:",
+    "e.g. 100": "mis. 100",
+    "e.g. 5": "mis. 5"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "id",
+  "meta_title": "Kalkulator Penyusutan | Metode Garis Lurus",
+  "meta_description": "Kalkulator penyusutan gratis dengan metode garis lurus. Masukkan biaya aset, nilai sisa, dan umur manfaat untuk menghitung penyusutan tahunan.",
+  "h1": "Kalkulator Penyusutan",
+  "subtitle": "Masukkan <strong>biaya aset</strong>, <strong>nilai sisa</strong>, dan <strong>umur manfaat</strong>, dan <strong>kalkulator penyusutan</strong> ini langsung menghitung <strong>penyusutan tahunan</strong> dengan metode garis lurus.",
+  "hint": "Masukkan biaya aset, nilai sisa, dan umur manfaat untuk mendapatkan penyusutan tahunan.",
+  "long_tail_anchor": "Penyusutan aset garis lurus",
+  "card_strings": {
+    "Annual Depreciation:": "Penyusutan tahunan:",
+    "Asset Cost ($)": "Biaya aset ($)",
+    "Depreciation Rate:": "Tarif penyusutan:",
+    "Salvage Value ($)": "Nilai sisa ($)",
+    "Useful Life (Years)": "Umur manfaat (tahun)",
+    "e.g. 1000": "mis. 1000",
+    "e.g. 10000": "mis. 10000",
+    "e.g. 5": "mis. 5"
+  }
+}
