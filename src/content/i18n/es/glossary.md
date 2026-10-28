@@ -30,3 +30,11 @@ Decisions (final, made 2026-10-28):
 | weighted / unweighted | ponderado / sin ponderar | |
 | credit hours | créditos | |
 | credential evaluation | evaluación de credenciales | WES kept |
+| gross / net profit | beneficio bruto / beneficio neto | not "utilidad" (normalised across all articles) |
+| gratuity | propina (gratificación only as the "gratuity" synonym in tip-calculator) | |
+| COGS | COGS (costo de los bienes vendidos) | acronym kept, glossed once |
+| markdown / sale / clearance | rebaja / oferta / liquidación | |
+| bi-weekly / semi-monthly | quincenal (cada dos semanas) / bimensual (dos veces al mes) | disambiguated in parentheses; review |
+| ppb / ppt | partes por billón / trillón (sentido anglosajón) | glossed once |
+| proof, ABV | proof, ABV | loanwords, as in nav name |
+| w/v, w/w, v/v | w/v, w/w, v/v | LaTeX forces the English abbreviations |
