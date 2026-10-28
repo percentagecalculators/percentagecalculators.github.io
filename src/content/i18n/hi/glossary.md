@@ -39,3 +39,6 @@ Decisions (made 2026-10-28):
 | baker's percentage | बेकर्स प्रतिशत | |
 | ratio / fraction / decimal | अनुपात / भिन्न / दशमलव | |
 | hydration (baking) | हाइड्रेशन (पानी का अनुपात) | |
+
+Open for review (self-review by Claude, no native reviewer): textbook-style terms (भिन्नता गुणांक, सतत चक्रवृद्धि, परिशोधन) may not match how people search; sales-role loanwords (quota, accelerator, clawback); long finance articles deserve a native register read.
+Source note: the English SGPA article body uses (SGPA × 10) − 7.5 while the SGPA page subtitle says SGPA × 9.5; both translations follow the English and disagree the same way.
