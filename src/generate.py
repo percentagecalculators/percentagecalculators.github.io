@@ -1318,6 +1318,13 @@ def render_breadcrumbs(trail):
 # JSON-LD
 # ---------------------------------------------------------------------------
 
+def jsonld_dumps(data):
+    """Compact JSON-LD with real UTF-8 characters (not \\uXXXX escapes, which
+    double the size of CJK/Thai/Arabic text). "</" is escaped so a string can
+    never close the surrounding <script> element."""
+    return json.dumps(data, separators=(",", ":"), ensure_ascii=False).replace("</", "<\\/")
+
+
 def webapp_jsonld(tool, canonical):
     data = {
         "@context": "https://schema.org",
@@ -1330,7 +1337,7 @@ def webapp_jsonld(tool, canonical):
         "operatingSystem": "Any",
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
     }
-    return json.dumps(data, separators=(",", ":"))
+    return jsonld_dumps(data)
 
 
 def faq_jsonld(items):
@@ -1348,7 +1355,7 @@ def faq_jsonld(items):
             for it in items
         ],
     }
-    return '<script type="application/ld+json">%s</script>' % json.dumps(data, separators=(",", ":"))
+    return '<script type="application/ld+json">%s</script>' % jsonld_dumps(data)
 
 
 def breadcrumb_jsonld(trail, domain):
@@ -1361,12 +1368,12 @@ def breadcrumb_jsonld(trail, domain):
             entry["item"] = "https://%s/" % domain if url == "/" else "https://%s%s" % (domain, url)
         items.append(entry)
     data = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items}
-    return '<script type="application/ld+json">%s</script>' % json.dumps(data, separators=(",", ":"))
+    return '<script type="application/ld+json">%s</script>' % jsonld_dumps(data)
 
 
 def website_jsonld(site):
     data = {"@context": "https://schema.org", "@type": "WebSite", "name": site["site_name"], "url": "https://%s%s" % (site["domain"], path_for(LANG, "home", "")), "inLanguage": LANGUAGES[LANG][1]}
-    return '<script type="application/ld+json">%s</script>' % json.dumps(data, separators=(",", ":"))
+    return '<script type="application/ld+json">%s</script>' % jsonld_dumps(data)
 
 
 # ---------------------------------------------------------------------------
