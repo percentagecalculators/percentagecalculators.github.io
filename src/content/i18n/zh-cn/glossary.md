@@ -44,3 +44,7 @@ Decisions (made 2026-10-28):
 ## Open for review (self-review by Claude, no native reviewer)
 
 - `您` frequency; Latin/Chinese spacing convention; whether 毛利率 vs. 毛利 is used consistently.
+- Indian university names are partly transliterated, partly left in English (acronyms kept); Indian/UK grade classes (杰出, 一等, 二等…) and alcohol/commission terms (糖水发酵液, 追回条款, 席位费) are own renderings.
+- The English ppm article claims a percent is "a hundred times" a millionth-slice; the true factor is 10,000. Kept as in English (needs a content decision in the English source).
+- SGPA article follows English (SGPA × 10) − 7.5; the subtitle says × 9.5 (inconsistency in the English source).
+- “6.5%的 APR”-type spacing (no space between % and Chinese) may read oddly.
