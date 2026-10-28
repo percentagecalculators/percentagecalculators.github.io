@@ -1,14 +1,14 @@
 {
   "slug": "gpa-to-percentage-calculator",
   "lang": "de",
-  "meta_title": "GPA-in-Prozent-Rechner | GPA (Skala 4,0) in % umrechnen",
-  "meta_description": "Kostenloser GPA-in-Prozent-Rechner. Rechnen Sie Ihren GPA auf der 4,0-Skala sofort in einen entsprechenden Prozentwert um. Genau, einfach, ohne Anmeldung.",
+  "meta_title": "GPA-in-Prozent-Rechner | GPA (Skala 4.0) in % umrechnen",
+  "meta_description": "Kostenloser GPA-in-Prozent-Rechner. Rechnen Sie Ihren GPA auf der 4.0-Skala sofort in einen entsprechenden Prozentwert um. Genau, einfach, ohne Anmeldung.",
   "h1": "GPA-in-Prozent-Rechner",
-  "subtitle": "Geben Sie Ihren <strong>GPA</strong> auf der <strong>Standardskala von 4,0</strong> ein, und dieser <strong>GPA-in-Prozent-Rechner</strong> rechnet ihn sofort in einen entsprechenden <strong>Prozentwert</strong> um – praktisch für Bewerbungen, Zeugnisse und den Vergleich von Notensystemen.",
-  "hint": "Geben Sie Ihren GPA (Skala 4,0) ein, um den entsprechenden Prozentwert zu erhalten.",
-  "long_tail_anchor": "GPA (Skala 4,0) in Prozent umrechnen",
+  "subtitle": "Geben Sie Ihren <strong>GPA</strong> auf der <strong>Standardskala von 4.0</strong> ein, und dieser <strong>GPA-in-Prozent-Rechner</strong> rechnet ihn sofort in einen entsprechenden <strong>Prozentwert</strong> um – praktisch für Bewerbungen, Zeugnisse und den Vergleich von Notensystemen.",
+  "hint": "Geben Sie Ihren GPA (Skala 4.0) ein, um den entsprechenden Prozentwert zu erhalten.",
+  "long_tail_anchor": "GPA (Skala 4.0) in Prozent umrechnen",
   "card_strings": {
-    "GPA (4.0 Scale)": "GPA (Skala 4,0)",
+    "GPA (4.0 Scale)": "GPA (Skala 4.0)",
     "Percentage:": "Prozentsatz:",
     "e.g. 3.5": "z. B. 3.5"
   }
