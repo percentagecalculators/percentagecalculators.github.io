@@ -1003,6 +1003,24 @@ def render_footer_company(site):
 # can never drift out of sync with each other.
 # ---------------------------------------------------------------------------
 
+# The logo is a raster WebP (green % badge + wordmark, rendered from DM Sans
+# Bold at 3x of a 32px-high logo, transparent background) in a light and a
+# dark variant -- the wordmark colour differs -- swapped by the .dark class.
+# The wordmark is part of the image, so the brand name stays fixed (and
+# un-translated) on every language's pages. alt="" on purpose: no English
+# text in translated pages (the attribute itself must stay for valid HTML).
+LOGO_SIZE = (237, 32)
+
+
+def render_logo(site):
+    w, h = LOGO_SIZE
+    return (
+        '<img src="/logo-light.webp" width="%d" height="%d" alt="" class="logo-img h-8 w-auto dark:hidden">'
+        '<img src="/logo-dark.webp" width="%d" height="%d" alt="" class="logo-img hidden h-8 w-auto dark:block">'
+        % (w, h, w, h)
+    )
+
+
 GLOBE_SVG = '<svg aria-hidden="true" class="h-[18px] w-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>'
 
 
@@ -1048,10 +1066,7 @@ def render_site_header(site, by_slug, alts=None):
         '<a href="#main-content" class="skip-link sr-only focus:not-sr-only focus:fixed focus:left-2 focus:top-2 focus:z-50 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-white">%(skip)s</a>'
         '<header class="relative z-40 border-b border-border bg-bg-alt">'
         '<nav class="top-nav mx-auto flex max-w-7xl items-center gap-3 px-4 py-3 sm:px-6" aria-label="%(primary_nav)s">'
-        '<a href="%(home_href)s" class="logo flex flex-none items-center gap-2.5 text-[1.05rem] font-bold text-text">'
-        '<span class="logo-icon flex h-8 w-8 flex-none items-center justify-center rounded-[10px] bg-gradient-to-br from-accent to-accent-darker text-sm font-extrabold text-white" aria-hidden="true">%%</span>'
-        "<span>%(site_name)s</span>"
-        "</a>"
+        '<a href="%(home_href)s" class="logo flex flex-none items-center">%(logo)s</a>'
         '<div class="category-strip hidden min-w-0 flex-1 items-center justify-end gap-1 overflow-hidden md:flex">'
         "%(category_dropdowns)s%(more_menu)s"
         "</div>"
@@ -1071,6 +1086,7 @@ def render_site_header(site, by_slug, alts=None):
         "hamburger": HAMBURGER_SVG,
         "skip": html.escape(t("skip_to_content")),
         "home_href": localize_href("/"),
+        "logo": render_logo(site),
         "primary_nav": html.escape(t("primary_nav")),
         "toggle_dark": html.escape(t("toggle_dark")),
         "open_menu": html.escape(t("open_menu")),
@@ -1086,10 +1102,7 @@ def render_site_footer(site, by_slug, year="2026"):
         '<footer class="border-t border-border bg-bg-alt">'
         '<div class="footer-inner mx-auto max-w-7xl px-4 py-10 sm:px-6">'
         '<div class="footer-brand-row flex flex-col gap-2 pb-8">'
-        '<a href="%(home_href)s" class="footer-logo flex items-center gap-2.5 text-base font-bold text-text">'
-        '<span class="logo-icon flex h-8 w-8 flex-none items-center justify-center rounded-[10px] bg-gradient-to-br from-accent to-accent-darker text-sm font-extrabold text-white" aria-hidden="true">%%</span>'
-        "<span>%(site_name)s</span>"
-        "</a>"
+        '<a href="%(home_href)s" class="footer-logo flex items-center">%(logo)s</a>'
         '<p class="footer-tagline max-w-md text-sm text-text-secondary">%(footer_tagline)s</p>'
         "</div>"
         '<nav class="footer-mega grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 lg:grid-cols-5" id="all-tools" aria-label="%(footer_site_map)s">'
@@ -1112,6 +1125,7 @@ def render_site_footer(site, by_slug, year="2026"):
         "footer_company": render_footer_company(site),
         "year": year,
         "home_href": localize_href("/"),
+        "logo": render_logo(site),
         "footer_site_map": html.escape(t("footer_site_map")),
         "rights": html.escape(t("rights")),
         "footer_links": html.escape(t("footer_links")),
