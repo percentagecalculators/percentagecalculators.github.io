@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "zh-tw",
+  "meta_title": "佣金計算機 | 計算所得銷售佣金",
+  "meta_description": "免費的佣金計算機。輸入銷售額和佣金率，即可立即算出您所得的佣金。",
+  "h1": "佣金計算機",
+  "subtitle": "輸入您的<strong>銷售額</strong>和<strong>佣金率</strong>，這款<strong>佣金計算機</strong>會立即算出<strong>您所得的佣金</strong>。",
+  "hint": "輸入銷售額和佣金率，即可得到所得佣金。",
+  "long_tail_anchor": "銷售佣金百分比",
+  "card_strings": {
+    "Commission Earned:": "所得佣金：",
+    "Commission Rate": "佣金率",
+    "Sales Amount ($)": "銷售額 ($)",
+    "e.g. 10": "例如：10",
+    "e.g. 5000": "例如：5000"
+  }
+}

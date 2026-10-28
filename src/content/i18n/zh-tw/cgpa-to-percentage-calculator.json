@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "zh-tw",
+  "meta_title": "CGPA 轉百分比計算機 | 將 10 分制 CGPA 轉換為 %",
+  "meta_description": "免費的 CGPA 轉百分比計算機，採用標準的 10 分制 CGPA × 9.5 公式。將您的 CGPA 轉換為百分比，用於高校成績記錄。",
+  "h1": "CGPA 轉百分比計算機",
+  "subtitle": "輸入<strong>標準 10 分制</strong>的 <strong>CGPA</strong>，這款 <strong>CGPA 轉百分比計算機</strong>會套用常用的 <strong>CGPA × 9.5</strong> 公式，立即給出對應的<strong>百分比</strong>。",
+  "hint": "輸入您的 10 分制 CGPA，即可得到對應的百分比。",
+  "long_tail_anchor": "將 10 分制 CGPA 轉換為百分比",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA（滿分 10）",
+    "Percentage:": "百分比：",
+    "e.g. 8.2": "例如：8.2"
+  }
+}

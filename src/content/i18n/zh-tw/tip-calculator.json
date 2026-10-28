@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "zh-tw",
+  "meta_title": "小費計算機 | 計算小費並分攤賬單",
+  "meta_description": "免費的小費計算機。輸入賬單金額、小費百分比和人數，即可立即算出小費、總額以及人均金額。",
+  "h1": "小費計算機",
+  "subtitle": "輸入<strong>賬單金額</strong>、<strong>小費百分比</strong>和<strong>人數</strong>，這款<strong>小費計算機</strong>會立即算出<strong>小費</strong>、<strong>總額</strong>以及<strong>每人應付金額</strong>。",
+  "hint": "輸入賬單金額、小費 % 和分攤人數。",
+  "long_tail_anchor": "餐廳賬單小費與分攤",
+  "card_strings": {
+    "Bill Amount ($)": "賬單金額 ($)",
+    "Per Person:": "人均：",
+    "Split Between": "分攤人數",
+    "Tip": "小費",
+    "Tip Amount:": "小費金額：",
+    "Total:": "總計：",
+    "e.g. 18": "例如：18",
+    "e.g. 4": "例如：4",
+    "e.g. 80": "例如：80"
+  }
+}

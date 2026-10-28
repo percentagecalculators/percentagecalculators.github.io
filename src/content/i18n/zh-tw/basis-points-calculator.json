@@ -1,0 +1,15 @@
+{
+  "slug": "basis-points-calculator",
+  "lang": "zh-tw",
+  "meta_title": "基點計算機 | 將基點轉換為百分比",
+  "meta_description": "免費的基點計算機。輸入基點（bps）數值，即可立即轉換為百分比——為金融和交易提供準確的結果。",
+  "h1": "基點計算機",
+  "subtitle": "輸入以<strong>基點（bps）</strong>表示的數值，這款<strong>基點計算機</strong>會立即將其轉換為<strong>百分比</strong>——金融領域表示小幅利率變動的標準方式。",
+  "hint": "輸入基點，即可得到對應的百分比。",
+  "long_tail_anchor": "將基點轉換為百分比",
+  "card_strings": {
+    "Basis Points (bps)": "基點 (bps)",
+    "Percentage:": "百分比：",
+    "e.g. 25": "例如：25"
+  }
+}

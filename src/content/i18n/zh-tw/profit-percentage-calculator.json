@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "zh-tw",
+  "meta_title": "利潤百分比計算機 | 按成本計算利潤 %",
+  "meta_description": "免費的利潤百分比計算機。輸入成本價和售價，即可立即算出利潤金額和利潤百分比。",
+  "h1": "利潤百分比計算機",
+  "subtitle": "輸入<strong>成本價</strong>和<strong>售價</strong>，這款<strong>利潤百分比計算機</strong>會立即算出您的<strong>利潤</strong>以及按成本計算的<strong>利潤百分比</strong>。",
+  "hint": "輸入成本價和售價，即可得到您的利潤百分比。",
+  "long_tail_anchor": "按成本價計算的利潤百分比",
+  "card_strings": {
+    "Cost Price ($)": "成本價 ($)",
+    "Profit Percentage:": "利潤百分比：",
+    "Profit:": "利潤：",
+    "Selling Price ($)": "售價 ($)",
+    "e.g. 40": "例如：40",
+    "e.g. 55": "例如：55"
+  }
+}

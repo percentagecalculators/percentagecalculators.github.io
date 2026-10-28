@@ -1,0 +1,15 @@
+{
+  "slug": "sgpa-to-percentage-calculator",
+  "lang": "zh-tw",
+  "meta_title": "SGPA 轉百分比計算機 | 將 SGPA 轉換為百分比",
+  "meta_description": "免費的 SGPA 轉百分比計算機，採用標準公式 SGPA × 9.5。立即將您的學期 SGPA 轉換為對應的百分比。",
+  "h1": "SGPA 轉百分比計算機",
+  "subtitle": "輸入您的 <strong>SGPA</strong>，這款 <strong>SGPA 轉百分比計算機</strong>會套用大多數印度大學使用的標準公式 <strong>SGPA × 9.5</strong>，立即給出對應的<strong>百分比</strong>。",
+  "hint": "輸入您的學期 SGPA，即可得到對應的百分比。",
+  "long_tail_anchor": "將學期 GPA 轉換為百分比",
+  "card_strings": {
+    "Percentage:": "百分比：",
+    "SGPA (out of 10)": "SGPA（滿分 10）",
+    "e.g. 7.8": "例如：7.8"
+  }
+}

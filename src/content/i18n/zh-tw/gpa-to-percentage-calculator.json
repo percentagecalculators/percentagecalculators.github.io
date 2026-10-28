@@ -1,0 +1,15 @@
+{
+  "slug": "gpa-to-percentage-calculator",
+  "lang": "zh-tw",
+  "meta_title": "GPA 轉百分比計算機 | 將 4.0 制 GPA 轉換為 %",
+  "meta_description": "免費的 GPA 轉百分比計算機。立即將 4.0 制 GPA 轉換為對應的百分比。準確、簡單，無需註冊。",
+  "h1": "GPA 轉百分比計算機",
+  "subtitle": "輸入<strong>標準 4.0 制</strong>的 <strong>GPA</strong>，這款 <strong>GPA 轉百分比計算機</strong>會立即將其轉換為對應的<strong>百分比</strong>，方便申請、成績單和不同評分體系的比較。",
+  "hint": "輸入您的 4.0 制 GPA，即可得到對應的百分比。",
+  "long_tail_anchor": "將 4.0 制 GPA 轉換為百分比",
+  "card_strings": {
+    "GPA (4.0 Scale)": "GPA（4.0 制）",
+    "Percentage:": "百分比：",
+    "e.g. 3.5": "例如：3.5"
+  }
+}

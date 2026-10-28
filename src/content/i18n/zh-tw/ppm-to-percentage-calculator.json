@@ -1,0 +1,15 @@
+{
+  "slug": "ppm-to-percentage-calculator",
+  "lang": "zh-tw",
+  "meta_title": "PPM 轉百分比計算機 | 轉換百萬分率",
+  "meta_description": "免費的 PPM 轉百分比計算機。輸入百萬分率（ppm）數值，即可立即轉換為百分比——適用於化學和工程的準確結果。",
+  "h1": "PPM 轉百分比計算機",
+  "subtitle": "輸入以<strong>百萬分率（ppm）</strong>表示的數值，這款 <strong>PPM 轉百分比計算機</strong>會立即將其轉換為<strong>百分比</strong>，方便讀取濃度和純度資料。",
+  "hint": "輸入 PPM 數值，即可得到對應的百分比。",
+  "long_tail_anchor": "從百萬分率到百分比",
+  "card_strings": {
+    "PPM": "ppm",
+    "Percentage:": "百分比：",
+    "e.g. 2500": "例如：2500"
+  }
+}

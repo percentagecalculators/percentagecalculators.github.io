@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "跳到內容",
+  "primary_nav": "主導航",
+  "toggle_dark": "切換深色模式",
+  "open_menu": "開啟選單",
+  "close_menu": "關閉選單",
+  "site_nav": "站點導航",
+  "home": "首頁",
+  "more": "更多",
+  "language": "語言",
+  "reset": "重置計算機",
+  "calculate": "計算",
+  "related_aria": "相關計算機",
+  "faq_heading": "常見問題",
+  "toc_label": "目錄",
+  "copy_result": "複製結果",
+  "copied": "已複製！",
+  "company": "公司",
+  "footer_site_map": "網站地圖",
+  "footer_links": "頁尾連結",
+  "rights": "保留所有權利。",
+  "footer_tagline": "免費的線上百分比計算機。所有計算完全在您的瀏覽器中進行——即時出結果，無需註冊。",
+  "native_name": "繁體中文",
+  "nav_groups": {
+    "core": {
+      "label": "核心百分比工具",
+      "short_label": "核心",
+      "tagline": "基礎功能：求百分比、增加或減少一個數，以及比較兩個值。"
+    },
+    "converters": {
+      "label": "換算器",
+      "short_label": "換算",
+      "tagline": "在百分比、分數、小數、比例及其他單位形式之間換算。"
+    },
+    "education": {
+      "label": "教育",
+      "short_label": "教育",
+      "tagline": "面向學生的 GPA、CGPA、SGPA、分數和百分位換算。"
+    },
+    "finance": {
+      "label": "金融與商業",
+      "short_label": "金融",
+      "tagline": "利率、利潤率、加價、加薪和業務增長。"
+    },
+    "everyday": {
+      "label": "日常與特殊用途",
+      "short_label": "日常",
+      "tagline": "小費、勝率、烘焙比例、食材成本和溶液百分比濃度。"
+    }
+  },
+  "company_links": {
+    "/about": "關於我們",
+    "/contact": "聯絡我們",
+    "/sitemap": "網站地圖",
+    "/disclaimer": "免責聲明",
+    "/privacy-policy": "隱私政策",
+    "/terms-of-use": "使用條款"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "酒精度數（Proof）計算機",
+    "apr-apy-converter": "APR 轉 APY 換算器",
+    "apr-calculator": "APR 計算機",
+    "apy-calculator": "APY 計算機",
+    "average-percentage-calculator": "平均百分比計算機",
+    "bakers-percentage-calculator": "烘焙百分比計算機",
+    "basis-points-calculator": "基點計算機",
+    "cgpa-to-percentage-calculator": "CGPA 轉百分比計算機",
+    "commission-calculator": "佣金計算機",
+    "compound-interest-calculator": "複利計算機",
+    "decimal-to-percentage-calculator": "小數轉百分比計算機",
+    "depreciation-calculator": "折舊計算機",
+    "food-cost-percentage-calculator": "食材成本率計算機",
+    "fraction-to-percentage-calculator": "分數轉百分比計算機",
+    "gpa-to-percentage-calculator": "GPA 轉百分比計算機",
+    "gross-margin-calculator": "毛利率計算機",
+    "loan-interest-calculator": "貸款利息計算機",
+    "marks-percentage-calculator": "分數百分比計算機",
+    "markup-calculator": "加價率計算機",
+    "percent-solution-calculator": "百分比溶液計算機",
+    "percentage-calculator": "百分比計算機",
+    "percentage-change-calculator": "百分比變化計算機",
+    "percentage-decrease-calculator": "百分比減少計算機",
+    "percentage-difference-calculator": "百分比差異計算機",
+    "percentage-error-calculator": "百分比誤差計算機",
+    "percentage-growth-calculator": "百分比增長計算機",
+    "percentage-increase-calculator": "百分比增加計算機",
+    "percentage-of-a-percentage-calculator": "百分比的百分比計算機",
+    "percentage-off-calculator": "折扣計算機",
+    "percentage-point-calculator": "百分點計算機",
+    "percentile-to-percentage-calculator": "百分位轉百分比計算機",
+    "ppm-to-percentage-calculator": "PPM 轉百分比計算機",
+    "profit-margin-calculator": "利潤率計算機",
+    "profit-percentage-calculator": "利潤百分比計算機",
+    "ratio-to-percentage-calculator": "比例轉百分比計算機",
+    "reverse-percentage-calculator": "反向百分比計算機",
+    "salary-increase-calculator": "加薪計算機",
+    "sgpa-to-percentage-calculator": "SGPA 轉百分比計算機",
+    "simple-interest-calculator": "單利計算機",
+    "slope-percentage-calculator": "坡度百分比計算機",
+    "tip-calculator": "小費計算機",
+    "win-loss-percentage-calculator": "勝率計算機"
+  }
+}

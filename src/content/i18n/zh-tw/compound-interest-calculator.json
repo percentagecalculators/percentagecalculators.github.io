@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "zh-tw",
+  "meta_title": "複利計算機 | 計算隨時間的增長",
+  "meta_description": "免費的複利計算機。輸入本金、年利率、期限和複利頻率，即可立即算出所得利息和總金額。",
+  "h1": "複利計算機",
+  "subtitle": "輸入<strong>本金</strong>、<strong>年利率</strong>、<strong>期限</strong>和<strong>複利頻率</strong>，這款<strong>複利計算機</strong>會立即顯示<strong>所得利息</strong>和<strong>總金額</strong>。",
+  "hint": "輸入本金、利率、期限和複利頻率，即可得到總金額。",
+  "long_tail_anchor": "複利頻率與增長",
+  "card_strings": {
+    "Annual Rate": "年利率",
+    "Compounding / Year": "複利次數 / 年",
+    "Interest Earned:": "所得利息：",
+    "Principal ($)": "本金 ($)",
+    "Time (Years)": "期限（年）",
+    "Total Amount:": "總金額：",
+    "e.g. 1000": "例如：1000",
+    "e.g. 12": "例如：12",
+    "e.g. 3": "例如：3",
+    "e.g. 5": "例如：5"
+  }
+}

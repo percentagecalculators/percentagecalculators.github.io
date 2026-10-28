@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "zh-tw",
+  "meta_title": "平均百分比計算機 | 簡單平均與加權平均",
+  "meta_description": "免費的平均百分比計算機，支援簡單平均和加權平均模式。為成績和問卷調查正確合併規模不同的各組百分比。",
+  "h1": "平均百分比計算機",
+  "subtitle": "輸入以逗號分隔的<strong>百分比</strong>列表，這款<strong>平均百分比計算機</strong>會給出這些數值的<strong>平均值</strong>、<strong>總和</strong>、<strong>個數</strong>和範圍。當各組規模不同時，再新增對應的<strong>樣本量</strong>列表，它會自動切換為正確的<strong>加權平均</strong>。",
+  "hint": "輸入百分比（可選樣本量），即可得到簡單平均或加權平均。",
+  "long_tail_anchor": "多個百分比的平均值",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "為每個百分比新增一個權重（例如班級人數或受訪者數量），即可正確合併規模不等的各組。",
+    "Average:": "平均值：",
+    "Count:": "個數：",
+    "Percentages (comma or space separated)": "百分比（用逗號或空格分隔）",
+    "Sample Sizes / Weights (optional)": "樣本量 / 權重（可選）",
+    "Sum:": "總和：",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "例如：30, 50, 20, 40（留空則按簡單平均計算）",
+    "e.g. 85, 90, 78, 92": "例如：85, 90, 78, 92"
+  }
+}

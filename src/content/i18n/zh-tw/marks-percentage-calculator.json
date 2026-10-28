@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "zh-tw",
+  "meta_title": "分數百分比計算機 | 計算考試百分比",
+  "meta_description": "免費的分數百分比計算機。輸入得分和滿分，即可立即算出您的考試或測驗百分比。",
+  "h1": "分數百分比計算機",
+  "subtitle": "輸入<strong>所得分數</strong>和<strong>滿分</strong>，這款<strong>分數百分比計算機</strong>會立即算出您的<strong>考試百分比</strong>——非常適合成績單、分數表和成績核對。",
+  "hint": "輸入所得分數和滿分，即可得到您的百分比。",
+  "long_tail_anchor": "考試和測驗得分百分比",
+  "card_strings": {
+    "Marks Obtained": "所得分數",
+    "Percentage:": "百分比：",
+    "Total Marks": "滿分",
+    "e.g. 450": "例如：450",
+    "e.g. 500": "例如：500"
+  }
+}

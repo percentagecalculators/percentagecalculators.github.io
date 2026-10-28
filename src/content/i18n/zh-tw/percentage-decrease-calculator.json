@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "lang": "zh-tw",
+  "meta_title": "百分比減少計算機 | 減去一個百分比",
+  "meta_description": "免費的百分比減少計算機。立即從一個數中減去任意百分比——計算貶值、減重和預算削減。",
+  "h1": "百分比減少計算機",
+  "subtitle": "輸入您的<strong>起始數值</strong>和<strong>要減去的百分比</strong>，這款<strong>百分比減少計算機</strong>會給出<strong>減少金額</strong>和<strong>最終值</strong>。如果您想知道 500 減去 20% 是多少——答案是 400，您也省了一次心算。",
+  "hint": "輸入數值和要減去的百分比，即可得到減少後的值。",
+  "long_tail_anchor": "從一個數中減去百分比",
+  "card_strings": {
+    "Decrease Amount:": "減少金額：",
+    "Decrease by": "減少",
+    "Enter percentage": "輸入百分比",
+    "Enter starting number": "輸入起始數值",
+    "New Value:": "新值：",
+    "Original Value": "原始值"
+  }
+}

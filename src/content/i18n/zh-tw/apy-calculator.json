@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "zh-tw",
+  "meta_title": "APY 計算機 | 年化收益率",
+  "meta_description": "免費的 APY 計算機。將名義利率和複利頻率立即換算為年化收益率（APY）。",
+  "h1": "APY 計算機",
+  "subtitle": "輸入<strong>名義利率</strong>以及<strong>每年複利的次數</strong>，這款 <strong>APY 計算機</strong>會算出您真實的<strong>年化收益率</strong>——您實際能獲得的回報。",
+  "hint": "輸入名義利率和每年複利次數，即可得到您的 APY。",
+  "long_tail_anchor": "年化收益率計算機",
+  "card_strings": {
+    "APY:": "APY：",
+    "Compounding Periods / Year": "複利次數 / 年",
+    "Nominal Interest Rate": "名義利率",
+    "e.g. 12": "例如：12",
+    "e.g. 5": "例如：5"
+  }
+}

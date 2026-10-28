@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "zh-tw",
+  "meta_title": "百分比誤差計算機 | 實驗相對誤差",
+  "meta_description": "免費的百分比誤差計算機。為物理、化學和生物實驗計算實驗值與理論值之間的百分比誤差。",
+  "h1": "百分比誤差計算機",
+  "subtitle": "輸入您的<strong>測量值（實驗值）</strong>和<strong>真實值（理論值）</strong>，這款<strong>百分比誤差計算機</strong>會顯示兩者之間的<strong>百分比誤差</strong>。它使用標準公式：|測量值 − 真實值| ÷ |真實值| × 100。",
+  "hint": "輸入測量值和真實值，即可得到百分比誤差。",
+  "long_tail_anchor": "實驗值與理論值",
+  "card_strings": {
+    "Absolute Error:": "絕對誤差：",
+    "Enter expected value": "輸入期望值",
+    "Enter measured value": "輸入測量值",
+    "Experimental (Measured)": "實驗值（測量值）",
+    "Percentage Error:": "百分比誤差：",
+    "Theoretical (Expected)": "理論值（期望值）"
+  }
+}

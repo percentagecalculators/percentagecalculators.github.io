@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "zh-tw",
+  "meta_title": "百分比差異計算機 | 比較兩個值",
+  "meta_description": "免費的百分比差異計算機。比較兩個數並求出百分比差異。以平均值為基準，得到對稱、無偏的比較結果。",
+  "h1": "百分比差異計算機",
+  "subtitle": "輸入<strong>兩個值</strong>，這款<strong>百分比差異計算機</strong>會以它們的<strong>平均值</strong>為基準，用<strong>百分比</strong>告訴您兩者相差多少。與百分比變化不同，這裡的順序無關緊要：50 與 80 比較的結果和 80 與 50 比較相同。",
+  "hint": "輸入兩個值，即可得到兩者之間的百分比差異。",
+  "long_tail_anchor": "對稱地比較兩個數",
+  "card_strings": {
+    "Absolute Difference:": "絕對差：",
+    "Enter first number": "輸入第一個數",
+    "Enter second number": "輸入第二個數",
+    "First Value": "第一個值",
+    "Percentage Difference:": "百分比差異：",
+    "Second Value": "第二個值"
+  }
+}

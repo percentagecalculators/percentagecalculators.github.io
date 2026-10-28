@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "zh-tw",
+  "meta_title": "折扣計算機 | 折後價與節省金額",
+  "meta_description": "免費的折扣百分比計算機。立即算出折後價和節省金額。無論什麼折扣，都能找到最終價格——您購物時搶優惠的好幫手。",
+  "h1": "折扣計算機",
+  "subtitle": "輸入<strong>原價</strong>和<strong>折扣百分比</strong>，這款<strong>折扣計算機</strong>會顯示<strong>折後價</strong>以及您<strong>節省的金額</strong>。下次看到「打七折」的牌子時，您就知道實際要付多少錢。",
+  "hint": "輸入原價和折扣 %，即可得到折後價。",
+  "long_tail_anchor": "折扣與折後價查詢",
+  "card_strings": {
+    "Discount": "折扣",
+    "Enter discount %": "輸入折扣 %",
+    "Enter price": "輸入價格",
+    "Final Price:": "最終價格：",
+    "Original Price ($)": "原價 ($)",
+    "You Save:": "您節省："
+  }
+}

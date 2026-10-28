@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "zh-tw",
+  "meta_title": "坡度百分比計算機 | 由高差/水平距離得出 %",
+  "meta_description": "免費的坡度百分比計算機。輸入高差和水平距離，即可立即算出坡度百分比以及對應的角度（度）。",
+  "h1": "坡度百分比計算機",
+  "subtitle": "輸入<strong>高差</strong>和<strong>水平距離</strong>，這款<strong>坡度百分比計算機</strong>會立即算出<strong>坡度百分比</strong>以及對應的<strong>角度（度）</strong>。",
+  "hint": "輸入高差和水平距離，即可得到坡度百分比和角度。",
+  "long_tail_anchor": "由高差與水平距離得出坡度百分比",
+  "card_strings": {
+    "Angle:": "角度：",
+    "Rise": "高差",
+    "Run": "水平距離",
+    "Slope:": "坡度：",
+    "e.g. 100": "例如：100",
+    "e.g. 5": "例如：5"
+  }
+}

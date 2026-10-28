@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "zh-tw",
+  "meta_title": "APR 計算機 | 年化利率",
+  "meta_description": "免費的 APR 計算機。將週期利率立即換算為年化利率（APR）——貸款和信用卡標明成本的標準方式。",
+  "h1": "APR 計算機",
+  "subtitle": "輸入<strong>週期利率</strong>和<strong>每年的週期數</strong>，這款 <strong>APR 計算機</strong>會算出<strong>年化利率</strong>——貸款機構標明借款成本時使用的、不計複利的標準方式。",
+  "hint": "輸入週期利率和每年的週期數，即可得到 APR。",
+  "long_tail_anchor": "年化利率計算機",
+  "card_strings": {
+    "APR:": "APR：",
+    "Periodic Interest Rate": "週期利率",
+    "Periods / Year": "週期數 / 年",
+    "e.g. 1.5": "例如：1.5",
+    "e.g. 12": "例如：12"
+  }
+}

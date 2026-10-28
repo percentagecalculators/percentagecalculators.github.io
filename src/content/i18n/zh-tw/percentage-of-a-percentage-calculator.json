@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "zh-tw",
+  "meta_title": "百分比的百分比計算機 | 合併兩個 %",
+  "meta_description": "免費的百分比的百分比計算機。將兩個疊加的百分比相乘，再把合併後的比率用於某個數值，適用於稅費或折扣疊加。",
+  "h1": "百分比的百分比計算機",
+  "subtitle": "輸入兩個<strong>百分比</strong>，這款<strong>百分比的百分比計算機</strong>會以正確的方式把它們相乘，得到<strong>合併百分比</strong>——再加上一個起始值，就能清楚看到它在兩個步驟中如何變化。",
+  "hint": "把兩個疊加的百分比相乘，即可得到合併比率。",
+  "long_tail_anchor": "合併兩個疊加的百分比",
+  "card_strings": {
+    "Apply to a Value (optional)": "應用於某個數值（可選）",
+    "Combined Percentage:": "合併百分比：",
+    "Final Value:": "最終值：",
+    "First Percentage": "第一個百分比",
+    "Second Percentage": "第二個百分比",
+    "Value After First %:": "應用第一個 % 後的值：",
+    "e.g. 200": "例如：200",
+    "e.g. 40": "例如：40",
+    "e.g. 90": "例如：90"
+  }
+}

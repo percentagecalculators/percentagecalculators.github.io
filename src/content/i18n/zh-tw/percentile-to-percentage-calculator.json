@@ -1,0 +1,16 @@
+{
+  "slug": "percentile-to-percentage-calculator",
+  "lang": "zh-tw",
+  "meta_title": "百分位轉百分比計算機 | 估算百分比",
+  "meta_description": "免費的百分位轉百分比計算機。使用常見的近似公式，從考試百分位快速得到估算的百分比。",
+  "h1": "百分位轉百分比計算機",
+  "subtitle": "輸入您的<strong>百分位</strong>分數，這款<strong>百分位轉百分比計算機</strong>會用常被引用的近似公式快速給出<strong>估算百分比</strong>。百分位與百分比衡量的是不同的東西，因此請把結果當作估算值，而不是官方換算。",
+  "hint": "輸入百分位（0–100），即可得到估算的百分比。",
+  "long_tail_anchor": "由百分位排名估算百分比",
+  "card_strings": {
+    "%ile": "百分位",
+    "Estimated Percentage:": "估算百分比：",
+    "Percentile": "百分位",
+    "e.g. 85": "例如：85"
+  }
+}

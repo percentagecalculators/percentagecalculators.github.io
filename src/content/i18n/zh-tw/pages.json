@@ -1,0 +1,424 @@
+{
+  "about": {
+    "meta_title": "關於我們 | Percentage Calculators",
+    "meta_description": "瞭解 Percentage Calculators——一套在瀏覽器中執行的免費百分比工具，為在任何裝置上都快速、準確、易用而打造。",
+    "h1": "關於 Percentage Calculators",
+    "sections": [
+      {
+        "heading": "我們的使命",
+        "paragraphs": [
+          "Percentage Calculators 誕生於一個簡單的目標：讓百分比計算變得快速、準確，並且人人都能使用。無論您是在做作業的學生、分析業務指標的職場人士，還是在餐廳裡計算小費的人，我們都能幫到您。"
+        ]
+      },
+      {
+        "heading": "我們是誰",
+        "paragraphs": [
+          "您好！我是 <strong>Subash Geetha Krishnan</strong>，一名在企業技術領域擁有 15 年以上經驗的技術負責人，常駐新加坡。我的職業生涯一直致力於解決複雜的技術問題，並打造讓生活更輕鬆的工具。",
+          "多年來，我在網上尋找簡單可靠的百分比計算機，卻發現大多數要麼廣告氾濫，要麼功能欠缺，於是決定自己做一個更好的。Percentage Calculators 就是成果：一套簡潔、快速、完全免費的工具，從寥寥幾個計算機成長為涵蓋日常數學、學校成績和個人理財的完整工具庫。"
+        ]
+      },
+      {
+        "heading": "我們提供什麼",
+        "paragraphs": [
+          "我們的平臺現已包含 41 個專業的百分比計算機，分為五個類別，方便您快速找到合適的工具："
+        ],
+        "list": [
+          "<strong>核心百分比工具</strong> – 基礎功能：求百分比、增加或減少一個數，以及比較兩個值。",
+          "<strong>換算器</strong> – 在百分比、分數、小數、比例及其他單位形式之間換算。",
+          "<strong>教育</strong> – 面向學生的 GPA、CGPA、SGPA、分數和百分位換算。",
+          "<strong>金融與商業</strong> – 利率、利潤率、加價、加薪和業務增長。",
+          "<strong>日常與特殊用途</strong> – 小費、烘焙比例、勝負記錄以及其他一次性的百分比問題。"
+        ]
+      },
+      {
+        "heading": "為什麼選擇我們？",
+        "list": [
+          "<strong>100% 免費</strong> – 所有工具完全免費，無需註冊",
+          "<strong>即時出結果</strong> – 輸入時即實時計算，無需點選按鈕",
+          "<strong>適用於行動裝置</strong> – 在任何裝置上都能完美執行",
+          "<strong>沒有廣告氾濫</strong> – 專注功能的簡潔介面",
+          "<strong>隱私優先</strong> – 我們不會追蹤您的計算內容，也不會出售您的資料",
+          "<strong>顯示公式</strong> – 檢視每次計算背後的數學原理，邊用邊學"
+        ]
+      },
+      {
+        "heading": "我們的承諾",
+        "paragraphs": [
+          "我們承諾讓 Percentage Calculators 始終免費、快速、可靠。我們會根據使用者反饋不斷改進工具，並增加新的計算機，以覆蓋人們每天遇到的更多百分比問題。",
+          "有建議或發現了錯誤？我們很樂意聽取！請訪問我們的<a href=\"/contact\">聯絡頁面</a>與我們聯絡。"
+        ]
+      },
+      {
+        "heading": "與我們保持聯絡",
+        "paragraphs": [
+          "在社交媒體上關注我們，獲取最新動態、小技巧等："
+        ],
+        "list": [
+          "<a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>",
+          "<a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter/X</a>",
+          "<a href=\"https://github.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>",
+          "<a href=\"https://www.facebook.com/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook</a>"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "meta_title": "聯絡我們 | Percentage Calculators",
+    "meta_description": "如對我們的免費百分比工具有任何疑問、反饋或錯誤報告，請聯絡 Percentage Calculators 團隊。我們會閱讀每一條訊息。",
+    "h1": "聯絡我們",
+    "sections": [
+      {
+        "heading": "取得聯絡",
+        "paragraphs": [
+          "我們很樂意聽到您的聲音！無論您有問題、建議、發現了錯誤，還是隻想打個招呼，都請隨時聯絡我們。"
+        ]
+      },
+      {
+        "heading": "在網上找到我們",
+        "paragraphs": [
+          "<strong>Subash Geetha Krishnan</strong><br>創始人兼開發者，常駐新加坡。"
+        ],
+        "list": [
+          "<strong>LinkedIn:</strong> <a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">linkedin.com/in/buzzsubash</a>",
+          "<strong>Twitter/X:</strong> <a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">@buzzsubash</a>",
+          "<strong>GitHub:</strong> <a href=\"https://github.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">github.com/buzzsubash</a>",
+          "<strong>Facebook:</strong> <a href=\"https://www.facebook.com/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">facebook.com/buzzsubash</a>",
+          "<strong>Reddit:</strong> <a href=\"https://www.reddit.com/user/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">u/buzzsubash</a>"
+        ]
+      },
+      {
+        "heading": "我們能幫您什麼？",
+        "paragraphs": [
+          "我們可以協助處理："
+        ],
+        "list": [
+          "<strong>錯誤報告</strong> – 發現了不能正常工作的地方？請告訴我們！",
+          "<strong>功能請求</strong> – 對新計算機或改進有想法嗎？",
+          "<strong>一般問題</strong> – 需要幫助瞭解如何使用我們的工具？",
+          "<strong>反饋</strong> – 我們感謝所有反饋，無論是稱讚還是建設性意見",
+          "<strong>合作諮詢</strong> – 有興趣合作嗎？"
+        ]
+      },
+      {
+        "heading": "回覆時間",
+        "paragraphs": [
+          "我們通常會在 24 到 48 小時內回覆。",
+          "感謝您使用 Percentage Calculators！"
+        ]
+      }
+    ]
+  },
+  "disclaimer": {
+    "meta_title": "免責聲明 | Percentage Calculators",
+    "meta_description": "Percentage Calculators 免責聲明：我們的工具僅供參考，不能替代專業建議。",
+    "h1": "免責聲明",
+    "subtitle": "最後更新：2024 年 12 月",
+    "sections": [
+      {
+        "heading": "一般資訊",
+        "paragraphs": [
+          "Percentage Calculators（「我們」）在本網站上提供的資訊僅供一般資訊和教育用途。網站上的所有資訊均出於善意提供；但是，對於網站上任何資訊的準確性、充分性、有效性、可靠性、可用性或完整性，我們不作任何明示或暗示的陳述或保證。"
+        ]
+      },
+      {
+        "heading": "不構成專業建議",
+        "paragraphs": [
+          "本網站上的計算機和資訊不應被視為專業建議的替代品。請勿依賴我們計算機的結果來做出財務、法律、醫療或任何其他專業決策。遇到此類事項，請務必諮詢合格的專業人士。",
+          "具體而言："
+        ],
+        "list": [
+          "<strong>財務決策：</strong>請勿僅依賴我們的計算機做出投資、稅務或重大財務決策。請諮詢合格的財務顧問或會計師。",
+          "<strong>科學/學術工作：</strong>雖然我們的計算機力求準確，但用於學術提交或科學研究時，請務必核實結果。",
+          "<strong>商業決策：</strong>請把我們的工具作為起點，但對影響業務運營的計算，應請相應的專業人士核實。"
+        ]
+      },
+      {
+        "heading": "計算的準確性",
+        "paragraphs": [
+          "我們努力確保計算機提供準確的結果。但是："
+        ],
+        "list": [
+          "結果可能受到舍入或浮點運算侷限的影響",
+          "我們不能保證在所有情形下都 100% 準確",
+          "使用者有責任對關鍵用途的結果進行核實",
+          "我們建議對後果重大的計算再次核對"
+        ]
+      },
+      {
+        "heading": "外部連結",
+        "paragraphs": [
+          "本網站可能包含指向外部網站的連結，這些網站並非由我們提供或維護。我們不保證這些外部網站上任何資訊的準確性、相關性、及時性或完整性。包含連結並不一定意味著推薦或認可其中表達的觀點。"
+        ]
+      },
+      {
+        "heading": "責任限制",
+        "paragraphs": [
+          "在任何情況下，對於因使用本網站或依賴網站上提供的任何資訊而造成的任何損失或損害，我們均不對您承擔任何責任。您對本網站的使用以及對網站資訊的依賴，完全由您自行承擔風險。"
+        ]
+      },
+      {
+        "heading": "本免責聲明的變更",
+        "paragraphs": [
+          "我們保留隨時修改本免責聲明的權利。變更在釋出到網站後立即生效。變更後您繼續使用本網站，即表示您接受新的免責聲明。"
+        ]
+      },
+      {
+        "heading": "聯絡我們",
+        "paragraphs": [
+          "如果您對本免責聲明有任何疑問，請<a href=\"/contact\">聯絡我們</a>。"
+        ]
+      }
+    ]
+  },
+  "privacy-policy": {
+    "meta_title": "隱私政策 | Percentage Calculators",
+    "meta_description": "Percentage Calculators 隱私政策：我們收集哪些資料（極少），以及免費計算機如何處理您輸入的內容。",
+    "h1": "隱私政策",
+    "subtitle": "最後更新：2024 年 12 月",
+    "sections": [
+      {
+        "heading": "簡介",
+        "paragraphs": [
+          "Percentage Calculators（「我們」）尊重您的隱私，並致力於保護您的個人資料。本隱私政策說明了您訪問我們網站時，我們如何收集、使用和保護您的資訊。"
+        ]
+      },
+      {
+        "heading": "我們收集的資訊",
+        "paragraphs": [
+          "<strong>您提供的資訊</strong>",
+          "我們可能會收集您自願提供的資訊，例如：",
+          "<strong>自動收集的資訊</strong>",
+          "當您訪問我們的網站時，我們可能會自動收集：",
+          "<strong>我們不收集的內容</strong>",
+          "我們想明確說明我們<strong>不收集</strong>什麼："
+        ],
+        "list": [
+          "您聯絡我們時提供的聯絡資訊（電子郵件地址）",
+          "您提交的反饋和建議",
+          "裝置資訊（瀏覽器型別、作業系統）",
+          "IP 地址（已匿名化）",
+          "訪問的頁面和在頁面上停留的時間",
+          "來源網站",
+          "大致的地理位置（國家/城市級別）",
+          "我們不會儲存您在計算機中輸入的數字",
+          "我們不會追蹤您的計算歷史",
+          "我們不要求建立帳戶或登入",
+          "我們不收集支付資訊（我們的服務是免費的）"
+        ]
+      },
+      {
+        "heading": "我們如何使用您的資訊",
+        "paragraphs": [
+          "我們使用收集到的資訊來："
+        ],
+        "list": [
+          "提供和維護我們的計算工具",
+          "改進和最佳化我們的網站",
+          "瞭解使用者如何與我們的網站互動",
+          "回覆您的諮詢和反饋",
+          "檢測並預防技術問題"
+        ]
+      },
+      {
+        "heading": "Cookie 與跟蹤技術",
+        "paragraphs": [
+          "我們使用 Cookie 和類似的跟蹤技術來改善您的體驗：",
+          "您可以透過瀏覽器設定來控制 Cookie。請注意，禁用某些 Cookie 可能會影響網站功能。"
+        ],
+        "list": [
+          "<strong>必要 Cookie：</strong>網站基本功能所需",
+          "<strong>分析 Cookie：</strong>幫助我們瞭解訪客如何使用我們的網站（Google Analytics）",
+          "<strong>偏好 Cookie：</strong>記住您的設定（例如語言偏好）"
+        ]
+      },
+      {
+        "heading": "第三方服務",
+        "paragraphs": [
+          "我們可能會使用收集資訊的第三方服務：",
+          "這些第三方有各自的隱私政策，規範其收集資訊的使用。"
+        ],
+        "list": [
+          "<strong>Google Analytics：</strong>用於網站流量分析",
+          "<strong>廣告合作伙伴：</strong>用於展示相關廣告"
+        ]
+      },
+      {
+        "heading": "資料安全",
+        "paragraphs": [
+          "我們採取適當的安全措施來保護您的資訊。但是，沒有任何透過網際網路傳輸的方式是 100% 安全的，我們無法保證絕對安全。"
+        ]
+      },
+      {
+        "heading": "您的權利",
+        "paragraphs": [
+          "根據您所在的地區，您可能對自己的個人資料享有某些權利，包括：",
+          "如需行使這些權利，請<a href=\"/contact\">聯絡我們</a>。"
+        ],
+        "list": [
+          "訪問您的個人資料的權利",
+          "更正不準確資料的權利",
+          "要求刪除您的資料的權利",
+          "拒絕某些資料處理的權利"
+        ]
+      },
+      {
+        "heading": "兒童隱私",
+        "paragraphs": [
+          "我們的網站不面向 13 歲以下的兒童。我們不會故意收集 13 歲以下兒童的個人資訊。如果您認為我們收集了 13 歲以下兒童的資訊，請立即聯絡我們。"
+        ]
+      },
+      {
+        "heading": "本政策的變更",
+        "paragraphs": [
+          "我們可能會不時更新本隱私政策。我們會透過在本頁面釋出新政策並更新「最後更新」日期來通知您任何變更。"
+        ]
+      },
+      {
+        "heading": "聯絡我們",
+        "paragraphs": [
+          "如果您對本隱私政策或我們的資料處理方式有疑問，請聯絡我們："
+        ],
+        "list": [
+          "<strong>電子郵件：</strong><a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>",
+          "<strong>聯絡頁面：</strong><a href=\"/contact\">聯絡我們</a>"
+        ]
+      }
+    ]
+  },
+  "terms-of-use": {
+    "meta_title": "使用條款 | Percentage Calculators",
+    "meta_description": "Percentage Calculators 免費線上計算機的使用條款，涵蓋可接受的使用方式、責任以及我們工具與結果的準確性。",
+    "h1": "使用條款",
+    "subtitle": "最後更新：2024 年 12 月",
+    "sections": [
+      {
+        "heading": "條款的接受",
+        "paragraphs": [
+          "訪問和使用 Percentage Calculators（「本網站」），即表示您同意受本使用條款的約束。如果您不同意這些條款，請不要使用我們的網站。"
+        ]
+      },
+      {
+        "heading": "服務說明",
+        "paragraphs": [
+          "Percentage Calculators 提供免費的線上計算工具，用於執行各種與百分比相關的計算。我們的服務包括但不限於："
+        ],
+        "list": [
+          "百分比增加和減少的計算",
+          "百分比變化和差異的計算",
+          "折扣和折後價的計算",
+          "分數轉百分比的換算",
+          "增長率的計算",
+          "百分比誤差的計算",
+          "平均百分比的計算"
+        ]
+      },
+      {
+        "heading": "可接受的使用",
+        "paragraphs": [
+          "您同意僅將本網站用於合法目的。您不得："
+        ],
+        "list": [
+          "以違反適用法律或法規的方式使用本網站",
+          "試圖未經授權訪問我們的系統或伺服器",
+          "干擾或破壞本網站的功能",
+          "使用自動化系統或機器人過度訪問本網站",
+          "未經許可複製、再現或重新分發我們的內容",
+          "使用本網站傳播惡意軟體或惡意程式碼"
+        ]
+      },
+      {
+        "heading": "智慧財產權",
+        "paragraphs": [
+          "本網站及其原創內容、功能和特性歸 Percentage Calculators 所有，並受國際版權、商標及其他智慧財產權法律保護。",
+          "您可以：",
+          "您不可以："
+        ],
+        "list": [
+          "將我們的計算機用於個人和教育目的",
+          "分享指向我們網站的連結",
+          "在適當註明出處的前提下引用我們的計算",
+          "複製或仿製我們計算機的設計或程式碼",
+          "移除任何版權或所有權宣告",
+          "未經許可框架化或嵌入我們的網站"
+        ]
+      },
+      {
+        "heading": "免責保證",
+        "paragraphs": [
+          "本網站按「現狀」和「可用」的基礎提供。對於以下事項，我們不作任何明示或暗示的保證：",
+          "更多資訊請參閱我們的<a href=\"/disclaimer\">免責聲明</a>。"
+        ],
+        "list": [
+          "計算的準確性或可靠性",
+          "不間斷或無錯誤的執行",
+          "適用於任何特定目的",
+          "本網站的安全性"
+        ]
+      },
+      {
+        "heading": "責任限制",
+        "paragraphs": [
+          "在法律允許的最大範圍內，Percentage Calculators 不對任何間接的、附帶的、特殊的、後果性的或懲罰性的損害負責，包括但不限於："
+        ],
+        "list": [
+          "利潤或收入的損失",
+          "資料丟失",
+          "業務中斷",
+          "因您使用我們的計算機而產生的任何損害"
+        ]
+      },
+      {
+        "heading": "賠償",
+        "paragraphs": [
+          "您同意就因您使用本網站或違反本條款而引起的任何索賠、損失、損害、責任和費用（包括律師費），對 Percentage Calculators、其所有者和關聯方進行賠償並使其免受損害。"
+        ]
+      },
+      {
+        "heading": "第三方連結",
+        "paragraphs": [
+          "我們的網站可能包含指向第三方網站的連結。對於任何第三方網站的內容、準確性或做法，我們概不負責。訪問連結的網站由您自行承擔風險。"
+        ]
+      },
+      {
+        "heading": "服務的修改",
+        "paragraphs": [
+          "我們保留以下權利：",
+          "變更後繼續使用本網站，即視為接受修改後的條款。"
+        ],
+        "list": [
+          "未經通知修改或終止本網站的任何部分",
+          "隨時更新本使用條款",
+          "更改我們計算機的特性或功能"
+        ]
+      },
+      {
+        "heading": "適用法律",
+        "paragraphs": [
+          "本使用條款受新加坡法律管轄並據其解釋，不考慮其法律衝突規定。"
+        ]
+      },
+      {
+        "heading": "可分割性",
+        "paragraphs": [
+          "如果本條款的任何規定被認定為不可執行，其餘規定將繼續完全有效。"
+        ]
+      },
+      {
+        "heading": "聯絡我們",
+        "paragraphs": [
+          "如果您對本使用條款有任何疑問，請<a href=\"/contact\">聯絡我們</a>。"
+        ],
+        "list": [
+          "<strong>電子郵件：</strong><a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>"
+        ]
+      }
+    ]
+  },
+  "sitemap": {
+    "meta_title": "網站地圖 | Percentage Calculators",
+    "meta_description": "按類別整理的 Percentage Calculators 全部頁面——所有百分比計算機、換算器和教育資源的完整列表。",
+    "h1": "網站地圖",
+    "subtitle": "按類別整理的 Percentage Calculators 全部頁面。",
+    "sections": []
+  }
+}

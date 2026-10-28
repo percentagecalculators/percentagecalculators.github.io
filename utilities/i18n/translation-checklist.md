@@ -876,51 +876,51 @@ Files: `src/content/i18n/<lang>/<slug>.json` (tools/home), `src/content/i18n/<la
 
 ## zh-tw - Chinese (Traditional)
 
-- [ ] `/zh-tw/` (home, `percentage-calculator`)
-- [ ] `/zh-tw/alcohol-proof-calculator/` **new**
-- [ ] `/zh-tw/apr-apy-converter/` **new**
-- [ ] `/zh-tw/apr-calculator/` **new**
-- [ ] `/zh-tw/apy-calculator/` **new**
-- [ ] `/zh-tw/average-percentage-calculator/`
-- [ ] `/zh-tw/bakers-percentage-calculator/` **new**
-- [ ] `/zh-tw/basis-points-calculator/` **new**
-- [ ] `/zh-tw/cgpa-to-percentage-calculator/` **new**
-- [ ] `/zh-tw/commission-calculator/` **new**
-- [ ] `/zh-tw/compound-interest-calculator/` **new**
-- [ ] `/zh-tw/decimal-to-percentage-calculator/` **new**
-- [ ] `/zh-tw/depreciation-calculator/` **new**
-- [ ] `/zh-tw/food-cost-percentage-calculator/` **new**
-- [ ] `/zh-tw/fraction-to-percentage-calculator/`
-- [ ] `/zh-tw/gpa-to-percentage-calculator/` **new**
-- [ ] `/zh-tw/gross-margin-calculator/` **new**
-- [ ] `/zh-tw/loan-interest-calculator/` **new**
-- [ ] `/zh-tw/marks-percentage-calculator/` **new**
-- [ ] `/zh-tw/markup-calculator/` **new**
-- [ ] `/zh-tw/percent-solution-calculator/` **new**
-- [ ] `/zh-tw/percentage-change-calculator/`
-- [ ] `/zh-tw/percentage-decrease-calculator/`
-- [ ] `/zh-tw/percentage-difference-calculator/`
-- [ ] `/zh-tw/percentage-error-calculator/`
-- [ ] `/zh-tw/percentage-growth-calculator/`
-- [ ] `/zh-tw/percentage-increase-calculator/`
-- [ ] `/zh-tw/percentage-of-a-percentage-calculator/` **new**
-- [ ] `/zh-tw/percentage-off-calculator/`
-- [ ] `/zh-tw/percentage-point-calculator/` **new**
-- [ ] `/zh-tw/percentile-to-percentage-calculator/` **new**
-- [ ] `/zh-tw/ppm-to-percentage-calculator/` **new**
-- [ ] `/zh-tw/profit-margin-calculator/` **new**
-- [ ] `/zh-tw/profit-percentage-calculator/` **new**
-- [ ] `/zh-tw/ratio-to-percentage-calculator/` **new**
-- [ ] `/zh-tw/reverse-percentage-calculator/`
-- [ ] `/zh-tw/salary-increase-calculator/` **new**
-- [ ] `/zh-tw/sgpa-to-percentage-calculator/` **new**
-- [ ] `/zh-tw/simple-interest-calculator/` **new**
-- [ ] `/zh-tw/slope-percentage-calculator/` **new**
-- [ ] `/zh-tw/tip-calculator/` **new**
-- [ ] `/zh-tw/win-loss-percentage-calculator/` **new**
-- [ ] `/zh-tw/page/about/`
-- [ ] `/zh-tw/page/contact/`
-- [ ] `/zh-tw/page/disclaimer/`
-- [ ] `/zh-tw/page/privacy-policy/`
-- [ ] `/zh-tw/page/terms-of-use/`
-- [ ] `/zh-tw/page/sitemap/` **new**
+- [x] `/zh-tw/` (home, `percentage-calculator`)
+- [x] `/zh-tw/alcohol-proof-calculator/` **new**
+- [x] `/zh-tw/apr-apy-converter/` **new**
+- [x] `/zh-tw/apr-calculator/` **new**
+- [x] `/zh-tw/apy-calculator/` **new**
+- [x] `/zh-tw/average-percentage-calculator/`
+- [x] `/zh-tw/bakers-percentage-calculator/` **new**
+- [x] `/zh-tw/basis-points-calculator/` **new**
+- [x] `/zh-tw/cgpa-to-percentage-calculator/` **new**
+- [x] `/zh-tw/commission-calculator/` **new**
+- [x] `/zh-tw/compound-interest-calculator/` **new**
+- [x] `/zh-tw/decimal-to-percentage-calculator/` **new**
+- [x] `/zh-tw/depreciation-calculator/` **new**
+- [x] `/zh-tw/food-cost-percentage-calculator/` **new**
+- [x] `/zh-tw/fraction-to-percentage-calculator/`
+- [x] `/zh-tw/gpa-to-percentage-calculator/` **new**
+- [x] `/zh-tw/gross-margin-calculator/` **new**
+- [x] `/zh-tw/loan-interest-calculator/` **new**
+- [x] `/zh-tw/marks-percentage-calculator/` **new**
+- [x] `/zh-tw/markup-calculator/` **new**
+- [x] `/zh-tw/percent-solution-calculator/` **new**
+- [x] `/zh-tw/percentage-change-calculator/`
+- [x] `/zh-tw/percentage-decrease-calculator/`
+- [x] `/zh-tw/percentage-difference-calculator/`
+- [x] `/zh-tw/percentage-error-calculator/`
+- [x] `/zh-tw/percentage-growth-calculator/`
+- [x] `/zh-tw/percentage-increase-calculator/`
+- [x] `/zh-tw/percentage-of-a-percentage-calculator/` **new**
+- [x] `/zh-tw/percentage-off-calculator/`
+- [x] `/zh-tw/percentage-point-calculator/` **new**
+- [x] `/zh-tw/percentile-to-percentage-calculator/` **new**
+- [x] `/zh-tw/ppm-to-percentage-calculator/` **new**
+- [x] `/zh-tw/profit-margin-calculator/` **new**
+- [x] `/zh-tw/profit-percentage-calculator/` **new**
+- [x] `/zh-tw/ratio-to-percentage-calculator/` **new**
+- [x] `/zh-tw/reverse-percentage-calculator/`
+- [x] `/zh-tw/salary-increase-calculator/` **new**
+- [x] `/zh-tw/sgpa-to-percentage-calculator/` **new**
+- [x] `/zh-tw/simple-interest-calculator/` **new**
+- [x] `/zh-tw/slope-percentage-calculator/` **new**
+- [x] `/zh-tw/tip-calculator/` **new**
+- [x] `/zh-tw/win-loss-percentage-calculator/` **new**
+- [x] `/zh-tw/page/about/`
+- [x] `/zh-tw/page/contact/`
+- [x] `/zh-tw/page/disclaimer/`
+- [x] `/zh-tw/page/privacy-policy/`
+- [x] `/zh-tw/page/terms-of-use/`
+- [x] `/zh-tw/page/sitemap/` **new**

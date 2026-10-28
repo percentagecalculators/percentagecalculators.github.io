@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "zh-tw",
+  "meta_title": "百分比增長計算機 | 業務增長率",
+  "meta_description": "免費的百分比增長計算機。計算收入、客戶、銷量和 KPI 的增長率。用準確的指標追蹤業務表現。",
+  "h1": "百分比增長計算機",
+  "subtitle": "輸入一個<strong>初始值</strong>和一個<strong>最終值</strong>，這款<strong>百分比增長計算機</strong>會顯示<strong>增長率</strong>和<strong>增長額</strong>。它回答的問題是：您的數字從 A 點到 B 點增長了百分之幾？",
+  "hint": "輸入初始值和最終值，即可得到百分比增長。",
+  "long_tail_anchor": "業務與收入增長率",
+  "card_strings": {
+    "Ending value": "終值",
+    "Final Value": "最終值",
+    "Growth Amount:": "增長額：",
+    "Growth Rate:": "增長率：",
+    "Initial Value": "初始值",
+    "Starting value": "起始值"
+  }
+}

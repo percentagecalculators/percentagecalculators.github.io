@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "zh-tw",
+  "meta_title": "折舊計算機 | 直線法",
+  "meta_description": "採用直線法的免費折舊計算機。輸入資產成本、殘值和使用年限，即可算出年折舊額。",
+  "h1": "折舊計算機",
+  "subtitle": "輸入<strong>資產成本</strong>、<strong>殘值</strong>和<strong>使用年限</strong>，這款<strong>折舊計算機</strong>會按直線法立即算出<strong>年折舊額</strong>。",
+  "hint": "輸入資產成本、殘值和使用年限，即可得到年折舊額。",
+  "long_tail_anchor": "資產直線法折舊",
+  "card_strings": {
+    "Annual Depreciation:": "年折舊額：",
+    "Asset Cost ($)": "資產成本 ($)",
+    "Depreciation Rate:": "折舊率：",
+    "Salvage Value ($)": "殘值 ($)",
+    "Useful Life (Years)": "使用年限（年）",
+    "e.g. 1000": "例如：1000",
+    "e.g. 10000": "例如：10000",
+    "e.g. 5": "例如：5"
+  }
+}

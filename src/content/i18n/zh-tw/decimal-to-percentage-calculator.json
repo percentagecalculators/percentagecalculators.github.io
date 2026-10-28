@@ -1,0 +1,15 @@
+{
+  "slug": "decimal-to-percentage-calculator",
+  "lang": "zh-tw",
+  "meta_title": "小數轉百分比計算機 | 將小數轉換為 %",
+  "meta_description": "免費的小數轉百分比計算機。輸入任意小數，即可立即轉換為百分比——適用於學習、工作或金融場景的準確結果。",
+  "h1": "小數轉百分比計算機",
+  "subtitle": "輸入一個<strong>小數</strong>，這款<strong>小數轉百分比計算機</strong>會立即將其轉換為<strong>百分比</strong>。",
+  "hint": "輸入小數，即可得到對應的百分比。",
+  "long_tail_anchor": "將小數轉換為百分比",
+  "card_strings": {
+    "Decimal Value": "小數",
+    "Percentage:": "百分比：",
+    "e.g. 0.25": "例如：0.25"
+  }
+}
