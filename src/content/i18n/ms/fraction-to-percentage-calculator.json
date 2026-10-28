@@ -14,5 +14,56 @@
     "Percentage:": "Peratusan:",
     "e.g. 3": "cth. 3",
     "e.g. 4": "cth. 4"
-  }
+  },
+  "content_html": "<p>Menukar pecahan kepada peratusan ialah salah satu penukaran pantas yang sentiasa anda perlukan, sama ada untuk gred, diskaun, keputusan makmal atau sekadar menyemak semula pengiraan sendiri, dan <strong>Kalkulator Pecahan kepada Peratusan</strong> ini menukarnya dengan serta-merta dengan membahagi <strong>pengangka</strong> dengan <strong>penyebut</strong> dan mendarabkannya dengan 100. Masukkan sebarang nilai pecahan wajar atau tak wajar dan anda akan mendapat kedua-dua nilai perpuluhan setara dan peratusan akhir tanpa perlu memegang pensel. Formula teras yang sama berfungsi secara terbalik juga, jadi menukar ke arah sebaliknya sama mudah.</p>\n\n<h2>Cara kalkulator pecahan kepada peratusan ini berfungsi</h2>\n<p>Setiap kalkulator pecahan kepada peratusan di web menggunakan logik dua langkah yang sama: bahagi, kemudian darab dengan 100. Anda memberikan pengangka dan penyebut kepada alat ini (dan, bagi nombor bercampur, nombor bulat pilihan), dan ia memulangkan peratusan, nilai perpuluhan setara dan, jika anda mahu melihat alasannya, pengiraan langkah demi langkah yang lengkap. Kalkulator ini juga membolehkan anda menukar ke arah sebaliknya, daripada peratus kembali kepada pecahan setaranya, tanpa membuka halaman kedua. Sesetengah laman menjenamakan alat yang sama sebagai penukar pecahan, penukar peratus atau kalkulator pecahan kepada perpuluhan, tetapi matematik di bawahnya serupa.</p>\n\n<h3>Formula pecahan kepada peratusan</h3>\n<p>Formula pecahan kepada peratusan itu mudah:</p>\n$$ P = \\frac{N}{D} \\times 100 $$\n<p>Di sini <code>N</code> ialah pengangka, <code>D</code> ialah penyebut, dan <strong>P</strong> ialah peratusan yang terhasil. Masukkan 3 dan 4, sebagai contoh, dan 3 ÷ 4 × 100 memberikan 75%. Formula tunggal itulah formula pecahan kepada peratus yang menjadi asas setiap kaedah di halaman ini; langkah manual di bawah hanya mengubah susunan operasi.</p>\n\n<h3>Membaca input, output dan tempat perpuluhan</h3>\n<p>Kebanyakan alat pecahan kepada peratus, termasuk yang ini, meminta tiga medan: pengangka, penyebut dan nombor bulat pilihan untuk nombor bercampur seperti 2 1/3. Output memaparkan nilai peratusan yang dibundarkan kepada bilangan tempat perpuluhan yang sesuai, serta bentuk perpuluhan mentah supaya anda dapat melihat dengan tepat bagaimana pembundaran berlaku. Jika pecahan anda tidak terbahagi tepat, seperti 1/3, anda akan melihat perpuluhan berulang seperti 0.3333 sebelum ia menjadi 33.33%.</p>\n\n<aside>Petua: jika sesuatu pecahan sudah mempunyai penyebut 100, ia sudah pun peratusan dan tidak perlu dibahagi. 47/100 ialah 47% sahaja.</aside>\n\n<h2>Kaedah manual: formula pecahan kepada peratus dan pengiraan langkah demi langkah</h2>\n<p>Jika anda lebih suka melangkau pengiraan manual, kalkulator pecahan kepada peratus ini sudah menggunakan ketiga-tiga kaedah di bawah secara automatik. Namun memahami cara penukaran dibuat secara manual memudahkan anda menyemak sama ada hasilnya munasabah, atau membuat anggaran pantas apabila kalkulator tidak ada di tangan.</p>\n\n<h3>Pengangka dan penyebut: bahagi, kemudian darab dengan 100</h3>\n<p>Bahagikan pengangka dengan penyebut untuk mendapatkan perpuluhan, kemudian darabkan perpuluhan itu dengan 100 untuk mendapatkan peratus. Bagi 5/8: membahagi 5 dengan 8 memberikan 0.625, kemudian mendarab dengan 100 memberikan 62.5%. Inilah kaedah yang mula-mula diajar dalam kebanyakan buku teks kerana ia mencerminkan formula asasnya secara langsung: bahagi, kemudian skalakan dengan 100.</p>\n<ul>\n  <li>Bahagikan pengangka dengan penyebut untuk mendapatkan nombor perpuluhan.</li>\n  <li>Darabkan perpuluhan itu dengan 100.</li>\n  <li>Tambahkan simbol peratus pada hasilnya.</li>\n</ul>\n\n<h3>Perpuluhan kepada peratus: darab dahulu, kemudian bahagi</h3>\n<p>Anda juga boleh mendarab pengangka dengan 100 dahulu dan membahagi dengan penyebut kemudian; susunan tidak mengubah jawapan, hanya saiz nombor yang anda kendalikan. Bagi 5/8: mendarab 5 dengan 100 memberikan 500, dan membahagi dengan 8 memberikan 62.5%. Sesetengah orang mendapati jalan pintas perpuluhan kepada peratus ini lebih mudah untuk pengiraan mental, kerana mendarab dengan 100 hanyalah menganjakkan titik perpuluhan dua tempat ke kanan sebelum anda membahagi.</p>\n<ol>\n  <li>Darabkan pengangka dengan 100.</li>\n  <li>Bahagikan hasilnya dengan penyebut.</li>\n  <li>Bundarkan kepada bilangan tempat perpuluhan yang dikehendaki.</li>\n</ol>\n\n<h2>Menukar peratus kepada pecahan</h2>\n<p>Menukar hasil kalkulator peratusan kembali kepada pecahan ialah proses songsang, dan itulah yang dilakukan kalkulator peratus kepada pecahan. Ia berguna apabila anda memerlukan nisbah tepat dan bukannya perpuluhan yang dibundarkan, seperti untuk masalah kebarangkalian, menskalakan resipi atau memudahkan sesuatu ukuran.</p>\n\n<h3>Formula peratus kepada pecahan</h3>\n<p>Untuk menukar peratus kembali kepada pecahan, letakkan peratusan itu di atas 100, kemudian permudahkan:</p>\n$$ \\frac{P}{100} = \\frac{N}{D} $$\n<p>Sebagai contoh, 35% menjadi 35/100. Memudahkan pecahan dengan membahagi pengangka dan penyebut dengan faktor sepunya memberikan 7/20. Jika nombor itu mempunyai tempat perpuluhan, seperti 35.5%, darabkan pengangka dan penyebut dengan 10 (atau 100, atau 1000) sehingga kedua-duanya menjadi nombor bulat, kemudian permudahkan pecahan itu.</p>\n\n<h3>Memudahkan dengan faktor sepunya terbesar</h3>\n<p>Memudahkan pecahan kepada sebutan terendah bermaksud membahagi pengangka dan penyebut dengan faktor sepunya terbesar, atau FSTB. Bagi 35/100, FSTB ialah 5, jadi membahagi kedua-dua nombor dengan 5 memberikan 7/20, iaitu nilai yang sama dalam bentuk paling ringkas. Belajar mengenal pasti FSTB dengan cepat menjadikan pemudahan pecahan secara manual jauh lebih pantas daripada memudahkan satu faktor pada satu masa.</p>\n\n<h2>Carta pecahan kepada peratus: penukaran biasa</h2>\n<p>Sesetengah penukaran pecahan kepada peratusan sangat kerap muncul sehingga lebih baik dihafal daripada dibahagi setiap kali. Carta di bawah merangkumi pecahan yang paling biasa, nilai perpuluhan setara dan peratusannya.</p>\n<table>\n  <thead>\n    <tr><th>Pengangka</th><th>Penyebut</th><th>Perpuluhan</th><th>Peratusan</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>2</td><td>0.5</td><td>50%</td></tr>\n    <tr><td>1</td><td>3</td><td>0.333</td><td>33.3%</td></tr>\n    <tr><td>1</td><td>4</td><td>0.25</td><td>25%</td></tr>\n    <tr><td>1</td><td>5</td><td>0.2</td><td>20%</td></tr>\n    <tr><td>3</td><td>4</td><td>0.75</td><td>75%</td></tr>\n    <tr><td>5</td><td>8</td><td>0.625</td><td>62.5%</td></tr>\n    <tr><td>7</td><td>20</td><td>0.35</td><td>35%</td></tr>\n  </tbody>\n</table>\n<p>Perhatikan bahawa setiap nilai dalam jadual mengikut peraturan yang sama: bahagikan pengangka dengan penyebut, kemudian darabkan dengan 100. Setelah beberapa pasangan pecahan dan peratus ini dihafal, anda boleh menganggar peratusan dalam kepala sebelum membuka kalkulator.</p>\n\n<h2>Mengapa penukaran pecahan kepada peratusan penting: matematik, statistik dan ralat peratus</h2>\n<p>Menukar antara pecahan dan peratusan bukan sekadar latihan kerja rumah; ia muncul dalam matematik, statistik dan penaakulan seharian. Markah peperiksaan pelajar 42/50 tidak banyak bermakna dengan sendirinya sehingga ditukar kepada 84%, dan barulah ia dapat dibandingkan serta-merta dengan mana-mana skala pemarkahan lain. Dalam statistik, perkadaran sampel biasanya dilaporkan sebagai peratusan kerana lebih mudah dibandingkan sepintas lalu daripada pecahan mentah.</p>\n<p>Matematik yang sama juga mendasari <strong>ralat peratus</strong>, yang mengukur sejauh mana nilai eksperimen atau nilai terukur menyimpang daripada nilai yang dijangka. Jika penyebut anda mewakili nilai sebenar dan pengangka anda mewakili beza antara nilai yang diperhatikan dengan nilai sebenar, formula pecahan kepada peratusan menjadi formula ralat peratus; mekaniknya serupa, hanya makna nombor yang berubah. Sama ada anda sedang menggred ujian, menjalankan eksperimen makmal atau membaca margin ralat sesuatu tinjauan, keupayaan bertukar dengan lancar antara pecahan, perpuluhan dan peratusan ialah salah satu kemahiran matematik yang paling kerap digunakan semula. Aritmetik yang sama muncul jauh melangkaui satu kelas: mengira GPA daripada mata gred mentah atau menyelesaikan set soalan matematik diskret kedua-duanya bergantung pada logik pecahan kepada peratusan yang sama.</p>",
+  "faq": [
+    {
+      "question": "Berapakah 3/4 sebagai peratusan?",
+      "answer": "3/4 bersamaan 75%. Pengiraan: (3 ÷ 4) × 100 = 75%."
+    },
+    {
+      "question": "Berapakah 1/3 sebagai peratusan?",
+      "answer": "1/3 bersamaan lebih kurang 33.33% (berulang). Pengiraan: (1 ÷ 3) × 100 = 33.333...%."
+    },
+    {
+      "question": "Berapakah 2/3 sebagai peratusan?",
+      "answer": "2/3 bersamaan lebih kurang 66.67% (berulang). Pengiraan: (2 ÷ 3) × 100 = 66.666...%."
+    },
+    {
+      "question": "Bagaimanakah cara menukar markah ujian saya kepada peratusan?",
+      "answer": "Bahagikan markah anda dengan jumlah markah penuh, kemudian darabkan dengan 100. Markah 45/60: (45÷60) × 100 = 75%."
+    },
+    {
+      "question": "Berapakah 5/8 sebagai peratusan?",
+      "answer": "5/8 bersamaan 62.5%. Pengiraan: (5 ÷ 8) × 100 = 62.5%."
+    },
+    {
+      "question": "Berapakah 7/10 sebagai peratusan?",
+      "answer": "7/10 bersamaan 70%. Pengiraan: (7 ÷ 10) × 100 = 70%."
+    },
+    {
+      "question": "Bolehkah pecahan menghasilkan peratusan melebihi 100%?",
+      "answer": "Ya, pecahan tak wajar (pengangka > penyebut) menghasilkan peratusan melebihi 100%. Contohnya, 5/4 = 125%."
+    },
+    {
+      "question": "Berapakah 1/8 sebagai peratusan?",
+      "answer": "1/8 bersamaan 12.5%. Pengiraan: (1 ÷ 8) × 100 = 12.5%."
+    },
+    {
+      "question": "Bagaimanakah cara menukar nombor bercampur kepada peratusan?",
+      "answer": "Tukarkan dahulu kepada pecahan tak wajar. 1½ = 3/2 = (3÷2) × 100 = 150%."
+    },
+    {
+      "question": "Berapakah 4/5 sebagai peratusan?",
+      "answer": "4/5 bersamaan 80%. Pengiraan: (4 ÷ 5) × 100 = 80%."
+    },
+    {
+      "question": "Bagaimana jika penyebutnya sifar?",
+      "answer": "Pembahagian dengan sifar tidak tertakrif. Pecahan yang penyebutnya sifar tidak mempunyai peratusan yang sah."
+    },
+    {
+      "question": "Berapakah 11/20 sebagai peratusan?",
+      "answer": "11/20 bersamaan 55%. Pengiraan: (11 ÷ 20) × 100 = 55%."
+    }
+  ]
 }

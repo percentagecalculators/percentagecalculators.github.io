@@ -38,3 +38,11 @@ Decisions (made 2026-10-28):
 | baker's percentage | peratusan tukang roti | as in nav |
 | ratio / fraction / decimal | nisbah / pecahan / perpuluhan | |
 | hydration (baking) | hidrasi (nisbah air) | |
+
+## Open for review (self-review by Claude, no native reviewer)
+
+- Grade labels in the GPA/CGPA articles ("Cemerlang", "Kelas Pertama dengan Kepujian Cemerlang") are not official Malaysian labels.
+- "Per sepuluh ribu" (permyriad) is a literal rendering; no standard Malay term known.
+- "Diskaun" and "peratusan diskaun" are used interchangeably.
+- apr-calculator keeps "dolar" to preserve `$`, while the card uses RM.
+- SGPA article follows English (SGPA × 10) − 7.5; the subtitle says × 9.5 (inconsistency in the English source).
