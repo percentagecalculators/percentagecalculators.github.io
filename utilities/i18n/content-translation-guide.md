@@ -102,6 +102,9 @@ core concept, the term **real users search for**, not the dictionary term:
 - Functional test unchanged: `NODE_PATH=.test-cache/node_modules node utilities/i18n/test_tools.js <lang>`.
 - Writing: `python3 utilities/i18n/add_content.py <lang> <slug> --html article.html [--faq faq.json]` merges the
   article/FAQ into the tool file and validates it; on any error the file is restored.
+- LaTeX `\text{...}` labels (Revenue, Sale Price, ...) are translated through `src/content/i18n/<lang>/latex_labels.tsv`
+  (`python3 utilities/i18n/latex_labels.py <lang> --skeleton|--apply|--check`); `add_content.py` applies it on every merge, so authors never edit LaTeX.
+- Typography (`add_content.py`): French gets non-breaking spaces before `: ; ? ! %` and inside « »; German and Russian before `%`. Write plain spaces.
 - Number check is built into `validate.py` (digit sequences in article and FAQ must equal English's).
 - Order within a language: glossary -> the 3 pilot tools (home, one finance, one education) -> review ->
   remaining tools in checklist order -> FAQs -> full validate + build + browser spot-check.

@@ -17,7 +17,7 @@ Tick a box only when ALL are true: written in `src/content/i18n/<lang>/<slug>.js
 
 ## Per language, in this order
 
-1. Glossary `src/content/i18n/<lang>/glossary.md` written and reviewed
+1. Glossary `src/content/i18n/<lang>/glossary.md` and LaTeX labels `latex_labels.tsv` written and reviewed
 2. Pilots (home, one finance tool, one education tool) written and reviewed; comments folded into the glossary
 3. Remaining articles, then FAQs
 4. `generate.py` + silo rotation + `test_tools.js <lang>` + browser spot-check (3 pages), then commit
@@ -260,10 +260,10 @@ Tick a box only when ALL are true: written in `src/content/i18n/<lang>/<slug>.js
 
 ## fr - French
 
-- [ ] `fr` glossary reviewed
-- [ ] `fr` pilots reviewed (`percentage-calculator`, `compound-interest-calculator`, `gpa-to-percentage-calculator`)
-- [ ] `/fr/` article (1,759 words, 6 sections)
-- [ ] `/fr/` FAQ (6 Q&A)
+- [x] `fr` glossary reviewed (self-review by Claude, no native reviewer)
+- [x] `fr` pilots reviewed (self-review by Claude, no native reviewer) (`percentage-calculator`, `compound-interest-calculator`, `gpa-to-percentage-calculator`)
+- [x] `/fr/` article (1,759 words, 6 sections)
+- [x] `/fr/` FAQ (6 Q&A)
 - [ ] `/fr/alcohol-proof-calculator/` article (1,601 words, 5 sections)
 - [ ] `/fr/apr-apy-converter/` article (1,700 words, 9 sections)
 - [ ] `/fr/apr-calculator/` article (2,020 words, 9 sections)
@@ -274,13 +274,13 @@ Tick a box only when ALL are true: written in `src/content/i18n/<lang>/<slug>.js
 - [ ] `/fr/basis-points-calculator/` article (1,434 words, 7 sections)
 - [ ] `/fr/cgpa-to-percentage-calculator/` article (2,165 words, 12 sections)
 - [ ] `/fr/commission-calculator/` article (1,894 words, 7 sections)
-- [ ] `/fr/compound-interest-calculator/` article (2,110 words, 8 sections)
+- [x] `/fr/compound-interest-calculator/` article (2,110 words, 8 sections)
 - [ ] `/fr/decimal-to-percentage-calculator/` article (1,349 words, 6 sections)
 - [ ] `/fr/depreciation-calculator/` article (1,553 words, 6 sections)
 - [ ] `/fr/food-cost-percentage-calculator/` article (2,472 words, 8 sections)
 - [ ] `/fr/fraction-to-percentage-calculator/` article (1,141 words, 5 sections)
 - [ ] `/fr/fraction-to-percentage-calculator/` FAQ (12 Q&A)
-- [ ] `/fr/gpa-to-percentage-calculator/` article (1,540 words, 9 sections)
+- [x] `/fr/gpa-to-percentage-calculator/` article (1,540 words, 9 sections)
 - [ ] `/fr/gross-margin-calculator/` article (1,667 words, 7 sections)
 - [ ] `/fr/loan-interest-calculator/` article (1,811 words, 8 sections)
 - [ ] `/fr/marks-percentage-calculator/` article (1,582 words, 4 sections)

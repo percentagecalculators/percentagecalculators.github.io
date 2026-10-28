@@ -13,6 +13,7 @@ import argparse, json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import validate as v  # noqa: E402
+import latex_labels  # noqa: E402
 
 
 # Typographic spacing the language requires: characters that take a non-breaking
@@ -48,7 +49,7 @@ def main():
     original = open(path, encoding="utf-8").read()
     doc = json.loads(original)
     if a.html:
-        doc["content_html"] = typography(a.lang, open(a.html, encoding="utf-8").read().strip(), "&nbsp;")
+        doc["content_html"] = latex_labels.apply(a.lang, typography(a.lang, open(a.html, encoding="utf-8").read().strip(), "&nbsp;"))
     if a.faq:
         doc["faq"] = [{k: typography(a.lang, v, "\u00a0") for k, v in item.items()} for item in json.load(open(a.faq, encoding="utf-8"))]
     open(path, "w", encoding="utf-8").write(json.dumps(doc, ensure_ascii=False, indent=2) + "\n")
