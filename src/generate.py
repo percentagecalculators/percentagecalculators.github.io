@@ -634,7 +634,7 @@ def inject_heading_ids(content_html, fixed_ids=None):
     def repl(m):
         tag, attrs, inner = m.group(1), m.group(2), m.group(3)
         level = int(tag[1])
-        text = re.sub(r"<[^>]+>", "", inner).strip()
+        text = html.unescape(re.sub(r"<[^>]+>", "", inner)).strip()
         existing = re.search(r'id="([^"]+)"', attrs)
         fixed = next(order) if fixed_ids is not None else None
         if existing:

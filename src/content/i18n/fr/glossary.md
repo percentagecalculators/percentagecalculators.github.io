@@ -36,3 +36,13 @@ Decisions (made 2026-10-28):
 | COGS | COGS (coût des marchandises vendues) | glossed once |
 | proof, ABV | proof, ABV (titre alcoométrique volumique) | |
 | baker's percentage | pourcentage du boulanger | |
+| cost price | prix de revient | markup and profit articles |
+| effective annual rate (EAR) | taux effectif annuel | not "TAE" (kept consistent with the APY row) |
+| compounding (loan) | capitalisation | |
+| balloon loan | prêt à échéance finale (balloon) | |
+| CAGR | TCAC (taux de croissance annuel composé) | |
+| ppb / ppt | parties par milliard / parties par billion | French "billion" = 10^12 |
+| football (NFL) / soccer | football américain / football (soccer) | |
+| national insurance (UK) | cotisations sociales | review |
+| draw against commission / clawback | avance sur commission / clause de restitution (clawback) | |
+| Dollar amounts | `$` placed before the number, as in English ($15,000) | normalised across all articles |

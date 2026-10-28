@@ -14,5 +14,56 @@
     "Percentage:": "Pourcentage :",
     "e.g. 3": "p. ex. 3",
     "e.g. 4": "p. ex. 4"
-  }
+  },
+  "content_html": "<p>Convertir une fraction en pourcentage est l'une de ces opérations rapides dont on a sans cesse besoin, pour des notes, des remises, des résultats de laboratoire ou simplement pour revérifier un calcul. Ce <strong>calculateur de fraction en pourcentage</strong> s'en charge aussitôt en divisant le <strong>numérateur</strong> par le <strong>dénominateur</strong>, puis en multipliant par 100. Saisissez une fraction propre ou impropre et vous obtenez à la fois l'équivalent décimal et le pourcentage final, sans crayon. La même formule fonctionne aussi à l'envers, ce qui rend le chemin inverse tout aussi simple.</p>\n\n<h2>Comment fonctionne ce calculateur de fraction en pourcentage</h2>\n<p>Tous les calculateurs de fraction en pourcentage du web reposent sur la même logique en deux temps&nbsp;: diviser, puis multiplier par 100. Vous fournissez à l'outil un numérateur et un dénominateur (et, pour un nombre mixte, une partie entière facultative), et il renvoie le pourcentage, l'équivalent décimal et, si vous voulez suivre le raisonnement, le détail du calcul étape par étape. Ce calculateur permet aussi d'aller dans l'autre sens, d'un pourcentage vers la fraction équivalente, sans ouvrir une deuxième page. Certains sites appellent le même outil convertisseur de fractions, convertisseur de pourcentages ou calculateur de fraction en décimal, mais le calcul qui se cache derrière est identique.</p>\n\n<h3>La formule pour passer d'une fraction à un pourcentage</h3>\n<p>La formule de conversion d'une fraction en pourcentage est simple&nbsp;:</p>\n$$ P = \\frac{N}{D} \\times 100 $$\n<p>Ici, <code>N</code> est le numérateur, <code>D</code> le dénominateur et <strong>P</strong> le pourcentage obtenu. Avec 3 et 4, par exemple, 3 ÷ 4 × 100 donne 75&nbsp;%. Cette unique formule est celle à laquelle toutes les méthodes de cette page se ramènent en fin de compte&nbsp;; les étapes manuelles ci-dessous ne font que changer l'ordre des opérations.</p>\n\n<h3>Lire les données saisies, les résultats et les décimales</h3>\n<p>La plupart des outils de conversion de fraction en pourcentage, celui-ci compris, demandent trois champs&nbsp;: un numérateur, un dénominateur et une partie entière facultative pour les nombres mixtes comme 2 1/3. Le résultat affiche la valeur en pourcentage arrondie à un nombre de décimales raisonnable, ainsi que la forme décimale brute, pour que vous voyiez exactement comment l'arrondi a été fait. Si votre fraction ne tombe pas juste (1/3, par exemple), vous verrez une décimale périodique comme 0.3333 avant qu'elle ne devienne 33.33&nbsp;%.</p>\n\n<aside>Astuce&nbsp;: si une fraction a déjà un dénominateur de 100, c'est déjà un pourcentage, sans aucune division. 47/100, c'est simplement 47&nbsp;%.</aside>\n\n<h2>Méthodes manuelles&nbsp;: la formule et le calcul étape par étape</h2>\n<p>Si vous préférez vous épargner le calcul à la main, ce calculateur applique déjà automatiquement les trois méthodes ci-dessous. Mais comprendre comment la conversion fonctionne à la main aide à vérifier le résultat, ou à faire une estimation rapide quand vous n'avez pas de calculatrice sous la main.</p>\n\n<h3>Numérateur et dénominateur&nbsp;: diviser, puis multiplier par 100</h3>\n<p>Divisez le numérateur par le dénominateur pour obtenir un décimal, puis multipliez ce décimal par 100 pour obtenir le pourcentage. Pour 5/8&nbsp;: 5 divisé par 8 donne 0.625, puis la multiplication par 100 donne 62.5&nbsp;%. C'est la méthode que la plupart des manuels enseignent en premier, car elle reproduit directement la formule&nbsp;: diviser, puis mettre à l'échelle de 100.</p>\n<ul>\n  <li>Divisez le numérateur par le dénominateur pour obtenir un nombre décimal.</li>\n  <li>Multipliez le décimal par 100.</li>\n  <li>Ajoutez le signe de pourcentage au résultat.</li>\n</ul>\n\n<h3>Du décimal au pourcentage&nbsp;: multiplier d'abord, diviser ensuite</h3>\n<p>Vous pouvez aussi multiplier d'abord le numérateur par 100, puis diviser par le dénominateur&nbsp;: l'ordre ne change pas la réponse, seulement la taille des nombres que vous manipulez. Pour 5/8&nbsp;: 5 multiplié par 100 donne 500, et en divisant par 8 on obtient 62.5&nbsp;%. Certains trouvent ce raccourci plus facile pour le calcul mental, puisque multiplier par 100 revient simplement à décaler la virgule de deux rangs vers la droite avant de diviser.</p>\n<ol>\n  <li>Multipliez le numérateur par 100.</li>\n  <li>Divisez le résultat par le dénominateur.</li>\n  <li>Arrondissez au nombre de décimales voulu.</li>\n</ol>\n\n<h2>Convertir un pourcentage en fraction</h2>\n<p>Passer du résultat d'un calculateur de pourcentage à une fraction est le chemin inverse, et c'est exactement ce que fait un calculateur de pourcentage en fraction. C'est utile chaque fois qu'il vous faut un rapport exact plutôt qu'une décimale arrondie, pour des problèmes de probabilités, une recette à adapter ou la simplification d'une mesure.</p>\n\n<h3>La formule pour passer d'un pourcentage à une fraction</h3>\n<p>Pour retransformer un pourcentage en fraction, placez-le sur 100, puis simplifiez&nbsp;:</p>\n$$ \\frac{P}{100} = \\frac{N}{D} $$\n<p>Par exemple, 35&nbsp;% devient 35/100. En réduisant la fraction, c'est-à-dire en divisant numérateur et dénominateur par leur facteur commun, on obtient 7/20. Si le nombre comporte des décimales, comme 35.5&nbsp;%, multipliez le numérateur et le dénominateur par 10 (ou 100, ou 1000) jusqu'à ce que les deux soient entiers, puis réduisez la fraction.</p>\n\n<h3>Simplifier avec le plus grand diviseur commun</h3>\n<p>Réduire une fraction à sa forme irréductible revient à diviser le numérateur et le dénominateur par leur plus grand diviseur commun, ou PGCD. Pour 35/100, le PGCD est 5&nbsp;: diviser les deux nombres par 5 donne 7/20, la même valeur sous sa forme la plus simple. Savoir repérer rapidement le PGCD rend la simplification à la main bien plus rapide que de réduire un facteur à la fois.</p>\n\n<h2>Tableau de conversion des fractions en pourcentages courantes</h2>\n<p>Certaines conversions de fraction en pourcentage reviennent si souvent qu'il vaut mieux les retenir plutôt que de diviser à chaque fois. Le tableau ci-dessous couvre les fractions les plus courantes, avec leurs équivalents décimaux et leurs pourcentages.</p>\n<table>\n  <thead>\n    <tr><th>Numérateur</th><th>Dénominateur</th><th>Décimal</th><th>Pourcentage</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>2</td><td>0.5</td><td>50&nbsp;%</td></tr>\n    <tr><td>1</td><td>3</td><td>0.333</td><td>33.3&nbsp;%</td></tr>\n    <tr><td>1</td><td>4</td><td>0.25</td><td>25&nbsp;%</td></tr>\n    <tr><td>1</td><td>5</td><td>0.2</td><td>20&nbsp;%</td></tr>\n    <tr><td>3</td><td>4</td><td>0.75</td><td>75&nbsp;%</td></tr>\n    <tr><td>5</td><td>8</td><td>0.625</td><td>62.5&nbsp;%</td></tr>\n    <tr><td>7</td><td>20</td><td>0.35</td><td>35&nbsp;%</td></tr>\n  </tbody>\n</table>\n<p>Remarquez que chaque valeur du tableau suit la même règle&nbsp;: diviser le numérateur par le dénominateur, puis multiplier par 100. Une fois quelques-unes de ces équivalences mémorisées, vous pouvez estimer des pourcentages de tête avant même d'ouvrir une calculatrice.</p>\n\n<h2>Pourquoi la conversion fraction-pourcentage est utile&nbsp;: maths, statistiques et erreur en pourcentage</h2>\n<p>Passer des fractions aux pourcentages n'est pas un simple exercice scolaire&nbsp;: on le retrouve dans les mathématiques, les statistiques et le raisonnement de tous les jours. Une note d'examen de 42/50 ne dit pas grand-chose en elle-même tant qu'elle n'est pas convertie en 84&nbsp;%, ce qui la rend aussitôt comparable à n'importe quelle autre échelle de notation. En statistique, les proportions d'un échantillon sont généralement exprimées en pourcentages précisément parce qu'elles se comparent plus facilement d'un coup d'œil que des fractions brutes.</p>\n<p>Le même calcul sous-tend aussi l'<strong>erreur en pourcentage</strong>, qui mesure de combien une valeur expérimentale ou mesurée s'écarte de la valeur attendue. Si votre dénominateur représente la valeur réelle et votre numérateur l'écart entre la valeur observée et la valeur réelle, la formule de conversion d'une fraction en pourcentage devient celle de l'erreur en pourcentage&nbsp;: la mécanique est identique, seul le sens des nombres change. Que vous corrigiez un devoir, meniez une expérience de laboratoire ou lisiez la marge d'erreur d'un sondage, savoir passer aisément d'une fraction à une décimale puis à un pourcentage est l'une des compétences mathématiques les plus réutilisables. Ce même calcul sert bien au-delà d'un seul cours&nbsp;: calculer un GPA à partir de points bruts ou résoudre une série d'exercices de mathématiques discrètes reposent sur exactement la même logique de conversion fraction-pourcentage.</p>",
+  "faq": [
+    {
+      "question": "Combien font 3/4 en pourcentage ?",
+      "answer": "3/4 équivaut à 75 %. Calcul : (3 ÷ 4) × 100 = 75 %."
+    },
+    {
+      "question": "Combien font 1/3 en pourcentage ?",
+      "answer": "1/3 équivaut à environ 33.33 % (périodique). Calcul : (1 ÷ 3) × 100 = 33.333...%."
+    },
+    {
+      "question": "Combien font 2/3 en pourcentage ?",
+      "answer": "2/3 équivaut à environ 66.67 % (périodique). Calcul : (2 ÷ 3) × 100 = 66.666...%."
+    },
+    {
+      "question": "Comment convertir ma note d'examen en pourcentage ?",
+      "answer": "Divisez votre note par le total possible, puis multipliez par 100. Pour une note de 45/60 : (45÷60) × 100 = 75 %."
+    },
+    {
+      "question": "Combien font 5/8 en pourcentage ?",
+      "answer": "5/8 équivaut à 62.5 %. Calcul : (5 ÷ 8) × 100 = 62.5 %."
+    },
+    {
+      "question": "Combien font 7/10 en pourcentage ?",
+      "answer": "7/10 équivaut à 70 %. Calcul : (7 ÷ 10) × 100 = 70 %."
+    },
+    {
+      "question": "Une fraction peut-elle donner un pourcentage supérieur à 100 % ?",
+      "answer": "Oui, les fractions impropres (numérateur > dénominateur) donnent des pourcentages supérieurs à 100 %. Par exemple, 5/4 = 125 %."
+    },
+    {
+      "question": "Combien font 1/8 en pourcentage ?",
+      "answer": "1/8 équivaut à 12.5 %. Calcul : (1 ÷ 8) × 100 = 12.5 %."
+    },
+    {
+      "question": "Comment convertir un nombre mixte en pourcentage ?",
+      "answer": "Transformez-le d'abord en fraction impropre. 1½ = 3/2 = (3÷2) × 100 = 150 %."
+    },
+    {
+      "question": "Combien font 4/5 en pourcentage ?",
+      "answer": "4/5 équivaut à 80 %. Calcul : (4 ÷ 5) × 100 = 80 %."
+    },
+    {
+      "question": "Que se passe-t-il si le dénominateur est zéro ?",
+      "answer": "La division par zéro n'est pas définie. Une fraction dont le dénominateur est zéro n'a aucun pourcentage valide."
+    },
+    {
+      "question": "Combien font 11/20 en pourcentage ?",
+      "answer": "11/20 équivaut à 55 %. Calcul : (11 ÷ 20) × 100 = 55 %."
+    }
+  ]
 }
