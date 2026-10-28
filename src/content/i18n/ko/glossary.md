@@ -40,3 +40,5 @@ Decisions (made 2026-10-28):
 | baker's percentage | 베이커스 퍼센트 | |
 | ratio / fraction / decimal | 비율 / 분수 / 소수 | |
 | hydration (baking) | 수분율(하이드레이션) | |
+
+Open for review (self-review by Claude, no native reviewer): the digit check forced native/Sino-Korean count words (한 해, 영, 다섯 해) and slightly formal rewordings; sales jargon (할당량, 환수/클로백, 책상 사용료); UK/Indian class names rendered with English in parentheses; Source note: SGPA subtitle (×9.5) vs article formula mismatch comes from English.
