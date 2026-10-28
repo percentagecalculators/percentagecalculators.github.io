@@ -44,3 +44,7 @@ Decisions (made 2026-10-28):
 
 - `вы` vs. more informal tone; plural phrasing around digits was reworded to satisfy the digit check.
 - Indian CGPA/SGPA classification and US-specific terms are rendered descriptively.
+- Distilling terms (погон, сырец, брага, купаж) and Indian/UK grade-class labels are own renderings; UK classes keep the English name in brackets.
+- Permyriad rendered "десятитысячная доля (пермириад)".
+- SGPA article follows English (SGPA × 10) − 7.5; the subtitle says × 9.5 (inconsistency in the English source).
+- Loanwords kept Latin with Russian gloss: SPIFF, OTE, clawback, HELOC, CBCS.
