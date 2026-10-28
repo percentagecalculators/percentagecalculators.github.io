@@ -376,6 +376,10 @@ so `build_data.py` is not involved.
 - **Validate:** `python3 utilities/i18n/validate.py <lang> <slug|pages|ui>` or `--all` (tag skeleton,
   LaTeX, FAQ count, `card_strings` coverage, page/section/list counts, ui.json completeness).
   `utilities/i18n/translation-checklist.md` tracks all 864 URLs (18 languages x 48 pages).
+- **Functional test:** `NODE_PATH=.tailwind-cache/node_modules node utilities/i18n/test_tools.js [lang ...]`
+  (needs `npm install --prefix .tailwind-cache jsdom` once) loads every built page in jsdom, fills each
+  tool's inputs and checks that all 19 languages give the same results as English, with no script
+  errors and a working reset button (798 pages). Run it after `generate.py`.
 - **Generated per page:** `<html lang>`, self-referencing canonical, `hreflang` alternates for every
   built language + `x-default` (English pages get them too), `inLanguage` in the JSON-LD, a header
   language switcher + mobile-drawer language list, and `xhtml:link` alternates in `sitemap.xml`.
