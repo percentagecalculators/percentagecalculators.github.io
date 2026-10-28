@@ -43,7 +43,7 @@ jobs:
             echo "No changes -- already up to date."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git add public/*.html
+            git add public
             git commit -m "chore: rotate silo links $LABEL"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"

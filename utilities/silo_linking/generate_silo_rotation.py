@@ -31,8 +31,14 @@ SILO_START/SILO_END comment markers are documentation for humans reading the sou
 something the script depends on for locating its target -- it locates the aside by its class
 attribute directly.
 
+Every built language (src/content/i18n/<lang>/ui.json) gets its own independent silo with the
+same structure and the same monthly shuffle: its pages link only to pages of the same language
+(/es/..., /th/...), with card text taken from that language's translated tool names/teasers.
+English stays at the top level. The per-page hard rules are audited on every run (and on
+--dry-run); any violation prints "AUDIT ..." and exits non-zero.
+
 Run via GitHub Actions on the 1st-3rd of each month, or manually:
-  python3 utilities/silo_linking/generate_silo_rotation.py --dry-run
+  python3 utilities/silo_linking/generate_silo_rotation.py --dry-run [--verbose]
   python3 utilities/silo_linking/generate_silo_rotation.py
 """
 
@@ -250,20 +256,6 @@ def patch_file(path, cards, by_slug, site, dry_run):
 # ---------------------------------------------------------------------------
 
 
-def load_site_and_tools():
-    import json
-    with open(os.path.join(SRC_DIR, "data", "site.json")) as f:
-        site = json.load(f)
-    with open(os.path.join(SRC_DIR, "data", "tools.json")) as f:
-        tools = json.load(f)
-    by_slug = {t["slug"]: t for t in tools}
-    return site, by_slug
-
-
-def slug_to_filename(slug, site):
-    return "index.html" if slug == site["home_slug"] else "%s.html" % slug
-
-
 def parse_date_arg(argv):
     for arg in argv:
         if arg.startswith("--date="):
@@ -272,12 +264,88 @@ def parse_date_arg(argv):
     return datetime.date.today()
 
 
-def main():
-    dry_run = "--dry-run" in sys.argv
-    today = parse_date_arg(sys.argv)
-    site, by_slug = load_site_and_tools()
+def pillar_of(slug):
+    """Pillar key a silo slug belongs to (pillars, hubs and supporters)."""
+    for pk, pslug in PILLAR_SLUG.items():
+        if slug == pslug:
+            return pk
+    if slug in HUB_PILLAR:
+        return HUB_PILLAR[slug]
+    return HUB_PILLAR[SUPPORTER_HUB[slug]]
 
-    built_slugs = set(by_slug.keys())
+
+def audit_cards(slug, cards):
+    """Hard rules from CLAUDE.md ("Internal Linking Strategy"); returns violations."""
+    bad = []
+    if slug in cards:
+        bad.append("links to itself")
+    if len(cards) != len(set(cards)):
+        bad.append("duplicate target")
+    for c in cards:
+        if c not in ALL_SILO_SLUGS:
+            bad.append("target %s is not in the silo map" % c)
+        elif pillar_of(c) != pillar_of(slug):
+            bad.append("cross-pillar link to %s" % c)
+    if slug in PILLAR_SLUG.values():
+        if len(cards) != 1:
+            bad.append("pillar must have exactly 1 card, has %d" % len(cards))
+        if cards and cards[0] not in HUB_PILLAR:
+            bad.append("pillar must link to a hub")
+    elif slug in HUB_PILLAR:
+        if not 3 <= len(cards) <= 4:
+            bad.append("hub must have 3-4 cards, has %d" % len(cards))
+        for c in cards:
+            if c in SUPPORTER_HUB and SUPPORTER_HUB[c] != slug:
+                bad.append("hub links to another hub's supporter %s" % c)
+    else:
+        if not 2 <= len(cards) <= 3:
+            bad.append("supporter must have 2-3 cards, has %d" % len(cards))
+        if any(c in PILLAR_SLUG.values() for c in cards):
+            bad.append("supporter links directly to a pillar")
+    return bad
+
+
+def load_language(lang, site, tools):
+    """(site, by_slug) as rendered for a language: English straight from
+    src/data, other languages with their translated tool names, teasers and
+    nav text -- the same overlays generate.py applies when building them."""
+    if lang == "en":
+        gen.set_locale("en")
+    else:
+        loc = gen.load_locale(lang)
+        gen.set_locale(lang, loc["ui"])
+        site = gen.localize_site(site, loc["ui"])
+        tools = gen.localize_tools(tools, loc)
+    return site, {t["slug"]: t for t in tools}
+
+
+def aside_hrefs(path):
+    with open(path, encoding="utf-8") as f:
+        m = ASIDE_RE.search(f.read())
+    return re.findall(r'<a href="([^"]+)"', m.group(2)) if m else []
+
+
+def main():
+    import json
+    dry_run = "--dry-run" in sys.argv
+    verbose = "--verbose" in sys.argv
+    today = parse_date_arg(sys.argv)
+
+    with open(os.path.join(SRC_DIR, "data", "site.json")) as f:
+        en_site = json.load(f)
+    with open(os.path.join(SRC_DIR, "data", "tools.json")) as f:
+        en_tools = json.load(f)
+    with open(os.path.join(SRC_DIR, "data", "pages.json")) as f:
+        pages = json.load(f)
+
+    # generate.py's URL helpers (tool_url, localize_href, ...) read this module state;
+    # generate.main() normally fills it in.
+    langs = gen.discover_languages()
+    gen.BUILT_LANGS[:] = langs
+    gen.TOOL_SLUGS.update(t["slug"] for t in en_tools)
+    gen.PAGE_SLUGS.update(p["slug"] for p in pages)
+
+    built_slugs = {t["slug"] for t in en_tools}
     missing_from_silo = built_slugs - ALL_SILO_SLUGS
     missing_from_build = ALL_SILO_SLUGS - built_slugs
     if missing_from_silo:
@@ -287,23 +355,43 @@ def main():
         print("WARNING: silo map references tools that don't exist in the build: %s"
               % ", ".join(sorted(missing_from_build)))
 
-    changed = 0
-    for slug in sorted(ALL_SILO_SLUGS & built_slugs):
-        cards = cards_for_slug(slug, today)
-        path = os.path.join(PAGES_DIR, slug_to_filename(slug, site))
-        if not os.path.exists(path):
-            print("  WARNING: %s not found, skipping %s" % (path, slug))
-            continue
-        did_change = patch_file(path, cards, by_slug, site, dry_run)
-        marker = "would update" if dry_run else "updated"
-        if did_change:
-            changed += 1
-            print("%s %-45s -> %s" % (marker, slug, ", ".join(cards)))
+    silo_slugs = sorted(ALL_SILO_SLUGS & built_slugs)
+    total = changed_total = problems = 0
+    for lang in langs:
+        site, by_slug = load_language(lang, en_site, en_tools)
+        changed = 0
+        for slug in silo_slugs:
+            cards = cards_for_slug(slug, today)
+            for v in audit_cards(slug, cards):
+                problems += 1
+                print("  AUDIT %s/%s: %s" % (lang, slug, v))
+            kind = "home" if slug == site["home_slug"] else "tool"
+            path = os.path.join(PAGES_DIR, gen.out_rel_path(lang, kind, slug))
+            if not os.path.exists(path):
+                print("  WARNING: %s not found, skipping %s/%s" % (path, lang, slug))
+                continue
+            if patch_file(path, cards, by_slug, site, dry_run):
+                changed += 1
+                if verbose:
+                    print("%s %s/%-45s -> %s" % ("would update" if dry_run else "updated", lang, slug, ", ".join(cards)))
+            if not dry_run:
+                # every link in a language's grid must stay inside that language
+                prefix = "/" if lang == "en" else "/%s/" % lang
+                for h in aside_hrefs(path):
+                    wrong = (not h.startswith(prefix)) if lang != "en" else (h[1:2] and h.split("/")[1] in langs[1:])
+                    if wrong:
+                        problems += 1
+                        print("  AUDIT %s/%s: link %s leaves the language" % (lang, slug, h))
+        total += len(silo_slugs)
+        changed_total += changed
+        print("%-6s %d/%d silo pages %s" % (lang, changed, len(silo_slugs), "would change" if dry_run else "changed"))
+    gen.set_locale("en")
 
-    print("\n%d/%d silo pages %s (%d unchanged)." % (
-        changed, len(ALL_SILO_SLUGS & built_slugs),
-        "would change" if dry_run else "changed", len(ALL_SILO_SLUGS & built_slugs) - changed,
+    print("\n%d/%d silo pages %s across %d language(s) (%d unchanged); %d audit problem(s)." % (
+        changed_total, total, "would change" if dry_run else "changed", len(langs), total - changed_total, problems,
     ))
+    if problems:
+        sys.exit(1)
 
 
 if __name__ == "__main__":

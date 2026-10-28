@@ -295,6 +295,10 @@ script patches the already-minified `public/*.html` files in place — `generate
 Re-running `generate.py` without re-running the rotation script afterward reverts every page's
 related-tools grid back to the generic same-category picks baked into `render_related_calculators()`.
 
+**Languages:** the rotation loops over every built language (`generate.discover_languages()`), patching
+`public/<lang>/...` with that language's translated tool names, teasers and URLs. `--dry-run --verbose`
+lists every page per language. The monthly workflow commits `public/` (all languages).
+
 **Run manually:**
 ```bash
 python3 utilities/silo_linking/generate_silo_rotation.py --dry-run   # preview, no writes
@@ -383,5 +387,7 @@ so `build_data.py` is not involved.
 - **Generated per page:** `<html lang>`, self-referencing canonical, `hreflang` alternates for every
   built language + `x-default` (English pages get them too), `inLanguage` in the JSON-LD, a header
   language switcher + mobile-drawer language list, and `xhtml:link` alternates in `sitemap.xml`.
-- **Silo rotation** only patches the top-level English pages; translated pages keep the generic
-  same-category related-tools grid.
+- **Silo rotation** runs per language: every built language gets its own independent silo with
+  exactly the English structure and monthly shuffle (the card *slugs* are identical across languages;
+  only the text and `/<lang>/` URLs are localized, and links never leave the language). The script
+  audits the hard rules per page on every run and exits non-zero on any violation.
