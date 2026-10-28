@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "zh-cn",
+  "meta_title": "单利计算器 | 利息与总金额",
+  "meta_description": "免费的单利计算器。输入本金、年利率和期限，即可立即算出所得利息和总金额。",
+  "h1": "单利计算器",
+  "subtitle": "输入<strong>本金</strong>、<strong>年利率</strong>和<strong>以年计的期限</strong>，这款<strong>单利计算器</strong>会立即显示<strong>所得利息</strong>和<strong>总金额</strong>。",
+  "hint": "输入本金、年利率和期限，即可得到利息和总金额。",
+  "long_tail_anchor": "本金、利率与时间公式",
+  "card_strings": {
+    "Annual Rate": "年利率",
+    "Interest Earned:": "所得利息：",
+    "Principal ($)": "本金 ($)",
+    "Time (Years)": "期限（年）",
+    "Total Amount:": "总金额：",
+    "e.g. 1000": "例如：1000",
+    "e.g. 3": "例如：3",
+    "e.g. 5": "例如：5"
+  }
+}

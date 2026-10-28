@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "zh-cn",
+  "meta_title": "贷款利息计算器 | 月供与总利息",
+  "meta_description": "免费的贷款利息计算器。输入贷款金额、年利率和期限，即可立即算出您的月供（EMI）和应付总利息。",
+  "h1": "贷款利息计算器",
+  "subtitle": "输入<strong>贷款金额</strong>、<strong>年利率</strong>和<strong>贷款期限</strong>，这款<strong>贷款利息计算器</strong>会立即算出您的<strong>月供（EMI）</strong>和将支付的<strong>总利息</strong>。",
+  "hint": "输入贷款金额、利率和期限，即可得到您的月供。",
+  "long_tail_anchor": "月供与总利息",
+  "card_strings": {
+    "Annual Rate": "年利率",
+    "Loan Amount ($)": "贷款金额 ($)",
+    "Loan Term (Years)": "贷款期限（年）",
+    "Monthly EMI:": "月供 (EMI)：",
+    "Total Interest:": "总利息：",
+    "e.g. 20000": "例如：20000",
+    "e.g. 5": "例如：5",
+    "e.g. 7.5": "例如：7.5"
+  }
+}

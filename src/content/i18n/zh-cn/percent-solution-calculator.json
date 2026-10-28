@@ -1,0 +1,17 @@
+{
+  "slug": "percent-solution-calculator",
+  "lang": "zh-cn",
+  "meta_title": "百分比溶液计算器 | 质量/体积浓度",
+  "meta_description": "免费的百分比溶液计算器。输入溶质质量和溶液体积，即可立即算出百分比浓度（% w/v）。",
+  "h1": "百分比溶液计算器",
+  "subtitle": "输入<strong>溶质质量</strong>和<strong>溶液体积</strong>，这款<strong>百分比溶液计算器</strong>会立即算出<strong>百分比浓度</strong>（% w/v）。",
+  "hint": "输入溶质质量和溶液体积，即可得到浓度。",
+  "long_tail_anchor": "质量与体积的百分比浓度",
+  "card_strings": {
+    "Concentration (% w/v):": "浓度 (% w/v)：",
+    "Mass of Solute (g)": "溶质质量 (g)",
+    "Volume of Solution (mL)": "溶液体积 (mL)",
+    "e.g. 250": "例如：250",
+    "e.g. 5": "例如：5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "zh-cn",
+  "meta_title": "加薪计算器 | 计算您的新薪资",
+  "meta_description": "免费的加薪计算器。输入当前薪资和加薪百分比，即可立即算出加薪金额和新薪资。",
+  "h1": "加薪计算器",
+  "subtitle": "输入您的<strong>当前薪资</strong>和<strong>加薪百分比</strong>，这款<strong>加薪计算器</strong>会立即算出<strong>加薪金额</strong>和您的<strong>新薪资</strong>。",
+  "hint": "输入当前薪资和加薪 %，即可得到您的新薪资。",
+  "long_tail_anchor": "加薪百分比与薪资涨幅",
+  "card_strings": {
+    "Current Salary ($)": "当前薪资 ($)",
+    "New Salary:": "新薪资：",
+    "Raise": "加薪",
+    "Raise Amount:": "加薪金额：",
+    "e.g. 5": "例如：5",
+    "e.g. 60000": "例如：60000"
+  }
+}

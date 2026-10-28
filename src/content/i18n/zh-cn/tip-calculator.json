@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "zh-cn",
+  "meta_title": "小费计算器 | 计算小费并分摊账单",
+  "meta_description": "免费的小费计算器。输入账单金额、小费百分比和人数，即可立即算出小费、总额以及人均金额。",
+  "h1": "小费计算器",
+  "subtitle": "输入<strong>账单金额</strong>、<strong>小费百分比</strong>和<strong>人数</strong>，这款<strong>小费计算器</strong>会立即算出<strong>小费</strong>、<strong>总额</strong>以及<strong>每人应付金额</strong>。",
+  "hint": "输入账单金额、小费 % 和分摊人数。",
+  "long_tail_anchor": "餐厅账单小费与分摊",
+  "card_strings": {
+    "Bill Amount ($)": "账单金额 ($)",
+    "Per Person:": "人均：",
+    "Split Between": "分摊人数",
+    "Tip": "小费",
+    "Tip Amount:": "小费金额：",
+    "Total:": "总计：",
+    "e.g. 18": "例如：18",
+    "e.g. 4": "例如：4",
+    "e.g. 80": "例如：80"
+  }
+}

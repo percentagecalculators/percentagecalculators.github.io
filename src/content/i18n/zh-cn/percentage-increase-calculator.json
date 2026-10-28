@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "zh-cn",
+  "meta_title": "百分比增加计算器 | 给数值加上一个百分比",
+  "meta_description": "免费的百分比增加计算器。立即给一个数加上任意百分比。计算加薪、价格加成、投资回报等。",
+  "h1": "百分比增加计算器",
+  "subtitle": "输入您的<strong>起始数值</strong>和<strong>要加上的百分比</strong>，这款<strong>百分比增加计算器</strong>会同时给出<strong>增加金额</strong>和<strong>最终值</strong>。把它当作“200 加 15% 是多少？”的答案——顺带一提，是 230。",
+  "hint": "输入数值和要加上的百分比，即可得到增加后的值。",
+  "long_tail_anchor": "给数值加上百分比",
+  "card_strings": {
+    "Enter percentage": "输入百分比",
+    "Enter starting number": "输入起始数值",
+    "Increase Amount:": "增加金额：",
+    "Increase by": "增加",
+    "New Value:": "新值：",
+    "Original Value": "原始值"
+  }
+}

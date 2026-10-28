@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "zh-cn",
+  "meta_title": "佣金计算器 | 计算所得销售佣金",
+  "meta_description": "免费的佣金计算器。输入销售额和佣金率，即可立即算出您所得的佣金。",
+  "h1": "佣金计算器",
+  "subtitle": "输入您的<strong>销售额</strong>和<strong>佣金率</strong>，这款<strong>佣金计算器</strong>会立即算出<strong>您所得的佣金</strong>。",
+  "hint": "输入销售额和佣金率，即可得到所得佣金。",
+  "long_tail_anchor": "销售佣金百分比",
+  "card_strings": {
+    "Commission Earned:": "所得佣金：",
+    "Commission Rate": "佣金率",
+    "Sales Amount ($)": "销售额 ($)",
+    "e.g. 10": "例如：10",
+    "e.g. 5000": "例如：5000"
+  }
+}

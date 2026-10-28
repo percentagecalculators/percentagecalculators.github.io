@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "zh-cn",
+  "meta_title": "毛利率计算器 | 计算毛利润率 %",
+  "meta_description": "免费的毛利率计算器。输入收入和销货成本（COGS），即可立即算出毛利润和毛利率。",
+  "h1": "毛利率计算器",
+  "subtitle": "输入您的<strong>收入</strong>和<strong>销货成本（COGS）</strong>，这款<strong>毛利率计算器</strong>会立即算出您的<strong>毛利润</strong>和<strong>毛利率</strong>。",
+  "hint": "输入收入和 COGS，即可得到您的毛利率。",
+  "long_tail_anchor": "收入与 COGS 的利润率",
+  "card_strings": {
+    "COGS ($)": "COGS ($)",
+    "Gross Margin:": "毛利率：",
+    "Gross Profit:": "毛利润：",
+    "Revenue ($)": "收入 ($)",
+    "e.g. 100000": "例如：100000",
+    "e.g. 65000": "例如：65000"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "fraction-to-percentage-calculator",
+  "lang": "zh-cn",
+  "meta_title": "分数转百分比计算器 | 转换为百分比",
+  "meta_description": "免费的分数转百分比计算器。立即将任意分数转换为百分比——非常适合测验分数、比率和比例。",
+  "h1": "分数转百分比计算器",
+  "subtitle": "输入<strong>分子</strong>（上方的数）和<strong>分母</strong>（下方的数），这款<strong>分数转百分比计算器</strong>会把分数转换为<strong>百分比</strong>和<strong>小数</strong>。比如 3/4 就是 75%——输入时即可实时计算。",
+  "hint": "输入分子和分母，即可转换为百分比。",
+  "long_tail_anchor": "将分数转换为百分比",
+  "card_strings": {
+    "Decimal Value:": "小数：",
+    "Denominator": "分母",
+    "Numerator": "分子",
+    "Percentage:": "百分比：",
+    "e.g. 3": "例如：3",
+    "e.g. 4": "例如：4"
+  }
+}

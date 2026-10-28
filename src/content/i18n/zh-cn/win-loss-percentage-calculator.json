@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "zh-cn",
+  "meta_title": "胜负百分比计算器 | 计算胜率",
+  "meta_description": "免费的胜负百分比计算器。输入胜、负、平的场数，即可立即算出任何运动、游戏或比赛的胜率。",
+  "h1": "胜负百分比计算器",
+  "subtitle": "输入您的<strong>胜场</strong>、<strong>负场</strong>以及可能存在的<strong>平局</strong>，这款<strong>胜负百分比计算器</strong>会立即算出您的<strong>胜率</strong>。",
+  "hint": "输入胜、负、平的场数，即可得到您的胜率。",
+  "long_tail_anchor": "计算您的运动胜率",
+  "card_strings": {
+    "Losses": "负",
+    "Ties": "平",
+    "Total Games:": "总场数：",
+    "Win Percentage:": "胜率：",
+    "Wins": "胜",
+    "e.g. 10": "例如：10",
+    "e.g. 18": "例如：18",
+    "e.g. 2": "例如：2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-percentage-calculator",
+  "lang": "zh-cn",
+  "meta_title": "反向百分比计算器 | 求原始数值",
+  "meta_description": "免费的反向百分比计算器。已知某个值及其百分比时，求出原始数值——计算折扣前的价格等。",
+  "h1": "反向百分比计算器",
+  "subtitle": "手上有一个数，并且知道它是某个更大数的一定百分比？输入<strong>已知值</strong>和<strong>它所代表的百分比</strong>，这款<strong>反向百分比计算器</strong>会反向推算出<strong>原始数值</strong>。如果 30 是总数的 25%，那么总数就是 120。",
+  "hint": "输入一个值及其所代表的百分比，即可求出原始数值。",
+  "long_tail_anchor": "求原始数值",
+  "card_strings": {
+    "Original Total:": "原始总数：",
+    "Value": "数值",
+    "e.g. 30": "例如：30",
+    "e.g. 45": "例如：45",
+    "is this % of the total": "占总数的这个 %"
+  }
+}

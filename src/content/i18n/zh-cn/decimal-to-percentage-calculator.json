@@ -1,0 +1,15 @@
+{
+  "slug": "decimal-to-percentage-calculator",
+  "lang": "zh-cn",
+  "meta_title": "小数转百分比计算器 | 将小数转换为 %",
+  "meta_description": "免费的小数转百分比计算器。输入任意小数，即可立即转换为百分比——适用于学习、工作或金融场景的准确结果。",
+  "h1": "小数转百分比计算器",
+  "subtitle": "输入一个<strong>小数</strong>，这款<strong>小数转百分比计算器</strong>会立即将其转换为<strong>百分比</strong>。",
+  "hint": "输入小数，即可得到对应的百分比。",
+  "long_tail_anchor": "将小数转换为百分比",
+  "card_strings": {
+    "Decimal Value": "小数",
+    "Percentage:": "百分比：",
+    "e.g. 0.25": "例如：0.25"
+  }
+}

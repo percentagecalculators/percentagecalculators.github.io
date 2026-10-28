@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "zh-cn",
+  "meta_title": "百分比的百分比计算器 | 合并两个 %",
+  "meta_description": "免费的百分比的百分比计算器。将两个叠加的百分比相乘，再把合并后的比率用于某个数值，适用于税费或折扣叠加。",
+  "h1": "百分比的百分比计算器",
+  "subtitle": "输入两个<strong>百分比</strong>，这款<strong>百分比的百分比计算器</strong>会以正确的方式把它们相乘，得到<strong>合并百分比</strong>——再加上一个起始值，就能清楚看到它在两个步骤中如何变化。",
+  "hint": "把两个叠加的百分比相乘，即可得到合并比率。",
+  "long_tail_anchor": "合并两个叠加的百分比",
+  "card_strings": {
+    "Apply to a Value (optional)": "应用于某个数值（可选）",
+    "Combined Percentage:": "合并百分比：",
+    "Final Value:": "最终值：",
+    "First Percentage": "第一个百分比",
+    "Second Percentage": "第二个百分比",
+    "Value After First %:": "应用第一个 % 后的值：",
+    "e.g. 200": "例如：200",
+    "e.g. 40": "例如：40",
+    "e.g. 90": "例如：90"
+  }
+}

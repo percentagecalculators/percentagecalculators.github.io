@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "zh-cn",
+  "meta_title": "折扣计算器 | 折后价与节省金额",
+  "meta_description": "免费的折扣百分比计算器。立即算出折后价和节省金额。无论什么折扣，都能找到最终价格——您购物时抢优惠的好帮手。",
+  "h1": "折扣计算器",
+  "subtitle": "输入<strong>原价</strong>和<strong>折扣百分比</strong>，这款<strong>折扣计算器</strong>会显示<strong>折后价</strong>以及您<strong>节省的金额</strong>。下次看到“打七折”的牌子时，您就知道实际要付多少钱。",
+  "hint": "输入原价和折扣 %，即可得到折后价。",
+  "long_tail_anchor": "折扣与折后价查询",
+  "card_strings": {
+    "Discount": "折扣",
+    "Enter discount %": "输入折扣 %",
+    "Enter price": "输入价格",
+    "Final Price:": "最终价格：",
+    "Original Price ($)": "原价 ($)",
+    "You Save:": "您节省："
+  }
+}

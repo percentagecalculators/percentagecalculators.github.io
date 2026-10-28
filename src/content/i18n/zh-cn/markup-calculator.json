@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "zh-cn",
+  "meta_title": "加价率计算器 | 由成本 + 加价 % 得出售价",
+  "meta_description": "免费的加价率计算器。输入成本价和期望的加价百分比，即可立即算出您应定的售价。",
+  "h1": "加价率计算器",
+  "subtitle": "输入<strong>成本价</strong>和期望的<strong>加价百分比</strong>，这款<strong>加价率计算器</strong>会立即算出您应定的<strong>售价</strong>。",
+  "hint": "输入成本价和加价 %，即可得到售价。",
+  "long_tail_anchor": "由成本加价得出价格",
+  "card_strings": {
+    "Cost Price ($)": "成本价 ($)",
+    "Markup": "加价",
+    "Markup Amount:": "加价金额：",
+    "Selling Price:": "售价：",
+    "e.g. 30": "例如：30",
+    "e.g. 40": "例如：40"
+  }
+}

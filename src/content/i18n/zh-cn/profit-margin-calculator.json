@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "zh-cn",
+  "meta_title": "利润率计算器 | 计算利润率 %",
+  "meta_description": "免费的利润率计算器。输入成本价和售价，即可立即算出利润以及以售价为基数的利润率。",
+  "h1": "利润率计算器",
+  "subtitle": "输入<strong>成本价</strong>和<strong>售价</strong>，这款<strong>利润率计算器</strong>会立即算出您的<strong>利润</strong>以及占售价百分比的<strong>利润率</strong>。",
+  "hint": "输入成本价和售价，即可得到您的利润率。",
+  "long_tail_anchor": "占售价的利润率",
+  "card_strings": {
+    "Cost Price ($)": "成本价 ($)",
+    "Profit Margin:": "利润率：",
+    "Profit:": "利润：",
+    "Selling Price ($)": "售价 ($)",
+    "e.g. 40": "例如：40",
+    "e.g. 55": "例如：55"
+  }
+}

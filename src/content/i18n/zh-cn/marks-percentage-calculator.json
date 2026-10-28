@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "zh-cn",
+  "meta_title": "分数百分比计算器 | 计算考试百分比",
+  "meta_description": "免费的分数百分比计算器。输入得分和满分，即可立即算出您的考试或测验百分比。",
+  "h1": "分数百分比计算器",
+  "subtitle": "输入<strong>所得分数</strong>和<strong>满分</strong>，这款<strong>分数百分比计算器</strong>会立即算出您的<strong>考试百分比</strong>——非常适合成绩单、分数表和成绩核对。",
+  "hint": "输入所得分数和满分，即可得到您的百分比。",
+  "long_tail_anchor": "考试和测验得分百分比",
+  "card_strings": {
+    "Marks Obtained": "所得分数",
+    "Percentage:": "百分比：",
+    "Total Marks": "满分",
+    "e.g. 450": "例如：450",
+    "e.g. 500": "例如：500"
+  }
+}

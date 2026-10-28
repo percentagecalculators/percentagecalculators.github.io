@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "zh-cn",
+  "meta_title": "烘焙百分比计算器 | 计算配料比例",
+  "meta_description": "免费的烘焙百分比计算器。输入面粉重量和配料重量，即可立即算出该配料的烘焙百分比。",
+  "h1": "烘焙百分比计算器",
+  "subtitle": "输入<strong>面粉重量</strong>和<strong>配料重量</strong>，这款<strong>烘焙百分比计算器</strong>会立即算出该配料的<strong>烘焙百分比</strong>——每种配料都以面粉为基准来表示。",
+  "hint": "输入面粉和配料的重量，即可得到烘焙百分比。",
+  "long_tail_anchor": "面团含水量与配料比例",
+  "card_strings": {
+    "Baker's Percentage:": "烘焙百分比：",
+    "Flour Weight (g)": "面粉重量 (g)",
+    "Ingredient Weight (g)": "配料重量 (g)",
+    "e.g. 350": "例如：350",
+    "e.g. 500": "例如：500"
+  }
+}

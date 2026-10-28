@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "zh-cn",
+  "meta_title": "APR 转 APY 换算器 | 转换为年化收益率",
+  "meta_description": "免费的 APR 转 APY 换算器。输入 APR 和复利频率，即可立即看到对应的年化收益率（APY）。",
+  "h1": "APR 转 APY 换算器",
+  "subtitle": "输入 <strong>APR</strong> 及其<strong>复利频率</strong>，这款 <strong>APR 转 APY 换算器</strong>会显示对应的<strong>年化收益率</strong>，便于比较表述方式不同的账户。",
+  "hint": "输入 APR 和每年复利次数，即可得到对应的 APY。",
+  "long_tail_anchor": "比较 APR 与 APY 利率",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY：",
+    "Compounding Periods / Year": "复利次数 / 年",
+    "e.g. 12": "例如：12",
+    "e.g. 6": "例如：6"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "zh-cn",
+  "meta_title": "APR 计算器 | 年化利率",
+  "meta_description": "免费的 APR 计算器。将周期利率立即换算为年化利率（APR）——贷款和信用卡标明成本的标准方式。",
+  "h1": "APR 计算器",
+  "subtitle": "输入<strong>周期利率</strong>和<strong>每年的周期数</strong>，这款 <strong>APR 计算器</strong>会算出<strong>年化利率</strong>——贷款机构标明借款成本时使用的、不计复利的标准方式。",
+  "hint": "输入周期利率和每年的周期数，即可得到 APR。",
+  "long_tail_anchor": "年化利率计算器",
+  "card_strings": {
+    "APR:": "APR：",
+    "Periodic Interest Rate": "周期利率",
+    "Periods / Year": "周期数 / 年",
+    "e.g. 1.5": "例如：1.5",
+    "e.g. 12": "例如：12"
+  }
+}

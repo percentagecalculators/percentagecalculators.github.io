@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "zh-cn",
+  "meta_title": "百分点计算器 | 百分点差",
+  "meta_description": "免费的百分点计算器。输入两个百分比，即可立即看到以百分点表示的差值和相对百分比变化。",
+  "h1": "百分点计算器",
+  "subtitle": "输入两个<strong>百分比</strong>，这款<strong>百分点计算器</strong>会显示<strong>以百分点表示的差值</strong>——它与相对百分比变化不同，后者也会一并显示以供对比。",
+  "hint": "输入两个百分比，即可得到以百分点表示的差值。",
+  "long_tail_anchor": "百分点与百分比变化的区别",
+  "card_strings": {
+    "Percentage A": "百分比 A",
+    "Percentage B": "百分比 B",
+    "Point Difference:": "百分点差：",
+    "Relative Change:": "相对变化：",
+    "e.g. 20": "例如：20",
+    "e.g. 25": "例如：25"
+  }
+}

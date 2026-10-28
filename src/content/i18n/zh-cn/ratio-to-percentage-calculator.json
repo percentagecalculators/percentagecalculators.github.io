@@ -1,0 +1,18 @@
+{
+  "slug": "ratio-to-percentage-calculator",
+  "lang": "zh-cn",
+  "meta_title": "比例转百分比计算器 | 将比例转换为 %",
+  "meta_description": "免费的比例转百分比计算器。输入比例的两个部分，即可立即看到总数以及第一部分所占的百分比。",
+  "h1": "比例转百分比计算器",
+  "subtitle": "输入<strong>比例</strong>的两个部分（如 3 : 4），这款<strong>比例转百分比计算器</strong>会立即显示<strong>总数</strong>以及第一部分所占的<strong>百分比</strong>。",
+  "hint": "输入比例的两个部分，即可得到占总数的百分比。",
+  "long_tail_anchor": "将比例转换为占比百分比",
+  "card_strings": {
+    "A as % of Total:": "A 占总数的 %：",
+    "Part A": "部分 A",
+    "Part B": "部分 B",
+    "Total:": "总计：",
+    "e.g. 3": "例如：3",
+    "e.g. 4": "例如：4"
+  }
+}

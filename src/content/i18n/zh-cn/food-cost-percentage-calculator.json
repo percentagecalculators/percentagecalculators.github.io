@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "zh-cn",
+  "meta_title": "食材成本率计算器 | 计算菜品成本百分比",
+  "meta_description": "免费的食材成本率计算器。输入食材成本和菜品售价，即可立即算出菜品的食材成本率。",
+  "h1": "食材成本率计算器",
+  "subtitle": "输入<strong>食材成本</strong>和<strong>菜品售价</strong>，这款<strong>食材成本率计算器</strong>会立即算出该菜品的<strong>食材成本率</strong>。",
+  "hint": "输入食材成本和菜品售价，即可得到食材成本率。",
+  "long_tail_anchor": "餐厅菜品成本百分比",
+  "card_strings": {
+    "Food Cost Percentage:": "食材成本率：",
+    "Ingredient Cost ($)": "食材成本 ($)",
+    "Menu Price ($)": "菜品售价 ($)",
+    "e.g. 14": "例如：14",
+    "e.g. 3.50": "例如：3.50"
+  }
+}

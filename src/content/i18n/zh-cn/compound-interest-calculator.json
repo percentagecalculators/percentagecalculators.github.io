@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "zh-cn",
+  "meta_title": "复利计算器 | 计算随时间的增长",
+  "meta_description": "免费的复利计算器。输入本金、年利率、期限和复利频率，即可立即算出所得利息和总金额。",
+  "h1": "复利计算器",
+  "subtitle": "输入<strong>本金</strong>、<strong>年利率</strong>、<strong>期限</strong>和<strong>复利频率</strong>，这款<strong>复利计算器</strong>会立即显示<strong>所得利息</strong>和<strong>总金额</strong>。",
+  "hint": "输入本金、利率、期限和复利频率，即可得到总金额。",
+  "long_tail_anchor": "复利频率与增长",
+  "card_strings": {
+    "Annual Rate": "年利率",
+    "Compounding / Year": "复利次数 / 年",
+    "Interest Earned:": "所得利息：",
+    "Principal ($)": "本金 ($)",
+    "Time (Years)": "期限（年）",
+    "Total Amount:": "总金额：",
+    "e.g. 1000": "例如：1000",
+    "e.g. 12": "例如：12",
+    "e.g. 3": "例如：3",
+    "e.g. 5": "例如：5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "zh-cn",
+  "meta_title": "利润百分比计算器 | 按成本计算利润 %",
+  "meta_description": "免费的利润百分比计算器。输入成本价和售价，即可立即算出利润金额和利润百分比。",
+  "h1": "利润百分比计算器",
+  "subtitle": "输入<strong>成本价</strong>和<strong>售价</strong>，这款<strong>利润百分比计算器</strong>会立即算出您的<strong>利润</strong>以及按成本计算的<strong>利润百分比</strong>。",
+  "hint": "输入成本价和售价，即可得到您的利润百分比。",
+  "long_tail_anchor": "按成本价计算的利润百分比",
+  "card_strings": {
+    "Cost Price ($)": "成本价 ($)",
+    "Profit Percentage:": "利润百分比：",
+    "Profit:": "利润：",
+    "Selling Price ($)": "售价 ($)",
+    "e.g. 40": "例如：40",
+    "e.g. 55": "例如：55"
+  }
+}

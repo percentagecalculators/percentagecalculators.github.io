@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "zh-cn",
+  "meta_title": "酒精度数（Proof）计算器 | 将 Proof 转换为 ABV 百分比",
+  "meta_description": "免费的酒精度数（Proof）计算器。输入美制 Proof 值，即可立即换算为酒精体积百分比（ABV）——快速、准确、易用。",
+  "h1": "酒精度数（Proof）计算器",
+  "subtitle": "输入<strong>酒精 Proof</strong> 值（美制刻度），这款<strong>酒精 Proof 计算器</strong>会立即将其换算为<strong>酒精体积百分比（ABV）</strong>。",
+  "hint": "输入美制 Proof 值，即可得到 ABV 百分比。",
+  "long_tail_anchor": "Proof 转 ABV 百分比换算器",
+  "card_strings": {
+    "ABV:": "ABV：",
+    "Proof (US)": "Proof（美制）",
+    "e.g. 80": "例如：80"
+  }
+}

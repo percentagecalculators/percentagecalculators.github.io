@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "zh-cn",
+  "meta_title": "百分比变化计算器 | 增加或减少的百分比",
+  "meta_description": "免费的百分比变化计算器。计算两个值之间的百分比增加或减少——追踪股价变动和价格波动。",
+  "h1": "百分比变化计算器",
+  "subtitle": "输入一个<strong>旧值</strong>和一个<strong>新值</strong>，这款<strong>百分比变化计算器</strong>会告诉您两者之间的<strong>百分比增加或减少</strong>。上涨为正，下跌为负——所以从 80 到 100 就是 +25%。",
+  "hint": "输入旧值和新值，即可得到两者之间的百分比变化。",
+  "long_tail_anchor": "百分比增加或减少",
+  "card_strings": {
+    "Change Type:": "变化类型：",
+    "Enter ending value": "输入终值",
+    "Enter starting value": "输入起始值",
+    "New Value (Current)": "新值（当前）",
+    "Old Value (Original)": "旧值（原始）",
+    "Percentage Change:": "百分比变化："
+  }
+}

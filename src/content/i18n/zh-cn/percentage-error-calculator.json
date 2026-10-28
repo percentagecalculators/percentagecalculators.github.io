@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "zh-cn",
+  "meta_title": "百分比误差计算器 | 实验相对误差",
+  "meta_description": "免费的百分比误差计算器。为物理、化学和生物实验计算实验值与理论值之间的百分比误差。",
+  "h1": "百分比误差计算器",
+  "subtitle": "输入您的<strong>测量值（实验值）</strong>和<strong>真实值（理论值）</strong>，这款<strong>百分比误差计算器</strong>会显示两者之间的<strong>百分比误差</strong>。它使用标准公式：|测量值 − 真实值| ÷ |真实值| × 100。",
+  "hint": "输入测量值和真实值，即可得到百分比误差。",
+  "long_tail_anchor": "实验值与理论值",
+  "card_strings": {
+    "Absolute Error:": "绝对误差：",
+    "Enter expected value": "输入期望值",
+    "Enter measured value": "输入测量值",
+    "Experimental (Measured)": "实验值（测量值）",
+    "Percentage Error:": "百分比误差：",
+    "Theoretical (Expected)": "理论值（期望值）"
+  }
+}

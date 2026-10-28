@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "zh-cn",
+  "meta_title": "百分比增长计算器 | 业务增长率",
+  "meta_description": "免费的百分比增长计算器。计算收入、客户、销量和 KPI 的增长率。用准确的指标追踪业务表现。",
+  "h1": "百分比增长计算器",
+  "subtitle": "输入一个<strong>初始值</strong>和一个<strong>最终值</strong>，这款<strong>百分比增长计算器</strong>会显示<strong>增长率</strong>和<strong>增长额</strong>。它回答的问题是：您的数字从 A 点到 B 点增长了百分之几？",
+  "hint": "输入初始值和最终值，即可得到百分比增长。",
+  "long_tail_anchor": "业务与收入增长率",
+  "card_strings": {
+    "Ending value": "终值",
+    "Final Value": "最终值",
+    "Growth Amount:": "增长额：",
+    "Growth Rate:": "增长率：",
+    "Initial Value": "初始值",
+    "Starting value": "起始值"
+  }
+}
