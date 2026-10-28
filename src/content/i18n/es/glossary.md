@@ -1,8 +1,11 @@
 # Spanish (es) glossary for articles and FAQs
 
-Variety: neutral Spanish, keeping the first-pass choices (coste, beneficio, sueldo, propinas). Address: `tú`, impersonal where possible.
-Numbers, decimal point and `$` stay as in English (they match the calculator). Percent sign: `&nbsp;%` in prose/tables (RAE spacing), plain `%` inside LaTeX; in FAQ text a literal U+00A0.
-Open question for the reviewer: switch coste/beneficio to costo/ganancia for a Latin American audience?
+Decisions (final, made 2026-10-28):
+- Variety: Latin American-neutral Spanish (largest audience; also understood in Spain): costo (not coste), tasa de interés (not tipo), tarea (not deberes), institución (not centro), marrón (not moreno), "obtuviste" (not "has sacado"). `beneficio`, `sueldo`, `propina` are understood everywhere and stay.
+- Address: `tú`, impersonal where possible.
+- Numbers, decimal point and `$` stay as in English (they match the calculator).
+- Percent sign attached to the number everywhere (`20%`, never `20 %`): matches the calculator output and the LaTeX formulas on the same page, and is the common Latin American usage.
+- `markup` stays as a loanword (it is the search term and the nav name), glossed once as "recargo sobre el costo".
 
 | English | Spanish (use this) | Notes |
 |---|---|---|
@@ -11,13 +14,13 @@ Open question for the reviewer: switch coste/beneficio to costo/ganancia for a L
 | percentage difference / error / point | diferencia / error porcentual / punto porcentual | |
 | reverse percentage | porcentaje inverso | |
 | discount, discounted price | descuento, precio con descuento | |
-| markup / margin | markup (kept, glossed as recargo sobre el coste) / margen | nav keeps "Markup" |
+| markup / margin | markup (kept, glossed as recargo sobre el costo) / margen | nav keeps "Markup" |
 | profit | beneficio | |
 | commission / tip | comisión / propina | |
 | VAT / sales tax | IVA / impuesto sobre las ventas | sales tax stays attributed to the US |
 | compound / simple interest | interés compuesto / interés simple | |
 | principal | capital (inicial) | |
-| interest rate | tasa de interés (nominal: tasa nominal) | LatAm-friendly "tasa", not "tipo" except general "tipos de interés" |
+| interest rate | tasa de interés (nominal: tasa nominal) | always "tasa", never "tipo" |
 | compounding frequency | frecuencia de capitalización | |
 | future / present value | valor futuro / valor presente | |
 | APY / effective annual rate | rendimiento porcentual anual (APY) / tasa efectiva anual | |

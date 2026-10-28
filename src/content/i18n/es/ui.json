@@ -39,12 +39,12 @@
     "finance": {
       "label": "Finanzas y negocios",
       "short_label": "Finanzas",
-      "tagline": "Tipos de interés, márgenes de beneficio, markup, subidas de sueldo y crecimiento empresarial."
+      "tagline": "Tasas de interés, márgenes de beneficio, markup, subidas de sueldo y crecimiento empresarial."
     },
     "everyday": {
       "label": "Vida diaria y casos específicos",
       "short_label": "Vida diaria",
-      "tagline": "Propinas, tasas de victorias, proporciones de repostería, coste de alimentos y porcentajes de concentración de soluciones."
+      "tagline": "Propinas, tasas de victorias, proporciones de repostería, costo de alimentos y porcentajes de concentración de soluciones."
     }
   },
   "company_links": {
@@ -68,7 +68,7 @@
     "compound-interest-calculator": "Calculadora de Interés Compuesto",
     "decimal-to-percentage-calculator": "Calculadora de Decimal a Porcentaje",
     "depreciation-calculator": "Calculadora de Depreciación",
-    "food-cost-percentage-calculator": "Calculadora de Coste de Alimentos",
+    "food-cost-percentage-calculator": "Calculadora de Costo de Alimentos",
     "fraction-to-percentage-calculator": "Calculadora de Fracción a Porcentaje",
     "gpa-to-percentage-calculator": "Calculadora de GPA a Porcentaje",
     "gross-margin-calculator": "Calculadora de Margen Bruto",

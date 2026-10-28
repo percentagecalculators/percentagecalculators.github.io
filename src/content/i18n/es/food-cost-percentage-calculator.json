@@ -1,15 +1,15 @@
 {
   "slug": "food-cost-percentage-calculator",
   "lang": "es",
-  "meta_title": "Calculadora de Porcentaje de Coste de Alimentos | Coste del Menú %",
-  "meta_description": "Calculadora gratuita del porcentaje de coste de alimentos. Introduce el coste de los ingredientes y el precio del menú para calcular al instante el porcentaje de coste de un plato.",
-  "h1": "Calculadora de Porcentaje de Coste de Alimentos",
-  "subtitle": "Introduce el <strong>coste de los ingredientes</strong> y el <strong>precio del menú</strong>, y esta <strong>calculadora de porcentaje de coste de alimentos</strong> calcula al instante el <strong>porcentaje de coste de alimentos</strong> de ese plato.",
-  "hint": "Introduce el coste de los ingredientes y el precio del menú para obtener el porcentaje de coste.",
-  "long_tail_anchor": "Porcentaje de coste del menú del restaurante",
+  "meta_title": "Calculadora de Porcentaje de Costo de Alimentos | Costo del Menú %",
+  "meta_description": "Calculadora gratuita del porcentaje de costo de alimentos. Introduce el costo de los ingredientes y el precio del menú para calcular al instante el porcentaje de costo de un plato.",
+  "h1": "Calculadora de Porcentaje de Costo de Alimentos",
+  "subtitle": "Introduce el <strong>costo de los ingredientes</strong> y el <strong>precio del menú</strong>, y esta <strong>calculadora de porcentaje de costo de alimentos</strong> calcula al instante el <strong>porcentaje de costo de alimentos</strong> de ese plato.",
+  "hint": "Introduce el costo de los ingredientes y el precio del menú para obtener el porcentaje de costo.",
+  "long_tail_anchor": "Porcentaje de costo del menú del restaurante",
   "card_strings": {
-    "Food Cost Percentage:": "Porcentaje de coste de alimentos:",
-    "Ingredient Cost ($)": "Coste de los ingredientes ($)",
+    "Food Cost Percentage:": "Porcentaje de costo de alimentos:",
+    "Ingredient Cost ($)": "Costo de los ingredientes ($)",
     "Menu Price ($)": "Precio del menú ($)",
     "e.g. 14": "p. ej. 14",
     "e.g. 3.50": "p. ej. 3.50"

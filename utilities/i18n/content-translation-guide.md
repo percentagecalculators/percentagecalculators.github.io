@@ -69,7 +69,7 @@ core concept, the term **real users search for**, not the dictionary term:
   country (e.g. SGPA to percentage for India, 4.0 GPA for the US), keep it, and add local context only when
   you can cite it; otherwise leave a `<!-- REVIEW: ... -->`-free page and list it in "Open questions" in the checklist.
 - **Units and names:** `%` stays `%` (spelling out "percent" as a word follows the glossary). Spacing before `%`
-  follows the language: non-breaking space (`&nbsp;`) in de, fr, ru, es; attached in the rest (confirm with the reviewer).
+  follows the language: non-breaking space (`&nbsp;`) in de, fr, ru; attached in the rest, including es (decided so the text matches the calculator output; confirm the rest with the reviewer).
 - **Currency:** amounts and the `$` symbol stay as written (no conversion). If a reviewer decides the symbol
   should be local, change symbol only, never the number, and apply it to all 42 pages.
 - **Tone of examples:** keep examples neutral; no brands, no real people, no medical/legal/financial advice
@@ -114,7 +114,7 @@ core concept, the term **real users search for**, not the dictionary term:
 | ar | Arabic | RTL; Modern Standard Arabic; keep Western digits and `%` to match the calculator; formulas stay LTR | Impersonal/imperative, formal |
 | bn | Bengali | Bengali script; Western digits kept | Polite `আপনি` |
 | de | German | Latin | Formal `Sie`; `&nbsp;%` |
-| es | Spanish | Latin; neutral international Spanish (no regional slang) | `usted`-neutral/impersonal; `&nbsp;%` |
+| es | Spanish | Latin; Latin American-neutral Spanish (costo, tasa, tarea); `%` attached | `tú`, impersonal where possible |
 | fr | French | Latin; `&nbsp;` before `%` and before `: ; ? !` | `vous` |
 | hi | Hindi | Devanagari; Western digits kept | `आप` |
 | id | Indonesian | Latin | Standard, `Anda` |
