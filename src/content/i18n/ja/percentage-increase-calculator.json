@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "ja",
+  "meta_title": "パーセント増加計算機 | 数値にパーセントを足す",
+  "meta_description": "無料のパーセント増加計算機。数値に任意のパーセントをすぐに加算します。昇給、価格の上乗せ、投資収益などの計算に使えます。",
+  "h1": "パーセント増加計算機",
+  "subtitle": "<strong>開始値</strong>と<strong>加算するパーセント</strong>を入力すると、この<strong>パーセント増加計算機</strong>が<strong>増加額</strong>と<strong>最終値</strong>の両方を表示します。「200に15%を足すといくつ？」の答えと考えてください。ちなみに答えは230です。",
+  "hint": "数値と加算するパーセントを入力して、増加後の値を求めます。",
+  "long_tail_anchor": "数値にパーセントを足す",
+  "card_strings": {
+    "Enter percentage": "パーセントを入力",
+    "Enter starting number": "開始値を入力",
+    "Increase Amount:": "増加額:",
+    "Increase by": "増加率",
+    "New Value:": "新しい値:",
+    "Original Value": "元の値"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "勝率計算機 | 勝ち負けから勝率を計算",
+  "meta_description": "無料の勝率計算機。勝ち、負け、引き分けの数を入力すると、あらゆるスポーツ、ゲーム、大会の勝率をすぐに計算します。",
+  "h1": "勝率計算機",
+  "subtitle": "<strong>勝ち</strong>、<strong>負け</strong>、必要なら<strong>引き分け</strong>の数を入力すると、この<strong>勝率計算機</strong>が<strong>勝率</strong>をすぐに計算します。",
+  "hint": "勝ち、負け、引き分けの数を入力して勝率を求めます。",
+  "long_tail_anchor": "スポーツの勝率を計算",
+  "card_strings": {
+    "Losses": "負け",
+    "Ties": "引き分け",
+    "Total Games:": "総試合数:",
+    "Win Percentage:": "勝率:",
+    "Wins": "勝ち",
+    "e.g. 10": "例: 10",
+    "e.g. 18": "例: 18",
+    "e.g. 2": "例: 2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "ja",
+  "meta_title": "複利計算機 | 時間経過による成長を計算",
+  "meta_description": "無料の複利計算機。元本、年利、期間、複利計算の頻度を入力すると、得られる利息と合計金額をすぐに計算します。",
+  "h1": "複利計算機",
+  "subtitle": "<strong>元本</strong>、<strong>年利</strong>、<strong>期間</strong>、<strong>複利計算の頻度</strong>を入力すると、この<strong>複利計算機</strong>が<strong>得られる利息</strong>と<strong>合計金額</strong>をすぐに表示します。",
+  "hint": "元本、年利、期間、複利計算の頻度を入力して合計金額を求めます。",
+  "long_tail_anchor": "複利計算の頻度と資産の成長",
+  "card_strings": {
+    "Annual Rate": "年利",
+    "Compounding / Year": "複利計算の回数 / 年",
+    "Interest Earned:": "得られる利息:",
+    "Principal ($)": "元本 ($)",
+    "Time (Years)": "期間（年）",
+    "Total Amount:": "合計金額:",
+    "e.g. 1000": "例: 1000",
+    "e.g. 12": "例: 12",
+    "e.g. 3": "例: 3",
+    "e.g. 5": "例: 5"
+  }
+}

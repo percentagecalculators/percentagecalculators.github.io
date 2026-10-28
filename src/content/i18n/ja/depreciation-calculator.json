@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "ja",
+  "meta_title": "減価償却計算機 | 定額法",
+  "meta_description": "無料の減価償却計算機（定額法）。資産の取得原価、残存価額、耐用年数を入力すると、年間の減価償却費を計算します。",
+  "h1": "減価償却計算機",
+  "subtitle": "<strong>資産の取得原価</strong>、<strong>残存価額</strong>、<strong>耐用年数</strong>を入力すると、この<strong>減価償却計算機</strong>が定額法で<strong>年間の減価償却費</strong>をすぐに計算します。",
+  "hint": "取得原価、残存価額、耐用年数を入力して年間の減価償却費を求めます。",
+  "long_tail_anchor": "資産の定額法による減価償却",
+  "card_strings": {
+    "Annual Depreciation:": "年間の減価償却費:",
+    "Asset Cost ($)": "資産の取得原価 ($)",
+    "Depreciation Rate:": "償却率:",
+    "Salvage Value ($)": "残存価額 ($)",
+    "Useful Life (Years)": "耐用年数（年）",
+    "e.g. 1000": "例: 1000",
+    "e.g. 10000": "例: 10000",
+    "e.g. 5": "例: 5"
+  }
+}

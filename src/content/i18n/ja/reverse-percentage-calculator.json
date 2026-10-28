@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "逆パーセント計算機 | 元の数を求める",
+  "meta_description": "無料の逆パーセント計算機。値とそのパーセントがわかっているときに、元の数を求めます。割引前の価格の計算などに使えます。",
+  "h1": "逆パーセント計算機",
+  "subtitle": "ある数が、より大きな何かの一定のパーセントだとわかっていますか？<strong>既知の値</strong>と<strong>それが表すパーセント</strong>を入力すると、この<strong>逆パーセント計算機</strong>が逆算して<strong>元の数</strong>を求めます。30が全体の25%なら、全体は120です。",
+  "hint": "値とそれが表すパーセントを入力して、元の数を求めます。",
+  "long_tail_anchor": "元の数を求める",
+  "card_strings": {
+    "Original Total:": "元の合計:",
+    "Value": "値",
+    "e.g. 30": "例: 30",
+    "e.g. 45": "例: 45",
+    "is this % of the total": "全体に対するこの%"
+  }
+}

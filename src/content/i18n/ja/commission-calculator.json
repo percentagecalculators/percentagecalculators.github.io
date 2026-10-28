@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "ja",
+  "meta_title": "手数料（コミッション）計算機 | 販売手数料を計算",
+  "meta_description": "無料のコミッション計算機。売上額とコミッション率を入力すると、得られるコミッションをすぐに計算します。",
+  "h1": "手数料（コミッション）計算機",
+  "subtitle": "<strong>売上額</strong>と<strong>コミッション率</strong>を入力すると、この<strong>コミッション計算機</strong>が<strong>得られるコミッション</strong>をすぐに計算します。",
+  "hint": "売上額とコミッション率を入力して、得られるコミッションを求めます。",
+  "long_tail_anchor": "販売コミッションのパーセント",
+  "card_strings": {
+    "Commission Earned:": "得られるコミッション:",
+    "Commission Rate": "コミッション率",
+    "Sales Amount ($)": "売上額 ($)",
+    "e.g. 10": "例: 10",
+    "e.g. 5000": "例: 5000"
+  }
+}

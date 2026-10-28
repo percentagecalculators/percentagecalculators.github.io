@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "ja",
+  "meta_title": "利益率計算機 | 利益率を%で計算",
+  "meta_description": "無料の利益率計算機。原価と販売価格を入力すると、利益と販売価格に対する利益率をすぐに計算します。",
+  "h1": "利益率計算機",
+  "subtitle": "<strong>原価</strong>と<strong>販売価格</strong>を入力すると、この<strong>利益率計算機</strong>が<strong>利益</strong>と、販売価格に対するパーセントの<strong>利益率</strong>をすぐに計算します。",
+  "hint": "原価と販売価格を入力して利益率を求めます。",
+  "long_tail_anchor": "販売価格に対する利益率",
+  "card_strings": {
+    "Cost Price ($)": "原価 ($)",
+    "Profit Margin:": "利益率:",
+    "Profit:": "利益:",
+    "Selling Price ($)": "販売価格 ($)",
+    "e.g. 40": "例: 40",
+    "e.g. 55": "例: 55"
+  }
+}

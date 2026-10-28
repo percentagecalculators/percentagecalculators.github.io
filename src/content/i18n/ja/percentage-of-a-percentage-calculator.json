@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "パーセントのパーセント計算機 | 2つの%を組み合わせる",
+  "meta_description": "無料のパーセントのパーセント計算機。重ねて適用される2つのパーセントを掛け合わせ、税金や割引の重ね掛けとして値に適用できます。",
+  "h1": "パーセントのパーセント計算機",
+  "subtitle": "2つの<strong>パーセント</strong>を入力すると、この<strong>パーセントのパーセント計算機</strong>が正しい方法で掛け合わせ、<strong>合成パーセント</strong>を求めます。開始値を加えると、2つの段階を通って値がどう変わるかを正確に確認できます。",
+  "hint": "重ねて適用される2つのパーセントを掛け合わせ、合成率を求めます。",
+  "long_tail_anchor": "重ねて適用される2つのパーセントを組み合わせる",
+  "card_strings": {
+    "Apply to a Value (optional)": "値に適用（任意）",
+    "Combined Percentage:": "合成パーセント:",
+    "Final Value:": "最終値:",
+    "First Percentage": "1つ目のパーセント",
+    "Second Percentage": "2つ目のパーセント",
+    "Value After First %:": "1つ目の%適用後の値:",
+    "e.g. 200": "例: 200",
+    "e.g. 40": "例: 40",
+    "e.g. 90": "例: 90"
+  }
+}

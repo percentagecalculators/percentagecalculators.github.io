@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "ja",
+  "meta_title": "APR計算機 | 実質年率",
+  "meta_description": "無料のAPR計算機。期間ごとの利率を実質年率（APR）にすぐ変換します。ローンやクレジットカードのコスト表示に使われる標準的な方法です。",
+  "h1": "APR計算機",
+  "subtitle": "<strong>期間ごとの利率</strong>と<strong>年間の期間数</strong>を入力すると、この<strong>APR計算機</strong>が<strong>実質年率</strong>を計算します。貸し手が借入コストを示すときに使う、複利を考慮しない標準的な方法です。",
+  "hint": "期間ごとの利率と年間の期間数を入力してAPRを求めます。",
+  "long_tail_anchor": "実質年率の計算機",
+  "card_strings": {
+    "APR:": "APR:",
+    "Periodic Interest Rate": "期間ごとの利率",
+    "Periods / Year": "期間数 / 年",
+    "e.g. 1.5": "例: 1.5",
+    "e.g. 12": "例: 12"
+  }
+}

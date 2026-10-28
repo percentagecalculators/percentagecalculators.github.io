@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "利益率（原価ベース）計算機 | 原価に対する利益%を計算",
+  "meta_description": "無料の利益率（原価ベース）計算機。原価と販売価格を入力すると、利益額と利益率をすぐに計算します。",
+  "h1": "利益率（原価ベース）計算機",
+  "subtitle": "<strong>原価</strong>と<strong>販売価格</strong>を入力すると、この<strong>利益率（原価ベース）計算機</strong>が<strong>利益</strong>と、原価に対する<strong>利益率</strong>をすぐに計算します。",
+  "hint": "原価と販売価格を入力して、原価ベースの利益率を求めます。",
+  "long_tail_anchor": "原価に対する利益率",
+  "card_strings": {
+    "Cost Price ($)": "原価 ($)",
+    "Profit Percentage:": "利益率（原価ベース）:",
+    "Profit:": "利益:",
+    "Selling Price ($)": "販売価格 ($)",
+    "e.g. 40": "例: 40",
+    "e.g. 55": "例: 55"
+  }
+}

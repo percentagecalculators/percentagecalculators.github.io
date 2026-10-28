@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "平均パーセント計算機 | 単純平均と加重平均",
+  "meta_description": "無料の平均パーセント計算機。単純平均と加重平均の両方に対応。規模の異なるグループのパーセントを、成績やアンケートの集計に正しく組み合わせます。",
+  "h1": "平均パーセント計算機",
+  "subtitle": "<strong>パーセント</strong>をカンマで区切って入力すると、この<strong>平均パーセント計算機</strong>が<strong>平均値</strong>、<strong>合計</strong>、<strong>件数</strong>、値の範囲を表示します。グループの規模が異なるときは対応する<strong>サンプルサイズ</strong>の一覧も追加すると、自動的に正しい<strong>加重平均</strong>に切り替わります。",
+  "hint": "パーセント（必要ならサンプルサイズも）を入力して、単純平均または加重平均を求めます。",
+  "long_tail_anchor": "複数のパーセントの平均",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "パーセントごとに重み（クラスの人数や回答者数など）を1つずつ追加すると、規模の異なるグループを正しく組み合わせられます。",
+    "Average:": "平均:",
+    "Count:": "件数:",
+    "Percentages (comma or space separated)": "パーセント（カンマまたはスペース区切り）",
+    "Sample Sizes / Weights (optional)": "サンプルサイズ / 重み（任意）",
+    "Sum:": "合計:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "例: 30, 50, 20, 40（空欄なら単純平均）",
+    "e.g. 85, 90, 78, 92": "例: 85, 90, 78, 92"
+  }
+}

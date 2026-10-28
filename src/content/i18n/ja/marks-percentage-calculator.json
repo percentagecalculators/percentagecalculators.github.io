@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "得点率計算機 | 試験の得点率を計算",
+  "meta_description": "無料の得点率計算機。取得点数と満点を入力すると、試験やテストの得点率をすぐに計算します。",
+  "h1": "得点率計算機",
+  "subtitle": "<strong>取得点数</strong>と<strong>満点</strong>を入力すると、この<strong>得点率計算機</strong>が<strong>試験の得点率</strong>をすぐに計算します。通知表、成績表、結果の確認に最適です。",
+  "hint": "取得点数と満点を入力して得点率を求めます。",
+  "long_tail_anchor": "試験とテストの得点率",
+  "card_strings": {
+    "Marks Obtained": "取得点数",
+    "Percentage:": "パーセント:",
+    "Total Marks": "満点",
+    "e.g. 450": "例: 450",
+    "e.g. 500": "例: 500"
+  }
+}

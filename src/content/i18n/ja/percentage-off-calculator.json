@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "ja",
+  "meta_title": "割引率計算機 | セール価格と節約額",
+  "meta_description": "無料の割引率計算機。セール価格と節約額をすぐに計算します。どんな割引でも最終価格がわかる、お買い得探しの味方です。",
+  "h1": "割引率計算機",
+  "subtitle": "<strong>元の価格</strong>と<strong>割引率</strong>を入力すると、この<strong>割引率計算機</strong>が<strong>セール価格</strong>と、<strong>いくら節約できるか</strong>を正確に表示します。次に「30%オフ」の表示を見たとき、実際の支払額がわかります。",
+  "hint": "元の価格と割引率（%）を入力して、セール価格を求めます。",
+  "long_tail_anchor": "割引とセール価格の算出",
+  "card_strings": {
+    "Discount": "割引率",
+    "Enter discount %": "割引率（%）を入力",
+    "Enter price": "価格を入力",
+    "Final Price:": "最終価格:",
+    "Original Price ($)": "元の価格 ($)",
+    "You Save:": "節約額:"
+  }
+}

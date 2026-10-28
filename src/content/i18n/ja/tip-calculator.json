@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "ja",
+  "meta_title": "チップ計算機 | チップを計算して割り勘",
+  "meta_description": "無料のチップ計算機。会計の金額、チップのパーセント、人数を入力すると、チップ、合計、1人あたりの金額をすぐに計算します。",
+  "h1": "チップ計算機",
+  "subtitle": "<strong>会計の金額</strong>、<strong>チップのパーセント</strong>、<strong>人数</strong>を入力すると、この<strong>チップ計算機</strong>が<strong>チップ</strong>、<strong>合計</strong>、<strong>1人あたりの支払額</strong>をすぐに計算します。",
+  "hint": "会計の金額、チップ（%）、割り勘の人数を入力します。",
+  "long_tail_anchor": "レストランの会計のチップと割り勘",
+  "card_strings": {
+    "Bill Amount ($)": "会計の金額 ($)",
+    "Per Person:": "1人あたり:",
+    "Split Between": "割り勘の人数",
+    "Tip": "チップ",
+    "Tip Amount:": "チップ額:",
+    "Total:": "合計:",
+    "e.g. 18": "例: 18",
+    "e.g. 4": "例: 4",
+    "e.g. 80": "例: 80"
+  }
+}

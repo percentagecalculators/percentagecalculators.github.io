@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "ベーカーズパーセント計算機 | 材料の配合比を計算",
+  "meta_description": "無料のベーカーズパーセント計算機。粉の重さと材料の重さを入力すると、その材料のベーカーズパーセントをすぐに計算します。",
+  "h1": "ベーカーズパーセント計算機",
+  "subtitle": "<strong>粉の重さ</strong>と<strong>材料の重さ</strong>を入力すると、この<strong>ベーカーズパーセント計算機</strong>がその材料の<strong>ベーカーズパーセント</strong>をすぐに計算します。すべての材料を粉を基準にして表します。",
+  "hint": "粉と材料の重さを入力してベーカーズパーセントを求めます。",
+  "long_tail_anchor": "生地の水分量と材料の配合比",
+  "card_strings": {
+    "Baker's Percentage:": "ベーカーズパーセント:",
+    "Flour Weight (g)": "粉の重さ (g)",
+    "Ingredient Weight (g)": "材料の重さ (g)",
+    "e.g. 350": "例: 350",
+    "e.g. 500": "例: 500"
+  }
+}

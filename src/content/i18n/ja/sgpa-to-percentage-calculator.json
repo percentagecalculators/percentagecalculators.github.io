@@ -1,0 +1,15 @@
+{
+  "slug": "sgpa-to-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "SGPAからパーセントへの計算機 | SGPAをパーセントに変換",
+  "meta_description": "無料のSGPA→パーセント計算機。標準の式 SGPA × 9.5 を使用。学期のSGPAを相当するパーセントにすぐ変換します。",
+  "h1": "SGPAからパーセントへの計算機",
+  "subtitle": "<strong>SGPA</strong>を入力すると、この<strong>SGPA→パーセント計算機</strong>がインドの多くの大学で使われている標準の式<strong>SGPA × 9.5</strong>を適用し、相当する<strong>パーセント</strong>をすぐに表示します。",
+  "hint": "学期のSGPAを入力して、相当するパーセントを求めます。",
+  "long_tail_anchor": "学期GPAをパーセントに変換",
+  "card_strings": {
+    "Percentage:": "パーセント:",
+    "SGPA (out of 10)": "SGPA（10点満点）",
+    "e.g. 7.8": "例: 7.8"
+  }
+}

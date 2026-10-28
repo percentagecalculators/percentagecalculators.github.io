@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "コンテンツへスキップ",
+  "primary_nav": "メインナビゲーション",
+  "toggle_dark": "ダークモードを切り替え",
+  "open_menu": "メニューを開く",
+  "close_menu": "メニューを閉じる",
+  "site_nav": "サイトナビゲーション",
+  "home": "ホーム",
+  "more": "その他",
+  "language": "言語",
+  "reset": "計算機をリセット",
+  "calculate": "計算",
+  "related_aria": "関連する計算機",
+  "faq_heading": "よくある質問",
+  "toc_label": "目次",
+  "copy_result": "結果をコピー",
+  "copied": "コピーしました！",
+  "company": "会社情報",
+  "footer_site_map": "サイトマップ",
+  "footer_links": "フッターのリンク",
+  "rights": "All rights reserved.",
+  "footer_tagline": "無料のオンラインパーセント計算機。すべての計算はブラウザ内で完結します。結果は即座に表示され、登録も不要です。",
+  "native_name": "日本語",
+  "nav_groups": {
+    "core": {
+      "label": "基本のパーセントツール",
+      "short_label": "基本",
+      "tagline": "基本をおさえる: パーセントを求める、数値を増減させる、2つの値を比較する。"
+    },
+    "converters": {
+      "label": "変換ツール",
+      "short_label": "変換",
+      "tagline": "パーセント、分数、小数、比率、その他の単位形式の間で変換します。"
+    },
+    "education": {
+      "label": "教育",
+      "short_label": "教育",
+      "tagline": "学生向けのGPA、CGPA、SGPA、得点、パーセンタイルの換算。"
+    },
+    "finance": {
+      "label": "金融とビジネス",
+      "short_label": "金融",
+      "tagline": "金利、利益率、マークアップ、昇給、ビジネスの成長。"
+    },
+    "everyday": {
+      "label": "日常とニッチ",
+      "short_label": "日常",
+      "tagline": "チップ、勝率、ベーカーズパーセント、原価率、溶液のパーセント濃度。"
+    }
+  },
+  "company_links": {
+    "/about": "概要",
+    "/contact": "お問い合わせ",
+    "/sitemap": "サイトマップ",
+    "/disclaimer": "免責事項",
+    "/privacy-policy": "プライバシーポリシー",
+    "/terms-of-use": "利用規約"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "アルコールプルーフ計算機",
+    "apr-apy-converter": "APRからAPYへの変換",
+    "apr-calculator": "APR計算機",
+    "apy-calculator": "APY計算機",
+    "average-percentage-calculator": "平均パーセント計算機",
+    "bakers-percentage-calculator": "ベーカーズパーセント計算機",
+    "basis-points-calculator": "ベーシスポイント計算機",
+    "cgpa-to-percentage-calculator": "CGPAからパーセントへの計算機",
+    "commission-calculator": "手数料（コミッション）計算機",
+    "compound-interest-calculator": "複利計算機",
+    "decimal-to-percentage-calculator": "小数からパーセントへの計算機",
+    "depreciation-calculator": "減価償却計算機",
+    "food-cost-percentage-calculator": "原価率計算機（飲食）",
+    "fraction-to-percentage-calculator": "分数からパーセントへの計算機",
+    "gpa-to-percentage-calculator": "GPAからパーセントへの計算機",
+    "gross-margin-calculator": "売上総利益率計算機",
+    "loan-interest-calculator": "ローン利息計算機",
+    "marks-percentage-calculator": "得点率計算機",
+    "markup-calculator": "マークアップ計算機",
+    "percent-solution-calculator": "パーセント濃度計算機",
+    "percentage-calculator": "パーセント計算機",
+    "percentage-change-calculator": "変化率計算機",
+    "percentage-decrease-calculator": "パーセント減少計算機",
+    "percentage-difference-calculator": "パーセント差計算機",
+    "percentage-error-calculator": "誤差率計算機",
+    "percentage-growth-calculator": "成長率計算機",
+    "percentage-increase-calculator": "パーセント増加計算機",
+    "percentage-of-a-percentage-calculator": "パーセントのパーセント計算機",
+    "percentage-off-calculator": "割引率計算機",
+    "percentage-point-calculator": "パーセントポイント計算機",
+    "percentile-to-percentage-calculator": "パーセンタイルからパーセントへの計算機",
+    "ppm-to-percentage-calculator": "ppmからパーセントへの計算機",
+    "profit-margin-calculator": "利益率計算機",
+    "profit-percentage-calculator": "利益率（原価ベース）計算機",
+    "ratio-to-percentage-calculator": "比率からパーセントへの計算機",
+    "reverse-percentage-calculator": "逆パーセント計算機",
+    "salary-increase-calculator": "昇給計算機",
+    "sgpa-to-percentage-calculator": "SGPAからパーセントへの計算機",
+    "simple-interest-calculator": "単利計算機",
+    "slope-percentage-calculator": "勾配（パーセント）計算機",
+    "tip-calculator": "チップ計算機",
+    "win-loss-percentage-calculator": "勝率計算機"
+  }
+}

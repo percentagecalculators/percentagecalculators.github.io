@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "ja",
+  "meta_title": "ローン利息計算機 | 月々の返済額と総利息",
+  "meta_description": "無料のローン利息計算機。借入額、年利、返済期間を入力すると、月々の返済額（EMI）と支払う総利息をすぐに計算します。",
+  "h1": "ローン利息計算機",
+  "subtitle": "<strong>借入額</strong>、<strong>年利</strong>、<strong>返済期間</strong>を入力すると、この<strong>ローン利息計算機</strong>が<strong>月々の返済額（EMI）</strong>と支払う<strong>総利息</strong>をすぐに計算します。",
+  "hint": "借入額、利率、返済期間を入力して月々の返済額を求めます。",
+  "long_tail_anchor": "月々の返済額と総利息",
+  "card_strings": {
+    "Annual Rate": "年利",
+    "Loan Amount ($)": "借入額 ($)",
+    "Loan Term (Years)": "返済期間（年）",
+    "Monthly EMI:": "月々の返済額 (EMI):",
+    "Total Interest:": "総利息:",
+    "e.g. 20000": "例: 20000",
+    "e.g. 5": "例: 5",
+    "e.g. 7.5": "例: 7.5"
+  }
+}

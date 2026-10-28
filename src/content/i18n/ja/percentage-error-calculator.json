@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "ja",
+  "meta_title": "誤差率計算機 | 実験用の相対誤差",
+  "meta_description": "無料の誤差率計算機。物理、化学、生物の実験で、実験値と理論値の誤差率を計算します。",
+  "h1": "誤差率計算機",
+  "subtitle": "<strong>測定値（実験値）</strong>と<strong>真の値（理論値）</strong>を入力すると、この<strong>誤差率計算機</strong>が両者の<strong>誤差率</strong>を表示します。標準の式を使用: |測定値 − 真の値| ÷ |真の値| × 100。",
+  "hint": "測定値と真の値を入力して、誤差率を求めます。",
+  "long_tail_anchor": "実験値と理論値",
+  "card_strings": {
+    "Absolute Error:": "絶対誤差:",
+    "Enter expected value": "期待値を入力",
+    "Enter measured value": "測定値を入力",
+    "Experimental (Measured)": "実験値（測定値）",
+    "Percentage Error:": "誤差率:",
+    "Theoretical (Expected)": "理論値（期待値）"
+  }
+}

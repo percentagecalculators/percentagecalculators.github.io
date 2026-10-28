@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "ja",
+  "meta_title": "成長率計算機 | ビジネスの成長率",
+  "meta_description": "無料の成長率計算機。売上、顧客数、販売数、KPIの成長率を計算します。正確な指標でビジネスの成果を追跡できます。",
+  "h1": "成長率計算機",
+  "subtitle": "<strong>初期値</strong>と<strong>最終値</strong>を入力すると、この<strong>成長率計算機</strong>が<strong>成長率</strong>と<strong>成長額</strong>を表示します。地点Aから地点Bまでに数値が何パーセント成長したかという疑問に答えます。",
+  "hint": "初期値と最終値を入力して、成長率を求めます。",
+  "long_tail_anchor": "ビジネスと売上の成長率",
+  "card_strings": {
+    "Ending value": "最終値",
+    "Final Value": "最終値",
+    "Growth Amount:": "成長額:",
+    "Growth Rate:": "成長率:",
+    "Initial Value": "初期値",
+    "Starting value": "開始値"
+  }
+}

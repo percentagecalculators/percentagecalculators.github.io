@@ -1,0 +1,15 @@
+{
+  "slug": "gpa-to-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "GPAからパーセントへの計算機 | 4.0スケールのGPAを%に変換",
+  "meta_description": "無料のGPA→パーセント計算機。4.0スケールのGPAを相当するパーセントにすぐ変換します。正確でシンプル、登録不要です。",
+  "h1": "GPAからパーセントへの計算機",
+  "subtitle": "<strong>標準の4.0スケール</strong>の<strong>GPA</strong>を入力すると、この<strong>GPA→パーセント計算機</strong>が相当する<strong>パーセント</strong>にすぐ変換します。出願書類や成績証明書、成績評価制度の比較に役立ちます。",
+  "hint": "4.0スケールのGPAを入力して、相当するパーセントを求めます。",
+  "long_tail_anchor": "4.0スケールのGPAをパーセントに変換",
+  "card_strings": {
+    "GPA (4.0 Scale)": "GPA（4.0スケール）",
+    "Percentage:": "パーセント:",
+    "e.g. 3.5": "例: 3.5"
+  }
+}

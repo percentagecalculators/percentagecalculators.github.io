@@ -1,0 +1,15 @@
+{
+  "slug": "decimal-to-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "小数からパーセントへの計算機 | 小数を%に変換",
+  "meta_description": "無料の小数→パーセント計算機。任意の小数を入力すると、パーセントにすぐ変換します。学校、仕事、金融に役立つ正確な結果です。",
+  "h1": "小数からパーセントへの計算機",
+  "subtitle": "<strong>小数</strong>を入力すると、この<strong>小数→パーセント計算機</strong>が<strong>パーセント</strong>にすぐ変換します。",
+  "hint": "小数を入力して、相当するパーセントを求めます。",
+  "long_tail_anchor": "小数をパーセントに変換",
+  "card_strings": {
+    "Decimal Value": "小数",
+    "Percentage:": "パーセント:",
+    "e.g. 0.25": "例: 0.25"
+  }
+}

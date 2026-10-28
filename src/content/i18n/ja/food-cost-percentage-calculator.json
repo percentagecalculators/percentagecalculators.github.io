@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "原価率計算機（飲食） | メニューの原価を%で計算",
+  "meta_description": "無料の原価率計算機。材料費とメニュー価格を入力すると、メニュー1品の原価率をすぐに計算します。",
+  "h1": "原価率計算機（飲食）",
+  "subtitle": "<strong>材料費</strong>と<strong>メニュー価格</strong>を入力すると、この<strong>原価率計算機</strong>がそのメニューの<strong>原価率</strong>をすぐに計算します。",
+  "hint": "材料費とメニュー価格を入力して原価率を求めます。",
+  "long_tail_anchor": "レストランのメニュー原価率",
+  "card_strings": {
+    "Food Cost Percentage:": "原価率:",
+    "Ingredient Cost ($)": "材料費 ($)",
+    "Menu Price ($)": "メニュー価格 ($)",
+    "e.g. 14": "例: 14",
+    "e.g. 3.50": "例: 3.50"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "ja",
+  "meta_title": "アルコールプルーフ計算機 | プルーフをABVパーセントに変換",
+  "meta_description": "無料のアルコールプルーフ計算機。米国式のプルーフ値を入力すると、アルコール度数（ABV）のパーセントにすぐ変換できます。速く、正確で、使いやすい計算機です。",
+  "h1": "アルコールプルーフ計算機",
+  "subtitle": "<strong>アルコールプルーフ</strong>の値（米国式）を入力すると、この<strong>アルコールプルーフ計算機</strong>が<strong>アルコール度数（ABV）</strong>のパーセントにすぐ変換します。",
+  "hint": "米国式のプルーフ値を入力してABVのパーセントを求めます。",
+  "long_tail_anchor": "プルーフからABVパーセントへの変換",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "プルーフ（米国式）",
+    "e.g. 80": "例: 80"
+  }
+}

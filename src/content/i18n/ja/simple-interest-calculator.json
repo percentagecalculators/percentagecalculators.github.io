@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "ja",
+  "meta_title": "単利計算機 | 利息と合計金額",
+  "meta_description": "無料の単利計算機。元本、年利、期間を入力すると、得られる利息と合計金額をすぐに計算します。",
+  "h1": "単利計算機",
+  "subtitle": "<strong>元本</strong>、<strong>年利</strong>、<strong>期間（年）</strong>を入力すると、この<strong>単利計算機</strong>が<strong>得られる利息</strong>と<strong>合計金額</strong>をすぐに表示します。",
+  "hint": "元本、年利、期間を入力して、利息と合計金額を求めます。",
+  "long_tail_anchor": "元本・利率・期間の公式",
+  "card_strings": {
+    "Annual Rate": "年利",
+    "Interest Earned:": "得られる利息:",
+    "Principal ($)": "元本 ($)",
+    "Time (Years)": "期間（年）",
+    "Total Amount:": "合計金額:",
+    "e.g. 1000": "例: 1000",
+    "e.g. 3": "例: 3",
+    "e.g. 5": "例: 5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "勾配（パーセント）計算機 | 高低差/水平距離から%へ",
+  "meta_description": "無料の勾配（パーセント）計算機。高低差と水平距離を入力すると、勾配のパーセントと相当する角度（度）をすぐに計算します。",
+  "h1": "勾配（パーセント）計算機",
+  "subtitle": "<strong>高低差</strong>と<strong>水平距離</strong>を入力すると、この<strong>勾配（パーセント）計算機</strong>が<strong>勾配のパーセント</strong>と相当する<strong>角度（度）</strong>をすぐに計算します。",
+  "hint": "高低差と水平距離を入力して、勾配のパーセントと角度を求めます。",
+  "long_tail_anchor": "高低差と水平距離から勾配のパーセントへ",
+  "card_strings": {
+    "Angle:": "角度:",
+    "Rise": "高低差",
+    "Run": "水平距離",
+    "Slope:": "勾配:",
+    "e.g. 100": "例: 100",
+    "e.g. 5": "例: 5"
+  }
+}

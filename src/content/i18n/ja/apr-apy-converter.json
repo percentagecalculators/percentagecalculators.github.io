@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "ja",
+  "meta_title": "APRからAPYへの変換 | 年間利回りに変換",
+  "meta_description": "無料のAPR→APY変換ツール。APRと複利計算の頻度を入力すると、相当する年間利回り（APY）がすぐにわかります。",
+  "h1": "APRからAPYへの変換",
+  "subtitle": "<strong>APR</strong>とその<strong>複利計算の頻度</strong>を入力すると、この<strong>APR→APY変換ツール</strong>が相当する<strong>年間利回り</strong>を表示します。表記の異なる口座を比べるのに便利です。",
+  "hint": "APRと年間の複利計算回数を入力して、相当するAPYを求めます。",
+  "long_tail_anchor": "APRとAPYの利率を比較",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "複利計算の回数 / 年",
+    "e.g. 12": "例: 12",
+    "e.g. 6": "例: 6"
+  }
+}

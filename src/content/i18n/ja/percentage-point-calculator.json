@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "ja",
+  "meta_title": "パーセントポイント計算機 | ポイント差",
+  "meta_description": "無料のパーセントポイント計算機。2つのパーセントを入力すると、パーセントポイントの差と相対的な変化率がすぐにわかります。",
+  "h1": "パーセントポイント計算機",
+  "subtitle": "2つの<strong>パーセント</strong>を入力すると、この<strong>パーセントポイント計算機</strong>が<strong>パーセントポイントの差</strong>を表示します。これは相対的な変化率とは異なるもので、比較のためにその値も一緒に表示します。",
+  "hint": "2つのパーセントを入力して、パーセントポイントの差を求めます。",
+  "long_tail_anchor": "パーセントポイントと変化率の違い",
+  "card_strings": {
+    "Percentage A": "パーセントA",
+    "Percentage B": "パーセントB",
+    "Point Difference:": "ポイント差:",
+    "Relative Change:": "相対変化率:",
+    "e.g. 20": "例: 20",
+    "e.g. 25": "例: 25"
+  }
+}

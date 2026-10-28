@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "ja",
+  "meta_title": "変化率計算機 | 増加・減少のパーセント",
+  "meta_description": "無料の変化率計算機。2つの値の間の増加率または減少率を計算します。株価の変動や価格の変化の把握に役立ちます。",
+  "h1": "変化率計算機",
+  "subtitle": "<strong>古い値</strong>と<strong>新しい値</strong>を入力すると、この<strong>変化率計算機</strong>が両者の<strong>増加率または減少率</strong>を表示します。増加ならプラス、減少ならマイナスになるので、80から100なら+25%です。",
+  "hint": "古い値と新しい値を入力して、変化率を求めます。",
+  "long_tail_anchor": "増加または減少のパーセント",
+  "card_strings": {
+    "Change Type:": "変化の種類:",
+    "Enter ending value": "終了値を入力",
+    "Enter starting value": "開始値を入力",
+    "New Value (Current)": "新しい値（現在）",
+    "Old Value (Original)": "古い値（元の値）",
+    "Percentage Change:": "変化率:"
+  }
+}

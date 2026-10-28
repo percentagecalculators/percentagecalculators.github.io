@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "ja",
+  "meta_title": "APY計算機 | 年間利回り",
+  "meta_description": "無料のAPY計算機。名目金利と複利計算の頻度を年間利回り（APY）にすぐ変換します。",
+  "h1": "APY計算機",
+  "subtitle": "<strong>名目金利</strong>と、<strong>年に何回複利計算されるか</strong>を入力すると、この<strong>APY計算機</strong>が実際に得られる<strong>年間利回り</strong>を計算します。",
+  "hint": "名目金利と年間の複利計算回数を入力してAPYを求めます。",
+  "long_tail_anchor": "年間利回りの計算機",
+  "card_strings": {
+    "APY:": "APY:",
+    "Compounding Periods / Year": "複利計算の回数 / 年",
+    "Nominal Interest Rate": "名目金利",
+    "e.g. 12": "例: 12",
+    "e.g. 5": "例: 5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "lang": "ja",
+  "meta_title": "パーセント減少計算機 | パーセントを引く",
+  "meta_description": "無料のパーセント減少計算機。数値から任意のパーセントをすぐに引きます。価値の減少、減量、予算削減の計算に便利です。",
+  "h1": "パーセント減少計算機",
+  "subtitle": "<strong>開始値</strong>と<strong>引くパーセント</strong>を入力すると、この<strong>パーセント減少計算機</strong>が<strong>減少額</strong>と<strong>最終値</strong>を表示します。500から20%を引くといくつ？と迷ったら、答えは400。暗算の手間が省けます。",
+  "hint": "数値と引くパーセントを入力して、減少後の値を求めます。",
+  "long_tail_anchor": "数値からパーセントを引く",
+  "card_strings": {
+    "Decrease Amount:": "減少額:",
+    "Decrease by": "減少率",
+    "Enter percentage": "パーセントを入力",
+    "Enter starting number": "開始値を入力",
+    "New Value:": "新しい値:",
+    "Original Value": "元の値"
+  }
+}

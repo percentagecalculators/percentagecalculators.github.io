@@ -1,0 +1,18 @@
+{
+  "slug": "ratio-to-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "比率からパーセントへの計算機 | 比率を%に変換",
+  "meta_description": "無料の比率→パーセント計算機。比率の2つの部分を入力すると、合計と最初の部分が占めるパーセントがすぐにわかります。",
+  "h1": "比率からパーセントへの計算機",
+  "subtitle": "<strong>比率</strong>（たとえば3 : 4）の両方の部分を入力すると、この<strong>比率→パーセント計算機</strong>が<strong>合計</strong>と、最初の部分が占める<strong>パーセント</strong>をすぐに表示します。",
+  "hint": "比率の両方の部分を入力して、合計に対するパーセントを求めます。",
+  "long_tail_anchor": "比率を割合のパーセントに変換",
+  "card_strings": {
+    "A as % of Total:": "Aの割合（%）:",
+    "Part A": "部分A",
+    "Part B": "部分B",
+    "Total:": "合計:",
+    "e.g. 3": "例: 3",
+    "e.g. 4": "例: 4"
+  }
+}

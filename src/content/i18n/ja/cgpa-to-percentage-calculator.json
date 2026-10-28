@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "ja",
+  "meta_title": "CGPAからパーセントへの計算機 | 10点満点のCGPAを%に変換",
+  "meta_description": "無料のCGPA→パーセント計算機。標準的な10点満点のCGPA × 9.5の式を使用。CGPAを大学の記録用にパーセントへ変換できます。",
+  "h1": "CGPAからパーセントへの計算機",
+  "subtitle": "<strong>10点満点の標準スケール</strong>の<strong>CGPA</strong>を入力すると、この<strong>CGPA→パーセント計算機</strong>が広く使われている<strong>CGPA × 9.5</strong>の式を適用し、相当する<strong>パーセント</strong>をすぐに表示します。",
+  "hint": "10点満点のCGPAを入力して、相当するパーセントを求めます。",
+  "long_tail_anchor": "10点満点のCGPAをパーセントに変換",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA（10点満点）",
+    "Percentage:": "パーセント:",
+    "e.g. 8.2": "例: 8.2"
+  }
+}

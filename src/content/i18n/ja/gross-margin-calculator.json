@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "ja",
+  "meta_title": "売上総利益率計算機 | 粗利率を%で計算",
+  "meta_description": "無料の売上総利益率計算機。売上高と売上原価（COGS）を入力すると、売上総利益と売上総利益率をすぐに計算します。",
+  "h1": "売上総利益率計算機",
+  "subtitle": "<strong>売上高</strong>と<strong>売上原価（COGS）</strong>を入力すると、この<strong>売上総利益率計算機</strong>が<strong>売上総利益</strong>と<strong>売上総利益率</strong>をすぐに計算します。",
+  "hint": "売上高とCOGSを入力して売上総利益率を求めます。",
+  "long_tail_anchor": "売上高とCOGSから見る利益率",
+  "card_strings": {
+    "COGS ($)": "COGS ($)",
+    "Gross Margin:": "売上総利益率:",
+    "Gross Profit:": "売上総利益:",
+    "Revenue ($)": "売上高 ($)",
+    "e.g. 100000": "例: 100000",
+    "e.g. 65000": "例: 65000"
+  }
+}

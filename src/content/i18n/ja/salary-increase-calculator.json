@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "ja",
+  "meta_title": "昇給計算機 | 新しい給与を計算",
+  "meta_description": "無料の昇給計算機。現在の給与と昇給率を入力すると、昇給額と新しい給与をすぐに計算します。",
+  "h1": "昇給計算機",
+  "subtitle": "<strong>現在の給与</strong>と<strong>昇給率</strong>を入力すると、この<strong>昇給計算機</strong>が<strong>昇給額</strong>と<strong>新しい給与</strong>をすぐに計算します。",
+  "hint": "現在の給与と昇給率（%）を入力して、新しい給与を求めます。",
+  "long_tail_anchor": "昇給率と給与アップ",
+  "card_strings": {
+    "Current Salary ($)": "現在の給与 ($)",
+    "New Salary:": "新しい給与:",
+    "Raise": "昇給率",
+    "Raise Amount:": "昇給額:",
+    "e.g. 5": "例: 5",
+    "e.g. 60000": "例: 60000"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "ja",
+  "meta_title": "パーセント差計算機 | 2つの値を比較",
+  "meta_description": "無料のパーセント差計算機。2つの数を比較してパーセント差を求めます。平均を基準にするので、対称で偏りのない比較ができます。",
+  "h1": "パーセント差計算機",
+  "subtitle": "<strong>2つの値</strong>を入力すると、この<strong>パーセント差計算機</strong>が両者の<strong>平均</strong>を基準にして、どれだけ離れているかを<strong>パーセント</strong>で表示します。変化率とは異なり順序は関係なく、50と80の比較は80と50の比較と同じ結果になります。",
+  "hint": "2つの値を入力して、両者のパーセント差を求めます。",
+  "long_tail_anchor": "2つの数を対称に比較",
+  "card_strings": {
+    "Absolute Difference:": "絶対差:",
+    "Enter first number": "1つ目の数を入力",
+    "Enter second number": "2つ目の数を入力",
+    "First Value": "1つ目の値",
+    "Percentage Difference:": "パーセント差:",
+    "Second Value": "2つ目の値"
+  }
+}

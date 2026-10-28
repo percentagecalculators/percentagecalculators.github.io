@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "ja",
+  "meta_title": "マークアップ計算機 | 原価＋マークアップ率から販売価格",
+  "meta_description": "無料のマークアップ計算機。原価と希望するマークアップ率を入力すると、設定すべき販売価格をすぐに計算します。",
+  "h1": "マークアップ計算機",
+  "subtitle": "<strong>原価</strong>と希望する<strong>マークアップ率</strong>を入力すると、この<strong>マークアップ計算機</strong>が設定すべき<strong>販売価格</strong>をすぐに計算します。",
+  "hint": "原価とマークアップ率（%）を入力して販売価格を求めます。",
+  "long_tail_anchor": "原価＋マークアップから価格へ",
+  "card_strings": {
+    "Cost Price ($)": "原価 ($)",
+    "Markup": "マークアップ",
+    "Markup Amount:": "マークアップ額:",
+    "Selling Price:": "販売価格:",
+    "e.g. 30": "例: 30",
+    "e.g. 40": "例: 40"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "percent-solution-calculator",
+  "lang": "ja",
+  "meta_title": "パーセント濃度計算機 | 質量/体積濃度",
+  "meta_description": "無料のパーセント濃度計算機。溶質の質量と溶液の体積を入力すると、パーセント濃度（% w/v）をすぐに計算します。",
+  "h1": "パーセント濃度計算機",
+  "subtitle": "<strong>溶質の質量</strong>と<strong>溶液の体積</strong>を入力すると、この<strong>パーセント濃度計算機</strong>が<strong>パーセント濃度</strong>（% w/v）をすぐに計算します。",
+  "hint": "溶質の質量と溶液の体積を入力して濃度を求めます。",
+  "long_tail_anchor": "質量と体積のパーセント濃度",
+  "card_strings": {
+    "Concentration (% w/v):": "濃度 (% w/v):",
+    "Mass of Solute (g)": "溶質の質量 (g)",
+    "Volume of Solution (mL)": "溶液の体積 (mL)",
+    "e.g. 250": "例: 250",
+    "e.g. 5": "例: 5"
+  }
+}
