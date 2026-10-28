@@ -10,6 +10,7 @@ same LaTeX math, same FAQ count, and every translatable string in
 card.fields_html (label text, placeholder, aria-label) has a card_strings entry.
 """
 import json, os, re, sys
+from collections import Counter
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 CONTENT = os.path.join(ROOT, "src", "content")
@@ -130,9 +131,9 @@ def check(lang, slug):
         if strip(MATH_RE.findall(en["content_html"])) != strip(MATH_RE.findall(t["content_html"])):
             errs.append("content_html: LaTeX differs beyond \\text{} labels")
     if t.get("content_html") and numbers(en.get("content_html", "")) != numbers(t["content_html"]):
-        a, b = numbers(en["content_html"]), numbers(t["content_html"])
-        errs.append("content_html: numbers differ from English (only in EN: %s; only in translation: %s)" % (
-            [x for x in a if x not in b][:8], [x for x in b if x not in a][:8]))
+        a, b = Counter(numbers(en["content_html"])), Counter(numbers(t["content_html"]))
+        errs.append("content_html: numbers differ from English (missing: %s; extra: %s)" % (
+            dict(a - b), dict(b - a)))
     if t.get("faq") and len(en.get("faq", [])) != len(t["faq"]):
         errs.append("faq: item count differs")
     elif t.get("faq"):
@@ -158,7 +159,7 @@ if __name__ == "__main__":
     if args == ["--all"]:
         base = os.path.join(CONTENT, "i18n")
         for lang in sorted(os.listdir(base)):
-            for fn in sorted(os.listdir(os.path.join(base, lang))):
+            for fn in sorted(f for f in os.listdir(os.path.join(base, lang)) if f.endswith(".json")):
                 pairs.append((lang, fn[:-5]))
     else:
         pairs = list(zip(args[::2], args[1::2]))
