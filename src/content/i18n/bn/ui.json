@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "মূল বিষয়বস্তুতে যান",
+  "primary_nav": "প্রধান নেভিগেশন",
+  "toggle_dark": "ডার্ক মোড পরিবর্তন করুন",
+  "open_menu": "মেনু খুলুন",
+  "close_menu": "মেনু বন্ধ করুন",
+  "site_nav": "সাইট নেভিগেশন",
+  "home": "হোম",
+  "more": "আরও",
+  "language": "ভাষা",
+  "reset": "ক্যালকুলেটর রিসেট করুন",
+  "calculate": "হিসাব করুন",
+  "related_aria": "সম্পর্কিত ক্যালকুলেটর",
+  "faq_heading": "সচরাচর জিজ্ঞাসিত প্রশ্ন",
+  "toc_label": "সূচিপত্র",
+  "copy_result": "ফলাফল কপি করুন",
+  "copied": "কপি হয়েছে!",
+  "company": "কোম্পানি",
+  "footer_site_map": "সাইটম্যাপ",
+  "footer_links": "ফুটার লিংক",
+  "rights": "সর্বস্বত্ব সংরক্ষিত।",
+  "footer_tagline": "বিনামূল্যের অনলাইন শতাংশ ক্যালকুলেটর। প্রতিটি হিসাব সম্পূর্ণ আপনার ব্রাউজারে চলে — তাৎক্ষণিক ফলাফল, সাইন-আপের দরকার নেই।",
+  "native_name": "বাংলা",
+  "nav_groups": {
+    "core": {
+      "label": "মৌলিক শতাংশ টুল",
+      "short_label": "মৌলিক",
+      "tagline": "প্রয়োজনীয় জিনিস: শতাংশ নির্ণয়, কোনো সংখ্যা বাড়ানো বা কমানো, এবং দুটি মানের তুলনা।"
+    },
+    "converters": {
+      "label": "রূপান্তরকারী",
+      "short_label": "রূপান্তর",
+      "tagline": "শতাংশ, ভগ্নাংশ, দশমিক, অনুপাত ও অন্যান্য এককের রূপের মধ্যে রূপান্তর করুন।"
+    },
+    "education": {
+      "label": "শিক্ষা",
+      "short_label": "শিক্ষা",
+      "tagline": "শিক্ষার্থীদের জন্য GPA, CGPA, SGPA, নম্বর ও পারসেন্টাইলের রূপান্তর।"
+    },
+    "finance": {
+      "label": "অর্থ ও ব্যবসা",
+      "short_label": "অর্থ",
+      "tagline": "সুদের হার, মুনাফার মার্জিন, মার্কআপ, বেতন বৃদ্ধি ও ব্যবসার প্রবৃদ্ধি।"
+    },
+    "everyday": {
+      "label": "দৈনন্দিন ও বিশেষ",
+      "short_label": "দৈনন্দিন",
+      "tagline": "টিপ, জয়ের হার, বেকিংয়ের অনুপাত, খাবারের খরচ ও দ্রবণের শতাংশ ঘনমাত্রা।"
+    }
+  },
+  "company_links": {
+    "/about": "আমাদের সম্পর্কে",
+    "/contact": "যোগাযোগ",
+    "/sitemap": "সাইটম্যাপ",
+    "/disclaimer": "দাবিত্যাগ",
+    "/privacy-policy": "গোপনীয়তা নীতি",
+    "/terms-of-use": "ব্যবহারের শর্তাবলি"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "অ্যালকোহল প্রুফ ক্যালকুলেটর",
+    "apr-apy-converter": "APR থেকে APY রূপান্তরকারী",
+    "apr-calculator": "APR ক্যালকুলেটর",
+    "apy-calculator": "APY ক্যালকুলেটর",
+    "average-percentage-calculator": "গড় শতাংশ ক্যালকুলেটর",
+    "bakers-percentage-calculator": "বেকার্স শতাংশ ক্যালকুলেটর",
+    "basis-points-calculator": "বেসিস পয়েন্ট ক্যালকুলেটর",
+    "cgpa-to-percentage-calculator": "CGPA থেকে শতাংশ ক্যালকুলেটর",
+    "commission-calculator": "কমিশন ক্যালকুলেটর",
+    "compound-interest-calculator": "চক্রবৃদ্ধি সুদ ক্যালকুলেটর",
+    "decimal-to-percentage-calculator": "দশমিক থেকে শতাংশ ক্যালকুলেটর",
+    "depreciation-calculator": "অবচয় ক্যালকুলেটর",
+    "food-cost-percentage-calculator": "খাবারের খরচের শতাংশ ক্যালকুলেটর",
+    "fraction-to-percentage-calculator": "ভগ্নাংশ থেকে শতাংশ ক্যালকুলেটর",
+    "gpa-to-percentage-calculator": "GPA থেকে শতাংশ ক্যালকুলেটর",
+    "gross-margin-calculator": "মোট মার্জিন ক্যালকুলেটর",
+    "loan-interest-calculator": "ঋণের সুদ ক্যালকুলেটর",
+    "marks-percentage-calculator": "নম্বর শতাংশ ক্যালকুলেটর",
+    "markup-calculator": "মার্কআপ ক্যালকুলেটর",
+    "percent-solution-calculator": "শতাংশ দ্রবণ ক্যালকুলেটর",
+    "percentage-calculator": "শতাংশ ক্যালকুলেটর",
+    "percentage-change-calculator": "শতাংশ পরিবর্তন ক্যালকুলেটর",
+    "percentage-decrease-calculator": "শতাংশ হ্রাস ক্যালকুলেটর",
+    "percentage-difference-calculator": "শতাংশ পার্থক্য ক্যালকুলেটর",
+    "percentage-error-calculator": "শতাংশ ত্রুটি ক্যালকুলেটর",
+    "percentage-growth-calculator": "শতাংশ প্রবৃদ্ধি ক্যালকুলেটর",
+    "percentage-increase-calculator": "শতাংশ বৃদ্ধি ক্যালকুলেটর",
+    "percentage-of-a-percentage-calculator": "শতাংশের শতাংশ ক্যালকুলেটর",
+    "percentage-off-calculator": "ছাড় ক্যালকুলেটর",
+    "percentage-point-calculator": "শতাংশ পয়েন্ট ক্যালকুলেটর",
+    "percentile-to-percentage-calculator": "পারসেন্টাইল থেকে শতাংশ ক্যালকুলেটর",
+    "ppm-to-percentage-calculator": "PPM থেকে শতাংশ ক্যালকুলেটর",
+    "profit-margin-calculator": "মুনাফার মার্জিন ক্যালকুলেটর",
+    "profit-percentage-calculator": "মুনাফার শতাংশ ক্যালকুলেটর",
+    "ratio-to-percentage-calculator": "অনুপাত থেকে শতাংশ ক্যালকুলেটর",
+    "reverse-percentage-calculator": "বিপরীত শতাংশ ক্যালকুলেটর",
+    "salary-increase-calculator": "বেতন বৃদ্ধি ক্যালকুলেটর",
+    "sgpa-to-percentage-calculator": "SGPA থেকে শতাংশ ক্যালকুলেটর",
+    "simple-interest-calculator": "সরল সুদ ক্যালকুলেটর",
+    "slope-percentage-calculator": "ঢাল শতাংশ ক্যালকুলেটর",
+    "tip-calculator": "টিপ ক্যালকুলেটর",
+    "win-loss-percentage-calculator": "জয়/পরাজয় ক্যালকুলেটর"
+  }
+}

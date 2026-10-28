@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "bn",
+  "meta_title": "গড় শতাংশ ক্যালকুলেটর | সরল ও ভারযুক্ত গড়",
+  "meta_description": "সরল ও ভারযুক্ত মোডসহ বিনামূল্যের গড় শতাংশ ক্যালকুলেটর। নম্বর ও জরিপের জন্য ভিন্ন আকারের দলের শতাংশ সঠিকভাবে একত্র করুন।",
+  "h1": "গড় শতাংশ ক্যালকুলেটর",
+  "subtitle": "কমা দিয়ে আলাদা করে <strong>শতাংশের</strong> একটি তালিকা লিখুন, আর এই <strong>গড় শতাংশ ক্যালকুলেটর</strong> আপনার মানগুলোর <strong>গড়</strong>, <strong>যোগফল</strong>, <strong>সংখ্যা</strong> ও পরিসর দেয়। দলগুলো সমান আকারের না হলে সংশ্লিষ্ট <strong>নমুনার আকারের</strong> তালিকাও যোগ করুন, আর এটি আপনা-আপনি সঠিক <strong>ভারযুক্ত গড়ে</strong> চলে যায়।",
+  "hint": "সরল বা ভারযুক্ত গড়ের জন্য শতাংশ (এবং ঐচ্ছিক নমুনার আকার) লিখুন।",
+  "long_tail_anchor": "একাধিক শতাংশের গড়",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "অসমান আকারের দলগুলো সঠিকভাবে একত্র করতে প্রতিটি শতাংশের জন্য একটি করে ভার (যেমন শ্রেণির আকার বা উত্তরদাতার সংখ্যা) যোগ করুন।",
+    "Average:": "গড়:",
+    "Count:": "সংখ্যা:",
+    "Percentages (comma or space separated)": "শতাংশ (কমা বা স্পেস দিয়ে আলাদা)",
+    "Sample Sizes / Weights (optional)": "নমুনার আকার / ভার (ঐচ্ছিক)",
+    "Sum:": "যোগফল:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "যেমন: 30, 50, 20, 40 (সরল গড়ের জন্য ফাঁকা রাখুন)",
+    "e.g. 85, 90, 78, 92": "যেমন: 85, 90, 78, 92"
+  }
+}
