@@ -11,7 +11,7 @@ A sentence-by-sentence rendering of the English is a failed page, even when ever
 
 | Stays identical to English | Gets rewritten in the target language |
 |---|---|
-| Tag sequence, attributes, classes, `id`s, `href`s; `<figure>`/`<img>` infographics are ignored (image, `alt` and `src` untouched) | All visible text |
+| Tag sequence, attributes, classes, `id`s, `href`s; `<figure>` infographics are **not imported**: omit them from the translation (the validator drops them from the English before comparing and rejects them in a translation) | All visible text |
 | LaTeX (`$$...$$`, `\(...\)`); only `\text{...}` labels may be translated | `<caption>`, `<summary>`, `<figcaption>`, table headers |
 | Numbers, decimal point, thousands comma, `$` amounts | Words around the numbers, units spelled out in words |
 | Order and number of `<h2>`/`<h3>`/`<h4>`, table rows/columns, list items, FAQ items | Headings, FAQ questions and answers |

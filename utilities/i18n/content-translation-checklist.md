@@ -2,7 +2,7 @@
 
 18 languages x 42 articles = 756 article items, plus 198 FAQ sets (127 Q&A per language) = 954 boxes. English source: `src/content/<slug>.json` (`content_html`, `faq`). About 67,183 words per language.
 
-Infographics (`<figure>`/`<img>`, home page) are out of scope: leave them exactly as in English.
+Infographics (`<figure>`/`<img>`, home page) are not imported: leave them out of the translated `content_html`.
 
 **Read `content-translation-guide.md` first.** This is localisation against target-language search terms, grammar and usage, not a word-for-word translation.
 

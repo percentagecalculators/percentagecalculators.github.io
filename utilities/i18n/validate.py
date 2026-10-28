@@ -27,6 +27,15 @@ def numbers(text):
     return sorted(NUM_RE.findall(TAG_RE.sub(" ", text)))
 
 
+FIGURE_RE = re.compile(r"<figure\b.*?</figure>\s*", re.DOTALL | re.IGNORECASE)
+
+
+def no_figures(html):
+    """Infographics (<figure>) are not translated or imported: dropped from the
+    English source before comparing, and not allowed in a translation."""
+    return FIGURE_RE.sub("", html or "")
+
+
 def skeleton(html):
     return [re.sub(r"\s+", " ", t) for t in TAG_RE.findall(html)]
 
@@ -123,6 +132,9 @@ def check(lang, slug):
             errs.append(f"missing {f}")
     if skeleton(en.get("subtitle", "")) != skeleton(t.get("subtitle", "")):
         errs.append("subtitle: tag skeleton differs from English")
+    if FIGURE_RE.search(t.get("content_html", "")):
+        errs.append("content_html: contains <figure> (infographics are not imported)")
+    en = dict(en, content_html=no_figures(en.get("content_html", "")))
     if t.get("content_html") and skeleton(en.get("content_html", "")) != skeleton(t["content_html"]):
         errs.append("content_html: tag skeleton differs from English")
     if t.get("content_html") and MATH_RE.findall(en.get("content_html", "")) != MATH_RE.findall(t["content_html"]):
