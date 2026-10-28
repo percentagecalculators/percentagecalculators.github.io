@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "ar",
+  "meta_title": "حاسبة درجة الكحول (Proof) | حوّل Proof إلى نسبة ABV المئوية",
+  "meta_description": "حاسبة مجانية لدرجة الكحول (Proof). أدخل قيمة Proof الأمريكية لتحويلها فورًا إلى نسبة الكحول بالحجم (ABV): سريعة ودقيقة وسهلة الاستخدام.",
+  "h1": "حاسبة درجة الكحول (Proof)",
+  "subtitle": "أدخل قيمة <strong>درجة الكحول (Proof)</strong> (المقياس الأمريكي) وستحوّلها <strong>حاسبة درجة الكحول</strong> هذه فورًا إلى نسبة <strong>الكحول بالحجم (ABV)</strong> المئوية.",
+  "hint": "أدخل قيمة Proof الأمريكية للحصول على نسبة ABV المئوية.",
+  "long_tail_anchor": "محوّل Proof إلى نسبة ABV المئوية",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "Proof (أمريكي)",
+    "e.g. 80": "مثال: 80"
+  }
+}

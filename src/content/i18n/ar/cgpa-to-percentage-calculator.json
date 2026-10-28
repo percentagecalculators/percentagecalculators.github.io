@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "ar",
+  "meta_title": "حاسبة CGPA إلى نسبة مئوية | حوّل CGPA من 10 نقاط إلى %",
+  "meta_description": "حاسبة مجانية لتحويل CGPA إلى نسبة مئوية بالصيغة القياسية CGPA من 10 نقاط × 9.5. حوّل معدلك التراكمي إلى نسبة مئوية للسجلات الجامعية.",
+  "h1": "حاسبة CGPA إلى نسبة مئوية",
+  "subtitle": "أدخل <strong>CGPA</strong> الخاص بك على <strong>المقياس القياسي من 10 نقاط</strong> وستطبّق <strong>حاسبة CGPA إلى نسبة مئوية</strong> هذه الصيغة الشائعة <strong>CGPA × 9.5</strong> لتعطيك فورًا <strong>النسبة المئوية</strong> المكافئة.",
+  "hint": "أدخل CGPA من 10 نقاط للحصول على النسبة المئوية المكافئة.",
+  "long_tail_anchor": "حوّل CGPA من 10 نقاط إلى نسبة مئوية",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA (من 10)",
+    "Percentage:": "النسبة المئوية:",
+    "e.g. 8.2": "مثال: 8.2"
+  }
+}

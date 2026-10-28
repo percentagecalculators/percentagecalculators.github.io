@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "انتقل إلى المحتوى",
+  "primary_nav": "التنقل الرئيسي",
+  "toggle_dark": "تبديل الوضع الداكن",
+  "open_menu": "فتح القائمة",
+  "close_menu": "إغلاق القائمة",
+  "site_nav": "التنقل في الموقع",
+  "home": "الرئيسية",
+  "more": "المزيد",
+  "language": "اللغة",
+  "reset": "إعادة ضبط الحاسبة",
+  "calculate": "احسب",
+  "related_aria": "حاسبات ذات صلة",
+  "faq_heading": "الأسئلة الشائعة",
+  "toc_label": "المحتويات",
+  "copy_result": "نسخ النتيجة",
+  "copied": "تم النسخ!",
+  "company": "الشركة",
+  "footer_site_map": "خريطة الموقع",
+  "footer_links": "روابط التذييل",
+  "rights": "جميع الحقوق محفوظة.",
+  "footer_tagline": "حاسبات نسبة مئوية مجانية عبر الإنترنت. تجري كل عملية حسابية بالكامل في متصفحك: نتائج فورية دون الحاجة إلى تسجيل.",
+  "native_name": "العربية",
+  "nav_groups": {
+    "core": {
+      "label": "أدوات النسبة المئوية الأساسية",
+      "short_label": "الأساسية",
+      "tagline": "الأساسيات: إيجاد نسبة مئوية، وزيادة عدد أو إنقاصه، ومقارنة قيمتين."
+    },
+    "converters": {
+      "label": "المحوّلات",
+      "short_label": "المحوّلات",
+      "tagline": "حوّل بين النسب المئوية والكسور والأعداد العشرية والنسب وصيغ الوحدات الأخرى."
+    },
+    "education": {
+      "label": "التعليم",
+      "short_label": "التعليم",
+      "tagline": "تحويلات GPA وCGPA وSGPA والعلامات والمئين للطلاب."
+    },
+    "finance": {
+      "label": "المال والأعمال",
+      "short_label": "المال",
+      "tagline": "أسعار الفائدة وهوامش الربح والإضافة وزيادات الرواتب ونمو الأعمال."
+    },
+    "everyday": {
+      "label": "الحياة اليومية والحالات الخاصة",
+      "short_label": "اليومية",
+      "tagline": "البقشيش ونسب الفوز ونسب الخَبز وتكلفة الطعام وتراكيز المحاليل بالنسبة المئوية."
+    }
+  },
+  "company_links": {
+    "/about": "من نحن",
+    "/contact": "اتصل بنا",
+    "/sitemap": "خريطة الموقع",
+    "/disclaimer": "إخلاء المسؤولية",
+    "/privacy-policy": "سياسة الخصوصية",
+    "/terms-of-use": "شروط الاستخدام"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "حاسبة درجة الكحول (Proof)",
+    "apr-apy-converter": "محوّل APR إلى APY",
+    "apr-calculator": "حاسبة APR",
+    "apy-calculator": "حاسبة APY",
+    "average-percentage-calculator": "حاسبة متوسط النسب المئوية",
+    "bakers-percentage-calculator": "حاسبة نسبة الخباز",
+    "basis-points-calculator": "حاسبة نقاط الأساس",
+    "cgpa-to-percentage-calculator": "حاسبة CGPA إلى نسبة مئوية",
+    "commission-calculator": "حاسبة العمولة",
+    "compound-interest-calculator": "حاسبة الفائدة المركبة",
+    "decimal-to-percentage-calculator": "حاسبة العدد العشري إلى نسبة مئوية",
+    "depreciation-calculator": "حاسبة الإهلاك",
+    "food-cost-percentage-calculator": "حاسبة نسبة تكلفة الطعام",
+    "fraction-to-percentage-calculator": "حاسبة الكسر إلى نسبة مئوية",
+    "gpa-to-percentage-calculator": "حاسبة GPA إلى نسبة مئوية",
+    "gross-margin-calculator": "حاسبة هامش الربح الإجمالي",
+    "loan-interest-calculator": "حاسبة فائدة القرض",
+    "marks-percentage-calculator": "حاسبة النسبة المئوية للعلامات",
+    "markup-calculator": "حاسبة هامش الإضافة (Markup)",
+    "percent-solution-calculator": "حاسبة المحلول بالنسبة المئوية",
+    "percentage-calculator": "حاسبة النسبة المئوية",
+    "percentage-change-calculator": "حاسبة التغيّر بالنسبة المئوية",
+    "percentage-decrease-calculator": "حاسبة النقصان بالنسبة المئوية",
+    "percentage-difference-calculator": "حاسبة الفرق بالنسبة المئوية",
+    "percentage-error-calculator": "حاسبة الخطأ بالنسبة المئوية",
+    "percentage-growth-calculator": "حاسبة النمو بالنسبة المئوية",
+    "percentage-increase-calculator": "حاسبة الزيادة بالنسبة المئوية",
+    "percentage-of-a-percentage-calculator": "حاسبة نسبة مئوية من نسبة مئوية",
+    "percentage-off-calculator": "حاسبة الخصم",
+    "percentage-point-calculator": "حاسبة النقاط المئوية",
+    "percentile-to-percentage-calculator": "حاسبة المئين إلى نسبة مئوية",
+    "ppm-to-percentage-calculator": "حاسبة PPM إلى نسبة مئوية",
+    "profit-margin-calculator": "حاسبة هامش الربح",
+    "profit-percentage-calculator": "حاسبة نسبة الربح",
+    "ratio-to-percentage-calculator": "حاسبة النسبة إلى نسبة مئوية",
+    "reverse-percentage-calculator": "حاسبة النسبة المئوية العكسية",
+    "salary-increase-calculator": "حاسبة زيادة الراتب",
+    "sgpa-to-percentage-calculator": "حاسبة SGPA إلى نسبة مئوية",
+    "simple-interest-calculator": "حاسبة الفائدة البسيطة",
+    "slope-percentage-calculator": "حاسبة نسبة الانحدار المئوية",
+    "tip-calculator": "حاسبة البقشيش",
+    "win-loss-percentage-calculator": "حاسبة الفوز والخسارة"
+  }
+}

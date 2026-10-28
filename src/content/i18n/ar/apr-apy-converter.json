@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "ar",
+  "meta_title": "محوّل APR إلى APY | حوّل إلى العائد السنوي",
+  "meta_description": "محوّل مجاني من APR إلى APY. أدخل APR وتكرار التركيب لترى فورًا العائد السنوي المكافئ (APY).",
+  "h1": "محوّل APR إلى APY",
+  "subtitle": "أدخل <strong>APR</strong> و<strong>تكرار تركيبه</strong>، وسيعرض <strong>محوّل APR إلى APY</strong> هذا <strong>العائد السنوي</strong> المكافئ، وهو مفيد لمقارنة الحسابات المعروضة بطرق مختلفة.",
+  "hint": "أدخل APR وعدد فترات التركيب في السنة للحصول على APY المكافئ.",
+  "long_tail_anchor": "قارن بين معدلي APR وAPY",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "فترات التركيب / السنة",
+    "e.g. 12": "مثال: 12",
+    "e.g. 6": "مثال: 6"
+  }
+}

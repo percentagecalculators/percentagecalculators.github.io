@@ -471,7 +471,7 @@ TOOL_CARD_HEAD_ANCHOR = "{{HINT}}</p></div></div>"
 
 def render_reset_button(color):
     return (
-        '<button type="button" class="reset-btn ml-auto flex h-9 w-9 flex-none items-center justify-center '
+        '<button type="button" class="reset-btn ms-auto flex h-9 w-9 flex-none items-center justify-center '
         'rounded-lg border border-border bg-surface text-text-secondary transition-colors hover:border-%s-300 '
         'hover:bg-%s-50 hover:text-%s-600 dark:hover:border-%s-500/40 dark:hover:bg-%s-500/10 dark:hover:text-%s-400" '
         'aria-label="%s" title="%s">'
@@ -701,7 +701,7 @@ def render_toc_list(nodes, depth=0):
         if node["children"]:
             style = TOC_LIST_STYLES[min(depth + 1, len(TOC_LIST_STYLES) - 1)]
             children_html = (
-                '<ol class="mt-1.5 %s list-outside space-y-1 pl-5 text-[0.8rem] font-normal marker:text-text-muted">%s</ol>'
+                '<ol class="mt-1.5 %s list-outside space-y-1 ps-5 text-[0.8rem] font-normal marker:text-text-muted">%s</ol>'
                 % (style, render_toc_list(node["children"], depth + 1))
             )
         items.append(
@@ -719,7 +719,7 @@ def render_toc(tree):
     return (
         '<nav class="toc mb-6 w-full max-w-2xl rounded-2xl border border-border bg-surface-alt p-5" aria-label="%s">'
         '<p class="mb-3 text-sm font-bold uppercase tracking-wide text-text-muted">%s</p>'
-        '<ol class="toc-list list-decimal list-outside space-y-1.5 pl-5 text-sm font-semibold text-text marker:font-bold marker:text-accent">%s</ol>'
+        '<ol class="toc-list list-decimal list-outside space-y-1.5 ps-5 text-sm font-semibold text-text marker:font-bold marker:text-accent">%s</ol>'
         '</nav>' % (html.escape(t("toc_label")), html.escape(t("toc_label")), list_html)
     )
 
@@ -741,7 +741,7 @@ def render_faq_section(tool, alt):
     items = "".join(
         '<div class="faq-item border-b border-border py-5 last:border-0">'
         '<dt class="mb-2 flex gap-2 text-base font-bold text-text"><span class="flex-none text-accent">Q.</span><span>%s</span></dt>'
-        '<dd class="pl-6 text-[0.92rem] leading-relaxed text-text-secondary">%s</dd></div>'
+        '<dd class="ps-6 text-[0.92rem] leading-relaxed text-text-secondary">%s</dd></div>'
         % (html.escape(f["question"]), f["answer"])
         for f in tool["faq"]
     )
@@ -944,7 +944,7 @@ def render_mobile_drawer(site, by_slug, alts=None):
         )
         sections.append(
             '<div class="nav-drawer-section border-b border-border" data-cluster="%s">'
-            '<button type="button" class="drawer-section-btn flex w-full items-center gap-3 px-4 py-3 text-left" aria-expanded="false" aria-controls="%s">'
+            '<button type="button" class="drawer-section-btn flex w-full items-center gap-3 px-4 py-3 text-start" aria-expanded="false" aria-controls="%s">'
             '<span class="more-menu-icon flex h-8 w-8 flex-none items-center justify-center rounded-lg bg-accent/10 text-sm font-bold text-accent">%s</span>'
             '<span class="flex-1 text-sm font-semibold text-text">%s</span>'
             '<span class="flex-none text-text-muted">%s</span></button>'
@@ -1035,9 +1035,9 @@ def render_language_switcher(alts):
         for l, url in alts
     )
     return (
-        '<details class="lang-switch relative ml-auto flex-none" id="langSwitch">'
+        '<details class="lang-switch relative ms-auto flex-none" id="langSwitch">'
         '<summary class="inline-flex h-9 cursor-pointer list-none items-center gap-1.5 rounded-full border border-border px-3 text-sm font-medium text-text-secondary hover:bg-surface-alt hover:text-text [&::-webkit-details-marker]:hidden" aria-label="%s">%s<span>%s</span></summary>'
-        '<ul class="absolute right-0 top-full z-50 mt-2 max-h-[70vh] w-48 overflow-y-auto rounded-2xl border border-border bg-surface p-2 shadow-lg">%s</ul>'
+        '<ul class="absolute end-0 top-full z-50 mt-2 max-h-[70vh] w-48 overflow-y-auto rounded-2xl border border-border bg-surface p-2 shadow-lg">%s</ul>'
         "</details>" % (html.escape(t("language")), GLOBE_SVG, html.escape(LANGUAGES[LANG][1].upper()), links)
     )
 
@@ -1091,9 +1091,9 @@ def render_site_header(site, by_slug, alts=None):
         "toggle_dark": html.escape(t("toggle_dark")),
         "open_menu": html.escape(t("open_menu")),
         "lang_switch": render_language_switcher(alts),
-        # With a language switcher present it carries the ml-auto that
+        # With a language switcher present it carries the ms-auto that
         # pushes the button group right on mobile; otherwise the theme toggle does.
-        "theme_margin": "" if alts and len(alts) > 1 else "ml-auto ",
+        "theme_margin": "" if alts and len(alts) > 1 else "ms-auto ",
     }
 
 

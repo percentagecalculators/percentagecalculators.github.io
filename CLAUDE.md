@@ -355,8 +355,10 @@ so `build_data.py` is not involved.
 - **URLs** keep the legacy site's structure: `/<lang>/` (home), `/<lang>/<slug>/`,
   `/<lang>/page/<name>/` (about, contact, disclaimer, privacy-policy, terms-of-use, sitemap).
   English stays flat (`/slug`). Output is `public/<lang>/.../index.html`. The 18 language codes are
-  `ar bn de es fr hi id it ja ko ms nl pt ru th vi zh-cn zh-tw` (`LANGUAGES` in `generate.py`;
-  `ar` renders `dir="rtl"`, which the Tailwind markup does not handle yet).
+  `ar bn de es fr hi id it ja ko ms nl pt ru th vi zh-cn zh-tw` (`LANGUAGES` in `generate.py`; all 18
+  are built). `ar` renders `dir="rtl"`: the templates use logical utilities (`ms-auto`, `ps-5`,
+  `end-0`, `text-start`) instead of `ml-auto`/`pl-5`/`right-0`/`text-left` so layouts mirror, and
+  `base.css` keeps `<output>` and the formula line LTR. Use logical utilities in any new markup.
 - **Files per language:** `<slug>.json` per tool (home = `percentage-calculator.json`) with
   `meta_title`, `meta_description`, `h1`, `subtitle`, `hint`, `long_tail_anchor` and `card_strings`
   (an English-text -> translated-text map for the card's labels/placeholders/captions; the card HTML
@@ -367,6 +369,10 @@ so `build_data.py` is not involved.
 - **Translate text only.** Tags, classes, ids, hrefs, `<script>` and LaTeX stay identical to English.
   Root-relative links such as `/contact` stay as written in translations; the build rewrites them to
   the language's URL (`localize_links()`).
+- **Writing a language:** `python3 utilities/i18n/build_lang.py --skeleton <lang>` writes a data
+  module listing every tool/page/UI key; fill it in and run
+  `python3 utilities/i18n/build_lang.py lang_<lang>.py` -- it checks completeness first (and writes
+  nothing if anything is missing), writes the JSON files, validates and ticks the checklist.
 - **Validate:** `python3 utilities/i18n/validate.py <lang> <slug|pages|ui>` or `--all` (tag skeleton,
   LaTeX, FAQ count, `card_strings` coverage, page/section/list counts, ui.json completeness).
   `utilities/i18n/translation-checklist.md` tracks all 864 URLs (18 languages x 48 pages).

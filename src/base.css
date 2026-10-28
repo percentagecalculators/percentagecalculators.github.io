@@ -151,3 +151,9 @@ html{scroll-behavior:smooth}
    push the whole page into horizontal scroll. Same fix as .table-scroll
    above: let the formula scroll within its own box instead. */
 .article .katex-display{overflow-x:auto;overflow-y:hidden;max-width:100%}
+
+/* RTL pages (dir="rtl", e.g. Arabic): keep calculator results and the formula
+   line in LTR so numbers and operators never get reordered by the bidi
+   algorithm. Isolated so they don't affect the surrounding RTL text. */
+[dir="rtl"] output,
+[dir="rtl"] .calc-formula{direction:ltr;unicode-bidi:isolate}
