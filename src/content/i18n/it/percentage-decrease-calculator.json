@@ -14,5 +14,56 @@
     "Enter starting number": "Inserisci il numero di partenza",
     "New Value:": "Nuovo valore:",
     "Original Value": "Valore iniziale"
-  }
+  },
+  "content_html": "<p>Passare da un numero a uno più piccolo succede ovunque (il prezzo di un saldo, un taglio di stipendio, una cittadina che perde abitanti), e il <strong>calcolatore di diminuzione percentuale</strong> qui sopra trasforma quel calo in un unico valore confrontabile. Si inseriscono i due numeri e lo strumento esegue sottrazione e divisione; più sotto si trovano la formula esatta che usa, il ragionamento dietro ogni passaggio e abbastanza esempi svolti da poter fare il calcolo anche a mano.</p>\n\n<h2>Come calcolare la diminuzione percentuale</h2>\n<p>La domanda è sempre la stessa: quanto è grande il calo rispetto al punto di partenza? Si seguono questi passaggi, che si confrontino prezzi, stipendi o organici:</p>\n<ol>\n  <li>Si sottrae il numero finale dal numero iniziale, per trovare la differenza assoluta.</li>\n  <li>Si divide la differenza per il valore assoluto del numero iniziale.</li>\n  <li>Si moltiplica il risultato per 100 per convertire il decimale in percentuale.</li>\n</ol>\n<p>Se quest'ultimo numero risulta negativo, il valore è in realtà salito e non sceso: un risultato negativo è un aumento percentuale sotto mentite spoglie, e conviene ricontrollare quale numero sia stato inserito per primo.</p>\n\n<h2>Formula della diminuzione percentuale: valore iniziale e valore finale</h2>\n<p>La formula alla base del calcolatore è abbastanza breve da essere memorizzata e abbastanza generale da coprire ribassi, tagli di stipendio e numeri in calo di ogni tipo:</p>\n<p>$$ \\text{Diminuzione percentuale} = \\frac{S - F}{|S|} \\times 100 $$</p>\n<p>dove <sub>S</sub> è il valore iniziale e <sub>F</sub> è il valore finale: usando \\( \\%\\ \\text{diminuzione} = 100 \\times \\dfrac{(S - F)}{|S|} \\) si ottiene lo stesso risultato. Le barre del <strong>valore assoluto</strong> contano: mantengono positivo il denominatore anche quando il valore iniziale è negativo, ed è per questo che il segno della risposta indica sempre un aumento o una diminuzione, mai il segno dei dati inseriti.</p>\n\n<h3>Valore originale e nuovo valore nella formula</h3>\n<p>È facile confondere quale numero vada dove. Il <strong>valore originale</strong>, detto anche valore iniziale, è sempre ciò da cui si parte prima della variazione; il nuovo valore è quello a cui si arriva dopo. Scambiandoli la formula funziona comunque, ma si ottiene una percentuale negativa anziché una diminuzione, perché in pratica si misura l'aumento necessario per tornare al punto di partenza.</p>\n<aside><i>Suggerimento:</i> se il risultato appare come un aumento quando ci si aspettava una diminuzione (o viceversa), probabilmente sono stati scambiati i due numeri: conviene ricontrollare quale rappresenti il punto di partenza.</aside>\n\n<h2>Diminuzione percentuale e aumento percentuale</h2>\n<p>Diminuzione e aumento percentuale condividono la stessa formula di fondo; cambia solo la direzione della variazione. Il calcolo della <strong>variazione percentuale</strong>, a volte indicato come calcolatore di <strong>percentuale di variazione</strong>, è il termine ombrello per entrambe le direzioni, mentre uno strumento affine ma distinto, il calcolatore di <strong>differenza percentuale</strong>, confronta due valori senza presumere che uno venga prima dell'altro nel tempo: divide per la <em>media</em> dei due numeri anziché per quello iniziale, perciò non sempre concorda con una diminuzione percentuale calcolata sulla stessa coppia di valori.</p>\n<ul>\n  <li>Ribassi al dettaglio e liquidazioni</li>\n  <li>Tagli di stipendio o un budget familiare in calo</li>\n  <li>Una cittadina o un paese che perde abitanti nel tempo</li>\n  <li>Il peso registrato da un controllo al successivo</li>\n</ul>\n\n<h2>Applicazioni pratiche di un calcolatore di diminuzione percentuale</h2>\n<p>Il calcolo è semplice, ma è l'ambito di utilizzo a rendere davvero utile ogni giorno un calcolatore di diminuzione percentuale, tanto nella matematica quotidiana quanto nella finanza personale e nelle nozioni di base di economia.</p>\n\n<h3>Sconti sul prezzo originale</h3>\n<p>Il commercio al dettaglio è l'uso più comune. Se il <strong>prezzo originale</strong> di un articolo è $80 e un coupon con il 25% di <strong>sconto</strong> durante i saldi del fine settimana porta il costo a $60, si tratta di una semplice <strong>riduzione percentuale</strong> del 25%: il tasso di sconto e la diminuzione percentuale sono lo stesso numero ogni volta che lo sconto è già espresso in percentuale. Confrontare il <strong>vecchio prezzo</strong> con quanto si pagherebbe ora è anche il modo per verificare se un ribasso pubblicizzato sia davvero così consistente come dichiarato.</p>\n\n<h3>Tagli di stipendio e riduzione delle spese</h3>\n<p>La stessa formula vale quando il denaro si muove nell'altra direzione. Un'azienda che in un anno ha ridotto il budget di un reparto da $500,000 a $400,000 ha ottenuto una riduzione delle spese del 20%. Un libero professionista i cui ricavi al lordo delle imposte sono scesi da $80,000 a $46,400 dopo le imposte e un trimestre più lento ha subito un <strong>calo percentuale</strong> del 42%; la stessa logica vale per una <strong>riduzione dello stipendio</strong>, dove lo stipendio netto dopo il taglio è semplicemente il valore finale della stessa equazione. Le startup che monitorano il proprio burn rate la usano ogni mese, osservando la differenza tra la spesa del mese scorso e quella di questo mese per capire se i costi siano davvero in calo.</p>\n\n<h3>Tasso di calo della popolazione nel tempo</h3>\n<p>I demografi usano il <strong>tasso di calo della popolazione</strong> come i commercianti usano un ribasso: una cittadina passata da 1,000 abitanti a 950 in un anno ha registrato un calo del 5%. Esprimere un organico in diminuzione come percentuale, anziché come numero assoluto, permette di confrontare ad armi pari luoghi di dimensioni molto diverse, dato che perdere 50 abitanti ha un significato molto diverso per una cittadina e per una grande città.</p>\n\n<h3>Diminuzione assoluta e diminuzione percentuale</h3>\n<p>Una <strong>diminuzione assoluta</strong> è semplicemente la differenza grezza tra due numeri: nessuna divisione, nessun segno di percentuale. Una <strong>diminuzione relativa</strong> (la versione percentuale) dice molto di più sul peso reale del calo. Perdere $1,000,000 di utile sembra identico sia che un'azienda ne avesse realizzati $2,000,000 sia $100,000,000 l'anno precedente, ma in percentuale i due casi sono rispettivamente 50% e 1%: uno è una crisi, l'altro appena un arrotondamento. Lo stesso vale per la perdita di peso: scendere di 10 libbre da un peso iniziale di 200 libbre è una diminuzione del 5%, un contesto più utile del solo numero assoluto, soprattutto rispetto a un intervallo di peso sano, in cui conta più la percentuale che la cifra da sola.</p>\n\n<h2>Esempi svolti di calcolo della diminuzione percentuale</h2>\n<p>Seguire alcuni esempi completi dall'inizio alla fine rende la formula più affidabile che leggerla in astratto.</p>\n<table>\n  <thead>\n    <tr><th>Situazione</th><th>Prima</th><th>Dopo</th><th>Diminuzione percentuale</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>Consumo energetico di una lampadina</td><td>60 watt</td><td>8 watt</td><td>86.67%</td></tr>\n    <tr><td>Articolo in vendita dopo i saldi</td><td>$100</td><td>$70</td><td>30%</td></tr>\n    <tr><td>Utile aziendale anno su anno</td><td>$2,000,000</td><td>$1,000,000</td><td>50%</td></tr>\n    <tr><td>Peso corporeo dopo una dieta</td><td>200 lbs</td><td>190 lbs</td><td>5%</td></tr>\n    <tr><td>Cittadina, in un anno</td><td>1,000</td><td>950</td><td>5%</td></tr>\n  </tbody>\n</table>\n<p>Si noti la prima riga: sostituire una lampadina da 60 watt con una LED da 8 watt significa una diminuzione dell'86.67% del consumo energetico orario, molto più netta di quanto i più si aspettino da un «piccolo» cambio di potenza, e una buona illustrazione del perché la forma percentuale di una differenza sia spesso più informativa di quella assoluta. In forma decimale è un <strong>rapporto</strong> di 0.8667, cioè una <strong>frazione</strong> della potenza originale eliminata, prima che la moltiplicazione finale per 100 la converta nella percentuale che si legge sul <a href=\"#top\">calcolatore di diminuzione percentuale</a> qui sopra.</p>\n\n<h2>Usare la formula della diminuzione percentuale oltre questo calcolatore</h2>\n<p>Una volta in grado di <code>calcolare la diminuzione percentuale</code> per un tipo di numero, lo si può fare per qualsiasi altro: la formula qui sopra è l'unità comune che rende direttamente confrontabili un ribasso di $20, una perdita di 5 libbre e il calo degli abitanti di una cittadina. È lo stesso motivo per cui un <strong>calcolatore di diminuzione percentuale</strong> e un <strong>calcolatore di riduzione percentuale</strong> sono in realtà lo stesso strumento con due nomi diversi.</p>",
+  "faq": [
+    {
+      "question": "Come si sottrae il 25% da un numero?",
+      "answer": "Si moltiplica il numero per 0.75. Per esempio, 200 - 25% = 200 × 0.75 = 150. L'importo della diminuzione è 50."
+    },
+    {
+      "question": "Quanto fa 80 meno il 15 per cento?",
+      "answer": "80 meno il 15% fa 68. Calcolo: 80 × 0.15 = 12 (diminuzione), poi 80 - 12 = 68."
+    },
+    {
+      "question": "Come si calcola l'ammortamento?",
+      "answer": "Si moltiplica il valore del bene per (1 - tasso di ammortamento). Per un ammortamento del 20% su $10,000: $10,000 × 0.80 = $8,000."
+    },
+    {
+      "question": "Qual è la formula per sottrarre una percentuale?",
+      "answer": "Nuovo valore = Originale × (1 - Percentuale/100). Per uno sconto del 30% su $50: $50 × 0.70 = $35."
+    },
+    {
+      "question": "Quanto costa $120 con il 40% di sconto?",
+      "answer": "$120 con il 40% di sconto fanno $72. Calcolo: $120 × 0.60 = $72. Si risparmiano $48."
+    },
+    {
+      "question": "Che cosa significa una diminuzione del 100%?",
+      "answer": "Una diminuzione del 100% riduce il valore a zero. 50 diminuito del 100% = 50 - 50 = 0."
+    },
+    {
+      "question": "Perché serve un aumento superiore al 50% per recuperare una perdita del 50%?",
+      "answer": "Perché la percentuale di aumento si applica all'importo già ridotto. Dopo una perdita del 50% resta la metà; per tornare al valore di partenza serve un aumento del 100%."
+    },
+    {
+      "question": "Come funzionano gli sconti successivi?",
+      "answer": "Si moltiplicano, non si sommano. Sconto del 20% e poi del 10%: 100 × 0.80 × 0.90 = 72 (28% in totale, non 30%)."
+    },
+    {
+      "question": "Quanto fa 500 diminuito del 35%?",
+      "answer": "500 diminuito del 35% = 325. Calcolo: 500 × 0.65 = 325. La diminuzione è 175."
+    },
+    {
+      "question": "Come si ricava il prezzo originale prima di uno sconto?",
+      "answer": "Si divide il prezzo scontato per (1 - sconto%). Se si sono pagati $60 dopo uno sconto del 25%: $60 ÷ 0.75 = $80 di prezzo originale."
+    },
+    {
+      "question": "Una diminuzione può essere negativa?",
+      "answer": "Inserendo una percentuale negativa il valore aumenterebbe. Per le aggiunte si usa il calcolatore di aumento percentuale."
+    },
+    {
+      "question": "Quanto fa 1000 meno il 7.5%?",
+      "answer": "1000 meno il 7.5% = 925. Calcolo: 1000 × 0.075 = 75, poi 1000 - 75 = 925."
+    }
+  ]
 }

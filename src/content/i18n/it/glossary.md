@@ -38,3 +38,5 @@ Decisions (made 2026-10-28):
 | ratio / fraction / decimal | rapporto / frazione / decimale | |
 | hydration (baking) | idratazione | |
 | Dollar amounts | `$` before the number, as in English ($1,250) | |
+
+Open for review (self-review by Claude, no native reviewer): APR is "tasso annuo nominale (APR)" in the APY/converter articles but "tasso percentuale annuo (APR)" in apr-calculator and loan-interest; pick one pair site-wide. Some agent-chosen loanwords (food cost, upselling, EBITDA, clawback) and weak search aliases ("calcolatore di cambio percentuale") may merit a native look.
