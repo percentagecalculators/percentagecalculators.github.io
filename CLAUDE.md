@@ -380,6 +380,26 @@ so `build_data.py` is not involved.
 - **Validate:** `python3 utilities/i18n/validate.py <lang> <slug|pages|ui>` or `--all` (tag skeleton,
   LaTeX, FAQ count, `card_strings` coverage, page/section/list counts, ui.json completeness).
   `utilities/i18n/translation-checklist.md` tracks all 864 URLs (18 languages x 48 pages).
+- **Content pass (articles + FAQ):** all 18 languages carry `content_html` and `faq` for all 42 tools
+  (the 11 tools with an English FAQ: percentage-calculator, average, fraction, change, decrease,
+  difference, error, growth, increase, off, reverse). Rules and method are in
+  `utilities/i18n/content-translation-guide.md`; progress in `content-translation-checklist.md`.
+  - Per language, `src/content/i18n/<lang>/glossary.md` records the binding decisions (register,
+    quote/percent style, term table, open review items) and `latex_labels.tsv` maps the 123 English
+    `\text{}` labels used in the articles' LaTeX (`English<TAB>translation`, same keys and order in
+    every language).
+  - `python3 utilities/i18n/add_content.py <lang> <slug> --html f.html [--faq f.json]` merges a
+    translated article/FAQ into the tool's JSON, applies typography (`TYPO`: nbsp before `%` and
+    punctuation for fr/de/ru) and the LaTeX labels, validates, and restores the file on any error.
+  - `python3 utilities/i18n/latex_labels.py <lang> --skeleton|--apply|--check` creates, applies and
+    audits the label table ("still English in articles" entries are usually cognates).
+  - Rules the validator enforces on `content_html`/`faq`: identical tag skeleton incl. attributes,
+    identical LaTeX apart from `\text{}` labels, identical digit sequences (so English number words
+    and ordinals must be reworded, not digitised), same FAQ count, plain-text FAQ, no `<figure>`.
+  - `<figure>` infographics are never imported. Digits, decimal point, thousands comma and `$` stay
+    as in English in every language (including `4.0`/`9.5` in the GPA files). Heading ids are reused
+    from English by position; the "Q." label is the UI string `faq_q_label`.
+  - Not yet reviewed by native speakers; open items are listed at the bottom of each glossary.
 - **Functional test:** `NODE_PATH=.test-cache/node_modules node utilities/i18n/test_tools.js [lang ...]`
   (needs `npm install --prefix .test-cache jsdom` once (own folder: installing into `.tailwind-cache` prunes the Tailwind toolchain)) loads every built page in jsdom, fills each
   tool's inputs and checks that all 19 languages give the same results as English, with no script
