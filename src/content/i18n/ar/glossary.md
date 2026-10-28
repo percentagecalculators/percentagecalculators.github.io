@@ -39,3 +39,5 @@ Decisions (made 2026-10-28):
 | baker's percentage | نسبة الخباز | |
 | ratio / fraction / decimal | النسبة / الكسر / العدد العشري | |
 | hydration (baking) | نسبة الترطيب | |
+
+Open for review (self-review by Claude, no native reviewer): Indian/UK institution names are transliterated without source checking; sales-jargon renderings (quota, accelerator, clawback, sliding-scale commission) are not fixed standard terms; digit-check rewordings (e.g. «2 نقطة» instead of the dual) read slightly stiff; Black Friday («الجمعة البيضاء») may vary by region.
