@@ -1,3 +1,4 @@
 .tailwind-cache/
 .DS_Store
 __pycache__/
+.test-cache/

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /* Functional test of every calculator on every built page, all languages.
  *
- *   npm install --prefix .tailwind-cache jsdom      (once; folder is gitignored)
- *   NODE_PATH=.tailwind-cache/node_modules node utilities/i18n/test_tools.js [lang ...]
+ *   npm install --prefix .test-cache jsdom      (once; folder is gitignored)
+ *   NODE_PATH=.test-cache/node_modules node utilities/i18n/test_tools.js [lang ...]
  *
  * For each tool the English page is the oracle: its inputs are filled with the
  * first value preset that yields results, every <output> is recorded, and each
