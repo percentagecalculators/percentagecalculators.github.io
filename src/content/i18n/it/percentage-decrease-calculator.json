@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Diminuzione Percentuale | Sottrai una Percentuale",
+  "meta_description": "Calcolatore gratuito di diminuzione percentuale. Sottrai subito qualsiasi percentuale da un numero: calcola svalutazione, perdita di peso e tagli di budget.",
+  "h1": "Calcolatore di Diminuzione Percentuale",
+  "subtitle": "Inserisci il tuo <strong>numero di partenza</strong> e la <strong>percentuale da sottrarre</strong>, e questo <strong>calcolatore di diminuzione percentuale</strong> ti dà l'<strong>importo della riduzione</strong> e il <strong>valore finale</strong>. Se ti chiedi quanto fa 500 meno il 20 %, fa 400, e ti sei risparmiato un po' di calcolo mentale.",
+  "hint": "Inserisci un numero e la percentuale da sottrarre per ottenere il valore ridotto.",
+  "long_tail_anchor": "Sottrai una percentuale da un numero",
+  "card_strings": {
+    "Decrease Amount:": "Importo della riduzione:",
+    "Decrease by": "Diminuisci del",
+    "Enter percentage": "Inserisci la percentuale",
+    "Enter starting number": "Inserisci il numero di partenza",
+    "New Value:": "Nuovo valore:",
+    "Original Value": "Valore iniziale"
+  }
+}

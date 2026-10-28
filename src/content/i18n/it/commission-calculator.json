@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Commissioni | Calcola la Commissione di Vendita Guadagnata",
+  "meta_description": "Calcolatore di commissioni gratuito. Inserisci l'importo delle vendite e l'aliquota di commissione per calcolare subito la commissione guadagnata.",
+  "h1": "Calcolatore di Commissioni",
+  "subtitle": "Inserisci il tuo <strong>importo delle vendite</strong> e l'<strong>aliquota di commissione</strong>, e questo <strong>calcolatore di commissioni</strong> calcola subito la <strong>commissione che hai guadagnato</strong>.",
+  "hint": "Inserisci l'importo delle vendite e l'aliquota di commissione per ottenere la commissione guadagnata.",
+  "long_tail_anchor": "Percentuale di commissione sulle vendite",
+  "card_strings": {
+    "Commission Earned:": "Commissione guadagnata:",
+    "Commission Rate": "Aliquota di commissione",
+    "Sales Amount ($)": "Importo delle vendite ($)",
+    "e.g. 10": "ad es. 10",
+    "e.g. 5000": "ad es. 5000"
+  }
+}

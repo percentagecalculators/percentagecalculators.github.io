@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Interessi Composti | Calcola la Crescita nel Tempo",
+  "meta_description": "Calcolatore di interessi composti gratuito. Inserisci capitale, tasso annuo, durata e frequenza di capitalizzazione per calcolare subito gli interessi maturati e l'importo totale.",
+  "h1": "Calcolatore di Interessi Composti",
+  "subtitle": "Inserisci il <strong>capitale</strong>, il <strong>tasso annuo</strong>, la <strong>durata</strong> e la <strong>frequenza di capitalizzazione</strong>, e questo <strong>calcolatore di interessi composti</strong> mostra subito gli <strong>interessi maturati</strong> e l'<strong>importo totale</strong>.",
+  "hint": "Inserisci capitale, tasso, durata e frequenza di capitalizzazione per ottenere l'importo totale.",
+  "long_tail_anchor": "Frequenza di capitalizzazione e crescita",
+  "card_strings": {
+    "Annual Rate": "Tasso annuo",
+    "Compounding / Year": "Capitalizzazioni / anno",
+    "Interest Earned:": "Interessi maturati:",
+    "Principal ($)": "Capitale ($)",
+    "Time (Years)": "Durata (anni)",
+    "Total Amount:": "Importo totale:",
+    "e.g. 1000": "ad es. 1000",
+    "e.g. 12": "ad es. 12",
+    "e.g. 3": "ad es. 3",
+    "e.g. 5": "ad es. 5"
+  }
+}

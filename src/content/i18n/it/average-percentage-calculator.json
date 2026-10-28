@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Percentuale Media | Media Semplice e Ponderata",
+  "meta_description": "Calcolatore gratuito di percentuale media con modalità semplice e ponderata. Combina correttamente le percentuali di gruppi di dimensioni diverse per voti e sondaggi.",
+  "h1": "Calcolatore di Percentuale Media",
+  "subtitle": "Inserisci un elenco di <strong>percentuali</strong> separate da virgole, e questo <strong>calcolatore di percentuale media</strong> ti dà la <strong>media</strong>, la <strong>somma</strong>, il <strong>conteggio</strong> e l'intervallo dei tuoi valori. Aggiungi un elenco corrispondente di <strong>dimensioni del campione</strong> quando i gruppi non hanno la stessa dimensione, e passa automaticamente a una <strong>media ponderata</strong> corretta.",
+  "hint": "Inserisci le percentuali (e, se vuoi, le dimensioni del campione) per una media semplice o ponderata.",
+  "long_tail_anchor": "Media di più percentuali",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "Aggiungi un peso per ogni percentuale (ad esempio la dimensione delle classi o il numero di rispondenti) per combinare correttamente gruppi di dimensioni diverse.",
+    "Average:": "Media:",
+    "Count:": "Conteggio:",
+    "Percentages (comma or space separated)": "Percentuali (separate da virgola o spazio)",
+    "Sample Sizes / Weights (optional)": "Dimensioni del campione / pesi (facoltativo)",
+    "Sum:": "Somma:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "ad es. 30, 50, 20, 40 (lascia vuoto per una media semplice)",
+    "e.g. 85, 90, 78, 92": "ad es. 85, 90, 78, 92"
+  }
+}

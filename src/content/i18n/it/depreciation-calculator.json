@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Ammortamento | Metodo a Quote Costanti",
+  "meta_description": "Calcolatore di ammortamento gratuito con il metodo a quote costanti. Inserisci il costo del bene, il valore residuo e la vita utile per calcolare l'ammortamento annuo.",
+  "h1": "Calcolatore di Ammortamento",
+  "subtitle": "Inserisci il <strong>costo del bene</strong>, il <strong>valore residuo</strong> e la <strong>vita utile</strong>, e questo <strong>calcolatore di ammortamento</strong> calcola subito l'<strong>ammortamento annuo</strong> con il metodo a quote costanti.",
+  "hint": "Inserisci costo del bene, valore residuo e vita utile per ottenere l'ammortamento annuo.",
+  "long_tail_anchor": "Ammortamento a quote costanti di un bene",
+  "card_strings": {
+    "Annual Depreciation:": "Ammortamento annuo:",
+    "Asset Cost ($)": "Costo del bene ($)",
+    "Depreciation Rate:": "Aliquota di ammortamento:",
+    "Salvage Value ($)": "Valore residuo ($)",
+    "Useful Life (Years)": "Vita utile (anni)",
+    "e.g. 1000": "ad es. 1000",
+    "e.g. 10000": "ad es. 10000",
+    "e.g. 5": "ad es. 5"
+  }
+}

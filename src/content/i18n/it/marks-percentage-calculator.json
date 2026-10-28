@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Percentuale dei Voti | Calcola la Percentuale dell'Esame",
+  "meta_description": "Calcolatore gratuito di percentuale dei voti. Inserisci i punti ottenuti e il totale per calcolare subito la percentuale del tuo esame o test.",
+  "h1": "Calcolatore di Percentuale dei Voti",
+  "subtitle": "Inserisci i <strong>punti ottenuti</strong> e il <strong>totale dei punti</strong>, e questo <strong>calcolatore di percentuale dei voti</strong> calcola subito la tua <strong>percentuale all'esame</strong>: perfetto per pagelle, libretti e verifica dei risultati.",
+  "hint": "Inserisci i punti ottenuti e il totale per ottenere la tua percentuale.",
+  "long_tail_anchor": "Percentuale del punteggio di esami e test",
+  "card_strings": {
+    "Marks Obtained": "Punti ottenuti",
+    "Percentage:": "Percentuale:",
+    "Total Marks": "Totale dei punti",
+    "e.g. 450": "ad es. 450",
+    "e.g. 500": "ad es. 500"
+  }
+}

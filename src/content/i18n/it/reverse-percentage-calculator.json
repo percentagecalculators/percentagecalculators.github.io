@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-percentage-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Percentuale Inversa | Trova il Numero Originale",
+  "meta_description": "Calcolatore gratuito di percentuale inversa. Trova il numero originale quando conosci un valore e la sua percentuale: calcola prezzi prima dello sconto e altro.",
+  "h1": "Calcolatore di Percentuale Inversa",
+  "subtitle": "Hai un numero e sai che è una certa percentuale di qualcosa di più grande? Inserisci il <strong>valore noto</strong> e la <strong>percentuale che rappresenta</strong>, e questo <strong>calcolatore di percentuale inversa</strong> risale al <strong>numero originale</strong>. Se 30 è il 25 % del totale, il totale è 120.",
+  "hint": "Inserisci un valore e la percentuale che rappresenta per trovare il numero originale.",
+  "long_tail_anchor": "Trova il numero originale",
+  "card_strings": {
+    "Original Total:": "Totale originale:",
+    "Value": "Valore",
+    "e.g. 30": "ad es. 30",
+    "e.g. 45": "ad es. 45",
+    "is this % of the total": "è questo % del totale"
+  }
+}

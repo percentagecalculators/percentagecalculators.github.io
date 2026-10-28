@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Interessi Semplici | Interessi e Importo Totale",
+  "meta_description": "Calcolatore di interessi semplici gratuito. Inserisci capitale, tasso annuo e durata per calcolare subito gli interessi maturati e l'importo totale.",
+  "h1": "Calcolatore di Interessi Semplici",
+  "subtitle": "Inserisci il <strong>capitale</strong>, il <strong>tasso di interesse annuo</strong> e la <strong>durata in anni</strong>, e questo <strong>calcolatore di interessi semplici</strong> mostra subito gli <strong>interessi maturati</strong> e l'<strong>importo totale</strong>.",
+  "hint": "Inserisci capitale, tasso annuo e durata per ottenere gli interessi e l'importo totale.",
+  "long_tail_anchor": "Formula di capitale, tasso e tempo",
+  "card_strings": {
+    "Annual Rate": "Tasso annuo",
+    "Interest Earned:": "Interessi maturati:",
+    "Principal ($)": "Capitale ($)",
+    "Time (Years)": "Durata (anni)",
+    "Total Amount:": "Importo totale:",
+    "e.g. 1000": "ad es. 1000",
+    "e.g. 3": "ad es. 3",
+    "e.g. 5": "ad es. 5"
+  }
+}

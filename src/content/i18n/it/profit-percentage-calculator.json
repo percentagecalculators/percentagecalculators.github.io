@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Percentuale di Profitto | Calcola il % sul Costo",
+  "meta_description": "Calcolatore gratuito di percentuale di profitto. Inserisci prezzo di costo e prezzo di vendita per calcolare subito l'importo del profitto e la percentuale di profitto.",
+  "h1": "Calcolatore di Percentuale di Profitto",
+  "subtitle": "Inserisci il <strong>prezzo di costo</strong> e il <strong>prezzo di vendita</strong>, e questo <strong>calcolatore di percentuale di profitto</strong> calcola subito il tuo <strong>profitto</strong> e la <strong>percentuale di profitto</strong> sul costo.",
+  "hint": "Inserisci prezzo di costo e di vendita per ottenere la tua percentuale di profitto.",
+  "long_tail_anchor": "Percentuale di profitto sul prezzo di costo",
+  "card_strings": {
+    "Cost Price ($)": "Prezzo di costo ($)",
+    "Profit Percentage:": "Percentuale di profitto:",
+    "Profit:": "Profitto:",
+    "Selling Price ($)": "Prezzo di vendita ($)",
+    "e.g. 40": "ad es. 40",
+    "e.g. 55": "ad es. 55"
+  }
+}

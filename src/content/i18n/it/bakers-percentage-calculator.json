@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore della Percentuale del Panettiere | Proporzioni degli Ingredienti",
+  "meta_description": "Calcolatore gratuito della percentuale del panettiere. Inserisci il peso della farina e quello di un ingrediente per calcolare subito la percentuale del panettiere di quell'ingrediente.",
+  "h1": "Calcolatore della Percentuale del Panettiere",
+  "subtitle": "Inserisci il <strong>peso della farina</strong> e il <strong>peso di un ingrediente</strong>, e questo <strong>calcolatore della percentuale del panettiere</strong> calcola subito la <strong>percentuale del panettiere</strong> di quell'ingrediente: ogni ingrediente espresso rispetto alla farina.",
+  "hint": "Inserisci il peso della farina e dell'ingrediente per ottenere la percentuale del panettiere.",
+  "long_tail_anchor": "Idratazione dell'impasto e proporzioni degli ingredienti",
+  "card_strings": {
+    "Baker's Percentage:": "Percentuale del panettiere:",
+    "Flour Weight (g)": "Peso della farina (g)",
+    "Ingredient Weight (g)": "Peso dell'ingrediente (g)",
+    "e.g. 350": "ad es. 350",
+    "e.g. 500": "ad es. 500"
+  }
+}

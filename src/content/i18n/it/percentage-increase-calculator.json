@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Aumento Percentuale | Aggiungi una Percentuale a un Numero",
+  "meta_description": "Calcolatore gratuito di aumento percentuale. Aggiungi subito qualsiasi percentuale a un numero. Calcola aumenti di stipendio, ricarichi di prezzo, rendimenti degli investimenti e altro.",
+  "h1": "Calcolatore di Aumento Percentuale",
+  "subtitle": "Inserisci il tuo <strong>numero di partenza</strong> e la <strong>percentuale da aggiungere</strong>, e questo <strong>calcolatore di aumento percentuale</strong> ti dà sia l'<strong>importo dell'aumento</strong> sia il <strong>valore finale</strong>. Pensalo come la risposta a «quanto fa 200 più il 15 %?», che, tra l'altro, è 230.",
+  "hint": "Inserisci un numero e la percentuale da aggiungere per ottenere il valore aumentato.",
+  "long_tail_anchor": "Aggiungi una percentuale a un numero",
+  "card_strings": {
+    "Enter percentage": "Inserisci la percentuale",
+    "Enter starting number": "Inserisci il numero di partenza",
+    "Increase Amount:": "Importo dell'aumento:",
+    "Increase by": "Aumenta del",
+    "New Value:": "Nuovo valore:",
+    "Original Value": "Valore iniziale"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "decimal-to-percentage-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore da Decimale a Percentuale | Converti un Decimale in %",
+  "meta_description": "Calcolatore gratuito da decimale a percentuale. Inserisci qualsiasi valore decimale per convertirlo subito in percentuale: risultati precisi per scuola, lavoro o finanza.",
+  "h1": "Calcolatore da Decimale a Percentuale",
+  "subtitle": "Inserisci un <strong>valore decimale</strong> e questo <strong>calcolatore da decimale a percentuale</strong> lo converte subito in <strong>percentuale</strong>.",
+  "hint": "Inserisci un valore decimale per ottenere la percentuale equivalente.",
+  "long_tail_anchor": "Converti un decimale in percentuale",
+  "card_strings": {
+    "Decimal Value": "Valore decimale",
+    "Percentage:": "Percentuale:",
+    "e.g. 0.25": "ad es. 0.25"
+  }
+}

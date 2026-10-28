@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Pendenza in Percentuale | Da Dislivello/Distanza a %",
+  "meta_description": "Calcolatore gratuito di pendenza in percentuale. Inserisci dislivello e distanza orizzontale per calcolare subito la percentuale di pendenza e l'angolo equivalente in gradi.",
+  "h1": "Calcolatore di Pendenza in Percentuale",
+  "subtitle": "Inserisci il <strong>dislivello</strong> e la <strong>distanza orizzontale</strong>, e questo <strong>calcolatore di pendenza in percentuale</strong> calcola subito la <strong>percentuale di pendenza</strong> e l'<strong>angolo in gradi</strong> equivalente.",
+  "hint": "Inserisci dislivello e distanza orizzontale per ottenere la percentuale di pendenza e l'angolo.",
+  "long_tail_anchor": "Da dislivello su distanza a percentuale di pendenza",
+  "card_strings": {
+    "Angle:": "Angolo:",
+    "Rise": "Dislivello",
+    "Run": "Distanza orizzontale",
+    "Slope:": "Pendenza:",
+    "e.g. 100": "ad es. 100",
+    "e.g. 5": "ad es. 5"
+  }
+}

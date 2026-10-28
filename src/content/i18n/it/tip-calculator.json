@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Mancia | Calcola la Mancia e Dividi il Conto",
+  "meta_description": "Calcolatore di mancia gratuito. Inserisci l'importo del conto, la percentuale di mancia e il numero di persone per calcolare subito la mancia, il totale e la quota a testa.",
+  "h1": "Calcolatore di Mancia",
+  "subtitle": "Inserisci l'<strong>importo del conto</strong>, la <strong>percentuale di mancia</strong> e il <strong>numero di persone</strong>, e questo <strong>calcolatore di mancia</strong> calcola subito la <strong>mancia</strong>, il <strong>totale</strong> e quanto <strong>deve pagare ogni persona</strong>.",
+  "hint": "Inserisci conto, % di mancia e persone tra cui dividere.",
+  "long_tail_anchor": "Divisione del conto e mancia al ristorante",
+  "card_strings": {
+    "Bill Amount ($)": "Importo del conto ($)",
+    "Per Person:": "A persona:",
+    "Split Between": "Dividi tra",
+    "Tip": "Mancia",
+    "Tip Amount:": "Importo della mancia:",
+    "Total:": "Totale:",
+    "e.g. 18": "ad es. 18",
+    "e.g. 4": "ad es. 4",
+    "e.g. 80": "ad es. 80"
+  }
+}

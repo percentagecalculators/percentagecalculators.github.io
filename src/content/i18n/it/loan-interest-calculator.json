@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Interessi del Prestito | Rata Mensile e Interessi Totali",
+  "meta_description": "Calcolatore di interessi del prestito gratuito. Inserisci importo, tasso annuo e durata per calcolare subito la tua rata mensile (EMI) e il totale degli interessi da pagare.",
+  "h1": "Calcolatore di Interessi del Prestito",
+  "subtitle": "Inserisci l'<strong>importo del prestito</strong>, il <strong>tasso di interesse annuo</strong> e la <strong>durata</strong>, e questo <strong>calcolatore di interessi del prestito</strong> calcola subito la tua <strong>rata mensile (EMI)</strong> e gli <strong>interessi totali</strong> che pagherai.",
+  "hint": "Inserisci importo, tasso e durata per ottenere la tua rata mensile.",
+  "long_tail_anchor": "Rata mensile e interessi totali",
+  "card_strings": {
+    "Annual Rate": "Tasso annuo",
+    "Loan Amount ($)": "Importo del prestito ($)",
+    "Loan Term (Years)": "Durata del prestito (anni)",
+    "Monthly EMI:": "Rata mensile (EMI):",
+    "Total Interest:": "Interessi totali:",
+    "e.g. 20000": "ad es. 20000",
+    "e.g. 5": "ad es. 5",
+    "e.g. 7.5": "ad es. 7.5"
+  }
+}

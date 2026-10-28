@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di APR | Tasso Percentuale Annuo",
+  "meta_description": "Calcolatore di APR gratuito. Converti subito un tasso di interesse periodico nel Tasso Percentuale Annuo (APR): il modo standard in cui prestiti e carte di credito indicano il costo.",
+  "h1": "Calcolatore di APR",
+  "subtitle": "Inserisci il <strong>tasso di interesse periodico</strong> e il <strong>numero di periodi all'anno</strong>, e questo <strong>calcolatore di APR</strong> calcola il <strong>Tasso Percentuale Annuo</strong>: il modo standard, senza capitalizzazione, con cui i finanziatori indicano il costo del credito.",
+  "hint": "Inserisci il tasso periodico e i periodi all'anno per ottenere l'APR.",
+  "long_tail_anchor": "Calcolatore del tasso percentuale annuo",
+  "card_strings": {
+    "APR:": "APR:",
+    "Periodic Interest Rate": "Tasso di interesse periodico",
+    "Periods / Year": "Periodi / anno",
+    "e.g. 1.5": "ad es. 1.5",
+    "e.g. 12": "ad es. 12"
+  }
+}

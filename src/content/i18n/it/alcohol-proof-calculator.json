@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Proof Alcolico | Converti il Proof in Percentuale di ABV",
+  "meta_description": "Calcolatore gratuito di proof alcolico. Inserisci un valore proof statunitense per convertirlo subito in percentuale di alcol in volume (ABV): veloce, preciso e facile da usare.",
+  "h1": "Calcolatore di Proof Alcolico",
+  "subtitle": "Inserisci un valore di <strong>proof alcolico</strong> (scala statunitense) e questo <strong>calcolatore di proof alcolico</strong> lo converte subito in percentuale di <strong>alcol in volume (ABV)</strong>.",
+  "hint": "Inserisci un valore proof statunitense per ottenere la percentuale di ABV.",
+  "long_tail_anchor": "Convertitore da proof a percentuale di ABV",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "Proof (USA)",
+    "e.g. 80": "ad es. 80"
+  }
+}

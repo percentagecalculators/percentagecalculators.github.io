@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Margine di Profitto | Calcola il Margine in %",
+  "meta_description": "Calcolatore gratuito di margine di profitto. Inserisci prezzo di costo e prezzo di vendita per calcolare subito il tuo profitto e il margine di profitto sul prezzo di vendita.",
+  "h1": "Calcolatore di Margine di Profitto",
+  "subtitle": "Inserisci il <strong>prezzo di costo</strong> e il <strong>prezzo di vendita</strong>, e questo <strong>calcolatore di margine di profitto</strong> calcola subito il tuo <strong>profitto</strong> e il <strong>margine di profitto</strong> come percentuale del prezzo di vendita.",
+  "hint": "Inserisci prezzo di costo e di vendita per ottenere il tuo margine di profitto.",
+  "long_tail_anchor": "Margine percentuale sul prezzo di vendita",
+  "card_strings": {
+    "Cost Price ($)": "Prezzo di costo ($)",
+    "Profit Margin:": "Margine di profitto:",
+    "Profit:": "Profitto:",
+    "Selling Price ($)": "Prezzo di vendita ($)",
+    "e.g. 40": "ad es. 40",
+    "e.g. 55": "ad es. 55"
+  }
+}

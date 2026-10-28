@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Sconto Percentuale | Prezzo Scontato e Risparmio",
+  "meta_description": "Calcolatore gratuito di sconto percentuale. Calcola subito prezzi scontati e risparmio. Trova il prezzo finale dopo qualsiasi sconto: il tuo alleato per gli affari.",
+  "h1": "Calcolatore di Sconto Percentuale",
+  "subtitle": "Inserisci il <strong>prezzo originale</strong> e la <strong>percentuale di sconto</strong>, e questo <strong>calcolatore di sconto percentuale</strong> mostra il <strong>prezzo scontato</strong> e esattamente quanto <strong>denaro risparmi</strong>. La prossima volta che vedi un cartello «30 % di sconto», saprai cosa paghi davvero.",
+  "hint": "Inserisci il prezzo originale e lo sconto in % per ottenere il prezzo scontato.",
+  "long_tail_anchor": "Trova sconto e prezzo scontato",
+  "card_strings": {
+    "Discount": "Sconto",
+    "Enter discount %": "Inserisci lo sconto in %",
+    "Enter price": "Inserisci il prezzo",
+    "Final Price:": "Prezzo finale:",
+    "Original Price ($)": "Prezzo originale ($)",
+    "You Save:": "Risparmi:"
+  }
+}

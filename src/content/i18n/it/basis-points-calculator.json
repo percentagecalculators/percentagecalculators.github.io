@@ -1,0 +1,15 @@
+{
+  "slug": "basis-points-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Punti Base | Converti i Punti Base in Percentuale",
+  "meta_description": "Calcolatore gratuito di punti base. Inserisci un valore in punti base (bps) per convertirlo subito in percentuale: risultati precisi per finanza e trading.",
+  "h1": "Calcolatore di Punti Base",
+  "subtitle": "Inserisci un valore in <strong>punti base (bps)</strong> e questo <strong>calcolatore di punti base</strong> lo converte subito in <strong>percentuale</strong>: il modo standard in cui la finanza esprime piccole variazioni dei tassi.",
+  "hint": "Inserisci i punti base per ottenere la percentuale equivalente.",
+  "long_tail_anchor": "Converti i punti base in percentuale",
+  "card_strings": {
+    "Basis Points (bps)": "Punti base (bps)",
+    "Percentage:": "Percentuale:",
+    "e.g. 25": "ad es. 25"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "Vai al contenuto",
+  "primary_nav": "Navigazione principale",
+  "toggle_dark": "Attiva o disattiva la modalità scura",
+  "open_menu": "Apri il menu",
+  "close_menu": "Chiudi il menu",
+  "site_nav": "Navigazione del sito",
+  "home": "Home",
+  "more": "Altro",
+  "language": "Lingua",
+  "reset": "Reimposta il calcolatore",
+  "calculate": "Calcola",
+  "related_aria": "Calcolatori correlati",
+  "faq_heading": "Domande frequenti",
+  "toc_label": "Indice",
+  "copy_result": "Copia il risultato",
+  "copied": "Copiato!",
+  "company": "Azienda",
+  "footer_site_map": "Mappa del sito",
+  "footer_links": "Link a piè di pagina",
+  "rights": "Tutti i diritti riservati.",
+  "footer_tagline": "Calcolatori di percentuale online gratuiti. Ogni calcolo avviene interamente nel tuo browser: risultati immediati, senza registrazione.",
+  "native_name": "Italiano",
+  "nav_groups": {
+    "core": {
+      "label": "Strumenti di base per le percentuali",
+      "short_label": "Base",
+      "tagline": "L'essenziale: trovare una percentuale, aumentare o diminuire un numero e confrontare due valori."
+    },
+    "converters": {
+      "label": "Convertitori",
+      "short_label": "Convertitori",
+      "tagline": "Converti tra percentuali, frazioni, decimali, rapporti e altre forme di unità."
+    },
+    "education": {
+      "label": "Istruzione",
+      "short_label": "Istruzione",
+      "tagline": "Conversioni di GPA, CGPA, SGPA, voti e percentili per gli studenti."
+    },
+    "finance": {
+      "label": "Finanza e business",
+      "short_label": "Finanza",
+      "tagline": "Tassi di interesse, margini di profitto, ricarico, aumenti di stipendio e crescita aziendale."
+    },
+    "everyday": {
+      "label": "Vita quotidiana e casi particolari",
+      "short_label": "Quotidiano",
+      "tagline": "Mance, percentuali di vittorie, proporzioni di panificazione, food cost e concentrazioni percentuali di soluzioni."
+    }
+  },
+  "company_links": {
+    "/about": "Chi siamo",
+    "/contact": "Contatti",
+    "/sitemap": "Mappa del sito",
+    "/disclaimer": "Disclaimer",
+    "/privacy-policy": "Informativa sulla privacy",
+    "/terms-of-use": "Termini di utilizzo"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "Calcolatore di Proof Alcolico",
+    "apr-apy-converter": "Convertitore da APR ad APY",
+    "apr-calculator": "Calcolatore di APR",
+    "apy-calculator": "Calcolatore di APY",
+    "average-percentage-calculator": "Calcolatore di Percentuale Media",
+    "bakers-percentage-calculator": "Calcolatore della Percentuale del Panettiere",
+    "basis-points-calculator": "Calcolatore di Punti Base",
+    "cgpa-to-percentage-calculator": "Calcolatore da CGPA a Percentuale",
+    "commission-calculator": "Calcolatore di Commissioni",
+    "compound-interest-calculator": "Calcolatore di Interessi Composti",
+    "decimal-to-percentage-calculator": "Calcolatore da Decimale a Percentuale",
+    "depreciation-calculator": "Calcolatore di Ammortamento",
+    "food-cost-percentage-calculator": "Calcolatore della Percentuale di Food Cost",
+    "fraction-to-percentage-calculator": "Calcolatore da Frazione a Percentuale",
+    "gpa-to-percentage-calculator": "Calcolatore da GPA a Percentuale",
+    "gross-margin-calculator": "Calcolatore di Margine Lordo",
+    "loan-interest-calculator": "Calcolatore di Interessi del Prestito",
+    "marks-percentage-calculator": "Calcolatore di Percentuale dei Voti",
+    "markup-calculator": "Calcolatore di Ricarico",
+    "percent-solution-calculator": "Calcolatore di Soluzione Percentuale",
+    "percentage-calculator": "Calcolatore di Percentuale",
+    "percentage-change-calculator": "Calcolatore di Variazione Percentuale",
+    "percentage-decrease-calculator": "Calcolatore di Diminuzione Percentuale",
+    "percentage-difference-calculator": "Calcolatore di Differenza Percentuale",
+    "percentage-error-calculator": "Calcolatore di Errore Percentuale",
+    "percentage-growth-calculator": "Calcolatore di Crescita Percentuale",
+    "percentage-increase-calculator": "Calcolatore di Aumento Percentuale",
+    "percentage-of-a-percentage-calculator": "Calcolatore di Percentuale di una Percentuale",
+    "percentage-off-calculator": "Calcolatore di Sconto Percentuale",
+    "percentage-point-calculator": "Calcolatore di Punti Percentuali",
+    "percentile-to-percentage-calculator": "Calcolatore da Percentile a Percentuale",
+    "ppm-to-percentage-calculator": "Calcolatore da PPM a Percentuale",
+    "profit-margin-calculator": "Calcolatore di Margine di Profitto",
+    "profit-percentage-calculator": "Calcolatore di Percentuale di Profitto",
+    "ratio-to-percentage-calculator": "Calcolatore da Rapporto a Percentuale",
+    "reverse-percentage-calculator": "Calcolatore di Percentuale Inversa",
+    "salary-increase-calculator": "Calcolatore di Aumento di Stipendio",
+    "sgpa-to-percentage-calculator": "Calcolatore da SGPA a Percentuale",
+    "simple-interest-calculator": "Calcolatore di Interessi Semplici",
+    "slope-percentage-calculator": "Calcolatore di Pendenza in Percentuale",
+    "tip-calculator": "Calcolatore di Mancia",
+    "win-loss-percentage-calculator": "Calcolatore di Vittorie e Sconfitte"
+  }
+}

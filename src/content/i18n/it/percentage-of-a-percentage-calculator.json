@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Percentuale di una Percentuale | Combina Due %",
+  "meta_description": "Calcolatore gratuito di percentuale di una percentuale. Moltiplica due percentuali in sequenza e applica il tasso combinato a un valore per imposte o sconti cumulati.",
+  "h1": "Calcolatore di Percentuale di una Percentuale",
+  "subtitle": "Inserisci due <strong>percentuali</strong> e questo <strong>calcolatore di percentuale di una percentuale</strong> le moltiplica nel modo corretto per darti la <strong>percentuale combinata</strong>: aggiungi un valore di partenza per vedere esattamente come attraversa entrambi i passaggi.",
+  "hint": "Moltiplica due percentuali in sequenza per ottenere il tasso combinato.",
+  "long_tail_anchor": "Combina due percentuali in sequenza",
+  "card_strings": {
+    "Apply to a Value (optional)": "Applica a un valore (facoltativo)",
+    "Combined Percentage:": "Percentuale combinata:",
+    "Final Value:": "Valore finale:",
+    "First Percentage": "Prima percentuale",
+    "Second Percentage": "Seconda percentuale",
+    "Value After First %:": "Valore dopo il primo %:",
+    "e.g. 200": "ad es. 200",
+    "e.g. 40": "ad es. 40",
+    "e.g. 90": "ad es. 90"
+  }
+}

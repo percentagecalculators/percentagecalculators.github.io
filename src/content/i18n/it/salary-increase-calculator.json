@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Aumento di Stipendio | Calcola il Tuo Nuovo Stipendio",
+  "meta_description": "Calcolatore gratuito di aumento di stipendio. Inserisci il tuo stipendio attuale e la percentuale di aumento per calcolare subito l'importo dell'aumento e il tuo nuovo stipendio.",
+  "h1": "Calcolatore di Aumento di Stipendio",
+  "subtitle": "Inserisci il tuo <strong>stipendio attuale</strong> e la tua <strong>percentuale di aumento</strong>, e questo <strong>calcolatore di aumento di stipendio</strong> calcola subito l'<strong>importo dell'aumento</strong> e il tuo <strong>nuovo stipendio</strong>.",
+  "hint": "Inserisci il tuo stipendio attuale e l'aumento in % per ottenere il tuo nuovo stipendio.",
+  "long_tail_anchor": "Percentuale di aumento e adeguamento salariale",
+  "card_strings": {
+    "Current Salary ($)": "Stipendio attuale ($)",
+    "New Salary:": "Nuovo stipendio:",
+    "Raise": "Aumento",
+    "Raise Amount:": "Importo dell'aumento:",
+    "e.g. 5": "ad es. 5",
+    "e.g. 60000": "ad es. 60000"
+  }
+}

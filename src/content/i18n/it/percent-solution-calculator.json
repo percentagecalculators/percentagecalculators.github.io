@@ -1,0 +1,17 @@
+{
+  "slug": "percent-solution-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Soluzione Percentuale | Concentrazione Massa/Volume",
+  "meta_description": "Calcolatore gratuito di soluzione percentuale. Inserisci la massa del soluto e il volume della soluzione per calcolare subito la concentrazione percentuale (% p/v).",
+  "h1": "Calcolatore di Soluzione Percentuale",
+  "subtitle": "Inserisci la <strong>massa del soluto</strong> e il <strong>volume della soluzione</strong>, e questo <strong>calcolatore di soluzione percentuale</strong> calcola subito la <strong>concentrazione percentuale</strong> (% p/v).",
+  "hint": "Inserisci la massa del soluto e il volume della soluzione per ottenere la concentrazione.",
+  "long_tail_anchor": "Concentrazione percentuale di massa e volume",
+  "card_strings": {
+    "Concentration (% w/v):": "Concentrazione (% p/v):",
+    "Mass of Solute (g)": "Massa del soluto (g)",
+    "Volume of Solution (mL)": "Volume della soluzione (mL)",
+    "e.g. 250": "ad es. 250",
+    "e.g. 5": "ad es. 5"
+  }
+}

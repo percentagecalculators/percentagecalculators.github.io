@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Crescita Percentuale | Tasso di Crescita Aziendale",
+  "meta_description": "Calcolatore gratuito di crescita percentuale. Calcola i tassi di crescita di ricavi, clienti, vendite e KPI. Monitora le prestazioni aziendali con metriche accurate.",
+  "h1": "Calcolatore di Crescita Percentuale",
+  "subtitle": "Inserisci un <strong>valore iniziale</strong> e un <strong>valore finale</strong>, e questo <strong>calcolatore di crescita percentuale</strong> mostra il <strong>tasso di crescita</strong> e l'<strong>importo della crescita</strong>. Risponde alla domanda: di che percentuale è cresciuto il tuo numero dal punto A al punto B?",
+  "hint": "Inserisci un valore iniziale e uno finale per ottenere la crescita percentuale.",
+  "long_tail_anchor": "Tasso di crescita aziendale e dei ricavi",
+  "card_strings": {
+    "Ending value": "Valore finale",
+    "Final Value": "Valore finale",
+    "Growth Amount:": "Importo della crescita:",
+    "Growth Rate:": "Tasso di crescita:",
+    "Initial Value": "Valore iniziale",
+    "Starting value": "Valore di partenza"
+  }
+}

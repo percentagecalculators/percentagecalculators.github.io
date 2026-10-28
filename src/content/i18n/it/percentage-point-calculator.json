@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Punti Percentuali | Differenza in Punti",
+  "meta_description": "Calcolatore gratuito di punti percentuali. Inserisci due percentuali per vedere subito la differenza in punti percentuali e la variazione percentuale relativa.",
+  "h1": "Calcolatore di Punti Percentuali",
+  "subtitle": "Inserisci due <strong>percentuali</strong> e questo <strong>calcolatore di punti percentuali</strong> mostra la <strong>differenza in punti percentuali</strong>, che non è la stessa cosa della variazione percentuale relativa, che mostra anch'essa per confronto.",
+  "hint": "Inserisci due percentuali per ottenere la differenza in punti percentuali.",
+  "long_tail_anchor": "Punti percentuali e variazione percentuale",
+  "card_strings": {
+    "Percentage A": "Percentuale A",
+    "Percentage B": "Percentuale B",
+    "Point Difference:": "Differenza in punti:",
+    "Relative Change:": "Variazione relativa:",
+    "e.g. 20": "ad es. 20",
+    "e.g. 25": "ad es. 25"
+  }
+}

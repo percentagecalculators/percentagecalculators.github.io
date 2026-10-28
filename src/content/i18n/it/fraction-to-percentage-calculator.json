@@ -1,0 +1,18 @@
+{
+  "slug": "fraction-to-percentage-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore da Frazione a Percentuale | Converti in Percentuale",
+  "meta_description": "Calcolatore gratuito da frazione a percentuale. Converti subito qualsiasi frazione in percentuale: perfetto per voti, rapporti e proporzioni.",
+  "h1": "Calcolatore da Frazione a Percentuale",
+  "subtitle": "Inserisci un <strong>numeratore</strong> (numero in alto) e un <strong>denominatore</strong> (numero in basso), e questo <strong>calcolatore da frazione a percentuale</strong> converte la tua frazione in <strong>percentuale</strong> e <strong>decimale</strong>. Così 3/4 diventa 75 %: scrivilo e il calcolo avviene mentre digiti.",
+  "hint": "Inserisci un numeratore e un denominatore per convertire in percentuale.",
+  "long_tail_anchor": "Converti una frazione in percentuale",
+  "card_strings": {
+    "Decimal Value:": "Valore decimale:",
+    "Denominator": "Denominatore",
+    "Numerator": "Numeratore",
+    "Percentage:": "Percentuale:",
+    "e.g. 3": "ad es. 3",
+    "e.g. 4": "ad es. 4"
+  }
+}

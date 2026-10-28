@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore di Ricarico | Prezzo di Vendita da Costo + %",
+  "meta_description": "Calcolatore di ricarico gratuito. Inserisci il prezzo di costo e la percentuale di ricarico desiderata per calcolare subito il prezzo di vendita da applicare.",
+  "h1": "Calcolatore di Ricarico",
+  "subtitle": "Inserisci il <strong>prezzo di costo</strong> e la <strong>percentuale di ricarico</strong> desiderata, e questo <strong>calcolatore di ricarico</strong> calcola subito il <strong>prezzo di vendita</strong> da applicare.",
+  "hint": "Inserisci il prezzo di costo e il % di ricarico per ottenere il prezzo di vendita.",
+  "long_tail_anchor": "Dal costo più ricarico al prezzo",
+  "card_strings": {
+    "Cost Price ($)": "Prezzo di costo ($)",
+    "Markup": "Ricarico",
+    "Markup Amount:": "Importo del ricarico:",
+    "Selling Price:": "Prezzo di vendita:",
+    "e.g. 30": "ad es. 30",
+    "e.g. 40": "ad es. 40"
+  }
+}

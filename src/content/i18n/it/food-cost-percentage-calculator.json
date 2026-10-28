@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "it",
+  "meta_title": "Calcolatore della Percentuale di Food Cost | Costo del Piatto in %",
+  "meta_description": "Calcolatore gratuito della percentuale di food cost. Inserisci il costo degli ingredienti e il prezzo del piatto per calcolare subito la percentuale di food cost di una voce di menu.",
+  "h1": "Calcolatore della Percentuale di Food Cost",
+  "subtitle": "Inserisci il <strong>costo degli ingredienti</strong> e il <strong>prezzo del piatto</strong>, e questo <strong>calcolatore della percentuale di food cost</strong> calcola subito la <strong>percentuale di food cost</strong> di quella voce di menu.",
+  "hint": "Inserisci il costo degli ingredienti e il prezzo del piatto per ottenere la percentuale di food cost.",
+  "long_tail_anchor": "Percentuale di costo del menu del ristorante",
+  "card_strings": {
+    "Food Cost Percentage:": "Percentuale di food cost:",
+    "Ingredient Cost ($)": "Costo degli ingredienti ($)",
+    "Menu Price ($)": "Prezzo del piatto ($)",
+    "e.g. 14": "ad es. 14",
+    "e.g. 3.50": "ad es. 3.50"
+  }
+}
