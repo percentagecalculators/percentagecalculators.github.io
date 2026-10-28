@@ -157,3 +157,7 @@ html{scroll-behavior:smooth}
    algorithm. Isolated so they don't affect the surrounding RTL text. */
 [dir="rtl"] output,
 [dir="rtl"] .calc-formula{direction:ltr;unicode-bidi:isolate}
+
+/* Long compound words (German) must wrap instead of overflowing narrow screens */
+.article, .article h1, .article h2, .article h3, .article h4, h1 { overflow-wrap: break-word; }
+html[lang="de"] .article { hyphens: auto; }

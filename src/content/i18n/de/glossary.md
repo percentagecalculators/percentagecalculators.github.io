@@ -39,3 +39,11 @@ Decisions (made 2026-10-28):
 | proof, ABV | Proof, ABV (Alkoholgehalt in Vol.-%) | |
 | baker's percentage | Bäckerprozent | |
 | ratio / fraction / decimal | Verhältnis / Bruch / Dezimalzahl | |
+| cost of goods | Warenkosten / Wareneinsatz | Wareneinsatz for the percentage |
+| gross profit | Rohertrag | |
+| hydration (baking) | Teigausbeute | |
+| accelerator / draw / clawback | Beschleuniger / Vorschuss auf die Provision / Clawback | |
+| Dollar amounts | `$` before the number, as in English ($1,250) | |
+
+Open for review: APR/APY labels differ between articles (apr-calculator: "effektiver Jahreszins (APR)", which is the German legal usage; apr-apy-converter and apy-calculator: "Nominalzins (APR)" / "effektiver Jahreszins" or "Jahresrendite (APY)"). Pick one pair site-wide.
+The win-loss nav name ("Siegquoten-Rechner") differs from its h1 ("Sieg-Niederlage-Prozent-Rechner").

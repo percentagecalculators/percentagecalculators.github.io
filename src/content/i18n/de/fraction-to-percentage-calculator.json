@@ -14,5 +14,56 @@
     "Percentage:": "Prozentsatz:",
     "e.g. 3": "z. B. 3",
     "e.g. 4": "z. B. 4"
-  }
+  },
+  "content_html": "<p>Einen Bruch in Prozent umzurechnen ist eine dieser schnellen Umwandlungen, die man ständig braucht – für Noten, Rabatte, Laborergebnisse oder einfach, um die eigene Rechnung gegenzuprüfen. Dieser <strong>Bruch-in-Prozent-Rechner</strong> erledigt das sofort, indem er den <strong>Zähler</strong> durch den <strong>Nenner</strong> teilt und mit 100 multipliziert. Geben Sie einen beliebigen echten oder unechten Bruch ein, und Sie erhalten sowohl die Dezimalzahl als auch den fertigen Prozentwert, ganz ohne Stift und Papier. Dieselbe Grundformel funktioniert auch in der Gegenrichtung, die Umkehrung ist also genauso einfach.</p>\n\n<h2>So funktioniert dieser Bruch-in-Prozent-Rechner</h2>\n<p>Jeder Rechner dieser Art folgt derselben zweistufigen Logik: teilen, dann mit 100 multiplizieren. Sie geben dem Werkzeug einen Zähler und einen Nenner ein (bei gemischten Zahlen zusätzlich optional eine ganze Zahl), und es liefert den Prozentwert, die Dezimalzahl und – wenn Sie den Gedankengang sehen möchten – die vollständige Rechnung Schritt für Schritt. Dieser Rechner kann auch in die andere Richtung rechnen, von einem Prozentwert zurück zum entsprechenden Bruch, ohne dass Sie eine zweite Seite öffnen müssen. Manche Seiten nennen dasselbe Werkzeug Bruchrechner, Prozentumrechner oder Bruch-in-Dezimalzahl-Rechner, doch die Mathematik dahinter ist identisch.</p>\n\n<h3>Formel für die Umrechnung von Bruch in Prozent</h3>\n<p>Die Formel für die Umrechnung eines Bruchs in Prozent ist einfach:</p>\n$$ P = \\frac{N}{D} \\times 100 $$\n<p>Dabei ist <code>N</code> der Zähler, <code>D</code> der Nenner und <strong>P</strong> der resultierende Prozentwert. Setzen Sie zum Beispiel 3 und 4 ein, ergibt 3 ÷ 4 × 100 genau 75%. Diese eine Formel ist die Grundlage, auf die sich jedes Verfahren auf dieser Seite letztlich zurückführen lässt – die manuellen Schritte unten ändern nur die Reihenfolge der Rechenoperationen.</p>\n\n<h3>Eingaben, Ausgaben und Nachkommastellen lesen</h3>\n<p>Die meisten Werkzeuge für die Umrechnung von Bruch in Prozent, auch dieses, verlangen drei Felder: einen Zähler, einen Nenner und optional eine ganze Zahl für gemischte Zahlen wie 2 1/3. Die Ausgabe zeigt den Prozentwert, auf eine sinnvolle Zahl von Nachkommastellen gerundet, sowie die ungerundete Dezimalform, damit Sie sehen, wie die Rundung zustande kam. Geht ein Bruch nicht glatt auf – 1/3 zum Beispiel –, sehen Sie zuerst eine periodische Dezimalzahl wie 0.3333, bevor daraus 33.33% werden.</p>\n\n<aside>Tipp: Hat ein Bruch bereits den Nenner 100, ist er schon ein Prozentwert – geteilt werden muss nicht. 47/100 sind einfach 47%.</aside>\n\n<h2>Von Hand rechnen: Formel und Rechenschritte für Bruch in Prozent</h2>\n<p>Wenn Sie lieber nicht selbst rechnen möchten: Dieser Rechner wendet alle drei folgenden Verfahren bereits automatisch an. Wer aber versteht, wie die Umrechnung von Hand funktioniert, kann das Ergebnis leichter auf Plausibilität prüfen oder schnell überschlagen, wenn kein Taschenrechner zur Hand ist.</p>\n\n<h3>Zähler und Nenner: erst teilen, dann mit 100 multiplizieren</h3>\n<p>Teilen Sie den Zähler durch den Nenner, um eine Dezimalzahl zu erhalten, und multiplizieren Sie diese dann mit 100, um den Prozentwert zu bekommen. Bei 5/8: 5 geteilt durch 8 ergibt 0.625, mit 100 multipliziert sind das 62.5%. Dieses Verfahren lernt man im Unterricht meist zuerst, weil es die zugrunde liegende Formel direkt abbildet – teilen, dann mit 100 skalieren.</p>\n<ul>\n  <li>Teilen Sie den Zähler durch den Nenner, um eine Dezimalzahl zu erhalten.</li>\n  <li>Multiplizieren Sie die Dezimalzahl mit 100.</li>\n  <li>Setzen Sie ein Prozentzeichen hinter das Ergebnis.</li>\n</ul>\n\n<h3>Dezimalzahl in Prozent: erst multiplizieren, dann teilen</h3>\n<p>Sie können auch zuerst den Zähler mit 100 multiplizieren und danach durch den Nenner teilen – die Reihenfolge ändert nichts am Ergebnis, nur an der Größe der Zahlen, mit denen Sie rechnen. Bei 5/8: 5 mal 100 ergibt 500, geteilt durch 8 sind das 62.5%. Manche finden diese Abkürzung für das Kopfrechnen einfacher, denn die Multiplikation mit 100 verschiebt lediglich das Komma um zwei Stellen nach rechts, bevor Sie teilen.</p>\n<ol>\n  <li>Multiplizieren Sie den Zähler mit 100.</li>\n  <li>Teilen Sie das Ergebnis durch den Nenner.</li>\n  <li>Runden Sie auf die gewünschte Zahl von Nachkommastellen.</li>\n</ol>\n\n<h2>Prozent in einen Bruch umwandeln</h2>\n<p>Vom Ergebnis eines Prozentrechners zurück zum Bruch zu kommen ist der umgekehrte Vorgang, und genau das leistet ein Prozent-in-Bruch-Rechner. Das ist nützlich, wenn Sie ein exaktes Verhältnis statt einer gerundeten Dezimalzahl brauchen – für Wahrscheinlichkeitsaufgaben, das Umrechnen von Rezepten oder das Vereinfachen einer Maßangabe.</p>\n\n<h3>Formel für Prozent in Bruch</h3>\n<p>Um einen Prozentwert wieder in einen Bruch zu verwandeln, setzen Sie ihn über 100 und kürzen anschließend:</p>\n$$ \\frac{P}{100} = \\frac{N}{D} $$\n<p>Beispielsweise wird aus 35% der Bruch 35/100. Kürzen Sie ihn, indem Sie Zähler und Nenner durch ihren gemeinsamen Teiler teilen, erhalten Sie 7/20. Hat die Zahl Nachkommastellen, wie 35.5%, multiplizieren Sie Zähler und Nenner mit 10 (oder 100 oder 1000), bis beide ganze Zahlen sind, und kürzen den Bruch dann.</p>\n\n<h3>Kürzen mit dem größten gemeinsamen Teiler</h3>\n<p>Einen Bruch vollständig zu kürzen bedeutet, Zähler und Nenner durch ihren größten gemeinsamen Teiler (ggT, englisch GCF) zu teilen. Bei 35/100 ist der ggT 5, und das Teilen beider Zahlen durch 5 ergibt 7/20 – derselbe Wert in einfachster Form. Wer den ggT schnell erkennt, kürzt Brüche von Hand deutlich schneller, als wenn er einen Faktor nach dem anderen herauskürzt.</p>\n\n<h2>Tabelle Bruch in Prozent: Häufige Umrechnungen</h2>\n<p>Manche Umrechnungen von Bruch in Prozent kommen so oft vor, dass es sich lohnt, sie auswendig zu lernen, statt jedes Mal zu rechnen. Die folgende Tabelle zeigt die gängigsten Brüche mit ihren Dezimalwerten und Prozentwerten.</p>\n<table>\n  <thead>\n    <tr><th>Zähler</th><th>Nenner</th><th>Dezimalzahl</th><th>Prozentwert</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>2</td><td>0.5</td><td>50%</td></tr>\n    <tr><td>1</td><td>3</td><td>0.333</td><td>33.3%</td></tr>\n    <tr><td>1</td><td>4</td><td>0.25</td><td>25%</td></tr>\n    <tr><td>1</td><td>5</td><td>0.2</td><td>20%</td></tr>\n    <tr><td>3</td><td>4</td><td>0.75</td><td>75%</td></tr>\n    <tr><td>5</td><td>8</td><td>0.625</td><td>62.5%</td></tr>\n    <tr><td>7</td><td>20</td><td>0.35</td><td>35%</td></tr>\n  </tbody>\n</table>\n<p>Beachten Sie, dass jeder Wert in der Tabelle derselben Regel folgt: Zähler durch Nenner teilen, dann mit 100 multiplizieren. Haben Sie sich einige dieser Bruch-Prozent-Paare eingeprägt, können Sie Prozentwerte im Kopf abschätzen, bevor Sie überhaupt einen Rechner öffnen.</p>\n\n<h2>Warum die Umrechnung von Bruch in Prozent wichtig ist: Mathematik, Statistik und prozentualer Fehler</h2>\n<p>Das Umrechnen zwischen Brüchen und Prozentwerten ist nicht nur eine Hausaufgabe – es begegnet Ihnen in Mathematik, Statistik und im alltäglichen Denken. Das Prüfungsergebnis einer Schülerin von 42/50 sagt für sich genommen wenig, bis es in 84% umgerechnet ist – dann ist es sofort mit jeder anderen Notenskala vergleichbar. In der Statistik werden Stichprobenanteile meist gerade deshalb in Prozent angegeben, weil sie sich auf einen Blick leichter vergleichen lassen als rohe Brüche.</p>\n<p>Dieselbe Rechnung steckt auch hinter dem <strong>prozentualen Fehler</strong>, der misst, wie weit ein experimentell oder durch Messung gewonnener Wert vom erwarteten abweicht. Steht Ihr Nenner für den wahren Wert und Ihr Zähler für die Differenz zwischen beobachtetem und wahrem Wert, wird aus der Umrechnungsformel die Formel für den prozentualen Fehler – die Mechanik ist identisch, nur die Bedeutung der Zahlen ändert sich. Ob Sie eine Klassenarbeit bewerten, ein Laborexperiment auswerten oder die Fehlermarge einer Umfrage lesen: Die Fähigkeit, sicher zwischen Bruch, Dezimalzahl und Prozentwert zu wechseln, gehört zu den am vielseitigsten verwendbaren mathematischen Fertigkeiten. Dieselbe Arithmetik taucht weit über einen einzelnen Kurs hinaus auf: Die Berechnung eines GPA aus rohen Notenpunkten oder die Lösung einer Aufgabenreihe in diskreter Mathematik stützen sich beide auf genau die gleiche Logik der Umrechnung von Bruch in Prozent.</p>",
+  "faq": [
+    {
+      "question": "Wie viel Prozent sind 3/4?",
+      "answer": "3/4 entsprechen 75%. Rechnung: (3 ÷ 4) × 100 = 75%."
+    },
+    {
+      "question": "Wie viel Prozent sind 1/3?",
+      "answer": "1/3 entspricht ungefähr 33.33% (periodisch). Rechnung: (1 ÷ 3) × 100 = 33.333...%."
+    },
+    {
+      "question": "Wie viel Prozent sind 2/3?",
+      "answer": "2/3 entsprechen ungefähr 66.67% (periodisch). Rechnung: (2 ÷ 3) × 100 = 66.666...%."
+    },
+    {
+      "question": "Wie rechne ich mein Testergebnis in Prozent um?",
+      "answer": "Teilen Sie Ihre Punktzahl durch die erreichbare Gesamtpunktzahl und multiplizieren Sie mit 100. Bei 45/60 Punkten: (45÷60) × 100 = 75%."
+    },
+    {
+      "question": "Wie viel Prozent sind 5/8?",
+      "answer": "5/8 entsprechen 62.5%. Rechnung: (5 ÷ 8) × 100 = 62.5%."
+    },
+    {
+      "question": "Wie viel Prozent sind 7/10?",
+      "answer": "7/10 entsprechen 70%. Rechnung: (7 ÷ 10) × 100 = 70%."
+    },
+    {
+      "question": "Können Brüche Prozentwerte über 100% ergeben?",
+      "answer": "Ja, unechte Brüche (Zähler > Nenner) ergeben Prozentwerte über 100%. Zum Beispiel ist 5/4 = 125%."
+    },
+    {
+      "question": "Wie viel Prozent sind 1/8?",
+      "answer": "1/8 entsprechen 12.5%. Rechnung: (1 ÷ 8) × 100 = 12.5%."
+    },
+    {
+      "question": "Wie wandle ich eine gemischte Zahl in Prozent um?",
+      "answer": "Wandeln Sie sie zuerst in einen unechten Bruch um. 1½ = 3/2 = (3÷2) × 100 = 150%."
+    },
+    {
+      "question": "Wie viel Prozent sind 4/5?",
+      "answer": "4/5 entsprechen 80%. Rechnung: (4 ÷ 5) × 100 = 80%."
+    },
+    {
+      "question": "Was passiert, wenn der Nenner null ist?",
+      "answer": "Die Division durch null ist nicht definiert. Ein Bruch mit dem Nenner null hat keinen gültigen Prozentwert."
+    },
+    {
+      "question": "Wie viel Prozent sind 11/20?",
+      "answer": "11/20 entsprechen 55%. Rechnung: (11 ÷ 20) × 100 = 55%."
+    }
+  ]
 }
