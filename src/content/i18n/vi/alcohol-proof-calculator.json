@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính độ proof của rượu | Đổi proof sang phần trăm ABV",
+  "meta_description": "Máy tính độ proof của rượu miễn phí. Nhập giá trị proof của Mỹ để đổi ngay sang phần trăm nồng độ cồn theo thể tích (ABV): nhanh, chính xác và dễ dùng.",
+  "h1": "Máy tính độ proof của rượu",
+  "subtitle": "Nhập giá trị <strong>độ proof của rượu</strong> (thang đo của Mỹ) và <strong>máy tính độ proof của rượu</strong> này sẽ đổi ngay sang phần trăm <strong>nồng độ cồn theo thể tích (ABV)</strong>.",
+  "hint": "Nhập giá trị proof của Mỹ để nhận phần trăm ABV.",
+  "long_tail_anchor": "Công cụ đổi proof sang phần trăm ABV",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "Proof (Mỹ)",
+    "e.g. 80": "VD: 80"
+  }
+}

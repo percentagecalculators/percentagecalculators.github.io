@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính lãi vay | Khoản trả hàng tháng và tổng lãi",
+  "meta_description": "Máy tính lãi vay miễn phí. Nhập số tiền vay, lãi suất hàng năm và kỳ hạn để tính ngay khoản trả hàng tháng (EMI) và tổng lãi phải trả.",
+  "h1": "Máy tính lãi vay",
+  "subtitle": "Nhập <strong>số tiền vay</strong>, <strong>lãi suất hàng năm</strong> và <strong>kỳ hạn vay</strong>, và <strong>máy tính lãi vay</strong> này tính ngay <strong>khoản trả hàng tháng (EMI)</strong> và <strong>tổng lãi</strong> bạn sẽ trả.",
+  "hint": "Nhập số tiền vay, lãi suất và kỳ hạn để nhận khoản trả hàng tháng của bạn.",
+  "long_tail_anchor": "Khoản trả hàng tháng và tổng lãi",
+  "card_strings": {
+    "Annual Rate": "Lãi suất hàng năm",
+    "Loan Amount ($)": "Số tiền vay ($)",
+    "Loan Term (Years)": "Kỳ hạn vay (năm)",
+    "Monthly EMI:": "Khoản trả hàng tháng (EMI):",
+    "Total Interest:": "Tổng lãi:",
+    "e.g. 20000": "VD: 20000",
+    "e.g. 5": "VD: 5",
+    "e.g. 7.5": "VD: 7.5"
+  }
+}

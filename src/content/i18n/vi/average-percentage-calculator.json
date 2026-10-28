@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính phần trăm trung bình | Trung bình đơn giản và có trọng số",
+  "meta_description": "Máy tính phần trăm trung bình miễn phí với chế độ đơn giản và có trọng số. Kết hợp đúng các phần trăm của những nhóm có quy mô khác nhau cho điểm số và khảo sát.",
+  "h1": "Máy tính phần trăm trung bình",
+  "subtitle": "Nhập danh sách các <strong>phần trăm</strong> cách nhau bằng dấu phẩy, và <strong>máy tính phần trăm trung bình</strong> này cho bạn <strong>giá trị trung bình</strong>, <strong>tổng</strong>, <strong>số lượng</strong> và khoảng biến thiên của các giá trị. Thêm danh sách tương ứng về <strong>cỡ mẫu</strong> khi các nhóm không bằng nhau, và công cụ tự động chuyển sang <strong>trung bình có trọng số</strong> chính xác.",
+  "hint": "Nhập các phần trăm (và cỡ mẫu nếu có) để tính trung bình đơn giản hoặc có trọng số.",
+  "long_tail_anchor": "Trung bình của nhiều phần trăm",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "Thêm một trọng số cho mỗi phần trăm (ví dụ sĩ số lớp hoặc số người trả lời) để kết hợp đúng các nhóm có quy mô không đều.",
+    "Average:": "Trung bình:",
+    "Count:": "Số lượng:",
+    "Percentages (comma or space separated)": "Các phần trăm (cách nhau bằng dấu phẩy hoặc dấu cách)",
+    "Sample Sizes / Weights (optional)": "Cỡ mẫu / trọng số (tùy chọn)",
+    "Sum:": "Tổng:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "VD: 30, 50, 20, 40 (để trống để tính trung bình đơn giản)",
+    "e.g. 85, 90, 78, 92": "VD: 85, 90, 78, 92"
+  }
+}

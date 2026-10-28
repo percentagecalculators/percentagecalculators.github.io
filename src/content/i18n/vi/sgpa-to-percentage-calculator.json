@@ -1,0 +1,15 @@
+{
+  "slug": "sgpa-to-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính SGPA sang phần trăm | Đổi SGPA sang phần trăm",
+  "meta_description": "Máy tính SGPA sang phần trăm miễn phí theo công thức chuẩn SGPA × 9,5. Đổi ngay SGPA học kỳ của bạn sang phần trăm tương đương.",
+  "h1": "Máy tính SGPA sang phần trăm",
+  "subtitle": "Nhập <strong>SGPA</strong> của bạn và <strong>máy tính SGPA sang phần trăm</strong> này áp dụng công thức chuẩn <strong>SGPA × 9,5</strong> mà hầu hết các trường đại học Ấn Độ sử dụng để cho bạn ngay <strong>phần trăm</strong> tương đương.",
+  "hint": "Nhập SGPA học kỳ của bạn để nhận phần trăm tương đương.",
+  "long_tail_anchor": "Đổi GPA học kỳ sang phần trăm",
+  "card_strings": {
+    "Percentage:": "Phần trăm:",
+    "SGPA (out of 10)": "SGPA (trên 10)",
+    "e.g. 7.8": "VD: 7.8"
+  }
+}

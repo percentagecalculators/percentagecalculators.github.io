@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính phần trăm điểm số | Tính phần trăm bài thi",
+  "meta_description": "Máy tính phần trăm điểm số miễn phí. Nhập số điểm đạt được và tổng điểm để tính ngay phần trăm bài thi hoặc bài kiểm tra của bạn.",
+  "h1": "Máy tính phần trăm điểm số",
+  "subtitle": "Nhập <strong>số điểm đạt được</strong> và <strong>tổng điểm</strong>, và <strong>máy tính phần trăm điểm số</strong> này tính ngay <strong>phần trăm bài thi</strong> của bạn: hoàn hảo cho phiếu điểm, bảng điểm và kiểm tra kết quả.",
+  "hint": "Nhập số điểm đạt được và tổng điểm để nhận phần trăm của bạn.",
+  "long_tail_anchor": "Phần trăm điểm bài thi và bài kiểm tra",
+  "card_strings": {
+    "Marks Obtained": "Điểm đạt được",
+    "Percentage:": "Phần trăm:",
+    "Total Marks": "Tổng điểm",
+    "e.g. 450": "VD: 450",
+    "e.g. 500": "VD: 500"
+  }
+}

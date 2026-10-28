@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính APY | Lợi suất phần trăm hàng năm",
+  "meta_description": "Máy tính APY miễn phí. Đổi ngay lãi suất danh nghĩa và tần suất ghép lãi sang lợi suất phần trăm hàng năm (APY).",
+  "h1": "Máy tính APY",
+  "subtitle": "Nhập <strong>lãi suất danh nghĩa</strong> và mức độ thường xuyên <strong>ghép lãi mỗi năm</strong>, và <strong>máy tính APY</strong> này tính ra <strong>lợi suất phần trăm hàng năm</strong> thực của bạn: mức sinh lời thực tế bạn sẽ nhận được.",
+  "hint": "Nhập lãi suất danh nghĩa và số kỳ ghép lãi mỗi năm để nhận APY của bạn.",
+  "long_tail_anchor": "Máy tính lợi suất phần trăm hàng năm",
+  "card_strings": {
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Kỳ ghép lãi / năm",
+    "Nominal Interest Rate": "Lãi suất danh nghĩa",
+    "e.g. 12": "VD: 12",
+    "e.g. 5": "VD: 5"
+  }
+}

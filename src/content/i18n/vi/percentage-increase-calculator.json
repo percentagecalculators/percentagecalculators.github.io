@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính tăng phần trăm | Cộng một phần trăm vào một số",
+  "meta_description": "Máy tính tăng phần trăm miễn phí. Cộng ngay bất kỳ phần trăm nào vào một số. Tính tăng lương, phụ thu giá, lợi nhuận đầu tư và nhiều hơn nữa.",
+  "h1": "Máy tính tăng phần trăm",
+  "subtitle": "Nhập <strong>số ban đầu</strong> và <strong>phần trăm cần cộng</strong>, và <strong>máy tính tăng phần trăm</strong> này cho bạn cả <strong>số tiền tăng</strong> lẫn <strong>giá trị cuối</strong>. Hãy xem nó như câu trả lời cho “200 cộng 15 % là bao nhiêu?”, tiện thể là 230.",
+  "hint": "Nhập một số và phần trăm cần cộng để nhận giá trị sau khi tăng.",
+  "long_tail_anchor": "Cộng phần trăm vào một số",
+  "card_strings": {
+    "Enter percentage": "Nhập phần trăm",
+    "Enter starting number": "Nhập số ban đầu",
+    "Increase Amount:": "Số tiền tăng:",
+    "Increase by": "Tăng",
+    "New Value:": "Giá trị mới:",
+    "Original Value": "Giá trị ban đầu"
+  }
+}

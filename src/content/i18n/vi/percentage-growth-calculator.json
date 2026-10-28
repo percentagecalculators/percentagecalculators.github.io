@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính tăng trưởng phần trăm | Tốc độ tăng trưởng kinh doanh",
+  "meta_description": "Máy tính tăng trưởng phần trăm miễn phí. Tính tốc độ tăng trưởng của doanh thu, khách hàng, doanh số và KPI. Theo dõi hiệu quả kinh doanh bằng các chỉ số chính xác.",
+  "h1": "Máy tính tăng trưởng phần trăm",
+  "subtitle": "Nhập một <strong>giá trị ban đầu</strong> và một <strong>giá trị cuối</strong>, và <strong>máy tính tăng trưởng phần trăm</strong> này hiển thị <strong>tốc độ tăng trưởng</strong> và <strong>mức tăng trưởng</strong>. Nó trả lời câu hỏi: con số của bạn đã tăng bao nhiêu phần trăm từ điểm A đến điểm B?",
+  "hint": "Nhập giá trị ban đầu và giá trị cuối để nhận phần trăm tăng trưởng.",
+  "long_tail_anchor": "Tốc độ tăng trưởng kinh doanh và doanh thu",
+  "card_strings": {
+    "Ending value": "Giá trị cuối",
+    "Final Value": "Giá trị cuối",
+    "Growth Amount:": "Mức tăng trưởng:",
+    "Growth Rate:": "Tốc độ tăng trưởng:",
+    "Initial Value": "Giá trị ban đầu",
+    "Starting value": "Giá trị đầu"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính sai số phần trăm | Sai số tương đối cho phòng thí nghiệm",
+  "meta_description": "Máy tính sai số phần trăm miễn phí. Tính sai số phần trăm giữa giá trị thực nghiệm và lý thuyết cho thí nghiệm vật lý, hóa học và sinh học.",
+  "h1": "Máy tính sai số phần trăm",
+  "subtitle": "Nhập <strong>giá trị đo được (thực nghiệm)</strong> và <strong>giá trị thực (lý thuyết)</strong>, và <strong>máy tính sai số phần trăm</strong> này hiển thị <strong>sai số phần trăm</strong> giữa chúng. Công thức chuẩn được dùng: |đo được − thực| ÷ |thực| × 100.",
+  "hint": "Nhập giá trị đo được và giá trị thực để nhận sai số phần trăm.",
+  "long_tail_anchor": "Giá trị thực nghiệm so với lý thuyết",
+  "card_strings": {
+    "Absolute Error:": "Sai số tuyệt đối:",
+    "Enter expected value": "Nhập giá trị kỳ vọng",
+    "Enter measured value": "Nhập giá trị đo được",
+    "Experimental (Measured)": "Thực nghiệm (đo được)",
+    "Percentage Error:": "Sai số phần trăm:",
+    "Theoretical (Expected)": "Lý thuyết (kỳ vọng)"
+  }
+}

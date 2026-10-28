@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính khấu hao | Phương pháp đường thẳng",
+  "meta_description": "Máy tính khấu hao miễn phí theo phương pháp đường thẳng. Nhập nguyên giá tài sản, giá trị thanh lý và thời gian sử dụng để tính khấu hao hàng năm.",
+  "h1": "Máy tính khấu hao",
+  "subtitle": "Nhập <strong>nguyên giá tài sản</strong>, <strong>giá trị thanh lý</strong> và <strong>thời gian sử dụng</strong>, và <strong>máy tính khấu hao</strong> này tính ngay <strong>khấu hao hàng năm</strong> theo phương pháp đường thẳng.",
+  "hint": "Nhập nguyên giá, giá trị thanh lý và thời gian sử dụng để nhận khấu hao hàng năm.",
+  "long_tail_anchor": "Khấu hao tài sản theo đường thẳng",
+  "card_strings": {
+    "Annual Depreciation:": "Khấu hao hàng năm:",
+    "Asset Cost ($)": "Nguyên giá tài sản ($)",
+    "Depreciation Rate:": "Tỷ lệ khấu hao:",
+    "Salvage Value ($)": "Giá trị thanh lý ($)",
+    "Useful Life (Years)": "Thời gian sử dụng (năm)",
+    "e.g. 1000": "VD: 1000",
+    "e.g. 10000": "VD: 10000",
+    "e.g. 5": "VD: 5"
+  }
+}

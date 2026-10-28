@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính CGPA sang phần trăm | Đổi CGPA thang 10 sang %",
+  "meta_description": "Máy tính CGPA sang phần trăm miễn phí theo công thức chuẩn CGPA thang 10 × 9,5. Đổi CGPA của bạn sang phần trăm cho hồ sơ đại học.",
+  "h1": "Máy tính CGPA sang phần trăm",
+  "subtitle": "Nhập <strong>CGPA</strong> của bạn trên <strong>thang điểm chuẩn 10</strong> và <strong>máy tính CGPA sang phần trăm</strong> này áp dụng công thức phổ biến <strong>CGPA × 9,5</strong> để cho bạn ngay <strong>phần trăm</strong> tương đương.",
+  "hint": "Nhập CGPA thang 10 của bạn để nhận phần trăm tương đương.",
+  "long_tail_anchor": "Đổi CGPA thang 10 sang phần trăm",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA (trên 10)",
+    "Percentage:": "Phần trăm:",
+    "e.g. 8.2": "VD: 8.2"
+  }
+}

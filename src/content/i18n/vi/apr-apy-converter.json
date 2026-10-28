@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "vi",
+  "meta_title": "Công cụ đổi APR sang APY | Đổi sang lợi suất phần trăm hàng năm",
+  "meta_description": "Công cụ đổi APR sang APY miễn phí. Nhập APR và tần suất ghép lãi để xem ngay lợi suất phần trăm hàng năm (APY) tương đương.",
+  "h1": "Công cụ đổi APR sang APY",
+  "subtitle": "Nhập <strong>APR</strong> và <strong>tần suất ghép lãi</strong>, và <strong>công cụ đổi APR sang APY</strong> này hiển thị <strong>lợi suất phần trăm hàng năm</strong> tương đương, hữu ích để so sánh các tài khoản được niêm yết theo cách khác nhau.",
+  "hint": "Nhập APR và số kỳ ghép lãi mỗi năm để nhận APY tương đương.",
+  "long_tail_anchor": "So sánh lãi suất APR và APY",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Kỳ ghép lãi / năm",
+    "e.g. 12": "VD: 12",
+    "e.g. 6": "VD: 6"
+  }
+}

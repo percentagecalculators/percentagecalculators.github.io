@@ -1,0 +1,15 @@
+{
+  "slug": "gpa-to-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính GPA sang phần trăm | Đổi GPA thang 4,0 sang %",
+  "meta_description": "Máy tính GPA sang phần trăm miễn phí. Đổi ngay GPA thang 4,0 của bạn sang phần trăm tương đương. Chính xác, đơn giản, không cần đăng ký.",
+  "h1": "Máy tính GPA sang phần trăm",
+  "subtitle": "Nhập <strong>GPA</strong> của bạn trên <strong>thang điểm chuẩn 4,0</strong> và <strong>máy tính GPA sang phần trăm</strong> này đổi ngay sang <strong>phần trăm</strong> tương đương, hữu ích cho hồ sơ xin học, bảng điểm và so sánh các hệ thống chấm điểm.",
+  "hint": "Nhập GPA thang 4,0 của bạn để nhận phần trăm tương đương.",
+  "long_tail_anchor": "Đổi GPA thang 4,0 sang phần trăm",
+  "card_strings": {
+    "GPA (4.0 Scale)": "GPA (thang 4,0)",
+    "Percentage:": "Phần trăm:",
+    "e.g. 3.5": "VD: 3.5"
+  }
+}

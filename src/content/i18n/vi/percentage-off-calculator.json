@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính giảm giá | Giá sau giảm và số tiền tiết kiệm",
+  "meta_description": "Máy tính giảm giá phần trăm miễn phí. Tính ngay giá khuyến mãi và số tiền tiết kiệm. Tìm giá cuối sau bất kỳ mức giảm nào: người bạn đồng hành khi săn khuyến mãi.",
+  "h1": "Máy tính giảm giá",
+  "subtitle": "Nhập <strong>giá gốc</strong> và <strong>phần trăm giảm giá</strong>, và <strong>máy tính giảm giá</strong> này hiển thị <strong>giá khuyến mãi</strong> và chính xác bạn <strong>tiết kiệm được bao nhiêu tiền</strong>. Lần tới khi thấy biển “giảm 30 %”, bạn sẽ biết mình thực sự trả bao nhiêu.",
+  "hint": "Nhập giá gốc và % giảm giá để nhận giá khuyến mãi.",
+  "long_tail_anchor": "Công cụ tìm mức giảm và giá khuyến mãi",
+  "card_strings": {
+    "Discount": "Giảm giá",
+    "Enter discount %": "Nhập % giảm giá",
+    "Enter price": "Nhập giá",
+    "Final Price:": "Giá cuối:",
+    "Original Price ($)": "Giá gốc ($)",
+    "You Save:": "Bạn tiết kiệm:"
+  }
+}

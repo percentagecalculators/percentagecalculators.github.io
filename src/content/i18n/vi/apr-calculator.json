@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính APR | Lãi suất phần trăm hàng năm",
+  "meta_description": "Máy tính APR miễn phí. Đổi ngay lãi suất theo kỳ sang lãi suất phần trăm hàng năm (APR): cách tiêu chuẩn mà các khoản vay và thẻ tín dụng nêu chi phí.",
+  "h1": "Máy tính APR",
+  "subtitle": "Nhập <strong>lãi suất theo kỳ</strong> và <strong>số kỳ mỗi năm</strong>, và <strong>máy tính APR</strong> này tính ra <strong>lãi suất phần trăm hàng năm</strong>: cách tiêu chuẩn, không ghép lãi, mà bên cho vay dùng để nêu chi phí vay.",
+  "hint": "Nhập lãi suất theo kỳ và số kỳ mỗi năm để nhận APR.",
+  "long_tail_anchor": "Máy tính lãi suất phần trăm hàng năm",
+  "card_strings": {
+    "APR:": "APR:",
+    "Periodic Interest Rate": "Lãi suất theo kỳ",
+    "Periods / Year": "Số kỳ / năm",
+    "e.g. 1.5": "VD: 1.5",
+    "e.g. 12": "VD: 12"
+  }
+}

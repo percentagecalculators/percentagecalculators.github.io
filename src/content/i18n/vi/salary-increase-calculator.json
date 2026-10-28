@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính tăng lương | Tính mức lương mới của bạn",
+  "meta_description": "Máy tính tăng lương miễn phí. Nhập mức lương hiện tại và phần trăm tăng để tính ngay số tiền tăng và mức lương mới của bạn.",
+  "h1": "Máy tính tăng lương",
+  "subtitle": "Nhập <strong>mức lương hiện tại</strong> và <strong>phần trăm tăng lương</strong> của bạn, và <strong>máy tính tăng lương</strong> này tính ngay <strong>số tiền tăng</strong> và <strong>mức lương mới</strong> của bạn.",
+  "hint": "Nhập mức lương hiện tại và % tăng để nhận mức lương mới của bạn.",
+  "long_tail_anchor": "Phần trăm tăng lương và điều chỉnh lương",
+  "card_strings": {
+    "Current Salary ($)": "Lương hiện tại ($)",
+    "New Salary:": "Lương mới:",
+    "Raise": "Tăng",
+    "Raise Amount:": "Số tiền tăng:",
+    "e.g. 5": "VD: 5",
+    "e.g. 60000": "VD: 60000"
+  }
+}

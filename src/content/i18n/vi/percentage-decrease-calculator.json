@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính giảm phần trăm | Trừ một phần trăm",
+  "meta_description": "Máy tính giảm phần trăm miễn phí. Trừ ngay bất kỳ phần trăm nào khỏi một số: tính khấu hao, giảm cân và cắt giảm ngân sách.",
+  "h1": "Máy tính giảm phần trăm",
+  "subtitle": "Nhập <strong>số ban đầu</strong> và <strong>phần trăm cần trừ</strong>, và <strong>máy tính giảm phần trăm</strong> này cho bạn <strong>số tiền giảm</strong> và <strong>giá trị cuối</strong>. Nếu bạn thắc mắc 500 trừ 20 % là bao nhiêu, đó là 400, và bạn vừa đỡ phải tính nhẩm.",
+  "hint": "Nhập một số và phần trăm cần trừ để nhận giá trị sau khi giảm.",
+  "long_tail_anchor": "Trừ phần trăm khỏi một số",
+  "card_strings": {
+    "Decrease Amount:": "Số tiền giảm:",
+    "Decrease by": "Giảm",
+    "Enter percentage": "Nhập phần trăm",
+    "Enter starting number": "Nhập số ban đầu",
+    "New Value:": "Giá trị mới:",
+    "Original Value": "Giá trị ban đầu"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính hoa hồng | Tính hoa hồng bán hàng nhận được",
+  "meta_description": "Máy tính hoa hồng miễn phí. Nhập doanh số và tỷ lệ hoa hồng để tính ngay khoản hoa hồng bạn nhận được.",
+  "h1": "Máy tính hoa hồng",
+  "subtitle": "Nhập <strong>doanh số</strong> và <strong>tỷ lệ hoa hồng</strong> của bạn, và <strong>máy tính hoa hồng</strong> này tính ngay <strong>khoản hoa hồng bạn nhận được</strong>.",
+  "hint": "Nhập doanh số và tỷ lệ hoa hồng để nhận khoản hoa hồng.",
+  "long_tail_anchor": "Phần trăm hoa hồng bán hàng",
+  "card_strings": {
+    "Commission Earned:": "Hoa hồng nhận được:",
+    "Commission Rate": "Tỷ lệ hoa hồng",
+    "Sales Amount ($)": "Doanh số ($)",
+    "e.g. 10": "VD: 10",
+    "e.g. 5000": "VD: 5000"
+  }
+}

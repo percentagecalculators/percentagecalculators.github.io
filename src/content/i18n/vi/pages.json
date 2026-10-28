@@ -1,0 +1,424 @@
+{
+  "about": {
+    "meta_title": "Về chúng tôi | Percentage Calculators",
+    "meta_description": "Tìm hiểu về Percentage Calculators: bộ công cụ phần trăm miễn phí chạy ngay trong trình duyệt, được xây dựng để nhanh, chính xác và dễ dùng trên mọi thiết bị.",
+    "h1": "Giới thiệu về Percentage Calculators",
+    "sections": [
+      {
+        "heading": "Sứ mệnh của chúng tôi",
+        "paragraphs": [
+          "Percentage Calculators ra đời với một mục tiêu đơn giản: giúp việc tính phần trăm nhanh, chính xác và dễ tiếp cận với mọi người. Dù bạn là học sinh làm bài tập, người đi làm phân tích chỉ số kinh doanh hay chỉ đang tính tiền boa ở nhà hàng, chúng tôi đều có thể giúp."
+        ]
+      },
+      {
+        "heading": "Chúng tôi là ai",
+        "paragraphs": [
+          "Xin chào! Tôi là <strong>Subash Geetha Krishnan</strong>, Tech Lead với hơn 15 năm kinh nghiệm về công nghệ doanh nghiệp. Sống tại Singapore, tôi đã dành sự nghiệp để giải quyết các vấn đề kỹ thuật phức tạp và xây dựng những công cụ giúp cuộc sống dễ dàng hơn.",
+          "Sau nhiều năm tìm kiếm máy tính phần trăm đơn giản, đáng tin cậy trên mạng mà thấy phần lớn đầy quảng cáo hoặc thiếu tính năng, tôi quyết định xây dựng thứ gì đó tốt hơn. Percentage Calculators là kết quả: một bộ công cụ gọn gàng, nhanh và hoàn toàn miễn phí, đã phát triển từ vài máy tính thành một thư viện đầy đủ bao gồm toán học đời sống, điểm số học đường và tài chính cá nhân."
+        ]
+      },
+      {
+        "heading": "Chúng tôi cung cấp gì",
+        "paragraphs": [
+          "Nền tảng của chúng tôi hiện có 41 máy tính phần trăm chuyên biệt, chia thành năm danh mục để bạn nhanh chóng tìm được công cụ phù hợp:"
+        ],
+        "list": [
+          "<strong>Công cụ phần trăm cơ bản</strong> – Những điều thiết yếu: tìm phần trăm, tăng hoặc giảm một số và so sánh hai giá trị.",
+          "<strong>Công cụ chuyển đổi</strong> – Chuyển đổi giữa phần trăm, phân số, số thập phân, tỷ lệ và các dạng đơn vị khác.",
+          "<strong>Giáo dục</strong> – Quy đổi GPA, CGPA, SGPA, điểm số và bách phân vị cho học sinh, sinh viên.",
+          "<strong>Tài chính và kinh doanh</strong> – Lãi suất, biên lợi nhuận, markup, tăng lương và tăng trưởng kinh doanh.",
+          "<strong>Đời sống và chuyên biệt</strong> – Tiền boa, tỷ lệ làm bánh, thành tích thắng/thua và các bài toán phần trăm đơn lẻ khác."
+        ]
+      },
+      {
+        "heading": "Vì sao chọn chúng tôi?",
+        "list": [
+          "<strong>Miễn phí 100 %</strong> – Mọi công cụ đều hoàn toàn miễn phí, không cần đăng ký",
+          "<strong>Kết quả tức thì</strong> – Phép tính diễn ra ngay khi bạn gõ, không cần bấm nút",
+          "<strong>Thân thiện với di động</strong> – Hoạt động hoàn hảo trên mọi thiết bị",
+          "<strong>Không tràn ngập quảng cáo</strong> – Giao diện gọn gàng, tập trung vào chức năng",
+          "<strong>Ưu tiên quyền riêng tư</strong> – Chúng tôi không theo dõi phép tính của bạn và không bán dữ liệu của bạn",
+          "<strong>Hiển thị công thức</strong> – Xem phần toán học đằng sau mỗi phép tính để vừa dùng vừa học"
+        ]
+      },
+      {
+        "heading": "Cam kết của chúng tôi",
+        "paragraphs": [
+          "Chúng tôi cam kết giữ Percentage Calculators miễn phí, nhanh và đáng tin cậy. Chúng tôi liên tục cải thiện công cụ dựa trên phản hồi của người dùng và bổ sung máy tính mới để bao quát nhiều bài toán phần trăm mà mọi người gặp hằng ngày.",
+          "Bạn có góp ý hoặc phát hiện lỗi? Chúng tôi rất muốn nghe! Hãy truy cập <a href=\"/contact\">trang Liên hệ</a> để liên lạc với chúng tôi."
+        ]
+      },
+      {
+        "heading": "Kết nối với chúng tôi",
+        "paragraphs": [
+          "Theo dõi chúng tôi trên mạng xã hội để cập nhật tin tức, mẹo và nhiều hơn nữa:"
+        ],
+        "list": [
+          "<a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>",
+          "<a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter/X</a>",
+          "<a href=\"https://github.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>",
+          "<a href=\"https://www.facebook.com/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook</a>"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "meta_title": "Liên hệ | Percentage Calculators",
+    "meta_description": "Liên hệ nhóm Percentage Calculators để đặt câu hỏi, góp ý hoặc báo lỗi về các công cụ phần trăm miễn phí của chúng tôi. Chúng tôi đọc mọi tin nhắn.",
+    "h1": "Liên hệ với chúng tôi",
+    "sections": [
+      {
+        "heading": "Giữ liên lạc",
+        "paragraphs": [
+          "Chúng tôi rất muốn nghe từ bạn! Dù bạn có câu hỏi, góp ý, phát hiện lỗi hay chỉ muốn chào hỏi, đừng ngần ngại liên hệ."
+        ]
+      },
+      {
+        "heading": "Tìm chúng tôi trên mạng",
+        "paragraphs": [
+          "<strong>Subash Geetha Krishnan</strong><br>Nhà sáng lập kiêm lập trình viên, sống tại Singapore."
+        ],
+        "list": [
+          "<strong>LinkedIn:</strong> <a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">linkedin.com/in/buzzsubash</a>",
+          "<strong>Twitter/X:</strong> <a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">@buzzsubash</a>",
+          "<strong>GitHub:</strong> <a href=\"https://github.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">github.com/buzzsubash</a>",
+          "<strong>Facebook:</strong> <a href=\"https://www.facebook.com/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">facebook.com/buzzsubash</a>",
+          "<strong>Reddit:</strong> <a href=\"https://www.reddit.com/user/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">u/buzzsubash</a>"
+        ]
+      },
+      {
+        "heading": "Chúng tôi có thể giúp gì?",
+        "paragraphs": [
+          "Chúng tôi sẵn sàng hỗ trợ về:"
+        ],
+        "list": [
+          "<strong>Báo lỗi</strong> – Phát hiện điều gì đó không hoạt động? Hãy cho chúng tôi biết!",
+          "<strong>Yêu cầu tính năng</strong> – Có ý tưởng cho một máy tính mới hoặc cải tiến?",
+          "<strong>Câu hỏi chung</strong> – Cần giúp hiểu cách dùng công cụ của chúng tôi?",
+          "<strong>Phản hồi</strong> – Chúng tôi trân trọng mọi phản hồi, tích cực hay mang tính xây dựng",
+          "<strong>Đề nghị hợp tác</strong> – Quan tâm đến việc hợp tác?"
+        ]
+      },
+      {
+        "heading": "Thời gian phản hồi",
+        "paragraphs": [
+          "Chúng tôi thường phản hồi trong vòng 24–48 giờ.",
+          "Cảm ơn bạn đã sử dụng Percentage Calculators!"
+        ]
+      }
+    ]
+  },
+  "disclaimer": {
+    "meta_title": "Tuyên bố miễn trừ | Percentage Calculators",
+    "meta_description": "Tuyên bố miễn trừ của Percentage Calculators: công cụ của chúng tôi chỉ nhằm mục đích thông tin và không thay thế tư vấn chuyên môn.",
+    "h1": "Tuyên bố miễn trừ",
+    "subtitle": "Cập nhật lần cuối: tháng 12 năm 2024",
+    "sections": [
+      {
+        "heading": "Thông tin chung",
+        "paragraphs": [
+          "Thông tin do Percentage Calculators (“chúng tôi”) cung cấp trên trang web này chỉ nhằm mục đích thông tin và giáo dục chung. Mọi thông tin trên trang được cung cấp với thiện chí; tuy nhiên, chúng tôi không đưa ra bất kỳ tuyên bố hay bảo đảm nào, rõ ràng hay ngụ ý, về tính chính xác, đầy đủ, hợp lệ, đáng tin cậy, khả dụng hay hoàn chỉnh của bất kỳ thông tin nào trên trang."
+        ]
+      },
+      {
+        "heading": "Không phải tư vấn chuyên môn",
+        "paragraphs": [
+          "Các máy tính và thông tin trên trang web này không nhằm thay thế tư vấn chuyên môn. Kết quả từ máy tính của chúng tôi không nên được dùng làm căn cứ cho các quyết định tài chính, pháp lý, y tế hoặc bất kỳ quyết định chuyên môn nào khác. Luôn tìm lời khuyên của các chuyên gia có trình độ về những vấn đề như vậy.",
+          "Cụ thể:"
+        ],
+        "list": [
+          "<strong>Quyết định tài chính:</strong> Đừng chỉ dựa vào máy tính của chúng tôi cho các quyết định đầu tư, thuế hoặc tài chính quan trọng. Hãy tham khảo cố vấn tài chính hoặc kế toán có trình độ.",
+          "<strong>Công việc khoa học/học thuật:</strong> Dù máy tính của chúng tôi được thiết kế để chính xác, hãy luôn kiểm tra lại kết quả cho bài nộp học thuật hoặc nghiên cứu khoa học.",
+          "<strong>Quyết định kinh doanh:</strong> Hãy dùng công cụ của chúng tôi làm điểm khởi đầu, nhưng nhờ chuyên gia phù hợp kiểm tra các phép tính ảnh hưởng đến hoạt động kinh doanh."
+        ]
+      },
+      {
+        "heading": "Độ chính xác của phép tính",
+        "paragraphs": [
+          "Chúng tôi nỗ lực bảo đảm máy tính cho kết quả chính xác. Tuy nhiên:"
+        ],
+        "list": [
+          "Kết quả có thể bị ảnh hưởng bởi việc làm tròn hoặc giới hạn của số học dấu phẩy động",
+          "Chúng tôi không thể đảm bảo chính xác 100 % trong mọi tình huống",
+          "Người dùng chịu trách nhiệm kiểm tra kết quả cho các ứng dụng quan trọng",
+          "Chúng tôi khuyên bạn nên kiểm tra lại các phép tính có hệ quả đáng kể"
+        ]
+      },
+      {
+        "heading": "Liên kết bên ngoài",
+        "paragraphs": [
+          "Trang web này có thể chứa liên kết đến các trang web bên ngoài không do chúng tôi cung cấp hay duy trì. Chúng tôi không đảm bảo tính chính xác, phù hợp, kịp thời hay đầy đủ của bất kỳ thông tin nào trên các trang bên ngoài này. Việc đưa vào các liên kết không nhất thiết là sự giới thiệu hay tán thành các quan điểm được nêu ở đó."
+        ]
+      },
+      {
+        "heading": "Giới hạn trách nhiệm",
+        "paragraphs": [
+          "Trong bất kỳ trường hợp nào, chúng tôi cũng không chịu trách nhiệm với bạn về bất kỳ mất mát hay thiệt hại nào phát sinh từ việc sử dụng trang hoặc dựa vào bất kỳ thông tin nào trên trang. Việc bạn sử dụng trang và dựa vào thông tin trên trang hoàn toàn do bạn tự chịu rủi ro."
+        ]
+      },
+      {
+        "heading": "Thay đổi đối với tuyên bố miễn trừ này",
+        "paragraphs": [
+          "Chúng tôi có quyền sửa đổi tuyên bố miễn trừ này bất cứ lúc nào. Thay đổi có hiệu lực ngay khi được đăng lên trang web. Việc bạn tiếp tục sử dụng trang web sau mọi thay đổi đồng nghĩa với việc chấp nhận tuyên bố miễn trừ mới."
+        ]
+      },
+      {
+        "heading": "Liên hệ với chúng tôi",
+        "paragraphs": [
+          "Nếu bạn có câu hỏi về tuyên bố miễn trừ này, vui lòng <a href=\"/contact\">liên hệ với chúng tôi</a>."
+        ]
+      }
+    ]
+  },
+  "privacy-policy": {
+    "meta_title": "Chính sách quyền riêng tư | Percentage Calculators",
+    "meta_description": "Chính sách quyền riêng tư của Percentage Calculators: những dữ liệu chúng tôi thu thập (rất ít) và cách các máy tính miễn phí xử lý dữ liệu bạn nhập.",
+    "h1": "Chính sách quyền riêng tư",
+    "subtitle": "Cập nhật lần cuối: tháng 12 năm 2024",
+    "sections": [
+      {
+        "heading": "Giới thiệu",
+        "paragraphs": [
+          "Percentage Calculators (“chúng tôi”) tôn trọng quyền riêng tư của bạn và cam kết bảo vệ dữ liệu cá nhân của bạn. Chính sách quyền riêng tư này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi bạn truy cập trang web của chúng tôi."
+        ]
+      },
+      {
+        "heading": "Thông tin chúng tôi thu thập",
+        "paragraphs": [
+          "<strong>Thông tin bạn cung cấp</strong>",
+          "Chúng tôi có thể thu thập thông tin bạn tự nguyện cung cấp, chẳng hạn:",
+          "<strong>Thông tin được thu thập tự động</strong>",
+          "Khi bạn truy cập trang web của chúng tôi, chúng tôi có thể tự động thu thập:",
+          "<strong>Những gì chúng tôi không thu thập</strong>",
+          "Chúng tôi muốn nói rõ về những gì chúng tôi <strong>không thu thập</strong>:"
+        ],
+        "list": [
+          "Thông tin liên hệ (địa chỉ email) khi bạn liên hệ với chúng tôi",
+          "Phản hồi và đề xuất bạn gửi",
+          "Thông tin thiết bị (loại trình duyệt, hệ điều hành)",
+          "Địa chỉ IP (đã ẩn danh)",
+          "Các trang đã truy cập và thời gian ở trên trang",
+          "Trang web giới thiệu",
+          "Vị trí địa lý chung (cấp quốc gia/thành phố)",
+          "Chúng tôi không lưu các con số bạn nhập vào máy tính của chúng tôi",
+          "Chúng tôi không theo dõi lịch sử phép tính của bạn",
+          "Chúng tôi không yêu cầu tạo tài khoản hoặc đăng nhập",
+          "Chúng tôi không thu thập thông tin thanh toán (dịch vụ của chúng tôi miễn phí)"
+        ]
+      },
+      {
+        "heading": "Cách chúng tôi sử dụng thông tin của bạn",
+        "paragraphs": [
+          "Chúng tôi sử dụng thông tin thu thập được để:"
+        ],
+        "list": [
+          "Cung cấp và duy trì các công cụ tính toán của chúng tôi",
+          "Cải thiện và tối ưu hóa trang web của chúng tôi",
+          "Hiểu cách người dùng tương tác với trang của chúng tôi",
+          "Trả lời thắc mắc và phản hồi của bạn",
+          "Phát hiện và ngăn chặn sự cố kỹ thuật"
+        ]
+      },
+      {
+        "heading": "Cookie và công nghệ theo dõi",
+        "paragraphs": [
+          "Chúng tôi sử dụng cookie và các công nghệ theo dõi tương tự để cải thiện trải nghiệm của bạn:",
+          "Bạn có thể kiểm soát cookie qua cài đặt trình duyệt. Lưu ý rằng việc tắt một số cookie có thể ảnh hưởng đến chức năng của trang web."
+        ],
+        "list": [
+          "<strong>Cookie thiết yếu:</strong> Cần thiết cho chức năng cơ bản của trang web",
+          "<strong>Cookie phân tích:</strong> Giúp chúng tôi hiểu cách khách truy cập sử dụng trang của chúng tôi (Google Analytics)",
+          "<strong>Cookie tùy chọn:</strong> Ghi nhớ cài đặt của bạn (như ngôn ngữ ưa thích)"
+        ]
+      },
+      {
+        "heading": "Dịch vụ của bên thứ ba",
+        "paragraphs": [
+          "Chúng tôi có thể sử dụng các dịch vụ của bên thứ ba có thu thập thông tin:",
+          "Các bên thứ ba này có chính sách quyền riêng tư riêng điều chỉnh việc sử dụng thông tin họ thu thập."
+        ],
+        "list": [
+          "<strong>Google Analytics:</strong> Để phân tích lưu lượng truy cập trang web",
+          "<strong>Đối tác quảng cáo:</strong> Để hiển thị quảng cáo phù hợp"
+        ]
+      },
+      {
+        "heading": "Bảo mật dữ liệu",
+        "paragraphs": [
+          "Chúng tôi áp dụng các biện pháp bảo mật phù hợp để bảo vệ thông tin của bạn. Tuy nhiên, không có phương thức truyền tải nào qua internet an toàn 100 %, và chúng tôi không thể đảm bảo an toàn tuyệt đối."
+        ]
+      },
+      {
+        "heading": "Quyền của bạn",
+        "paragraphs": [
+          "Tùy theo nơi bạn ở, bạn có thể có một số quyền liên quan đến dữ liệu cá nhân của mình, bao gồm:",
+          "Để thực hiện các quyền này, vui lòng <a href=\"/contact\">liên hệ với chúng tôi</a>."
+        ],
+        "list": [
+          "Quyền truy cập dữ liệu cá nhân của bạn",
+          "Quyền chỉnh sửa dữ liệu không chính xác",
+          "Quyền yêu cầu xóa dữ liệu của bạn",
+          "Quyền từ chối một số hoạt động xử lý dữ liệu"
+        ]
+      },
+      {
+        "heading": "Quyền riêng tư của trẻ em",
+        "paragraphs": [
+          "Trang web của chúng tôi không hướng đến trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân của trẻ em dưới 13 tuổi. Nếu bạn cho rằng chúng tôi đã thu thập thông tin của trẻ em dưới 13 tuổi, vui lòng liên hệ ngay với chúng tôi."
+        ]
+      },
+      {
+        "heading": "Thay đổi đối với chính sách này",
+        "paragraphs": [
+          "Chúng tôi có thể cập nhật chính sách quyền riêng tư này theo thời gian. Chúng tôi sẽ thông báo mọi thay đổi bằng cách đăng chính sách mới trên trang này và cập nhật ngày “Cập nhật lần cuối”."
+        ]
+      },
+      {
+        "heading": "Liên hệ với chúng tôi",
+        "paragraphs": [
+          "Nếu bạn có câu hỏi về chính sách quyền riêng tư này hoặc cách chúng tôi xử lý dữ liệu, vui lòng liên hệ:"
+        ],
+        "list": [
+          "<strong>Email:</strong> <a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>",
+          "<strong>Trang liên hệ:</strong> <a href=\"/contact\">Liên hệ với chúng tôi</a>"
+        ]
+      }
+    ]
+  },
+  "terms-of-use": {
+    "meta_title": "Điều khoản sử dụng | Percentage Calculators",
+    "meta_description": "Điều khoản sử dụng các máy tính trực tuyến miễn phí của Percentage Calculators, bao gồm việc sử dụng chấp nhận được, trách nhiệm và độ chính xác của công cụ và kết quả.",
+    "h1": "Điều khoản sử dụng",
+    "subtitle": "Cập nhật lần cuối: tháng 12 năm 2024",
+    "sections": [
+      {
+        "heading": "Chấp nhận điều khoản",
+        "paragraphs": [
+          "Bằng việc truy cập và sử dụng Percentage Calculators (“Trang web”), bạn đồng ý chịu sự ràng buộc của các Điều khoản sử dụng này. Nếu bạn không đồng ý với các điều khoản này, vui lòng không sử dụng trang web của chúng tôi."
+        ]
+      },
+      {
+        "heading": "Mô tả dịch vụ",
+        "paragraphs": [
+          "Percentage Calculators cung cấp các công cụ tính toán trực tuyến miễn phí để thực hiện nhiều phép tính liên quan đến phần trăm. Dịch vụ của chúng tôi bao gồm nhưng không giới hạn ở:"
+        ],
+        "list": [
+          "Tính tăng và giảm phần trăm",
+          "Tính thay đổi và chênh lệch phần trăm",
+          "Tính giảm giá và giá khuyến mãi",
+          "Chuyển đổi phân số sang phần trăm",
+          "Tính tốc độ tăng trưởng",
+          "Tính sai số phần trăm",
+          "Tính phần trăm trung bình"
+        ]
+      },
+      {
+        "heading": "Sử dụng chấp nhận được",
+        "paragraphs": [
+          "Bạn đồng ý chỉ sử dụng Trang web cho các mục đích hợp pháp. Bạn không được:"
+        ],
+        "list": [
+          "Sử dụng Trang web theo cách vi phạm luật hoặc quy định hiện hành",
+          "Cố gắng truy cập trái phép vào hệ thống hoặc máy chủ của chúng tôi",
+          "Can thiệp hoặc làm gián đoạn chức năng của Trang web",
+          "Dùng hệ thống tự động hoặc bot để truy cập Trang web quá mức",
+          "Sao chép, tái tạo hoặc phân phối lại nội dung của chúng tôi mà không được phép",
+          "Dùng Trang web để truyền phần mềm độc hại hoặc mã độc"
+        ]
+      },
+      {
+        "heading": "Sở hữu trí tuệ",
+        "paragraphs": [
+          "Trang web cùng nội dung gốc, tính năng và chức năng của nó thuộc sở hữu của Percentage Calculators và được bảo vệ bởi luật bản quyền, nhãn hiệu và các luật sở hữu trí tuệ quốc tế khác.",
+          "Bạn có thể:",
+          "Bạn không được:"
+        ],
+        "list": [
+          "Sử dụng máy tính của chúng tôi cho mục đích cá nhân và giáo dục",
+          "Chia sẻ liên kết đến Trang web của chúng tôi",
+          "Trích dẫn phép tính của chúng tôi kèm ghi nguồn đúng cách",
+          "Sao chép hoặc tái tạo thiết kế hay mã của máy tính của chúng tôi",
+          "Xóa bất kỳ thông báo bản quyền hoặc quyền sở hữu nào",
+          "Đóng khung hoặc nhúng Trang web của chúng tôi mà không được phép"
+        ]
+      },
+      {
+        "heading": "Từ chối bảo đảm",
+        "paragraphs": [
+          "Trang web được cung cấp trên cơ sở “NGUYÊN TRẠNG” và “NHƯ HIỆN CÓ”. Chúng tôi không đưa ra bảo đảm nào, rõ ràng hay ngụ ý, về:",
+          "Vui lòng xem <a href=\"/disclaimer\">Tuyên bố miễn trừ</a> của chúng tôi để biết thêm thông tin."
+        ],
+        "list": [
+          "Tính chính xác hoặc độ tin cậy của các phép tính",
+          "Hoạt động không gián đoạn hoặc không có lỗi",
+          "Sự phù hợp cho bất kỳ mục đích cụ thể nào",
+          "Tính bảo mật của Trang web"
+        ]
+      },
+      {
+        "heading": "Giới hạn trách nhiệm",
+        "paragraphs": [
+          "Trong phạm vi tối đa pháp luật cho phép, Percentage Calculators sẽ không chịu trách nhiệm về bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, hệ quả hoặc mang tính trừng phạt nào, bao gồm nhưng không giới hạn ở:"
+        ],
+        "list": [
+          "Mất lợi nhuận hoặc doanh thu",
+          "Mất dữ liệu",
+          "Gián đoạn kinh doanh",
+          "Bất kỳ thiệt hại nào phát sinh từ việc bạn sử dụng máy tính của chúng tôi"
+        ]
+      },
+      {
+        "heading": "Bồi thường",
+        "paragraphs": [
+          "Bạn đồng ý bồi thường và bảo vệ Percentage Calculators, chủ sở hữu và các bên liên kết khỏi mọi khiếu nại, mất mát, thiệt hại, trách nhiệm và chi phí (bao gồm phí pháp lý) phát sinh từ việc bạn sử dụng Trang web hoặc vi phạm các điều khoản này."
+        ]
+      },
+      {
+        "heading": "Liên kết của bên thứ ba",
+        "paragraphs": [
+          "Trang web của chúng tôi có thể chứa liên kết đến các trang web của bên thứ ba. Chúng tôi không chịu trách nhiệm về nội dung, tính chính xác hay hoạt động của bất kỳ trang bên thứ ba nào. Việc truy cập các trang được liên kết là rủi ro của riêng bạn."
+        ]
+      },
+      {
+        "heading": "Sửa đổi dịch vụ",
+        "paragraphs": [
+          "Chúng tôi có quyền:",
+          "Việc tiếp tục sử dụng Trang web sau khi có thay đổi đồng nghĩa với việc chấp nhận các điều khoản đã sửa đổi."
+        ],
+        "list": [
+          "Sửa đổi hoặc ngừng bất kỳ phần nào của Trang web mà không cần thông báo",
+          "Cập nhật các Điều khoản sử dụng này bất cứ lúc nào",
+          "Thay đổi tính năng hoặc chức năng của máy tính của chúng tôi"
+        ]
+      },
+      {
+        "heading": "Luật điều chỉnh",
+        "paragraphs": [
+          "Các Điều khoản sử dụng này được điều chỉnh và giải thích theo luật của Singapore, không xét đến các quy định xung đột pháp luật của nước này."
+        ]
+      },
+      {
+        "heading": "Tính có thể tách rời",
+        "paragraphs": [
+          "Nếu bất kỳ quy định nào của các Điều khoản này bị cho là không thể thi hành, các quy định còn lại vẫn có hiệu lực đầy đủ."
+        ]
+      },
+      {
+        "heading": "Liên hệ với chúng tôi",
+        "paragraphs": [
+          "Nếu bạn có câu hỏi về các Điều khoản sử dụng này, vui lòng <a href=\"/contact\">liên hệ với chúng tôi</a>."
+        ],
+        "list": [
+          "<strong>Email:</strong> <a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>"
+        ]
+      }
+    ]
+  },
+  "sitemap": {
+    "meta_title": "Sơ đồ trang | Percentage Calculators",
+    "meta_description": "Mọi trang của Percentage Calculators được sắp xếp theo danh mục: danh sách đầy đủ các máy tính phần trăm, công cụ chuyển đổi và tài nguyên giáo dục.",
+    "h1": "Sơ đồ trang",
+    "subtitle": "Mọi trang của Percentage Calculators, được sắp xếp theo danh mục.",
+    "sections": []
+  }
+}

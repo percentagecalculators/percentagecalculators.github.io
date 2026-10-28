@@ -774,54 +774,54 @@ Files: `src/content/i18n/<lang>/<slug>.json` (tools/home), `src/content/i18n/<la
 
 ## vi - Vietnamese
 
-- [ ] `/vi/` (home, `percentage-calculator`)
-- [ ] `/vi/alcohol-proof-calculator/` **new**
-- [ ] `/vi/apr-apy-converter/` **new**
-- [ ] `/vi/apr-calculator/` **new**
-- [ ] `/vi/apy-calculator/` **new**
-- [ ] `/vi/average-percentage-calculator/`
-- [ ] `/vi/bakers-percentage-calculator/` **new**
-- [ ] `/vi/basis-points-calculator/` **new**
-- [ ] `/vi/cgpa-to-percentage-calculator/` **new**
-- [ ] `/vi/commission-calculator/` **new**
-- [ ] `/vi/compound-interest-calculator/` **new**
-- [ ] `/vi/decimal-to-percentage-calculator/` **new**
-- [ ] `/vi/depreciation-calculator/` **new**
-- [ ] `/vi/food-cost-percentage-calculator/` **new**
-- [ ] `/vi/fraction-to-percentage-calculator/`
-- [ ] `/vi/gpa-to-percentage-calculator/` **new**
-- [ ] `/vi/gross-margin-calculator/` **new**
-- [ ] `/vi/loan-interest-calculator/` **new**
-- [ ] `/vi/marks-percentage-calculator/` **new**
-- [ ] `/vi/markup-calculator/` **new**
-- [ ] `/vi/percent-solution-calculator/` **new**
-- [ ] `/vi/percentage-change-calculator/`
-- [ ] `/vi/percentage-decrease-calculator/`
-- [ ] `/vi/percentage-difference-calculator/`
-- [ ] `/vi/percentage-error-calculator/`
-- [ ] `/vi/percentage-growth-calculator/`
-- [ ] `/vi/percentage-increase-calculator/`
-- [ ] `/vi/percentage-of-a-percentage-calculator/` **new**
-- [ ] `/vi/percentage-off-calculator/`
-- [ ] `/vi/percentage-point-calculator/` **new**
-- [ ] `/vi/percentile-to-percentage-calculator/` **new**
-- [ ] `/vi/ppm-to-percentage-calculator/` **new**
-- [ ] `/vi/profit-margin-calculator/` **new**
-- [ ] `/vi/profit-percentage-calculator/` **new**
-- [ ] `/vi/ratio-to-percentage-calculator/` **new**
-- [ ] `/vi/reverse-percentage-calculator/`
-- [ ] `/vi/salary-increase-calculator/` **new**
-- [ ] `/vi/sgpa-to-percentage-calculator/` **new**
-- [ ] `/vi/simple-interest-calculator/` **new**
-- [ ] `/vi/slope-percentage-calculator/` **new**
-- [ ] `/vi/tip-calculator/` **new**
-- [ ] `/vi/win-loss-percentage-calculator/` **new**
-- [ ] `/vi/page/about/`
-- [ ] `/vi/page/contact/`
-- [ ] `/vi/page/disclaimer/`
-- [ ] `/vi/page/privacy-policy/`
-- [ ] `/vi/page/terms-of-use/`
-- [ ] `/vi/page/sitemap/` **new**
+- [x] `/vi/` (home, `percentage-calculator`)
+- [x] `/vi/alcohol-proof-calculator/` **new**
+- [x] `/vi/apr-apy-converter/` **new**
+- [x] `/vi/apr-calculator/` **new**
+- [x] `/vi/apy-calculator/` **new**
+- [x] `/vi/average-percentage-calculator/`
+- [x] `/vi/bakers-percentage-calculator/` **new**
+- [x] `/vi/basis-points-calculator/` **new**
+- [x] `/vi/cgpa-to-percentage-calculator/` **new**
+- [x] `/vi/commission-calculator/` **new**
+- [x] `/vi/compound-interest-calculator/` **new**
+- [x] `/vi/decimal-to-percentage-calculator/` **new**
+- [x] `/vi/depreciation-calculator/` **new**
+- [x] `/vi/food-cost-percentage-calculator/` **new**
+- [x] `/vi/fraction-to-percentage-calculator/`
+- [x] `/vi/gpa-to-percentage-calculator/` **new**
+- [x] `/vi/gross-margin-calculator/` **new**
+- [x] `/vi/loan-interest-calculator/` **new**
+- [x] `/vi/marks-percentage-calculator/` **new**
+- [x] `/vi/markup-calculator/` **new**
+- [x] `/vi/percent-solution-calculator/` **new**
+- [x] `/vi/percentage-change-calculator/`
+- [x] `/vi/percentage-decrease-calculator/`
+- [x] `/vi/percentage-difference-calculator/`
+- [x] `/vi/percentage-error-calculator/`
+- [x] `/vi/percentage-growth-calculator/`
+- [x] `/vi/percentage-increase-calculator/`
+- [x] `/vi/percentage-of-a-percentage-calculator/` **new**
+- [x] `/vi/percentage-off-calculator/`
+- [x] `/vi/percentage-point-calculator/` **new**
+- [x] `/vi/percentile-to-percentage-calculator/` **new**
+- [x] `/vi/ppm-to-percentage-calculator/` **new**
+- [x] `/vi/profit-margin-calculator/` **new**
+- [x] `/vi/profit-percentage-calculator/` **new**
+- [x] `/vi/ratio-to-percentage-calculator/` **new**
+- [x] `/vi/reverse-percentage-calculator/`
+- [x] `/vi/salary-increase-calculator/` **new**
+- [x] `/vi/sgpa-to-percentage-calculator/` **new**
+- [x] `/vi/simple-interest-calculator/` **new**
+- [x] `/vi/slope-percentage-calculator/` **new**
+- [x] `/vi/tip-calculator/` **new**
+- [x] `/vi/win-loss-percentage-calculator/` **new**
+- [x] `/vi/page/about/`
+- [x] `/vi/page/contact/`
+- [x] `/vi/page/disclaimer/`
+- [x] `/vi/page/privacy-policy/`
+- [x] `/vi/page/terms-of-use/`
+- [x] `/vi/page/sitemap/` **new**
 
 ## zh-cn - Chinese (Simplified)
 

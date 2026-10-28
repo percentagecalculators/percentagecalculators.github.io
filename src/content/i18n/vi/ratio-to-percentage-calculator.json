@@ -1,0 +1,18 @@
+{
+  "slug": "ratio-to-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính tỷ lệ sang phần trăm | Đổi tỷ lệ sang %",
+  "meta_description": "Máy tính tỷ lệ sang phần trăm miễn phí. Nhập hai phần của một tỷ lệ để xem ngay tổng và phần đầu chiếm bao nhiêu phần trăm.",
+  "h1": "Máy tính tỷ lệ sang phần trăm",
+  "subtitle": "Nhập cả hai phần của một <strong>tỷ lệ</strong> (như 3 : 4), và <strong>máy tính tỷ lệ sang phần trăm</strong> này hiển thị ngay <strong>tổng</strong> và phần đầu chiếm bao nhiêu <strong>phần trăm</strong>.",
+  "hint": "Nhập cả hai phần của một tỷ lệ để nhận phần trăm trên tổng.",
+  "long_tail_anchor": "Đổi tỷ lệ sang phần trăm thị phần",
+  "card_strings": {
+    "A as % of Total:": "A theo % của tổng:",
+    "Part A": "Phần A",
+    "Part B": "Phần B",
+    "Total:": "Tổng:",
+    "e.g. 3": "VD: 3",
+    "e.g. 4": "VD: 4"
+  }
+}

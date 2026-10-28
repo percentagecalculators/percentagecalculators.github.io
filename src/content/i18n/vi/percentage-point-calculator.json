@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính điểm phần trăm | Chênh lệch theo điểm",
+  "meta_description": "Máy tính điểm phần trăm miễn phí. Nhập hai phần trăm để xem ngay chênh lệch theo điểm phần trăm và phần trăm thay đổi tương đối.",
+  "h1": "Máy tính điểm phần trăm",
+  "subtitle": "Nhập hai <strong>phần trăm</strong> và <strong>máy tính điểm phần trăm</strong> này hiển thị <strong>chênh lệch theo điểm phần trăm</strong>, không giống với phần trăm thay đổi tương đối, mà nó cũng hiển thị để so sánh.",
+  "hint": "Nhập hai phần trăm để nhận chênh lệch theo điểm phần trăm.",
+  "long_tail_anchor": "Điểm phần trăm so với thay đổi phần trăm",
+  "card_strings": {
+    "Percentage A": "Phần trăm A",
+    "Percentage B": "Phần trăm B",
+    "Point Difference:": "Chênh lệch điểm:",
+    "Relative Change:": "Thay đổi tương đối:",
+    "e.g. 20": "VD: 20",
+    "e.g. 25": "VD: 25"
+  }
+}

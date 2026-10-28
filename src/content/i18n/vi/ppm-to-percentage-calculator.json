@@ -1,0 +1,15 @@
+{
+  "slug": "ppm-to-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính ppm sang phần trăm | Đổi phần triệu",
+  "meta_description": "Máy tính ppm sang phần trăm miễn phí. Nhập giá trị phần triệu (ppm) để đổi ngay sang phần trăm: chính xác cho hóa học và kỹ thuật.",
+  "h1": "Máy tính ppm sang phần trăm",
+  "subtitle": "Nhập giá trị theo <strong>phần triệu (ppm)</strong> và <strong>máy tính ppm sang phần trăm</strong> này đổi ngay sang <strong>phần trăm</strong>, hữu ích cho các phép đo nồng độ và độ tinh khiết.",
+  "hint": "Nhập giá trị ppm để nhận phần trăm tương đương.",
+  "long_tail_anchor": "Từ phần triệu sang phần trăm",
+  "card_strings": {
+    "PPM": "ppm",
+    "Percentage:": "Phần trăm:",
+    "e.g. 2500": "VD: 2500"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính phần trăm ngược | Tìm số ban đầu",
+  "meta_description": "Máy tính phần trăm ngược miễn phí. Tìm số ban đầu khi bạn biết một giá trị và phần trăm của nó: tính giá trước giảm giá và nhiều hơn nữa.",
+  "h1": "Máy tính phần trăm ngược",
+  "subtitle": "Có một con số và biết nó là một phần trăm nào đó của số lớn hơn? Nhập <strong>giá trị đã biết</strong> và <strong>phần trăm mà nó đại diện</strong>, và <strong>máy tính phần trăm ngược</strong> này tính ngược để tìm <strong>số ban đầu</strong>. Nếu 30 là 25 % của tổng, thì tổng là 120.",
+  "hint": "Nhập một giá trị và phần trăm mà nó đại diện để tìm số ban đầu.",
+  "long_tail_anchor": "Tìm số ban đầu",
+  "card_strings": {
+    "Original Total:": "Tổng ban đầu:",
+    "Value": "Giá trị",
+    "e.g. 30": "VD: 30",
+    "e.g. 45": "VD: 45",
+    "is this % of the total": "là % này của tổng"
+  }
+}

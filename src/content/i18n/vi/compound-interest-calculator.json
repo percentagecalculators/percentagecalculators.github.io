@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính lãi kép | Tính mức tăng trưởng theo thời gian",
+  "meta_description": "Máy tính lãi kép miễn phí. Nhập vốn gốc, lãi suất hàng năm, thời gian và tần suất ghép lãi để tính ngay lãi nhận được và tổng số tiền.",
+  "h1": "Máy tính lãi kép",
+  "subtitle": "Nhập <strong>vốn gốc</strong>, <strong>lãi suất hàng năm</strong>, <strong>thời gian</strong> và <strong>tần suất ghép lãi</strong>, và <strong>máy tính lãi kép</strong> này hiển thị ngay <strong>lãi nhận được</strong> và <strong>tổng số tiền</strong>.",
+  "hint": "Nhập vốn gốc, lãi suất, thời gian và tần suất ghép lãi để nhận tổng số tiền.",
+  "long_tail_anchor": "Tần suất ghép lãi và tăng trưởng",
+  "card_strings": {
+    "Annual Rate": "Lãi suất hàng năm",
+    "Compounding / Year": "Ghép lãi / năm",
+    "Interest Earned:": "Lãi nhận được:",
+    "Principal ($)": "Vốn gốc ($)",
+    "Time (Years)": "Thời gian (năm)",
+    "Total Amount:": "Tổng số tiền:",
+    "e.g. 1000": "VD: 1000",
+    "e.g. 12": "VD: 12",
+    "e.g. 3": "VD: 3",
+    "e.g. 5": "VD: 5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "percentile-to-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính bách phân vị sang phần trăm | Ước tính phần trăm",
+  "meta_description": "Máy tính bách phân vị sang phần trăm miễn phí. Nhanh chóng nhận phần trăm ước tính từ bách phân vị của kỳ thi bằng công thức xấp xỉ thường dùng.",
+  "h1": "Máy tính bách phân vị sang phần trăm",
+  "subtitle": "Nhập điểm <strong>bách phân vị</strong> của bạn và <strong>máy tính bách phân vị sang phần trăm</strong> này nhanh chóng cho bạn <strong>phần trăm ước tính</strong> bằng một phép xấp xỉ thường được dùng. Bách phân vị và phần trăm đo những thứ khác nhau, vì vậy hãy coi đây là ước tính chứ không phải phép quy đổi chính thức.",
+  "hint": "Nhập bách phân vị (0–100) để nhận phần trăm ước tính.",
+  "long_tail_anchor": "Ước tính phần trăm từ thứ hạng bách phân vị",
+  "card_strings": {
+    "%ile": "BPV",
+    "Estimated Percentage:": "Phần trăm ước tính:",
+    "Percentile": "Bách phân vị",
+    "e.g. 85": "VD: 85"
+  }
+}

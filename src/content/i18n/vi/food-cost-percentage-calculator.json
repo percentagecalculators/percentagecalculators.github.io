@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính phần trăm chi phí thực phẩm | Tính chi phí món ăn %",
+  "meta_description": "Máy tính phần trăm chi phí thực phẩm miễn phí. Nhập chi phí nguyên liệu và giá món để tính ngay phần trăm chi phí thực phẩm của một món trong thực đơn.",
+  "h1": "Máy tính phần trăm chi phí thực phẩm",
+  "subtitle": "Nhập <strong>chi phí nguyên liệu</strong> và <strong>giá món</strong>, và <strong>máy tính phần trăm chi phí thực phẩm</strong> này tính ngay <strong>phần trăm chi phí thực phẩm</strong> của món đó.",
+  "hint": "Nhập chi phí nguyên liệu và giá món để nhận phần trăm chi phí thực phẩm.",
+  "long_tail_anchor": "Phần trăm chi phí thực đơn nhà hàng",
+  "card_strings": {
+    "Food Cost Percentage:": "Phần trăm chi phí thực phẩm:",
+    "Ingredient Cost ($)": "Chi phí nguyên liệu ($)",
+    "Menu Price ($)": "Giá món ($)",
+    "e.g. 14": "VD: 14",
+    "e.g. 3.50": "VD: 3.50"
+  }
+}

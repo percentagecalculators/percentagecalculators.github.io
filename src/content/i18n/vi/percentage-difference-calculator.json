@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính chênh lệch phần trăm | So sánh hai giá trị",
+  "meta_description": "Máy tính chênh lệch phần trăm miễn phí. So sánh hai số và tìm chênh lệch phần trăm. Dùng giá trị trung bình làm cơ sở để so sánh đối xứng, không thiên lệch.",
+  "h1": "Máy tính chênh lệch phần trăm",
+  "subtitle": "Nhập <strong>hai giá trị</strong> và <strong>máy tính chênh lệch phần trăm</strong> này cho biết chúng cách nhau bao nhiêu theo <strong>phần trăm</strong>, lấy <strong>giá trị trung bình</strong> của chúng làm cơ sở. Khác với thay đổi phần trăm, thứ tự ở đây không quan trọng: so sánh 50 với 80 cho kết quả giống như 80 với 50.",
+  "hint": "Nhập hai giá trị để nhận chênh lệch phần trăm giữa chúng.",
+  "long_tail_anchor": "So sánh hai số một cách đối xứng",
+  "card_strings": {
+    "Absolute Difference:": "Chênh lệch tuyệt đối:",
+    "Enter first number": "Nhập số thứ nhất",
+    "Enter second number": "Nhập số thứ hai",
+    "First Value": "Giá trị thứ nhất",
+    "Percentage Difference:": "Chênh lệch phần trăm:",
+    "Second Value": "Giá trị thứ hai"
+  }
+}

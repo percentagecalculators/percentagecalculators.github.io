@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính tiền boa | Tính tiền boa và chia hóa đơn",
+  "meta_description": "Máy tính tiền boa miễn phí. Nhập số tiền hóa đơn, phần trăm tiền boa và số người để tính ngay tiền boa, tổng và số tiền mỗi người.",
+  "h1": "Máy tính tiền boa",
+  "subtitle": "Nhập <strong>số tiền hóa đơn</strong>, <strong>phần trăm tiền boa</strong> và <strong>số người</strong>, và <strong>máy tính tiền boa</strong> này tính ngay <strong>tiền boa</strong>, <strong>tổng</strong> và số tiền <strong>mỗi người phải trả</strong>.",
+  "hint": "Nhập hóa đơn, % tiền boa và số người để chia.",
+  "long_tail_anchor": "Chia hóa đơn và tiền boa nhà hàng",
+  "card_strings": {
+    "Bill Amount ($)": "Số tiền hóa đơn ($)",
+    "Per Person:": "Mỗi người:",
+    "Split Between": "Chia cho",
+    "Tip": "Tiền boa",
+    "Tip Amount:": "Số tiền boa:",
+    "Total:": "Tổng:",
+    "e.g. 18": "VD: 18",
+    "e.g. 4": "VD: 4",
+    "e.g. 80": "VD: 80"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính lãi đơn | Lãi và tổng số tiền",
+  "meta_description": "Máy tính lãi đơn miễn phí. Nhập vốn gốc, lãi suất hàng năm và thời gian để tính ngay lãi nhận được và tổng số tiền.",
+  "h1": "Máy tính lãi đơn",
+  "subtitle": "Nhập <strong>vốn gốc</strong>, <strong>lãi suất hàng năm</strong> và <strong>thời gian tính bằng năm</strong>, và <strong>máy tính lãi đơn</strong> này hiển thị ngay <strong>lãi nhận được</strong> và <strong>tổng số tiền</strong>.",
+  "hint": "Nhập vốn gốc, lãi suất hàng năm và thời gian để nhận lãi và tổng số tiền.",
+  "long_tail_anchor": "Công thức vốn gốc, lãi suất và thời gian",
+  "card_strings": {
+    "Annual Rate": "Lãi suất hàng năm",
+    "Interest Earned:": "Lãi nhận được:",
+    "Principal ($)": "Vốn gốc ($)",
+    "Time (Years)": "Thời gian (năm)",
+    "Total Amount:": "Tổng số tiền:",
+    "e.g. 1000": "VD: 1000",
+    "e.g. 3": "VD: 3",
+    "e.g. 5": "VD: 5"
+  }
+}

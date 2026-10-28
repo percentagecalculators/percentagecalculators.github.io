@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "Chuyển đến nội dung",
+  "primary_nav": "Điều hướng chính",
+  "toggle_dark": "Bật/tắt chế độ tối",
+  "open_menu": "Mở menu",
+  "close_menu": "Đóng menu",
+  "site_nav": "Điều hướng trang",
+  "home": "Trang chủ",
+  "more": "Thêm",
+  "language": "Ngôn ngữ",
+  "reset": "Đặt lại máy tính",
+  "calculate": "Tính",
+  "related_aria": "Máy tính liên quan",
+  "faq_heading": "Câu hỏi thường gặp",
+  "toc_label": "Mục lục",
+  "copy_result": "Sao chép kết quả",
+  "copied": "Đã sao chép!",
+  "company": "Công ty",
+  "footer_site_map": "Sơ đồ trang",
+  "footer_links": "Liên kết chân trang",
+  "rights": "Bảo lưu mọi quyền.",
+  "footer_tagline": "Máy tính phần trăm trực tuyến miễn phí. Mọi phép tính chạy hoàn toàn trong trình duyệt của bạn: kết quả tức thì, không cần đăng ký.",
+  "native_name": "Tiếng Việt",
+  "nav_groups": {
+    "core": {
+      "label": "Công cụ phần trăm cơ bản",
+      "short_label": "Cơ bản",
+      "tagline": "Những điều thiết yếu: tìm phần trăm, tăng hoặc giảm một số và so sánh hai giá trị."
+    },
+    "converters": {
+      "label": "Công cụ chuyển đổi",
+      "short_label": "Chuyển đổi",
+      "tagline": "Chuyển đổi giữa phần trăm, phân số, số thập phân, tỷ lệ và các dạng đơn vị khác."
+    },
+    "education": {
+      "label": "Giáo dục",
+      "short_label": "Giáo dục",
+      "tagline": "Quy đổi GPA, CGPA, SGPA, điểm số và bách phân vị cho học sinh, sinh viên."
+    },
+    "finance": {
+      "label": "Tài chính và kinh doanh",
+      "short_label": "Tài chính",
+      "tagline": "Lãi suất, biên lợi nhuận, markup, tăng lương và tăng trưởng kinh doanh."
+    },
+    "everyday": {
+      "label": "Đời sống và chuyên biệt",
+      "short_label": "Đời sống",
+      "tagline": "Tiền boa, tỷ lệ thắng, tỷ lệ làm bánh, chi phí thực phẩm và nồng độ phần trăm dung dịch."
+    }
+  },
+  "company_links": {
+    "/about": "Giới thiệu",
+    "/contact": "Liên hệ",
+    "/sitemap": "Sơ đồ trang",
+    "/disclaimer": "Tuyên bố miễn trừ",
+    "/privacy-policy": "Chính sách quyền riêng tư",
+    "/terms-of-use": "Điều khoản sử dụng"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "Máy tính độ proof của rượu",
+    "apr-apy-converter": "Công cụ đổi APR sang APY",
+    "apr-calculator": "Máy tính APR",
+    "apy-calculator": "Máy tính APY",
+    "average-percentage-calculator": "Máy tính phần trăm trung bình",
+    "bakers-percentage-calculator": "Máy tính phần trăm thợ làm bánh",
+    "basis-points-calculator": "Máy tính điểm cơ bản",
+    "cgpa-to-percentage-calculator": "Máy tính CGPA sang phần trăm",
+    "commission-calculator": "Máy tính hoa hồng",
+    "compound-interest-calculator": "Máy tính lãi kép",
+    "decimal-to-percentage-calculator": "Máy tính số thập phân sang phần trăm",
+    "depreciation-calculator": "Máy tính khấu hao",
+    "food-cost-percentage-calculator": "Máy tính phần trăm chi phí thực phẩm",
+    "fraction-to-percentage-calculator": "Máy tính phân số sang phần trăm",
+    "gpa-to-percentage-calculator": "Máy tính GPA sang phần trăm",
+    "gross-margin-calculator": "Máy tính biên lợi nhuận gộp",
+    "loan-interest-calculator": "Máy tính lãi vay",
+    "marks-percentage-calculator": "Máy tính phần trăm điểm số",
+    "markup-calculator": "Máy tính markup",
+    "percent-solution-calculator": "Máy tính dung dịch phần trăm",
+    "percentage-calculator": "Máy tính phần trăm",
+    "percentage-change-calculator": "Máy tính thay đổi phần trăm",
+    "percentage-decrease-calculator": "Máy tính giảm phần trăm",
+    "percentage-difference-calculator": "Máy tính chênh lệch phần trăm",
+    "percentage-error-calculator": "Máy tính sai số phần trăm",
+    "percentage-growth-calculator": "Máy tính tăng trưởng phần trăm",
+    "percentage-increase-calculator": "Máy tính tăng phần trăm",
+    "percentage-of-a-percentage-calculator": "Máy tính phần trăm của một phần trăm",
+    "percentage-off-calculator": "Máy tính giảm giá",
+    "percentage-point-calculator": "Máy tính điểm phần trăm",
+    "percentile-to-percentage-calculator": "Máy tính bách phân vị sang phần trăm",
+    "ppm-to-percentage-calculator": "Máy tính ppm sang phần trăm",
+    "profit-margin-calculator": "Máy tính biên lợi nhuận",
+    "profit-percentage-calculator": "Máy tính phần trăm lợi nhuận",
+    "ratio-to-percentage-calculator": "Máy tính tỷ lệ sang phần trăm",
+    "reverse-percentage-calculator": "Máy tính phần trăm ngược",
+    "salary-increase-calculator": "Máy tính tăng lương",
+    "sgpa-to-percentage-calculator": "Máy tính SGPA sang phần trăm",
+    "simple-interest-calculator": "Máy tính lãi đơn",
+    "slope-percentage-calculator": "Máy tính độ dốc phần trăm",
+    "tip-calculator": "Máy tính tiền boa",
+    "win-loss-percentage-calculator": "Máy tính thắng thua"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính biên lợi nhuận gộp | Tính biên lợi nhuận gộp %",
+  "meta_description": "Máy tính biên lợi nhuận gộp miễn phí. Nhập doanh thu và giá vốn hàng bán (COGS) để tính ngay lợi nhuận gộp và phần trăm biên lợi nhuận gộp.",
+  "h1": "Máy tính biên lợi nhuận gộp",
+  "subtitle": "Nhập <strong>doanh thu</strong> và <strong>giá vốn hàng bán (COGS)</strong> của bạn, và <strong>máy tính biên lợi nhuận gộp</strong> này tính ngay <strong>lợi nhuận gộp</strong> và <strong>phần trăm biên lợi nhuận gộp</strong> của bạn.",
+  "hint": "Nhập doanh thu và COGS để nhận phần trăm biên lợi nhuận gộp của bạn.",
+  "long_tail_anchor": "Phần trăm biên lợi nhuận từ doanh thu và COGS",
+  "card_strings": {
+    "COGS ($)": "COGS ($)",
+    "Gross Margin:": "Biên lợi nhuận gộp:",
+    "Gross Profit:": "Lợi nhuận gộp:",
+    "Revenue ($)": "Doanh thu ($)",
+    "e.g. 100000": "VD: 100000",
+    "e.g. 65000": "VD: 65000"
+  }
+}

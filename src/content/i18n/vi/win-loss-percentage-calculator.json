@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính phần trăm thắng/thua | Tính tỷ lệ thắng",
+  "meta_description": "Máy tính phần trăm thắng thua miễn phí. Nhập số trận thắng, thua và hòa để tính ngay tỷ lệ thắng của bạn trong bất kỳ môn thể thao, trò chơi hay cuộc thi nào.",
+  "h1": "Máy tính phần trăm thắng thua",
+  "subtitle": "Nhập số <strong>trận thắng</strong>, <strong>trận thua</strong> và <strong>trận hòa</strong> nếu có, và <strong>máy tính phần trăm thắng thua</strong> này tính ngay <strong>phần trăm thắng</strong> của bạn.",
+  "hint": "Nhập số trận thắng, thua và hòa để nhận phần trăm thắng của bạn.",
+  "long_tail_anchor": "Tính tỷ lệ thắng thể thao của bạn",
+  "card_strings": {
+    "Losses": "Thua",
+    "Ties": "Hòa",
+    "Total Games:": "Tổng số trận:",
+    "Win Percentage:": "Phần trăm thắng:",
+    "Wins": "Thắng",
+    "e.g. 10": "VD: 10",
+    "e.g. 18": "VD: 18",
+    "e.g. 2": "VD: 2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính phần trăm của một phần trăm | Kết hợp hai %",
+  "meta_description": "Máy tính phần trăm của một phần trăm miễn phí. Nhân hai phần trăm liên tiếp, rồi áp dụng tỷ lệ kết hợp vào một giá trị cho thuế hoặc giảm giá chồng nhau.",
+  "h1": "Máy tính phần trăm của một phần trăm",
+  "subtitle": "Nhập hai <strong>phần trăm</strong> và <strong>máy tính phần trăm của một phần trăm</strong> này nhân chúng theo đúng cách để cho bạn <strong>phần trăm kết hợp</strong>: thêm một giá trị ban đầu để thấy chính xác nó biến đổi qua cả hai bước ra sao.",
+  "hint": "Nhân hai phần trăm liên tiếp để nhận tỷ lệ kết hợp.",
+  "long_tail_anchor": "Kết hợp hai phần trăm liên tiếp",
+  "card_strings": {
+    "Apply to a Value (optional)": "Áp dụng cho một giá trị (tùy chọn)",
+    "Combined Percentage:": "Phần trăm kết hợp:",
+    "Final Value:": "Giá trị cuối:",
+    "First Percentage": "Phần trăm thứ nhất",
+    "Second Percentage": "Phần trăm thứ hai",
+    "Value After First %:": "Giá trị sau % thứ nhất:",
+    "e.g. 200": "VD: 200",
+    "e.g. 40": "VD: 40",
+    "e.g. 90": "VD: 90"
+  }
+}

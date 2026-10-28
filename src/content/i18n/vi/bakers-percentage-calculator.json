@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính phần trăm thợ làm bánh | Tính tỷ lệ nguyên liệu",
+  "meta_description": "Máy tính phần trăm thợ làm bánh miễn phí. Nhập khối lượng bột và khối lượng nguyên liệu để tính ngay phần trăm thợ làm bánh của nguyên liệu đó.",
+  "h1": "Máy tính phần trăm thợ làm bánh",
+  "subtitle": "Nhập <strong>khối lượng bột</strong> và <strong>khối lượng nguyên liệu</strong>, và <strong>máy tính phần trăm thợ làm bánh</strong> này tính ngay <strong>phần trăm thợ làm bánh</strong> của nguyên liệu đó: mỗi nguyên liệu được biểu thị so với bột.",
+  "hint": "Nhập khối lượng bột và nguyên liệu để nhận phần trăm thợ làm bánh.",
+  "long_tail_anchor": "Độ ẩm bột nhào và tỷ lệ nguyên liệu",
+  "card_strings": {
+    "Baker's Percentage:": "Phần trăm thợ làm bánh:",
+    "Flour Weight (g)": "Khối lượng bột (g)",
+    "Ingredient Weight (g)": "Khối lượng nguyên liệu (g)",
+    "e.g. 350": "VD: 350",
+    "e.g. 500": "VD: 500"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính biên lợi nhuận | Tính biên lợi nhuận %",
+  "meta_description": "Máy tính biên lợi nhuận miễn phí. Nhập giá vốn và giá bán để tính ngay lợi nhuận và biên lợi nhuận trên giá bán.",
+  "h1": "Máy tính biên lợi nhuận",
+  "subtitle": "Nhập <strong>giá vốn</strong> và <strong>giá bán</strong>, và <strong>máy tính biên lợi nhuận</strong> này tính ngay <strong>lợi nhuận</strong> và <strong>biên lợi nhuận</strong> theo phần trăm của giá bán.",
+  "hint": "Nhập giá vốn và giá bán để nhận biên lợi nhuận của bạn.",
+  "long_tail_anchor": "Phần trăm biên lợi nhuận trên giá bán",
+  "card_strings": {
+    "Cost Price ($)": "Giá vốn ($)",
+    "Profit Margin:": "Biên lợi nhuận:",
+    "Profit:": "Lợi nhuận:",
+    "Selling Price ($)": "Giá bán ($)",
+    "e.g. 40": "VD: 40",
+    "e.g. 55": "VD: 55"
+  }
+}

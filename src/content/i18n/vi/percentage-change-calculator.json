@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính thay đổi phần trăm | Tăng/giảm phần trăm",
+  "meta_description": "Máy tính thay đổi phần trăm miễn phí. Tính mức tăng hoặc giảm phần trăm giữa hai giá trị: theo dõi biến động cổ phiếu và giá cả.",
+  "h1": "Máy tính thay đổi phần trăm",
+  "subtitle": "Nhập một <strong>giá trị cũ</strong> và một <strong>giá trị mới</strong>, và <strong>máy tính thay đổi phần trăm</strong> này cho bạn biết <strong>mức tăng hoặc giảm phần trăm</strong> giữa chúng. Kết quả dương khi tăng và âm khi giảm: từ 80 lên 100 cho +25 %.",
+  "hint": "Nhập giá trị cũ và mới để nhận phần trăm thay đổi giữa chúng.",
+  "long_tail_anchor": "Tăng hoặc giảm phần trăm",
+  "card_strings": {
+    "Change Type:": "Loại thay đổi:",
+    "Enter ending value": "Nhập giá trị cuối",
+    "Enter starting value": "Nhập giá trị đầu",
+    "New Value (Current)": "Giá trị mới (hiện tại)",
+    "Old Value (Original)": "Giá trị cũ (ban đầu)",
+    "Percentage Change:": "Phần trăm thay đổi:"
+  }
+}

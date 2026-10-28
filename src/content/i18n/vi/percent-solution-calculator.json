@@ -1,0 +1,17 @@
+{
+  "slug": "percent-solution-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính dung dịch phần trăm | Nồng độ khối lượng/thể tích",
+  "meta_description": "Máy tính dung dịch phần trăm miễn phí. Nhập khối lượng chất tan và thể tích dung dịch để tính ngay nồng độ phần trăm (% kl/tt).",
+  "h1": "Máy tính dung dịch phần trăm",
+  "subtitle": "Nhập <strong>khối lượng chất tan</strong> và <strong>thể tích dung dịch</strong>, và <strong>máy tính dung dịch phần trăm</strong> này tính ngay <strong>nồng độ phần trăm</strong> (% kl/tt).",
+  "hint": "Nhập khối lượng chất tan và thể tích dung dịch để nhận nồng độ.",
+  "long_tail_anchor": "Nồng độ phần trăm khối lượng và thể tích",
+  "card_strings": {
+    "Concentration (% w/v):": "Nồng độ (% kl/tt):",
+    "Mass of Solute (g)": "Khối lượng chất tan (g)",
+    "Volume of Solution (mL)": "Thể tích dung dịch (mL)",
+    "e.g. 250": "VD: 250",
+    "e.g. 5": "VD: 5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính markup | Giá bán từ chi phí + %",
+  "meta_description": "Máy tính markup miễn phí. Nhập giá vốn và phần trăm markup mong muốn để tính ngay giá bán bạn nên áp dụng.",
+  "h1": "Máy tính markup",
+  "subtitle": "Nhập <strong>giá vốn</strong> và <strong>phần trăm markup</strong> mong muốn, và <strong>máy tính markup</strong> này tính ngay <strong>giá bán</strong> bạn nên áp dụng.",
+  "hint": "Nhập giá vốn và % markup để nhận giá bán.",
+  "long_tail_anchor": "Từ chi phí cộng markup ra giá bán",
+  "card_strings": {
+    "Cost Price ($)": "Giá vốn ($)",
+    "Markup": "Markup",
+    "Markup Amount:": "Số tiền markup:",
+    "Selling Price:": "Giá bán:",
+    "e.g. 30": "VD: 30",
+    "e.g. 40": "VD: 40"
+  }
+}

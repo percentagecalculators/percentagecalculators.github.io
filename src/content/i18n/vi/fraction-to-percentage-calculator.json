@@ -1,0 +1,18 @@
+{
+  "slug": "fraction-to-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính phân số sang phần trăm | Đổi sang phần trăm",
+  "meta_description": "Máy tính phân số sang phần trăm miễn phí. Đổi ngay bất kỳ phân số nào sang phần trăm: lý tưởng cho điểm kiểm tra, tỷ lệ và tỷ số.",
+  "h1": "Máy tính phân số sang phần trăm",
+  "subtitle": "Nhập một <strong>tử số</strong> (số ở trên) và một <strong>mẫu số</strong> (số ở dưới), và <strong>máy tính phân số sang phần trăm</strong> này đổi phân số của bạn sang <strong>phần trăm</strong> và <strong>số thập phân</strong>. Vì vậy 3/4 thành 75 %: gõ vào và phép tính diễn ra ngay khi bạn gõ.",
+  "hint": "Nhập tử số và mẫu số để đổi sang phần trăm.",
+  "long_tail_anchor": "Đổi phân số sang phần trăm",
+  "card_strings": {
+    "Decimal Value:": "Số thập phân:",
+    "Denominator": "Mẫu số",
+    "Numerator": "Tử số",
+    "Percentage:": "Phần trăm:",
+    "e.g. 3": "VD: 3",
+    "e.g. 4": "VD: 4"
+  }
+}

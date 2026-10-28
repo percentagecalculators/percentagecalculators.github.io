@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính độ dốc phần trăm | Từ độ cao/khoảng cách sang %",
+  "meta_description": "Máy tính độ dốc phần trăm miễn phí. Nhập độ chênh cao và khoảng cách ngang để tính ngay phần trăm độ dốc và góc tương đương theo độ.",
+  "h1": "Máy tính độ dốc phần trăm",
+  "subtitle": "Nhập <strong>độ chênh cao</strong> và <strong>khoảng cách ngang</strong>, và <strong>máy tính độ dốc phần trăm</strong> này tính ngay <strong>phần trăm độ dốc</strong> và <strong>góc theo độ</strong> tương đương.",
+  "hint": "Nhập độ chênh cao và khoảng cách ngang để nhận phần trăm độ dốc và góc.",
+  "long_tail_anchor": "Từ độ chênh cao trên khoảng cách sang phần trăm độ dốc",
+  "card_strings": {
+    "Angle:": "Góc:",
+    "Rise": "Độ chênh cao",
+    "Run": "Khoảng cách ngang",
+    "Slope:": "Độ dốc:",
+    "e.g. 100": "VD: 100",
+    "e.g. 5": "VD: 5"
+  }
+}

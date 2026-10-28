@@ -1,0 +1,15 @@
+{
+  "slug": "basis-points-calculator",
+  "lang": "vi",
+  "meta_title": "Máy tính điểm cơ bản | Đổi điểm cơ bản sang phần trăm",
+  "meta_description": "Máy tính điểm cơ bản miễn phí. Nhập giá trị điểm cơ bản (bps) để đổi ngay sang phần trăm: kết quả chính xác cho tài chính và giao dịch.",
+  "h1": "Máy tính điểm cơ bản",
+  "subtitle": "Nhập giá trị theo <strong>điểm cơ bản (bps)</strong> và <strong>máy tính điểm cơ bản</strong> này đổi ngay sang <strong>phần trăm</strong>: cách tiêu chuẩn mà giới tài chính biểu thị những thay đổi nhỏ của lãi suất.",
+  "hint": "Nhập điểm cơ bản để nhận phần trăm tương đương.",
+  "long_tail_anchor": "Đổi điểm cơ bản sang phần trăm",
+  "card_strings": {
+    "Basis Points (bps)": "Điểm cơ bản (bps)",
+    "Percentage:": "Phần trăm:",
+    "e.g. 25": "VD: 25"
+  }
+}
