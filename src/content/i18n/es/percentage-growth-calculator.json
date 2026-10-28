@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Crecimiento Porcentual | Tasa de Crecimiento Empresarial",
+  "meta_description": "Calculadora gratuita de crecimiento porcentual. Calcula tasas de crecimiento de ingresos, clientes, ventas y KPI. Sigue el rendimiento de tu negocio con métricas precisas.",
+  "h1": "Calculadora de Crecimiento Porcentual",
+  "subtitle": "Introduce un <strong>valor inicial</strong> y un <strong>valor final</strong>, y esta <strong>calculadora de crecimiento porcentual</strong> te muestra la <strong>tasa de crecimiento</strong> y el <strong>importe del crecimiento</strong>. Responde a la pregunta: ¿en qué porcentaje creció tu número del punto A al punto B?",
+  "hint": "Introduce un valor inicial y uno final para obtener el crecimiento porcentual.",
+  "long_tail_anchor": "Tasa de crecimiento de negocio e ingresos",
+  "card_strings": {
+    "Ending value": "Valor final",
+    "Final Value": "Valor final",
+    "Growth Amount:": "Importe del crecimiento:",
+    "Growth Rate:": "Tasa de crecimiento:",
+    "Initial Value": "Valor inicial",
+    "Starting value": "Valor inicial"
+  }
+}

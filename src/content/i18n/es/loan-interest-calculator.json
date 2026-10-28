@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Interés de Préstamos | Cuota Mensual e Interés Total",
+  "meta_description": "Calculadora gratuita de interés de préstamos. Introduce importe, tasa anual y plazo para calcular al instante tu cuota mensual (EMI) y el interés total a pagar.",
+  "h1": "Calculadora de Interés de Préstamos",
+  "subtitle": "Introduce el <strong>importe del préstamo</strong>, la <strong>tasa de interés anual</strong> y el <strong>plazo</strong>, y esta <strong>calculadora de interés de préstamos</strong> calcula al instante tu <strong>cuota mensual (EMI)</strong> y el <strong>interés total</strong> que pagarás.",
+  "hint": "Introduce importe, tasa y plazo para obtener tu cuota mensual (EMI).",
+  "long_tail_anchor": "Cuota mensual e interés total",
+  "card_strings": {
+    "Annual Rate": "Tasa anual",
+    "Loan Amount ($)": "Importe del préstamo ($)",
+    "Loan Term (Years)": "Plazo del préstamo (años)",
+    "Monthly EMI:": "Cuota mensual (EMI):",
+    "Total Interest:": "Interés total:",
+    "e.g. 20000": "p. ej. 20000",
+    "e.g. 5": "p. ej. 5",
+    "e.g. 7.5": "p. ej. 7.5"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Interés Simple | Interés e Importe Total",
+  "meta_description": "Calculadora gratuita de interés simple. Introduce capital, tasa anual y tiempo para calcular al instante el interés ganado y el importe total.",
+  "h1": "Calculadora de Interés Simple",
+  "subtitle": "Introduce el <strong>capital</strong>, la <strong>tasa de interés anual</strong> y el <strong>tiempo en años</strong>, y esta <strong>calculadora de interés simple</strong> muestra al instante el <strong>interés ganado</strong> y el <strong>importe total</strong>.",
+  "hint": "Introduce capital, tasa anual y tiempo para obtener el interés y el importe total.",
+  "long_tail_anchor": "Fórmula de capital, tasa y tiempo",
+  "card_strings": {
+    "Annual Rate": "Tasa anual",
+    "Interest Earned:": "Interés ganado:",
+    "Principal ($)": "Capital ($)",
+    "Time (Years)": "Tiempo (años)",
+    "Total Amount:": "Importe total:",
+    "e.g. 1000": "p. ej. 1000",
+    "e.g. 3": "p. ej. 3",
+    "e.g. 5": "p. ej. 5"
+  }
+}

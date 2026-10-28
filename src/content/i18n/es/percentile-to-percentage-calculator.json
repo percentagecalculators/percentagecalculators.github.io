@@ -1,0 +1,16 @@
+{
+  "slug": "percentile-to-percentage-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Percentil a Porcentaje | Estima el Porcentaje",
+  "meta_description": "Calculadora gratuita de percentil a porcentaje. Obtén un porcentaje estimado rápido a partir del percentil de un examen con una fórmula de aproximación de uso común.",
+  "h1": "Calculadora de Percentil a Porcentaje",
+  "subtitle": "Introduce tu puntuación de <strong>percentil</strong> y esta <strong>calculadora de percentil a porcentaje</strong> te da un <strong>porcentaje estimado</strong> rápido mediante una aproximación de uso habitual. Percentil y porcentaje miden cosas distintas, así que tómalo como una estimación y no como una conversión oficial.",
+  "hint": "Introduce un percentil (0–100) para obtener un porcentaje estimado.",
+  "long_tail_anchor": "Estimar el porcentaje a partir del percentil",
+  "card_strings": {
+    "%ile": "perc.",
+    "Estimated Percentage:": "Porcentaje estimado:",
+    "Percentile": "Percentil",
+    "e.g. 85": "p. ej. 85"
+  }
+}

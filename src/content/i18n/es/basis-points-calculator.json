@@ -1,0 +1,15 @@
+{
+  "slug": "basis-points-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Puntos Básicos | Convierte Puntos Básicos a Porcentaje",
+  "meta_description": "Calculadora gratuita de puntos básicos. Introduce un valor en puntos básicos (pb) y conviértelo al instante en porcentaje: resultados precisos para finanzas y trading.",
+  "h1": "Calculadora de Puntos Básicos",
+  "subtitle": "Introduce un valor en <strong>puntos básicos (pb)</strong> y esta <strong>calculadora de puntos básicos</strong> lo convierte al instante en <strong>porcentaje</strong>: la forma estándar en que las finanzas expresan pequeñas variaciones de tipos.",
+  "hint": "Introduce puntos básicos para obtener el porcentaje equivalente.",
+  "long_tail_anchor": "Convertir puntos básicos a porcentaje",
+  "card_strings": {
+    "Basis Points (bps)": "Puntos básicos (pb)",
+    "Percentage:": "Porcentaje:",
+    "e.g. 25": "p. ej. 25"
+  }
+}

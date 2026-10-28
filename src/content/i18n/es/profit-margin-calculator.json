@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Margen de Beneficio | Calcula el Margen %",
+  "meta_description": "Calculadora gratuita de margen de beneficio. Introduce precio de coste y precio de venta para calcular al instante tu beneficio y el margen de beneficio sobre el precio de venta.",
+  "h1": "Calculadora de Margen de Beneficio",
+  "subtitle": "Introduce el <strong>precio de coste</strong> y el <strong>precio de venta</strong>, y esta <strong>calculadora de margen de beneficio</strong> calcula al instante tu <strong>beneficio</strong> y el <strong>margen de beneficio</strong> como porcentaje del precio de venta.",
+  "hint": "Introduce precio de coste y de venta para obtener tu margen de beneficio.",
+  "long_tail_anchor": "Margen porcentual sobre el precio de venta",
+  "card_strings": {
+    "Cost Price ($)": "Precio de coste ($)",
+    "Profit Margin:": "Margen de beneficio:",
+    "Profit:": "Beneficio:",
+    "Selling Price ($)": "Precio de venta ($)",
+    "e.g. 40": "p. ej. 40",
+    "e.g. 55": "p. ej. 55"
+  }
+}

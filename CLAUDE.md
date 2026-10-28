@@ -345,13 +345,33 @@ from jsdelivr and call `renderMathInElement()` on every `.article` element on `D
 -built static HTML, so no server-side math rendering is needed. Verified: KaTeX's default styling
 inherits `color` from its container, so formulas theme correctly in dark mode with no extra CSS.
 
-## Future expansion: multi-language (i18n)
+## Multi-language (i18n)
 
-The current Tailwind site is English-only. The archived `legacy-bootstrap-site/` (unrelated old
-codebase — see the note at the top of this file) previously shipped **18 translated languages**
-plus English, each in its own subdirectory (`/ar/`, `/bn/`, `/de/`, `/es/`, `/fr/`, `/hi/`,
-`/id/`, `/it/`, `/ja/`, `/ko/`, `/ms/`, `/nl/`, `/pt/`, `/ru/`, `/th/`, `/vi/`, `/zh-cn/`,
-`/zh-tw/`), cross-linked via `hreflang` tags (20 total per page: 18 languages + `en` +
-`x-default`) on its root `index.html`. If/when this site adds multi-language support, that
-directory structure and hreflang set is the known-working precedent to reference — not a plan
-that's been scoped or started yet, just the prior art.
+English is the source language; every other language is an overlay of translated text on the
+same templates, card markup and tool JS. **A language is built when `src/content/i18n/<lang>/ui.json`
+exists** (`generate.py`'s `discover_languages()`); `generate.py` reads `src/content/i18n/` directly,
+so `build_data.py` is not involved.
+
+- **URLs** keep the legacy site's structure: `/<lang>/` (home), `/<lang>/<slug>/`,
+  `/<lang>/page/<name>/` (about, contact, disclaimer, privacy-policy, terms-of-use, sitemap).
+  English stays flat (`/slug`). Output is `public/<lang>/.../index.html`. The 18 language codes are
+  `ar bn de es fr hi id it ja ko ms nl pt ru th vi zh-cn zh-tw` (`LANGUAGES` in `generate.py`;
+  `ar` renders `dir="rtl"`, which the Tailwind markup does not handle yet).
+- **Files per language:** `<slug>.json` per tool (home = `percentage-calculator.json`) with
+  `meta_title`, `meta_description`, `h1`, `subtitle`, `hint`, `long_tail_anchor` and `card_strings`
+  (an English-text -> translated-text map for the card's labels/placeholders/captions; the card HTML
+  is never copied). `content_html` and `faq` are optional second-pass fields: when absent the page
+  renders no article/FAQ and no FAQPage schema (never the English one). `pages.json` holds the six
+  static pages (+ their meta). `ui.json` holds chrome text (nav, footer, buttons), category names,
+  company-link labels and the 42 `nav_names`.
+- **Translate text only.** Tags, classes, ids, hrefs, `<script>` and LaTeX stay identical to English.
+  Root-relative links such as `/contact` stay as written in translations; the build rewrites them to
+  the language's URL (`localize_links()`).
+- **Validate:** `python3 utilities/i18n/validate.py <lang> <slug|pages|ui>` or `--all` (tag skeleton,
+  LaTeX, FAQ count, `card_strings` coverage, page/section/list counts, ui.json completeness).
+  `utilities/i18n/translation-checklist.md` tracks all 864 URLs (18 languages x 48 pages).
+- **Generated per page:** `<html lang>`, self-referencing canonical, `hreflang` alternates for every
+  built language + `x-default` (English pages get them too), `inLanguage` in the JSON-LD, a header
+  language switcher + mobile-drawer language list, and `xhtml:link` alternates in `sitemap.xml`.
+- **Silo rotation** only patches the top-level English pages; translated pages keep the generic
+  same-category related-tools grid.

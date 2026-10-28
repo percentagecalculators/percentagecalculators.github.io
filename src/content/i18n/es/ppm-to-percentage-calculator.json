@@ -1,0 +1,15 @@
+{
+  "slug": "ppm-to-percentage-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de PPM a Porcentaje | Convierte Partes por Millón",
+  "meta_description": "Calculadora gratuita de PPM a porcentaje. Introduce un valor en partes por millón (ppm) y conviértelo al instante en porcentaje: preciso para química e ingeniería.",
+  "h1": "Calculadora de PPM a Porcentaje",
+  "subtitle": "Introduce un valor en <strong>partes por millón (ppm)</strong> y esta <strong>calculadora de PPM a porcentaje</strong> lo convierte al instante en <strong>porcentaje</strong>, útil para lecturas de concentración y pureza.",
+  "hint": "Introduce un valor en PPM para obtener el porcentaje equivalente.",
+  "long_tail_anchor": "De partes por millón a porcentaje",
+  "card_strings": {
+    "PPM": "PPM",
+    "Percentage:": "Porcentaje:",
+    "e.g. 2500": "p. ej. 2500"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Porcentaje de Beneficio | Calcula el % sobre el Coste",
+  "meta_description": "Calculadora gratuita de porcentaje de beneficio. Introduce precio de coste y precio de venta para calcular al instante tu beneficio y su porcentaje.",
+  "h1": "Calculadora de Porcentaje de Beneficio",
+  "subtitle": "Introduce el <strong>precio de coste</strong> y el <strong>precio de venta</strong>, y esta <strong>calculadora de porcentaje de beneficio</strong> calcula al instante tu <strong>beneficio</strong> y el <strong>porcentaje de beneficio</strong> sobre el coste.",
+  "hint": "Introduce precio de coste y de venta para obtener tu porcentaje de beneficio.",
+  "long_tail_anchor": "Porcentaje de beneficio sobre el precio de coste",
+  "card_strings": {
+    "Cost Price ($)": "Precio de coste ($)",
+    "Profit Percentage:": "Porcentaje de beneficio:",
+    "Profit:": "Beneficio:",
+    "Selling Price ($)": "Precio de venta ($)",
+    "e.g. 40": "p. ej. 40",
+    "e.g. 55": "p. ej. 55"
+  }
+}

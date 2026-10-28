@@ -1,0 +1,15 @@
+{
+  "slug": "gpa-to-percentage-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de GPA a Porcentaje | Convierte GPA de Escala 4.0 a %",
+  "meta_description": "Calculadora gratuita de GPA a porcentaje. Convierte tu GPA de escala 4.0 en un porcentaje equivalente al instante. Preciso, sencillo y sin registro.",
+  "h1": "Calculadora de GPA a Porcentaje",
+  "subtitle": "Introduce tu <strong>GPA</strong> en la <strong>escala estándar de 4.0</strong> y esta <strong>calculadora de GPA a porcentaje</strong> lo convierte al instante en un <strong>porcentaje</strong> equivalente, útil para solicitudes, expedientes y para comparar sistemas de calificación.",
+  "hint": "Introduce tu GPA de escala 4.0 para obtener el porcentaje equivalente.",
+  "long_tail_anchor": "Convertir GPA de escala 4.0 a porcentaje",
+  "card_strings": {
+    "GPA (4.0 Scale)": "GPA (escala 4.0)",
+    "Percentage:": "Porcentaje:",
+    "e.g. 3.5": "p. ej. 3.5"
+  }
+}

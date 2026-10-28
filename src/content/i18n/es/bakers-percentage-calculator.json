@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Porcentaje del Panadero | Proporciones de Ingredientes",
+  "meta_description": "Calculadora gratuita de porcentaje del panadero. Introduce el peso de la harina y el de un ingrediente para calcular al instante su porcentaje del panadero.",
+  "h1": "Calculadora de Porcentaje del Panadero",
+  "subtitle": "Introduce el <strong>peso de la harina</strong> y el <strong>peso de un ingrediente</strong>, y esta <strong>calculadora de porcentaje del panadero</strong> calcula al instante el <strong>porcentaje del panadero</strong> de ese ingrediente: cada ingrediente expresado en relación con la harina.",
+  "hint": "Introduce el peso de la harina y del ingrediente para obtener el porcentaje del panadero.",
+  "long_tail_anchor": "Hidratación de la masa y proporciones",
+  "card_strings": {
+    "Baker's Percentage:": "Porcentaje del panadero:",
+    "Flour Weight (g)": "Peso de la harina (g)",
+    "Ingredient Weight (g)": "Peso del ingrediente (g)",
+    "e.g. 350": "p. ej. 350",
+    "e.g. 500": "p. ej. 500"
+  }
+}

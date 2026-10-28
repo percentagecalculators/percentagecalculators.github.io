@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Error Porcentual | Error Relativo para Laboratorio",
+  "meta_description": "Calculadora gratuita de error porcentual. Calcula el error porcentual entre valores experimentales y teóricos para laboratorios de física, química y biología.",
+  "h1": "Calculadora de Error Porcentual",
+  "subtitle": "Introduce tu <strong>valor medido (experimental)</strong> y el <strong>valor verdadero (teórico)</strong>, y esta <strong>calculadora de error porcentual</strong> te muestra el <strong>error porcentual</strong> entre ambos. Usa la fórmula estándar: |medido − verdadero| ÷ |verdadero| × 100.",
+  "hint": "Introduce tus valores medido y verdadero para obtener el error porcentual.",
+  "long_tail_anchor": "Valor experimental frente a teórico",
+  "card_strings": {
+    "Absolute Error:": "Error absoluto:",
+    "Enter expected value": "Introduce el valor esperado",
+    "Enter measured value": "Introduce el valor medido",
+    "Experimental (Measured)": "Experimental (medido)",
+    "Percentage Error:": "Error porcentual:",
+    "Theoretical (Expected)": "Teórico (esperado)"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de CGPA a Porcentaje | Convierte CGPA de 10 Puntos a %",
+  "meta_description": "Calculadora gratuita de CGPA a porcentaje con la fórmula estándar de CGPA de 10 puntos × 9,5. Convierte tu CGPA en porcentaje para expedientes universitarios.",
+  "h1": "Calculadora de CGPA a Porcentaje",
+  "subtitle": "Introduce tu <strong>CGPA</strong> en la <strong>escala estándar de 10 puntos</strong> y esta <strong>calculadora de CGPA a porcentaje</strong> aplica la fórmula, muy extendida, <strong>CGPA × 9,5</strong> para darte al instante el <strong>porcentaje</strong> equivalente.",
+  "hint": "Introduce tu CGPA de 10 puntos para obtener el porcentaje equivalente.",
+  "long_tail_anchor": "Convertir CGPA de 10 puntos a porcentaje",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA (sobre 10)",
+    "Percentage:": "Porcentaje:",
+    "e.g. 8.2": "p. ej. 8.2"
+  }
+}

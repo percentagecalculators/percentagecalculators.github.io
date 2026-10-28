@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Pendiente en Porcentaje | De Desnivel/Recorrido a %",
+  "meta_description": "Calculadora gratuita de pendiente en porcentaje. Introduce el desnivel y el recorrido para calcular al instante el porcentaje de pendiente y el ángulo equivalente en grados.",
+  "h1": "Calculadora de Pendiente en Porcentaje",
+  "subtitle": "Introduce el <strong>desnivel</strong> y el <strong>recorrido</strong>, y esta <strong>calculadora de pendiente en porcentaje</strong> calcula al instante el <strong>porcentaje de pendiente</strong> y el <strong>ángulo en grados</strong> equivalente.",
+  "hint": "Introduce desnivel y recorrido para obtener el porcentaje de pendiente y el ángulo.",
+  "long_tail_anchor": "De desnivel sobre recorrido a porcentaje de pendiente",
+  "card_strings": {
+    "Angle:": "Ángulo:",
+    "Rise": "Desnivel",
+    "Run": "Recorrido",
+    "Slope:": "Pendiente:",
+    "e.g. 100": "p. ej. 100",
+    "e.g. 5": "p. ej. 5"
+  }
+}

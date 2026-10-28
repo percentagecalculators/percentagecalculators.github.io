@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Interés Compuesto | Calcula el Crecimiento en el Tiempo",
+  "meta_description": "Calculadora gratuita de interés compuesto. Introduce capital, tasa anual, tiempo y frecuencia de capitalización para calcular al instante el interés ganado y el importe total.",
+  "h1": "Calculadora de Interés Compuesto",
+  "subtitle": "Introduce el <strong>capital</strong>, la <strong>tasa anual</strong>, el <strong>tiempo</strong> y la <strong>frecuencia de capitalización</strong>, y esta <strong>calculadora de interés compuesto</strong> muestra al instante el <strong>interés ganado</strong> y el <strong>importe total</strong>.",
+  "hint": "Introduce capital, tasa, tiempo y frecuencia de capitalización para obtener el importe total.",
+  "long_tail_anchor": "Frecuencia de capitalización y crecimiento",
+  "card_strings": {
+    "Annual Rate": "Tasa anual",
+    "Compounding / Year": "Capitalizaciones / año",
+    "Interest Earned:": "Interés ganado:",
+    "Principal ($)": "Capital ($)",
+    "Time (Years)": "Tiempo (años)",
+    "Total Amount:": "Importe total:",
+    "e.g. 1000": "p. ej. 1000",
+    "e.g. 12": "p. ej. 12",
+    "e.g. 3": "p. ej. 3",
+    "e.g. 5": "p. ej. 5"
+  }
+}

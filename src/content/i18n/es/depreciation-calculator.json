@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Depreciación | Método de Línea Recta",
+  "meta_description": "Calculadora gratuita de depreciación por el método de línea recta. Introduce el coste del activo, el valor residual y la vida útil para calcular la depreciación anual.",
+  "h1": "Calculadora de Depreciación",
+  "subtitle": "Introduce el <strong>coste del activo</strong>, el <strong>valor residual</strong> y la <strong>vida útil</strong>, y esta <strong>calculadora de depreciación</strong> calcula al instante la <strong>depreciación anual</strong> por el método de línea recta.",
+  "hint": "Introduce coste del activo, valor residual y vida útil para obtener la depreciación anual.",
+  "long_tail_anchor": "Depreciación lineal de activos",
+  "card_strings": {
+    "Annual Depreciation:": "Depreciación anual:",
+    "Asset Cost ($)": "Coste del activo ($)",
+    "Depreciation Rate:": "Tasa de depreciación:",
+    "Salvage Value ($)": "Valor residual ($)",
+    "Useful Life (Years)": "Vida útil (años)",
+    "e.g. 1000": "p. ej. 1000",
+    "e.g. 10000": "p. ej. 10000",
+    "e.g. 5": "p. ej. 5"
+  }
+}

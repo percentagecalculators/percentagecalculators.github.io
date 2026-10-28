@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Aumento de Sueldo | Calcula tu Nuevo Sueldo",
+  "meta_description": "Calculadora gratuita de aumento de sueldo. Introduce tu sueldo actual y el porcentaje de subida para calcular al instante el importe del aumento y tu nuevo sueldo.",
+  "h1": "Calculadora de Aumento de Sueldo",
+  "subtitle": "Introduce tu <strong>sueldo actual</strong> y tu <strong>porcentaje de subida</strong>, y esta <strong>calculadora de aumento de sueldo</strong> calcula al instante el <strong>importe del aumento</strong> y tu <strong>nuevo sueldo</strong>.",
+  "hint": "Introduce tu sueldo actual y el % de subida para obtener tu nuevo sueldo.",
+  "long_tail_anchor": "Porcentaje de subida y aumento salarial",
+  "card_strings": {
+    "Current Salary ($)": "Sueldo actual ($)",
+    "New Salary:": "Nuevo sueldo:",
+    "Raise": "Subida",
+    "Raise Amount:": "Importe del aumento:",
+    "e.g. 5": "p. ej. 5",
+    "e.g. 60000": "p. ej. 60000"
+  }
+}

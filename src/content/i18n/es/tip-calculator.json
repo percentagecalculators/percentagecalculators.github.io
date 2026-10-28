@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Propinas | Calcula la Propina y Divide la Cuenta",
+  "meta_description": "Calculadora gratuita de propinas. Introduce el importe de la cuenta, el porcentaje de propina y el número de personas para calcular al instante la propina, el total y lo que paga cada uno.",
+  "h1": "Calculadora de Propinas",
+  "subtitle": "Introduce el <strong>importe de la cuenta</strong>, el <strong>porcentaje de propina</strong> y el <strong>número de personas</strong>, y esta <strong>calculadora de propinas</strong> calcula al instante la <strong>propina</strong>, el <strong>total</strong> y cuánto <strong>debe pagar cada persona</strong>.",
+  "hint": "Introduce la cuenta, el % de propina y las personas entre las que dividir.",
+  "long_tail_anchor": "Divisor de cuenta y propina en restaurantes",
+  "card_strings": {
+    "Bill Amount ($)": "Importe de la cuenta ($)",
+    "Per Person:": "Por persona:",
+    "Split Between": "Dividir entre",
+    "Tip": "Propina",
+    "Tip Amount:": "Importe de la propina:",
+    "Total:": "Total:",
+    "e.g. 18": "p. ej. 18",
+    "e.g. 4": "p. ej. 4",
+    "e.g. 80": "p. ej. 80"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Porcentaje Promedio | Media Simple y Ponderada",
+  "meta_description": "Calculadora gratuita de porcentaje promedio con modos simple y ponderado. Combina correctamente porcentajes de grupos de distinto tamaño para notas y encuestas.",
+  "h1": "Calculadora de Porcentaje Promedio",
+  "subtitle": "Escribe una lista de <strong>porcentajes</strong> separados por comas, y esta <strong>calculadora de porcentaje promedio</strong> te da la <strong>media</strong>, la <strong>suma</strong>, el <strong>recuento</strong> y el rango de tus valores. Añade una lista paralela de <strong>tamaños de muestra</strong> cuando los grupos no sean del mismo tamaño y pasará automáticamente a un <strong>promedio ponderado</strong> correcto.",
+  "hint": "Introduce porcentajes (y tamaños de muestra opcionales) para un promedio simple o ponderado.",
+  "long_tail_anchor": "Media de varios porcentajes",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "Añade un peso por cada porcentaje (por ejemplo, tamaños de clase o número de encuestados) para combinar correctamente grupos de distinto tamaño.",
+    "Average:": "Promedio:",
+    "Count:": "Recuento:",
+    "Percentages (comma or space separated)": "Porcentajes (separados por comas o espacios)",
+    "Sample Sizes / Weights (optional)": "Tamaños de muestra / pesos (opcional)",
+    "Sum:": "Suma:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "p. ej. 30, 50, 20, 40 (déjalo en blanco para un promedio simple)",
+    "e.g. 85, 90, 78, 92": "p. ej. 85, 90, 78, 92"
+  }
+}

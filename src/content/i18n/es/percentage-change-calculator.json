@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Variación Porcentual | Aumento o Disminución %",
+  "meta_description": "Calculadora gratuita de variación porcentual. Calcula el aumento o la disminución porcentual entre dos valores: sigue cambios en bolsa y variaciones de precios.",
+  "h1": "Calculadora de Variación Porcentual",
+  "subtitle": "Introduce un <strong>valor antiguo</strong> y un <strong>valor nuevo</strong>, y esta <strong>calculadora de variación porcentual</strong> te dice el <strong>aumento o disminución porcentual</strong> entre ellos. El resultado es positivo si sube y negativo si baja, así que pasar de 80 a 100 da +25 %.",
+  "hint": "Introduce un valor antiguo y uno nuevo para obtener la variación porcentual.",
+  "long_tail_anchor": "Aumento o disminución porcentual",
+  "card_strings": {
+    "Change Type:": "Tipo de cambio:",
+    "Enter ending value": "Introduce el valor final",
+    "Enter starting value": "Introduce el valor inicial",
+    "New Value (Current)": "Valor nuevo (actual)",
+    "Old Value (Original)": "Valor antiguo (original)",
+    "Percentage Change:": "Variación porcentual:"
+  }
+}

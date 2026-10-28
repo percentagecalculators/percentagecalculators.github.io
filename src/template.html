@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html {{HTML_ATTRS}}>
 <head>
     <meta charset="UTF-8">
     <script>{{THEME_INIT}}</script>
@@ -9,6 +9,7 @@
     <meta name="author" content="{{SITE_NAME}}">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="{{CANONICAL_URL}}">
+    {{HREFLANG_LINKS}}
     <title>{{META_TITLE}}</title>
 
     <link rel="preload" href="/fonts/dm-sans-variable.woff2" as="font" type="font/woff2" crossorigin>
@@ -68,7 +69,7 @@
                  explicit col/row-start placement below restores the original
                  2-column layout with the ad full-width beneath both. -->
             <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2">{{ADSENSE_HEADER}}</div>
-            <aside class="related-tools grid grid-cols-1 gap-3 sm:grid-cols-2 lg:col-start-2 lg:row-start-1{{ASIDE_SELF_START}}" aria-label="Related calculators">{{RELATED_CALCULATORS}}</aside>
+            <aside class="related-tools grid grid-cols-1 gap-3 sm:grid-cols-2 lg:col-start-2 lg:row-start-1{{ASIDE_SELF_START}}" aria-label="{{UI_RELATED_ARIA}}">{{RELATED_CALCULATORS}}</aside>
         </div>
     </section>
 
@@ -145,8 +146,8 @@
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'copy-btn flex h-7 w-7 flex-none items-center justify-center rounded-lg border border-border bg-surface text-text-muted transition-colors hover:border-accent hover:text-accent';
-      btn.setAttribute('aria-label', 'Copy result');
-      btn.setAttribute('title', 'Copy result');
+      btn.setAttribute('aria-label', {{JS_COPY_RESULT}});
+      btn.setAttribute('title', {{JS_COPY_RESULT}});
       btn.innerHTML =
         '<svg class="copy-icon h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>' +
         '<svg class="check-icon h-4 w-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" hidden><path d="M20 6 9 17l-5-5"/></svg>';
@@ -160,12 +161,12 @@
         var showCopied = function () {
           copyIcon.hidden = true;
           checkIcon.hidden = false;
-          btn.setAttribute('title', 'Copied!');
+          btn.setAttribute('title', {{JS_COPIED}});
           clearTimeout(revertTimer);
           revertTimer = setTimeout(function () {
             copyIcon.hidden = false;
             checkIcon.hidden = true;
-            btn.setAttribute('title', 'Copy result');
+            btn.setAttribute('title', {{JS_COPY_RESULT}});
           }, 1500);
         };
         if (navigator.clipboard && navigator.clipboard.writeText) {

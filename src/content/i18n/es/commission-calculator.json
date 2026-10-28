@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Comisiones | Calcula tu Comisión de Ventas",
+  "meta_description": "Calculadora gratuita de comisiones. Introduce tu importe de ventas y la tasa de comisión para calcular al instante la comisión que has ganado.",
+  "h1": "Calculadora de Comisiones",
+  "subtitle": "Introduce tu <strong>importe de ventas</strong> y la <strong>tasa de comisión</strong>, y esta <strong>calculadora de comisiones</strong> calcula al instante la <strong>comisión que has ganado</strong>.",
+  "hint": "Introduce el importe de ventas y la tasa de comisión para obtener la comisión ganada.",
+  "long_tail_anchor": "Porcentaje de comisión de ventas",
+  "card_strings": {
+    "Commission Earned:": "Comisión ganada:",
+    "Commission Rate": "Tasa de comisión",
+    "Sales Amount ($)": "Importe de ventas ($)",
+    "e.g. 10": "p. ej. 10",
+    "e.g. 5000": "p. ej. 5000"
+  }
+}

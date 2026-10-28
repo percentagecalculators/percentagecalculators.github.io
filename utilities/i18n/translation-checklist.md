@@ -1,0 +1,926 @@
+# Translation checklist
+
+18 languages x 48 pages (42 tools incl. home + 6 static pages) = 864 pages. Source of truth: `src/content/`.
+URLs: home `/<lang>/`, tools `/<lang>/<slug>/`, static pages `/<lang>/page/<name>/`. Legacy URLs are kept exactly; tools and `sitemap` marked **new** did not exist in the legacy site.
+Translate visible text only; markup, classes, IDs, `<script>` logic and LaTeX stay identical to the English source.
+Tick a box only when the file is written **and** `python3 utilities/i18n/validate.py <lang> <slug>` passes.
+
+Files: `src/content/i18n/<lang>/<slug>.json` (tools/home), `src/content/i18n/<lang>/pages.json` (all 6 static pages in one file; validate with `validate.py <lang> pages`, tick the 6 page boxes together).
+
+## ar - Arabic (RTL)
+
+- [ ] `/ar/` (home, `percentage-calculator`)
+- [ ] `/ar/alcohol-proof-calculator/` **new**
+- [ ] `/ar/apr-apy-converter/` **new**
+- [ ] `/ar/apr-calculator/` **new**
+- [ ] `/ar/apy-calculator/` **new**
+- [ ] `/ar/average-percentage-calculator/`
+- [ ] `/ar/bakers-percentage-calculator/` **new**
+- [ ] `/ar/basis-points-calculator/` **new**
+- [ ] `/ar/cgpa-to-percentage-calculator/` **new**
+- [ ] `/ar/commission-calculator/` **new**
+- [ ] `/ar/compound-interest-calculator/` **new**
+- [ ] `/ar/decimal-to-percentage-calculator/` **new**
+- [ ] `/ar/depreciation-calculator/` **new**
+- [ ] `/ar/food-cost-percentage-calculator/` **new**
+- [ ] `/ar/fraction-to-percentage-calculator/`
+- [ ] `/ar/gpa-to-percentage-calculator/` **new**
+- [ ] `/ar/gross-margin-calculator/` **new**
+- [ ] `/ar/loan-interest-calculator/` **new**
+- [ ] `/ar/marks-percentage-calculator/` **new**
+- [ ] `/ar/markup-calculator/` **new**
+- [ ] `/ar/percent-solution-calculator/` **new**
+- [ ] `/ar/percentage-change-calculator/`
+- [ ] `/ar/percentage-decrease-calculator/`
+- [ ] `/ar/percentage-difference-calculator/`
+- [ ] `/ar/percentage-error-calculator/`
+- [ ] `/ar/percentage-growth-calculator/`
+- [ ] `/ar/percentage-increase-calculator/`
+- [ ] `/ar/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/ar/percentage-off-calculator/`
+- [ ] `/ar/percentage-point-calculator/` **new**
+- [ ] `/ar/percentile-to-percentage-calculator/` **new**
+- [ ] `/ar/ppm-to-percentage-calculator/` **new**
+- [ ] `/ar/profit-margin-calculator/` **new**
+- [ ] `/ar/profit-percentage-calculator/` **new**
+- [ ] `/ar/ratio-to-percentage-calculator/` **new**
+- [ ] `/ar/reverse-percentage-calculator/`
+- [ ] `/ar/salary-increase-calculator/` **new**
+- [ ] `/ar/sgpa-to-percentage-calculator/` **new**
+- [ ] `/ar/simple-interest-calculator/` **new**
+- [ ] `/ar/slope-percentage-calculator/` **new**
+- [ ] `/ar/tip-calculator/` **new**
+- [ ] `/ar/win-loss-percentage-calculator/` **new**
+- [ ] `/ar/page/about/`
+- [ ] `/ar/page/contact/`
+- [ ] `/ar/page/disclaimer/`
+- [ ] `/ar/page/privacy-policy/`
+- [ ] `/ar/page/terms-of-use/`
+- [ ] `/ar/page/sitemap/` **new**
+
+## bn - Bengali
+
+- [ ] `/bn/` (home, `percentage-calculator`)
+- [ ] `/bn/alcohol-proof-calculator/` **new**
+- [ ] `/bn/apr-apy-converter/` **new**
+- [ ] `/bn/apr-calculator/` **new**
+- [ ] `/bn/apy-calculator/` **new**
+- [ ] `/bn/average-percentage-calculator/`
+- [ ] `/bn/bakers-percentage-calculator/` **new**
+- [ ] `/bn/basis-points-calculator/` **new**
+- [ ] `/bn/cgpa-to-percentage-calculator/` **new**
+- [ ] `/bn/commission-calculator/` **new**
+- [ ] `/bn/compound-interest-calculator/` **new**
+- [ ] `/bn/decimal-to-percentage-calculator/` **new**
+- [ ] `/bn/depreciation-calculator/` **new**
+- [ ] `/bn/food-cost-percentage-calculator/` **new**
+- [ ] `/bn/fraction-to-percentage-calculator/`
+- [ ] `/bn/gpa-to-percentage-calculator/` **new**
+- [ ] `/bn/gross-margin-calculator/` **new**
+- [ ] `/bn/loan-interest-calculator/` **new**
+- [ ] `/bn/marks-percentage-calculator/` **new**
+- [ ] `/bn/markup-calculator/` **new**
+- [ ] `/bn/percent-solution-calculator/` **new**
+- [ ] `/bn/percentage-change-calculator/`
+- [ ] `/bn/percentage-decrease-calculator/`
+- [ ] `/bn/percentage-difference-calculator/`
+- [ ] `/bn/percentage-error-calculator/`
+- [ ] `/bn/percentage-growth-calculator/`
+- [ ] `/bn/percentage-increase-calculator/`
+- [ ] `/bn/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/bn/percentage-off-calculator/`
+- [ ] `/bn/percentage-point-calculator/` **new**
+- [ ] `/bn/percentile-to-percentage-calculator/` **new**
+- [ ] `/bn/ppm-to-percentage-calculator/` **new**
+- [ ] `/bn/profit-margin-calculator/` **new**
+- [ ] `/bn/profit-percentage-calculator/` **new**
+- [ ] `/bn/ratio-to-percentage-calculator/` **new**
+- [ ] `/bn/reverse-percentage-calculator/`
+- [ ] `/bn/salary-increase-calculator/` **new**
+- [ ] `/bn/sgpa-to-percentage-calculator/` **new**
+- [ ] `/bn/simple-interest-calculator/` **new**
+- [ ] `/bn/slope-percentage-calculator/` **new**
+- [ ] `/bn/tip-calculator/` **new**
+- [ ] `/bn/win-loss-percentage-calculator/` **new**
+- [ ] `/bn/page/about/`
+- [ ] `/bn/page/contact/`
+- [ ] `/bn/page/disclaimer/`
+- [ ] `/bn/page/privacy-policy/`
+- [ ] `/bn/page/terms-of-use/`
+- [ ] `/bn/page/sitemap/` **new**
+
+## de - German
+
+- [ ] `/de/` (home, `percentage-calculator`)
+- [ ] `/de/alcohol-proof-calculator/` **new**
+- [ ] `/de/apr-apy-converter/` **new**
+- [ ] `/de/apr-calculator/` **new**
+- [ ] `/de/apy-calculator/` **new**
+- [ ] `/de/average-percentage-calculator/`
+- [ ] `/de/bakers-percentage-calculator/` **new**
+- [ ] `/de/basis-points-calculator/` **new**
+- [ ] `/de/cgpa-to-percentage-calculator/` **new**
+- [ ] `/de/commission-calculator/` **new**
+- [ ] `/de/compound-interest-calculator/` **new**
+- [ ] `/de/decimal-to-percentage-calculator/` **new**
+- [ ] `/de/depreciation-calculator/` **new**
+- [ ] `/de/food-cost-percentage-calculator/` **new**
+- [ ] `/de/fraction-to-percentage-calculator/`
+- [ ] `/de/gpa-to-percentage-calculator/` **new**
+- [ ] `/de/gross-margin-calculator/` **new**
+- [ ] `/de/loan-interest-calculator/` **new**
+- [ ] `/de/marks-percentage-calculator/` **new**
+- [ ] `/de/markup-calculator/` **new**
+- [ ] `/de/percent-solution-calculator/` **new**
+- [ ] `/de/percentage-change-calculator/`
+- [ ] `/de/percentage-decrease-calculator/`
+- [ ] `/de/percentage-difference-calculator/`
+- [ ] `/de/percentage-error-calculator/`
+- [ ] `/de/percentage-growth-calculator/`
+- [ ] `/de/percentage-increase-calculator/`
+- [ ] `/de/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/de/percentage-off-calculator/`
+- [ ] `/de/percentage-point-calculator/` **new**
+- [ ] `/de/percentile-to-percentage-calculator/` **new**
+- [ ] `/de/ppm-to-percentage-calculator/` **new**
+- [ ] `/de/profit-margin-calculator/` **new**
+- [ ] `/de/profit-percentage-calculator/` **new**
+- [ ] `/de/ratio-to-percentage-calculator/` **new**
+- [ ] `/de/reverse-percentage-calculator/`
+- [ ] `/de/salary-increase-calculator/` **new**
+- [ ] `/de/sgpa-to-percentage-calculator/` **new**
+- [ ] `/de/simple-interest-calculator/` **new**
+- [ ] `/de/slope-percentage-calculator/` **new**
+- [ ] `/de/tip-calculator/` **new**
+- [ ] `/de/win-loss-percentage-calculator/` **new**
+- [ ] `/de/page/about/`
+- [ ] `/de/page/contact/`
+- [ ] `/de/page/disclaimer/`
+- [ ] `/de/page/privacy-policy/`
+- [ ] `/de/page/terms-of-use/`
+- [ ] `/de/page/sitemap/` **new**
+
+## es - Spanish
+
+- [x] `/es/` (home, `percentage-calculator`)
+- [x] `/es/alcohol-proof-calculator/` **new**
+- [x] `/es/apr-apy-converter/` **new**
+- [x] `/es/apr-calculator/` **new**
+- [x] `/es/apy-calculator/` **new**
+- [x] `/es/average-percentage-calculator/`
+- [x] `/es/bakers-percentage-calculator/` **new**
+- [x] `/es/basis-points-calculator/` **new**
+- [x] `/es/cgpa-to-percentage-calculator/` **new**
+- [x] `/es/commission-calculator/` **new**
+- [x] `/es/compound-interest-calculator/` **new**
+- [x] `/es/decimal-to-percentage-calculator/` **new**
+- [x] `/es/depreciation-calculator/` **new**
+- [x] `/es/food-cost-percentage-calculator/` **new**
+- [x] `/es/fraction-to-percentage-calculator/`
+- [x] `/es/gpa-to-percentage-calculator/` **new**
+- [x] `/es/gross-margin-calculator/` **new**
+- [x] `/es/loan-interest-calculator/` **new**
+- [x] `/es/marks-percentage-calculator/` **new**
+- [x] `/es/markup-calculator/` **new**
+- [x] `/es/percent-solution-calculator/` **new**
+- [x] `/es/percentage-change-calculator/`
+- [x] `/es/percentage-decrease-calculator/`
+- [x] `/es/percentage-difference-calculator/`
+- [x] `/es/percentage-error-calculator/`
+- [x] `/es/percentage-growth-calculator/`
+- [x] `/es/percentage-increase-calculator/`
+- [x] `/es/percentage-of-a-percentage-calculator/` **new**
+- [x] `/es/percentage-off-calculator/`
+- [x] `/es/percentage-point-calculator/` **new**
+- [x] `/es/percentile-to-percentage-calculator/` **new**
+- [x] `/es/ppm-to-percentage-calculator/` **new**
+- [x] `/es/profit-margin-calculator/` **new**
+- [x] `/es/profit-percentage-calculator/` **new**
+- [x] `/es/ratio-to-percentage-calculator/` **new**
+- [x] `/es/reverse-percentage-calculator/`
+- [x] `/es/salary-increase-calculator/` **new**
+- [x] `/es/sgpa-to-percentage-calculator/` **new**
+- [x] `/es/simple-interest-calculator/` **new**
+- [x] `/es/slope-percentage-calculator/` **new**
+- [x] `/es/tip-calculator/` **new**
+- [x] `/es/win-loss-percentage-calculator/` **new**
+- [x] `/es/page/about/`
+- [x] `/es/page/contact/`
+- [x] `/es/page/disclaimer/`
+- [x] `/es/page/privacy-policy/`
+- [x] `/es/page/terms-of-use/`
+- [x] `/es/page/sitemap/` **new**
+
+## fr - French
+
+- [ ] `/fr/` (home, `percentage-calculator`)
+- [ ] `/fr/alcohol-proof-calculator/` **new**
+- [ ] `/fr/apr-apy-converter/` **new**
+- [ ] `/fr/apr-calculator/` **new**
+- [ ] `/fr/apy-calculator/` **new**
+- [ ] `/fr/average-percentage-calculator/`
+- [ ] `/fr/bakers-percentage-calculator/` **new**
+- [ ] `/fr/basis-points-calculator/` **new**
+- [ ] `/fr/cgpa-to-percentage-calculator/` **new**
+- [ ] `/fr/commission-calculator/` **new**
+- [ ] `/fr/compound-interest-calculator/` **new**
+- [ ] `/fr/decimal-to-percentage-calculator/` **new**
+- [ ] `/fr/depreciation-calculator/` **new**
+- [ ] `/fr/food-cost-percentage-calculator/` **new**
+- [ ] `/fr/fraction-to-percentage-calculator/`
+- [ ] `/fr/gpa-to-percentage-calculator/` **new**
+- [ ] `/fr/gross-margin-calculator/` **new**
+- [ ] `/fr/loan-interest-calculator/` **new**
+- [ ] `/fr/marks-percentage-calculator/` **new**
+- [ ] `/fr/markup-calculator/` **new**
+- [ ] `/fr/percent-solution-calculator/` **new**
+- [ ] `/fr/percentage-change-calculator/`
+- [ ] `/fr/percentage-decrease-calculator/`
+- [ ] `/fr/percentage-difference-calculator/`
+- [ ] `/fr/percentage-error-calculator/`
+- [ ] `/fr/percentage-growth-calculator/`
+- [ ] `/fr/percentage-increase-calculator/`
+- [ ] `/fr/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/fr/percentage-off-calculator/`
+- [ ] `/fr/percentage-point-calculator/` **new**
+- [ ] `/fr/percentile-to-percentage-calculator/` **new**
+- [ ] `/fr/ppm-to-percentage-calculator/` **new**
+- [ ] `/fr/profit-margin-calculator/` **new**
+- [ ] `/fr/profit-percentage-calculator/` **new**
+- [ ] `/fr/ratio-to-percentage-calculator/` **new**
+- [ ] `/fr/reverse-percentage-calculator/`
+- [ ] `/fr/salary-increase-calculator/` **new**
+- [ ] `/fr/sgpa-to-percentage-calculator/` **new**
+- [ ] `/fr/simple-interest-calculator/` **new**
+- [ ] `/fr/slope-percentage-calculator/` **new**
+- [ ] `/fr/tip-calculator/` **new**
+- [ ] `/fr/win-loss-percentage-calculator/` **new**
+- [ ] `/fr/page/about/`
+- [ ] `/fr/page/contact/`
+- [ ] `/fr/page/disclaimer/`
+- [ ] `/fr/page/privacy-policy/`
+- [ ] `/fr/page/terms-of-use/`
+- [ ] `/fr/page/sitemap/` **new**
+
+## hi - Hindi
+
+- [ ] `/hi/` (home, `percentage-calculator`)
+- [ ] `/hi/alcohol-proof-calculator/` **new**
+- [ ] `/hi/apr-apy-converter/` **new**
+- [ ] `/hi/apr-calculator/` **new**
+- [ ] `/hi/apy-calculator/` **new**
+- [ ] `/hi/average-percentage-calculator/`
+- [ ] `/hi/bakers-percentage-calculator/` **new**
+- [ ] `/hi/basis-points-calculator/` **new**
+- [ ] `/hi/cgpa-to-percentage-calculator/` **new**
+- [ ] `/hi/commission-calculator/` **new**
+- [ ] `/hi/compound-interest-calculator/` **new**
+- [ ] `/hi/decimal-to-percentage-calculator/` **new**
+- [ ] `/hi/depreciation-calculator/` **new**
+- [ ] `/hi/food-cost-percentage-calculator/` **new**
+- [ ] `/hi/fraction-to-percentage-calculator/`
+- [ ] `/hi/gpa-to-percentage-calculator/` **new**
+- [ ] `/hi/gross-margin-calculator/` **new**
+- [ ] `/hi/loan-interest-calculator/` **new**
+- [ ] `/hi/marks-percentage-calculator/` **new**
+- [ ] `/hi/markup-calculator/` **new**
+- [ ] `/hi/percent-solution-calculator/` **new**
+- [ ] `/hi/percentage-change-calculator/`
+- [ ] `/hi/percentage-decrease-calculator/`
+- [ ] `/hi/percentage-difference-calculator/`
+- [ ] `/hi/percentage-error-calculator/`
+- [ ] `/hi/percentage-growth-calculator/`
+- [ ] `/hi/percentage-increase-calculator/`
+- [ ] `/hi/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/hi/percentage-off-calculator/`
+- [ ] `/hi/percentage-point-calculator/` **new**
+- [ ] `/hi/percentile-to-percentage-calculator/` **new**
+- [ ] `/hi/ppm-to-percentage-calculator/` **new**
+- [ ] `/hi/profit-margin-calculator/` **new**
+- [ ] `/hi/profit-percentage-calculator/` **new**
+- [ ] `/hi/ratio-to-percentage-calculator/` **new**
+- [ ] `/hi/reverse-percentage-calculator/`
+- [ ] `/hi/salary-increase-calculator/` **new**
+- [ ] `/hi/sgpa-to-percentage-calculator/` **new**
+- [ ] `/hi/simple-interest-calculator/` **new**
+- [ ] `/hi/slope-percentage-calculator/` **new**
+- [ ] `/hi/tip-calculator/` **new**
+- [ ] `/hi/win-loss-percentage-calculator/` **new**
+- [ ] `/hi/page/about/`
+- [ ] `/hi/page/contact/`
+- [ ] `/hi/page/disclaimer/`
+- [ ] `/hi/page/privacy-policy/`
+- [ ] `/hi/page/terms-of-use/`
+- [ ] `/hi/page/sitemap/` **new**
+
+## id - Indonesian
+
+- [ ] `/id/` (home, `percentage-calculator`)
+- [ ] `/id/alcohol-proof-calculator/` **new**
+- [ ] `/id/apr-apy-converter/` **new**
+- [ ] `/id/apr-calculator/` **new**
+- [ ] `/id/apy-calculator/` **new**
+- [ ] `/id/average-percentage-calculator/`
+- [ ] `/id/bakers-percentage-calculator/` **new**
+- [ ] `/id/basis-points-calculator/` **new**
+- [ ] `/id/cgpa-to-percentage-calculator/` **new**
+- [ ] `/id/commission-calculator/` **new**
+- [ ] `/id/compound-interest-calculator/` **new**
+- [ ] `/id/decimal-to-percentage-calculator/` **new**
+- [ ] `/id/depreciation-calculator/` **new**
+- [ ] `/id/food-cost-percentage-calculator/` **new**
+- [ ] `/id/fraction-to-percentage-calculator/`
+- [ ] `/id/gpa-to-percentage-calculator/` **new**
+- [ ] `/id/gross-margin-calculator/` **new**
+- [ ] `/id/loan-interest-calculator/` **new**
+- [ ] `/id/marks-percentage-calculator/` **new**
+- [ ] `/id/markup-calculator/` **new**
+- [ ] `/id/percent-solution-calculator/` **new**
+- [ ] `/id/percentage-change-calculator/`
+- [ ] `/id/percentage-decrease-calculator/`
+- [ ] `/id/percentage-difference-calculator/`
+- [ ] `/id/percentage-error-calculator/`
+- [ ] `/id/percentage-growth-calculator/`
+- [ ] `/id/percentage-increase-calculator/`
+- [ ] `/id/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/id/percentage-off-calculator/`
+- [ ] `/id/percentage-point-calculator/` **new**
+- [ ] `/id/percentile-to-percentage-calculator/` **new**
+- [ ] `/id/ppm-to-percentage-calculator/` **new**
+- [ ] `/id/profit-margin-calculator/` **new**
+- [ ] `/id/profit-percentage-calculator/` **new**
+- [ ] `/id/ratio-to-percentage-calculator/` **new**
+- [ ] `/id/reverse-percentage-calculator/`
+- [ ] `/id/salary-increase-calculator/` **new**
+- [ ] `/id/sgpa-to-percentage-calculator/` **new**
+- [ ] `/id/simple-interest-calculator/` **new**
+- [ ] `/id/slope-percentage-calculator/` **new**
+- [ ] `/id/tip-calculator/` **new**
+- [ ] `/id/win-loss-percentage-calculator/` **new**
+- [ ] `/id/page/about/`
+- [ ] `/id/page/contact/`
+- [ ] `/id/page/disclaimer/`
+- [ ] `/id/page/privacy-policy/`
+- [ ] `/id/page/terms-of-use/`
+- [ ] `/id/page/sitemap/` **new**
+
+## it - Italian
+
+- [ ] `/it/` (home, `percentage-calculator`)
+- [ ] `/it/alcohol-proof-calculator/` **new**
+- [ ] `/it/apr-apy-converter/` **new**
+- [ ] `/it/apr-calculator/` **new**
+- [ ] `/it/apy-calculator/` **new**
+- [ ] `/it/average-percentage-calculator/`
+- [ ] `/it/bakers-percentage-calculator/` **new**
+- [ ] `/it/basis-points-calculator/` **new**
+- [ ] `/it/cgpa-to-percentage-calculator/` **new**
+- [ ] `/it/commission-calculator/` **new**
+- [ ] `/it/compound-interest-calculator/` **new**
+- [ ] `/it/decimal-to-percentage-calculator/` **new**
+- [ ] `/it/depreciation-calculator/` **new**
+- [ ] `/it/food-cost-percentage-calculator/` **new**
+- [ ] `/it/fraction-to-percentage-calculator/`
+- [ ] `/it/gpa-to-percentage-calculator/` **new**
+- [ ] `/it/gross-margin-calculator/` **new**
+- [ ] `/it/loan-interest-calculator/` **new**
+- [ ] `/it/marks-percentage-calculator/` **new**
+- [ ] `/it/markup-calculator/` **new**
+- [ ] `/it/percent-solution-calculator/` **new**
+- [ ] `/it/percentage-change-calculator/`
+- [ ] `/it/percentage-decrease-calculator/`
+- [ ] `/it/percentage-difference-calculator/`
+- [ ] `/it/percentage-error-calculator/`
+- [ ] `/it/percentage-growth-calculator/`
+- [ ] `/it/percentage-increase-calculator/`
+- [ ] `/it/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/it/percentage-off-calculator/`
+- [ ] `/it/percentage-point-calculator/` **new**
+- [ ] `/it/percentile-to-percentage-calculator/` **new**
+- [ ] `/it/ppm-to-percentage-calculator/` **new**
+- [ ] `/it/profit-margin-calculator/` **new**
+- [ ] `/it/profit-percentage-calculator/` **new**
+- [ ] `/it/ratio-to-percentage-calculator/` **new**
+- [ ] `/it/reverse-percentage-calculator/`
+- [ ] `/it/salary-increase-calculator/` **new**
+- [ ] `/it/sgpa-to-percentage-calculator/` **new**
+- [ ] `/it/simple-interest-calculator/` **new**
+- [ ] `/it/slope-percentage-calculator/` **new**
+- [ ] `/it/tip-calculator/` **new**
+- [ ] `/it/win-loss-percentage-calculator/` **new**
+- [ ] `/it/page/about/`
+- [ ] `/it/page/contact/`
+- [ ] `/it/page/disclaimer/`
+- [ ] `/it/page/privacy-policy/`
+- [ ] `/it/page/terms-of-use/`
+- [ ] `/it/page/sitemap/` **new**
+
+## ja - Japanese
+
+- [ ] `/ja/` (home, `percentage-calculator`)
+- [ ] `/ja/alcohol-proof-calculator/` **new**
+- [ ] `/ja/apr-apy-converter/` **new**
+- [ ] `/ja/apr-calculator/` **new**
+- [ ] `/ja/apy-calculator/` **new**
+- [ ] `/ja/average-percentage-calculator/`
+- [ ] `/ja/bakers-percentage-calculator/` **new**
+- [ ] `/ja/basis-points-calculator/` **new**
+- [ ] `/ja/cgpa-to-percentage-calculator/` **new**
+- [ ] `/ja/commission-calculator/` **new**
+- [ ] `/ja/compound-interest-calculator/` **new**
+- [ ] `/ja/decimal-to-percentage-calculator/` **new**
+- [ ] `/ja/depreciation-calculator/` **new**
+- [ ] `/ja/food-cost-percentage-calculator/` **new**
+- [ ] `/ja/fraction-to-percentage-calculator/`
+- [ ] `/ja/gpa-to-percentage-calculator/` **new**
+- [ ] `/ja/gross-margin-calculator/` **new**
+- [ ] `/ja/loan-interest-calculator/` **new**
+- [ ] `/ja/marks-percentage-calculator/` **new**
+- [ ] `/ja/markup-calculator/` **new**
+- [ ] `/ja/percent-solution-calculator/` **new**
+- [ ] `/ja/percentage-change-calculator/`
+- [ ] `/ja/percentage-decrease-calculator/`
+- [ ] `/ja/percentage-difference-calculator/`
+- [ ] `/ja/percentage-error-calculator/`
+- [ ] `/ja/percentage-growth-calculator/`
+- [ ] `/ja/percentage-increase-calculator/`
+- [ ] `/ja/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/ja/percentage-off-calculator/`
+- [ ] `/ja/percentage-point-calculator/` **new**
+- [ ] `/ja/percentile-to-percentage-calculator/` **new**
+- [ ] `/ja/ppm-to-percentage-calculator/` **new**
+- [ ] `/ja/profit-margin-calculator/` **new**
+- [ ] `/ja/profit-percentage-calculator/` **new**
+- [ ] `/ja/ratio-to-percentage-calculator/` **new**
+- [ ] `/ja/reverse-percentage-calculator/`
+- [ ] `/ja/salary-increase-calculator/` **new**
+- [ ] `/ja/sgpa-to-percentage-calculator/` **new**
+- [ ] `/ja/simple-interest-calculator/` **new**
+- [ ] `/ja/slope-percentage-calculator/` **new**
+- [ ] `/ja/tip-calculator/` **new**
+- [ ] `/ja/win-loss-percentage-calculator/` **new**
+- [ ] `/ja/page/about/`
+- [ ] `/ja/page/contact/`
+- [ ] `/ja/page/disclaimer/`
+- [ ] `/ja/page/privacy-policy/`
+- [ ] `/ja/page/terms-of-use/`
+- [ ] `/ja/page/sitemap/` **new**
+
+## ko - Korean
+
+- [ ] `/ko/` (home, `percentage-calculator`)
+- [ ] `/ko/alcohol-proof-calculator/` **new**
+- [ ] `/ko/apr-apy-converter/` **new**
+- [ ] `/ko/apr-calculator/` **new**
+- [ ] `/ko/apy-calculator/` **new**
+- [ ] `/ko/average-percentage-calculator/`
+- [ ] `/ko/bakers-percentage-calculator/` **new**
+- [ ] `/ko/basis-points-calculator/` **new**
+- [ ] `/ko/cgpa-to-percentage-calculator/` **new**
+- [ ] `/ko/commission-calculator/` **new**
+- [ ] `/ko/compound-interest-calculator/` **new**
+- [ ] `/ko/decimal-to-percentage-calculator/` **new**
+- [ ] `/ko/depreciation-calculator/` **new**
+- [ ] `/ko/food-cost-percentage-calculator/` **new**
+- [ ] `/ko/fraction-to-percentage-calculator/`
+- [ ] `/ko/gpa-to-percentage-calculator/` **new**
+- [ ] `/ko/gross-margin-calculator/` **new**
+- [ ] `/ko/loan-interest-calculator/` **new**
+- [ ] `/ko/marks-percentage-calculator/` **new**
+- [ ] `/ko/markup-calculator/` **new**
+- [ ] `/ko/percent-solution-calculator/` **new**
+- [ ] `/ko/percentage-change-calculator/`
+- [ ] `/ko/percentage-decrease-calculator/`
+- [ ] `/ko/percentage-difference-calculator/`
+- [ ] `/ko/percentage-error-calculator/`
+- [ ] `/ko/percentage-growth-calculator/`
+- [ ] `/ko/percentage-increase-calculator/`
+- [ ] `/ko/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/ko/percentage-off-calculator/`
+- [ ] `/ko/percentage-point-calculator/` **new**
+- [ ] `/ko/percentile-to-percentage-calculator/` **new**
+- [ ] `/ko/ppm-to-percentage-calculator/` **new**
+- [ ] `/ko/profit-margin-calculator/` **new**
+- [ ] `/ko/profit-percentage-calculator/` **new**
+- [ ] `/ko/ratio-to-percentage-calculator/` **new**
+- [ ] `/ko/reverse-percentage-calculator/`
+- [ ] `/ko/salary-increase-calculator/` **new**
+- [ ] `/ko/sgpa-to-percentage-calculator/` **new**
+- [ ] `/ko/simple-interest-calculator/` **new**
+- [ ] `/ko/slope-percentage-calculator/` **new**
+- [ ] `/ko/tip-calculator/` **new**
+- [ ] `/ko/win-loss-percentage-calculator/` **new**
+- [ ] `/ko/page/about/`
+- [ ] `/ko/page/contact/`
+- [ ] `/ko/page/disclaimer/`
+- [ ] `/ko/page/privacy-policy/`
+- [ ] `/ko/page/terms-of-use/`
+- [ ] `/ko/page/sitemap/` **new**
+
+## ms - Malay
+
+- [ ] `/ms/` (home, `percentage-calculator`)
+- [ ] `/ms/alcohol-proof-calculator/` **new**
+- [ ] `/ms/apr-apy-converter/` **new**
+- [ ] `/ms/apr-calculator/` **new**
+- [ ] `/ms/apy-calculator/` **new**
+- [ ] `/ms/average-percentage-calculator/`
+- [ ] `/ms/bakers-percentage-calculator/` **new**
+- [ ] `/ms/basis-points-calculator/` **new**
+- [ ] `/ms/cgpa-to-percentage-calculator/` **new**
+- [ ] `/ms/commission-calculator/` **new**
+- [ ] `/ms/compound-interest-calculator/` **new**
+- [ ] `/ms/decimal-to-percentage-calculator/` **new**
+- [ ] `/ms/depreciation-calculator/` **new**
+- [ ] `/ms/food-cost-percentage-calculator/` **new**
+- [ ] `/ms/fraction-to-percentage-calculator/`
+- [ ] `/ms/gpa-to-percentage-calculator/` **new**
+- [ ] `/ms/gross-margin-calculator/` **new**
+- [ ] `/ms/loan-interest-calculator/` **new**
+- [ ] `/ms/marks-percentage-calculator/` **new**
+- [ ] `/ms/markup-calculator/` **new**
+- [ ] `/ms/percent-solution-calculator/` **new**
+- [ ] `/ms/percentage-change-calculator/`
+- [ ] `/ms/percentage-decrease-calculator/`
+- [ ] `/ms/percentage-difference-calculator/`
+- [ ] `/ms/percentage-error-calculator/`
+- [ ] `/ms/percentage-growth-calculator/`
+- [ ] `/ms/percentage-increase-calculator/`
+- [ ] `/ms/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/ms/percentage-off-calculator/`
+- [ ] `/ms/percentage-point-calculator/` **new**
+- [ ] `/ms/percentile-to-percentage-calculator/` **new**
+- [ ] `/ms/ppm-to-percentage-calculator/` **new**
+- [ ] `/ms/profit-margin-calculator/` **new**
+- [ ] `/ms/profit-percentage-calculator/` **new**
+- [ ] `/ms/ratio-to-percentage-calculator/` **new**
+- [ ] `/ms/reverse-percentage-calculator/`
+- [ ] `/ms/salary-increase-calculator/` **new**
+- [ ] `/ms/sgpa-to-percentage-calculator/` **new**
+- [ ] `/ms/simple-interest-calculator/` **new**
+- [ ] `/ms/slope-percentage-calculator/` **new**
+- [ ] `/ms/tip-calculator/` **new**
+- [ ] `/ms/win-loss-percentage-calculator/` **new**
+- [ ] `/ms/page/about/`
+- [ ] `/ms/page/contact/`
+- [ ] `/ms/page/disclaimer/`
+- [ ] `/ms/page/privacy-policy/`
+- [ ] `/ms/page/terms-of-use/`
+- [ ] `/ms/page/sitemap/` **new**
+
+## nl - Dutch
+
+- [ ] `/nl/` (home, `percentage-calculator`)
+- [ ] `/nl/alcohol-proof-calculator/` **new**
+- [ ] `/nl/apr-apy-converter/` **new**
+- [ ] `/nl/apr-calculator/` **new**
+- [ ] `/nl/apy-calculator/` **new**
+- [ ] `/nl/average-percentage-calculator/`
+- [ ] `/nl/bakers-percentage-calculator/` **new**
+- [ ] `/nl/basis-points-calculator/` **new**
+- [ ] `/nl/cgpa-to-percentage-calculator/` **new**
+- [ ] `/nl/commission-calculator/` **new**
+- [ ] `/nl/compound-interest-calculator/` **new**
+- [ ] `/nl/decimal-to-percentage-calculator/` **new**
+- [ ] `/nl/depreciation-calculator/` **new**
+- [ ] `/nl/food-cost-percentage-calculator/` **new**
+- [ ] `/nl/fraction-to-percentage-calculator/`
+- [ ] `/nl/gpa-to-percentage-calculator/` **new**
+- [ ] `/nl/gross-margin-calculator/` **new**
+- [ ] `/nl/loan-interest-calculator/` **new**
+- [ ] `/nl/marks-percentage-calculator/` **new**
+- [ ] `/nl/markup-calculator/` **new**
+- [ ] `/nl/percent-solution-calculator/` **new**
+- [ ] `/nl/percentage-change-calculator/`
+- [ ] `/nl/percentage-decrease-calculator/`
+- [ ] `/nl/percentage-difference-calculator/`
+- [ ] `/nl/percentage-error-calculator/`
+- [ ] `/nl/percentage-growth-calculator/`
+- [ ] `/nl/percentage-increase-calculator/`
+- [ ] `/nl/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/nl/percentage-off-calculator/`
+- [ ] `/nl/percentage-point-calculator/` **new**
+- [ ] `/nl/percentile-to-percentage-calculator/` **new**
+- [ ] `/nl/ppm-to-percentage-calculator/` **new**
+- [ ] `/nl/profit-margin-calculator/` **new**
+- [ ] `/nl/profit-percentage-calculator/` **new**
+- [ ] `/nl/ratio-to-percentage-calculator/` **new**
+- [ ] `/nl/reverse-percentage-calculator/`
+- [ ] `/nl/salary-increase-calculator/` **new**
+- [ ] `/nl/sgpa-to-percentage-calculator/` **new**
+- [ ] `/nl/simple-interest-calculator/` **new**
+- [ ] `/nl/slope-percentage-calculator/` **new**
+- [ ] `/nl/tip-calculator/` **new**
+- [ ] `/nl/win-loss-percentage-calculator/` **new**
+- [ ] `/nl/page/about/`
+- [ ] `/nl/page/contact/`
+- [ ] `/nl/page/disclaimer/`
+- [ ] `/nl/page/privacy-policy/`
+- [ ] `/nl/page/terms-of-use/`
+- [ ] `/nl/page/sitemap/` **new**
+
+## pt - Portuguese
+
+- [ ] `/pt/` (home, `percentage-calculator`)
+- [ ] `/pt/alcohol-proof-calculator/` **new**
+- [ ] `/pt/apr-apy-converter/` **new**
+- [ ] `/pt/apr-calculator/` **new**
+- [ ] `/pt/apy-calculator/` **new**
+- [ ] `/pt/average-percentage-calculator/`
+- [ ] `/pt/bakers-percentage-calculator/` **new**
+- [ ] `/pt/basis-points-calculator/` **new**
+- [ ] `/pt/cgpa-to-percentage-calculator/` **new**
+- [ ] `/pt/commission-calculator/` **new**
+- [ ] `/pt/compound-interest-calculator/` **new**
+- [ ] `/pt/decimal-to-percentage-calculator/` **new**
+- [ ] `/pt/depreciation-calculator/` **new**
+- [ ] `/pt/food-cost-percentage-calculator/` **new**
+- [ ] `/pt/fraction-to-percentage-calculator/`
+- [ ] `/pt/gpa-to-percentage-calculator/` **new**
+- [ ] `/pt/gross-margin-calculator/` **new**
+- [ ] `/pt/loan-interest-calculator/` **new**
+- [ ] `/pt/marks-percentage-calculator/` **new**
+- [ ] `/pt/markup-calculator/` **new**
+- [ ] `/pt/percent-solution-calculator/` **new**
+- [ ] `/pt/percentage-change-calculator/`
+- [ ] `/pt/percentage-decrease-calculator/`
+- [ ] `/pt/percentage-difference-calculator/`
+- [ ] `/pt/percentage-error-calculator/`
+- [ ] `/pt/percentage-growth-calculator/`
+- [ ] `/pt/percentage-increase-calculator/`
+- [ ] `/pt/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/pt/percentage-off-calculator/`
+- [ ] `/pt/percentage-point-calculator/` **new**
+- [ ] `/pt/percentile-to-percentage-calculator/` **new**
+- [ ] `/pt/ppm-to-percentage-calculator/` **new**
+- [ ] `/pt/profit-margin-calculator/` **new**
+- [ ] `/pt/profit-percentage-calculator/` **new**
+- [ ] `/pt/ratio-to-percentage-calculator/` **new**
+- [ ] `/pt/reverse-percentage-calculator/`
+- [ ] `/pt/salary-increase-calculator/` **new**
+- [ ] `/pt/sgpa-to-percentage-calculator/` **new**
+- [ ] `/pt/simple-interest-calculator/` **new**
+- [ ] `/pt/slope-percentage-calculator/` **new**
+- [ ] `/pt/tip-calculator/` **new**
+- [ ] `/pt/win-loss-percentage-calculator/` **new**
+- [ ] `/pt/page/about/`
+- [ ] `/pt/page/contact/`
+- [ ] `/pt/page/disclaimer/`
+- [ ] `/pt/page/privacy-policy/`
+- [ ] `/pt/page/terms-of-use/`
+- [ ] `/pt/page/sitemap/` **new**
+
+## ru - Russian
+
+- [ ] `/ru/` (home, `percentage-calculator`)
+- [ ] `/ru/alcohol-proof-calculator/` **new**
+- [ ] `/ru/apr-apy-converter/` **new**
+- [ ] `/ru/apr-calculator/` **new**
+- [ ] `/ru/apy-calculator/` **new**
+- [ ] `/ru/average-percentage-calculator/`
+- [ ] `/ru/bakers-percentage-calculator/` **new**
+- [ ] `/ru/basis-points-calculator/` **new**
+- [ ] `/ru/cgpa-to-percentage-calculator/` **new**
+- [ ] `/ru/commission-calculator/` **new**
+- [ ] `/ru/compound-interest-calculator/` **new**
+- [ ] `/ru/decimal-to-percentage-calculator/` **new**
+- [ ] `/ru/depreciation-calculator/` **new**
+- [ ] `/ru/food-cost-percentage-calculator/` **new**
+- [ ] `/ru/fraction-to-percentage-calculator/`
+- [ ] `/ru/gpa-to-percentage-calculator/` **new**
+- [ ] `/ru/gross-margin-calculator/` **new**
+- [ ] `/ru/loan-interest-calculator/` **new**
+- [ ] `/ru/marks-percentage-calculator/` **new**
+- [ ] `/ru/markup-calculator/` **new**
+- [ ] `/ru/percent-solution-calculator/` **new**
+- [ ] `/ru/percentage-change-calculator/`
+- [ ] `/ru/percentage-decrease-calculator/`
+- [ ] `/ru/percentage-difference-calculator/`
+- [ ] `/ru/percentage-error-calculator/`
+- [ ] `/ru/percentage-growth-calculator/`
+- [ ] `/ru/percentage-increase-calculator/`
+- [ ] `/ru/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/ru/percentage-off-calculator/`
+- [ ] `/ru/percentage-point-calculator/` **new**
+- [ ] `/ru/percentile-to-percentage-calculator/` **new**
+- [ ] `/ru/ppm-to-percentage-calculator/` **new**
+- [ ] `/ru/profit-margin-calculator/` **new**
+- [ ] `/ru/profit-percentage-calculator/` **new**
+- [ ] `/ru/ratio-to-percentage-calculator/` **new**
+- [ ] `/ru/reverse-percentage-calculator/`
+- [ ] `/ru/salary-increase-calculator/` **new**
+- [ ] `/ru/sgpa-to-percentage-calculator/` **new**
+- [ ] `/ru/simple-interest-calculator/` **new**
+- [ ] `/ru/slope-percentage-calculator/` **new**
+- [ ] `/ru/tip-calculator/` **new**
+- [ ] `/ru/win-loss-percentage-calculator/` **new**
+- [ ] `/ru/page/about/`
+- [ ] `/ru/page/contact/`
+- [ ] `/ru/page/disclaimer/`
+- [ ] `/ru/page/privacy-policy/`
+- [ ] `/ru/page/terms-of-use/`
+- [ ] `/ru/page/sitemap/` **new**
+
+## th - Thai
+
+- [ ] `/th/` (home, `percentage-calculator`)
+- [ ] `/th/alcohol-proof-calculator/` **new**
+- [ ] `/th/apr-apy-converter/` **new**
+- [ ] `/th/apr-calculator/` **new**
+- [ ] `/th/apy-calculator/` **new**
+- [ ] `/th/average-percentage-calculator/`
+- [ ] `/th/bakers-percentage-calculator/` **new**
+- [ ] `/th/basis-points-calculator/` **new**
+- [ ] `/th/cgpa-to-percentage-calculator/` **new**
+- [ ] `/th/commission-calculator/` **new**
+- [ ] `/th/compound-interest-calculator/` **new**
+- [ ] `/th/decimal-to-percentage-calculator/` **new**
+- [ ] `/th/depreciation-calculator/` **new**
+- [ ] `/th/food-cost-percentage-calculator/` **new**
+- [ ] `/th/fraction-to-percentage-calculator/`
+- [ ] `/th/gpa-to-percentage-calculator/` **new**
+- [ ] `/th/gross-margin-calculator/` **new**
+- [ ] `/th/loan-interest-calculator/` **new**
+- [ ] `/th/marks-percentage-calculator/` **new**
+- [ ] `/th/markup-calculator/` **new**
+- [ ] `/th/percent-solution-calculator/` **new**
+- [ ] `/th/percentage-change-calculator/`
+- [ ] `/th/percentage-decrease-calculator/`
+- [ ] `/th/percentage-difference-calculator/`
+- [ ] `/th/percentage-error-calculator/`
+- [ ] `/th/percentage-growth-calculator/`
+- [ ] `/th/percentage-increase-calculator/`
+- [ ] `/th/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/th/percentage-off-calculator/`
+- [ ] `/th/percentage-point-calculator/` **new**
+- [ ] `/th/percentile-to-percentage-calculator/` **new**
+- [ ] `/th/ppm-to-percentage-calculator/` **new**
+- [ ] `/th/profit-margin-calculator/` **new**
+- [ ] `/th/profit-percentage-calculator/` **new**
+- [ ] `/th/ratio-to-percentage-calculator/` **new**
+- [ ] `/th/reverse-percentage-calculator/`
+- [ ] `/th/salary-increase-calculator/` **new**
+- [ ] `/th/sgpa-to-percentage-calculator/` **new**
+- [ ] `/th/simple-interest-calculator/` **new**
+- [ ] `/th/slope-percentage-calculator/` **new**
+- [ ] `/th/tip-calculator/` **new**
+- [ ] `/th/win-loss-percentage-calculator/` **new**
+- [ ] `/th/page/about/`
+- [ ] `/th/page/contact/`
+- [ ] `/th/page/disclaimer/`
+- [ ] `/th/page/privacy-policy/`
+- [ ] `/th/page/terms-of-use/`
+- [ ] `/th/page/sitemap/` **new**
+
+## vi - Vietnamese
+
+- [ ] `/vi/` (home, `percentage-calculator`)
+- [ ] `/vi/alcohol-proof-calculator/` **new**
+- [ ] `/vi/apr-apy-converter/` **new**
+- [ ] `/vi/apr-calculator/` **new**
+- [ ] `/vi/apy-calculator/` **new**
+- [ ] `/vi/average-percentage-calculator/`
+- [ ] `/vi/bakers-percentage-calculator/` **new**
+- [ ] `/vi/basis-points-calculator/` **new**
+- [ ] `/vi/cgpa-to-percentage-calculator/` **new**
+- [ ] `/vi/commission-calculator/` **new**
+- [ ] `/vi/compound-interest-calculator/` **new**
+- [ ] `/vi/decimal-to-percentage-calculator/` **new**
+- [ ] `/vi/depreciation-calculator/` **new**
+- [ ] `/vi/food-cost-percentage-calculator/` **new**
+- [ ] `/vi/fraction-to-percentage-calculator/`
+- [ ] `/vi/gpa-to-percentage-calculator/` **new**
+- [ ] `/vi/gross-margin-calculator/` **new**
+- [ ] `/vi/loan-interest-calculator/` **new**
+- [ ] `/vi/marks-percentage-calculator/` **new**
+- [ ] `/vi/markup-calculator/` **new**
+- [ ] `/vi/percent-solution-calculator/` **new**
+- [ ] `/vi/percentage-change-calculator/`
+- [ ] `/vi/percentage-decrease-calculator/`
+- [ ] `/vi/percentage-difference-calculator/`
+- [ ] `/vi/percentage-error-calculator/`
+- [ ] `/vi/percentage-growth-calculator/`
+- [ ] `/vi/percentage-increase-calculator/`
+- [ ] `/vi/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/vi/percentage-off-calculator/`
+- [ ] `/vi/percentage-point-calculator/` **new**
+- [ ] `/vi/percentile-to-percentage-calculator/` **new**
+- [ ] `/vi/ppm-to-percentage-calculator/` **new**
+- [ ] `/vi/profit-margin-calculator/` **new**
+- [ ] `/vi/profit-percentage-calculator/` **new**
+- [ ] `/vi/ratio-to-percentage-calculator/` **new**
+- [ ] `/vi/reverse-percentage-calculator/`
+- [ ] `/vi/salary-increase-calculator/` **new**
+- [ ] `/vi/sgpa-to-percentage-calculator/` **new**
+- [ ] `/vi/simple-interest-calculator/` **new**
+- [ ] `/vi/slope-percentage-calculator/` **new**
+- [ ] `/vi/tip-calculator/` **new**
+- [ ] `/vi/win-loss-percentage-calculator/` **new**
+- [ ] `/vi/page/about/`
+- [ ] `/vi/page/contact/`
+- [ ] `/vi/page/disclaimer/`
+- [ ] `/vi/page/privacy-policy/`
+- [ ] `/vi/page/terms-of-use/`
+- [ ] `/vi/page/sitemap/` **new**
+
+## zh-cn - Chinese (Simplified)
+
+- [ ] `/zh-cn/` (home, `percentage-calculator`)
+- [ ] `/zh-cn/alcohol-proof-calculator/` **new**
+- [ ] `/zh-cn/apr-apy-converter/` **new**
+- [ ] `/zh-cn/apr-calculator/` **new**
+- [ ] `/zh-cn/apy-calculator/` **new**
+- [ ] `/zh-cn/average-percentage-calculator/`
+- [ ] `/zh-cn/bakers-percentage-calculator/` **new**
+- [ ] `/zh-cn/basis-points-calculator/` **new**
+- [ ] `/zh-cn/cgpa-to-percentage-calculator/` **new**
+- [ ] `/zh-cn/commission-calculator/` **new**
+- [ ] `/zh-cn/compound-interest-calculator/` **new**
+- [ ] `/zh-cn/decimal-to-percentage-calculator/` **new**
+- [ ] `/zh-cn/depreciation-calculator/` **new**
+- [ ] `/zh-cn/food-cost-percentage-calculator/` **new**
+- [ ] `/zh-cn/fraction-to-percentage-calculator/`
+- [ ] `/zh-cn/gpa-to-percentage-calculator/` **new**
+- [ ] `/zh-cn/gross-margin-calculator/` **new**
+- [ ] `/zh-cn/loan-interest-calculator/` **new**
+- [ ] `/zh-cn/marks-percentage-calculator/` **new**
+- [ ] `/zh-cn/markup-calculator/` **new**
+- [ ] `/zh-cn/percent-solution-calculator/` **new**
+- [ ] `/zh-cn/percentage-change-calculator/`
+- [ ] `/zh-cn/percentage-decrease-calculator/`
+- [ ] `/zh-cn/percentage-difference-calculator/`
+- [ ] `/zh-cn/percentage-error-calculator/`
+- [ ] `/zh-cn/percentage-growth-calculator/`
+- [ ] `/zh-cn/percentage-increase-calculator/`
+- [ ] `/zh-cn/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/zh-cn/percentage-off-calculator/`
+- [ ] `/zh-cn/percentage-point-calculator/` **new**
+- [ ] `/zh-cn/percentile-to-percentage-calculator/` **new**
+- [ ] `/zh-cn/ppm-to-percentage-calculator/` **new**
+- [ ] `/zh-cn/profit-margin-calculator/` **new**
+- [ ] `/zh-cn/profit-percentage-calculator/` **new**
+- [ ] `/zh-cn/ratio-to-percentage-calculator/` **new**
+- [ ] `/zh-cn/reverse-percentage-calculator/`
+- [ ] `/zh-cn/salary-increase-calculator/` **new**
+- [ ] `/zh-cn/sgpa-to-percentage-calculator/` **new**
+- [ ] `/zh-cn/simple-interest-calculator/` **new**
+- [ ] `/zh-cn/slope-percentage-calculator/` **new**
+- [ ] `/zh-cn/tip-calculator/` **new**
+- [ ] `/zh-cn/win-loss-percentage-calculator/` **new**
+- [ ] `/zh-cn/page/about/`
+- [ ] `/zh-cn/page/contact/`
+- [ ] `/zh-cn/page/disclaimer/`
+- [ ] `/zh-cn/page/privacy-policy/`
+- [ ] `/zh-cn/page/terms-of-use/`
+- [ ] `/zh-cn/page/sitemap/` **new**
+
+## zh-tw - Chinese (Traditional)
+
+- [ ] `/zh-tw/` (home, `percentage-calculator`)
+- [ ] `/zh-tw/alcohol-proof-calculator/` **new**
+- [ ] `/zh-tw/apr-apy-converter/` **new**
+- [ ] `/zh-tw/apr-calculator/` **new**
+- [ ] `/zh-tw/apy-calculator/` **new**
+- [ ] `/zh-tw/average-percentage-calculator/`
+- [ ] `/zh-tw/bakers-percentage-calculator/` **new**
+- [ ] `/zh-tw/basis-points-calculator/` **new**
+- [ ] `/zh-tw/cgpa-to-percentage-calculator/` **new**
+- [ ] `/zh-tw/commission-calculator/` **new**
+- [ ] `/zh-tw/compound-interest-calculator/` **new**
+- [ ] `/zh-tw/decimal-to-percentage-calculator/` **new**
+- [ ] `/zh-tw/depreciation-calculator/` **new**
+- [ ] `/zh-tw/food-cost-percentage-calculator/` **new**
+- [ ] `/zh-tw/fraction-to-percentage-calculator/`
+- [ ] `/zh-tw/gpa-to-percentage-calculator/` **new**
+- [ ] `/zh-tw/gross-margin-calculator/` **new**
+- [ ] `/zh-tw/loan-interest-calculator/` **new**
+- [ ] `/zh-tw/marks-percentage-calculator/` **new**
+- [ ] `/zh-tw/markup-calculator/` **new**
+- [ ] `/zh-tw/percent-solution-calculator/` **new**
+- [ ] `/zh-tw/percentage-change-calculator/`
+- [ ] `/zh-tw/percentage-decrease-calculator/`
+- [ ] `/zh-tw/percentage-difference-calculator/`
+- [ ] `/zh-tw/percentage-error-calculator/`
+- [ ] `/zh-tw/percentage-growth-calculator/`
+- [ ] `/zh-tw/percentage-increase-calculator/`
+- [ ] `/zh-tw/percentage-of-a-percentage-calculator/` **new**
+- [ ] `/zh-tw/percentage-off-calculator/`
+- [ ] `/zh-tw/percentage-point-calculator/` **new**
+- [ ] `/zh-tw/percentile-to-percentage-calculator/` **new**
+- [ ] `/zh-tw/ppm-to-percentage-calculator/` **new**
+- [ ] `/zh-tw/profit-margin-calculator/` **new**
+- [ ] `/zh-tw/profit-percentage-calculator/` **new**
+- [ ] `/zh-tw/ratio-to-percentage-calculator/` **new**
+- [ ] `/zh-tw/reverse-percentage-calculator/`
+- [ ] `/zh-tw/salary-increase-calculator/` **new**
+- [ ] `/zh-tw/sgpa-to-percentage-calculator/` **new**
+- [ ] `/zh-tw/simple-interest-calculator/` **new**
+- [ ] `/zh-tw/slope-percentage-calculator/` **new**
+- [ ] `/zh-tw/tip-calculator/` **new**
+- [ ] `/zh-tw/win-loss-percentage-calculator/` **new**
+- [ ] `/zh-tw/page/about/`
+- [ ] `/zh-tw/page/contact/`
+- [ ] `/zh-tw/page/disclaimer/`
+- [ ] `/zh-tw/page/privacy-policy/`
+- [ ] `/zh-tw/page/terms-of-use/`
+- [ ] `/zh-tw/page/sitemap/` **new**

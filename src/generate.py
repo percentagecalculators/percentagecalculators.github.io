@@ -132,6 +132,209 @@ RELATED_COUNT = 4
 # of that stretch so the lone card just sits at its own natural height.
 PILLAR_SLUGS = {"percentage-calculator", "percentage-difference-calculator"}
 
+# ---------------------------------------------------------------------------
+# Localization — English is the source language and renders exactly as
+# before; every other language is an overlay of translated text on the same
+# templates, markup and JS (src/content/i18n/<lang>/). A language is built
+# when its directory has a ui.json. URLs: English stays flat
+# (/slug, /about); other languages use /<lang>/, /<lang>/<slug>/ and
+# /<lang>/page/<name>/ (the legacy site's URL structure).
+#
+# The current language is module state (LANG/UI), set per build pass by
+# set_locale(), so the many render helpers that build links or chrome text
+# (tool_url(), t()) keep their existing signatures.
+# ---------------------------------------------------------------------------
+
+I18N_DIR = os.path.join(BASE_DIR, "content", "i18n")
+
+# Native name shown in the language switcher; hreflang/<html lang> tag.
+LANGUAGES = {
+    "en": ("English", "en"), "ar": ("العربية", "ar"), "bn": ("বাংলা", "bn"), "de": ("Deutsch", "de"),
+    "es": ("Español", "es"), "fr": ("Français", "fr"), "hi": ("हिन्दी", "hi"), "id": ("Bahasa Indonesia", "id"),
+    "it": ("Italiano", "it"), "ja": ("日本語", "ja"), "ko": ("한국어", "ko"), "ms": ("Bahasa Melayu", "ms"),
+    "nl": ("Nederlands", "nl"), "pt": ("Português", "pt"), "ru": ("Русский", "ru"), "th": ("ไทย", "th"),
+    "vi": ("Tiếng Việt", "vi"), "zh-cn": ("简体中文", "zh-CN"), "zh-tw": ("繁體中文", "zh-TW"),
+}
+RTL_LANGS = {"ar"}
+
+# Chrome text outside the content files. A language's ui.json overrides any
+# of these by key; nav_groups/company_links/nav_names are keyed overlays
+# (see localize_site()/localize_tools()).
+UI_EN = {
+    "skip_to_content": "Skip to content",
+    "primary_nav": "Primary navigation",
+    "toggle_dark": "Toggle dark mode",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "site_nav": "Site navigation",
+    "home": "Home",
+    "more": "More",
+    "language": "Language",
+    "reset": "Reset calculator",
+    "calculate": "Calculate",
+    "related_aria": "Related calculators",
+    "faq_heading": "Frequently Asked Questions",
+    "toc_label": "Table of Contents",
+    "copy_result": "Copy result",
+    "copied": "Copied!",
+    "company": "Company",
+    "footer_site_map": "Site map",
+    "footer_links": "Footer links",
+    "rights": "All rights reserved.",
+}
+
+LANG = "en"
+UI = UI_EN
+BUILT_LANGS = ["en"]
+TOOL_SLUGS = set()
+PAGE_SLUGS = set()
+
+
+def set_locale(lang, ui=None):
+    global LANG, UI
+    LANG = lang
+    UI = dict(UI_EN, **(ui or {}))
+
+
+def t(key):
+    return UI[key]
+
+
+def path_for(lang, kind, slug):
+    """Site-relative URL of a page in a language. kind: home | tool | page."""
+    if lang == "en":
+        return "/" if kind == "home" else "/%s" % slug
+    if kind == "home":
+        return "/%s/" % lang
+    return "/%s/%s%s/" % (lang, "page/" if kind == "page" else "", slug)
+
+
+def out_rel_path(lang, kind, slug):
+    """Path of a page's file under public/ (or the render dir)."""
+    if lang == "en":
+        return "index.html" if kind == "home" else "%s.html" % slug
+    if kind == "home":
+        return os.path.join(lang, "index.html")
+    return os.path.join(lang, "page" if kind == "page" else "", slug, "index.html")
+
+
+def localize_href(href):
+    """Maps a root-relative English link ("/", "/contact", "/tip-calculator")
+    to the current language's URL; anything else is returned unchanged."""
+    if LANG == "en" or not href.startswith("/"):
+        return href
+    slug = href.strip("/")
+    if not slug:
+        return path_for(LANG, "home", "")
+    if slug in PAGE_SLUGS:
+        return path_for(LANG, "page", slug)
+    if slug in TOOL_SLUGS:
+        return path_for(LANG, "tool", slug)
+    return href
+
+
+def localize_links(fragment):
+    if LANG == "en":
+        return fragment
+    return re.sub(r'href="(/[a-z0-9-]*)"', lambda m: 'href="%s"' % localize_href(m.group(1)), fragment)
+
+
+def render_hreflang(site, kind, slug):
+    domain = site["domain"]
+    links = [
+        '<link rel="alternate" hreflang="%s" href="https://%s%s">' % (LANGUAGES[l][1], domain, path_for(l, kind, slug))
+        for l in BUILT_LANGS
+    ]
+    links.append('<link rel="alternate" hreflang="x-default" href="https://%s%s">' % (domain, path_for("en", kind, slug)))
+    return "\n    ".join(links)
+
+
+def html_attrs(lang):
+    return 'lang="%s"%s' % (LANGUAGES[lang][1], ' dir="rtl"' if lang in RTL_LANGS else "")
+
+
+def load_json(path):
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def discover_languages():
+    langs = []
+    if os.path.isdir(I18N_DIR):
+        for lang in sorted(os.listdir(I18N_DIR)):
+            if lang in LANGUAGES and os.path.exists(os.path.join(I18N_DIR, lang, "ui.json")):
+                langs.append(lang)
+    return ["en"] + langs
+
+
+def load_locale(lang):
+    lang_dir = os.path.join(I18N_DIR, lang)
+    tools = {}
+    for fname in os.listdir(lang_dir):
+        if fname.endswith(".json") and fname not in ("ui.json", "pages.json"):
+            tools[fname[:-5]] = load_json(os.path.join(lang_dir, fname))
+    return {
+        "ui": load_json(os.path.join(lang_dir, "ui.json")),
+        "tools": tools,
+        "pages": load_json(os.path.join(lang_dir, "pages.json")),
+    }
+
+
+# Same pattern as utilities/i18n/validate.py's card_strings() -- keep in sync.
+CARD_TEXT_RE = re.compile(r">([^<>{}]*[^\s<>{}][^<>{}]*)<|((?:placeholder|aria-label|title)=\")([^\"]+)(\")")
+
+
+def translate_card(fields_html, strings):
+    """Swaps visible card text (labels, placeholders, output captions) for
+    its translation, keyed by the exact English string. The card's markup,
+    classes and ids are never touched."""
+    def repl(m):
+        if m.group(1) is not None:
+            raw = m.group(1)
+            key = raw.strip()
+            if key in strings:
+                return ">%s<" % raw.replace(key, html.escape(strings[key], quote=False), 1)
+            return m.group(0)
+        if m.group(3) in strings:
+            return m.group(2) + html.escape(strings[m.group(3)], quote=True) + m.group(4)
+        return m.group(0)
+    return CARD_TEXT_RE.sub(repl, fields_html)
+
+
+def localize_tools(tools, loc):
+    """Translated copies of every tool. content_html/faq come only from the
+    translation; a language that hasn't translated an article yet renders
+    no article, never the English one."""
+    out = []
+    for tool in tools:
+        tr = loc["tools"][tool["slug"]]
+        lt = dict(tool)
+        for key in ("meta_title", "meta_description", "h1", "subtitle", "hint", "long_tail_anchor"):
+            lt[key] = tr[key]
+        lt["nav_name"] = loc["ui"]["nav_names"][tool["slug"]]
+        lt["content_html"] = tr.get("content_html", "")
+        lt["faq"] = tr.get("faq", [])
+        lt["card"] = dict(tool["card"], fields_html=translate_card(tool["card"]["fields_html"], tr["card_strings"]))
+        out.append(lt)
+    return out
+
+
+def localize_site(site, ui):
+    ls = dict(site)
+    ls["footer_tagline"] = ui["footer_tagline"]
+    ls["nav_groups"] = [dict(g, **ui["nav_groups"][g["key"]]) for g in site["nav_groups"]]
+    ls["company_links"] = [dict(l, label=ui["company_links"][l["href"]]) for l in site["company_links"]]
+    return ls
+
+
+def localize_pages(pages, loc):
+    out = []
+    for page in pages:
+        tr = loc["pages"][page["slug"]]
+        out.append(dict(page, **{k: tr[k] for k in ("meta_title", "meta_description", "h1", "sections")}, subtitle=tr.get("subtitle", "")))
+    return out
+
+
 CHEVRON_SVG = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>'
 CLOSE_SVG = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg>'
 HAMBURGER_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>'
@@ -245,7 +448,7 @@ def compile_tailwind_css(content_dir, out_path):
          "-c", os.path.join(BASE_DIR, "tailwind.config.js"),
          "-i", os.path.join(BASE_DIR, "tailwind-input.css"),
          "-o", out_path,
-         "--content", os.path.join(content_dir, "*.html"),
+         "--content", os.path.join(content_dir, "**", "*.html"),
          "--minify"],
         capture_output=True, text=True, env=env,
     )
@@ -271,10 +474,10 @@ def render_reset_button(color):
         '<button type="button" class="reset-btn ml-auto flex h-9 w-9 flex-none items-center justify-center '
         'rounded-lg border border-border bg-surface text-text-secondary transition-colors hover:border-%s-300 '
         'hover:bg-%s-50 hover:text-%s-600 dark:hover:border-%s-500/40 dark:hover:bg-%s-500/10 dark:hover:text-%s-400" '
-        'aria-label="Reset calculator" title="Reset calculator">'
+        'aria-label="%s" title="%s">'
         '<svg class="h-[18px] w-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">'
         '<path d="M3 12a9 9 0 1 0 3-6.7" stroke-linecap="round"/><path d="M3 3v5h5" stroke-linecap="round" stroke-linejoin="round"/></svg>'
-        "</button>" % (color, color, color, color, color, color)
+        "</button>" % (color, color, color, color, color, color, html.escape(t("reset")), html.escape(t("reset")))
     )
 
 
@@ -285,7 +488,8 @@ def render_reset_button(color):
 # A screen-reader-only submit button satisfies both without changing how any
 # card looks; the existing form-level submit handler in template.html already
 # calls preventDefault() on it.
-SR_ONLY_SUBMIT_BUTTON = '<button type="submit" class="sr-only">Calculate</button>'
+def sr_only_submit_button():
+    return '<button type="submit" class="sr-only">%s</button>' % html.escape(t("calculate"))
 
 
 def render_tool_card_body(tool):
@@ -307,7 +511,7 @@ def render_tool_card_body(tool):
     color = TOOL_ACCENTS.get(tool["slug"], "emerald")
     body = body.replace(
         TOOL_CARD_HEAD_ANCHOR,
-        "{{HINT}}</p></div>" + render_reset_button(color) + "</div>" + SR_ONLY_SUBMIT_BUTTON,
+        "{{HINT}}</p></div>" + render_reset_button(color) + "</div>" + sr_only_submit_button(),
         1,
     )
     body = body.replace("{{H1}}", html.escape(tool["h1"]))
@@ -513,10 +717,10 @@ def render_toc(tree):
     full-height band."""
     list_html = render_toc_list(tree)
     return (
-        '<nav class="toc mb-6 w-full max-w-2xl rounded-2xl border border-border bg-surface-alt p-5" aria-label="Table of contents">'
-        '<p class="mb-3 text-sm font-bold uppercase tracking-wide text-text-muted">Table of Contents</p>'
+        '<nav class="toc mb-6 w-full max-w-2xl rounded-2xl border border-border bg-surface-alt p-5" aria-label="%s">'
+        '<p class="mb-3 text-sm font-bold uppercase tracking-wide text-text-muted">%s</p>'
         '<ol class="toc-list list-decimal list-outside space-y-1.5 pl-5 text-sm font-semibold text-text marker:font-bold marker:text-accent">%s</ol>'
-        '</nav>' % list_html
+        '</nav>' % (html.escape(t("toc_label")), html.escape(t("toc_label")), list_html)
     )
 
 
@@ -544,9 +748,9 @@ def render_faq_section(tool, alt):
     bg = "bg-bg-alt" if alt else "bg-bg"
     return (
         '<section class="block py-10 %s sm:py-14"><div class="block-inner mx-auto max-w-7xl px-4 sm:px-6">'
-        '<div class="section-header mb-6"><h2 class="text-2xl font-bold text-text">Frequently Asked Questions</h2></div>'
+        '<div class="section-header mb-6"><h2 class="text-2xl font-bold text-text">%s</h2></div>'
         '<dl class="faq-list grid grid-cols-1 gap-x-10 md:grid-cols-2">%s</dl>'
-        '</div></section>' % (bg, items)
+        '</div></section>' % (bg, html.escape(t("faq_heading")), items)
     )
 
 
@@ -621,23 +825,23 @@ def render_sitemap_content(site, by_slug):
     (see sitemap_anchor_for) rather than the short nav_name used elsewhere."""
     home = by_slug[site["home_slug"]]
     parts = [
-        "<h2>Home</h2><ul><li><a href=\"%s\">%s</a></li></ul>"
-        % (tool_url(home, site), html.escape(sitemap_anchor_for(home)))
+        "<h2>%s</h2><ul><li><a href=\"%s\">%s</a></li></ul>"
+        % (html.escape(t("home")), tool_url(home, site), html.escape(sitemap_anchor_for(home)))
     ]
     for group in site["nav_groups"]:
         items = []
         for slug in group.get("slugs", []):
             tool = by_slug[slug]
             items.append('<li><a href="%s">%s</a></li>' % (tool_url(tool, site), html.escape(sitemap_anchor_for(tool))))
-        for t in group.get("tools", []):
-            url = "/" if t["slug"] == site["home_slug"] else "/%s" % t["slug"]
-            items.append('<li><a href="%s">%s</a></li>' % (url, html.escape(t["name"])))
+        for extra in group.get("tools", []):
+            url = "/" if extra["slug"] == site["home_slug"] else "/%s" % extra["slug"]
+            items.append('<li><a href="%s">%s</a></li>' % (localize_href(url), html.escape(extra["name"])))
         parts.append("<h2>%s</h2><ul>%s</ul>" % (html.escape(group["label"]), "".join(items)))
     company_items = "".join(
-        '<li><a href="%s">%s</a></li>' % (l["href"], html.escape(l["label"]))
+        '<li><a href="%s">%s</a></li>' % (localize_href(l["href"]), html.escape(l["label"]))
         for l in site["company_links"]
     )
-    parts.append("<h2>Company</h2><ul>%s</ul>" % company_items)
+    parts.append("<h2>%s</h2><ul>%s</ul>" % (html.escape(t("company")), company_items))
     return "".join(parts)
 
 
@@ -654,9 +858,7 @@ NAV_BTN_CLASSES = "cat-menu-btn inline-flex items-center gap-1 rounded-lg px-2.5
 
 
 def tool_url(tool, site):
-    if tool["slug"] == site["home_slug"]:
-        return "/"
-    return "/%s" % tool["slug"]
+    return path_for(LANG, "home" if tool["slug"] == site["home_slug"] else "tool", tool["slug"])
 
 
 def group_links(group, site, by_slug):
@@ -683,7 +885,7 @@ def footer_group_links(group, site, by_slug):
 
 def render_category_dropdowns(site, by_slug):
     items = [
-        '<div class="cat-menu-item shrink-0"><a href="/" class="%s">Home</a></div>' % NAV_BTN_CLASSES
+        '<div class="cat-menu-item shrink-0"><a href="%s" class="%s">%s</a></div>' % (localize_href("/"), NAV_BTN_CLASSES, html.escape(t("home")))
     ]
     for group in site["nav_groups"]:
         panel_id = "catmenu-%s" % group["key"]
@@ -725,13 +927,13 @@ def render_more_menu(site, by_slug):
         )
     return (
         '<div class="cat-menu-item relative shrink-0" id="moreMenuItem" hidden>'
-        '<button type="button" class="%s" id="moreMenuBtn" aria-expanded="false" aria-controls="moreMenuPanel">More%s</button>'
+        '<button type="button" class="%s" id="moreMenuBtn" aria-expanded="false" aria-controls="moreMenuPanel">%s%s</button>'
         '<div class="tools-menu more-menu fixed z-50 max-h-[70vh] w-72 overflow-y-auto rounded-2xl border border-border bg-surface p-2 shadow-lg" id="moreMenuPanel" hidden>%s</div>'
-        '</div>' % (NAV_BTN_CLASSES, CHEVRON_SVG, "".join(sections))
+        '</div>' % (NAV_BTN_CLASSES, html.escape(t("more")), CHEVRON_SVG, "".join(sections))
     )
 
 
-def render_mobile_drawer(site, by_slug):
+def render_mobile_drawer(site, by_slug, alts=None):
     sections = []
     for group in site["nav_groups"]:
         panel_id = "drawer-%s" % group["key"]
@@ -754,11 +956,15 @@ def render_mobile_drawer(site, by_slug):
         )
     return (
         '<div class="fixed inset-0 z-40 bg-black/50 opacity-0 transition-opacity duration-200" id="navDrawerBackdrop" hidden></div>'
-        '<div class="nav-drawer-panel fixed inset-y-0 right-0 z-50 w-[85vw] max-w-sm translate-x-full overflow-y-auto bg-bg-alt shadow-xl transition-transform duration-200" id="navDrawer" role="dialog" aria-modal="true" aria-label="Site navigation" hidden>'
-        '<button type="button" class="nav-drawer-close absolute right-3 top-3 flex h-11 w-11 items-center justify-center rounded-full text-text-secondary hover:bg-surface-alt" id="navDrawerClose" aria-label="Close menu">%s</button>'
-        '<div class="border-b border-border p-4"><a href="/" class="block text-sm font-semibold text-text">Home</a></div>'
+        '<div class="nav-drawer-panel fixed inset-y-0 right-0 z-50 w-[85vw] max-w-sm translate-x-full overflow-y-auto bg-bg-alt shadow-xl transition-transform duration-200" id="navDrawer" role="dialog" aria-modal="true" aria-label="%s" hidden>'
+        '<button type="button" class="nav-drawer-close absolute right-3 top-3 flex h-11 w-11 items-center justify-center rounded-full text-text-secondary hover:bg-surface-alt" id="navDrawerClose" aria-label="%s">%s</button>'
+        '<div class="border-b border-border p-4"><a href="%s" class="block text-sm font-semibold text-text">%s</a></div>'
         '%s'
-        '</div>' % (CLOSE_SVG, "".join(sections))
+        '%s'
+        '</div>' % (
+            html.escape(t("site_nav")), html.escape(t("close_menu")), CLOSE_SVG, localize_href("/"), html.escape(t("home")),
+            "".join(sections), render_drawer_languages(alts),
+        )
     )
 
 
@@ -782,7 +988,7 @@ def render_footer_mega(site, by_slug):
 
 def render_footer_company(site):
     return "".join(
-        '<a href="%s" class="text-text-secondary hover:text-accent">%s</a>' % (l["href"], html.escape(l["label"]))
+        '<a href="%s" class="text-text-secondary hover:text-accent">%s</a>' % (localize_href(l["href"]), html.escape(l["label"]))
         for l in site["company_links"]
     )
 
@@ -797,25 +1003,65 @@ def render_footer_company(site):
 # can never drift out of sync with each other.
 # ---------------------------------------------------------------------------
 
-def render_site_header(site, by_slug):
+GLOBE_SVG = '<svg aria-hidden="true" class="h-[18px] w-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>'
+
+
+def render_language_switcher(alts):
+    """Native <details> dropdown (closed on outside click/Escape by NAV_JS_CORE).
+    alts: [(lang, url)] for the current page in every built language."""
+    if not alts or len(alts) < 2:
+        return ""
+    links = "".join(
+        '<li><a href="%s" lang="%s" hreflang="%s"%s class="block rounded-lg px-3 py-2 text-sm text-text-secondary hover:bg-surface-alt hover:text-text">%s</a></li>'
+        % (url, LANGUAGES[l][1], LANGUAGES[l][1], ' aria-current="true"' if l == LANG else "", html.escape(LANGUAGES[l][0]))
+        for l, url in alts
+    )
+    return (
+        '<details class="lang-switch relative ml-auto flex-none" id="langSwitch">'
+        '<summary class="inline-flex h-9 cursor-pointer list-none items-center gap-1.5 rounded-full border border-border px-3 text-sm font-medium text-text-secondary hover:bg-surface-alt hover:text-text [&::-webkit-details-marker]:hidden" aria-label="%s">%s<span>%s</span></summary>'
+        '<ul class="absolute right-0 top-full z-50 mt-2 max-h-[70vh] w-48 overflow-y-auto rounded-2xl border border-border bg-surface p-2 shadow-lg">%s</ul>'
+        "</details>" % (html.escape(t("language")), GLOBE_SVG, html.escape(LANGUAGES[LANG][1].upper()), links)
+    )
+
+
+def render_drawer_languages(alts):
+    if not alts or len(alts) < 2:
+        return ""
+    links = "".join(
+        '<a href="%s" lang="%s" hreflang="%s"%s class="rounded-lg border border-border px-3 py-2 text-sm text-text-secondary hover:bg-surface-alt hover:text-text">%s</a>'
+        % (url, LANGUAGES[l][1], LANGUAGES[l][1], ' aria-current="true"' if l == LANG else "", html.escape(LANGUAGES[l][0]))
+        for l, url in alts
+    )
+    return (
+        '<div class="p-4"><p class="mb-2 text-xs font-semibold uppercase tracking-wide text-text-muted">%s</p>'
+        '<div class="flex flex-wrap gap-2">%s</div></div>' % (html.escape(t("language")), links)
+    )
+
+
+def page_alternates(kind, slug):
+    return [(l, path_for(l, kind, slug)) for l in BUILT_LANGS]
+
+
+def render_site_header(site, by_slug, alts=None):
     return (
         '<body class="min-h-screen bg-bg font-sans text-text-alt antialiased">'
-        '<a href="#main-content" class="skip-link sr-only focus:not-sr-only focus:fixed focus:left-2 focus:top-2 focus:z-50 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-white">Skip to content</a>'
+        '<a href="#main-content" class="skip-link sr-only focus:not-sr-only focus:fixed focus:left-2 focus:top-2 focus:z-50 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-white">%(skip)s</a>'
         '<header class="relative z-40 border-b border-border bg-bg-alt">'
-        '<nav class="top-nav mx-auto flex max-w-7xl items-center gap-3 px-4 py-3 sm:px-6" aria-label="Primary navigation">'
-        '<a href="/" class="logo flex flex-none items-center gap-2.5 text-[1.05rem] font-bold text-text">'
+        '<nav class="top-nav mx-auto flex max-w-7xl items-center gap-3 px-4 py-3 sm:px-6" aria-label="%(primary_nav)s">'
+        '<a href="%(home_href)s" class="logo flex flex-none items-center gap-2.5 text-[1.05rem] font-bold text-text">'
         '<span class="logo-icon flex h-8 w-8 flex-none items-center justify-center rounded-[10px] bg-gradient-to-br from-accent to-accent-darker text-sm font-extrabold text-white" aria-hidden="true">%%</span>'
         "<span>%(site_name)s</span>"
         "</a>"
         '<div class="category-strip hidden min-w-0 flex-1 items-center justify-end gap-1 overflow-hidden md:flex">'
         "%(category_dropdowns)s%(more_menu)s"
         "</div>"
-        '<button type="button" id="themeToggleBtn" aria-label="Toggle dark mode" aria-pressed="false" '
-        'class="ml-auto inline-flex h-9 w-9 flex-none items-center justify-center rounded-full border border-border text-text-secondary hover:bg-surface-alt hover:text-text">'
+        "%(lang_switch)s"
+        '<button type="button" id="themeToggleBtn" aria-label="%(toggle_dark)s" aria-pressed="false" '
+        'class="%(theme_margin)sinline-flex h-9 w-9 flex-none items-center justify-center rounded-full border border-border text-text-secondary hover:bg-surface-alt hover:text-text">'
         '<svg class="sun h-[18px] w-[18px] dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>'
         '<svg class="moon hidden h-[18px] w-[18px] dark:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg>'
         "</button>"
-        '<button type="button" class="nav-hamburger flex h-11 w-11 flex-none items-center justify-center rounded-lg text-text-secondary hover:bg-surface-alt md:hidden" id="navHamburgerBtn" aria-expanded="false" aria-controls="navDrawer" aria-label="Open menu">%(hamburger)s</button>'
+        '<button type="button" class="nav-hamburger flex h-11 w-11 flex-none items-center justify-center rounded-lg text-text-secondary hover:bg-surface-alt md:hidden" id="navHamburgerBtn" aria-expanded="false" aria-controls="navDrawer" aria-label="%(open_menu)s">%(hamburger)s</button>'
         "</nav>"
         "</header>"
     ) % {
@@ -823,6 +1069,15 @@ def render_site_header(site, by_slug):
         "category_dropdowns": render_category_dropdowns(site, by_slug),
         "more_menu": render_more_menu(site, by_slug),
         "hamburger": HAMBURGER_SVG,
+        "skip": html.escape(t("skip_to_content")),
+        "home_href": localize_href("/"),
+        "primary_nav": html.escape(t("primary_nav")),
+        "toggle_dark": html.escape(t("toggle_dark")),
+        "open_menu": html.escape(t("open_menu")),
+        "lang_switch": render_language_switcher(alts),
+        # With a language switcher present it carries the ml-auto that
+        # pushes the button group right on mobile; otherwise the theme toggle does.
+        "theme_margin": "" if alts and len(alts) > 1 else "ml-auto ",
     }
 
 
@@ -831,18 +1086,18 @@ def render_site_footer(site, by_slug, year="2026"):
         '<footer class="border-t border-border bg-bg-alt">'
         '<div class="footer-inner mx-auto max-w-7xl px-4 py-10 sm:px-6">'
         '<div class="footer-brand-row flex flex-col gap-2 pb-8">'
-        '<a href="/" class="footer-logo flex items-center gap-2.5 text-base font-bold text-text">'
+        '<a href="%(home_href)s" class="footer-logo flex items-center gap-2.5 text-base font-bold text-text">'
         '<span class="logo-icon flex h-8 w-8 flex-none items-center justify-center rounded-[10px] bg-gradient-to-br from-accent to-accent-darker text-sm font-extrabold text-white" aria-hidden="true">%%</span>'
         "<span>%(site_name)s</span>"
         "</a>"
         '<p class="footer-tagline max-w-md text-sm text-text-secondary">%(footer_tagline)s</p>'
         "</div>"
-        '<nav class="footer-mega grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 lg:grid-cols-5" id="all-tools" aria-label="Site map">'
+        '<nav class="footer-mega grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 lg:grid-cols-5" id="all-tools" aria-label="%(footer_site_map)s">'
         "%(footer_mega)s"
         "</nav>"
         '<div class="footer-bottom mt-8 flex flex-col gap-3 border-t border-border pt-6 sm:flex-row sm:items-center sm:justify-between">'
-        '<p class="text-sm text-text-muted">&copy; %(year)s %(site_name)s. All rights reserved.</p>'
-        '<nav aria-label="Footer links">'
+        '<p class="text-sm text-text-muted">&copy; %(year)s %(site_name)s. %(rights)s</p>'
+        '<nav aria-label="%(footer_links)s">'
         '<div class="footer-legal-links flex flex-wrap gap-x-4 gap-y-1 text-sm">'
         "%(footer_company)s"
         "</div>"
@@ -856,6 +1111,10 @@ def render_site_footer(site, by_slug, year="2026"):
         "footer_mega": render_footer_mega(site, by_slug),
         "footer_company": render_footer_company(site),
         "year": year,
+        "home_href": localize_href("/"),
+        "footer_site_map": html.escape(t("footer_site_map")),
+        "rights": html.escape(t("rights")),
+        "footer_links": html.escape(t("footer_links")),
     }
 
 
@@ -1016,6 +1275,14 @@ NAV_JS_CORE = """
     if (mq.addEventListener) mq.addEventListener('change', mqHandler);
     else mq.addListener(mqHandler);
   }
+  document.addEventListener('click', function (e) {
+    var d = document.getElementById('langSwitch');
+    if (d && d.open && !d.contains(e.target)) d.open = false;
+  });
+  document.addEventListener('keydown', function (e) {
+    var d = document.getElementById('langSwitch');
+    if (e.key === 'Escape' && d && d.open) { d.open = false; d.querySelector('summary').focus(); }
+  });
 """.strip("\n")
 
 
@@ -1043,6 +1310,7 @@ def webapp_jsonld(tool, canonical):
         "@type": "WebApplication",
         "name": tool["h1"],
         "url": canonical,
+        "inLanguage": LANGUAGES[LANG][1],
         "description": tool["meta_description"],
         "applicationCategory": "CalculatorApplication",
         "operatingSystem": "Any",
@@ -1083,7 +1351,7 @@ def breadcrumb_jsonld(trail, domain):
 
 
 def website_jsonld(site):
-    data = {"@context": "https://schema.org", "@type": "WebSite", "name": site["site_name"], "url": "https://%s/" % site["domain"]}
+    data = {"@context": "https://schema.org", "@type": "WebSite", "name": site["site_name"], "url": "https://%s%s" % (site["domain"], path_for(LANG, "home", "")), "inLanguage": LANGUAGES[LANG][1]}
     return '<script type="application/ld+json">%s</script>' % json.dumps(data, separators=(",", ":"))
 
 
@@ -1099,11 +1367,15 @@ def apply_tokens(template, tokens):
 
 
 def render_page(tool, site, by_slug, tools, template):
+    kind = "home" if tool["slug"] == site["home_slug"] else "tool"
+    alts = page_alternates(kind, tool["slug"])
     canonical = "https://%s%s" % (site["domain"], tool_url(tool, site))
     card = tool.get("card", {})
     data_attrs = "".join(' data-%s="%s"' % (k, html.escape(str(v))) for k, v in card.get("data_attrs", {}).items())
 
     tokens = {
+        "HTML_ATTRS": html_attrs(LANG),
+        "HREFLANG_LINKS": render_hreflang(site, kind, tool["slug"]),
         "META_DESCRIPTION": html.escape(tool["meta_description"]),
         "SITE_NAME": site["site_name"],
         "CANONICAL_URL": canonical,
@@ -1114,12 +1386,15 @@ def render_page(tool, site, by_slug, tools, template):
         "THEME_INIT": THEME_INIT,
         "ADSENSE_LOADER": render_adsense_loader(),
         "ADSENSE_HEADER": render_adsense_header(),
-        "SITE_HEADER": render_site_header(site, by_slug),
-        "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
+        "SITE_HEADER": render_site_header(site, by_slug, alts),
+        "MOBILE_DRAWER": render_mobile_drawer(site, by_slug, alts),
         "NAV_JS_CORE": NAV_JS_CORE,
         "BREADCRUMBS": "",
+        "UI_RELATED_ARIA": html.escape(t("related_aria")),
+        "JS_COPY_RESULT": json.dumps(t("copy_result"), ensure_ascii=False),
+        "JS_COPIED": json.dumps(t("copied"), ensure_ascii=False),
         "H1": tool["h1"],
-        "SUBTITLE": tool["subtitle"],
+        "SUBTITLE": localize_links(tool["subtitle"]),
         "TOOL_MODE": card.get("mode", ""),
         "TOOL_LAYOUT": card.get("layout", "raw"),
         "TOOL_DATA_ATTRS": data_attrs,
@@ -1130,28 +1405,31 @@ def render_page(tool, site, by_slug, tools, template):
         "CODE_SNIPPET": "",
         "RELATED_CALCULATORS": render_related_calculators(tool, site, by_slug, tools),
         "ASIDE_SELF_START": " lg:self-start" if tool["slug"] in PILLAR_SLUGS else "",
-        "MAIN_SECTIONS": render_main_sections(tool),
+        "MAIN_SECTIONS": localize_links(render_main_sections(tool)),
         "SITE_FOOTER": render_site_footer(site, by_slug),
     }
     return apply_tokens(template, tokens)
 
 
 def render_info_page(page, site, by_slug, template):
-    canonical = "https://%s/%s" % (site["domain"], page["slug"])
-    trail = [("Home", "/"), (page["h1"], None)]
+    alts = page_alternates("page", page["slug"])
+    canonical = "https://%s%s" % (site["domain"], path_for(LANG, "page", page["slug"]))
+    trail = [(t("home"), localize_href("/")), (page["h1"], None)]
     tokens = {
+        "HTML_ATTRS": html_attrs(LANG),
+        "HREFLANG_LINKS": render_hreflang(site, "page", page["slug"]),
         "META_DESCRIPTION": html.escape(page["meta_description"]),
         "SITE_NAME": site["site_name"],
         "CANONICAL_URL": canonical,
         "META_TITLE": html.escape(page["meta_title"]),
         "THEME_INIT": THEME_INIT,
-        "SITE_HEADER": render_site_header(site, by_slug),
-        "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
+        "SITE_HEADER": render_site_header(site, by_slug, alts),
+        "MOBILE_DRAWER": render_mobile_drawer(site, by_slug, alts),
         "NAV_JS_CORE": NAV_JS_CORE,
         "BREADCRUMBS": render_breadcrumbs(trail) + breadcrumb_jsonld(trail, site["domain"]),
         "H1": page["h1"],
         "SUBTITLE": page.get("subtitle", ""),
-        "PAGE_CONTENT": render_sitemap_content(site, by_slug) if page["slug"] == "sitemap" else render_info_content(page),
+        "PAGE_CONTENT": render_sitemap_content(site, by_slug) if page["slug"] == "sitemap" else localize_links(render_info_content(page)),
         "ARTICLE_PROSE_CLASSES": ARTICLE_PROSE_CLASSES,
         "SITE_FOOTER": render_site_footer(site, by_slug),
     }
@@ -1162,8 +1440,8 @@ def render_404_page(site, by_slug, template_404):
     tokens = {
         "SITE_NAME": site["site_name"],
         "THEME_INIT": THEME_INIT,
-        "SITE_HEADER": render_site_header(site, by_slug),
-        "MOBILE_DRAWER": render_mobile_drawer(site, by_slug),
+        "SITE_HEADER": render_site_header(site, by_slug, page_alternates("home", "")),
+        "MOBILE_DRAWER": render_mobile_drawer(site, by_slug, page_alternates("home", "")),
         "NAV_JS_CORE": NAV_JS_CORE,
         "SITE_FOOTER": render_site_footer(site, by_slug),
     }
@@ -1216,12 +1494,25 @@ def write_robots_and_sitemap(site, tools, pages, out_dir):
     with open(os.path.join(out_dir, "robots.txt"), "w") as f:
         f.write("User-agent: *\nAllow: /\n\nSitemap: https://%s/sitemap.xml\n" % domain)
 
-    urls = ["/"] + ["/%s" % t["slug"] for t in tools if t["slug"] != site["home_slug"]] + ["/%s" % p["slug"] for p in pages]
-    entries = "".join(
-        "<url><loc>https://%s%s</loc></url>" % (domain, u) for u in urls
+    items = (
+        [("home", site["home_slug"])]
+        + [("tool", t["slug"]) for t in tools if t["slug"] != site["home_slug"]]
+        + [("page", p["slug"]) for p in pages]
     )
+    multilingual = len(BUILT_LANGS) > 1
+    entries = ""
+    for kind, slug in items:
+        alternates = ""
+        if multilingual:
+            alternates = "".join(
+                '<xhtml:link rel="alternate" hreflang="%s" href="https://%s%s"/>' % (LANGUAGES[l][1], domain, path_for(l, kind, slug))
+                for l in BUILT_LANGS
+            ) + '<xhtml:link rel="alternate" hreflang="x-default" href="https://%s%s"/>' % (domain, path_for("en", kind, slug))
+        for lang in BUILT_LANGS:
+            entries += "<url><loc>https://%s%s</loc>%s</url>" % (domain, path_for(lang, kind, slug), alternates)
+    xmlns = 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"' + (' xmlns:xhtml="http://www.w3.org/1999/xhtml"' if multilingual else "")
     with open(os.path.join(out_dir, "sitemap.xml"), "w") as f:
-        f.write('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</urlset>' % entries)
+        f.write('<?xml version="1.0" encoding="UTF-8"?><urlset %s>%s</urlset>' % (xmlns, entries))
 
     # Same authorized-seller declaration as legacy-bootstrap-site/ads.txt —
     # re-derived from ADSENSE_CLIENT so it can't drift from the loader/ad
@@ -1245,6 +1536,9 @@ def main():
         pages = json.load(f)
 
     by_slug = {t["slug"]: t for t in tools}
+    BUILT_LANGS[:] = discover_languages()
+    TOOL_SLUGS.update(by_slug)
+    PAGE_SLUGS.update(p["slug"] for p in pages)
 
     with open(os.path.join(BASE_DIR, "template.html")) as f:
         template = f.read()
@@ -1299,16 +1593,35 @@ def main():
         with open(os.path.join(OUTPUT_DIR, "base.min.css"), "w") as f:
             f.write(base_css_src)
 
-    for tool in tools:
-        out_html = render_page(tool, site, by_slug, tools, template)
-        filename = "index.html" if tool["slug"] == site["home_slug"] else "%s.html" % tool["slug"]
-        with open(os.path.join(render_dir, filename), "w") as f:
+    def write_page(lang, kind, slug, out_html):
+        path = os.path.join(render_dir, out_rel_path(lang, kind, slug))
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
             f.write(out_html)
 
+    def kind_of(tool):
+        return "home" if tool["slug"] == site["home_slug"] else "tool"
+
+    for tool in tools:
+        write_page("en", kind_of(tool), tool["slug"], render_page(tool, site, by_slug, tools, template))
+
     for page in pages:
-        out_html = render_info_page(page, site, by_slug, template_page)
-        with open(os.path.join(render_dir, "%s.html" % page["slug"]), "w") as f:
-            f.write(out_html)
+        write_page("en", "page", page["slug"], render_info_page(page, site, by_slug, template_page))
+
+    # One extra pass per translated language: same templates, same card
+    # markup and scripts, translated text and /<lang>/ URLs (see the
+    # Localization block near the top of this file).
+    for lang in BUILT_LANGS[1:]:
+        loc = load_locale(lang)
+        set_locale(lang, loc["ui"])
+        l_site = localize_site(site, loc["ui"])
+        l_tools = localize_tools(tools, loc)
+        l_by_slug = {t["slug"]: t for t in l_tools}
+        for tool in l_tools:
+            write_page(lang, kind_of(tool), tool["slug"], render_page(tool, l_site, l_by_slug, l_tools, template))
+        for page in localize_pages(pages, loc):
+            write_page(lang, "page", page["slug"], render_info_page(page, l_site, l_by_slug, template_page))
+    set_locale("en")
 
     out_html = render_404_page(site, by_slug, template_404)
     with open(os.path.join(render_dir, "404.html"), "w") as f:
@@ -1328,8 +1641,8 @@ def main():
         minify_html_dir(render_dir, OUTPUT_DIR)
         shutil.rmtree(render_dir)
 
-    print("Built %d tool pages + %d info pages into %s (%s)" % (
-        len(tools), len(pages), OUTPUT_DIR, "minified" if do_minify else "unminified"
+    print("Built %d tool pages + %d info pages x %d language(s) [%s] into %s (%s)" % (
+        len(tools), len(pages), len(BUILT_LANGS), ", ".join(BUILT_LANGS), OUTPUT_DIR, "minified" if do_minify else "unminified"
     ))
 
 

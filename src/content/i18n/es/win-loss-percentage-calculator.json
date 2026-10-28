@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "es",
+  "meta_title": "Calculadora de Porcentaje de Victorias y Derrotas | Calcula tu Tasa de Victorias",
+  "meta_description": "Calculadora gratuita de porcentaje de victorias y derrotas. Introduce victorias, derrotas y empates para calcular al instante tu porcentaje de victorias en cualquier deporte, juego o competición.",
+  "h1": "Calculadora de Porcentaje de Victorias y Derrotas",
+  "subtitle": "Introduce tus <strong>victorias</strong>, <strong>derrotas</strong> y los <strong>empates</strong> que tengas, y esta <strong>calculadora de porcentaje de victorias y derrotas</strong> calcula al instante tu <strong>porcentaje de victorias</strong>.",
+  "hint": "Introduce victorias, derrotas y empates para obtener tu porcentaje de victorias.",
+  "long_tail_anchor": "Calcula tu tasa de victorias deportiva",
+  "card_strings": {
+    "Losses": "Derrotas",
+    "Ties": "Empates",
+    "Total Games:": "Partidos totales:",
+    "Win Percentage:": "Porcentaje de victorias:",
+    "Wins": "Victorias",
+    "e.g. 10": "p. ej. 10",
+    "e.g. 18": "p. ej. 18",
+    "e.g. 2": "p. ej. 2"
+  }
+}
