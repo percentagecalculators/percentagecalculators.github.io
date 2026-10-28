@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "मुख्य सामग्री पर जाएँ",
+  "primary_nav": "मुख्य नेविगेशन",
+  "toggle_dark": "डार्क मोड बदलें",
+  "open_menu": "मेनू खोलें",
+  "close_menu": "मेनू बंद करें",
+  "site_nav": "साइट नेविगेशन",
+  "home": "होम",
+  "more": "और",
+  "language": "भाषा",
+  "reset": "कैलकुलेटर रीसेट करें",
+  "calculate": "गणना करें",
+  "related_aria": "संबंधित कैलकुलेटर",
+  "faq_heading": "अक्सर पूछे जाने वाले प्रश्न",
+  "toc_label": "विषय-सूची",
+  "copy_result": "परिणाम कॉपी करें",
+  "copied": "कॉपी हो गया!",
+  "company": "कंपनी",
+  "footer_site_map": "साइटमैप",
+  "footer_links": "फुटर लिंक",
+  "rights": "सर्वाधिकार सुरक्षित।",
+  "footer_tagline": "मुफ़्त ऑनलाइन प्रतिशत कैलकुलेटर। हर गणना पूरी तरह आपके ब्राउज़र में चलती है — तुरंत परिणाम, साइन-अप की ज़रूरत नहीं।",
+  "native_name": "हिन्दी",
+  "nav_groups": {
+    "core": {
+      "label": "मूल प्रतिशत टूल",
+      "short_label": "मूल",
+      "tagline": "ज़रूरी चीज़ें: प्रतिशत निकालना, किसी संख्या को बढ़ाना या घटाना, और दो मानों की तुलना करना।"
+    },
+    "converters": {
+      "label": "कनवर्टर",
+      "short_label": "कनवर्टर",
+      "tagline": "प्रतिशत, भिन्न, दशमलव, अनुपात और अन्य इकाई रूपों के बीच बदलें।"
+    },
+    "education": {
+      "label": "शिक्षा",
+      "short_label": "शिक्षा",
+      "tagline": "विद्यार्थियों के लिए GPA, CGPA, SGPA, अंकों और पर्सेंटाइल के रूपांतरण।"
+    },
+    "finance": {
+      "label": "वित्त और व्यवसाय",
+      "short_label": "वित्त",
+      "tagline": "ब्याज दरें, लाभ मार्जिन, मार्कअप, वेतन वृद्धि और व्यवसाय की वृद्धि।"
+    },
+    "everyday": {
+      "label": "रोज़मर्रा और विशेष",
+      "short_label": "रोज़मर्रा",
+      "tagline": "टिप, जीत दर, बेकिंग अनुपात, फूड कॉस्ट और घोलों की प्रतिशत सांद्रता।"
+    }
+  },
+  "company_links": {
+    "/about": "हमारे बारे में",
+    "/contact": "संपर्क करें",
+    "/sitemap": "साइटमैप",
+    "/disclaimer": "अस्वीकरण",
+    "/privacy-policy": "गोपनीयता नीति",
+    "/terms-of-use": "उपयोग की शर्तें"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "अल्कोहल प्रूफ कैलकुलेटर",
+    "apr-apy-converter": "APR से APY कनवर्टर",
+    "apr-calculator": "APR कैलकुलेटर",
+    "apy-calculator": "APY कैलकुलेटर",
+    "average-percentage-calculator": "औसत प्रतिशत कैलकुलेटर",
+    "bakers-percentage-calculator": "बेकर्स प्रतिशत कैलकुलेटर",
+    "basis-points-calculator": "बेसिस पॉइंट कैलकुलेटर",
+    "cgpa-to-percentage-calculator": "CGPA से प्रतिशत कैलकुलेटर",
+    "commission-calculator": "कमीशन कैलकुलेटर",
+    "compound-interest-calculator": "चक्रवृद्धि ब्याज कैलकुलेटर",
+    "decimal-to-percentage-calculator": "दशमलव से प्रतिशत कैलकुलेटर",
+    "depreciation-calculator": "मूल्यह्रास कैलकुलेटर",
+    "food-cost-percentage-calculator": "फूड कॉस्ट प्रतिशत कैलकुलेटर",
+    "fraction-to-percentage-calculator": "भिन्न से प्रतिशत कैलकुलेटर",
+    "gpa-to-percentage-calculator": "GPA से प्रतिशत कैलकुलेटर",
+    "gross-margin-calculator": "सकल मार्जिन कैलकुलेटर",
+    "loan-interest-calculator": "लोन ब्याज कैलकुलेटर",
+    "marks-percentage-calculator": "अंक प्रतिशत कैलकुलेटर",
+    "markup-calculator": "मार्कअप कैलकुलेटर",
+    "percent-solution-calculator": "प्रतिशत घोल कैलकुलेटर",
+    "percentage-calculator": "प्रतिशत कैलकुलेटर",
+    "percentage-change-calculator": "प्रतिशत बदलाव कैलकुलेटर",
+    "percentage-decrease-calculator": "प्रतिशत कमी कैलकुलेटर",
+    "percentage-difference-calculator": "प्रतिशत अंतर कैलकुलेटर",
+    "percentage-error-calculator": "प्रतिशत त्रुटि कैलकुलेटर",
+    "percentage-growth-calculator": "प्रतिशत वृद्धि दर कैलकुलेटर",
+    "percentage-increase-calculator": "प्रतिशत बढ़ोतरी कैलकुलेटर",
+    "percentage-of-a-percentage-calculator": "प्रतिशत का प्रतिशत कैलकुलेटर",
+    "percentage-off-calculator": "छूट कैलकुलेटर",
+    "percentage-point-calculator": "प्रतिशत अंक कैलकुलेटर",
+    "percentile-to-percentage-calculator": "पर्सेंटाइल से प्रतिशत कैलकुलेटर",
+    "ppm-to-percentage-calculator": "PPM से प्रतिशत कैलकुलेटर",
+    "profit-margin-calculator": "लाभ मार्जिन कैलकुलेटर",
+    "profit-percentage-calculator": "लाभ प्रतिशत कैलकुलेटर",
+    "ratio-to-percentage-calculator": "अनुपात से प्रतिशत कैलकुलेटर",
+    "reverse-percentage-calculator": "उल्टा प्रतिशत कैलकुलेटर",
+    "salary-increase-calculator": "वेतन वृद्धि कैलकुलेटर",
+    "sgpa-to-percentage-calculator": "SGPA से प्रतिशत कैलकुलेटर",
+    "simple-interest-calculator": "साधारण ब्याज कैलकुलेटर",
+    "slope-percentage-calculator": "ढलान प्रतिशत कैलकुलेटर",
+    "tip-calculator": "टिप कैलकुलेटर",
+    "win-loss-percentage-calculator": "जीत/हार कैलकुलेटर"
+  }
+}

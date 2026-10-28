@@ -1,0 +1,15 @@
+{
+  "slug": "sgpa-to-percentage-calculator",
+  "lang": "hi",
+  "meta_title": "SGPA से प्रतिशत कैलकुलेटर | SGPA को प्रतिशत में बदलें",
+  "meta_description": "मानक SGPA × 9.5 सूत्र वाला मुफ़्त SGPA से प्रतिशत कैलकुलेटर। अपने सेमेस्टर SGPA को तुरंत समतुल्य प्रतिशत में बदलें।",
+  "h1": "SGPA से प्रतिशत कैलकुलेटर",
+  "subtitle": "अपना <strong>SGPA</strong> दर्ज करें और यह <strong>SGPA से प्रतिशत कैलकुलेटर</strong> अधिकांश भारतीय विश्वविद्यालयों में प्रयुक्त मानक <strong>SGPA × 9.5</strong> सूत्र लगाकर तुरंत समतुल्य <strong>प्रतिशत</strong> दे देता है।",
+  "hint": "समतुल्य प्रतिशत पाने के लिए अपना सेमेस्टर SGPA दर्ज करें।",
+  "long_tail_anchor": "सेमेस्टर GPA को प्रतिशत में बदलें",
+  "card_strings": {
+    "Percentage:": "प्रतिशत:",
+    "SGPA (out of 10)": "SGPA (10 में से)",
+    "e.g. 7.8": "जैसे: 7.8"
+  }
+}

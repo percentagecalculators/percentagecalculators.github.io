@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "hi",
+  "meta_title": "CGPA से प्रतिशत कैलकुलेटर | 10-पॉइंट CGPA को % में बदलें",
+  "meta_description": "मानक 10-पॉइंट CGPA × 9.5 सूत्र वाला मुफ़्त CGPA से प्रतिशत कैलकुलेटर। कॉलेज और विश्वविद्यालय के रिकॉर्ड के लिए अपने CGPA को प्रतिशत में बदलें।",
+  "h1": "CGPA से प्रतिशत कैलकुलेटर",
+  "subtitle": "<strong>मानक 10-पॉइंट पैमाने</strong> पर अपना <strong>CGPA</strong> दर्ज करें और यह <strong>CGPA से प्रतिशत कैलकुलेटर</strong> व्यापक रूप से प्रयुक्त <strong>CGPA × 9.5</strong> सूत्र लगाकर तुरंत समतुल्य <strong>प्रतिशत</strong> दे देता है।",
+  "hint": "समतुल्य प्रतिशत पाने के लिए अपना 10-पॉइंट CGPA दर्ज करें।",
+  "long_tail_anchor": "10-पॉइंट CGPA को प्रतिशत में बदलें",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA (10 में से)",
+    "Percentage:": "प्रतिशत:",
+    "e.g. 8.2": "जैसे: 8.2"
+  }
+}
