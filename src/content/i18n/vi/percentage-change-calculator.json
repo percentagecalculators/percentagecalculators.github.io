@@ -14,5 +14,56 @@
     "New Value (Current)": "Giá trị mới (hiện tại)",
     "Old Value (Original)": "Giá trị cũ (ban đầu)",
     "Percentage Change:": "Phần trăm thay đổi:"
-  }
+  },
+  "content_html": "<p>Dù bạn đang so sánh doanh số tháng này với tháng trước, theo dõi mức tăng lương trong phiếu lương, hay xem một cổ phiếu đã biến động bao nhiêu, <strong>máy tính thay đổi phần trăm</strong> luôn trả lời cùng một câu hỏi: mức dao động lớn đến đâu, tính theo phần trăm? Nhập số ban đầu và số cuối, công cụ sẽ trả về ngay <strong>mức tăng phần trăm</strong> hoặc <strong>mức giảm phần trăm</strong> giữa hai số đó. Bên dưới, bạn sẽ thấy công thức được chia nhỏ từng bước, các ví dụ có số âm, và những phép tính thực tế — từ tốc độ tăng dân số đến lãi kép — khiến đây trở thành một trong những phép tính hữu ích nhất bạn có thể làm với hai con số.</p>\n\n<h2>Máy tính thay đổi phần trăm là gì?</h2>\n<p>Về bản chất, máy tính thay đổi phần trăm áp dụng một phép toán duy nhất: lấy hai số và biểu thị khoảng cách giữa chúng bằng phần trăm thay vì một lượng cố định. Điều này khác với việc chỉ trừ số này cho số kia, vì thay đổi phần trăm có tính đến quy mô — mức tăng $10 có ý nghĩa lớn hơn nhiều với ngân sách $50 so với ngân sách $5,000. Đó là lý do công cụ này được dùng trong tài chính, kinh doanh, kinh tế, thống kê, và trong các lớp khoa học và toán, mỗi khi người ta cần so sánh mức thay đổi so với điểm xuất phát thay vì một con số thô. Cùng một mối quan hệ có thể viết dưới dạng số thập phân hoặc phần trăm — máy tính chỉ tự động hóa việc đổi tỷ lệ sang phần trăm cho bạn. Một số trang gọi đây là máy tính tỷ lệ thay đổi thay vì máy tính thay đổi phần trăm; chúng là cùng một công cụ với hai tên gọi.</p>\n\n<h2>Công thức thay đổi phần trăm: cách tính</h2>\n<p>Công thức thay đổi phần trăm — còn gọi là công thức tính phần trăm biến động — so sánh một số đã dịch chuyển bao xa so với điểm xuất phát:</p>\n$$ \\text{Thay đổi phần trăm} = \\frac{V_2 - V_1}{|V_1|} \\times 100 $$\n<p>Ở đây, V<sub>1</sub> là giá trị ban đầu và V<sub>2</sub> là giá trị cuối. Lấy V<sub>2</sub> trừ V<sub>1</sub>, chia cho giá trị tuyệt đối của chính nó, rồi nhân với 100. Kết quả dương là mức tăng phần trăm; kết quả âm là mức giảm phần trăm.</p>\n\n<h3>Giá trị ban đầu, giá trị cuối và giá trị mới</h3>\n<p>Mọi phép tính thay đổi phần trăm đều bắt đầu từ hai số: một số xuất phát và một số kết thúc, đôi khi ký hiệu là V<sub>1</sub> và V<sub>2</sub>. Thứ tự rất quan trọng — luôn lấy số đầu trừ đi từ số sau, không bao giờ ngược lại, nếu không dấu dương và âm sẽ đảo và mô tả sai chiều thay đổi.</p>\n\n<h3>Xử lý số âm và giá trị tuyệt đối</h3>\n<p>Giá trị tuyệt đối ở mẫu số tồn tại chính là để xử lý số âm. Nếu không có nó, chia cho một giá trị ban đầu âm sẽ đảo dấu của đáp án và biến một mức tăng thực sự thành mức giảm được báo cáo. Giá trị tuyệt đối đơn giản là xem một số theo khoảng cách của nó đến số không, dù đó là số dương hay số âm — về mặt toán học, đôi khi nó còn được gọi là mô-đun của một số.</p>\n<aside>Lỗi thường gặp: bỏ qua bước lấy giá trị tuyệt đối khi số ban đầu là số âm. Đó là nguyên nhân phổ biến nhất khiến phép tính thay đổi phần trăm ra sai dấu.</aside>\n\n<table>\n<tr><th>V<sub>1</sub> (đầu)</th><th>V<sub>2</sub> (cuối)</th><th>Kết quả (% thay đổi)</th></tr>\n<tr><td>40</td><td>52</td><td>+30% (tăng)</td></tr>\n<tr><td>-18</td><td>18</td><td>+200% (tăng)</td></tr>\n<tr><td>-30</td><td>-45</td><td>-50% (giảm)</td></tr>\n</table>\n\n<p>Sau đây là cách tính thay đổi phần trăm từng bước, đi từ 3.50 đến 2.625:</p>\n<ol>\n<li>Lấy hiệu: 2.625 − 3.50 = −0.875</li>\n<li>Chia cho |V<sub>1</sub>|: −0.875 ÷ 3.50 = −0.25</li>\n<li>Nhân với 100: −0.25 × 100 = <strong>thay đổi −25%</strong>, tức giảm 25%</li>\n</ol>\n\n<h2>Thay đổi phần trăm và chênh lệch phần trăm</h2>\n<p>Thay đổi phần trăm và chênh lệch phần trăm thường bị nhầm lẫn, nhưng chúng không thể thay thế cho nhau. Thay đổi phần trăm đo sự dịch chuyển từ một giá trị cụ thể sang giá trị khác, nên thứ tự quan trọng và điểm xuất phát luôn là mốc tham chiếu. Ngược lại, chỉ số chênh lệch so sánh hai giá trị mà không coi số nào là \"trước\", bằng cách chia cho trung bình của chúng — vì vậy chênh lệch phần trăm luôn dương, còn thay đổi phần trăm có thể dương hoặc âm tùy chiều.</p>\n\n<table>\n<tr><th>Chỉ số</th><th>Công thức</th><th>Có thể âm không?</th></tr>\n<tr><td>Có hướng (máy tính này)</td><td>(V<sub>2</sub> − V<sub>1</sub>) / |V<sub>1</sub>| × 100</td><td>Có — cho biết tăng hay giảm</td></tr>\n<tr><td>Đối xứng (dựa trên chênh lệch)</td><td>|V<sub>1</sub> − V<sub>2</sub>| / ((V<sub>1</sub> + V<sub>2</sub>)/2) × 100</td><td>Không — luôn dương</td></tr>\n</table>\n\n<h3>Sai số phần trăm và biên độ chênh lệch</h3>\n<p>Một khái niệm liên quan là sai số phần trăm, dùng khi so sánh giá trị đo hoặc ước tính với giá trị thực thay vì theo dõi thay đổi theo thời gian — thường gặp trong khoa học và thí nghiệm. Nó được tính giống như thay đổi phần trăm nhưng đặt trong khung độ chính xác: khoảng cách giữa giá trị bạn đo được và giá trị đúng lớn đến đâu, tính theo phần trăm của giá trị thực?</p>\n\n<h2>Tăng phần trăm và giảm phần trăm</h2>\n<p>Mức tăng phần trăm luôn báo số cuối lớn hơn số ban đầu, còn mức giảm phần trăm báo số cuối nhỏ hơn — cả hai dùng cùng một công thức tính thay đổi, nhưng mỗi loại xác định trước chiều thay đổi để kết quả hiện ra là một phần trăm dương thuần túy thay vì có dấu. Máy tính ở trên xử lý tự động cả hai chiều: kết quả dương nghĩa là tăng, kết quả âm nghĩa là giảm.</p>\n\n<h3>Điểm phần trăm và thay đổi phần trăm</h3>\n<p>Điểm phần trăm không phải là phần trăm. Nếu tỷ lệ giảm giá chuyển từ 10% lên 15%, đó là mức nhảy 5 điểm phần trăm — nhưng là thay đổi phần trăm 50%, vì 5 bằng một nửa của 10 ban đầu. Nhầm lẫn giữa hai khái niệm này là một trong những lỗi phổ biến nhất trong báo cáo tài chính.</p>\n\n<p>Thay đổi phần trăm cũng gắn chặt với các phép đổi phần trăm cơ bản, vì mọi kết quả đều có thể được biểu thị dưới dạng số thập phân trước khi chuyển thành phần trăm bạn thấy ở đáp án cuối cùng:</p>\n<ul>\n<li>Số thập phân sang phần trăm</li>\n<li>Phần trăm sang số thập phân</li>\n<li>Phân số sang phần trăm</li>\n<li>Phần trăm sang phân số</li>\n</ul>\n\n<h2>Ứng dụng thực tế: tốc độ tăng dân số, tài chính và toán đời thường</h2>\n<p>Thay đổi phần trăm xuất hiện liên tục ngoài lớp học. Một khoản giảm giá khi thanh toán, tiền boa bạn để lại trên hóa đơn nhà hàng, một đợt tăng lương, biến động giá cổ phiếu, hay các chỉ số kinh tế như lạm phát và VAT đều là thay đổi phần trăm được ngụy trang. Cùng công thức đó vận hành các dự phóng lãi kép, so sánh khoản trả góp thế chấp, lập kế hoạch thu nhập hưu trí và các phép tính giá trị thời gian của tiền — ở bất cứ đâu cần đo lãi suất hay lợi nhuận đầu tư như một tốc độ thay đổi thay vì một số tiền cố định. Thuế bán hàng thì hoạt động theo chiều ngược lại — một tỷ lệ phần trăm cố định cộng vào giá thay vì thay đổi giữa hai giá trị — nhưng phép tính phần trăm bên dưới là như nhau.</p>\n\n<h3>Tốc độ tăng dân số</h3>\n<p>Giả sử dân số một thành phố tăng từ 180,000 người lên 207,000 người trong một thập kỷ. Áp dụng công thức: (207,000 − 180,000) ÷ 180,000 × 100 = 15%. Con số 15% đó phản ánh thành phố đã mở rộng bao nhiêu trong giai đoạn ấy — cùng phép tính bạn sẽ dùng cho số liệu dân số Mỹ, doanh thu của một công ty hay một phép đo trong phòng thí nghiệm.</p>\n\n<h3>Thay đổi phần trăm trong đời sống hằng ngày</h3>\n<p>Cùng phép toán đó xuất hiện trong giờ đại số, báo cáo thí nghiệm hóa học và các thí nghiệm vật lý, bất cứ nơi nào cần so sánh một giá trị đo được với giá trị kỳ vọng. Một học sinh tính nhiệt độ của một chất hóa học tăng bao nhiêu trong phản ứng, hay một doanh nghiệp theo dõi số liệu từng quý, đều đang chạy cùng một phép tính — chỉ có con số và đơn vị thay đổi.</p>\n\n<p>Dù trong bối cảnh nào — tăng lương, kết quả thí nghiệm hay ước tính dân số — máy tính ở trên cho bạn đáp án chính xác, đúng dấu chỉ trong vài giây, mà không cần nhớ công thức hay lo giá trị nào đặt ở mẫu số. Giờ bạn đã biết chính xác cách tính thay đổi phần trăm bằng tay, hoặc bạn có thể để máy tính làm giúp.</p>",
+  "faq": [
+    {
+      "question": "Thay đổi phần trăm từ 50 lên 75 là bao nhiêu?",
+      "answer": "Mức thay đổi là +50%. Cách tính: ((75-50)/50) × 100 = tăng 50%."
+    },
+    {
+      "question": "Làm thế nào để tính thay đổi phần trăm trong Excel?",
+      "answer": "Dùng công thức =(Mới-Cũ)/Cũ*100, hoặc định dạng phần trăm: =(Mới-Cũ)/Cũ rồi áp dụng định dạng %."
+    },
+    {
+      "question": "Thay đổi phần trăm từ 80 xuống 60 là bao nhiêu?",
+      "answer": "Mức thay đổi là -25%. Cách tính: ((60-80)/80) × 100 = -25% (giảm)."
+    },
+    {
+      "question": "Vì sao thứ tự lại quan trọng khi tính thay đổi phần trăm?",
+      "answer": "Vì mẫu số (cơ sở) phải là giá trị ban đầu. Đổi chỗ sẽ ra kết quả khác: từ 50 lên 75 là +50%, nhưng từ 75 xuống 50 là -33.3%."
+    },
+    {
+      "question": "Thay đổi phần trăm có giống tốc độ tăng trưởng không?",
+      "answer": "Với một kỳ duy nhất thì có. Tốc độ tăng trưởng thường chỉ thay đổi phần trăm theo thời gian, thường là có ghép lãi."
+    },
+    {
+      "question": "Nếu giá trị cũ là số âm thì sao?",
+      "answer": "Công thức vẫn đúng về mặt toán học, nhưng cách diễn giải trở nên phức tạp. Đi từ -50 đến -25 cho +50% (tiến gần về số không)."
+    },
+    {
+      "question": "Thay đổi -100% nghĩa là gì?",
+      "answer": "Thay đổi -100% nghĩa là giá trị đã giảm về không. Bạn không thể giảm quá 100% (vì như vậy sẽ ra giá trị âm)."
+    },
+    {
+      "question": "Làm thế nào để tính thay đổi theo năm (so với cùng kỳ năm trước)?",
+      "answer": "Dùng công thức này với năm trước là 'Cũ' và năm hiện tại là 'Mới'. Kết quả cho biết mức tăng hoặc giảm hằng năm."
+    },
+    {
+      "question": "Thay đổi từ 0 lên 100 là bao nhiêu?",
+      "answer": "Không xác định về mặt toán học (chia cho không). Mọi thay đổi từ không đều là vô hạn theo phần trăm."
+    },
+    {
+      "question": "Thay đổi phần trăm có thể vượt quá 100% không?",
+      "answer": "Có, với mức tăng. Thay đổi từ 20 lên 100 là +400%. Tuy nhiên, mức giảm không thể vượt quá 100%."
+    },
+    {
+      "question": "Làm thế nào để so sánh hai mức thay đổi phần trăm?",
+      "answer": "So sánh trực tiếp nếu chúng cùng kỳ cơ sở. Nếu không, hãy quy về cùng khung thời gian hoặc dùng số chỉ số (index)."
+    },
+    {
+      "question": "Thay đổi tuyệt đối và thay đổi tương đối khác nhau thế nào?",
+      "answer": "Thay đổi tuyệt đối là hiệu số thô (Mới - Cũ). Thay đổi tương đối (phần trăm) là hiệu số tính theo tỷ lệ so với giá trị ban đầu."
+    }
+  ]
 }

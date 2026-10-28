@@ -42,3 +42,6 @@ Decisions (made 2026-10-28):
 ## Open for review (self-review by Claude, no native reviewer)
 
 - `bạn` register in finance articles; markup/proof loanwords kept in Latin form.
+- Indian CGPA bands (Xuất sắc, Hạng nhất loại giỏi, Hạng nhất, Hạng nhì, Hạng đạt), alcohol terms (rượu non, dịch đường) and sales-plan terms (hoa hồng thang trượt, hệ số thưởng vượt) are own renderings.
+- "không" is written for zero where the digit check forbids an added "0".
+- SGPA article follows English (SGPA × 10) − 7.5; the subtitle says × 9.5 (inconsistency in the English source).

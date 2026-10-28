@@ -14,5 +14,56 @@
     "Percentage:": "Phần trăm:",
     "e.g. 3": "VD: 3",
     "e.g. 4": "VD: 4"
-  }
+  },
+  "content_html": "<p>Đổi phân số sang phần trăm là một trong những phép quy đổi nhanh mà bạn cần liên tục, cho điểm số, giảm giá, kết quả thí nghiệm, hay chỉ để kiểm tra lại phép tính của mình, và <strong>máy tính phân số sang phần trăm</strong> này sẽ đổi ngay bằng cách chia <strong>tử số</strong> cho <strong>mẫu số</strong> rồi nhân với 100. Nhập bất kỳ phân số thường hay phân số không thật sự nào, bạn sẽ nhận được cả số thập phân tương đương lẫn phần trăm cuối cùng mà không cần động đến bút chì. Cùng công thức cốt lõi đó cũng dùng được theo chiều ngược lại, nên đổi theo hướng còn lại cũng dễ như vậy.</p>\n\n<h2>Máy tính phân số sang phần trăm này hoạt động thế nào</h2>\n<p>Mọi máy tính phân số sang phần trăm trên mạng đều dùng cùng một logic hai bước: chia, rồi nhân với 100. Bạn đưa cho công cụ một tử số và một mẫu số (và với hỗn số thì có thêm một phần nguyên tùy chọn), nó trả về phần trăm, số thập phân tương đương và, nếu bạn muốn xem lập luận, cả phép tính từng bước đầy đủ. Máy tính này cũng cho phép bạn đi theo chiều ngược lại, từ phần trăm về phân số tương đương, mà không cần mở trang thứ hai. Một số trang gọi cùng công cụ này là công cụ đổi phân số, công cụ đổi phần trăm hay máy tính phân số sang số thập phân, nhưng phép toán bên dưới hoàn toàn giống nhau.</p>\n\n<h3>Công thức đổi phân số sang phần trăm</h3>\n<p>Công thức đổi phân số sang phần trăm rất đơn giản:</p>\n$$ P = \\frac{N}{D} \\times 100 $$\n<p>Trong đó <code>N</code> là tử số, <code>D</code> là mẫu số và <strong>P</strong> là phần trăm thu được. Chẳng hạn, thay 3 và 4 vào, 3 ÷ 4 × 100 cho bạn 75%. Công thức duy nhất đó chính là công thức đổi phân số sang phần trăm mà mọi phương pháp trên trang này rốt cuộc đều quy về; các bước thủ công bên dưới chỉ thay đổi thứ tự thực hiện phép tính.</p>\n\n<h3>Đọc các ô nhập, kết quả và số chữ số thập phân</h3>\n<p>Hầu hết công cụ đổi phân số sang phần trăm, kể cả công cụ này, yêu cầu ba ô: tử số, mẫu số và một phần nguyên tùy chọn cho hỗn số như 2 1/3. Kết quả hiển thị giá trị phần trăm được làm tròn đến một số chữ số thập phân hợp lý, kèm dạng số thập phân thô để bạn thấy chính xác việc làm tròn diễn ra thế nào. Nếu phân số không chia hết, ví dụ 1/3, bạn sẽ thấy một số thập phân lặp như 0.3333 trước khi nó thành 33.33%.</p>\n\n<aside>Mẹo: nếu một phân số đã có mẫu số là 100, nó vốn đã là phần trăm, không cần chia. 47/100 đơn giản là 47%.</aside>\n\n<h2>Cách làm thủ công: công thức đổi phân số sang phần trăm và phép tính từng bước</h2>\n<p>Nếu bạn muốn bỏ qua phép tính thủ công, máy tính đổi phân số sang phần trăm này đã tự áp dụng cả ba cách bên dưới. Nhưng hiểu cách phép đổi hoạt động bằng tay giúp bạn dễ kiểm tra lại kết quả, hoặc ước lượng nhanh khi không có máy tính trong tay.</p>\n\n<h3>Tử số và mẫu số: chia, rồi nhân với 100</h3>\n<p>Chia tử số cho mẫu số để được một số thập phân, rồi nhân số thập phân đó với 100 để ra phần trăm. Với 5/8: chia 5 cho 8 được 0.625, rồi nhân với 100 được 62.5%. Đây là cách hầu hết sách giáo khoa dạy đầu tiên vì nó phản ánh trực tiếp công thức gốc: chia, rồi nhân với 100.</p>\n<ul>\n  <li>Chia tử số cho mẫu số để được một số thập phân.</li>\n  <li>Nhân số thập phân với 100.</li>\n  <li>Thêm dấu phần trăm vào kết quả.</li>\n</ul>\n\n<h3>Từ số thập phân sang phần trăm: nhân trước, chia sau</h3>\n<p>Bạn cũng có thể nhân tử số với 100 trước rồi chia cho mẫu số sau; thứ tự không làm thay đổi đáp số, chỉ thay đổi độ lớn của các số bạn đang làm việc. Với 5/8: nhân 5 với 100 được 500, và chia cho 8 được 62.5%. Một số người thấy lối tắt đổi số thập phân sang phần trăm này dễ nhẩm hơn, vì nhân với 100 chỉ là dời dấu thập phân sang phải hai chữ số trước khi chia.</p>\n<ol>\n  <li>Nhân tử số với 100.</li>\n  <li>Chia kết quả cho mẫu số.</li>\n  <li>Làm tròn đến số chữ số thập phân mong muốn.</li>\n</ol>\n\n<h2>Đổi phần trăm sang phân số</h2>\n<p>Đi từ kết quả của máy tính phần trăm trở lại phân số là quy trình ngược lại, và đó chính xác là việc của một máy tính phần trăm sang phân số. Nó hữu ích bất cứ khi nào bạn cần một tỷ lệ chính xác thay vì số thập phân đã làm tròn, ví dụ cho bài toán xác suất, thay đổi quy mô công thức nấu ăn hay đơn giản hóa một số đo.</p>\n\n<h3>Công thức đổi phần trăm sang phân số</h3>\n<p>Để đổi phần trăm trở lại thành phân số, đặt phần trăm trên 100 rồi rút gọn:</p>\n$$ \\frac{P}{100} = \\frac{N}{D} $$\n<p>Ví dụ, 35% trở thành 35/100. Rút gọn phân số bằng cách chia cả tử số và mẫu số cho ước chung của chúng sẽ cho bạn 7/20. Nếu con số có chữ số thập phân, như 35.5%, hãy nhân tử số và mẫu số với 10 (hoặc 100, hoặc 1000) cho đến khi cả hai đều là số nguyên, rồi rút gọn phân số từ đó.</p>\n\n<h3>Rút gọn bằng ước chung lớn nhất</h3>\n<p>Rút gọn một phân số về dạng tối giản nghĩa là chia tử số và mẫu số cho ước chung lớn nhất của chúng, viết tắt là ƯCLN (GCF). Với 35/100, ƯCLN là 5, nên chia cả hai số cho 5 cho bạn 7/20, cùng một giá trị ở dạng đơn giản nhất. Học cách nhận ra ƯCLN nhanh sẽ giúp việc rút gọn phân số bằng tay nhanh hơn nhiều so với rút gọn từng thừa số một.</p>\n\n<h2>Bảng đổi phân số sang phần trăm: các phép đổi thường gặp</h2>\n<p>Một số phép đổi phân số sang phần trăm xuất hiện thường xuyên đến mức đáng để học thuộc thay vì chia mỗi lần. Bảng dưới đây gồm những phân số phổ biến nhất, số thập phân tương đương và phần trăm của chúng.</p>\n<table>\n  <thead>\n    <tr><th>Tử số</th><th>Mẫu số</th><th>Số thập phân</th><th>Phần trăm</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>2</td><td>0.5</td><td>50%</td></tr>\n    <tr><td>1</td><td>3</td><td>0.333</td><td>33.3%</td></tr>\n    <tr><td>1</td><td>4</td><td>0.25</td><td>25%</td></tr>\n    <tr><td>1</td><td>5</td><td>0.2</td><td>20%</td></tr>\n    <tr><td>3</td><td>4</td><td>0.75</td><td>75%</td></tr>\n    <tr><td>5</td><td>8</td><td>0.625</td><td>62.5%</td></tr>\n    <tr><td>7</td><td>20</td><td>0.35</td><td>35%</td></tr>\n  </tbody>\n</table>\n<p>Hãy để ý rằng mọi giá trị trong bảng đều theo cùng một quy tắc: chia tử số cho mẫu số, rồi nhân với 100. Khi đã thuộc vài cặp phân số-phần trăm như vậy, bạn có thể ước lượng phần trăm trong đầu trước khi mở máy tính.</p>\n\n<h2>Vì sao đổi phân số sang phần trăm quan trọng: toán học, thống kê và sai số phần trăm</h2>\n<p>Đổi giữa phân số và phần trăm không chỉ là bài tập về nhà; nó xuất hiện khắp trong toán học, thống kê và lập luận hằng ngày. Điểm thi 42/50 của một học sinh chẳng có nhiều ý nghĩa cho đến khi được đổi thành 84%, lúc đó nó có thể so sánh ngay với bất kỳ thang điểm nào khác. Trong thống kê, tỷ lệ mẫu thường được báo cáo dưới dạng phần trăm chính vì chúng dễ so sánh chỉ bằng một cái nhìn hơn các phân số thô.</p>\n<p>Cùng phép toán đó cũng nằm dưới <strong>sai số phần trăm</strong>, đại lượng đo một giá trị thực nghiệm hay đo được lệch bao xa so với giá trị kỳ vọng. Nếu mẫu số của bạn là giá trị thật và tử số là hiệu giữa giá trị quan sát và giá trị thật, công thức đổi phân số sang phần trăm trở thành công thức sai số phần trăm: cơ chế hoàn toàn giống nhau, chỉ ý nghĩa của các con số thay đổi. Dù bạn đang chấm một bài kiểm tra, làm thí nghiệm hay đọc sai số biên của một cuộc thăm dò, khả năng chuyển linh hoạt giữa phân số, số thập phân và phần trăm là một trong những kỹ năng toán dùng lại được nhiều nhất. Cùng phép tính này còn xuất hiện xa ngoài một môn học: tính GPA từ điểm thô hay giải một bộ bài tập toán rời rạc đều dựa trên đúng logic đổi phân số sang phần trăm này.</p>",
+  "faq": [
+    {
+      "question": "3/4 bằng bao nhiêu phần trăm?",
+      "answer": "3/4 bằng 75%. Cách tính: (3 ÷ 4) × 100 = 75%."
+    },
+    {
+      "question": "1/3 bằng bao nhiêu phần trăm?",
+      "answer": "1/3 xấp xỉ 33.33% (số thập phân lặp). Cách tính: (1 ÷ 3) × 100 = 33.333...%."
+    },
+    {
+      "question": "2/3 bằng bao nhiêu phần trăm?",
+      "answer": "2/3 xấp xỉ 66.67% (số thập phân lặp). Cách tính: (2 ÷ 3) × 100 = 66.666...%."
+    },
+    {
+      "question": "Làm sao đổi điểm bài kiểm tra sang phần trăm?",
+      "answer": "Chia điểm của bạn cho tổng điểm tối đa rồi nhân với 100. Điểm 45/60: (45÷60) × 100 = 75%."
+    },
+    {
+      "question": "5/8 bằng bao nhiêu phần trăm?",
+      "answer": "5/8 bằng 62.5%. Cách tính: (5 ÷ 8) × 100 = 62.5%."
+    },
+    {
+      "question": "7/10 bằng bao nhiêu phần trăm?",
+      "answer": "7/10 bằng 70%. Cách tính: (7 ÷ 10) × 100 = 70%."
+    },
+    {
+      "question": "Phân số có thể cho phần trăm lớn hơn 100% không?",
+      "answer": "Có, phân số không thật sự (tử số > mẫu số) cho phần trăm lớn hơn 100%. Ví dụ, 5/4 = 125%."
+    },
+    {
+      "question": "1/8 bằng bao nhiêu phần trăm?",
+      "answer": "1/8 bằng 12.5%. Cách tính: (1 ÷ 8) × 100 = 12.5%."
+    },
+    {
+      "question": "Làm sao đổi hỗn số sang phần trăm?",
+      "answer": "Trước tiên đổi hỗn số thành phân số không thật sự. 1½ = 3/2 = (3÷2) × 100 = 150%."
+    },
+    {
+      "question": "4/5 bằng bao nhiêu phần trăm?",
+      "answer": "4/5 bằng 80%. Cách tính: (4 ÷ 5) × 100 = 80%."
+    },
+    {
+      "question": "Nếu mẫu số bằng không thì sao?",
+      "answer": "Phép chia cho không là không xác định. Phân số có mẫu số bằng không không có phần trăm hợp lệ."
+    },
+    {
+      "question": "11/20 bằng bao nhiêu phần trăm?",
+      "answer": "11/20 bằng 55%. Cách tính: (11 ÷ 20) × 100 = 55%."
+    }
+  ]
 }
