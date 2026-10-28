@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Faedah Pinjaman | Ansuran Bulanan dan Jumlah Faedah",
+  "meta_description": "Kalkulator faedah pinjaman percuma. Masukkan jumlah pinjaman, kadar tahunan dan tempoh untuk terus mengira ansuran bulanan (EMI) dan jumlah faedah yang perlu dibayar.",
+  "h1": "Kalkulator Faedah Pinjaman",
+  "subtitle": "Masukkan <strong>jumlah pinjaman</strong>, <strong>kadar faedah tahunan</strong> dan <strong>tempoh pinjaman</strong>, dan <strong>kalkulator faedah pinjaman</strong> ini terus mengira <strong>ansuran bulanan (EMI)</strong> dan <strong>jumlah faedah</strong> yang akan anda bayar.",
+  "hint": "Masukkan jumlah pinjaman, kadar dan tempoh untuk mendapatkan ansuran bulanan anda.",
+  "long_tail_anchor": "Ansuran bulanan dan jumlah faedah",
+  "card_strings": {
+    "Annual Rate": "Kadar tahunan",
+    "Loan Amount ($)": "Jumlah pinjaman ($)",
+    "Loan Term (Years)": "Tempoh pinjaman (tahun)",
+    "Monthly EMI:": "Ansuran bulanan (EMI):",
+    "Total Interest:": "Jumlah faedah:",
+    "e.g. 20000": "cth. 20000",
+    "e.g. 5": "cth. 5",
+    "e.g. 7.5": "cth. 7.5"
+  }
+}

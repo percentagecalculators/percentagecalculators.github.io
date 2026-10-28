@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Ralat Peratusan | Ralat Relatif untuk Makmal",
+  "meta_description": "Kalkulator ralat peratusan percuma. Kira ralat peratusan antara nilai eksperimen dan teori untuk makmal fizik, kimia dan biologi.",
+  "h1": "Kalkulator Ralat Peratusan",
+  "subtitle": "Masukkan <strong>nilai terukur (eksperimen)</strong> dan <strong>nilai sebenar (teori)</strong>, dan <strong>kalkulator ralat peratusan</strong> ini memaparkan <strong>ralat peratusan</strong> di antara kedua-duanya. Formula piawai yang digunakan: |terukur − sebenar| ÷ |sebenar| × 100.",
+  "hint": "Masukkan nilai terukur dan nilai sebenar untuk mendapatkan ralat peratusan.",
+  "long_tail_anchor": "Nilai eksperimen berbanding teori",
+  "card_strings": {
+    "Absolute Error:": "Ralat mutlak:",
+    "Enter expected value": "Masukkan nilai jangkaan",
+    "Enter measured value": "Masukkan nilai terukur",
+    "Experimental (Measured)": "Eksperimen (terukur)",
+    "Percentage Error:": "Ralat peratusan:",
+    "Theoretical (Expected)": "Teori (dijangka)"
+  }
+}

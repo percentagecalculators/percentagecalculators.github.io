@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Margin Untung | Kira Margin Untung %",
+  "meta_description": "Kalkulator margin untung percuma. Masukkan harga kos dan harga jualan untuk terus mengira untung dan margin untung berdasarkan harga jualan.",
+  "h1": "Kalkulator Margin Untung",
+  "subtitle": "Masukkan <strong>harga kos</strong> dan <strong>harga jualan</strong>, dan <strong>kalkulator margin untung</strong> ini terus mengira <strong>untung</strong> dan <strong>margin untung</strong> sebagai peratusan harga jualan.",
+  "hint": "Masukkan harga kos dan harga jualan untuk mendapatkan margin untung anda.",
+  "long_tail_anchor": "Peratusan margin pada harga jualan",
+  "card_strings": {
+    "Cost Price ($)": "Harga kos ($)",
+    "Profit Margin:": "Margin untung:",
+    "Profit:": "Untung:",
+    "Selling Price ($)": "Harga jualan ($)",
+    "e.g. 40": "cth. 40",
+    "e.g. 55": "cth. 55"
+  }
+}

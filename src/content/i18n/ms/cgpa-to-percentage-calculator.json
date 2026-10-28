@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator CGPA kepada Peratusan | Tukar CGPA 10 Mata kepada %",
+  "meta_description": "Kalkulator CGPA kepada peratusan percuma dengan formula piawai CGPA 10 mata × 9.5. Tukar CGPA anda kepada peratusan untuk rekod kolej dan universiti.",
+  "h1": "Kalkulator CGPA kepada Peratusan",
+  "subtitle": "Masukkan <strong>CGPA</strong> anda pada <strong>skala piawai 10 mata</strong> dan <strong>kalkulator CGPA kepada peratusan</strong> ini menggunakan formula yang meluas, <strong>CGPA × 9.5</strong>, untuk terus memberikan <strong>peratusan</strong> yang setara.",
+  "hint": "Masukkan CGPA 10 mata anda untuk mendapatkan peratusan yang setara.",
+  "long_tail_anchor": "Tukar CGPA 10 mata kepada peratus",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA (daripada 10)",
+    "Percentage:": "Peratusan:",
+    "e.g. 8.2": "cth. 8.2"
+  }
+}

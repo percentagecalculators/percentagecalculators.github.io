@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Peratusan Daripada Peratusan | Gabungkan Dua %",
+  "meta_description": "Kalkulator peratusan daripada peratusan percuma. Darabkan dua peratusan berturutan, kemudian gunakan kadar gabungan pada sesuatu nilai untuk cukai atau diskaun berperingkat.",
+  "h1": "Kalkulator Peratusan Daripada Peratusan",
+  "subtitle": "Masukkan dua <strong>peratusan</strong> dan <strong>kalkulator peratusan daripada peratusan</strong> ini mendarabkannya dengan cara yang betul untuk memberikan <strong>peratusan gabungan</strong>: tambah nilai permulaan untuk melihat dengan tepat bagaimana ia bergerak melalui kedua-dua langkah.",
+  "hint": "Darabkan dua peratusan berturutan untuk mendapatkan kadar gabungan.",
+  "long_tail_anchor": "Gabungkan dua peratusan berturutan",
+  "card_strings": {
+    "Apply to a Value (optional)": "Gunakan pada satu nilai (pilihan)",
+    "Combined Percentage:": "Peratusan gabungan:",
+    "Final Value:": "Nilai akhir:",
+    "First Percentage": "Peratusan pertama",
+    "Second Percentage": "Peratusan kedua",
+    "Value After First %:": "Nilai selepas % pertama:",
+    "e.g. 200": "cth. 200",
+    "e.g. 40": "cth. 40",
+    "e.g. 90": "cth. 90"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Peratusan Untung | Kira % Untung atas Kos",
+  "meta_description": "Kalkulator peratusan untung percuma. Masukkan harga kos dan harga jualan untuk terus mengira jumlah untung dan peratusan untung.",
+  "h1": "Kalkulator Peratusan Untung",
+  "subtitle": "Masukkan <strong>harga kos</strong> dan <strong>harga jualan</strong>, dan <strong>kalkulator peratusan untung</strong> ini terus mengira <strong>untung</strong> dan <strong>peratusan untung</strong> atas kos.",
+  "hint": "Masukkan harga kos dan harga jualan untuk mendapatkan peratusan untung anda.",
+  "long_tail_anchor": "Peratusan untung atas harga kos",
+  "card_strings": {
+    "Cost Price ($)": "Harga kos ($)",
+    "Profit Percentage:": "Peratusan untung:",
+    "Profit:": "Untung:",
+    "Selling Price ($)": "Harga jualan ($)",
+    "e.g. 40": "cth. 40",
+    "e.g. 55": "cth. 55"
+  }
+}

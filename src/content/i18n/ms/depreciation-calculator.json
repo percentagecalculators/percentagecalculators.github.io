@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Susut Nilai | Kaedah Garis Lurus",
+  "meta_description": "Kalkulator susut nilai percuma menggunakan kaedah garis lurus. Masukkan kos aset, nilai sisa dan hayat berguna untuk mengira susut nilai tahunan.",
+  "h1": "Kalkulator Susut Nilai",
+  "subtitle": "Masukkan <strong>kos aset</strong>, <strong>nilai sisa</strong> dan <strong>hayat berguna</strong>, dan <strong>kalkulator susut nilai</strong> ini terus mengira <strong>susut nilai tahunan</strong> menggunakan kaedah garis lurus.",
+  "hint": "Masukkan kos aset, nilai sisa dan hayat berguna untuk mendapatkan susut nilai tahunan.",
+  "long_tail_anchor": "Susut nilai aset garis lurus",
+  "card_strings": {
+    "Annual Depreciation:": "Susut nilai tahunan:",
+    "Asset Cost ($)": "Kos aset ($)",
+    "Depreciation Rate:": "Kadar susut nilai:",
+    "Salvage Value ($)": "Nilai sisa ($)",
+    "Useful Life (Years)": "Hayat berguna (tahun)",
+    "e.g. 1000": "cth. 1000",
+    "e.g. 10000": "cth. 10000",
+    "e.g. 5": "cth. 5"
+  }
+}

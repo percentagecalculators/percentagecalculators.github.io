@@ -1,0 +1,18 @@
+{
+  "slug": "ratio-to-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Nisbah kepada Peratusan | Tukar Nisbah kepada %",
+  "meta_description": "Kalkulator nisbah kepada peratusan percuma. Masukkan dua bahagian nisbah untuk terus melihat jumlah dan berapa peratus yang diwakili bahagian pertama.",
+  "h1": "Kalkulator Nisbah kepada Peratusan",
+  "subtitle": "Masukkan kedua-dua bahagian <strong>nisbah</strong> (seperti 3 : 4), dan <strong>kalkulator nisbah kepada peratusan</strong> ini terus memaparkan <strong>jumlah</strong> dan berapa <strong>peratus</strong> yang diwakili bahagian pertama.",
+  "hint": "Masukkan kedua-dua bahagian nisbah untuk mendapatkan peratusan daripada jumlah.",
+  "long_tail_anchor": "Tukar nisbah kepada bahagian peratus",
+  "card_strings": {
+    "A as % of Total:": "A sebagai % daripada jumlah:",
+    "Part A": "Bahagian A",
+    "Part B": "Bahagian B",
+    "Total:": "Jumlah:",
+    "e.g. 3": "cth. 3",
+    "e.g. 4": "cth. 4"
+  }
+}

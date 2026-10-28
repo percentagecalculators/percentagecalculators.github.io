@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Perubahan Peratusan | Peningkatan/Penurunan %",
+  "meta_description": "Kalkulator perubahan peratusan percuma. Kira peningkatan atau penurunan peratusan antara dua nilai: jejaki perubahan saham dan variasi harga.",
+  "h1": "Kalkulator Perubahan Peratusan",
+  "subtitle": "Masukkan <strong>nilai lama</strong> dan <strong>nilai baharu</strong>, dan <strong>kalkulator perubahan peratusan</strong> ini memberitahu <strong>peningkatan atau penurunan peratusan</strong> di antara kedua-duanya. Hasilnya positif untuk kenaikan dan negatif untuk penurunan: daripada 80 kepada 100 menghasilkan +25 %.",
+  "hint": "Masukkan nilai lama dan baharu untuk mendapatkan perubahan peratusan di antara kedua-duanya.",
+  "long_tail_anchor": "Peningkatan atau penurunan peratus",
+  "card_strings": {
+    "Change Type:": "Jenis perubahan:",
+    "Enter ending value": "Masukkan nilai akhir",
+    "Enter starting value": "Masukkan nilai permulaan",
+    "New Value (Current)": "Nilai baharu (semasa)",
+    "Old Value (Original)": "Nilai lama (asal)",
+    "Percentage Change:": "Perubahan peratusan:"
+  }
+}

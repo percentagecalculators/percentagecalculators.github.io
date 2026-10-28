@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Markup | Harga Jualan daripada Kos + %",
+  "meta_description": "Kalkulator markup percuma. Masukkan harga kos dan peratusan markup yang dikehendaki untuk terus mengira harga jualan yang patut anda kenakan.",
+  "h1": "Kalkulator Markup",
+  "subtitle": "Masukkan <strong>harga kos</strong> dan <strong>peratusan markup</strong> yang dikehendaki, dan <strong>kalkulator markup</strong> ini terus mengira <strong>harga jualan</strong> yang patut anda kenakan.",
+  "hint": "Masukkan harga kos dan % markup untuk mendapatkan harga jualan.",
+  "long_tail_anchor": "Daripada kos tambah markup kepada harga",
+  "card_strings": {
+    "Cost Price ($)": "Harga kos ($)",
+    "Markup": "Markup",
+    "Markup Amount:": "Jumlah markup:",
+    "Selling Price:": "Harga jualan:",
+    "e.g. 30": "cth. 30",
+    "e.g. 40": "cth. 40"
+  }
+}

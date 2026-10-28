@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Peratusan Menang/Kalah | Kira Kadar Kemenangan",
+  "meta_description": "Kalkulator peratusan menang dan kalah percuma. Masukkan bilangan menang, kalah dan seri untuk terus mengira peratusan kemenangan anda dalam sebarang sukan, permainan atau pertandingan.",
+  "h1": "Kalkulator Peratusan Menang dan Kalah",
+  "subtitle": "Masukkan bilangan <strong>menang</strong>, <strong>kalah</strong> dan sebarang <strong>seri</strong>, dan <strong>kalkulator peratusan menang dan kalah</strong> ini terus mengira <strong>peratusan kemenangan</strong> anda.",
+  "hint": "Masukkan bilangan menang, kalah dan seri untuk mendapatkan peratusan kemenangan anda.",
+  "long_tail_anchor": "Kira kadar kemenangan sukan anda",
+  "card_strings": {
+    "Losses": "Kalah",
+    "Ties": "Seri",
+    "Total Games:": "Jumlah perlawanan:",
+    "Win Percentage:": "Peratusan kemenangan:",
+    "Wins": "Menang",
+    "e.g. 10": "cth. 10",
+    "e.g. 18": "cth. 18",
+    "e.g. 2": "cth. 2"
+  }
+}

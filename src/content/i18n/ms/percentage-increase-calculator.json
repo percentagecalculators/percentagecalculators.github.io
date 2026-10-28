@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Peningkatan Peratusan | Tambah Peratusan pada Nombor",
+  "meta_description": "Kalkulator peningkatan peratusan percuma. Terus tambah sebarang peratusan pada sesuatu nombor. Kira kenaikan gaji, markup harga, pulangan pelaburan dan banyak lagi.",
+  "h1": "Kalkulator Peningkatan Peratusan",
+  "subtitle": "Masukkan <strong>nombor permulaan</strong> dan <strong>peratusan yang ditambah</strong>, dan <strong>kalkulator peningkatan peratusan</strong> ini memberikan <strong>jumlah peningkatan</strong> serta <strong>nilai akhir</strong>. Anggaplah ia jawapan kepada “berapa 200 tambah 15 %?”, yang kebetulan ialah 230.",
+  "hint": "Masukkan nombor dan peratusan yang ditambah untuk mendapatkan nilai selepas meningkat.",
+  "long_tail_anchor": "Tambah peratus pada sesuatu nombor",
+  "card_strings": {
+    "Enter percentage": "Masukkan peratusan",
+    "Enter starting number": "Masukkan nombor permulaan",
+    "Increase Amount:": "Jumlah peningkatan:",
+    "Increase by": "Tingkatkan sebanyak",
+    "New Value:": "Nilai baharu:",
+    "Original Value": "Nilai asal"
+  }
+}

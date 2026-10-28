@@ -1,0 +1,16 @@
+{
+  "slug": "percentile-to-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Persentil kepada Peratusan | Anggar Peratusan",
+  "meta_description": "Kalkulator persentil kepada peratusan percuma. Dapatkan anggaran peratusan dengan cepat daripada persentil peperiksaan menggunakan formula penghampiran yang lazim.",
+  "h1": "Kalkulator Persentil kepada Peratusan",
+  "subtitle": "Masukkan skor <strong>persentil</strong> anda dan <strong>kalkulator persentil kepada peratusan</strong> ini memberikan <strong>anggaran peratusan</strong> dengan cepat menggunakan penghampiran yang lazim dirujuk. Persentil dan peratusan mengukur perkara berbeza, jadi anggaplah ini sebagai anggaran dan bukan penukaran rasmi.",
+  "hint": "Masukkan persentil (0–100) untuk mendapatkan anggaran peratusan.",
+  "long_tail_anchor": "Anggar peratusan daripada kedudukan persentil",
+  "card_strings": {
+    "%ile": "pers.",
+    "Estimated Percentage:": "Anggaran peratusan:",
+    "Percentile": "Persentil",
+    "e.g. 85": "cth. 85"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Mata Peratusan | Perbezaan dalam Mata",
+  "meta_description": "Kalkulator mata peratusan percuma. Masukkan dua peratusan untuk terus melihat perbezaan dalam mata peratusan dan perubahan peratusan relatif.",
+  "h1": "Kalkulator Mata Peratusan",
+  "subtitle": "Masukkan dua <strong>peratusan</strong> dan <strong>kalkulator mata peratusan</strong> ini memaparkan <strong>perbezaan dalam mata peratusan</strong>, yang tidak sama dengan perubahan peratusan relatif, yang turut dipaparkan sebagai perbandingan.",
+  "hint": "Masukkan dua peratusan untuk mendapatkan perbezaan dalam mata peratusan.",
+  "long_tail_anchor": "Mata peratusan berbanding perubahan peratus",
+  "card_strings": {
+    "Percentage A": "Peratusan A",
+    "Percentage B": "Peratusan B",
+    "Point Difference:": "Perbezaan mata:",
+    "Relative Change:": "Perubahan relatif:",
+    "e.g. 20": "cth. 20",
+    "e.g. 25": "cth. 25"
+  }
+}

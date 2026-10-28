@@ -1,0 +1,15 @@
+{
+  "slug": "sgpa-to-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator SGPA kepada Peratusan | Tukar SGPA kepada Peratus",
+  "meta_description": "Kalkulator SGPA kepada peratusan percuma dengan formula piawai SGPA × 9.5. Terus tukar SGPA semester anda kepada peratusan yang setara.",
+  "h1": "Kalkulator SGPA kepada Peratusan",
+  "subtitle": "Masukkan <strong>SGPA</strong> anda dan <strong>kalkulator SGPA kepada peratusan</strong> ini menggunakan formula piawai <strong>SGPA × 9.5</strong> yang digunakan kebanyakan universiti di India untuk terus memberikan <strong>peratusan</strong> yang setara.",
+  "hint": "Masukkan SGPA semester anda untuk mendapatkan peratusan yang setara.",
+  "long_tail_anchor": "Tukar GPA semester kepada peratus",
+  "card_strings": {
+    "Percentage:": "Peratusan:",
+    "SGPA (out of 10)": "SGPA (daripada 10)",
+    "e.g. 7.8": "cth. 7.8"
+  }
+}

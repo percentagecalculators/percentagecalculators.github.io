@@ -1,0 +1,15 @@
+{
+  "slug": "ppm-to-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator PPM kepada Peratusan | Tukar Bahagian Per Juta",
+  "meta_description": "Kalkulator PPM kepada peratusan percuma. Masukkan nilai bahagian per juta (ppm) untuk terus menukarnya kepada peratusan: tepat untuk kimia dan kejuruteraan.",
+  "h1": "Kalkulator PPM kepada Peratusan",
+  "subtitle": "Masukkan nilai dalam <strong>bahagian per juta (ppm)</strong> dan <strong>kalkulator PPM kepada peratusan</strong> ini terus menukarnya kepada <strong>peratusan</strong>, berguna untuk bacaan kepekatan dan ketulenan.",
+  "hint": "Masukkan nilai PPM untuk mendapatkan peratusan yang setara.",
+  "long_tail_anchor": "Daripada bahagian per juta kepada peratus",
+  "card_strings": {
+    "PPM": "ppm",
+    "Percentage:": "Peratusan:",
+    "e.g. 2500": "cth. 2500"
+  }
+}

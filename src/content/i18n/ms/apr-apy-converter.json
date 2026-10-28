@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "ms",
+  "meta_title": "Penukar APR kepada APY | Tukar kepada Hasil Peratusan Tahunan",
+  "meta_description": "Penukar APR kepada APY percuma. Masukkan APR dan kekerapan pengkompaunan untuk terus melihat Hasil Peratusan Tahunan (APY) yang setara.",
+  "h1": "Penukar APR kepada APY",
+  "subtitle": "Masukkan <strong>APR</strong> dan <strong>kekerapan pengkompaunannya</strong>, dan <strong>penukar APR kepada APY</strong> ini memaparkan <strong>Hasil Peratusan Tahunan</strong> yang setara, berguna untuk membandingkan akaun yang dinyatakan secara berbeza.",
+  "hint": "Masukkan APR dan tempoh pengkompaunan setahun untuk mendapatkan APY yang setara.",
+  "long_tail_anchor": "Bandingkan kadar APR dan APY",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Tempoh pengkompaunan / tahun",
+    "e.g. 12": "cth. 12",
+    "e.g. 6": "cth. 6"
+  }
+}

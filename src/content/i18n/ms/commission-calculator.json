@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Komisen | Kira Komisen Jualan yang Diperoleh",
+  "meta_description": "Kalkulator komisen percuma. Masukkan jumlah jualan dan kadar komisen untuk terus mengira komisen yang anda peroleh.",
+  "h1": "Kalkulator Komisen",
+  "subtitle": "Masukkan <strong>jumlah jualan</strong> dan <strong>kadar komisen</strong> anda, dan <strong>kalkulator komisen</strong> ini terus mengira <strong>komisen yang anda peroleh</strong>.",
+  "hint": "Masukkan jumlah jualan dan kadar komisen untuk mendapatkan komisen yang diperoleh.",
+  "long_tail_anchor": "Peratusan komisen jualan",
+  "card_strings": {
+    "Commission Earned:": "Komisen diperoleh:",
+    "Commission Rate": "Kadar komisen",
+    "Sales Amount ($)": "Jumlah jualan ($)",
+    "e.g. 10": "cth. 10",
+    "e.g. 5000": "cth. 5000"
+  }
+}

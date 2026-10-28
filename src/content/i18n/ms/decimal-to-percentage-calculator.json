@@ -1,0 +1,15 @@
+{
+  "slug": "decimal-to-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Perpuluhan kepada Peratusan | Tukar Perpuluhan kepada %",
+  "meta_description": "Kalkulator perpuluhan kepada peratusan percuma. Masukkan sebarang nilai perpuluhan untuk terus menukarnya kepada peratusan: keputusan tepat untuk sekolah, kerja atau kewangan.",
+  "h1": "Kalkulator Perpuluhan kepada Peratusan",
+  "subtitle": "Masukkan <strong>nilai perpuluhan</strong> dan <strong>kalkulator perpuluhan kepada peratusan</strong> ini terus menukarnya kepada <strong>peratusan</strong>.",
+  "hint": "Masukkan nilai perpuluhan untuk mendapatkan peratusan yang setara.",
+  "long_tail_anchor": "Tukar perpuluhan kepada peratus",
+  "card_strings": {
+    "Decimal Value": "Nilai perpuluhan",
+    "Percentage:": "Peratusan:",
+    "e.g. 0.25": "cth. 0.25"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Peratusan Markah | Kira Peratusan Peperiksaan",
+  "meta_description": "Kalkulator peratusan markah percuma. Masukkan markah diperoleh dan jumlah markah untuk terus mengira peratusan peperiksaan atau ujian anda.",
+  "h1": "Kalkulator Peratusan Markah",
+  "subtitle": "Masukkan <strong>markah diperoleh</strong> dan <strong>jumlah markah</strong>, dan <strong>kalkulator peratusan markah</strong> ini terus mengira <strong>peratusan peperiksaan</strong> anda: sesuai untuk kad laporan, helaian markah dan semakan keputusan.",
+  "hint": "Masukkan markah diperoleh dan jumlah markah untuk mendapatkan peratusan anda.",
+  "long_tail_anchor": "Peratusan skor peperiksaan dan ujian",
+  "card_strings": {
+    "Marks Obtained": "Markah diperoleh",
+    "Percentage:": "Peratusan:",
+    "Total Marks": "Jumlah markah",
+    "e.g. 450": "cth. 450",
+    "e.g. 500": "cth. 500"
+  }
+}

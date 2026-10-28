@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Purata Peratusan | Purata Mudah dan Berpemberat",
+  "meta_description": "Kalkulator purata peratusan percuma dengan mod mudah dan berpemberat. Gabungkan peratusan daripada kumpulan bersaiz berbeza dengan betul untuk markah dan tinjauan.",
+  "h1": "Kalkulator Purata Peratusan",
+  "subtitle": "Taip senarai <strong>peratusan</strong> yang dipisahkan koma, dan <strong>kalkulator purata peratusan</strong> ini memberikan <strong>min</strong>, <strong>hasil tambah</strong>, <strong>bilangan</strong> dan julat nilai anda. Tambah senarai <strong>saiz sampel</strong> yang sepadan apabila kumpulan tidak sama saiz, dan ia beralih secara automatik kepada <strong>purata berpemberat</strong> yang betul.",
+  "hint": "Masukkan peratusan (dan saiz sampel jika ada) untuk purata mudah atau berpemberat.",
+  "long_tail_anchor": "Min bagi beberapa peratusan",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "Tambah satu pemberat bagi setiap peratusan (contohnya saiz kelas atau bilangan responden) untuk menggabungkan kumpulan bersaiz tidak sama dengan betul.",
+    "Average:": "Purata:",
+    "Count:": "Bilangan:",
+    "Percentages (comma or space separated)": "Peratusan (dipisahkan koma atau ruang)",
+    "Sample Sizes / Weights (optional)": "Saiz sampel / pemberat (pilihan)",
+    "Sum:": "Hasil tambah:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "cth. 30, 50, 20, 40 (biarkan kosong untuk purata mudah)",
+    "e.g. 85, 90, 78, 92": "cth. 85, 90, 78, 92"
+  }
+}

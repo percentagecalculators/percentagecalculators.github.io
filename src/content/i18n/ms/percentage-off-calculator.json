@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Diskaun | Harga Jualan dan Penjimatan",
+  "meta_description": "Kalkulator diskaun peratusan percuma. Kira harga jualan dan penjimatan serta-merta. Cari harga akhir selepas sebarang diskaun: teman membeli-belah anda untuk mendapatkan tawaran.",
+  "h1": "Kalkulator Diskaun",
+  "subtitle": "Taip <strong>harga asal</strong> dan <strong>peratusan diskaun</strong>, dan <strong>kalkulator diskaun</strong> ini memaparkan <strong>harga jualan</strong> dan tepat berapa <strong>wang yang anda jimatkan</strong>. Lain kali anda melihat papan tanda “diskaun 30 %”, anda tahu berapa yang sebenarnya dibayar.",
+  "hint": "Masukkan harga asal dan % diskaun untuk mendapatkan harga jualan.",
+  "long_tail_anchor": "Pencari diskaun dan harga jualan",
+  "card_strings": {
+    "Discount": "Diskaun",
+    "Enter discount %": "Masukkan % diskaun",
+    "Enter price": "Masukkan harga",
+    "Final Price:": "Harga akhir:",
+    "Original Price ($)": "Harga asal ($)",
+    "You Save:": "Anda jimat:"
+  }
+}

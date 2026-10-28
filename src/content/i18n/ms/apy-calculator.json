@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator APY | Hasil Peratusan Tahunan",
+  "meta_description": "Kalkulator APY percuma. Terus tukar kadar faedah nominal dan kekerapan pengkompaunannya kepada Hasil Peratusan Tahunan (APY).",
+  "h1": "Kalkulator APY",
+  "subtitle": "Masukkan <strong>kadar faedah nominal</strong> dan kekerapan <strong>pengkompaunan setahun</strong>, dan <strong>kalkulator APY</strong> ini mengira <strong>Hasil Peratusan Tahunan</strong> sebenar anda: pulangan sebenar yang akan anda peroleh.",
+  "hint": "Masukkan kadar nominal dan tempoh pengkompaunan setahun untuk mendapatkan APY anda.",
+  "long_tail_anchor": "Kalkulator hasil peratusan tahunan",
+  "card_strings": {
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Tempoh pengkompaunan / tahun",
+    "Nominal Interest Rate": "Kadar faedah nominal",
+    "e.g. 12": "cth. 12",
+    "e.g. 5": "cth. 5"
+  }
+}

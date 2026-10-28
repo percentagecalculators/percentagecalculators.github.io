@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Peratusan Kecerunan | Daripada Tinggi/Jarak kepada %",
+  "meta_description": "Kalkulator peratusan kecerunan percuma. Masukkan beza tinggi dan jarak mengufuk untuk terus mengira peratusan kecerunan dan sudut setara dalam darjah.",
+  "h1": "Kalkulator Peratusan Kecerunan",
+  "subtitle": "Masukkan <strong>beza tinggi</strong> dan <strong>jarak mengufuk</strong>, dan <strong>kalkulator peratusan kecerunan</strong> ini terus mengira <strong>peratusan kecerunan</strong> dan <strong>sudut dalam darjah</strong> yang setara.",
+  "hint": "Masukkan beza tinggi dan jarak mengufuk untuk mendapatkan peratusan kecerunan dan sudut.",
+  "long_tail_anchor": "Daripada beza tinggi atas jarak kepada peratusan kecerunan",
+  "card_strings": {
+    "Angle:": "Sudut:",
+    "Rise": "Beza tinggi",
+    "Run": "Jarak mengufuk",
+    "Slope:": "Kecerunan:",
+    "e.g. 100": "cth. 100",
+    "e.g. 5": "cth. 5"
+  }
+}

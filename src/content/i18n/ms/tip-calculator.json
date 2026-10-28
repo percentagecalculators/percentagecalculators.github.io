@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Tip | Kira Tip dan Bahagikan Bil",
+  "meta_description": "Kalkulator tip percuma. Masukkan jumlah bil, peratusan tip dan bilangan orang untuk terus mengira tip, jumlah dan bahagian setiap orang.",
+  "h1": "Kalkulator Tip",
+  "subtitle": "Masukkan <strong>jumlah bil</strong>, <strong>peratusan tip</strong> dan <strong>bilangan orang</strong>, dan <strong>kalkulator tip</strong> ini terus mengira <strong>tip</strong>, <strong>jumlah</strong> dan berapa yang <strong>perlu dibayar setiap orang</strong>.",
+  "hint": "Masukkan bil, % tip dan bilangan orang untuk membahagikan.",
+  "long_tail_anchor": "Pembahagi bil dan tip restoran",
+  "card_strings": {
+    "Bill Amount ($)": "Jumlah bil ($)",
+    "Per Person:": "Seorang:",
+    "Split Between": "Bahagi antara",
+    "Tip": "Tip",
+    "Tip Amount:": "Jumlah tip:",
+    "Total:": "Jumlah:",
+    "e.g. 18": "cth. 18",
+    "e.g. 4": "cth. 4",
+    "e.g. 80": "cth. 80"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Penurunan Peratusan | Tolak Peratusan",
+  "meta_description": "Kalkulator penurunan peratusan percuma. Terus tolak sebarang peratusan daripada sesuatu nombor: kira susut nilai, penurunan berat badan dan pemotongan bajet.",
+  "h1": "Kalkulator Penurunan Peratusan",
+  "subtitle": "Masukkan <strong>nombor permulaan</strong> dan <strong>peratusan yang ditolak</strong>, dan <strong>kalkulator penurunan peratusan</strong> ini memberikan <strong>jumlah pengurangan</strong> dan <strong>nilai akhir</strong>. Jadi jika anda tertanya berapa 500 tolak 20 %, jawapannya 400, dan anda telah menjimatkan sedikit pengiraan dalam kepala.",
+  "hint": "Masukkan nombor dan peratusan yang ditolak untuk mendapatkan nilai selepas dikurangkan.",
+  "long_tail_anchor": "Tolak peratus daripada sesuatu nombor",
+  "card_strings": {
+    "Decrease Amount:": "Jumlah pengurangan:",
+    "Decrease by": "Kurangkan sebanyak",
+    "Enter percentage": "Masukkan peratusan",
+    "Enter starting number": "Masukkan nombor permulaan",
+    "New Value:": "Nilai baharu:",
+    "Original Value": "Nilai asal"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "percent-solution-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Larutan Peratusan | Kepekatan Jisim/Isi Padu",
+  "meta_description": "Kalkulator larutan peratusan percuma. Masukkan jisim zat terlarut dan isi padu larutan untuk terus mengira kepekatan peratusan (% b/i).",
+  "h1": "Kalkulator Larutan Peratusan",
+  "subtitle": "Masukkan <strong>jisim zat terlarut</strong> dan <strong>isi padu larutan</strong>, dan <strong>kalkulator larutan peratusan</strong> ini terus mengira <strong>kepekatan peratusan</strong> (% b/i).",
+  "hint": "Masukkan jisim zat terlarut dan isi padu larutan untuk mendapatkan kepekatan.",
+  "long_tail_anchor": "Kepekatan peratusan jisim dan isi padu",
+  "card_strings": {
+    "Concentration (% w/v):": "Kepekatan (% b/i):",
+    "Mass of Solute (g)": "Jisim zat terlarut (g)",
+    "Volume of Solution (mL)": "Isi padu larutan (mL)",
+    "e.g. 250": "cth. 250",
+    "e.g. 5": "cth. 5"
+  }
+}

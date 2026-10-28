@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Faedah Kompaun | Kira Pertumbuhan dari Semasa ke Semasa",
+  "meta_description": "Kalkulator faedah kompaun percuma. Masukkan prinsipal, kadar tahunan, masa dan kekerapan pengkompaunan untuk terus mengira faedah diperoleh dan jumlah keseluruhan.",
+  "h1": "Kalkulator Faedah Kompaun",
+  "subtitle": "Masukkan <strong>prinsipal</strong>, <strong>kadar tahunan</strong>, <strong>masa</strong> dan <strong>kekerapan pengkompaunan</strong>, dan <strong>kalkulator faedah kompaun</strong> ini terus memaparkan <strong>faedah diperoleh</strong> dan <strong>jumlah keseluruhan</strong>.",
+  "hint": "Masukkan prinsipal, kadar, masa dan kekerapan pengkompaunan untuk mendapatkan jumlah keseluruhan.",
+  "long_tail_anchor": "Kekerapan pengkompaunan dan pertumbuhan",
+  "card_strings": {
+    "Annual Rate": "Kadar tahunan",
+    "Compounding / Year": "Pengkompaunan / tahun",
+    "Interest Earned:": "Faedah diperoleh:",
+    "Principal ($)": "Prinsipal ($)",
+    "Time (Years)": "Masa (tahun)",
+    "Total Amount:": "Jumlah keseluruhan:",
+    "e.g. 1000": "cth. 1000",
+    "e.g. 12": "cth. 12",
+    "e.g. 3": "cth. 3",
+    "e.g. 5": "cth. 5"
+  }
+}

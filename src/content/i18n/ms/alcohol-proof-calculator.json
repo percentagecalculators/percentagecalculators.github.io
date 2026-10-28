@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Bukti Alkohol | Tukar Proof kepada Peratusan ABV",
+  "meta_description": "Kalkulator bukti alkohol percuma. Masukkan nilai proof AS untuk terus menukarnya kepada peratusan alkohol mengikut isi padu (ABV): pantas, tepat dan mudah digunakan.",
+  "h1": "Kalkulator Bukti Alkohol",
+  "subtitle": "Masukkan nilai <strong>bukti alkohol</strong> (skala AS) dan <strong>kalkulator bukti alkohol</strong> ini terus menukarnya kepada peratusan <strong>alkohol mengikut isi padu (ABV)</strong>.",
+  "hint": "Masukkan nilai proof AS untuk mendapatkan peratusan ABV.",
+  "long_tail_anchor": "Penukar proof kepada peratusan ABV",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "Proof (AS)",
+    "e.g. 80": "cth. 80"
+  }
+}

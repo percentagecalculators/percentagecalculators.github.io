@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Peratusan Tukang Roti | Kira Nisbah Bahan",
+  "meta_description": "Kalkulator peratusan tukang roti percuma. Masukkan berat tepung dan berat bahan untuk terus mengira peratusan tukang roti bagi bahan itu.",
+  "h1": "Kalkulator Peratusan Tukang Roti",
+  "subtitle": "Masukkan <strong>berat tepung</strong> dan <strong>berat bahan</strong>, dan <strong>kalkulator peratusan tukang roti</strong> ini terus mengira <strong>peratusan tukang roti</strong> bagi bahan itu: setiap bahan dinyatakan berbanding tepung.",
+  "hint": "Masukkan berat tepung dan bahan untuk mendapatkan peratusan tukang roti.",
+  "long_tail_anchor": "Hidrasi doh dan nisbah bahan",
+  "card_strings": {
+    "Baker's Percentage:": "Peratusan tukang roti:",
+    "Flour Weight (g)": "Berat tepung (g)",
+    "Ingredient Weight (g)": "Berat bahan (g)",
+    "e.g. 350": "cth. 350",
+    "e.g. 500": "cth. 500"
+  }
+}

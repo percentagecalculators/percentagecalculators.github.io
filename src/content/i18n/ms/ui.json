@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "Langkau ke kandungan",
+  "primary_nav": "Navigasi utama",
+  "toggle_dark": "Togol mod gelap",
+  "open_menu": "Buka menu",
+  "close_menu": "Tutup menu",
+  "site_nav": "Navigasi laman",
+  "home": "Laman Utama",
+  "more": "Lagi",
+  "language": "Bahasa",
+  "reset": "Tetapkan semula kalkulator",
+  "calculate": "Kira",
+  "related_aria": "Kalkulator berkaitan",
+  "faq_heading": "Soalan lazim",
+  "toc_label": "Isi kandungan",
+  "copy_result": "Salin hasil",
+  "copied": "Disalin!",
+  "company": "Syarikat",
+  "footer_site_map": "Peta laman",
+  "footer_links": "Pautan pengaki",
+  "rights": "Hak cipta terpelihara.",
+  "footer_tagline": "Kalkulator peratusan dalam talian percuma. Setiap pengiraan berjalan sepenuhnya dalam pelayar anda: hasil serta-merta, tanpa perlu mendaftar.",
+  "native_name": "Bahasa Melayu",
+  "nav_groups": {
+    "core": {
+      "label": "Alat peratusan asas",
+      "short_label": "Asas",
+      "tagline": "Yang penting: mencari peratusan, menaikkan atau menurunkan nombor, dan membandingkan dua nilai."
+    },
+    "converters": {
+      "label": "Penukar",
+      "short_label": "Penukar",
+      "tagline": "Tukar antara peratusan, pecahan, perpuluhan, nisbah dan bentuk unit lain."
+    },
+    "education": {
+      "label": "Pendidikan",
+      "short_label": "Pendidikan",
+      "tagline": "Penukaran GPA, CGPA, SGPA, markah dan persentil untuk pelajar."
+    },
+    "finance": {
+      "label": "Kewangan dan perniagaan",
+      "short_label": "Kewangan",
+      "tagline": "Kadar faedah, margin untung, markup, kenaikan gaji dan pertumbuhan perniagaan."
+    },
+    "everyday": {
+      "label": "Harian dan khusus",
+      "short_label": "Harian",
+      "tagline": "Tip, kadar kemenangan, nisbah membakar, kos makanan dan kepekatan peratusan larutan."
+    }
+  },
+  "company_links": {
+    "/about": "Tentang",
+    "/contact": "Hubungi",
+    "/sitemap": "Peta laman",
+    "/disclaimer": "Penafian",
+    "/privacy-policy": "Dasar privasi",
+    "/terms-of-use": "Terma penggunaan"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "Kalkulator Bukti Alkohol",
+    "apr-apy-converter": "Penukar APR kepada APY",
+    "apr-calculator": "Kalkulator APR",
+    "apy-calculator": "Kalkulator APY",
+    "average-percentage-calculator": "Kalkulator Purata Peratusan",
+    "bakers-percentage-calculator": "Kalkulator Peratusan Tukang Roti",
+    "basis-points-calculator": "Kalkulator Mata Asas",
+    "cgpa-to-percentage-calculator": "Kalkulator CGPA kepada Peratusan",
+    "commission-calculator": "Kalkulator Komisen",
+    "compound-interest-calculator": "Kalkulator Faedah Kompaun",
+    "decimal-to-percentage-calculator": "Kalkulator Perpuluhan kepada Peratusan",
+    "depreciation-calculator": "Kalkulator Susut Nilai",
+    "food-cost-percentage-calculator": "Kalkulator Peratusan Kos Makanan",
+    "fraction-to-percentage-calculator": "Kalkulator Pecahan kepada Peratusan",
+    "gpa-to-percentage-calculator": "Kalkulator GPA kepada Peratusan",
+    "gross-margin-calculator": "Kalkulator Margin Kasar",
+    "loan-interest-calculator": "Kalkulator Faedah Pinjaman",
+    "marks-percentage-calculator": "Kalkulator Peratusan Markah",
+    "markup-calculator": "Kalkulator Markup",
+    "percent-solution-calculator": "Kalkulator Larutan Peratusan",
+    "percentage-calculator": "Kalkulator Peratusan",
+    "percentage-change-calculator": "Kalkulator Perubahan Peratusan",
+    "percentage-decrease-calculator": "Kalkulator Penurunan Peratusan",
+    "percentage-difference-calculator": "Kalkulator Perbezaan Peratusan",
+    "percentage-error-calculator": "Kalkulator Ralat Peratusan",
+    "percentage-growth-calculator": "Kalkulator Pertumbuhan Peratusan",
+    "percentage-increase-calculator": "Kalkulator Peningkatan Peratusan",
+    "percentage-of-a-percentage-calculator": "Kalkulator Peratusan Daripada Peratusan",
+    "percentage-off-calculator": "Kalkulator Diskaun",
+    "percentage-point-calculator": "Kalkulator Mata Peratusan",
+    "percentile-to-percentage-calculator": "Kalkulator Persentil kepada Peratusan",
+    "ppm-to-percentage-calculator": "Kalkulator PPM kepada Peratusan",
+    "profit-margin-calculator": "Kalkulator Margin Untung",
+    "profit-percentage-calculator": "Kalkulator Peratusan Untung",
+    "ratio-to-percentage-calculator": "Kalkulator Nisbah kepada Peratusan",
+    "reverse-percentage-calculator": "Kalkulator Peratusan Songsang",
+    "salary-increase-calculator": "Kalkulator Kenaikan Gaji",
+    "sgpa-to-percentage-calculator": "Kalkulator SGPA kepada Peratusan",
+    "simple-interest-calculator": "Kalkulator Faedah Mudah",
+    "slope-percentage-calculator": "Kalkulator Peratusan Kecerunan",
+    "tip-calculator": "Kalkulator Tip",
+    "win-loss-percentage-calculator": "Kalkulator Menang dan Kalah"
+  }
+}

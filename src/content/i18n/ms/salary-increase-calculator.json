@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Kenaikan Gaji | Kira Gaji Baharu Anda",
+  "meta_description": "Kalkulator kenaikan gaji percuma. Masukkan gaji semasa anda dan peratusan kenaikan untuk terus mengira jumlah kenaikan dan gaji baharu anda.",
+  "h1": "Kalkulator Kenaikan Gaji",
+  "subtitle": "Masukkan <strong>gaji semasa</strong> dan <strong>peratusan kenaikan</strong> anda, dan <strong>kalkulator kenaikan gaji</strong> ini terus mengira <strong>jumlah kenaikan</strong> dan <strong>gaji baharu</strong> anda.",
+  "hint": "Masukkan gaji semasa dan % kenaikan untuk mendapatkan gaji baharu anda.",
+  "long_tail_anchor": "Peratusan kenaikan dan pelarasan gaji",
+  "card_strings": {
+    "Current Salary ($)": "Gaji semasa ($)",
+    "New Salary:": "Gaji baharu:",
+    "Raise": "Kenaikan",
+    "Raise Amount:": "Jumlah kenaikan:",
+    "e.g. 5": "cth. 5",
+    "e.g. 60000": "cth. 60000"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Pertumbuhan Peratusan | Kadar Pertumbuhan Perniagaan",
+  "meta_description": "Kalkulator pertumbuhan peratusan percuma. Kira kadar pertumbuhan hasil, pelanggan, jualan dan KPI. Jejaki prestasi perniagaan dengan metrik yang tepat.",
+  "h1": "Kalkulator Pertumbuhan Peratusan",
+  "subtitle": "Masukkan <strong>nilai awal</strong> dan <strong>nilai akhir</strong>, dan <strong>kalkulator pertumbuhan peratusan</strong> ini memaparkan <strong>kadar pertumbuhan</strong> dan <strong>jumlah pertumbuhan</strong>. Ia menjawab soalan: berapa peratus nombor anda berkembang dari titik A ke titik B?",
+  "hint": "Masukkan nilai awal dan nilai akhir untuk mendapatkan pertumbuhan peratusan.",
+  "long_tail_anchor": "Kadar pertumbuhan perniagaan dan hasil",
+  "card_strings": {
+    "Ending value": "Nilai akhir",
+    "Final Value": "Nilai akhir",
+    "Growth Amount:": "Jumlah pertumbuhan:",
+    "Growth Rate:": "Kadar pertumbuhan:",
+    "Initial Value": "Nilai awal",
+    "Starting value": "Nilai permulaan"
+  }
+}

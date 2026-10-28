@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Faedah Mudah | Faedah dan Jumlah Keseluruhan",
+  "meta_description": "Kalkulator faedah mudah percuma. Masukkan prinsipal, kadar tahunan dan masa untuk terus mengira faedah diperoleh dan jumlah keseluruhan.",
+  "h1": "Kalkulator Faedah Mudah",
+  "subtitle": "Masukkan <strong>prinsipal</strong>, <strong>kadar faedah tahunan</strong> dan <strong>masa dalam tahun</strong>, dan <strong>kalkulator faedah mudah</strong> ini terus memaparkan <strong>faedah diperoleh</strong> dan <strong>jumlah keseluruhan</strong>.",
+  "hint": "Masukkan prinsipal, kadar tahunan dan masa untuk mendapatkan faedah dan jumlah keseluruhan.",
+  "long_tail_anchor": "Formula prinsipal, kadar dan masa",
+  "card_strings": {
+    "Annual Rate": "Kadar tahunan",
+    "Interest Earned:": "Faedah diperoleh:",
+    "Principal ($)": "Prinsipal ($)",
+    "Time (Years)": "Masa (tahun)",
+    "Total Amount:": "Jumlah keseluruhan:",
+    "e.g. 1000": "cth. 1000",
+    "e.g. 3": "cth. 3",
+    "e.g. 5": "cth. 5"
+  }
+}

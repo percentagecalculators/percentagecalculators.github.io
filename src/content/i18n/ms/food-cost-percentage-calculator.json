@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Peratusan Kos Makanan | Kira Kos Menu %",
+  "meta_description": "Kalkulator peratusan kos makanan percuma. Masukkan kos bahan dan harga menu untuk terus mengira peratusan kos makanan bagi sesuatu item menu.",
+  "h1": "Kalkulator Peratusan Kos Makanan",
+  "subtitle": "Masukkan <strong>kos bahan</strong> dan <strong>harga menu</strong>, dan <strong>kalkulator peratusan kos makanan</strong> ini terus mengira <strong>peratusan kos makanan</strong> bagi item menu itu.",
+  "hint": "Masukkan kos bahan dan harga menu untuk mendapatkan peratusan kos makanan.",
+  "long_tail_anchor": "Peratusan kos menu restoran",
+  "card_strings": {
+    "Food Cost Percentage:": "Peratusan kos makanan:",
+    "Ingredient Cost ($)": "Kos bahan ($)",
+    "Menu Price ($)": "Harga menu ($)",
+    "e.g. 14": "cth. 14",
+    "e.g. 3.50": "cth. 3.50"
+  }
+}

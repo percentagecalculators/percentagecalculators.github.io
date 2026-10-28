@@ -1,0 +1,18 @@
+{
+  "slug": "fraction-to-percentage-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Pecahan kepada Peratusan | Tukar kepada Peratus",
+  "meta_description": "Kalkulator pecahan kepada peratusan percuma. Terus tukar sebarang pecahan kepada peratusan: sesuai untuk markah ujian, nisbah dan perkadaran.",
+  "h1": "Kalkulator Pecahan kepada Peratusan",
+  "subtitle": "Masukkan <strong>pengangka</strong> (nombor atas) dan <strong>penyebut</strong> (nombor bawah), dan <strong>kalkulator pecahan kepada peratusan</strong> ini menukar pecahan anda kepada <strong>peratusan</strong> dan <strong>perpuluhan</strong>. Jadi 3/4 menjadi 75 %: taip sahaja dan pengiraan berlaku semasa anda menaip.",
+  "hint": "Masukkan pengangka dan penyebut untuk menukar kepada peratusan.",
+  "long_tail_anchor": "Tukar pecahan kepada peratus",
+  "card_strings": {
+    "Decimal Value:": "Nilai perpuluhan:",
+    "Denominator": "Penyebut",
+    "Numerator": "Pengangka",
+    "Percentage:": "Peratusan:",
+    "e.g. 3": "cth. 3",
+    "e.g. 4": "cth. 4"
+  }
+}

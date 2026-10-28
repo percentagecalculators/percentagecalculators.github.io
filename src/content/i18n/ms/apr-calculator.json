@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator APR | Kadar Peratusan Tahunan",
+  "meta_description": "Kalkulator APR percuma. Terus tukar kadar faedah berkala kepada Kadar Peratusan Tahunan (APR): cara piawai pinjaman dan kad kredit menyatakan kos.",
+  "h1": "Kalkulator APR",
+  "subtitle": "Masukkan <strong>kadar faedah berkala</strong> dan <strong>bilangan tempoh setahun</strong>, dan <strong>kalkulator APR</strong> ini mengira <strong>Kadar Peratusan Tahunan</strong>: cara piawai tanpa pengkompaunan yang digunakan pemberi pinjaman untuk menyatakan kos pinjaman.",
+  "hint": "Masukkan kadar berkala dan tempoh setahun untuk mendapatkan APR.",
+  "long_tail_anchor": "Kalkulator kadar peratusan tahunan",
+  "card_strings": {
+    "APR:": "APR:",
+    "Periodic Interest Rate": "Kadar faedah berkala",
+    "Periods / Year": "Tempoh / tahun",
+    "e.g. 1.5": "cth. 1.5",
+    "e.g. 12": "cth. 12"
+  }
+}

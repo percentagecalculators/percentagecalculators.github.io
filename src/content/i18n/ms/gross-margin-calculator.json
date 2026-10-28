@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Margin Kasar | Kira Margin Untung Kasar %",
+  "meta_description": "Kalkulator margin kasar percuma. Masukkan hasil dan kos barang dijual (COGS) untuk terus mengira untung kasar dan peratusan margin kasar.",
+  "h1": "Kalkulator Margin Kasar",
+  "subtitle": "Masukkan <strong>hasil</strong> dan <strong>kos barang dijual (COGS)</strong> anda, dan <strong>kalkulator margin kasar</strong> ini terus mengira <strong>untung kasar</strong> dan <strong>peratusan margin kasar</strong> anda.",
+  "hint": "Masukkan hasil dan COGS untuk mendapatkan peratusan margin kasar anda.",
+  "long_tail_anchor": "Peratusan margin daripada hasil dan COGS",
+  "card_strings": {
+    "COGS ($)": "COGS ($)",
+    "Gross Margin:": "Margin kasar:",
+    "Gross Profit:": "Untung kasar:",
+    "Revenue ($)": "Hasil ($)",
+    "e.g. 100000": "cth. 100000",
+    "e.g. 65000": "cth. 65000"
+  }
+}

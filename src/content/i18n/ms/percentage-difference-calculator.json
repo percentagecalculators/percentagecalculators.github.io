@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "ms",
+  "meta_title": "Kalkulator Perbezaan Peratusan | Bandingkan Dua Nilai",
+  "meta_description": "Kalkulator perbezaan peratusan percuma. Bandingkan dua nombor dan cari perbezaan peratusannya. Menggunakan purata sebagai asas untuk perbandingan simetri dan tidak berat sebelah.",
+  "h1": "Kalkulator Perbezaan Peratusan",
+  "subtitle": "Masukkan <strong>dua nilai</strong> dan <strong>kalkulator perbezaan peratusan</strong> ini memberitahu sejauh mana jaraknya sebagai <strong>peratusan</strong>, dengan <strong>purata</strong> kedua-duanya sebagai asas. Tidak seperti perubahan peratusan, susunan tidak penting di sini: membandingkan 50 dengan 80 memberikan hasil yang sama seperti 80 dengan 50.",
+  "hint": "Masukkan dua nilai untuk mendapatkan perbezaan peratusan di antara kedua-duanya.",
+  "long_tail_anchor": "Bandingkan dua nombor secara simetri",
+  "card_strings": {
+    "Absolute Difference:": "Perbezaan mutlak:",
+    "Enter first number": "Masukkan nombor pertama",
+    "Enter second number": "Masukkan nombor kedua",
+    "First Value": "Nilai pertama",
+    "Percentage Difference:": "Perbezaan peratusan:",
+    "Second Value": "Nilai kedua"
+  }
+}
