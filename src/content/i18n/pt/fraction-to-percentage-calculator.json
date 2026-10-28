@@ -14,5 +14,56 @@
     "Percentage:": "Porcentagem:",
     "e.g. 3": "p. ex. 3",
     "e.g. 4": "p. ex. 4"
-  }
+  },
+  "content_html": "<p>Transformar uma fração em porcentagem é uma conversão rápida de que você vai precisar o tempo todo, seja para notas, descontos, resultados de laboratório ou só para conferir a própria conta. Esta <strong>calculadora de fração para porcentagem</strong> faz isso na hora: divide o <strong>numerador</strong> pelo <strong>denominador</strong> e multiplica por 100. Informe qualquer fração própria ou imprópria e você recebe o equivalente decimal e a porcentagem final sem encostar em papel e lápis. A mesma fórmula funciona no sentido inverso, então o caminho contrário é igualmente fácil.</p>\n\n<h2>Como funciona a calculadora de fração para porcentagem</h2>\n<p>Toda calculadora de fração para porcentagem usa a mesma lógica em dois passos: dividir e depois multiplicar por 100. Você informa um numerador e um denominador (e, no caso de números mistos, um número inteiro opcional), e a ferramenta devolve a porcentagem, o equivalente decimal e, se quiser ver o raciocínio, a conta completa passo a passo. Esta calculadora também faz o caminho inverso, de uma porcentagem de volta para a fração equivalente, sem que você precise abrir outra página. Alguns sites chamam a mesma ferramenta de conversor de frações, conversor de porcentagens ou calculadora de fração para decimal, mas a matemática por trás é idêntica.</p>\n\n<h3>Fórmula para converter fração em porcentagem</h3>\n<p>A fórmula para converter fração em porcentagem é simples:</p>\n$$ P = \\frac{N}{D} \\times 100 $$\n<p>Aqui, <code>N</code> é o numerador, <code>D</code> é o denominador e <strong>P</strong> é a porcentagem resultante. Com 3 e 4, por exemplo, 3 ÷ 4 × 100 dá 75%. Essa única fórmula é a que todos os métodos desta página acabam usando; os passos manuais abaixo apenas mudam a ordem das operações.</p>\n\n<h3>Como ler os dados de entrada, o resultado e as casas decimais</h3>\n<p>A maioria das ferramentas de fração para porcentagem, esta inclusive, pede três campos: um numerador, um denominador e um número inteiro opcional para números mistos como 2 1/3. O resultado mostra o valor da porcentagem arredondado para um número razoável de casas decimais, além da forma decimal sem arredondamento, para você ver exatamente como o arredondamento aconteceu. Se a fração não dá uma divisão exata, como 1/3, você verá uma dízima periódica como 0.3333 antes de ela virar 33.33%.</p>\n\n<aside>Dica: se uma fração já tem denominador 100, ela já é uma porcentagem, sem precisar dividir. 47/100 é simplesmente 47%.</aside>\n\n<h2>Métodos manuais: fórmula de fração para porcentagem passo a passo</h2>\n<p>Se você prefere pular a conta manual, esta calculadora já aplica automaticamente os três métodos abaixo. Mas entender como a conversão funciona à mão facilita conferir o resultado ou fazer uma estimativa rápida quando você não está com uma calculadora por perto.</p>\n\n<h3>Numerador e denominador: divida e depois multiplique por 100</h3>\n<p>Divida o numerador pelo denominador para obter um decimal e, em seguida, multiplique esse decimal por 100 para obter a porcentagem. Para 5/8: dividir 5 por 8 dá 0.625, e multiplicar por 100 dá 62.5%. É o método que a maioria dos livros didáticos ensina primeiro, porque espelha diretamente a fórmula: dividir e depois multiplicar por 100.</p>\n<ul>\n  <li>Divida o numerador pelo denominador para obter um número decimal.</li>\n  <li>Multiplique o decimal por 100.</li>\n  <li>Acrescente o símbolo de porcentagem ao resultado.</li>\n</ul>\n\n<h3>De decimal para porcentagem: multiplique primeiro e depois divida</h3>\n<p>Você também pode multiplicar primeiro o numerador por 100 e dividir depois pelo denominador: a ordem não muda a resposta, só o tamanho dos números com que você trabalha. Para 5/8: multiplicar 5 por 100 dá 500, e dividir por 8 dá 62.5%. Algumas pessoas acham esse atalho mais fácil para fazer de cabeça, já que multiplicar por 100 é só deslocar a vírgula duas casas para a direita antes de dividir.</p>\n<ol>\n  <li>Multiplique o numerador por 100.</li>\n  <li>Divida o resultado pelo denominador.</li>\n  <li>Arredonde para o número de casas decimais desejado.</li>\n</ol>\n\n<h2>Como converter uma porcentagem em fração</h2>\n<p>Voltar do resultado de uma calculadora de porcentagem para uma fração é o processo inverso, e é exatamente o que faz uma calculadora de porcentagem para fração. É útil sempre que você precisa de uma razão exata em vez de um decimal arredondado, como em problemas de probabilidade, na adaptação de receitas ou na simplificação de uma medida.</p>\n\n<h3>Fórmula de porcentagem para fração</h3>\n<p>Para transformar uma porcentagem de volta em fração, coloque a porcentagem sobre 100 e simplifique:</p>\n$$ \\frac{P}{100} = \\frac{N}{D} $$\n<p>Por exemplo, 35% vira 35/100. Reduzir a fração, dividindo numerador e denominador pelo fator comum, resulta em 7/20. Se o número tiver casas decimais, como 35.5%, multiplique numerador e denominador por 10 (ou 100, ou 1000) até que ambos sejam números inteiros e, a partir daí, reduza a fração.</p>\n\n<h3>Simplificando com o máximo divisor comum</h3>\n<p>Reduzir uma fração aos menores termos significa dividir numerador e denominador pelo máximo divisor comum, o MDC. Em 35/100, o MDC é 5, então dividir os dois números por 5 resulta em 7/20, o mesmo valor na forma mais simples. Aprender a identificar o MDC rapidamente deixa a simplificação à mão muito mais ágil do que reduzir um fator de cada vez.</p>\n\n<h2>Tabela de fração para porcentagem: conversões comuns</h2>\n<p>Algumas conversões de fração para porcentagem aparecem com tanta frequência que vale a pena decorá-las em vez de dividir toda vez. A tabela abaixo reúne as frações mais comuns, seus equivalentes decimais e suas porcentagens.</p>\n<table>\n  <thead>\n    <tr><th>Numerador</th><th>Denominador</th><th>Decimal</th><th>Porcentagem</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>2</td><td>0.5</td><td>50%</td></tr>\n    <tr><td>1</td><td>3</td><td>0.333</td><td>33.3%</td></tr>\n    <tr><td>1</td><td>4</td><td>0.25</td><td>25%</td></tr>\n    <tr><td>1</td><td>5</td><td>0.2</td><td>20%</td></tr>\n    <tr><td>3</td><td>4</td><td>0.75</td><td>75%</td></tr>\n    <tr><td>5</td><td>8</td><td>0.625</td><td>62.5%</td></tr>\n    <tr><td>7</td><td>20</td><td>0.35</td><td>35%</td></tr>\n  </tbody>\n</table>\n<p>Repare que todos os valores da tabela seguem a mesma regra: divida o numerador pelo denominador e multiplique por 100. Depois de decorar alguns desses pares de fração e porcentagem, você consegue estimar porcentagens de cabeça antes mesmo de abrir uma calculadora.</p>\n\n<h2>Por que a conversão de fração em porcentagem importa: matemática, estatística e erro percentual</h2>\n<p>Converter entre frações e porcentagens não é só exercício de escola: isso aparece na matemática, na estatística e no raciocínio do dia a dia. A nota de 42/50 em uma prova diz pouco até ser convertida em 84%, e aí passa a ser comparável de imediato com qualquer outra escala de notas. Na estatística, as proporções de uma amostra costumam ser apresentadas em porcentagem justamente por serem mais fáceis de comparar num relance do que frações brutas.</p>\n<p>A mesma matemática está por trás do <strong>erro percentual</strong>, que mede o quanto um valor experimental ou medido se afasta do valor esperado. Se o denominador representa o valor verdadeiro e o numerador representa a diferença entre o valor observado e o verdadeiro, a fórmula de fração para porcentagem vira a fórmula do erro percentual: a mecânica é idêntica, só muda o significado dos números. Seja para corrigir uma prova, fazer um experimento de laboratório ou ler a margem de erro de uma pesquisa de opinião, saber transitar com fluência entre fração, decimal e porcentagem é uma das habilidades matemáticas mais reaproveitáveis que existem. Essa mesma aritmética aparece bem além de uma única disciplina: calcular um GPA a partir de pontos de qualidade brutos ou resolver uma lista de exercícios de matemática discreta se apoia exatamente na mesma lógica de fração para porcentagem.</p>",
+  "faq": [
+    {
+      "question": "Quanto é 3/4 em porcentagem?",
+      "answer": "3/4 equivale a 75%. Cálculo: (3 ÷ 4) × 100 = 75%."
+    },
+    {
+      "question": "Quanto é 1/3 em porcentagem?",
+      "answer": "1/3 equivale a aproximadamente 33.33% (dízima periódica). Cálculo: (1 ÷ 3) × 100 = 33.333...%."
+    },
+    {
+      "question": "Quanto é 2/3 em porcentagem?",
+      "answer": "2/3 equivale a aproximadamente 66.67% (dízima periódica). Cálculo: (2 ÷ 3) × 100 = 66.666...%."
+    },
+    {
+      "question": "Como converter a nota de uma prova em porcentagem?",
+      "answer": "Divida a sua nota pelo total de pontos possíveis e multiplique por 100. Nota 45/60: (45÷60) × 100 = 75%."
+    },
+    {
+      "question": "Quanto é 5/8 em porcentagem?",
+      "answer": "5/8 equivale a 62.5%. Cálculo: (5 ÷ 8) × 100 = 62.5%."
+    },
+    {
+      "question": "Quanto é 7/10 em porcentagem?",
+      "answer": "7/10 equivale a 70%. Cálculo: (7 ÷ 10) × 100 = 70%."
+    },
+    {
+      "question": "Uma fração pode dar uma porcentagem maior que 100%?",
+      "answer": "Sim, frações impróprias (numerador > denominador) resultam em porcentagens acima de 100%. Por exemplo, 5/4 = 125%."
+    },
+    {
+      "question": "Quanto é 1/8 em porcentagem?",
+      "answer": "1/8 equivale a 12.5%. Cálculo: (1 ÷ 8) × 100 = 12.5%."
+    },
+    {
+      "question": "Como converter um número misto em porcentagem?",
+      "answer": "Primeiro converta para fração imprópria. 1½ = 3/2 = (3÷2) × 100 = 150%."
+    },
+    {
+      "question": "Quanto é 4/5 em porcentagem?",
+      "answer": "4/5 equivale a 80%. Cálculo: (4 ÷ 5) × 100 = 80%."
+    },
+    {
+      "question": "E se o denominador for zero?",
+      "answer": "A divisão por zero é indefinida. Uma fração com denominador zero não tem porcentagem válida."
+    },
+    {
+      "question": "Quanto é 11/20 em porcentagem?",
+      "answer": "11/20 equivale a 55%. Cálculo: (11 ÷ 20) × 100 = 55%."
+    }
+  ]
 }

@@ -39,3 +39,5 @@ Decisions (made 2026-10-28):
 | ratio / fraction / decimal | razão / fração / decimal | |
 | hydration (baking) | hidratação | |
 | Dollar amounts | `$` before the number, as in English ($1,250) | |
+
+Open for review (self-review by Claude, no native reviewer): a few units kept as in English because of the number check ("1.375 litro"); synonym lists for the `<strong>` tool-name phrases in slope/percentage-change are slightly artificial; APR/APY pairing should be confirmed site-wide.

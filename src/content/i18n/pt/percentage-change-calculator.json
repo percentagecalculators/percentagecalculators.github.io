@@ -14,5 +14,56 @@
     "New Value (Current)": "Valor novo (atual)",
     "Old Value (Original)": "Valor antigo (original)",
     "Percentage Change:": "Variação percentual:"
-  }
+  },
+  "content_html": "<p>Seja para comparar as vendas deste mês com as do mês passado, acompanhar um aumento no seu salário ou descobrir quanto uma ação variou, uma <strong>calculadora de variação percentual</strong> responde sempre à mesma pergunta: qual foi o tamanho da oscilação, expresso em porcentagem? Informe o valor inicial e o valor final, e a ferramenta devolve na hora o <strong>aumento percentual</strong> ou a <strong>redução percentual</strong> entre eles. A seguir, você vê a fórmula explicada passo a passo, exemplos com números negativos e a matemática do mundo real, da taxa de crescimento populacional aos juros compostos, que faz desse cálculo uma das coisas mais úteis que se pode fazer com dois números.</p>\n\n<h2>O que é uma calculadora de variação percentual?</h2>\n<p>No fundo, uma calculadora de variação percentual aplica uma única ideia matemática: pega dois números e expressa a diferença entre eles em porcentagem, e não como um valor fixo. Isso é diferente de simplesmente subtrair um número do outro, porque a variação percentual leva em conta a escala: um aumento de $10 pesa muito mais em um orçamento de $50 do que em um de $5,000. Por isso a calculadora é usada em finanças, negócios, economia e estatística, e também em aulas de ciências e matemática, sempre que se quer comparar a variação em relação a um ponto de partida, e não como um número bruto. A mesma relação pode ser escrita como decimal ou como porcentagem; a calculadora só automatiza essa conversão da razão em porcentagem. Alguns sites chamam a ferramenta de calculadora de variação em porcentagem; é a mesma coisa com dois nomes.</p>\n\n<h2>A fórmula da variação percentual: como calcular</h2>\n<p>A fórmula da variação percentual compara o quanto um número se moveu em relação ao ponto de onde partiu:</p>\n$$ \\text{Variação percentual} = \\frac{V_2 - V_1}{|V_1|} \\times 100 $$\n<p>Aqui, V<sub>1</sub> é o valor original e V<sub>2</sub> é o valor final. Subtraia V<sub>1</sub> de V<sub>2</sub>, divida pelo valor absoluto dele e multiplique por 100. Um resultado positivo é um aumento percentual; um resultado negativo é uma redução percentual.</p>\n\n<h3>Valor original, valor final e valor novo</h3>\n<p>Todo cálculo de variação percentual começa com dois números: um valor inicial e um valor final, às vezes chamados de V<sub>1</sub> e V<sub>2</sub>. A ordem importa: sempre subtraia o primeiro do segundo, nunca o contrário, ou os sinais de positivo e negativo se invertem e descrevem o sentido errado da variação.</p>\n\n<h3>Como lidar com números negativos e valor absoluto</h3>\n<p>O valor absoluto no denominador existe justamente por causa dos números negativos. Sem ele, dividir por um valor inicial negativo inverteria o sinal da resposta e transformaria um aumento real em uma redução. Valor absoluto significa simplesmente tratar um número como a sua distância até o zero, seja ele positivo ou negativo; em matemática, isso também é chamado de módulo de um número.</p>\n<aside>Erro comum: pular o passo do valor absoluto quando o número inicial é negativo. Esse é, de longe, o motivo mais frequente de um cálculo de variação percentual sair com o sinal errado.</aside>\n\n<table>\n<tr><th>V<sub>1</sub> (início)</th><th>V<sub>2</sub> (fim)</th><th>Resultado (% de variação)</th></tr>\n<tr><td>40</td><td>52</td><td>+30% (aumento)</td></tr>\n<tr><td>-18</td><td>18</td><td>+200% (aumento)</td></tr>\n<tr><td>-30</td><td>-45</td><td>-50% (redução)</td></tr>\n</table>\n\n<p>Veja como calcular a variação percentual passo a passo, indo de 3.50 para 2.625:</p>\n<ol>\n<li>Calcule a diferença: 2.625 − 3.50 = −0.875</li>\n<li>Divida por |V<sub>1</sub>|: −0.875 ÷ 3.50 = −0.25</li>\n<li>Multiplique por 100: −0.25 × 100 = <strong>−25% de variação</strong>, ou seja, uma redução de 25%</li>\n</ol>\n\n<h2>Variação percentual ou diferença percentual</h2>\n<p>Variação percentual e diferença percentual costumam ser confundidas, mas não são intercambiáveis. A variação percentual mede o movimento de um valor específico para outro, então a ordem importa e o ponto de partida é sempre a referência. Já uma medida de diferença compara dois valores sem tratar nenhum deles como o “antes”, dividindo pela média dos dois, e por isso a diferença percentual é sempre positiva, enquanto a variação percentual pode ser positiva ou negativa, conforme o sentido.</p>\n\n<table>\n<tr><th>Medida</th><th>Fórmula</th><th>Pode ser negativa?</th></tr>\n<tr><td>Direcional (esta calculadora)</td><td>(V<sub>2</sub> − V<sub>1</sub>) / |V<sub>1</sub>| × 100</td><td>Sim: mostra aumento ou redução</td></tr>\n<tr><td>Simétrica (baseada na diferença)</td><td>|V<sub>1</sub> − V<sub>2</sub>| / ((V<sub>1</sub> + V<sub>2</sub>)/2) × 100</td><td>Não: é sempre positiva</td></tr>\n</table>\n\n<h3>Erro percentual e margem de diferença</h3>\n<p>Uma ideia relacionada é o erro percentual, usado quando se compara um valor medido ou estimado com o valor verdadeiro, e não quando se acompanha uma variação ao longo do tempo, algo comum em ciência e trabalhos de laboratório. Ele é calculado do mesmo jeito que a variação percentual, mas voltado à precisão: qual é o tamanho da margem entre o que você mediu e o que está realmente correto, expresso como porcentagem do valor verdadeiro?</p>\n\n<h2>Aumento percentual e redução percentual</h2>\n<p>Um aumento percentual sempre informa que o número final é maior do que o inicial, enquanto uma redução percentual informa que ele é menor. Ambos usam a mesma fórmula básica de variação, mas cada um fixa o sentido de antemão, de modo que o resultado aparece como uma porcentagem positiva simples, e não com sinal. A calculadora acima trata os dois sentidos automaticamente: um resultado positivo indica aumento, um resultado negativo indica redução.</p>\n\n<h3>Ponto percentual ou variação percentual</h3>\n<p>Um ponto percentual não é a mesma coisa que uma porcentagem. Se uma taxa de desconto passa de 10% para 15%, o salto é de 5 pontos percentuais, mas a variação percentual é de 50%, já que 5 é a metade dos 10 originais. Confundir as duas coisas é um dos erros mais comuns em relatórios financeiros.</p>\n\n<p>A variação percentual também está bastante ligada às conversões básicas de porcentagem, já que todo resultado pode ser expresso como decimal antes de virar a porcentagem que aparece na resposta final:</p>\n<ul>\n<li>De decimal para porcentagem</li>\n<li>De porcentagem para decimal</li>\n<li>De fração para porcentagem</li>\n<li>De porcentagem para fração</li>\n</ul>\n\n<h2>Usos no mundo real: crescimento populacional, finanças e matemática do dia a dia</h2>\n<p>A variação percentual aparece o tempo todo fora da sala de aula. Um desconto no caixa, a gorjeta deixada na conta do restaurante, um aumento de salário, uma oscilação no preço das ações ou indicadores econômicos como inflação e IVA são, no fundo, variações percentuais. A mesma fórmula está por trás de projeções de juros compostos, comparações de parcelas de financiamento, planejamento de renda na aposentadoria e cálculos de valor do dinheiro no tempo, sempre que taxas de juros ou o retorno de um investimento precisam ser medidos como taxa de variação, e não como um valor fixo em dólares. O imposto sobre vendas (sales tax, nos EUA) funciona ao contrário, pois é uma porcentagem fixa somada a um preço, e não uma variação entre dois valores, mas a matemática de porcentagem por trás é a mesma.</p>\n\n<h3>Taxa de crescimento populacional</h3>\n<p>Suponha que a população de uma cidade cresça de 180,000 habitantes para 207,000 ao longo de uma década. Aplicando a fórmula: (207,000 − 180,000) ÷ 180,000 × 100 = 15%. Esses 15% mostram quanto a cidade cresceu nesse período, o mesmo cálculo que você usaria para dados de população dos EUA, para a receita de uma empresa ou para uma medição de laboratório.</p>\n\n<h3>Variação percentual no dia a dia</h3>\n<p>A mesma matemática aparece em aulas de álgebra, relatórios de laboratório de química e experimentos de física, sempre que um valor medido precisa ser comparado com um valor esperado. Um aluno que calcula quanto a temperatura de uma substância subiu durante uma reação, ou uma empresa que acompanha seus números trimestre a trimestre, faz exatamente o mesmo cálculo; só mudam os números e as unidades.</p>\n\n<p>Seja qual for o contexto, um aumento de salário, um resultado de laboratório ou uma estimativa de população, a calculadora acima dá uma resposta exata e com o sinal correto em segundos, sem que você precise decorar a fórmula nem se preocupar com qual valor vai no denominador. Agora você sabe exatamente como calcular a variação percentual à mão, ou pode simplesmente deixar a calculadora fazer isso por você.</p>",
+  "faq": [
+    {
+      "question": "Qual é a variação percentual de 50 para 75?",
+      "answer": "A variação é de +50%. Cálculo: ((75-50)/50) × 100 = aumento de 50%."
+    },
+    {
+      "question": "Como calcular a variação percentual no Excel?",
+      "answer": "Use a fórmula =(Novo-Antigo)/Antigo*100 ou formate como porcentagem: =(Novo-Antigo)/Antigo e aplique o formato %."
+    },
+    {
+      "question": "Qual é a variação percentual de 80 para 60?",
+      "answer": "A variação é de -25%. Cálculo: ((60-80)/80) × 100 = -25% (uma redução)."
+    },
+    {
+      "question": "Por que a ordem importa na variação percentual?",
+      "answer": "Porque o denominador (a base) precisa ser o valor original. Inverter dá outro resultado: de 50 para 75 é +50%, mas de 75 para 50 é -33.3%."
+    },
+    {
+      "question": "Variação percentual é a mesma coisa que taxa de crescimento?",
+      "answer": "Para um único período, sim. A taxa de crescimento costuma se referir à variação percentual ao longo do tempo, muitas vezes de forma composta."
+    },
+    {
+      "question": "E se o valor antigo for negativo?",
+      "answer": "A fórmula ainda funciona matematicamente, mas a interpretação fica mais complexa. Ir de -50 para -25 dá +50% (aproximação do zero)."
+    },
+    {
+      "question": "O que significa uma variação de -100%?",
+      "answer": "Uma variação de -100% significa que o valor caiu a zero. Não é possível reduzir mais que 100% (isso implicaria valores negativos)."
+    },
+    {
+      "question": "Como calcular a variação de um ano para o outro?",
+      "answer": "Use esta fórmula com o ano anterior como “Antigo” e o ano atual como “Novo”. O resultado mostra o crescimento ou a queda anual."
+    },
+    {
+      "question": "Qual é a variação de 0 para 100?",
+      "answer": "Ela é indefinida matematicamente (divisão por zero). Qualquer variação a partir de zero é infinita em termos percentuais."
+    },
+    {
+      "question": "A variação percentual pode passar de 100%?",
+      "answer": "Sim, nos aumentos. Uma variação de 20 para 100 é +400%. Já as reduções não podem passar de 100%."
+    },
+    {
+      "question": "Como comparar duas variações percentuais?",
+      "answer": "Compare-as diretamente se usarem o mesmo período-base. Caso contrário, converta para o mesmo intervalo de tempo ou use números-índice."
+    },
+    {
+      "question": "Qual é a diferença entre variação absoluta e relativa?",
+      "answer": "A variação absoluta é a diferença bruta (Novo - Antigo). A variação relativa (percentual) é a diferença como proporção do valor original."
+    }
+  ]
 }
