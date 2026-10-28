@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "ko",
+  "meta_title": "퍼센트 증가 계산기 | 숫자에 퍼센트 더하기",
+  "meta_description": "무료 퍼센트 증가 계산기. 숫자에 원하는 퍼센트를 바로 더합니다. 연봉 인상, 가격 인상, 투자 수익 등을 계산해 보세요.",
+  "h1": "퍼센트 증가 계산기",
+  "subtitle": "<strong>시작 숫자</strong>와 <strong>더할 퍼센트</strong>를 입력하면 이 <strong>퍼센트 증가 계산기</strong>가 <strong>증가액</strong>과 <strong>최종 값</strong>을 모두 알려 줍니다. “200에 15%를 더하면 얼마?”에 대한 답이라고 생각하세요. 참고로 정답은 230입니다.",
+  "hint": "숫자와 더할 퍼센트를 입력해 증가한 값을 구하세요.",
+  "long_tail_anchor": "숫자에 퍼센트 더하기",
+  "card_strings": {
+    "Enter percentage": "퍼센트 입력",
+    "Enter starting number": "시작 숫자 입력",
+    "Increase Amount:": "증가액:",
+    "Increase by": "증가율",
+    "New Value:": "새 값:",
+    "Original Value": "원래 값"
+  }
+}

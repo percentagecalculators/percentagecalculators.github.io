@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "ko",
+  "meta_title": "마크업 계산기 | 원가 + 마크업 %로 판매가 계산",
+  "meta_description": "무료 마크업 계산기. 원가와 원하는 마크업 퍼센트를 입력하면 책정해야 할 판매가를 바로 계산합니다.",
+  "h1": "마크업 계산기",
+  "subtitle": "<strong>원가</strong>와 원하는 <strong>마크업 퍼센트</strong>를 입력하면 이 <strong>마크업 계산기</strong>가 책정해야 할 <strong>판매가</strong>를 바로 계산합니다.",
+  "hint": "원가와 마크업 %를 입력해 판매가를 구하세요.",
+  "long_tail_anchor": "원가에 마크업을 더해 가격 구하기",
+  "card_strings": {
+    "Cost Price ($)": "원가 ($)",
+    "Markup": "마크업",
+    "Markup Amount:": "마크업 금액:",
+    "Selling Price:": "판매가:",
+    "e.g. 30": "예: 30",
+    "e.g. 40": "예: 40"
+  }
+}

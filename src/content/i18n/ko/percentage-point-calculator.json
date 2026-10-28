@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "ko",
+  "meta_title": "퍼센트 포인트 계산기 | 포인트 차이",
+  "meta_description": "무료 퍼센트 포인트 계산기. 두 퍼센트를 입력하면 퍼센트 포인트 차이와 상대적인 변화율을 바로 볼 수 있습니다.",
+  "h1": "퍼센트 포인트 계산기",
+  "subtitle": "두 <strong>퍼센트</strong>를 입력하면 이 <strong>퍼센트 포인트 계산기</strong>가 <strong>퍼센트 포인트 차이</strong>를 보여 줍니다. 이는 상대적 변화율과 다르며, 비교를 위해 상대적 변화율도 함께 표시합니다.",
+  "hint": "두 퍼센트를 입력해 퍼센트 포인트 차이를 구하세요.",
+  "long_tail_anchor": "퍼센트 포인트와 변화율의 차이",
+  "card_strings": {
+    "Percentage A": "퍼센트 A",
+    "Percentage B": "퍼센트 B",
+    "Point Difference:": "포인트 차이:",
+    "Relative Change:": "상대 변화율:",
+    "e.g. 20": "예: 20",
+    "e.g. 25": "예: 25"
+  }
+}

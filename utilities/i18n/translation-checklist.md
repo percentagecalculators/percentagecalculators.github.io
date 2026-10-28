@@ -468,54 +468,54 @@ Files: `src/content/i18n/<lang>/<slug>.json` (tools/home), `src/content/i18n/<la
 
 ## ko - Korean
 
-- [ ] `/ko/` (home, `percentage-calculator`)
-- [ ] `/ko/alcohol-proof-calculator/` **new**
-- [ ] `/ko/apr-apy-converter/` **new**
-- [ ] `/ko/apr-calculator/` **new**
-- [ ] `/ko/apy-calculator/` **new**
-- [ ] `/ko/average-percentage-calculator/`
-- [ ] `/ko/bakers-percentage-calculator/` **new**
-- [ ] `/ko/basis-points-calculator/` **new**
-- [ ] `/ko/cgpa-to-percentage-calculator/` **new**
-- [ ] `/ko/commission-calculator/` **new**
-- [ ] `/ko/compound-interest-calculator/` **new**
-- [ ] `/ko/decimal-to-percentage-calculator/` **new**
-- [ ] `/ko/depreciation-calculator/` **new**
-- [ ] `/ko/food-cost-percentage-calculator/` **new**
-- [ ] `/ko/fraction-to-percentage-calculator/`
-- [ ] `/ko/gpa-to-percentage-calculator/` **new**
-- [ ] `/ko/gross-margin-calculator/` **new**
-- [ ] `/ko/loan-interest-calculator/` **new**
-- [ ] `/ko/marks-percentage-calculator/` **new**
-- [ ] `/ko/markup-calculator/` **new**
-- [ ] `/ko/percent-solution-calculator/` **new**
-- [ ] `/ko/percentage-change-calculator/`
-- [ ] `/ko/percentage-decrease-calculator/`
-- [ ] `/ko/percentage-difference-calculator/`
-- [ ] `/ko/percentage-error-calculator/`
-- [ ] `/ko/percentage-growth-calculator/`
-- [ ] `/ko/percentage-increase-calculator/`
-- [ ] `/ko/percentage-of-a-percentage-calculator/` **new**
-- [ ] `/ko/percentage-off-calculator/`
-- [ ] `/ko/percentage-point-calculator/` **new**
-- [ ] `/ko/percentile-to-percentage-calculator/` **new**
-- [ ] `/ko/ppm-to-percentage-calculator/` **new**
-- [ ] `/ko/profit-margin-calculator/` **new**
-- [ ] `/ko/profit-percentage-calculator/` **new**
-- [ ] `/ko/ratio-to-percentage-calculator/` **new**
-- [ ] `/ko/reverse-percentage-calculator/`
-- [ ] `/ko/salary-increase-calculator/` **new**
-- [ ] `/ko/sgpa-to-percentage-calculator/` **new**
-- [ ] `/ko/simple-interest-calculator/` **new**
-- [ ] `/ko/slope-percentage-calculator/` **new**
-- [ ] `/ko/tip-calculator/` **new**
-- [ ] `/ko/win-loss-percentage-calculator/` **new**
-- [ ] `/ko/page/about/`
-- [ ] `/ko/page/contact/`
-- [ ] `/ko/page/disclaimer/`
-- [ ] `/ko/page/privacy-policy/`
-- [ ] `/ko/page/terms-of-use/`
-- [ ] `/ko/page/sitemap/` **new**
+- [x] `/ko/` (home, `percentage-calculator`)
+- [x] `/ko/alcohol-proof-calculator/` **new**
+- [x] `/ko/apr-apy-converter/` **new**
+- [x] `/ko/apr-calculator/` **new**
+- [x] `/ko/apy-calculator/` **new**
+- [x] `/ko/average-percentage-calculator/`
+- [x] `/ko/bakers-percentage-calculator/` **new**
+- [x] `/ko/basis-points-calculator/` **new**
+- [x] `/ko/cgpa-to-percentage-calculator/` **new**
+- [x] `/ko/commission-calculator/` **new**
+- [x] `/ko/compound-interest-calculator/` **new**
+- [x] `/ko/decimal-to-percentage-calculator/` **new**
+- [x] `/ko/depreciation-calculator/` **new**
+- [x] `/ko/food-cost-percentage-calculator/` **new**
+- [x] `/ko/fraction-to-percentage-calculator/`
+- [x] `/ko/gpa-to-percentage-calculator/` **new**
+- [x] `/ko/gross-margin-calculator/` **new**
+- [x] `/ko/loan-interest-calculator/` **new**
+- [x] `/ko/marks-percentage-calculator/` **new**
+- [x] `/ko/markup-calculator/` **new**
+- [x] `/ko/percent-solution-calculator/` **new**
+- [x] `/ko/percentage-change-calculator/`
+- [x] `/ko/percentage-decrease-calculator/`
+- [x] `/ko/percentage-difference-calculator/`
+- [x] `/ko/percentage-error-calculator/`
+- [x] `/ko/percentage-growth-calculator/`
+- [x] `/ko/percentage-increase-calculator/`
+- [x] `/ko/percentage-of-a-percentage-calculator/` **new**
+- [x] `/ko/percentage-off-calculator/`
+- [x] `/ko/percentage-point-calculator/` **new**
+- [x] `/ko/percentile-to-percentage-calculator/` **new**
+- [x] `/ko/ppm-to-percentage-calculator/` **new**
+- [x] `/ko/profit-margin-calculator/` **new**
+- [x] `/ko/profit-percentage-calculator/` **new**
+- [x] `/ko/ratio-to-percentage-calculator/` **new**
+- [x] `/ko/reverse-percentage-calculator/`
+- [x] `/ko/salary-increase-calculator/` **new**
+- [x] `/ko/sgpa-to-percentage-calculator/` **new**
+- [x] `/ko/simple-interest-calculator/` **new**
+- [x] `/ko/slope-percentage-calculator/` **new**
+- [x] `/ko/tip-calculator/` **new**
+- [x] `/ko/win-loss-percentage-calculator/` **new**
+- [x] `/ko/page/about/`
+- [x] `/ko/page/contact/`
+- [x] `/ko/page/disclaimer/`
+- [x] `/ko/page/privacy-policy/`
+- [x] `/ko/page/terms-of-use/`
+- [x] `/ko/page/sitemap/` **new**
 
 ## ms - Malay
 

@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "식재료 원가율 계산기 | 메뉴 원가를 %로 계산",
+  "meta_description": "무료 식재료 원가율 계산기. 재료비와 메뉴 가격을 입력하면 메뉴 항목의 식재료 원가율을 바로 계산합니다.",
+  "h1": "식재료 원가율 계산기",
+  "subtitle": "<strong>재료비</strong>와 <strong>메뉴 가격</strong>을 입력하면 이 <strong>식재료 원가율 계산기</strong>가 해당 메뉴의 <strong>식재료 원가율</strong>을 바로 계산합니다.",
+  "hint": "재료비와 메뉴 가격을 입력해 식재료 원가율을 구하세요.",
+  "long_tail_anchor": "레스토랑 메뉴 원가율",
+  "card_strings": {
+    "Food Cost Percentage:": "식재료 원가율:",
+    "Ingredient Cost ($)": "재료비 ($)",
+    "Menu Price ($)": "메뉴 가격 ($)",
+    "e.g. 14": "예: 14",
+    "e.g. 3.50": "예: 3.50"
+  }
+}

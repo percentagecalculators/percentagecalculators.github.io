@@ -1,0 +1,16 @@
+{
+  "slug": "percentile-to-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "백분위를 퍼센트로 변환 | 퍼센트 추정",
+  "meta_description": "무료 백분위 → 퍼센트 계산기. 흔히 쓰이는 근사 공식으로 시험 백분위에서 추정 퍼센트를 빠르게 구합니다.",
+  "h1": "백분위를 퍼센트로 변환",
+  "subtitle": "<strong>백분위</strong> 점수를 입력하면 이 <strong>백분위 → 퍼센트 계산기</strong>가 자주 인용되는 근사 공식으로 <strong>추정 퍼센트</strong>를 빠르게 알려 줍니다. 백분위와 퍼센트는 서로 다른 것을 측정하므로 공식 변환이 아닌 추정치로 받아들이세요.",
+  "hint": "백분위(0–100)를 입력해 추정 퍼센트를 구하세요.",
+  "long_tail_anchor": "백분위 순위로 퍼센트 추정",
+  "card_strings": {
+    "%ile": "백분위",
+    "Estimated Percentage:": "추정 퍼센트:",
+    "Percentile": "백분위",
+    "e.g. 85": "예: 85"
+  }
+}

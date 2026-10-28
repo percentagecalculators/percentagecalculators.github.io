@@ -1,0 +1,15 @@
+{
+  "slug": "gpa-to-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "GPA를 퍼센트로 변환 | 4.0 만점 GPA를 %로 변환",
+  "meta_description": "무료 GPA → 퍼센트 계산기. 4.0 만점 GPA를 해당하는 퍼센트로 바로 변환합니다. 정확하고 간단하며 가입이 필요 없습니다.",
+  "h1": "GPA를 퍼센트로 변환",
+  "subtitle": "<strong>표준 4.0 만점</strong>의 <strong>GPA</strong>를 입력하면 이 <strong>GPA → 퍼센트 계산기</strong>가 해당하는 <strong>퍼센트</strong>로 바로 변환합니다. 지원서, 성적 증명서, 성적 체계 비교에 유용합니다.",
+  "hint": "4.0 만점 GPA를 입력해 해당하는 퍼센트를 구하세요.",
+  "long_tail_anchor": "4.0 만점 GPA를 퍼센트로 변환",
+  "card_strings": {
+    "GPA (4.0 Scale)": "GPA (4.0 만점)",
+    "Percentage:": "퍼센트:",
+    "e.g. 3.5": "예: 3.5"
+  }
+}

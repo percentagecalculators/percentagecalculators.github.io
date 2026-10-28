@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "ko",
+  "meta_title": "APR을 APY로 변환 | 연간 수익률로 변환",
+  "meta_description": "무료 APR → APY 변환기. APR과 복리 계산 빈도를 입력하면 해당하는 연간 수익률(APY)을 바로 확인할 수 있습니다.",
+  "h1": "APR을 APY로 변환",
+  "subtitle": "<strong>APR</strong>과 <strong>복리 계산 빈도</strong>를 입력하면 이 <strong>APR → APY 변환기</strong>가 해당하는 <strong>연간 수익률</strong>을 보여 줍니다. 서로 다르게 표기된 계좌를 비교할 때 유용합니다.",
+  "hint": "APR과 연간 복리 횟수를 입력해 해당하는 APY를 구하세요.",
+  "long_tail_anchor": "APR과 APY 이율 비교",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "복리 횟수 / 년",
+    "e.g. 12": "예: 12",
+    "e.g. 6": "예: 6"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "basis-points-calculator",
+  "lang": "ko",
+  "meta_title": "베이시스 포인트 계산기 | 베이시스 포인트를 퍼센트로 변환",
+  "meta_description": "무료 베이시스 포인트 계산기. 베이시스 포인트(bps) 값을 입력하면 퍼센트로 바로 변환합니다. 금융과 트레이딩에 유용한 정확한 결과를 제공합니다.",
+  "h1": "베이시스 포인트 계산기",
+  "subtitle": "<strong>베이시스 포인트(bps)</strong> 값을 입력하면 이 <strong>베이시스 포인트 계산기</strong>가 <strong>퍼센트</strong>로 바로 변환합니다. 금융에서 작은 금리 변동을 나타내는 표준 방식입니다.",
+  "hint": "베이시스 포인트를 입력해 해당하는 퍼센트를 구하세요.",
+  "long_tail_anchor": "베이시스 포인트를 퍼센트로 변환",
+  "card_strings": {
+    "Basis Points (bps)": "베이시스 포인트 (bps)",
+    "Percentage:": "퍼센트:",
+    "e.g. 25": "예: 25"
+  }
+}

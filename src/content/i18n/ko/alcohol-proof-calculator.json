@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "ko",
+  "meta_title": "알코올 프루프 계산기 | 프루프를 ABV 퍼센트로 변환",
+  "meta_description": "무료 알코올 프루프 계산기. 미국식 프루프 값을 입력하면 알코올 도수(ABV) 퍼센트로 바로 변환합니다. 빠르고 정확하며 사용하기 쉽습니다.",
+  "h1": "알코올 프루프 계산기",
+  "subtitle": "<strong>알코올 프루프</strong> 값(미국식 기준)을 입력하면 이 <strong>알코올 프루프 계산기</strong>가 <strong>알코올 도수(ABV)</strong> 퍼센트로 바로 변환합니다.",
+  "hint": "미국식 프루프 값을 입력해 ABV 퍼센트를 구하세요.",
+  "long_tail_anchor": "프루프를 ABV 퍼센트로 변환",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "프루프(미국식)",
+    "e.g. 80": "예: 80"
+  }
+}

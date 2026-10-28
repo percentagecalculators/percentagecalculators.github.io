@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "ko",
+  "meta_title": "APY 계산기 | 연간 수익률",
+  "meta_description": "무료 APY 계산기. 명목 이자율과 복리 계산 빈도를 연간 수익률(APY)로 바로 변환합니다.",
+  "h1": "APY 계산기",
+  "subtitle": "<strong>명목 이자율</strong>과 <strong>연간 복리 계산 횟수</strong>를 입력하면 이 <strong>APY 계산기</strong>가 실제로 얻게 될 <strong>연간 수익률</strong>을 계산합니다.",
+  "hint": "명목 이자율과 연간 복리 횟수를 입력해 APY를 구하세요.",
+  "long_tail_anchor": "연간 수익률 계산기",
+  "card_strings": {
+    "APY:": "APY:",
+    "Compounding Periods / Year": "복리 횟수 / 년",
+    "Nominal Interest Rate": "명목 이자율",
+    "e.g. 12": "예: 12",
+    "e.g. 5": "예: 5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "ko",
+  "meta_title": "연봉 인상 계산기 | 새 연봉 계산",
+  "meta_description": "무료 연봉 인상 계산기. 현재 연봉과 인상률을 입력하면 인상액과 새 연봉을 바로 계산합니다.",
+  "h1": "연봉 인상 계산기",
+  "subtitle": "<strong>현재 연봉</strong>과 <strong>인상률</strong>을 입력하면 이 <strong>연봉 인상 계산기</strong>가 <strong>인상액</strong>과 <strong>새 연봉</strong>을 바로 계산합니다.",
+  "hint": "현재 연봉과 인상률(%)을 입력해 새 연봉을 구하세요.",
+  "long_tail_anchor": "인상률과 연봉 상승",
+  "card_strings": {
+    "Current Salary ($)": "현재 연봉 ($)",
+    "New Salary:": "새 연봉:",
+    "Raise": "인상률",
+    "Raise Amount:": "인상액:",
+    "e.g. 5": "예: 5",
+    "e.g. 60000": "예: 60000"
+  }
+}

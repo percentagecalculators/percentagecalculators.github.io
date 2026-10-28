@@ -1,0 +1,18 @@
+{
+  "slug": "fraction-to-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "분수를 퍼센트로 변환 | 퍼센트로 변환",
+  "meta_description": "무료 분수 → 퍼센트 계산기. 모든 분수를 퍼센트로 바로 변환합니다. 시험 점수, 비율, 비중 계산에 안성맞춤입니다.",
+  "h1": "분수를 퍼센트로 변환",
+  "subtitle": "<strong>분자</strong>(위쪽 숫자)와 <strong>분모</strong>(아래쪽 숫자)를 입력하면 이 <strong>분수 → 퍼센트 계산기</strong>가 분수를 <strong>퍼센트</strong>와 <strong>소수</strong>로 변환합니다. 예를 들어 3/4는 75%가 됩니다. 입력하는 대로 바로 계산됩니다.",
+  "hint": "분자와 분모를 입력해 퍼센트로 변환하세요.",
+  "long_tail_anchor": "분수를 퍼센트로 변환",
+  "card_strings": {
+    "Decimal Value:": "소수 값:",
+    "Denominator": "분모",
+    "Numerator": "분자",
+    "Percentage:": "퍼센트:",
+    "e.g. 3": "예: 3",
+    "e.g. 4": "예: 4"
+  }
+}

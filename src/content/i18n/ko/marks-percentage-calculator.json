@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "점수 퍼센트 계산기 | 시험 점수 퍼센트 계산",
+  "meta_description": "무료 점수 퍼센트 계산기. 획득 점수와 만점을 입력하면 시험이나 테스트의 퍼센트를 바로 계산합니다.",
+  "h1": "점수 퍼센트 계산기",
+  "subtitle": "<strong>획득 점수</strong>와 <strong>만점</strong>을 입력하면 이 <strong>점수 퍼센트 계산기</strong>가 <strong>시험 퍼센트</strong>를 바로 계산합니다. 성적표, 점수표, 결과 확인에 안성맞춤입니다.",
+  "hint": "획득 점수와 만점을 입력해 퍼센트를 구하세요.",
+  "long_tail_anchor": "시험과 테스트 점수 퍼센트",
+  "card_strings": {
+    "Marks Obtained": "획득 점수",
+    "Percentage:": "퍼센트:",
+    "Total Marks": "만점",
+    "e.g. 450": "예: 450",
+    "e.g. 500": "예: 500"
+  }
+}

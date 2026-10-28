@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "ko",
+  "meta_title": "팁 계산기 | 팁 계산과 더치페이",
+  "meta_description": "무료 팁 계산기. 계산서 금액, 팁 퍼센트, 인원수를 입력하면 팁, 합계, 1인당 금액을 바로 계산합니다.",
+  "h1": "팁 계산기",
+  "subtitle": "<strong>계산서 금액</strong>, <strong>팁 퍼센트</strong>, <strong>인원수</strong>를 입력하면 이 <strong>팁 계산기</strong>가 <strong>팁</strong>, <strong>합계</strong>, <strong>1인당 내야 할 금액</strong>을 바로 계산합니다.",
+  "hint": "계산서 금액, 팁(%), 나눌 인원수를 입력하세요.",
+  "long_tail_anchor": "레스토랑 계산서 팁과 더치페이",
+  "card_strings": {
+    "Bill Amount ($)": "계산서 금액 ($)",
+    "Per Person:": "1인당:",
+    "Split Between": "나눌 인원",
+    "Tip": "팁",
+    "Tip Amount:": "팁 금액:",
+    "Total:": "합계:",
+    "e.g. 18": "예: 18",
+    "e.g. 4": "예: 4",
+    "e.g. 80": "예: 80"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "퍼센트의 퍼센트 계산기 | 두 %를 결합",
+  "meta_description": "무료 퍼센트의 퍼센트 계산기. 연달아 적용되는 두 퍼센트를 곱한 뒤, 결합된 비율을 값에 적용해 세금이나 할인의 중첩을 계산합니다.",
+  "h1": "퍼센트의 퍼센트 계산기",
+  "subtitle": "두 <strong>퍼센트</strong>를 입력하면 이 <strong>퍼센트의 퍼센트 계산기</strong>가 올바른 방식으로 곱해 <strong>결합 퍼센트</strong>를 알려 줍니다. 시작 값을 추가하면 두 단계를 거치며 값이 어떻게 변하는지 정확히 볼 수 있습니다.",
+  "hint": "연달아 적용되는 두 퍼센트를 곱해 결합 비율을 구하세요.",
+  "long_tail_anchor": "연달아 적용되는 두 퍼센트 결합",
+  "card_strings": {
+    "Apply to a Value (optional)": "값에 적용(선택)",
+    "Combined Percentage:": "결합 퍼센트:",
+    "Final Value:": "최종 값:",
+    "First Percentage": "첫 번째 퍼센트",
+    "Second Percentage": "두 번째 퍼센트",
+    "Value After First %:": "첫 번째 % 적용 후 값:",
+    "e.g. 200": "예: 200",
+    "e.g. 40": "예: 40",
+    "e.g. 90": "예: 90"
+  }
+}

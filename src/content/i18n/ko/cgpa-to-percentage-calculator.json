@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "CGPA를 퍼센트로 변환 | 10점 만점 CGPA를 %로 변환",
+  "meta_description": "무료 CGPA → 퍼센트 계산기. 표준 10점 만점 CGPA × 9.5 공식을 사용합니다. 대학 기록용으로 CGPA를 퍼센트로 변환하세요.",
+  "h1": "CGPA를 퍼센트로 변환",
+  "subtitle": "<strong>표준 10점 만점</strong>의 <strong>CGPA</strong>를 입력하면 이 <strong>CGPA → 퍼센트 계산기</strong>가 널리 쓰이는 <strong>CGPA × 9.5</strong> 공식을 적용해 해당하는 <strong>퍼센트</strong>를 바로 보여 줍니다.",
+  "hint": "10점 만점 CGPA를 입력해 해당하는 퍼센트를 구하세요.",
+  "long_tail_anchor": "10점 만점 CGPA를 퍼센트로 변환",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA (10점 만점)",
+    "Percentage:": "퍼센트:",
+    "e.g. 8.2": "예: 8.2"
+  }
+}

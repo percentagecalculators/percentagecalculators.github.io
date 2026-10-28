@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "ko",
+  "meta_title": "매출총이익률 계산기 | 매출총이익률을 %로 계산",
+  "meta_description": "무료 매출총이익률 계산기. 매출과 매출원가(COGS)를 입력하면 매출총이익과 매출총이익률을 바로 계산합니다.",
+  "h1": "매출총이익률 계산기",
+  "subtitle": "<strong>매출</strong>과 <strong>매출원가(COGS)</strong>를 입력하면 이 <strong>매출총이익률 계산기</strong>가 <strong>매출총이익</strong>과 <strong>매출총이익률</strong>을 바로 계산합니다.",
+  "hint": "매출과 COGS를 입력해 매출총이익률을 구하세요.",
+  "long_tail_anchor": "매출과 COGS로 보는 이익률",
+  "card_strings": {
+    "COGS ($)": "COGS ($)",
+    "Gross Margin:": "매출총이익률:",
+    "Gross Profit:": "매출총이익:",
+    "Revenue ($)": "매출 ($)",
+    "e.g. 100000": "예: 100000",
+    "e.g. 65000": "예: 65000"
+  }
+}

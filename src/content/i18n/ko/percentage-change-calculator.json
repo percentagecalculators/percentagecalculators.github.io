@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "ko",
+  "meta_title": "변화율 계산기 | 증가·감소 퍼센트",
+  "meta_description": "무료 변화율 계산기. 두 값 사이의 증가율 또는 감소율을 계산합니다. 주가 변동과 가격 변화를 파악하는 데 유용합니다.",
+  "h1": "변화율 계산기",
+  "subtitle": "<strong>이전 값</strong>과 <strong>새 값</strong>을 입력하면 이 <strong>변화율 계산기</strong>가 둘 사이의 <strong>증가율 또는 감소율</strong>을 알려 줍니다. 상승이면 양수, 하락이면 음수로 표시되므로 80에서 100이 되면 +25%입니다.",
+  "hint": "이전 값과 새 값을 입력해 둘 사이의 변화율을 구하세요.",
+  "long_tail_anchor": "증가 또는 감소 퍼센트",
+  "card_strings": {
+    "Change Type:": "변화 유형:",
+    "Enter ending value": "끝 값 입력",
+    "Enter starting value": "시작 값 입력",
+    "New Value (Current)": "새 값(현재)",
+    "Old Value (Original)": "이전 값(원래)",
+    "Percentage Change:": "변화율:"
+  }
+}

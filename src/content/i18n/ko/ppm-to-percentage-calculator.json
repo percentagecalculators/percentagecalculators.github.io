@@ -1,0 +1,15 @@
+{
+  "slug": "ppm-to-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "ppm을 퍼센트로 변환 | 백만분율 변환",
+  "meta_description": "무료 ppm → 퍼센트 계산기. 백만분율(ppm) 값을 입력하면 퍼센트로 바로 변환합니다. 화학과 공학에 유용한 정확한 결과를 제공합니다.",
+  "h1": "ppm을 퍼센트로 변환",
+  "subtitle": "<strong>백만분율(ppm)</strong> 값을 입력하면 이 <strong>ppm → 퍼센트 계산기</strong>가 <strong>퍼센트</strong>로 바로 변환합니다. 농도와 순도 측정값에 유용합니다.",
+  "hint": "ppm 값을 입력해 해당하는 퍼센트를 구하세요.",
+  "long_tail_anchor": "백만분율에서 퍼센트로",
+  "card_strings": {
+    "PPM": "ppm",
+    "Percentage:": "퍼센트:",
+    "e.g. 2500": "예: 2500"
+  }
+}

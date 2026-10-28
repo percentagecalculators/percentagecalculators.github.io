@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "ko",
+  "meta_title": "오차율 계산기 | 실험용 상대 오차",
+  "meta_description": "무료 오차율 계산기. 물리, 화학, 생물 실험에서 실험값과 이론값 사이의 오차율을 계산합니다.",
+  "h1": "오차율 계산기",
+  "subtitle": "<strong>측정값(실험값)</strong>과 <strong>참값(이론값)</strong>을 입력하면 이 <strong>오차율 계산기</strong>가 둘 사이의 <strong>오차율</strong>을 보여 줍니다. 표준 공식을 사용합니다: |측정값 − 참값| ÷ |참값| × 100.",
+  "hint": "측정값과 참값을 입력해 오차율을 구하세요.",
+  "long_tail_anchor": "실험값과 이론값",
+  "card_strings": {
+    "Absolute Error:": "절대 오차:",
+    "Enter expected value": "기댓값 입력",
+    "Enter measured value": "측정값 입력",
+    "Experimental (Measured)": "실험값(측정값)",
+    "Percentage Error:": "오차율:",
+    "Theoretical (Expected)": "이론값(기댓값)"
+  }
+}

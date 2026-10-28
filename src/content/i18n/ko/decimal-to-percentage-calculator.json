@@ -1,0 +1,15 @@
+{
+  "slug": "decimal-to-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "소수를 퍼센트로 변환 | 소수를 %로 변환",
+  "meta_description": "무료 소수 → 퍼센트 계산기. 소수 값을 입력하면 퍼센트로 바로 변환합니다. 학교, 업무, 금융에 유용한 정확한 결과를 제공합니다.",
+  "h1": "소수를 퍼센트로 변환",
+  "subtitle": "<strong>소수 값</strong>을 입력하면 이 <strong>소수 → 퍼센트 계산기</strong>가 <strong>퍼센트</strong>로 바로 변환합니다.",
+  "hint": "소수 값을 입력해 해당하는 퍼센트를 구하세요.",
+  "long_tail_anchor": "소수를 퍼센트로 변환",
+  "card_strings": {
+    "Decimal Value": "소수 값",
+    "Percentage:": "퍼센트:",
+    "e.g. 0.25": "예: 0.25"
+  }
+}

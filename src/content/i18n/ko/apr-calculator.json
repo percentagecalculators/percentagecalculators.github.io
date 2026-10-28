@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "ko",
+  "meta_title": "APR 계산기 | 연간 이율",
+  "meta_description": "무료 APR 계산기. 기간별 이자율을 연간 이율(APR)로 바로 변환합니다. 대출과 신용카드가 비용을 표시하는 표준 방식입니다.",
+  "h1": "APR 계산기",
+  "subtitle": "<strong>기간별 이자율</strong>과 <strong>연간 기간 수</strong>를 입력하면 이 <strong>APR 계산기</strong>가 <strong>연간 이율</strong>을 계산합니다. 대출 기관이 차입 비용을 표시할 때 쓰는, 복리를 반영하지 않는 표준 방식입니다.",
+  "hint": "기간별 이자율과 연간 기간 수를 입력해 APR을 구하세요.",
+  "long_tail_anchor": "연간 이율 계산기",
+  "card_strings": {
+    "APR:": "APR:",
+    "Periodic Interest Rate": "기간별 이자율",
+    "Periods / Year": "기간 수 / 년",
+    "e.g. 1.5": "예: 1.5",
+    "e.g. 12": "예: 12"
+  }
+}

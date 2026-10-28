@@ -1,0 +1,17 @@
+{
+  "slug": "percent-solution-calculator",
+  "lang": "ko",
+  "meta_title": "퍼센트 용액 계산기 | 질량/부피 농도",
+  "meta_description": "무료 퍼센트 용액 계산기. 용질의 질량과 용액의 부피를 입력하면 퍼센트 농도(% w/v)를 바로 계산합니다.",
+  "h1": "퍼센트 용액 계산기",
+  "subtitle": "<strong>용질의 질량</strong>과 <strong>용액의 부피</strong>를 입력하면 이 <strong>퍼센트 용액 계산기</strong>가 <strong>퍼센트 농도</strong>(% w/v)를 바로 계산합니다.",
+  "hint": "용질의 질량과 용액의 부피를 입력해 농도를 구하세요.",
+  "long_tail_anchor": "질량과 부피의 퍼센트 농도",
+  "card_strings": {
+    "Concentration (% w/v):": "농도 (% w/v):",
+    "Mass of Solute (g)": "용질의 질량 (g)",
+    "Volume of Solution (mL)": "용액의 부피 (mL)",
+    "e.g. 250": "예: 250",
+    "e.g. 5": "예: 5"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "ko",
+  "meta_title": "수수료 계산기 | 판매 수수료 계산",
+  "meta_description": "무료 수수료 계산기. 판매액과 수수료율을 입력하면 받게 될 수수료를 바로 계산합니다.",
+  "h1": "수수료 계산기",
+  "subtitle": "<strong>판매액</strong>과 <strong>수수료율</strong>을 입력하면 이 <strong>수수료 계산기</strong>가 <strong>받게 될 수수료</strong>를 바로 계산합니다.",
+  "hint": "판매액과 수수료율을 입력해 받게 될 수수료를 구하세요.",
+  "long_tail_anchor": "판매 수수료 퍼센트",
+  "card_strings": {
+    "Commission Earned:": "받는 수수료:",
+    "Commission Rate": "수수료율",
+    "Sales Amount ($)": "판매액 ($)",
+    "e.g. 10": "예: 10",
+    "e.g. 5000": "예: 5000"
+  }
+}

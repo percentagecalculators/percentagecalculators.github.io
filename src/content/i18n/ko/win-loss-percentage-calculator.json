@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "승률 계산기 | 승패로 승률 계산",
+  "meta_description": "무료 승률 계산기. 승, 패, 무승부 횟수를 입력하면 모든 스포츠, 게임, 대회의 승률을 바로 계산합니다.",
+  "h1": "승률 계산기",
+  "subtitle": "<strong>승</strong>, <strong>패</strong>, 그리고 있다면 <strong>무승부</strong> 횟수를 입력하면 이 <strong>승률 계산기</strong>가 <strong>승률</strong>을 바로 계산합니다.",
+  "hint": "승, 패, 무승부 횟수를 입력해 승률을 구하세요.",
+  "long_tail_anchor": "스포츠 승률 계산",
+  "card_strings": {
+    "Losses": "패",
+    "Ties": "무승부",
+    "Total Games:": "총 경기 수:",
+    "Win Percentage:": "승률:",
+    "Wins": "승",
+    "e.g. 10": "예: 10",
+    "e.g. 18": "예: 18",
+    "e.g. 2": "예: 2"
+  }
+}

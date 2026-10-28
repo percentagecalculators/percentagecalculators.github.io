@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "ko",
+  "meta_title": "퍼센트 차이 계산기 | 두 값 비교",
+  "meta_description": "무료 퍼센트 차이 계산기. 두 수를 비교해 퍼센트 차이를 구합니다. 평균을 기준으로 삼아 대칭적이고 편향 없는 비교를 제공합니다.",
+  "h1": "퍼센트 차이 계산기",
+  "subtitle": "<strong>두 값</strong>을 입력하면 이 <strong>퍼센트 차이 계산기</strong>가 둘의 <strong>평균</strong>을 기준으로 얼마나 차이 나는지 <strong>퍼센트</strong>로 알려 줍니다. 변화율과 달리 순서는 중요하지 않아서 50과 80을 비교한 결과는 80과 50을 비교한 결과와 같습니다.",
+  "hint": "두 값을 입력해 둘 사이의 퍼센트 차이를 구하세요.",
+  "long_tail_anchor": "두 수를 대칭적으로 비교",
+  "card_strings": {
+    "Absolute Difference:": "절대 차이:",
+    "Enter first number": "첫 번째 숫자 입력",
+    "Enter second number": "두 번째 숫자 입력",
+    "First Value": "첫 번째 값",
+    "Percentage Difference:": "퍼센트 차이:",
+    "Second Value": "두 번째 값"
+  }
+}

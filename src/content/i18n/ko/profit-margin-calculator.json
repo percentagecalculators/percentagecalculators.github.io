@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "ko",
+  "meta_title": "이익률 계산기 | 이익률을 %로 계산",
+  "meta_description": "무료 이익률 계산기. 원가와 판매가를 입력하면 이익과 판매가 대비 이익률을 바로 계산합니다.",
+  "h1": "이익률 계산기",
+  "subtitle": "<strong>원가</strong>와 <strong>판매가</strong>를 입력하면 이 <strong>이익률 계산기</strong>가 <strong>이익</strong>과 판매가 대비 퍼센트인 <strong>이익률</strong>을 바로 계산합니다.",
+  "hint": "원가와 판매가를 입력해 이익률을 구하세요.",
+  "long_tail_anchor": "판매가 대비 이익률",
+  "card_strings": {
+    "Cost Price ($)": "원가 ($)",
+    "Profit Margin:": "이익률:",
+    "Profit:": "이익:",
+    "Selling Price ($)": "판매가 ($)",
+    "e.g. 40": "예: 40",
+    "e.g. 55": "예: 55"
+  }
+}

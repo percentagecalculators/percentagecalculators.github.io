@@ -1,0 +1,15 @@
+{
+  "slug": "sgpa-to-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "SGPA를 퍼센트로 변환 | SGPA를 퍼센트로 계산",
+  "meta_description": "무료 SGPA → 퍼센트 계산기. 표준 공식 SGPA × 9.5를 사용합니다. 학기 SGPA를 해당하는 퍼센트로 바로 변환하세요.",
+  "h1": "SGPA를 퍼센트로 변환",
+  "subtitle": "<strong>SGPA</strong>를 입력하면 이 <strong>SGPA → 퍼센트 계산기</strong>가 인도 대부분의 대학에서 쓰는 표준 공식 <strong>SGPA × 9.5</strong>를 적용해 해당하는 <strong>퍼센트</strong>를 바로 보여 줍니다.",
+  "hint": "학기 SGPA를 입력해 해당하는 퍼센트를 구하세요.",
+  "long_tail_anchor": "학기 GPA를 퍼센트로 변환",
+  "card_strings": {
+    "Percentage:": "퍼센트:",
+    "SGPA (out of 10)": "SGPA (10점 만점)",
+    "e.g. 7.8": "예: 7.8"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "경사도(퍼센트) 계산기 | 높이/거리에서 %로",
+  "meta_description": "무료 경사도(퍼센트) 계산기. 높이 차와 수평 거리를 입력하면 경사도 퍼센트와 해당하는 각도(도)를 바로 계산합니다.",
+  "h1": "경사도(퍼센트) 계산기",
+  "subtitle": "<strong>높이 차</strong>와 <strong>수평 거리</strong>를 입력하면 이 <strong>경사도(퍼센트) 계산기</strong>가 <strong>경사도 퍼센트</strong>와 해당하는 <strong>각도(도)</strong>를 바로 계산합니다.",
+  "hint": "높이 차와 수평 거리를 입력해 경사도 퍼센트와 각도를 구하세요.",
+  "long_tail_anchor": "높이 차와 거리에서 경사도 퍼센트로",
+  "card_strings": {
+    "Angle:": "각도:",
+    "Rise": "높이 차",
+    "Run": "수평 거리",
+    "Slope:": "경사도:",
+    "e.g. 100": "예: 100",
+    "e.g. 5": "예: 5"
+  }
+}

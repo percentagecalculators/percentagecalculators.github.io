@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "ko",
+  "meta_title": "감가상각 계산기 | 정액법",
+  "meta_description": "정액법을 사용하는 무료 감가상각 계산기. 자산 원가, 잔존 가치, 내용연수를 입력하면 연간 감가상각비를 계산합니다.",
+  "h1": "감가상각 계산기",
+  "subtitle": "<strong>자산 원가</strong>, <strong>잔존 가치</strong>, <strong>내용연수</strong>를 입력하면 이 <strong>감가상각 계산기</strong>가 정액법으로 <strong>연간 감가상각비</strong>를 바로 계산합니다.",
+  "hint": "자산 원가, 잔존 가치, 내용연수를 입력해 연간 감가상각비를 구하세요.",
+  "long_tail_anchor": "자산의 정액법 감가상각",
+  "card_strings": {
+    "Annual Depreciation:": "연간 감가상각비:",
+    "Asset Cost ($)": "자산 원가 ($)",
+    "Depreciation Rate:": "상각률:",
+    "Salvage Value ($)": "잔존 가치 ($)",
+    "Useful Life (Years)": "내용연수(년)",
+    "e.g. 1000": "예: 1000",
+    "e.g. 10000": "예: 10000",
+    "e.g. 5": "예: 5"
+  }
+}

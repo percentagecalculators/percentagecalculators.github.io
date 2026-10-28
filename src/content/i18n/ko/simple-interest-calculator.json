@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "ko",
+  "meta_title": "단리 계산기 | 이자와 총액",
+  "meta_description": "무료 단리 계산기. 원금, 연 이율, 기간을 입력하면 발생 이자와 총액을 바로 계산합니다.",
+  "h1": "단리 계산기",
+  "subtitle": "<strong>원금</strong>, <strong>연 이율</strong>, <strong>기간(년)</strong>을 입력하면 이 <strong>단리 계산기</strong>가 <strong>발생 이자</strong>와 <strong>총액</strong>을 바로 보여 줍니다.",
+  "hint": "원금, 연 이율, 기간을 입력해 이자와 총액을 구하세요.",
+  "long_tail_anchor": "원금·이율·기간 공식",
+  "card_strings": {
+    "Annual Rate": "연 이율",
+    "Interest Earned:": "발생 이자:",
+    "Principal ($)": "원금 ($)",
+    "Time (Years)": "기간(년)",
+    "Total Amount:": "총액:",
+    "e.g. 1000": "예: 1000",
+    "e.g. 3": "예: 3",
+    "e.g. 5": "예: 5"
+  }
+}

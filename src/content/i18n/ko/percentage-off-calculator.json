@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "ko",
+  "meta_title": "할인율 계산기 | 할인가와 절약액",
+  "meta_description": "무료 할인율 계산기. 할인가와 절약액을 바로 계산합니다. 어떤 할인이든 최종 가격을 알려 주는 알뜰 쇼핑의 동반자입니다.",
+  "h1": "할인율 계산기",
+  "subtitle": "<strong>원래 가격</strong>과 <strong>할인율</strong>을 입력하면 이 <strong>할인율 계산기</strong>가 <strong>할인가</strong>와 <strong>절약하는 금액</strong>을 정확히 보여 줍니다. 다음에 “30% 할인” 표지판을 볼 때 실제로 얼마를 내는지 알 수 있습니다.",
+  "hint": "원래 가격과 할인율(%)을 입력해 할인가를 구하세요.",
+  "long_tail_anchor": "할인과 할인가 찾기",
+  "card_strings": {
+    "Discount": "할인율",
+    "Enter discount %": "할인율(%) 입력",
+    "Enter price": "가격 입력",
+    "Final Price:": "최종 가격:",
+    "Original Price ($)": "원래 가격 ($)",
+    "You Save:": "절약액:"
+  }
+}

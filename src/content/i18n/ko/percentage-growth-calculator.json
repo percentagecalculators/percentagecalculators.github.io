@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "ko",
+  "meta_title": "성장률 계산기 | 비즈니스 성장률",
+  "meta_description": "무료 성장률 계산기. 매출, 고객, 판매, KPI의 성장률을 계산합니다. 정확한 지표로 비즈니스 성과를 추적하세요.",
+  "h1": "성장률 계산기",
+  "subtitle": "<strong>초기 값</strong>과 <strong>최종 값</strong>을 입력하면 이 <strong>성장률 계산기</strong>가 <strong>성장률</strong>과 <strong>성장액</strong>을 보여 줍니다. A 지점에서 B 지점까지 숫자가 몇 퍼센트 성장했는지에 답해 줍니다.",
+  "hint": "초기 값과 최종 값을 입력해 성장률을 구하세요.",
+  "long_tail_anchor": "비즈니스와 매출 성장률",
+  "card_strings": {
+    "Ending value": "최종 값",
+    "Final Value": "최종 값",
+    "Growth Amount:": "성장액:",
+    "Growth Rate:": "성장률:",
+    "Initial Value": "초기 값",
+    "Starting value": "시작 값"
+  }
+}

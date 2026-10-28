@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "이익률(원가 기준) 계산기 | 원가 대비 이익 % 계산",
+  "meta_description": "무료 이익률(원가 기준) 계산기. 원가와 판매가를 입력하면 이익 금액과 이익률을 바로 계산합니다.",
+  "h1": "이익률(원가 기준) 계산기",
+  "subtitle": "<strong>원가</strong>와 <strong>판매가</strong>를 입력하면 이 <strong>이익률(원가 기준) 계산기</strong>가 <strong>이익</strong>과 원가 대비 <strong>이익률</strong>을 바로 계산합니다.",
+  "hint": "원가와 판매가를 입력해 원가 기준 이익률을 구하세요.",
+  "long_tail_anchor": "원가 대비 이익률",
+  "card_strings": {
+    "Cost Price ($)": "원가 ($)",
+    "Profit Percentage:": "이익률(원가 기준):",
+    "Profit:": "이익:",
+    "Selling Price ($)": "판매가 ($)",
+    "e.g. 40": "예: 40",
+    "e.g. 55": "예: 55"
+  }
+}

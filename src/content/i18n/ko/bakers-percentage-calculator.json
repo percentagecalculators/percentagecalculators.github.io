@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "베이커스 퍼센트 계산기 | 재료 비율 계산",
+  "meta_description": "무료 베이커스 퍼센트 계산기. 밀가루 무게와 재료 무게를 입력하면 해당 재료의 베이커스 퍼센트를 바로 계산합니다.",
+  "h1": "베이커스 퍼센트 계산기",
+  "subtitle": "<strong>밀가루 무게</strong>와 <strong>재료 무게</strong>를 입력하면 이 <strong>베이커스 퍼센트 계산기</strong>가 해당 재료의 <strong>베이커스 퍼센트</strong>를 바로 계산합니다. 모든 재료를 밀가루 기준으로 나타냅니다.",
+  "hint": "밀가루와 재료의 무게를 입력해 베이커스 퍼센트를 구하세요.",
+  "long_tail_anchor": "반죽 수분율과 재료 비율",
+  "card_strings": {
+    "Baker's Percentage:": "베이커스 퍼센트:",
+    "Flour Weight (g)": "밀가루 무게 (g)",
+    "Ingredient Weight (g)": "재료 무게 (g)",
+    "e.g. 350": "예: 350",
+    "e.g. 500": "예: 500"
+  }
+}

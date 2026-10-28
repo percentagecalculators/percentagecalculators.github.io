@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-percentage-calculator",
+  "lang": "ko",
+  "meta_title": "역 퍼센트 계산기 | 원래 숫자 찾기",
+  "meta_description": "무료 역 퍼센트 계산기. 값과 그 퍼센트를 알 때 원래 숫자를 구합니다. 할인 전 가격 계산 등에 활용하세요.",
+  "h1": "역 퍼센트 계산기",
+  "subtitle": "어떤 수가 더 큰 무언가의 일정 퍼센트라는 것을 알고 계신가요? <strong>알고 있는 값</strong>과 <strong>그 값이 나타내는 퍼센트</strong>를 입력하면 이 <strong>역 퍼센트 계산기</strong>가 거꾸로 계산해 <strong>원래 숫자</strong>를 찾아 줍니다. 30이 전체의 25%라면 전체는 120입니다.",
+  "hint": "값과 그 값이 나타내는 퍼센트를 입력해 원래 숫자를 찾으세요.",
+  "long_tail_anchor": "원래 숫자 찾기",
+  "card_strings": {
+    "Original Total:": "원래 전체 값:",
+    "Value": "값",
+    "e.g. 30": "예: 30",
+    "e.g. 45": "예: 45",
+    "is this % of the total": "전체에 대한 이 %"
+  }
+}

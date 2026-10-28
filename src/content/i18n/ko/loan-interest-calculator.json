@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "ko",
+  "meta_title": "대출 이자 계산기 | 월 상환액과 총 이자",
+  "meta_description": "무료 대출 이자 계산기. 대출 금액, 연 이율, 기간을 입력하면 월 상환액(EMI)과 총 이자를 바로 계산합니다.",
+  "h1": "대출 이자 계산기",
+  "subtitle": "<strong>대출 금액</strong>, <strong>연 이율</strong>, <strong>대출 기간</strong>을 입력하면 이 <strong>대출 이자 계산기</strong>가 <strong>월 상환액(EMI)</strong>과 납부할 <strong>총 이자</strong>를 바로 계산합니다.",
+  "hint": "대출 금액, 이율, 기간을 입력해 월 상환액을 구하세요.",
+  "long_tail_anchor": "월 상환액과 총 이자",
+  "card_strings": {
+    "Annual Rate": "연 이율",
+    "Loan Amount ($)": "대출 금액 ($)",
+    "Loan Term (Years)": "대출 기간(년)",
+    "Monthly EMI:": "월 상환액 (EMI):",
+    "Total Interest:": "총 이자:",
+    "e.g. 20000": "예: 20000",
+    "e.g. 5": "예: 5",
+    "e.g. 7.5": "예: 7.5"
+  }
+}

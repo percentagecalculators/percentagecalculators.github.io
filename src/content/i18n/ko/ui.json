@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "본문으로 건너뛰기",
+  "primary_nav": "주 메뉴",
+  "toggle_dark": "다크 모드 전환",
+  "open_menu": "메뉴 열기",
+  "close_menu": "메뉴 닫기",
+  "site_nav": "사이트 내비게이션",
+  "home": "홈",
+  "more": "더 보기",
+  "language": "언어",
+  "reset": "계산기 초기화",
+  "calculate": "계산",
+  "related_aria": "관련 계산기",
+  "faq_heading": "자주 묻는 질문",
+  "toc_label": "목차",
+  "copy_result": "결과 복사",
+  "copied": "복사됨!",
+  "company": "회사",
+  "footer_site_map": "사이트맵",
+  "footer_links": "푸터 링크",
+  "rights": "모든 권리 보유.",
+  "footer_tagline": "무료 온라인 퍼센트 계산기. 모든 계산은 브라우저 안에서 이루어지며 결과는 즉시 표시되고 가입이 필요 없습니다.",
+  "native_name": "한국어",
+  "nav_groups": {
+    "core": {
+      "label": "기본 퍼센트 도구",
+      "short_label": "기본",
+      "tagline": "핵심 기능: 퍼센트 구하기, 숫자 늘리거나 줄이기, 두 값 비교하기."
+    },
+    "converters": {
+      "label": "변환기",
+      "short_label": "변환",
+      "tagline": "퍼센트, 분수, 소수, 비율 및 기타 단위 형태 사이를 변환합니다."
+    },
+    "education": {
+      "label": "교육",
+      "short_label": "교육",
+      "tagline": "학생을 위한 GPA, CGPA, SGPA, 점수, 백분위 변환."
+    },
+    "finance": {
+      "label": "금융 및 비즈니스",
+      "short_label": "금융",
+      "tagline": "이율, 이익률, 마크업, 연봉 인상, 비즈니스 성장."
+    },
+    "everyday": {
+      "label": "일상 및 특수 용도",
+      "short_label": "일상",
+      "tagline": "팁, 승률, 베이킹 비율, 식재료 원가, 용액의 퍼센트 농도."
+    }
+  },
+  "company_links": {
+    "/about": "소개",
+    "/contact": "문의",
+    "/sitemap": "사이트맵",
+    "/disclaimer": "면책 조항",
+    "/privacy-policy": "개인정보 처리방침",
+    "/terms-of-use": "이용 약관"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "알코올 프루프 계산기",
+    "apr-apy-converter": "APR을 APY로 변환",
+    "apr-calculator": "APR 계산기",
+    "apy-calculator": "APY 계산기",
+    "average-percentage-calculator": "평균 퍼센트 계산기",
+    "bakers-percentage-calculator": "베이커스 퍼센트 계산기",
+    "basis-points-calculator": "베이시스 포인트 계산기",
+    "cgpa-to-percentage-calculator": "CGPA를 퍼센트로 변환",
+    "commission-calculator": "수수료 계산기",
+    "compound-interest-calculator": "복리 계산기",
+    "decimal-to-percentage-calculator": "소수를 퍼센트로 변환",
+    "depreciation-calculator": "감가상각 계산기",
+    "food-cost-percentage-calculator": "식재료 원가율 계산기",
+    "fraction-to-percentage-calculator": "분수를 퍼센트로 변환",
+    "gpa-to-percentage-calculator": "GPA를 퍼센트로 변환",
+    "gross-margin-calculator": "매출총이익률 계산기",
+    "loan-interest-calculator": "대출 이자 계산기",
+    "marks-percentage-calculator": "점수 퍼센트 계산기",
+    "markup-calculator": "마크업 계산기",
+    "percent-solution-calculator": "퍼센트 용액 계산기",
+    "percentage-calculator": "퍼센트 계산기",
+    "percentage-change-calculator": "변화율 계산기",
+    "percentage-decrease-calculator": "퍼센트 감소 계산기",
+    "percentage-difference-calculator": "퍼센트 차이 계산기",
+    "percentage-error-calculator": "오차율 계산기",
+    "percentage-growth-calculator": "성장률 계산기",
+    "percentage-increase-calculator": "퍼센트 증가 계산기",
+    "percentage-of-a-percentage-calculator": "퍼센트의 퍼센트 계산기",
+    "percentage-off-calculator": "할인율 계산기",
+    "percentage-point-calculator": "퍼센트 포인트 계산기",
+    "percentile-to-percentage-calculator": "백분위를 퍼센트로 변환",
+    "ppm-to-percentage-calculator": "ppm을 퍼센트로 변환",
+    "profit-margin-calculator": "이익률 계산기",
+    "profit-percentage-calculator": "이익률(원가 기준) 계산기",
+    "ratio-to-percentage-calculator": "비율을 퍼센트로 변환",
+    "reverse-percentage-calculator": "역 퍼센트 계산기",
+    "salary-increase-calculator": "연봉 인상 계산기",
+    "sgpa-to-percentage-calculator": "SGPA를 퍼센트로 변환",
+    "simple-interest-calculator": "단리 계산기",
+    "slope-percentage-calculator": "경사도(퍼센트) 계산기",
+    "tip-calculator": "팁 계산기",
+    "win-loss-percentage-calculator": "승률 계산기"
+  }
+}
