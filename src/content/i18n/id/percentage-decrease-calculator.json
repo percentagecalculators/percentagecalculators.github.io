@@ -14,5 +14,56 @@
     "Enter starting number": "Masukkan angka awal",
     "New Value:": "Nilai baru:",
     "Original Value": "Nilai awal"
-  }
+  },
+  "content_html": "<p>Turun dari satu angka ke angka yang lebih kecil terjadi di mana-mana, baik pada harga obral, pemotongan gaji, maupun kota yang kehilangan penduduk, dan <strong>kalkulator penurunan persentase</strong> di atas mengubah penurunan itu menjadi satu angka yang bisa dibandingkan. Masukkan dua angka Anda dan kalkulator melakukan pengurangan serta pembagiannya; di bawah ini Anda akan menemukan rumus persisnya, alasan di balik setiap langkah, dan cukup banyak contoh perhitungan sehingga Anda pun bisa menghitungnya sendiri dengan mudah.</p>\n\n<h2>Cara menghitung penurunan persentase</h2>\n<p>Pertanyaannya selalu sama: seberapa besar penurunannya dibandingkan dengan titik awal Anda? Ikuti langkah-langkah ini, baik Anda membandingkan harga, gaji, maupun jumlah karyawan:</p>\n<ol>\n  <li>Kurangkan angka akhir dari angka awal untuk mendapatkan selisih mentahnya.</li>\n  <li>Bagi selisih itu dengan nilai mutlak angka awal.</li>\n  <li>Kalikan hasilnya dengan 100 untuk mengubah desimal menjadi persentase.</li>\n</ol>\n<p>Jika angka terakhir itu bernilai negatif, nilainya sebenarnya naik, bukan turun. Hasil negatif sejatinya adalah kenaikan persentase yang menyamar, dan ada baiknya Anda memeriksa kembali angka mana yang Anda masukkan lebih dulu.</p>\n\n<h2>Rumus penurunan persentase: nilai awal dan nilai akhir</h2>\n<p>Rumus di balik kalkulator ini cukup pendek untuk dihafal dan cukup umum untuk mencakup potongan harga, pemotongan gaji, dan angka-angka yang menyusut:</p>\n<p>$$ \\text{Penurunan Persentase} = \\frac{S - F}{|S|} \\times 100 $$</p>\n<p>di mana <sub>S</sub> adalah nilai awal dan <sub>F</sub> adalah nilai akhir. Dengan \\( \\%\\ \\text{penurunan} = 100 \\times \\dfrac{(S - F)}{|S|} \\), Anda mendapat hasil yang sama. Tanda <strong>nilai mutlak</strong> penting di sini: tanda itu menjaga penyebut tetap positif bahkan ketika nilai awalnya sendiri negatif, sehingga tanda pada jawaban selalu memberi tahu Anda kenaikan atau penurunan, bukan tanda pada angka yang dimasukkan.</p>\n\n<h3>Nilai asli vs. nilai baru dalam rumus</h3>\n<p>Mudah sekali tertukar angka mana yang ditempatkan di mana. <strong>Nilai asli</strong>, yang disebut juga nilai awal, selalu angka yang Anda miliki sebelum perubahan terjadi; nilai baru adalah angka akhir setelahnya. Jika keduanya ditukar, rumus tetap berjalan, tetapi Anda akan mendapat persentase negatif, bukan penurunan, karena pada dasarnya Anda mengukur kenaikan kembali ke titik awal.</p>\n<aside><i>Tips:</i> jika hasil Anda terbaca sebagai kenaikan padahal Anda mengharapkan penurunan (atau sebaliknya), kemungkinan besar Anda menukar angka yang datang lebih dulu. Periksa kembali angka mana yang mewakili titik awal.</aside>\n\n<h2>Penurunan persentase vs. kenaikan persentase</h2>\n<p>Penurunan persentase dan kenaikan persentase memakai rumus dasar yang sama; yang berbeda hanya arah perubahannya. Perhitungan <strong>perubahan persentase</strong>, yang kadang diberi label kalkulator <strong>persen perubahan</strong>, adalah istilah payung untuk kedua arah, sedangkan alat terkait yang berbeda, kalkulator <strong>selisih persentase</strong>, membandingkan dua nilai tanpa mengandaikan salah satunya datang lebih dulu dalam waktu; kalkulator itu membagi dengan <em>rata-rata</em> kedua angka, bukan angka awal, sehingga hasilnya tidak selalu sama dengan penurunan persentase pada pasangan nilai yang sama.</p>\n<ul>\n  <li>Potongan harga eceran dan obral cuci gudang</li>\n  <li>Pemotongan gaji atau anggaran rumah tangga yang menyusut</li>\n  <li>Kota atau negara yang kehilangan penduduk dari waktu ke waktu</li>\n  <li>Berat badan yang dicatat dari satu pengecekan ke pengecekan berikutnya</li>\n</ul>\n\n<h2>Penerapan nyata kalkulator penurunan persentase</h2>\n<p>Hitungannya sederhana, tetapi tempat pemakaiannya yang membuat kalkulator penurunan persentase benar-benar berguna sehari-hari, baik dalam matematika sehari-hari maupun keuangan pribadi atau ekonomi dasar.</p>\n\n<h3>Harga diskon dari harga asli</h3>\n<p>Ritel adalah kasus pemakaian yang paling umum. Jika <strong>harga asli</strong> suatu barang adalah $80 dan kupon diskon 25 <strong>persen</strong> saat obral akhir pekan menurunkan harganya menjadi $60, itu adalah 25 <strong>pengurangan persentase</strong> yang lugas. Besar diskon dan penurunan persentase adalah angka yang sama selama diskonnya sudah dinyatakan dalam persen. Membandingkan <strong>harga lama</strong> dengan yang sebenarnya Anda bayar sekarang juga cara memeriksa apakah potongan harga yang diiklankan benar-benar securam klaimnya.</p>\n\n<h3>Pemotongan gaji dan penurunan pengeluaran</h3>\n<p>Rumus yang sama berlaku untuk uang yang bergerak ke arah sebaliknya. Perusahaan yang memangkas anggaran suatu departemen dari $500,000 menjadi $400,000 dalam setahun mencapai penurunan pengeluaran 20%. Seorang pekerja lepas yang pendapatan sebelum pajaknya turun dari $80,000 menjadi $46,400 setelah pajak dan kuartal yang lebih sepi mengalami <strong>penurunan persentase</strong> 42%. Logika yang sama berlaku untuk <strong>pengurangan gaji</strong>, di mana gaji bersih setelah pemotongan hanyalah angka akhir dalam persamaan yang sama. Startup yang memantau burn rate memakai ini setiap bulan, mengamati selisih antara pengeluaran bulan lalu dan bulan ini untuk melihat apakah biaya benar-benar menurun.</p>\n\n<h3>Tingkat penurunan populasi dari waktu ke waktu</h3>\n<p>Ahli demografi memakai <strong>tingkat penurunan populasi</strong> dengan cara yang sama seperti pengecer memakai potongan harga: kota yang turun dari 1,000 penduduk menjadi 950 dalam setahun mengalami penurunan 5%. Menyatakan jumlah penduduk yang menyusut sebagai persentase, bukan angka mentah, memungkinkan Anda membandingkan tempat dengan ukuran yang sangat berbeda secara setara, karena kehilangan 50 penduduk berarti hal yang sangat berbeda bagi kota kecil dan bagi kota besar.</p>\n\n<h3>Penurunan absolut vs. penurunan persentase</h3>\n<p><strong>Penurunan absolut</strong> hanyalah selisih mentah antara dua angka, tanpa pembagian, tanpa tanda persen. <strong>Penurunan relatif</strong> (versi persentase) memberi tahu jauh lebih banyak tentang arti penting penurunan itu. Kehilangan laba $1,000,000 terdengar sama saja entah perusahaan meraih $2,000,000 atau $100,000,000 pada tahun sebelumnya, tetapi sebagai persentase kedua kasus itu masing-masing 50% dan 1%: yang satu krisis, yang lain nyaris hanya kesalahan pembulatan. Gagasan yang sama berlaku untuk penurunan berat badan: turun 10 pon dari berat awal 200 pon adalah penurunan 5%, konteks yang lebih berguna daripada angka mentahnya saja, terutama jika dibandingkan dengan rentang berat badan sehat, di mana persentase lebih berarti daripada angkanya sendiri.</p>\n\n<h2>Contoh perhitungan penurunan persentase</h2>\n<p>Mengerjakan beberapa contoh lengkap dari awal sampai akhir membuat rumus lebih mudah dipercaya daripada sekadar membacanya secara abstrak.</p>\n<table>\n  <thead>\n    <tr><th>Skenario</th><th>Sebelum</th><th>Sesudah</th><th>Penurunan persentase</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>Pemakaian energi bola lampu</td><td>60 watt</td><td>8 watt</td><td>86.67%</td></tr>\n    <tr><td>Barang ritel setelah obral</td><td>$100</td><td>$70</td><td>30%</td></tr>\n    <tr><td>Laba perusahaan dari tahun ke tahun</td><td>$2,000,000</td><td>$1,000,000</td><td>50%</td></tr>\n    <tr><td>Berat badan setelah diet</td><td>200 lbs</td><td>190 lbs</td><td>5%</td></tr>\n    <tr><td>Kota kecil, satu tahun</td><td>1,000</td><td>950</td><td>5%</td></tr>\n  </tbody>\n</table>\n<p>Perhatikan baris pertama: bola lampu 60 watt yang diganti dengan bola lampu LED 8 watt berarti penurunan pemakaian energi per jam sebesar 86.67%, jauh lebih dramatis daripada yang diduga kebanyakan orang dari pergantian daya yang tampak “kecil”, dan contoh yang baik tentang mengapa bentuk persentase dari suatu selisih sering kali lebih informatif daripada selisih mentahnya. Dalam bentuk desimal, itu adalah <strong>rasio</strong> 0.8667 dan <strong>pecahan</strong> dari daya awal yang dihilangkan, sebelum perkalian akhir dengan 100 mengubahnya menjadi persentase yang Anda baca dari <a href=\"#top\">kalkulator penurunan persentase</a> di atas.</p>\n\n<h2>Memakai rumus penurunan persen di luar kalkulator ini</h2>\n<p>Begitu Anda bisa menghitung penurunan persentase untuk satu jenis angka, Anda bisa <code>calculate percent decrease</code> untuk semuanya. Rumus penurunan persen di atas adalah satuan bersama yang membuat potongan harga $20, penurunan berat badan 5 pon, dan jumlah penduduk kota yang menyusut dapat dibandingkan langsung satu sama lain. Itu juga alasan mengapa <strong>kalkulator penurunan persen</strong> dan <strong>kalkulator pengurangan persen</strong> sebenarnya adalah alat yang sama dengan dua nama berbeda.</p>",
+  "faq": [
+    {
+      "question": "Bagaimana cara mengurangi 25% dari suatu angka?",
+      "answer": "Kalikan angka tersebut dengan 0.75. Misalnya, 200 - 25% = 200 × 0.75 = 150. Jumlah penurunannya adalah 50."
+    },
+    {
+      "question": "Berapa 80 dikurangi 15 persen?",
+      "answer": "80 dikurangi 15% sama dengan 68. Perhitungannya: 80 × 0.15 = 12 (penurunan), lalu 80 - 12 = 68."
+    },
+    {
+      "question": "Bagaimana cara menghitung penyusutan?",
+      "answer": "Kalikan nilai aset dengan (1 - tingkat penyusutan). Untuk penyusutan 20% pada $10,000: $10,000 × 0.80 = $8,000."
+    },
+    {
+      "question": "Apa rumus untuk mengurangi suatu persentase?",
+      "answer": "Nilai Baru = Nilai Asli × (1 - Persentase/100). Untuk diskon 30% dari $50: $50 × 0.70 = $35."
+    },
+    {
+      "question": "Berapa diskon 40% dari $120?",
+      "answer": "$120 dengan diskon 40% = $72. Perhitungannya: $120 × 0.60 = $72. Anda menghemat $48."
+    },
+    {
+      "question": "Apa arti penurunan 100%?",
+      "answer": "Penurunan 100% membuat nilainya menjadi nol. 50 dikurangi 100% = 50 - 50 = 0."
+    },
+    {
+      "question": "Mengapa saya butuh kenaikan lebih dari 50% untuk memulihkan kerugian 50%?",
+      "answer": "Karena persentase kenaikan diterapkan pada jumlah yang sudah berkurang. Setelah rugi 50%, Anda tinggal separuh. Untuk kembali menjadi dua kali lipat, Anda butuh kenaikan 100%."
+    },
+    {
+      "question": "Bagaimana cara kerja diskon berturut-turut?",
+      "answer": "Diskon dikalikan, bukan dijumlahkan. Diskon 20% lalu 10%: 100 × 0.80 × 0.90 = 72 (total 28%, bukan 30%)."
+    },
+    {
+      "question": "Berapa 500 dikurangi 35%?",
+      "answer": "500 dikurangi 35% = 325. Perhitungannya: 500 × 0.65 = 325. Penurunannya adalah 175."
+    },
+    {
+      "question": "Bagaimana cara mencari harga asli sebelum diskon?",
+      "answer": "Bagi harga jual dengan (1 - diskon%). Jika Anda membayar $60 setelah diskon 25%: $60 ÷ 0.75 = $80 harga asli."
+    },
+    {
+      "question": "Bisakah penurunan bernilai negatif?",
+      "answer": "Memasukkan persentase negatif justru akan menaikkan nilainya. Gunakan kalkulator kenaikan untuk penambahan."
+    },
+    {
+      "question": "Berapa 1000 dikurangi 7.5%?",
+      "answer": "1000 dikurangi 7.5% = 925. Perhitungannya: 1000 × 0.075 = 75, lalu 1000 - 75 = 925."
+    }
+  ]
 }

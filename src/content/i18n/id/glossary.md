@@ -38,3 +38,5 @@ Decisions (made 2026-10-28):
 | baker's percentage | persentase baker | as in nav |
 | ratio / fraction / decimal | rasio / pecahan / desimal | |
 | hydration (baking) | hidrasi (rasio air) | |
+
+Open for review (self-review by Claude, no native reviewer): English tool-name SEO variants were merged into "kalkulator diskon persen" and may repeat; the Excel placeholders in the percent-change FAQ (=(Baru-Lama)/Lama*100); US/UK/India terms left as glossed loanwords; "asuransi nasional" (UK national insurance).

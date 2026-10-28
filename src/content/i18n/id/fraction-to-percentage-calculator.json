@@ -14,5 +14,56 @@
     "Percentage:": "Persentase:",
     "e.g. 3": "mis. 3",
     "e.g. 4": "mis. 4"
-  }
+  },
+  "content_html": "<p>Mengubah pecahan menjadi persentase adalah konversi cepat yang akan sering Anda perlukan, entah untuk nilai ujian, diskon, hasil laboratorium, atau sekadar memeriksa ulang hitungan Anda. <strong>Kalkulator pecahan ke persentase</strong> ini mengonversinya seketika dengan membagi <strong>pembilang</strong> dengan <strong>penyebut</strong> lalu mengalikannya dengan 100. Masukkan pecahan biasa maupun pecahan tak wajar, dan Anda akan mendapat ekuivalen desimal serta persen akhirnya tanpa perlu pensil. Rumus inti yang sama juga berlaku untuk arah sebaliknya, jadi mengubah persen ke pecahan sama mudahnya.</p>\n\n<h2>Cara kerja kalkulator pecahan ke persentase ini</h2>\n<p>Setiap kalkulator pecahan ke persentase memakai logika dua langkah yang sama: bagi, lalu kalikan dengan 100. Anda memasukkan pembilang dan penyebut (serta bilangan bulat opsional untuk bilangan campuran), lalu alat ini menampilkan persentase, ekuivalen desimal, dan, jika Anda ingin melihat alurnya, seluruh langkah perhitungannya. Kalkulator ini juga bisa bekerja dua arah, dari persen kembali ke pecahan yang setara, tanpa perlu membuka halaman lain. Beberapa situs menamai alat yang sama sebagai pengonversi pecahan, pengonversi persen, atau kalkulator pecahan ke desimal, tetapi hitungan di baliknya identik.</p>\n\n<h3>Rumus pecahan ke persentase</h3>\n<p>Rumus pecahan ke persentase itu sederhana:</p>\n$$ P = \\frac{N}{D} \\times 100 $$\n<p>Di sini <code>N</code> adalah pembilang, <code>D</code> adalah penyebut, dan <strong>P</strong> adalah persentase hasilnya. Masukkan 3 dan 4, misalnya, maka 3 ÷ 4 × 100 menghasilkan 75%. Rumus tunggal itulah rumus pecahan ke persen yang pada akhirnya mendasari setiap metode di halaman ini; langkah-langkah manual di bawah hanya mengubah urutan operasinya.</p>\n\n<h3>Membaca masukan, hasil, dan angka desimal</h3>\n<p>Kebanyakan alat pecahan ke persen, termasuk yang ini, meminta tiga kolom: pembilang, penyebut, dan bilangan bulat opsional untuk bilangan campuran seperti 2 1/3. Hasilnya menampilkan nilai persentase yang dibulatkan ke jumlah desimal yang wajar, ditambah bentuk desimal aslinya agar Anda bisa melihat persis bagaimana pembulatan terjadi. Jika pecahan Anda tidak habis dibagi, misalnya 1/3, Anda akan melihat desimal berulang seperti 0.3333 sebelum menjadi 33.33%.</p>\n\n<aside>Tips: jika penyebut suatu pecahan sudah 100, pecahan itu sudah berupa persentase dan tidak perlu dibagi lagi. 47/100 tidak lain adalah 47%.</aside>\n\n<h2>Cara manual: rumus pecahan ke persen dan langkah-langkahnya</h2>\n<p>Jika Anda ingin melewati hitungan manual, kalkulator pecahan ke persen ini sudah menerapkan ketiga metode di bawah secara otomatis. Namun memahami cara konversi dengan tangan memudahkan Anda memeriksa kewajaran hasil, atau membuat perkiraan cepat saat tidak ada kalkulator di dekat Anda.</p>\n\n<h3>Pembilang dan penyebut: bagi dulu, lalu kalikan 100</h3>\n<p>Bagi pembilang dengan penyebut untuk mendapatkan desimal, lalu kalikan desimal itu dengan 100 untuk mendapatkan persen. Untuk 5/8: 5 dibagi 8 menghasilkan 0.625, lalu dikalikan 100 menghasilkan 62.5%. Metode ini biasanya diajarkan pertama di buku pelajaran karena langsung mencerminkan rumusnya: bagi, lalu skalakan dengan 100.</p>\n<ul>\n  <li>Bagi pembilang dengan penyebut untuk mendapatkan bilangan desimal.</li>\n  <li>Kalikan desimal tersebut dengan 100.</li>\n  <li>Tambahkan tanda persen pada hasilnya.</li>\n</ul>\n\n<h3>Desimal ke persen: kalikan dulu, lalu bagi</h3>\n<p>Anda juga bisa mengalikan pembilang dengan 100 lebih dulu, lalu membaginya dengan penyebut. Urutannya tidak mengubah jawaban, hanya ukuran angka yang Anda hadapi. Untuk 5/8: 5 dikali 100 menghasilkan 500, dan dibagi 8 menghasilkan 62.5%. Sebagian orang merasa jalan pintas desimal ke persen ini lebih mudah untuk hitung mental, sebab mengalikan dengan 100 hanya menggeser koma desimal dua tempat ke kanan sebelum membagi.</p>\n<ol>\n  <li>Kalikan pembilang dengan 100.</li>\n  <li>Bagi hasilnya dengan penyebut.</li>\n  <li>Bulatkan ke jumlah desimal yang diinginkan.</li>\n</ol>\n\n<h2>Mengubah persen menjadi pecahan</h2>\n<p>Mengubah hasil kalkulator persentase kembali menjadi pecahan adalah proses kebalikannya, dan itulah yang dilakukan kalkulator persen ke pecahan. Ini berguna saat Anda memerlukan rasio yang tepat, bukan desimal yang dibulatkan, misalnya untuk soal peluang, penskalaan resep, atau penyederhanaan ukuran.</p>\n\n<h3>Rumus persen ke pecahan</h3>\n<p>Untuk mengubah persen kembali menjadi pecahan, letakkan persentasenya di atas 100, lalu sederhanakan:</p>\n$$ \\frac{P}{100} = \\frac{N}{D} $$\n<p>Misalnya, 35% menjadi 35/100. Menyederhanakan pecahan dengan membagi pembilang dan penyebut dengan faktor persekutuannya menghasilkan 7/20. Jika angkanya memiliki desimal, seperti 35.5%, kalikan pembilang dan penyebut dengan 10 (atau 100, atau 1000) sampai keduanya menjadi bilangan bulat, lalu sederhanakan pecahannya dari sana.</p>\n\n<h3>Menyederhanakan dengan faktor persekutuan terbesar</h3>\n<p>Menyederhanakan pecahan ke bentuk paling sederhana berarti membagi pembilang dan penyebut dengan faktor persekutuan terbesarnya, atau FPB. Untuk 35/100, FPB-nya 5, sehingga membagi kedua angka dengan 5 menghasilkan 7/20, nilai yang sama dalam bentuk paling sederhana. Terampil menemukan FPB dengan cepat membuat penyederhanaan pecahan secara manual jauh lebih singkat daripada menyederhanakannya satu faktor demi satu faktor.</p>\n\n<h2>Tabel pecahan ke persen: konversi yang umum</h2>\n<p>Beberapa konversi pecahan ke persentase begitu sering muncul sehingga lebih baik dihafalkan daripada dihitung setiap kali. Tabel di bawah memuat pecahan yang paling umum, ekuivalen desimalnya, dan persentasenya.</p>\n<table>\n  <thead>\n    <tr><th>Pembilang</th><th>Penyebut</th><th>Desimal</th><th>Persentase</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>2</td><td>0.5</td><td>50%</td></tr>\n    <tr><td>1</td><td>3</td><td>0.333</td><td>33.3%</td></tr>\n    <tr><td>1</td><td>4</td><td>0.25</td><td>25%</td></tr>\n    <tr><td>1</td><td>5</td><td>0.2</td><td>20%</td></tr>\n    <tr><td>3</td><td>4</td><td>0.75</td><td>75%</td></tr>\n    <tr><td>5</td><td>8</td><td>0.625</td><td>62.5%</td></tr>\n    <tr><td>7</td><td>20</td><td>0.35</td><td>35%</td></tr>\n  </tbody>\n</table>\n<p>Perhatikan bahwa setiap nilai dalam tabel mengikuti aturan yang sama: bagi pembilang dengan penyebut, lalu kalikan dengan 100. Setelah beberapa pasangan pecahan dan persen ini Anda hafal, Anda bisa memperkirakan persentase di kepala sebelum membuka kalkulator.</p>\n\n<h2>Mengapa konversi pecahan ke persentase penting: matematika, statistik, dan kesalahan persen</h2>\n<p>Mengonversi pecahan dan persentase bukan sekadar latihan pekerjaan rumah; konversi ini muncul di seluruh matematika, statistik, dan penalaran sehari-hari. Nilai ujian 42/50 baru berarti setelah diubah menjadi 84%, dan pada titik itu nilai tersebut langsung dapat dibandingkan dengan skala penilaian mana pun. Dalam statistik, proporsi sampel biasanya dilaporkan sebagai persentase justru karena lebih mudah dibandingkan sekilas daripada pecahan mentah.</p>\n<p>Hitungan yang sama juga mendasari <strong>kesalahan persentase</strong>, yang mengukur seberapa jauh nilai hasil percobaan atau pengukuran menyimpang dari nilai yang diharapkan. Jika penyebut Anda mewakili nilai sebenarnya dan pembilang Anda mewakili selisih antara nilai yang diamati dan nilai sebenarnya, rumus pecahan ke persentase menjadi rumus kesalahan persentase; mekanismenya identik, hanya makna angkanya yang berubah. Entah Anda menilai ujian, menjalankan percobaan laboratorium, atau membaca margin kesalahan sebuah jajak pendapat, kemampuan berpindah dengan lancar antara pecahan, desimal, dan persentase adalah salah satu keterampilan matematika yang paling sering terpakai. Aritmetika yang sama muncul jauh di luar satu mata pelajaran: menghitung GPA dari poin nilai mentah atau mengerjakan kumpulan soal matematika diskret sama-sama bertumpu pada logika pecahan ke persentase yang persis sama.</p>",
+  "faq": [
+    {
+      "question": "Berapa persen 3/4?",
+      "answer": "3/4 sama dengan 75%. Perhitungan: (3 ÷ 4) × 100 = 75%."
+    },
+    {
+      "question": "Berapa persen 1/3?",
+      "answer": "1/3 sama dengan sekitar 33.33% (berulang). Perhitungan: (1 ÷ 3) × 100 = 33.333...%."
+    },
+    {
+      "question": "Berapa persen 2/3?",
+      "answer": "2/3 sama dengan sekitar 66.67% (berulang). Perhitungan: (2 ÷ 3) × 100 = 66.666...%."
+    },
+    {
+      "question": "Bagaimana cara mengubah nilai ujian menjadi persentase?",
+      "answer": "Bagi nilai Anda dengan nilai maksimum, lalu kalikan 100. Nilai 45/60: (45÷60) × 100 = 75%."
+    },
+    {
+      "question": "Berapa persen 5/8?",
+      "answer": "5/8 sama dengan 62.5%. Perhitungan: (5 ÷ 8) × 100 = 62.5%."
+    },
+    {
+      "question": "Berapa persen 7/10?",
+      "answer": "7/10 sama dengan 70%. Perhitungan: (7 ÷ 10) × 100 = 70%."
+    },
+    {
+      "question": "Apakah pecahan bisa menghasilkan persentase di atas 100%?",
+      "answer": "Bisa, pecahan tak wajar (pembilang > penyebut) menghasilkan persentase di atas 100%. Contohnya, 5/4 = 125%."
+    },
+    {
+      "question": "Berapa persen 1/8?",
+      "answer": "1/8 sama dengan 12.5%. Perhitungan: (1 ÷ 8) × 100 = 12.5%."
+    },
+    {
+      "question": "Bagaimana cara mengubah bilangan campuran menjadi persentase?",
+      "answer": "Ubah dulu menjadi pecahan tak wajar. 1½ = 3/2 = (3÷2) × 100 = 150%."
+    },
+    {
+      "question": "Berapa persen 4/5?",
+      "answer": "4/5 sama dengan 80%. Perhitungan: (4 ÷ 5) × 100 = 80%."
+    },
+    {
+      "question": "Bagaimana jika penyebutnya nol?",
+      "answer": "Pembagian dengan nol tidak terdefinisi. Pecahan dengan penyebut nol tidak memiliki persentase yang valid."
+    },
+    {
+      "question": "Berapa persen 11/20?",
+      "answer": "11/20 sama dengan 55%. Perhitungan: (11 ÷ 20) × 100 = 55%."
+    }
+  ]
 }
