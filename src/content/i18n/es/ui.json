@@ -101,5 +101,6 @@
     "win-loss-percentage-calculator": "Calculadora de Victorias y Derrotas"
   },
   "native_name": "Español",
-  "ad_label": "Publicidad"
+  "ad_label": "Publicidad",
+  "back_to_top": "Volver arriba"
 }

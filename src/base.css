@@ -68,6 +68,7 @@
   --color-danger:248 113 113;
 }
 html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 /* Article/prose content-element styling. content_html is authored by an
    external SEO content pipeline (see utilities/publish_seo_content.py) as

@@ -176,6 +176,7 @@ UI_EN = {
     "faq_heading": "Frequently Asked Questions",
     "faq_q_label": "Q.",
     "ad_label": "Advertisement",
+    "back_to_top": "Back to top",
     "toc_label": "Table of Contents",
     "copy_result": "Copy result",
     "copied": "Copied!",
@@ -1137,7 +1138,13 @@ def render_site_footer(site, by_slug, year="2026"):
         "</div>"
         "</div>"
         "</footer>"
+        '<div id="backToTopWrap" class="fixed bottom-4 end-4 z-40 sm:bottom-6 sm:end-6" hidden>'
+        '<button type="button" id="backToTop" aria-label="%(back_to_top)s" title="%(back_to_top)s" '
+        'class="grid h-11 w-11 place-items-center rounded-full border border-border bg-surface text-text-secondary shadow-lg transition duration-150 hover:bg-surface-alt hover:text-text focus:outline-none focus-visible:ring-4 focus-visible:ring-accent/30">'
+        '<svg aria-hidden="true" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>'
+        "</button></div>"
     ) % {
+        "back_to_top": html.escape(t("back_to_top")),
         "site_name": site["site_name"],
         "footer_tagline": site["footer_tagline"],
         "footer_mega": render_footer_mega(site, by_slug),
@@ -1308,6 +1315,24 @@ NAV_JS_CORE = """
     if (mq.addEventListener) mq.addEventListener('change', mqHandler);
     else mq.addListener(mqHandler);
   }
+  (function () {
+    var wrap = document.getElementById('backToTopWrap');
+    var btn = document.getElementById('backToTop');
+    if (!wrap || !btn) return;
+    var shown = false;
+    function update() {
+      var show = window.pageYOffset > 600;
+      if (show !== shown) { shown = show; wrap.hidden = !show; }
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    update();
+    btn.addEventListener('click', function () {
+      var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' });
+      var main = document.getElementById('main-content');
+      if (main) { main.setAttribute('tabindex', '-1'); main.focus({ preventScroll: true }); }
+    });
+  })();
   document.addEventListener('click', function (e) {
     var d = document.getElementById('langSwitch');
     if (d && d.open && !d.contains(e.target)) d.open = false;
