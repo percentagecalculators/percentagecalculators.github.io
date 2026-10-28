@@ -14,5 +14,56 @@
     "Percentage:": "Percentage:",
     "e.g. 3": "bijv. 3",
     "e.g. 4": "bijv. 4"
-  }
+  },
+  "content_html": "<p>Een breuk omzetten naar een percentage is zo’n snelle omrekening die je voortdurend nodig hebt, voor cijfers, kortingen, labresultaten of gewoon om je eigen som te controleren. Deze <strong>breuk naar percentage calculator</strong> doet het direct: hij deelt de <strong>teller</strong> door de <strong>noemer</strong> en vermenigvuldigt met 100. Voer een gewone of onechte breuk in en je krijgt zowel het decimale getal als het uiteindelijke percentage, zonder pen en papier. Dezelfde basisformule werkt ook andersom, dus de omgekeerde richting is even makkelijk.</p>\n\n<h2>Zo werkt deze breuk naar percentage calculator</h2>\n<p>Elke breuk-naar-percentage-calculator op internet gebruikt dezelfde twee stappen: delen en dan vermenigvuldigen met 100. Je geeft de tool een teller en een noemer (en bij gemengde getallen eventueel een geheel getal), en je krijgt het percentage, het decimale getal en, als je de redenering wilt zien, alle rekenstappen. Deze calculator kan ook de andere kant op, van een percentage terug naar de bijbehorende breuk, zonder dat je een tweede pagina hoeft te openen. Sommige sites noemen dezelfde tool een breukenomzetter, een procentomzetter of een breuk-naar-decimaal-calculator, maar de wiskunde eronder is identiek.</p>\n\n<h3>Formule voor breuk naar percentage</h3>\n<p>De formule om een breuk naar een percentage om te rekenen is eenvoudig:</p>\n$$ P = \\frac{N}{D} \\times 100 $$\n<p>Hierbij is <code>N</code> de teller, <code>D</code> de noemer en <strong>P</strong> het percentage dat eruit komt. Vul bijvoorbeeld 3 en 4 in, en 3 ÷ 4 × 100 geeft 75%. Alle methoden op deze pagina komen uiteindelijk neer op die ene formule voor het omrekenen van een breuk naar een procent; de handmatige stappen hieronder verwisselen alleen de volgorde van de bewerkingen.</p>\n\n<h3>Invoer, uitvoer en decimalen</h3>\n<p>De meeste tools voor breuk naar procent, deze ook, vragen om drie velden: een teller, een noemer en een optioneel geheel getal voor gemengde getallen zoals 2 1/3. De uitvoer toont het percentage afgerond op een zinnig aantal decimalen, plus de ruwe decimale vorm, zodat je precies ziet hoe er is afgerond. Gaat een breuk niet netjes op, zoals 1/3, dan zie je eerst een repeterend decimaal getal als 0.3333 voordat het 33.33% wordt.</p>\n\n<aside>Tip: heeft een breuk al een noemer van 100, dan is het al een percentage en hoef je niet te delen. 47/100 is gewoon 47%.</aside>\n\n<h2>Handmatig rekenen: formule en stappen van breuk naar procent</h2>\n<p>Sla je het handwerk liever over, dan past deze calculator alle drie onderstaande methoden al automatisch toe. Maar als je weet hoe de omrekening met de hand werkt, kun je het resultaat makkelijker controleren of snel schatten zonder rekenmachine.</p>\n\n<h3>Teller en noemer: eerst delen, dan keer 100</h3>\n<p>Deel de teller door de noemer voor een decimaal getal en vermenigvuldig dat met 100 voor het percentage. Voor 5/8: 5 gedeeld door 8 is 0.625, en keer 100 geeft 62.5%. Dit is de methode die schoolboeken het eerst leren, omdat ze direct de formule volgt: delen en dan opschalen met 100.</p>\n<ul>\n  <li>Deel de teller door de noemer voor een decimaal getal.</li>\n  <li>Vermenigvuldig het decimale getal met 100.</li>\n  <li>Zet een procentteken achter het resultaat.</li>\n</ul>\n\n<h3>Decimaal naar procent: eerst vermenigvuldigen, dan delen</h3>\n<p>Je kunt ook eerst de teller met 100 vermenigvuldigen en daarna door de noemer delen. De volgorde verandert het antwoord niet, alleen de grootte van de getallen waarmee je rekent. Voor 5/8: 5 keer 100 is 500, en gedeeld door 8 is dat 62.5%. Sommigen vinden deze sluiproute van decimaal naar procent handiger voor hoofdrekenen, omdat vermenigvuldigen met 100 neerkomt op de komma twee plaatsen naar rechts schuiven voordat je deelt.</p>\n<ol>\n  <li>Vermenigvuldig de teller met 100.</li>\n  <li>Deel het resultaat door de noemer.</li>\n  <li>Rond af op het gewenste aantal decimalen.</li>\n</ol>\n\n<h2>Een percentage omzetten naar een breuk</h2>\n<p>Van het resultaat van een percentage calculator terug naar een breuk is het omgekeerde proces, en precies dat doet een procent-naar-breuk-calculator. Handig als je een exacte verhouding nodig hebt in plaats van een afgerond decimaal getal, bijvoorbeeld bij kansrekening, het opschalen van recepten of het vereenvoudigen van een maat.</p>\n\n<h3>Formule van procent naar breuk</h3>\n<p>Om een percentage weer om te zetten naar een breuk zet je het percentage boven 100 en vereenvoudig je:</p>\n$$ \\frac{P}{100} = \\frac{N}{D} $$\n<p>Zo wordt 35% gelijk aan 35/100. Deel je teller en noemer door hun grootste gemene deler, dan krijg je 7/20. Heeft het getal decimalen, zoals 35.5%, vermenigvuldig teller en noemer dan met 10 (of 100, of 1000) tot beide hele getallen zijn en vereenvoudig dan de breuk.</p>\n\n<h3>Vereenvoudigen met de grootste gemene deler</h3>\n<p>Een breuk vereenvoudigen tot de eenvoudigste vorm betekent teller en noemer delen door hun grootste gemene deler, de ggd. Bij 35/100 is de ggd 5, dus beide getallen door 5 delen geeft 7/20: dezelfde waarde in de eenvoudigste vorm. Als je de ggd snel leert herkennen, gaat het vereenvoudigen met de hand veel sneller dan met één factor tegelijk.</p>\n\n<h2>Tabel van breuk naar procent: veelvoorkomende omrekeningen</h2>\n<p>Sommige omrekeningen van breuk naar percentage komen zo vaak voor dat je ze beter kunt onthouden dan elke keer uitrekenen. De tabel hieronder bevat de gangbaarste breuken met hun decimale waarde en percentage.</p>\n<table>\n  <thead>\n    <tr><th>Teller</th><th>Noemer</th><th>Decimaal</th><th>Percentage</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>2</td><td>0.5</td><td>50%</td></tr>\n    <tr><td>1</td><td>3</td><td>0.333</td><td>33.3%</td></tr>\n    <tr><td>1</td><td>4</td><td>0.25</td><td>25%</td></tr>\n    <tr><td>1</td><td>5</td><td>0.2</td><td>20%</td></tr>\n    <tr><td>3</td><td>4</td><td>0.75</td><td>75%</td></tr>\n    <tr><td>5</td><td>8</td><td>0.625</td><td>62.5%</td></tr>\n    <tr><td>7</td><td>20</td><td>0.35</td><td>35%</td></tr>\n  </tbody>\n</table>\n<p>Je ziet dat elke waarde in de tabel dezelfde regel volgt: deel de teller door de noemer en vermenigvuldig met 100. Als je een paar van deze paren van breuk en procent uit je hoofd kent, kun je percentages in je hoofd schatten voordat je een calculator opent.</p>\n\n<h2>Waarom omrekenen van breuk naar percentage ertoe doet: wiskunde, statistiek en procentuele fout</h2>\n<p>Omrekenen tussen breuken en percentages is niet alleen een huiswerkoefening; het komt voor in wiskunde, statistiek en het dagelijks redeneren. Een tentamenscore van 42/50 zegt op zichzelf weinig tot je er 84% van maakt, en dan is hij direct te vergelijken met elke andere cijferschaal. In de statistiek worden steekproefaandelen meestal als percentages gerapporteerd, juist omdat ze in één oogopslag makkelijker te vergelijken zijn dan kale breuken.</p>\n<p>Dezelfde rekenkunde zit ook achter de <strong>procentuele fout</strong>, die aangeeft hoe ver een experimentele of gemeten waarde van de verwachte waarde afwijkt. Stelt je noemer de ware waarde voor en je teller het verschil tussen de gemeten en de ware waarde, dan wordt de formule voor breuk naar percentage de formule voor de procentuele fout: de mechanica is identiek, alleen de betekenis van de getallen verandert. Of je nu een toets nakijkt, een labexperiment uitvoert of de foutmarge van een peiling leest, soepel kunnen schakelen tussen een breuk, een decimaal getal en een percentage is een van de meest herbruikbare rekenvaardigheden. Dezelfde rekenkunde komt ook ver buiten één vak voor: een GPA berekenen uit ruwe cijferpunten of een opgave discrete wiskunde maken, ze berusten allebei op precies dezelfde logica van breuk naar percentage.</p>",
+  "faq": [
+    {
+      "question": "Hoeveel procent is 3/4?",
+      "answer": "3/4 is 75%. Berekening: (3 ÷ 4) × 100 = 75%."
+    },
+    {
+      "question": "Hoeveel procent is 1/3?",
+      "answer": "1/3 is ongeveer 33.33% (repeterend). Berekening: (1 ÷ 3) × 100 = 33.333...%."
+    },
+    {
+      "question": "Hoeveel procent is 2/3?",
+      "answer": "2/3 is ongeveer 66.67% (repeterend). Berekening: (2 ÷ 3) × 100 = 66.666...%."
+    },
+    {
+      "question": "Hoe reken ik mijn toetsscore om naar een percentage?",
+      "answer": "Deel je score door het maximaal te behalen aantal punten en vermenigvuldig met 100. Score 45/60: (45÷60) × 100 = 75%."
+    },
+    {
+      "question": "Hoeveel procent is 5/8?",
+      "answer": "5/8 is 62.5%. Berekening: (5 ÷ 8) × 100 = 62.5%."
+    },
+    {
+      "question": "Hoeveel procent is 7/10?",
+      "answer": "7/10 is 70%. Berekening: (7 ÷ 10) × 100 = 70%."
+    },
+    {
+      "question": "Kan een breuk een percentage boven 100% geven?",
+      "answer": "Ja, onechte breuken (teller > noemer) geven percentages boven 100%. Bijvoorbeeld 5/4 = 125%."
+    },
+    {
+      "question": "Hoeveel procent is 1/8?",
+      "answer": "1/8 is 12.5%. Berekening: (1 ÷ 8) × 100 = 12.5%."
+    },
+    {
+      "question": "Hoe reken ik een gemengd getal om naar een percentage?",
+      "answer": "Zet het eerst om naar een onechte breuk. 1½ = 3/2 = (3÷2) × 100 = 150%."
+    },
+    {
+      "question": "Hoeveel procent is 4/5?",
+      "answer": "4/5 is 80%. Berekening: (4 ÷ 5) × 100 = 80%."
+    },
+    {
+      "question": "Wat als de noemer nul is?",
+      "answer": "Delen door nul is niet gedefinieerd. Een breuk met noemer nul heeft geen geldig percentage."
+    },
+    {
+      "question": "Hoeveel procent is 11/20?",
+      "answer": "11/20 is 55%. Berekening: (11 ÷ 20) × 100 = 55%."
+    }
+  ]
 }

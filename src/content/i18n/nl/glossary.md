@@ -43,3 +43,7 @@ Decisions (made 2026-10-28):
 ## Open for review (self-review by Claude, no native reviewer)
 
 - `je` vs `u`: chosen `je` for consistency with the cards; a formal finance audience might prefer `u`.
+- Indian CGPA class labels ("Eerste klasse met onderscheiding", "Voldoende") are own renderings, not official.
+- Distilling terms (voorloop/hart/nalopen, kolomstill) not checked with a native distiller.
+- SGPA article follows English (SGPA × 10) − 7.5; the subtitle says × 9.5 (inconsistency in the English source).
+- Loanwords/sales jargon kept in English: clawback, SPIFF, OTE, target.
