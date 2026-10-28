@@ -18,6 +18,14 @@ MATH_RE = re.compile(r"\$\$.*?\$\$|\\\(.*?\\\)", re.DOTALL)
 CARD_TEXT_RE = re.compile(r">([^<>{}]*[^\s<>{}][^<>{}]*)<|(?:placeholder|aria-label|title)=\"([^\"]+)\"")
 
 
+NUM_RE = re.compile(r"\d+(?:[.,]\d+)*")
+
+
+def numbers(text):
+    """Sorted numeric tokens of the visible text (tags stripped)."""
+    return sorted(NUM_RE.findall(TAG_RE.sub(" ", text)))
+
+
 def skeleton(html):
     return [re.sub(r"\s+", " ", t) for t in TAG_RE.findall(html)]
 
@@ -121,8 +129,20 @@ def check(lang, slug):
         strip = lambda L: [re.sub(r"\\text\{[^}]*\}", r"\\text{}", m) for m in L]
         if strip(MATH_RE.findall(en["content_html"])) != strip(MATH_RE.findall(t["content_html"])):
             errs.append("content_html: LaTeX differs beyond \\text{} labels")
+    if t.get("content_html") and numbers(en.get("content_html", "")) != numbers(t["content_html"]):
+        a, b = numbers(en["content_html"]), numbers(t["content_html"])
+        errs.append("content_html: numbers differ from English (only in EN: %s; only in translation: %s)" % (
+            [x for x in a if x not in b][:8], [x for x in b if x not in a][:8]))
     if t.get("faq") and len(en.get("faq", [])) != len(t["faq"]):
         errs.append("faq: item count differs")
+    elif t.get("faq"):
+        for i, (e, f) in enumerate(zip(en["faq"], t["faq"]), 1):
+            if not f.get("question") or not f.get("answer"):
+                errs.append(f"faq #{i}: empty question or answer")
+            elif "<" in f["question"] + f["answer"]:
+                errs.append(f"faq #{i}: HTML in question/answer (plain text only)")
+            elif numbers(e["question"] + " " + e["answer"]) != numbers(f["question"] + " " + f["answer"]):
+                errs.append(f"faq #{i}: numbers differ from English")
     need = card_strings(en["card"]["fields_html"])
     have = set(t.get("card_strings", {}))
     if need - have:

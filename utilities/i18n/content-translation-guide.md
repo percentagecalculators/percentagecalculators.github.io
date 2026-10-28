@@ -100,8 +100,9 @@ core concept, the term **real users search for**, not the dictionary term:
 
 - Build: `python3 src/generate.py` then `python3 utilities/silo_linking/generate_silo_rotation.py`.
 - Functional test unchanged: `NODE_PATH=.test-cache/node_modules node utilities/i18n/test_tools.js <lang>`.
-- Number check (to add as part of the work): extract all digit sequences from `content_html`/FAQ in English and the
-  translation and compare as multisets; any difference must be explained in the checklist.
+- Writing: `python3 utilities/i18n/add_content.py <lang> <slug> --html article.html [--faq faq.json]` merges the
+  article/FAQ into the tool file and validates it; on any error the file is restored.
+- Number check is built into `validate.py` (digit sequences in article and FAQ must equal English's).
 - Order within a language: glossary -> the 3 pilot tools (home, one finance, one education) -> review ->
   remaining tools in checklist order -> FAQs -> full validate + build + browser spot-check.
 - Order across languages: do not start language N+1 until N is committed and reviewed.
