@@ -1,14 +1,14 @@
 {
   "slug": "gpa-to-percentage-calculator",
   "lang": "id",
-  "meta_title": "Kalkulator GPA ke Persentase | Ubah GPA Skala 4,0 ke %",
-  "meta_description": "Kalkulator GPA ke persentase gratis. Langsung ubah GPA skala 4,0 Anda menjadi persentase yang setara. Akurat, sederhana, tanpa perlu mendaftar.",
+  "meta_title": "Kalkulator GPA ke Persentase | Ubah GPA Skala 4.0 ke %",
+  "meta_description": "Kalkulator GPA ke persentase gratis. Langsung ubah GPA skala 4.0 Anda menjadi persentase yang setara. Akurat, sederhana, tanpa perlu mendaftar.",
   "h1": "Kalkulator GPA ke Persentase",
-  "subtitle": "Masukkan <strong>GPA</strong> Anda pada <strong>skala standar 4,0</strong> dan <strong>kalkulator GPA ke persentase</strong> ini langsung mengubahnya menjadi <strong>persentase</strong> yang setara, berguna untuk pendaftaran, transkrip, dan membandingkan sistem penilaian.",
-  "hint": "Masukkan GPA skala 4,0 Anda untuk mendapatkan persentase yang setara.",
-  "long_tail_anchor": "Ubah GPA skala 4,0 ke persen",
+  "subtitle": "Masukkan <strong>GPA</strong> Anda pada <strong>skala standar 4.0</strong> dan <strong>kalkulator GPA ke persentase</strong> ini langsung mengubahnya menjadi <strong>persentase</strong> yang setara, berguna untuk pendaftaran, transkrip, dan membandingkan sistem penilaian.",
+  "hint": "Masukkan GPA skala 4.0 Anda untuk mendapatkan persentase yang setara.",
+  "long_tail_anchor": "Ubah GPA skala 4.0 ke persen",
   "card_strings": {
-    "GPA (4.0 Scale)": "GPA (skala 4,0)",
+    "GPA (4.0 Scale)": "GPA (skala 4.0)",
     "Percentage:": "Persentase:",
     "e.g. 3.5": "mis. 3.5"
   }
