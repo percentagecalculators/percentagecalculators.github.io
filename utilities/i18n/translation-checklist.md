@@ -672,54 +672,54 @@ Files: `src/content/i18n/<lang>/<slug>.json` (tools/home), `src/content/i18n/<la
 
 ## ru - Russian
 
-- [ ] `/ru/` (home, `percentage-calculator`)
-- [ ] `/ru/alcohol-proof-calculator/` **new**
-- [ ] `/ru/apr-apy-converter/` **new**
-- [ ] `/ru/apr-calculator/` **new**
-- [ ] `/ru/apy-calculator/` **new**
-- [ ] `/ru/average-percentage-calculator/`
-- [ ] `/ru/bakers-percentage-calculator/` **new**
-- [ ] `/ru/basis-points-calculator/` **new**
-- [ ] `/ru/cgpa-to-percentage-calculator/` **new**
-- [ ] `/ru/commission-calculator/` **new**
-- [ ] `/ru/compound-interest-calculator/` **new**
-- [ ] `/ru/decimal-to-percentage-calculator/` **new**
-- [ ] `/ru/depreciation-calculator/` **new**
-- [ ] `/ru/food-cost-percentage-calculator/` **new**
-- [ ] `/ru/fraction-to-percentage-calculator/`
-- [ ] `/ru/gpa-to-percentage-calculator/` **new**
-- [ ] `/ru/gross-margin-calculator/` **new**
-- [ ] `/ru/loan-interest-calculator/` **new**
-- [ ] `/ru/marks-percentage-calculator/` **new**
-- [ ] `/ru/markup-calculator/` **new**
-- [ ] `/ru/percent-solution-calculator/` **new**
-- [ ] `/ru/percentage-change-calculator/`
-- [ ] `/ru/percentage-decrease-calculator/`
-- [ ] `/ru/percentage-difference-calculator/`
-- [ ] `/ru/percentage-error-calculator/`
-- [ ] `/ru/percentage-growth-calculator/`
-- [ ] `/ru/percentage-increase-calculator/`
-- [ ] `/ru/percentage-of-a-percentage-calculator/` **new**
-- [ ] `/ru/percentage-off-calculator/`
-- [ ] `/ru/percentage-point-calculator/` **new**
-- [ ] `/ru/percentile-to-percentage-calculator/` **new**
-- [ ] `/ru/ppm-to-percentage-calculator/` **new**
-- [ ] `/ru/profit-margin-calculator/` **new**
-- [ ] `/ru/profit-percentage-calculator/` **new**
-- [ ] `/ru/ratio-to-percentage-calculator/` **new**
-- [ ] `/ru/reverse-percentage-calculator/`
-- [ ] `/ru/salary-increase-calculator/` **new**
-- [ ] `/ru/sgpa-to-percentage-calculator/` **new**
-- [ ] `/ru/simple-interest-calculator/` **new**
-- [ ] `/ru/slope-percentage-calculator/` **new**
-- [ ] `/ru/tip-calculator/` **new**
-- [ ] `/ru/win-loss-percentage-calculator/` **new**
-- [ ] `/ru/page/about/`
-- [ ] `/ru/page/contact/`
-- [ ] `/ru/page/disclaimer/`
-- [ ] `/ru/page/privacy-policy/`
-- [ ] `/ru/page/terms-of-use/`
-- [ ] `/ru/page/sitemap/` **new**
+- [x] `/ru/` (home, `percentage-calculator`)
+- [x] `/ru/alcohol-proof-calculator/` **new**
+- [x] `/ru/apr-apy-converter/` **new**
+- [x] `/ru/apr-calculator/` **new**
+- [x] `/ru/apy-calculator/` **new**
+- [x] `/ru/average-percentage-calculator/`
+- [x] `/ru/bakers-percentage-calculator/` **new**
+- [x] `/ru/basis-points-calculator/` **new**
+- [x] `/ru/cgpa-to-percentage-calculator/` **new**
+- [x] `/ru/commission-calculator/` **new**
+- [x] `/ru/compound-interest-calculator/` **new**
+- [x] `/ru/decimal-to-percentage-calculator/` **new**
+- [x] `/ru/depreciation-calculator/` **new**
+- [x] `/ru/food-cost-percentage-calculator/` **new**
+- [x] `/ru/fraction-to-percentage-calculator/`
+- [x] `/ru/gpa-to-percentage-calculator/` **new**
+- [x] `/ru/gross-margin-calculator/` **new**
+- [x] `/ru/loan-interest-calculator/` **new**
+- [x] `/ru/marks-percentage-calculator/` **new**
+- [x] `/ru/markup-calculator/` **new**
+- [x] `/ru/percent-solution-calculator/` **new**
+- [x] `/ru/percentage-change-calculator/`
+- [x] `/ru/percentage-decrease-calculator/`
+- [x] `/ru/percentage-difference-calculator/`
+- [x] `/ru/percentage-error-calculator/`
+- [x] `/ru/percentage-growth-calculator/`
+- [x] `/ru/percentage-increase-calculator/`
+- [x] `/ru/percentage-of-a-percentage-calculator/` **new**
+- [x] `/ru/percentage-off-calculator/`
+- [x] `/ru/percentage-point-calculator/` **new**
+- [x] `/ru/percentile-to-percentage-calculator/` **new**
+- [x] `/ru/ppm-to-percentage-calculator/` **new**
+- [x] `/ru/profit-margin-calculator/` **new**
+- [x] `/ru/profit-percentage-calculator/` **new**
+- [x] `/ru/ratio-to-percentage-calculator/` **new**
+- [x] `/ru/reverse-percentage-calculator/`
+- [x] `/ru/salary-increase-calculator/` **new**
+- [x] `/ru/sgpa-to-percentage-calculator/` **new**
+- [x] `/ru/simple-interest-calculator/` **new**
+- [x] `/ru/slope-percentage-calculator/` **new**
+- [x] `/ru/tip-calculator/` **new**
+- [x] `/ru/win-loss-percentage-calculator/` **new**
+- [x] `/ru/page/about/`
+- [x] `/ru/page/contact/`
+- [x] `/ru/page/disclaimer/`
+- [x] `/ru/page/privacy-policy/`
+- [x] `/ru/page/terms-of-use/`
+- [x] `/ru/page/sitemap/` **new**
 
 ## th - Thai
 

@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "Перейти к содержимому",
+  "primary_nav": "Основная навигация",
+  "toggle_dark": "Переключить тёмный режим",
+  "open_menu": "Открыть меню",
+  "close_menu": "Закрыть меню",
+  "site_nav": "Навигация по сайту",
+  "home": "Главная",
+  "more": "Ещё",
+  "language": "Язык",
+  "reset": "Сбросить калькулятор",
+  "calculate": "Рассчитать",
+  "related_aria": "Похожие калькуляторы",
+  "faq_heading": "Часто задаваемые вопросы",
+  "toc_label": "Содержание",
+  "copy_result": "Копировать результат",
+  "copied": "Скопировано!",
+  "company": "Компания",
+  "footer_site_map": "Карта сайта",
+  "footer_links": "Ссылки в подвале",
+  "rights": "Все права защищены.",
+  "footer_tagline": "Бесплатные онлайн-калькуляторы процентов. Все расчёты выполняются прямо в вашем браузере — мгновенные результаты, без регистрации.",
+  "native_name": "Русский",
+  "nav_groups": {
+    "core": {
+      "label": "Основные инструменты для процентов",
+      "short_label": "Основные",
+      "tagline": "Самое необходимое: найти процент, увеличить или уменьшить число и сравнить два значения."
+    },
+    "converters": {
+      "label": "Конвертеры",
+      "short_label": "Конвертеры",
+      "tagline": "Переводите между процентами, дробями, десятичными числами, отношениями и другими формами единиц."
+    },
+    "education": {
+      "label": "Образование",
+      "short_label": "Образование",
+      "tagline": "Пересчёт GPA, CGPA, SGPA, баллов и перцентилей для студентов."
+    },
+    "finance": {
+      "label": "Финансы и бизнес",
+      "short_label": "Финансы",
+      "tagline": "Процентные ставки, маржа прибыли, наценка, повышение зарплаты и рост бизнеса."
+    },
+    "everyday": {
+      "label": "Повседневное и особые случаи",
+      "short_label": "Повседневное",
+      "tagline": "Чаевые, доля побед, пропорции выпечки, фудкост и процентные концентрации растворов."
+    }
+  },
+  "company_links": {
+    "/about": "О нас",
+    "/contact": "Контакты",
+    "/sitemap": "Карта сайта",
+    "/disclaimer": "Отказ от ответственности",
+    "/privacy-policy": "Политика конфиденциальности",
+    "/terms-of-use": "Условия использования"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "Калькулятор крепости (proof) алкоголя",
+    "apr-apy-converter": "Конвертер APR в APY",
+    "apr-calculator": "Калькулятор APR",
+    "apy-calculator": "Калькулятор APY",
+    "average-percentage-calculator": "Калькулятор среднего процента",
+    "bakers-percentage-calculator": "Калькулятор процентов пекаря",
+    "basis-points-calculator": "Калькулятор базисных пунктов",
+    "cgpa-to-percentage-calculator": "Калькулятор CGPA в проценты",
+    "commission-calculator": "Калькулятор комиссии",
+    "compound-interest-calculator": "Калькулятор сложных процентов",
+    "decimal-to-percentage-calculator": "Калькулятор десятичной дроби в проценты",
+    "depreciation-calculator": "Калькулятор амортизации",
+    "food-cost-percentage-calculator": "Калькулятор процента себестоимости блюда (фудкост)",
+    "fraction-to-percentage-calculator": "Калькулятор дроби в проценты",
+    "gpa-to-percentage-calculator": "Калькулятор GPA в проценты",
+    "gross-margin-calculator": "Калькулятор валовой маржи",
+    "loan-interest-calculator": "Калькулятор процентов по кредиту",
+    "marks-percentage-calculator": "Калькулятор процента баллов",
+    "markup-calculator": "Калькулятор наценки",
+    "percent-solution-calculator": "Калькулятор процентного раствора",
+    "percentage-calculator": "Калькулятор процентов",
+    "percentage-change-calculator": "Калькулятор изменения в процентах",
+    "percentage-decrease-calculator": "Калькулятор уменьшения на процент",
+    "percentage-difference-calculator": "Калькулятор процентной разницы",
+    "percentage-error-calculator": "Калькулятор процентной ошибки",
+    "percentage-growth-calculator": "Калькулятор процентного роста",
+    "percentage-increase-calculator": "Калькулятор увеличения на процент",
+    "percentage-of-a-percentage-calculator": "Калькулятор процента от процента",
+    "percentage-off-calculator": "Калькулятор скидки",
+    "percentage-point-calculator": "Калькулятор процентных пунктов",
+    "percentile-to-percentage-calculator": "Калькулятор перцентиля в проценты",
+    "ppm-to-percentage-calculator": "Калькулятор ppm в проценты",
+    "profit-margin-calculator": "Калькулятор маржи прибыли",
+    "profit-percentage-calculator": "Калькулятор процента прибыли",
+    "ratio-to-percentage-calculator": "Калькулятор отношения в проценты",
+    "reverse-percentage-calculator": "Калькулятор обратного процента",
+    "salary-increase-calculator": "Калькулятор повышения зарплаты",
+    "sgpa-to-percentage-calculator": "Калькулятор SGPA в проценты",
+    "simple-interest-calculator": "Калькулятор простых процентов",
+    "slope-percentage-calculator": "Калькулятор уклона в процентах",
+    "tip-calculator": "Калькулятор чаевых",
+    "win-loss-percentage-calculator": "Калькулятор побед и поражений"
+  }
+}
