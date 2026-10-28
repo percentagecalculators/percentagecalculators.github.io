@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de pourcentage de bénéfice | Calculez le % sur le coût",
+  "meta_description": "Calculateur gratuit de pourcentage de bénéfice. Saisissez le prix de revient et le prix de vente pour calculer instantanément votre bénéfice et son pourcentage.",
+  "h1": "Calculateur de pourcentage de bénéfice",
+  "subtitle": "Saisissez le <strong>prix de revient</strong> et le <strong>prix de vente</strong>, et ce <strong>calculateur de pourcentage de bénéfice</strong> détermine instantanément votre <strong>bénéfice</strong> et le <strong>pourcentage de bénéfice</strong> sur le coût.",
+  "hint": "Saisissez prix de revient et prix de vente pour obtenir votre pourcentage de bénéfice.",
+  "long_tail_anchor": "Pourcentage de bénéfice sur le prix de revient",
+  "card_strings": {
+    "Cost Price ($)": "Prix de revient ($)",
+    "Profit Percentage:": "Pourcentage de bénéfice :",
+    "Profit:": "Bénéfice :",
+    "Selling Price ($)": "Prix de vente ($)",
+    "e.g. 40": "p. ex. 40",
+    "e.g. 55": "p. ex. 55"
+  }
+}

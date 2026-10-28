@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de pourcentage du boulanger | Proportions des ingrédients",
+  "meta_description": "Calculateur gratuit de pourcentage du boulanger. Saisissez le poids de la farine et celui d'un ingrédient pour calculer instantanément son pourcentage boulanger.",
+  "h1": "Calculateur de pourcentage du boulanger",
+  "subtitle": "Saisissez le <strong>poids de la farine</strong> et le <strong>poids d'un ingrédient</strong>, et ce <strong>calculateur de pourcentage du boulanger</strong> détermine instantanément le <strong>pourcentage boulanger</strong> de cet ingrédient : chaque ingrédient exprimé par rapport à la farine.",
+  "hint": "Saisissez le poids de la farine et de l'ingrédient pour obtenir le pourcentage boulanger.",
+  "long_tail_anchor": "Hydratation de la pâte et proportions",
+  "card_strings": {
+    "Baker's Percentage:": "Pourcentage boulanger :",
+    "Flour Weight (g)": "Poids de la farine (g)",
+    "Ingredient Weight (g)": "Poids de l'ingrédient (g)",
+    "e.g. 350": "p. ex. 350",
+    "e.g. 500": "p. ex. 500"
+  }
+}

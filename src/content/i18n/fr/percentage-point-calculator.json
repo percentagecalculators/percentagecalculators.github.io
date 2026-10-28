@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de points de pourcentage | Écart en points",
+  "meta_description": "Calculateur gratuit de points de pourcentage. Saisissez deux pourcentages pour voir instantanément l'écart en points de pourcentage et la variation relative en pourcentage.",
+  "h1": "Calculateur de points de pourcentage",
+  "subtitle": "Saisissez deux <strong>pourcentages</strong> et ce <strong>calculateur de points de pourcentage</strong> affiche l'<strong>écart en points de pourcentage</strong>, qui n'est pas la même chose que la variation relative en pourcentage, également affichée pour comparaison.",
+  "hint": "Saisissez deux pourcentages pour obtenir l'écart en points de pourcentage.",
+  "long_tail_anchor": "Points de pourcentage et variation en pourcentage",
+  "card_strings": {
+    "Percentage A": "Pourcentage A",
+    "Percentage B": "Pourcentage B",
+    "Point Difference:": "Écart en points :",
+    "Relative Change:": "Variation relative :",
+    "e.g. 20": "p. ex. 20",
+    "e.g. 25": "p. ex. 25"
+  }
+}

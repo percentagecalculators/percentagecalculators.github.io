@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur d'APY | Rendement annuel en pourcentage",
+  "meta_description": "Calculateur d'APY gratuit. Convertissez un taux d'intérêt nominal et sa fréquence de capitalisation en rendement annuel en pourcentage (APY) instantanément.",
+  "h1": "Calculateur d'APY",
+  "subtitle": "Saisissez le <strong>taux d'intérêt nominal</strong> et la fréquence de <strong>capitalisation par an</strong>, et ce <strong>calculateur d'APY</strong> détermine votre véritable <strong>rendement annuel en pourcentage</strong> : le rendement réel que vous obtiendrez.",
+  "hint": "Saisissez le taux nominal et le nombre de périodes de capitalisation par an pour obtenir votre APY.",
+  "long_tail_anchor": "Calculateur de rendement annuel en pourcentage",
+  "card_strings": {
+    "APY:": "APY :",
+    "Compounding Periods / Year": "Périodes de capitalisation / an",
+    "Nominal Interest Rate": "Taux d'intérêt nominal",
+    "e.g. 12": "p. ex. 12",
+    "e.g. 5": "p. ex. 5"
+  }
+}

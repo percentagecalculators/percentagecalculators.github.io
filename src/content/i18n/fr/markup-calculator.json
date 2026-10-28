@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de majoration | Prix de vente à partir du coût + %",
+  "meta_description": "Calculateur de majoration gratuit. Saisissez le prix de revient et le pourcentage de majoration souhaité pour calculer instantanément le prix de vente à pratiquer.",
+  "h1": "Calculateur de majoration",
+  "subtitle": "Saisissez le <strong>prix de revient</strong> et le <strong>pourcentage de majoration</strong> souhaité, et ce <strong>calculateur de majoration</strong> détermine instantanément le <strong>prix de vente</strong> à pratiquer.",
+  "hint": "Saisissez le prix de revient et le % de majoration pour obtenir le prix de vente.",
+  "long_tail_anchor": "Du coût plus majoration au prix de vente",
+  "card_strings": {
+    "Cost Price ($)": "Prix de revient ($)",
+    "Markup": "Majoration",
+    "Markup Amount:": "Montant de la majoration :",
+    "Selling Price:": "Prix de vente :",
+    "e.g. 30": "p. ex. 30",
+    "e.g. 40": "p. ex. 40"
+  }
+}

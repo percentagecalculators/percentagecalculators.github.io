@@ -1,0 +1,15 @@
+{
+  "slug": "gpa-to-percentage-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de GPA en pourcentage | Convertir un GPA sur 4,0 en %",
+  "meta_description": "Calculateur gratuit de GPA en pourcentage. Convertissez votre GPA sur l'échelle de 4,0 en pourcentage équivalent instantanément. Précis, simple, sans inscription.",
+  "h1": "Calculateur de GPA en pourcentage",
+  "subtitle": "Saisissez votre <strong>GPA</strong> sur l'<strong>échelle standard de 4,0</strong> et ce <strong>calculateur de GPA en pourcentage</strong> le convertit instantanément en <strong>pourcentage</strong> équivalent, pratique pour les candidatures, les relevés de notes et la comparaison de systèmes de notation.",
+  "hint": "Saisissez votre GPA sur 4,0 pour obtenir le pourcentage équivalent.",
+  "long_tail_anchor": "Convertir un GPA sur 4,0 en pourcentage",
+  "card_strings": {
+    "GPA (4.0 Scale)": "GPA (échelle de 4,0)",
+    "Percentage:": "Pourcentage :",
+    "e.g. 3.5": "p. ex. 3.5"
+  }
+}

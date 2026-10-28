@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de pourboire | Calculez le pourboire et partagez l'addition",
+  "meta_description": "Calculateur de pourboire gratuit. Saisissez le montant de l'addition, le pourcentage de pourboire et le nombre de personnes pour calculer instantanément le pourboire, le total et la part de chacun.",
+  "h1": "Calculateur de pourboire",
+  "subtitle": "Saisissez le <strong>montant de l'addition</strong>, le <strong>pourcentage de pourboire</strong> et le <strong>nombre de personnes</strong>, et ce <strong>calculateur de pourboire</strong> détermine instantanément le <strong>pourboire</strong>, le <strong>total</strong> et la somme que <strong>chaque personne doit payer</strong>.",
+  "hint": "Saisissez l'addition, le % de pourboire et le nombre de personnes pour partager.",
+  "long_tail_anchor": "Pourboire et partage d'addition au restaurant",
+  "card_strings": {
+    "Bill Amount ($)": "Montant de l'addition ($)",
+    "Per Person:": "Par personne :",
+    "Split Between": "Partager entre",
+    "Tip": "Pourboire",
+    "Tip Amount:": "Montant du pourboire :",
+    "Total:": "Total :",
+    "e.g. 18": "p. ex. 18",
+    "e.g. 4": "p. ex. 4",
+    "e.g. 80": "p. ex. 80"
+  }
+}

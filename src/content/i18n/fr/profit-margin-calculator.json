@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de marge bénéficiaire | Calculez le taux de marge en %",
+  "meta_description": "Calculateur gratuit de marge bénéficiaire. Saisissez le prix de revient et le prix de vente pour calculer instantanément votre bénéfice et votre marge bénéficiaire sur le prix de vente.",
+  "h1": "Calculateur de marge bénéficiaire",
+  "subtitle": "Saisissez le <strong>prix de revient</strong> et le <strong>prix de vente</strong>, et ce <strong>calculateur de marge bénéficiaire</strong> détermine instantanément votre <strong>bénéfice</strong> et votre <strong>marge bénéficiaire</strong> en pourcentage du prix de vente.",
+  "hint": "Saisissez prix de revient et prix de vente pour obtenir votre marge bénéficiaire.",
+  "long_tail_anchor": "Marge en pourcentage du prix de vente",
+  "card_strings": {
+    "Cost Price ($)": "Prix de revient ($)",
+    "Profit Margin:": "Marge bénéficiaire :",
+    "Profit:": "Bénéfice :",
+    "Selling Price ($)": "Prix de vente ($)",
+    "e.g. 40": "p. ex. 40",
+    "e.g. 55": "p. ex. 55"
+  }
+}

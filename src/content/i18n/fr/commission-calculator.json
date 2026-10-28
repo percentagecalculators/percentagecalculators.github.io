@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de commission | Calculez votre commission sur ventes",
+  "meta_description": "Calculateur de commission gratuit. Saisissez votre montant de ventes et votre taux de commission pour calculer instantanément la commission gagnée.",
+  "h1": "Calculateur de commission",
+  "subtitle": "Saisissez votre <strong>montant de ventes</strong> et votre <strong>taux de commission</strong>, et ce <strong>calculateur de commission</strong> détermine instantanément la <strong>commission que vous avez gagnée</strong>.",
+  "hint": "Saisissez le montant des ventes et le taux de commission pour obtenir la commission gagnée.",
+  "long_tail_anchor": "Pourcentage de commission sur ventes",
+  "card_strings": {
+    "Commission Earned:": "Commission gagnée :",
+    "Commission Rate": "Taux de commission",
+    "Sales Amount ($)": "Montant des ventes ($)",
+    "e.g. 10": "p. ex. 10",
+    "e.g. 5000": "p. ex. 5000"
+  }
+}

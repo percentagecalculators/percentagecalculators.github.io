@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de diminution en pourcentage | Soustraire un pourcentage",
+  "meta_description": "Calculateur gratuit de diminution en pourcentage. Soustrayez instantanément n'importe quel pourcentage d'un nombre : dépréciation, perte de poids, réductions de budget.",
+  "h1": "Calculateur de diminution en pourcentage",
+  "subtitle": "Saisissez votre <strong>nombre de départ</strong> et le <strong>pourcentage à soustraire</strong>, et ce <strong>calculateur de diminution en pourcentage</strong> vous donne le <strong>montant de la réduction</strong> et la <strong>valeur finale</strong>. Si vous vous demandez ce que font 500 moins 20 %, c'est 400, et vous venez de vous épargner un calcul mental.",
+  "hint": "Saisissez un nombre et le pourcentage à soustraire pour obtenir la valeur réduite.",
+  "long_tail_anchor": "Soustraire un pourcentage d'un nombre",
+  "card_strings": {
+    "Decrease Amount:": "Montant de la diminution :",
+    "Decrease by": "Diminuer de",
+    "Enter percentage": "Saisissez le pourcentage",
+    "Enter starting number": "Saisissez le nombre de départ",
+    "New Value:": "Nouvelle valeur :",
+    "Original Value": "Valeur initiale"
+  }
+}

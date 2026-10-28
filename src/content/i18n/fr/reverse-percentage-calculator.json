@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-percentage-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de pourcentage inverse | Retrouver le nombre d'origine",
+  "meta_description": "Calculateur gratuit de pourcentage inverse. Retrouvez le nombre d'origine quand vous connaissez une valeur et son pourcentage : prix avant remise et bien plus.",
+  "h1": "Calculateur de pourcentage inverse",
+  "subtitle": "Vous avez un nombre et vous savez qu'il représente un certain pourcentage d'un total plus grand ? Saisissez la <strong>valeur connue</strong> et le <strong>pourcentage qu'elle représente</strong>, et ce <strong>calculateur de pourcentage inverse</strong> remonte au <strong>nombre d'origine</strong>. Si 30 représente 25 % du total, le total est 120.",
+  "hint": "Saisissez une valeur et le pourcentage qu'elle représente pour retrouver le nombre d'origine.",
+  "long_tail_anchor": "Retrouver le nombre d'origine",
+  "card_strings": {
+    "Original Total:": "Total d'origine :",
+    "Value": "Valeur",
+    "e.g. 30": "p. ex. 30",
+    "e.g. 45": "p. ex. 45",
+    "is this % of the total": "représente ce % du total"
+  }
+}

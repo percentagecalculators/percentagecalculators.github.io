@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de pourcentage d'un pourcentage | Combiner deux %",
+  "meta_description": "Calculateur gratuit de pourcentage d'un pourcentage. Multipliez deux pourcentages successifs, puis appliquez le taux combiné à une valeur pour cumuler taxes ou remises.",
+  "h1": "Calculateur de pourcentage d'un pourcentage",
+  "subtitle": "Saisissez deux <strong>pourcentages</strong> et ce <strong>calculateur de pourcentage d'un pourcentage</strong> les multiplie correctement pour vous donner le <strong>pourcentage combiné</strong> : ajoutez une valeur de départ pour voir exactement comment elle évolue au fil des deux étapes.",
+  "hint": "Multipliez deux pourcentages successifs pour obtenir le taux combiné.",
+  "long_tail_anchor": "Combiner deux pourcentages successifs",
+  "card_strings": {
+    "Apply to a Value (optional)": "Appliquer à une valeur (facultatif)",
+    "Combined Percentage:": "Pourcentage combiné :",
+    "Final Value:": "Valeur finale :",
+    "First Percentage": "Premier pourcentage",
+    "Second Percentage": "Deuxième pourcentage",
+    "Value After First %:": "Valeur après le premier % :",
+    "e.g. 200": "p. ex. 200",
+    "e.g. 40": "p. ex. 40",
+    "e.g. 90": "p. ex. 90"
+  }
+}

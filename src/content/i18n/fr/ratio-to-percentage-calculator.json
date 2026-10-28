@@ -1,0 +1,18 @@
+{
+  "slug": "ratio-to-percentage-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de rapport en pourcentage | Convertir un rapport en %",
+  "meta_description": "Calculateur gratuit de rapport en pourcentage. Saisissez les deux parties d'un rapport pour voir instantanément le total et le pourcentage que représente la première partie.",
+  "h1": "Calculateur de rapport en pourcentage",
+  "subtitle": "Saisissez les deux parties d'un <strong>rapport</strong> (comme 3 : 4), et ce <strong>calculateur de rapport en pourcentage</strong> affiche instantanément le <strong>total</strong> et le <strong>pourcentage</strong> que représente la première partie.",
+  "hint": "Saisissez les deux parties d'un rapport pour obtenir le pourcentage du total.",
+  "long_tail_anchor": "Convertir un rapport en part en pourcentage",
+  "card_strings": {
+    "A as % of Total:": "A en % du total :",
+    "Part A": "Partie A",
+    "Part B": "Partie B",
+    "Total:": "Total :",
+    "e.g. 3": "p. ex. 3",
+    "e.g. 4": "p. ex. 4"
+  }
+}

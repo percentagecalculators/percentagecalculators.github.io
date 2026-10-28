@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de pourcentage de coût matière | Coût d'un plat en %",
+  "meta_description": "Calculateur gratuit du pourcentage de coût matière. Saisissez le coût des ingrédients et le prix du plat pour calculer instantanément le pourcentage de coût matière d'un plat.",
+  "h1": "Calculateur de pourcentage de coût matière",
+  "subtitle": "Saisissez le <strong>coût des ingrédients</strong> et le <strong>prix du plat</strong>, et ce <strong>calculateur de pourcentage de coût matière</strong> détermine instantanément le <strong>pourcentage de coût matière</strong> de ce plat.",
+  "hint": "Saisissez le coût des ingrédients et le prix du plat pour obtenir le pourcentage de coût matière.",
+  "long_tail_anchor": "Pourcentage de coût d'un plat au restaurant",
+  "card_strings": {
+    "Food Cost Percentage:": "Pourcentage de coût matière :",
+    "Ingredient Cost ($)": "Coût des ingrédients ($)",
+    "Menu Price ($)": "Prix du plat ($)",
+    "e.g. 14": "p. ex. 14",
+    "e.g. 3.50": "p. ex. 3.50"
+  }
+}

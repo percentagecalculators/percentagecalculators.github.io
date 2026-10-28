@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de pourcentage de notes | Calculez le pourcentage d'un examen",
+  "meta_description": "Calculateur gratuit de pourcentage de notes. Saisissez les points obtenus et le total pour calculer instantanément le pourcentage de votre examen ou contrôle.",
+  "h1": "Calculateur de pourcentage de notes",
+  "subtitle": "Saisissez les <strong>points obtenus</strong> et le <strong>total des points</strong>, et ce <strong>calculateur de pourcentage de notes</strong> détermine instantanément votre <strong>pourcentage à l'examen</strong> : idéal pour les bulletins, les relevés et la vérification des résultats.",
+  "hint": "Saisissez les points obtenus et le total pour obtenir votre pourcentage.",
+  "long_tail_anchor": "Pourcentage de note d'examen et de contrôle",
+  "card_strings": {
+    "Marks Obtained": "Points obtenus",
+    "Percentage:": "Pourcentage :",
+    "Total Marks": "Total des points",
+    "e.g. 450": "p. ex. 450",
+    "e.g. 500": "p. ex. 500"
+  }
+}

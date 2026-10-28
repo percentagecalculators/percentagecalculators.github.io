@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de différence en pourcentage | Comparer deux valeurs",
+  "meta_description": "Calculateur gratuit de différence en pourcentage. Comparez deux nombres et trouvez leur différence en pourcentage. Utilise la moyenne comme base pour une comparaison symétrique et sans biais.",
+  "h1": "Calculateur de différence en pourcentage",
+  "subtitle": "Saisissez <strong>deux valeurs</strong> et ce <strong>calculateur de différence en pourcentage</strong> vous indique leur écart sous forme de <strong>pourcentage</strong>, en prenant leur <strong>moyenne</strong> comme base. Contrairement à la variation en pourcentage, l'ordre n'a pas d'importance ici : comparer 50 à 80 donne le même résultat que 80 à 50.",
+  "hint": "Saisissez deux valeurs pour obtenir la différence en pourcentage entre elles.",
+  "long_tail_anchor": "Comparer deux nombres de façon symétrique",
+  "card_strings": {
+    "Absolute Difference:": "Différence absolue :",
+    "Enter first number": "Saisissez le premier nombre",
+    "Enter second number": "Saisissez le deuxième nombre",
+    "First Value": "Première valeur",
+    "Percentage Difference:": "Différence en pourcentage :",
+    "Second Value": "Deuxième valeur"
+  }
+}

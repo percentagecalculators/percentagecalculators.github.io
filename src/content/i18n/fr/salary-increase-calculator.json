@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur d'augmentation de salaire | Calculez votre nouveau salaire",
+  "meta_description": "Calculateur gratuit d'augmentation de salaire. Saisissez votre salaire actuel et le pourcentage d'augmentation pour calculer instantanément le montant de l'augmentation et votre nouveau salaire.",
+  "h1": "Calculateur d'augmentation de salaire",
+  "subtitle": "Saisissez votre <strong>salaire actuel</strong> et votre <strong>pourcentage d'augmentation</strong>, et ce <strong>calculateur d'augmentation de salaire</strong> détermine instantanément le <strong>montant de l'augmentation</strong> et votre <strong>nouveau salaire</strong>.",
+  "hint": "Saisissez votre salaire actuel et le % d'augmentation pour obtenir votre nouveau salaire.",
+  "long_tail_anchor": "Pourcentage d'augmentation et hausse de salaire",
+  "card_strings": {
+    "Current Salary ($)": "Salaire actuel ($)",
+    "New Salary:": "Nouveau salaire :",
+    "Raise": "Augmentation",
+    "Raise Amount:": "Montant de l'augmentation :",
+    "e.g. 5": "p. ex. 5",
+    "e.g. 60000": "p. ex. 60000"
+  }
+}

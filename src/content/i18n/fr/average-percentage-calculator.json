@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de pourcentage moyen | Moyenne simple et pondérée",
+  "meta_description": "Calculateur gratuit de pourcentage moyen, en mode simple ou pondéré. Combinez correctement les pourcentages de groupes de tailles différentes pour des notes ou des sondages.",
+  "h1": "Calculateur de pourcentage moyen",
+  "subtitle": "Saisissez une liste de <strong>pourcentages</strong> séparés par des virgules, et ce <strong>calculateur de pourcentage moyen</strong> vous donne la <strong>moyenne</strong>, la <strong>somme</strong>, le <strong>nombre</strong> de valeurs et leur étendue. Ajoutez une liste correspondante d'<strong>effectifs</strong> lorsque les groupes n'ont pas la même taille, et il passe automatiquement à une <strong>moyenne pondérée</strong> correcte.",
+  "hint": "Saisissez des pourcentages (et éventuellement des effectifs) pour une moyenne simple ou pondérée.",
+  "long_tail_anchor": "Moyenne de plusieurs pourcentages",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "Ajoutez un poids par pourcentage (par exemple des effectifs de classe ou un nombre de répondants) pour combiner correctement des groupes de tailles inégales.",
+    "Average:": "Moyenne :",
+    "Count:": "Nombre :",
+    "Percentages (comma or space separated)": "Pourcentages (séparés par des virgules ou des espaces)",
+    "Sample Sizes / Weights (optional)": "Effectifs / poids (facultatif)",
+    "Sum:": "Somme :",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "p. ex. 30, 50, 20, 40 (laissez vide pour une moyenne simple)",
+    "e.g. 85, 90, 78, 92": "p. ex. 85, 90, 78, 92"
+  }
+}

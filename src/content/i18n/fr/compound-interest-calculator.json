@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur d'intérêts composés | Calculez la croissance dans le temps",
+  "meta_description": "Calculateur d'intérêts composés gratuit. Saisissez le capital, le taux annuel, la durée et la fréquence de capitalisation pour calculer instantanément les intérêts gagnés et le montant total.",
+  "h1": "Calculateur d'intérêts composés",
+  "subtitle": "Saisissez le <strong>capital</strong>, le <strong>taux annuel</strong>, la <strong>durée</strong> et la <strong>fréquence de capitalisation</strong>, et ce <strong>calculateur d'intérêts composés</strong> affiche instantanément les <strong>intérêts gagnés</strong> et le <strong>montant total</strong>.",
+  "hint": "Saisissez capital, taux, durée et fréquence de capitalisation pour obtenir le montant total.",
+  "long_tail_anchor": "Fréquence de capitalisation et croissance",
+  "card_strings": {
+    "Annual Rate": "Taux annuel",
+    "Compounding / Year": "Capitalisations / an",
+    "Interest Earned:": "Intérêts gagnés :",
+    "Principal ($)": "Capital ($)",
+    "Time (Years)": "Durée (années)",
+    "Total Amount:": "Montant total :",
+    "e.g. 1000": "p. ex. 1000",
+    "e.g. 12": "p. ex. 12",
+    "e.g. 3": "p. ex. 3",
+    "e.g. 5": "p. ex. 5"
+  }
+}

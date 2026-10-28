@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur d'intérêts de prêt | Mensualité et intérêts totaux",
+  "meta_description": "Calculateur d'intérêts de prêt gratuit. Saisissez le montant, le taux annuel et la durée pour calculer instantanément votre mensualité et le total des intérêts à payer.",
+  "h1": "Calculateur d'intérêts de prêt",
+  "subtitle": "Saisissez le <strong>montant du prêt</strong>, le <strong>taux d'intérêt annuel</strong> et la <strong>durée</strong>, et ce <strong>calculateur d'intérêts de prêt</strong> détermine instantanément votre <strong>mensualité</strong> et le <strong>total des intérêts</strong> que vous paierez.",
+  "hint": "Saisissez montant, taux et durée pour obtenir votre mensualité.",
+  "long_tail_anchor": "Mensualité et intérêts totaux",
+  "card_strings": {
+    "Annual Rate": "Taux annuel",
+    "Loan Amount ($)": "Montant du prêt ($)",
+    "Loan Term (Years)": "Durée du prêt (années)",
+    "Monthly EMI:": "Mensualité :",
+    "Total Interest:": "Intérêts totaux :",
+    "e.g. 20000": "p. ex. 20000",
+    "e.g. 5": "p. ex. 5",
+    "e.g. 7.5": "p. ex. 7.5"
+  }
+}

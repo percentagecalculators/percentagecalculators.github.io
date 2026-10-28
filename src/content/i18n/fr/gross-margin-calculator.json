@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de marge brute | Calculez le taux de marge brute en %",
+  "meta_description": "Calculateur de marge brute gratuit. Saisissez le chiffre d'affaires et le coût des marchandises vendues (CMV) pour calculer instantanément le bénéfice brut et le taux de marge brute.",
+  "h1": "Calculateur de marge brute",
+  "subtitle": "Saisissez votre <strong>chiffre d'affaires</strong> et le <strong>coût des marchandises vendues (CMV)</strong>, et ce <strong>calculateur de marge brute</strong> détermine instantanément votre <strong>bénéfice brut</strong> et votre <strong>taux de marge brute</strong>.",
+  "hint": "Saisissez chiffre d'affaires et CMV pour obtenir votre taux de marge brute.",
+  "long_tail_anchor": "Marge en pourcentage du chiffre d'affaires et du CMV",
+  "card_strings": {
+    "COGS ($)": "CMV ($)",
+    "Gross Margin:": "Marge brute :",
+    "Gross Profit:": "Bénéfice brut :",
+    "Revenue ($)": "Chiffre d'affaires ($)",
+    "e.g. 100000": "p. ex. 100000",
+    "e.g. 65000": "p. ex. 65000"
+  }
+}

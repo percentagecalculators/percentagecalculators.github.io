@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur d'APR | Taux annuel en pourcentage",
+  "meta_description": "Calculateur d'APR gratuit. Convertissez un taux d'intérêt périodique en taux annuel en pourcentage (APR) instantanément : la façon standard dont prêts et cartes de crédit indiquent leur coût.",
+  "h1": "Calculateur d'APR",
+  "subtitle": "Saisissez le <strong>taux d'intérêt périodique</strong> et le <strong>nombre de périodes par an</strong>, et ce <strong>calculateur d'APR</strong> détermine le <strong>taux annuel en pourcentage</strong> : la méthode standard, sans capitalisation, utilisée par les prêteurs pour exprimer le coût d'un emprunt.",
+  "hint": "Saisissez le taux périodique et le nombre de périodes par an pour obtenir l'APR.",
+  "long_tail_anchor": "Calculateur de taux annuel en pourcentage",
+  "card_strings": {
+    "APR:": "APR :",
+    "Periodic Interest Rate": "Taux d'intérêt périodique",
+    "Periods / Year": "Périodes / an",
+    "e.g. 1.5": "p. ex. 1.5",
+    "e.g. 12": "p. ex. 12"
+  }
+}

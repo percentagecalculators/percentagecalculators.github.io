@@ -1,0 +1,16 @@
+{
+  "slug": "percentile-to-percentage-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de centile en pourcentage | Estimer le pourcentage",
+  "meta_description": "Calculateur gratuit de centile en pourcentage. Obtenez rapidement un pourcentage estimé à partir du centile d'un examen grâce à une formule d'approximation courante.",
+  "h1": "Calculateur de centile en pourcentage",
+  "subtitle": "Saisissez votre <strong>centile</strong> et ce <strong>calculateur de centile en pourcentage</strong> vous donne rapidement un <strong>pourcentage estimé</strong> à l'aide d'une approximation couramment utilisée. Centile et pourcentage ne mesurent pas la même chose : considérez ce résultat comme une estimation, et non comme une conversion officielle.",
+  "hint": "Saisissez un centile (0–100) pour obtenir un pourcentage estimé.",
+  "long_tail_anchor": "Estimer le pourcentage à partir du rang centile",
+  "card_strings": {
+    "%ile": "cent.",
+    "Estimated Percentage:": "Pourcentage estimé :",
+    "Percentile": "Centile",
+    "e.g. 85": "p. ex. 85"
+  }
+}

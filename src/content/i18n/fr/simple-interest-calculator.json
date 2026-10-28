@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur d'intérêts simples | Intérêts et montant total",
+  "meta_description": "Calculateur d'intérêts simples gratuit. Saisissez le capital, le taux annuel et la durée pour calculer instantanément les intérêts gagnés et le montant total.",
+  "h1": "Calculateur d'intérêts simples",
+  "subtitle": "Saisissez le <strong>capital</strong>, le <strong>taux d'intérêt annuel</strong> et la <strong>durée en années</strong>, et ce <strong>calculateur d'intérêts simples</strong> affiche instantanément les <strong>intérêts gagnés</strong> et le <strong>montant total</strong>.",
+  "hint": "Saisissez capital, taux annuel et durée pour obtenir les intérêts et le montant total.",
+  "long_tail_anchor": "Formule capital, taux et durée",
+  "card_strings": {
+    "Annual Rate": "Taux annuel",
+    "Interest Earned:": "Intérêts gagnés :",
+    "Principal ($)": "Capital ($)",
+    "Time (Years)": "Durée (années)",
+    "Total Amount:": "Montant total :",
+    "e.g. 1000": "p. ex. 1000",
+    "e.g. 3": "p. ex. 3",
+    "e.g. 5": "p. ex. 5"
+  }
+}

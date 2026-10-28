@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de remise en pourcentage | Prix soldé et économies",
+  "meta_description": "Calculateur gratuit de remise en pourcentage. Calculez instantanément les prix soldés et vos économies. Trouvez le prix final après n'importe quelle remise : votre allié pour les bonnes affaires.",
+  "h1": "Calculateur de remise en pourcentage",
+  "subtitle": "Saisissez le <strong>prix d'origine</strong> et le <strong>pourcentage de remise</strong>, et ce <strong>calculateur de remise en pourcentage</strong> affiche le <strong>prix soldé</strong> et l'<strong>économie</strong> exacte que vous réalisez. La prochaine fois que vous verrez une pancarte « -30 % », vous saurez ce que vous payez vraiment.",
+  "hint": "Saisissez le prix d'origine et la remise en % pour obtenir le prix soldé.",
+  "long_tail_anchor": "Calcul de remise et de prix soldé",
+  "card_strings": {
+    "Discount": "Remise",
+    "Enter discount %": "Saisissez la remise en %",
+    "Enter price": "Saisissez le prix",
+    "Final Price:": "Prix final :",
+    "Original Price ($)": "Prix d'origine ($)",
+    "You Save:": "Vous économisez :"
+  }
+}

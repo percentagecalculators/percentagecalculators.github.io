@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de pourcentage de victoires et défaites | Calculez votre taux de victoire",
+  "meta_description": "Calculateur gratuit de pourcentage de victoires et défaites. Saisissez victoires, défaites et nuls pour calculer instantanément votre pourcentage de victoires dans n'importe quel sport, jeu ou compétition.",
+  "h1": "Calculateur de pourcentage de victoires et défaites",
+  "subtitle": "Saisissez vos <strong>victoires</strong>, vos <strong>défaites</strong> et d'éventuels <strong>matchs nuls</strong>, et ce <strong>calculateur de pourcentage de victoires et défaites</strong> détermine instantanément votre <strong>pourcentage de victoires</strong>.",
+  "hint": "Saisissez victoires, défaites et nuls pour obtenir votre pourcentage de victoires.",
+  "long_tail_anchor": "Calculez votre taux de victoire sportif",
+  "card_strings": {
+    "Losses": "Défaites",
+    "Ties": "Nuls",
+    "Total Games:": "Total de matchs :",
+    "Win Percentage:": "Pourcentage de victoires :",
+    "Wins": "Victoires",
+    "e.g. 10": "p. ex. 10",
+    "e.g. 18": "p. ex. 18",
+    "e.g. 2": "p. ex. 2"
+  }
+}

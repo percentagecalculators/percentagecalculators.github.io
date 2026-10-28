@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de croissance en pourcentage | Taux de croissance d'entreprise",
+  "meta_description": "Calculateur gratuit de croissance en pourcentage. Calculez les taux de croissance du chiffre d'affaires, des clients, des ventes et des KPI. Suivez la performance de votre entreprise avec des indicateurs précis.",
+  "h1": "Calculateur de croissance en pourcentage",
+  "subtitle": "Saisissez une <strong>valeur initiale</strong> et une <strong>valeur finale</strong>, et ce <strong>calculateur de croissance en pourcentage</strong> affiche le <strong>taux de croissance</strong> et le <strong>montant de la croissance</strong>. Il répond à la question : de quel pourcentage votre nombre a-t-il progressé du point A au point B ?",
+  "hint": "Saisissez une valeur initiale et une valeur finale pour obtenir la croissance en pourcentage.",
+  "long_tail_anchor": "Taux de croissance d'entreprise et du chiffre d'affaires",
+  "card_strings": {
+    "Ending value": "Valeur finale",
+    "Final Value": "Valeur finale",
+    "Growth Amount:": "Montant de la croissance :",
+    "Growth Rate:": "Taux de croissance :",
+    "Initial Value": "Valeur initiale",
+    "Starting value": "Valeur de départ"
+  }
+}

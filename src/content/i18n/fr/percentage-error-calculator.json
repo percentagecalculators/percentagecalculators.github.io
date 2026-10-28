@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur d'erreur en pourcentage | Erreur relative en laboratoire",
+  "meta_description": "Calculateur gratuit d'erreur en pourcentage. Calculez l'erreur relative entre valeurs expérimentales et théoriques pour les travaux pratiques de physique, chimie et biologie.",
+  "h1": "Calculateur d'erreur en pourcentage",
+  "subtitle": "Saisissez votre <strong>valeur mesurée (expérimentale)</strong> et la <strong>valeur vraie (théorique)</strong>, et ce <strong>calculateur d'erreur en pourcentage</strong> affiche l'<strong>erreur en pourcentage</strong> entre les deux. Il utilise la formule standard : |mesurée − vraie| ÷ |vraie| × 100.",
+  "hint": "Saisissez vos valeurs mesurée et vraie pour obtenir l'erreur en pourcentage.",
+  "long_tail_anchor": "Valeur expérimentale et valeur théorique",
+  "card_strings": {
+    "Absolute Error:": "Erreur absolue :",
+    "Enter expected value": "Saisissez la valeur attendue",
+    "Enter measured value": "Saisissez la valeur mesurée",
+    "Experimental (Measured)": "Expérimentale (mesurée)",
+    "Percentage Error:": "Erreur en pourcentage :",
+    "Theoretical (Expected)": "Théorique (attendue)"
+  }
+}

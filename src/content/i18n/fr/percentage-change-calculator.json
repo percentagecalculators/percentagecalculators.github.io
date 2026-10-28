@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de variation en pourcentage | Hausse ou baisse en %",
+  "meta_description": "Calculateur gratuit de variation en pourcentage. Calculez la hausse ou la baisse en pourcentage entre deux valeurs : suivez les variations de cours et de prix.",
+  "h1": "Calculateur de variation en pourcentage",
+  "subtitle": "Saisissez une <strong>ancienne valeur</strong> et une <strong>nouvelle valeur</strong>, et ce <strong>calculateur de variation en pourcentage</strong> vous indique la <strong>hausse ou baisse en pourcentage</strong> entre les deux. Le résultat est positif pour une hausse et négatif pour une baisse : passer de 80 à 100 donne +25 %.",
+  "hint": "Saisissez une ancienne et une nouvelle valeur pour obtenir la variation en pourcentage.",
+  "long_tail_anchor": "Hausse ou baisse en pourcentage",
+  "card_strings": {
+    "Change Type:": "Type de variation :",
+    "Enter ending value": "Saisissez la valeur finale",
+    "Enter starting value": "Saisissez la valeur de départ",
+    "New Value (Current)": "Nouvelle valeur (actuelle)",
+    "Old Value (Original)": "Ancienne valeur (d'origine)",
+    "Percentage Change:": "Variation en pourcentage :"
+  }
+}

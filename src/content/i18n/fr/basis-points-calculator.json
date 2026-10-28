@@ -1,0 +1,15 @@
+{
+  "slug": "basis-points-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur de points de base | Convertir les points de base en pourcentage",
+  "meta_description": "Calculateur gratuit de points de base. Saisissez une valeur en points de base (pb) pour la convertir instantanément en pourcentage : résultats précis pour la finance et le trading.",
+  "h1": "Calculateur de points de base",
+  "subtitle": "Saisissez une valeur en <strong>points de base (pb)</strong> et ce <strong>calculateur de points de base</strong> la convertit instantanément en <strong>pourcentage</strong> : la façon standard d'exprimer en finance de petites variations de taux.",
+  "hint": "Saisissez des points de base pour obtenir le pourcentage équivalent.",
+  "long_tail_anchor": "Convertir des points de base en pourcentage",
+  "card_strings": {
+    "Basis Points (bps)": "Points de base (pb)",
+    "Percentage:": "Pourcentage :",
+    "e.g. 25": "p. ex. 25"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "fr",
+  "meta_title": "Calculateur d'amortissement | Méthode linéaire",
+  "meta_description": "Calculateur d'amortissement gratuit selon la méthode linéaire. Saisissez le coût de l'actif, la valeur résiduelle et la durée d'utilisation pour calculer l'amortissement annuel.",
+  "h1": "Calculateur d'amortissement",
+  "subtitle": "Saisissez le <strong>coût de l'actif</strong>, la <strong>valeur résiduelle</strong> et la <strong>durée d'utilisation</strong>, et ce <strong>calculateur d'amortissement</strong> détermine instantanément l'<strong>amortissement annuel</strong> selon la méthode linéaire.",
+  "hint": "Saisissez coût, valeur résiduelle et durée d'utilisation pour obtenir l'amortissement annuel.",
+  "long_tail_anchor": "Amortissement linéaire d'un actif",
+  "card_strings": {
+    "Annual Depreciation:": "Amortissement annuel :",
+    "Asset Cost ($)": "Coût de l'actif ($)",
+    "Depreciation Rate:": "Taux d'amortissement :",
+    "Salvage Value ($)": "Valeur résiduelle ($)",
+    "Useful Life (Years)": "Durée d'utilisation (années)",
+    "e.g. 1000": "p. ex. 1000",
+    "e.g. 10000": "p. ex. 10000",
+    "e.g. 5": "p. ex. 5"
+  }
+}
