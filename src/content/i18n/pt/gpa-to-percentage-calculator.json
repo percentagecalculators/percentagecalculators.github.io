@@ -1,14 +1,14 @@
 {
   "slug": "gpa-to-percentage-calculator",
   "lang": "pt",
-  "meta_title": "Calculadora de GPA para Porcentagem | Converta GPA da Escala 4,0 em %",
-  "meta_description": "Calculadora gratuita de GPA para porcentagem. Converta seu GPA da escala 4,0 em uma porcentagem equivalente na hora. Precisa, simples e sem cadastro.",
+  "meta_title": "Calculadora de GPA para Porcentagem | Converta GPA da Escala 4.0 em %",
+  "meta_description": "Calculadora gratuita de GPA para porcentagem. Converta seu GPA da escala 4.0 em uma porcentagem equivalente na hora. Precisa, simples e sem cadastro.",
   "h1": "Calculadora de GPA para Porcentagem",
-  "subtitle": "Digite seu <strong>GPA</strong> na <strong>escala padrão de 4,0</strong> e esta <strong>calculadora de GPA para porcentagem</strong> o converte na hora em uma <strong>porcentagem</strong> equivalente, útil para candidaturas, históricos escolares e para comparar sistemas de notas.",
-  "hint": "Digite seu GPA da escala 4,0 para obter a porcentagem equivalente.",
-  "long_tail_anchor": "Converter GPA da escala 4,0 em porcentagem",
+  "subtitle": "Digite seu <strong>GPA</strong> na <strong>escala padrão de 4.0</strong> e esta <strong>calculadora de GPA para porcentagem</strong> o converte na hora em uma <strong>porcentagem</strong> equivalente, útil para candidaturas, históricos escolares e para comparar sistemas de notas.",
+  "hint": "Digite seu GPA da escala 4.0 para obter a porcentagem equivalente.",
+  "long_tail_anchor": "Converter GPA da escala 4.0 em porcentagem",
   "card_strings": {
-    "GPA (4.0 Scale)": "GPA (escala 4,0)",
+    "GPA (4.0 Scale)": "GPA (escala 4.0)",
     "Percentage:": "Porcentagem:",
     "e.g. 3.5": "p. ex. 3.5"
   }
