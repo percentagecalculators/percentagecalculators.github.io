@@ -175,6 +175,7 @@ UI_EN = {
     "related_aria": "Related calculators",
     "faq_heading": "Frequently Asked Questions",
     "faq_q_label": "Q.",
+    "ad_label": "Advertisement",
     "toc_label": "Table of Contents",
     "copy_result": "Copy result",
     "copied": "Copied!",
@@ -372,7 +373,7 @@ def render_adsense_header():
     js/adsense.js: 728x90 at viewport width >=728px, 300x100 below that."""
     return (
         '<div class="ad-slot mx-auto my-1 max-w-4xl px-2 text-center sm:px-6">'
-        '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">Advertisement</p>'
+        '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">%s</p>'
         '<ins class="adsbygoogle" id="adsense-header" data-ad-client="%s" data-ad-slot="%s"></ins>'
         "<script>(function(){"
         'var ins=document.getElementById("adsense-header");'
@@ -380,18 +381,18 @@ def render_adsense_header():
         'else{ins.style.display="inline-block";ins.style.width="300px";ins.style.height="100px";}'
         "(adsbygoogle=window.adsbygoogle||[]).push({});"
         "})();</script></div>"
-        % (ADSENSE_CLIENT, ADSENSE_SLOTS["header"])
+        % (html.escape(t("ad_label")), ADSENSE_CLIENT, ADSENSE_SLOTS["header"])
     )
 
 
 def render_adsense_fixed(slot_key):
     return (
         '<div class="ad-slot mx-auto my-1 max-w-4xl px-2 text-center sm:px-6">'
-        '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">Advertisement</p>'
+        '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">%s</p>'
         '<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" '
         'data-ad-client="%s" data-ad-slot="%s"></ins>'
         "<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>"
-        % (ADSENSE_CLIENT, ADSENSE_SLOTS[slot_key])
+        % (html.escape(t("ad_label")), ADSENSE_CLIENT, ADSENSE_SLOTS[slot_key])
     )
 DEFAULT_TOOL_ICON_SVG = '<svg aria-hidden="true" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 5 5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>'
 

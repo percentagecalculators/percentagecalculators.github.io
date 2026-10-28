@@ -100,5 +100,6 @@
     "tip-calculator": "Calculadora de Propinas",
     "win-loss-percentage-calculator": "Calculadora de Victorias y Derrotas"
   },
-  "native_name": "Español"
+  "native_name": "Español",
+  "ad_label": "Publicidad"
 }
