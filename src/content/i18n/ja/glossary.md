@@ -40,3 +40,5 @@ Decisions (made 2026-10-28):
 | baker's percentage | ベーカーズパーセント | |
 | ratio / fraction / decimal | 比率 / 分数 / 小数 | |
 | hydration (baking) | 加水率 | |
+
+Open for review (self-review by Claude, no native reviewer): the digit check forced English number words into kanji numerals (一つ, 五年) and a few stiff rewordings; class names for Indian/UK degrees (優等付き第一級, オナーズ学位); sales jargon (ノルマ, クローバック); emphasis placed on natural Japanese equivalents to keep the <strong>/<em> counts. Source note: SGPA subtitle (×9.5) vs article formula ((SGPA × 10) − 7.5) mismatch comes from English.
