@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "lang": "nl",
+  "meta_title": "Procentuele Afname Calculator | Trek een percentage af",
+  "meta_description": "Gratis procentuele afname calculator. Trek direct een willekeurig percentage van een getal af – bereken waardevermindering, gewichtsverlies en bezuinigingen.",
+  "h1": "Procentuele Afname Calculator",
+  "subtitle": "Voer je <strong>beginwaarde</strong> en het <strong>af te trekken percentage</strong> in, en deze <strong>procentuele afname calculator</strong> geeft je het <strong>verminderingsbedrag</strong> en de <strong>eindwaarde</strong>. Als je je afvraagt wat 500 min 20 % is: dat is 400, en je hebt jezelf wat hoofdrekenen bespaard.",
+  "hint": "Voer een getal en het af te trekken percentage in om de verminderde waarde te krijgen.",
+  "long_tail_anchor": "Een percentage van een getal aftrekken",
+  "card_strings": {
+    "Decrease Amount:": "Verminderingsbedrag:",
+    "Decrease by": "Verminderen met",
+    "Enter percentage": "Voer percentage in",
+    "Enter starting number": "Voer beginwaarde in",
+    "New Value:": "Nieuwe waarde:",
+    "Original Value": "Beginwaarde"
+  }
+}

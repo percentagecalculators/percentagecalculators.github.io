@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "Foodcostpercentage Calculator | Menukosten in % berekenen",
+  "meta_description": "Gratis foodcostpercentage calculator. Voer de ingrediëntkosten en de menuprijs in om direct het foodcostpercentage van een gerecht te berekenen.",
+  "h1": "Foodcostpercentage Calculator",
+  "subtitle": "Voer de <strong>ingrediëntkosten</strong> en de <strong>menuprijs</strong> in, en deze <strong>foodcostpercentage calculator</strong> berekent direct het <strong>foodcostpercentage</strong> van dat gerecht.",
+  "hint": "Voer ingrediëntkosten en menuprijs in om het foodcostpercentage te krijgen.",
+  "long_tail_anchor": "Kostenpercentage van restaurantmenu's",
+  "card_strings": {
+    "Food Cost Percentage:": "Foodcostpercentage:",
+    "Ingredient Cost ($)": "Ingrediëntkosten ($)",
+    "Menu Price ($)": "Menuprijs ($)",
+    "e.g. 14": "bijv. 14",
+    "e.g. 3.50": "bijv. 3.50"
+  }
+}

@@ -14,6 +14,7 @@ The module defines:
               native_name, nav_groups, company_links
   HOME_NAME   nav name of the home page (other nav names default to the h1)
   NAV_OVERRIDES  optional {slug: shorter nav name}
+  ALLOW_SAME  optional set of "slug.field" whose text may legitimately equal English
   PAGES       {page: [translated strings in source order, or None to copy the
               English string verbatim]} -- order: h1, subtitle (if the English
               page has one), then per section: heading, paragraphs, list items
@@ -152,8 +153,8 @@ def main(path):
             if s not in v.card_strings(en["card"]["fields_html"]):
                 problems.append(f"{slug}: card string {s!r} is not in the English card")
         for name, val in (("meta_title", mt), ("meta_description", md), ("h1", h1), ("subtitle", sub), ("hint", hint), ("long_tail_anchor", anchor)):
-            if val == en[name]:
-                problems.append(f"{slug}.{name} is still the English text")
+            if val == en[name] and f"{slug}.{name}" not in getattr(m, "ALLOW_SAME", ()):
+                problems.append(f"{slug}.{name} is still the English text (add \"{slug}.{name}\" to ALLOW_SAME if intentional)")
         h1s[slug] = h1
         docs[os.path.join(out_dir, slug + ".json")] = {
             "slug": slug, "lang": lang, "meta_title": mt, "meta_description": md, "h1": h1,

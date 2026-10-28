@@ -1,0 +1,424 @@
+{
+  "about": {
+    "meta_title": "Over ons | Percentage Calculators",
+    "meta_description": "Lees meer over Percentage Calculators – een gratis verzameling percentagehulpmiddelen in je browser, gebouwd voor snelheid, nauwkeurigheid en gebruiksgemak op elk apparaat.",
+    "h1": "Over Percentage Calculators",
+    "sections": [
+      {
+        "heading": "Onze missie",
+        "paragraphs": [
+          "Percentage Calculators is ontstaan met een eenvoudig doel: percentageberekeningen snel, nauwkeurig en toegankelijk maken voor iedereen. Of je nu een student bent die huiswerk maakt, een professional die bedrijfscijfers analyseert of iemand die in het restaurant de fooi uitrekent – wij helpen je verder."
+        ]
+      },
+      {
+        "heading": "Wie wij zijn",
+        "paragraphs": [
+          "Hoi! Ik ben <strong>Subash Geetha Krishnan</strong>, Tech Lead met meer dan 15 jaar ervaring in bedrijfstechnologie. Vanuit Singapore heb ik mijn loopbaan besteed aan het oplossen van complexe technische problemen en het bouwen van hulpmiddelen die het leven makkelijker maken.",
+          "Na jaren zoeken naar eenvoudige, betrouwbare percentagecalculators online, en de meeste vol advertenties of zonder functies aan te treffen, besloot ik iets beters te bouwen. Percentage Calculators is het resultaat: een overzichtelijke, snelle en volledig gratis verzameling hulpmiddelen die is uitgegroeid van een handvol calculators tot een complete bibliotheek voor alledaagse wiskunde, schoolcijfers en persoonlijke financiën."
+        ]
+      },
+      {
+        "heading": "Wat we bieden",
+        "paragraphs": [
+          "Ons platform bevat inmiddels 41 gespecialiseerde percentagecalculators, ingedeeld in vijf categorieën zodat je snel het juiste hulpmiddel vindt:"
+        ],
+        "list": [
+          "<strong>Basishulpmiddelen voor percentages</strong> – De essentie: een percentage vinden, een getal verhogen of verlagen en twee waarden vergelijken.",
+          "<strong>Omzetters</strong> – Zet om tussen percentages, breuken, decimalen, verhoudingen en andere eenheidsvormen.",
+          "<strong>Onderwijs</strong> – GPA-, CGPA-, SGPA-, cijfer- en percentielomzettingen voor studenten.",
+          "<strong>Financiën en zakelijk</strong> – Rentetarieven, winstmarges, opslag, salarisverhogingen en bedrijfsgroei.",
+          "<strong>Dagelijks en specifiek</strong> – Fooien, bakverhoudingen, winst- en verliesstanden en andere eenmalige percentageproblemen."
+        ]
+      },
+      {
+        "heading": "Waarom voor ons kiezen?",
+        "list": [
+          "<strong>100 % gratis</strong> – Alle hulpmiddelen zijn volledig gratis en vereisen geen registratie",
+          "<strong>Direct resultaat</strong> – Berekeningen verschijnen terwijl je typt, zonder op knoppen te klikken",
+          "<strong>Mobielvriendelijk</strong> – Werkt perfect op elk apparaat",
+          "<strong>Geen advertentie-overload</strong> – Overzichtelijke interface gericht op functionaliteit",
+          "<strong>Privacy eerst</strong> – We volgen je berekeningen niet en verkopen je gegevens niet",
+          "<strong>Formule in beeld</strong> – Zie de wiskunde achter elke berekening en leer terwijl je rekent"
+        ]
+      },
+      {
+        "heading": "Onze toezegging",
+        "paragraphs": [
+          "We streven ernaar Percentage Calculators gratis, snel en betrouwbaar te houden. We verbeteren onze hulpmiddelen voortdurend op basis van feedback van gebruikers en voegen nieuwe calculators toe om meer van de percentageproblemen te dekken waar mensen dagelijks tegenaan lopen.",
+          "Heb je een suggestie of een fout gevonden? We horen het graag! Ga naar onze <a href=\"/contact\">contactpagina</a> om contact op te nemen."
+        ]
+      },
+      {
+        "heading": "Blijf in contact",
+        "paragraphs": [
+          "Volg ons op social media voor updates, tips en meer:"
+        ],
+        "list": [
+          "<a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>",
+          "<a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter/X</a>",
+          "<a href=\"https://github.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>",
+          "<a href=\"https://www.facebook.com/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook</a>"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "meta_title": "Contact | Percentage Calculators",
+    "meta_description": "Neem contact op met het team van Percentage Calculators voor vragen, feedback of foutmeldingen over onze gratis percentagehulpmiddelen. We lezen elk bericht.",
+    "h1": "Contact",
+    "sections": [
+      {
+        "heading": "Neem contact op",
+        "paragraphs": [
+          "We horen graag van je! Of je nu een vraag of suggestie hebt, een fout hebt gevonden of gewoon hallo wilt zeggen – aarzel niet om contact op te nemen."
+        ]
+      },
+      {
+        "heading": "Vind ons online",
+        "paragraphs": [
+          "<strong>Subash Geetha Krishnan</strong><br>Oprichter en ontwikkelaar, gevestigd in Singapore."
+        ],
+        "list": [
+          "<strong>LinkedIn:</strong> <a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">linkedin.com/in/buzzsubash</a>",
+          "<strong>Twitter/X:</strong> <a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">@buzzsubash</a>",
+          "<strong>GitHub:</strong> <a href=\"https://github.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">github.com/buzzsubash</a>",
+          "<strong>Facebook:</strong> <a href=\"https://www.facebook.com/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">facebook.com/buzzsubash</a>",
+          "<strong>Reddit:</strong> <a href=\"https://www.reddit.com/user/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">u/buzzsubash</a>"
+        ]
+      },
+      {
+        "heading": "Waarmee kunnen we helpen?",
+        "paragraphs": [
+          "We helpen je graag met:"
+        ],
+        "list": [
+          "<strong>Foutmeldingen</strong> – Werkt iets niet? Laat het ons weten!",
+          "<strong>Functieverzoeken</strong> – Heb je een idee voor een nieuwe calculator of verbetering?",
+          "<strong>Algemene vragen</strong> – Hulp nodig bij het gebruik van onze hulpmiddelen?",
+          "<strong>Feedback</strong> – We waarderen alle feedback, positief of constructief",
+          "<strong>Samenwerkingsverzoeken</strong> – Interesse om samen te werken?"
+        ]
+      },
+      {
+        "heading": "Reactietijd",
+        "paragraphs": [
+          "We reageren doorgaans binnen 24 tot 48 uur.",
+          "Bedankt voor het gebruik van Percentage Calculators!"
+        ]
+      }
+    ]
+  },
+  "disclaimer": {
+    "meta_title": "Disclaimer | Percentage Calculators",
+    "meta_description": "Disclaimer van Percentage Calculators: onze hulpmiddelen zijn alleen bedoeld ter informatie en vervangen geen professioneel advies.",
+    "h1": "Disclaimer",
+    "subtitle": "Laatst bijgewerkt: december 2024",
+    "sections": [
+      {
+        "heading": "Algemene informatie",
+        "paragraphs": [
+          "De informatie die Percentage Calculators („wij”, „ons” of „onze”) op deze website verstrekt, is uitsluitend bedoeld voor algemene informatie- en onderwijsdoeleinden. Alle informatie op de site wordt te goeder trouw verstrekt; wij geven echter geen enkele verklaring of garantie, expliciet of impliciet, met betrekking tot de juistheid, geschiktheid, geldigheid, betrouwbaarheid, beschikbaarheid of volledigheid van de informatie op de site."
+        ]
+      },
+      {
+        "heading": "Geen professioneel advies",
+        "paragraphs": [
+          "De calculators en informatie op deze website zijn niet bedoeld als vervanging van professioneel advies. Op de resultaten van onze calculators mag niet worden vertrouwd bij financiële, juridische, medische of andere professionele beslissingen. Raadpleeg in dergelijke kwesties altijd gekwalificeerde professionals.",
+          "In het bijzonder:"
+        ],
+        "list": [
+          "<strong>Financiële beslissingen:</strong> Vertrouw niet uitsluitend op onze calculators voor beleggings-, belasting- of grote financiële beslissingen. Raadpleeg een gekwalificeerde financieel adviseur of accountant.",
+          "<strong>Wetenschappelijk of academisch werk:</strong> Hoewel onze calculators nauwkeurig zijn ontworpen, moet je resultaten voor academische inzendingen of wetenschappelijk onderzoek altijd controleren.",
+          "<strong>Zakelijke beslissingen:</strong> Gebruik onze hulpmiddelen als startpunt, maar laat berekeningen die de bedrijfsvoering raken controleren door geschikte professionals."
+        ]
+      },
+      {
+        "heading": "Nauwkeurigheid van berekeningen",
+        "paragraphs": [
+          "We streven ernaar dat onze calculators nauwkeurige resultaten geven. Echter:"
+        ],
+        "list": [
+          "Resultaten kunnen worden beïnvloed door afronding of beperkingen van drijvendekommarekenen",
+          "We kunnen geen 100 % nauwkeurigheid garanderen in alle situaties",
+          "Gebruikers zijn zelf verantwoordelijk voor het controleren van resultaten bij kritieke toepassingen",
+          "We raden aan berekeningen met grote gevolgen dubbel te controleren"
+        ]
+      },
+      {
+        "heading": "Externe links",
+        "paragraphs": [
+          "Deze website kan links bevatten naar externe websites die niet door ons worden verstrekt of onderhouden. Wij garanderen niet de juistheid, relevantie, actualiteit of volledigheid van informatie op deze externe websites. Het opnemen van links betekent niet noodzakelijkerwijs een aanbeveling of onderschrijving van de daarin geuite standpunten."
+        ]
+      },
+      {
+        "heading": "Beperking van aansprakelijkheid",
+        "paragraphs": [
+          "In geen geval zijn wij jegens jou aansprakelijk voor enig verlies of enige schade, van welke aard ook, die voortvloeit uit het gebruik van de site of het vertrouwen op informatie op de site. Je gebruik van de site en je vertrouwen op de informatie erop is volledig voor eigen risico."
+        ]
+      },
+      {
+        "heading": "Wijzigingen in deze disclaimer",
+        "paragraphs": [
+          "Wij behouden ons het recht voor deze disclaimer op elk moment te wijzigen. Wijzigingen gaan onmiddellijk in na plaatsing op de website. Als je de website na wijzigingen blijft gebruiken, aanvaard je de nieuwe disclaimer."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Als je vragen hebt over deze disclaimer, <a href=\"/contact\">neem dan contact met ons op</a>."
+        ]
+      }
+    ]
+  },
+  "privacy-policy": {
+    "meta_title": "Privacybeleid | Percentage Calculators",
+    "meta_description": "Privacybeleid van Percentage Calculators: welke gegevens we verzamelen (heel weinig) en hoe onze gratis calculators omgaan met wat je invoert.",
+    "h1": "Privacybeleid",
+    "subtitle": "Laatst bijgewerkt: december 2024",
+    "sections": [
+      {
+        "heading": "Inleiding",
+        "paragraphs": [
+          "Percentage Calculators („wij”, „ons” of „onze”) respecteert je privacy en zet zich in voor de bescherming van je persoonsgegevens. Dit privacybeleid legt uit hoe we je gegevens verzamelen, gebruiken en beschermen wanneer je onze website bezoekt."
+        ]
+      },
+      {
+        "heading": "Gegevens die we verzamelen",
+        "paragraphs": [
+          "<strong>Gegevens die je ons geeft</strong>",
+          "We kunnen gegevens verzamelen die je vrijwillig verstrekt, zoals:",
+          "<strong>Automatisch verzamelde gegevens</strong>",
+          "Wanneer je onze website bezoekt, kunnen we automatisch verzamelen:",
+          "<strong>Wat we niet verzamelen</strong>",
+          "We willen duidelijk zijn over wat we <strong>niet verzamelen</strong>:"
+        ],
+        "list": [
+          "Contactgegevens (e-mailadres) wanneer je contact met ons opneemt",
+          "Feedback en suggesties die je indient",
+          "Apparaatgegevens (browsertype, besturingssysteem)",
+          "IP-adres (geanonimiseerd)",
+          "Bezochte pagina's en tijd op pagina's",
+          "Verwijzende website",
+          "Algemene geografische locatie (op land- of stadsniveau)",
+          "We slaan de getallen die je in onze calculators invoert niet op",
+          "We volgen je berekeningsgeschiedenis niet",
+          "We vereisen geen account of inlog",
+          "We verzamelen geen betaalgegevens (onze dienst is gratis)"
+        ]
+      },
+      {
+        "heading": "Hoe we je gegevens gebruiken",
+        "paragraphs": [
+          "We gebruiken de verzamelde gegevens om:"
+        ],
+        "list": [
+          "Onze rekenhulpmiddelen aan te bieden en te onderhouden",
+          "Onze website te verbeteren en te optimaliseren",
+          "Te begrijpen hoe gebruikers met onze site omgaan",
+          "Te reageren op je vragen en feedback",
+          "Technische problemen op te sporen en te voorkomen"
+        ]
+      },
+      {
+        "heading": "Cookies en trackingtechnologieën",
+        "paragraphs": [
+          "We gebruiken cookies en vergelijkbare trackingtechnologieën om je ervaring te verbeteren:",
+          "Je kunt cookies beheren via de instellingen van je browser. Houd er rekening mee dat het uitschakelen van bepaalde cookies de werking van de website kan beïnvloeden."
+        ],
+        "list": [
+          "<strong>Essentiële cookies:</strong> Vereist voor de basisfunctionaliteit van de website",
+          "<strong>Analytische cookies:</strong> Helpen ons te begrijpen hoe bezoekers onze site gebruiken (Google Analytics)",
+          "<strong>Voorkeurscookies:</strong> Onthouden je instellingen (zoals taalvoorkeur)"
+        ]
+      },
+      {
+        "heading": "Diensten van derden",
+        "paragraphs": [
+          "We kunnen diensten van derden gebruiken die gegevens verzamelen:",
+          "Deze derden hebben hun eigen privacybeleid dat het gebruik van de door hen verzamelde gegevens regelt."
+        ],
+        "list": [
+          "<strong>Google Analytics:</strong> Voor analyse van het websiteverkeer",
+          "<strong>Advertentiepartners:</strong> Om relevante advertenties te tonen"
+        ]
+      },
+      {
+        "heading": "Gegevensbeveiliging",
+        "paragraphs": [
+          "We nemen passende beveiligingsmaatregelen om je gegevens te beschermen. Geen enkele methode van verzending via internet is echter 100 % veilig en we kunnen geen absolute veiligheid garanderen."
+        ]
+      },
+      {
+        "heading": "Jouw rechten",
+        "paragraphs": [
+          "Afhankelijk van je locatie heb je mogelijk bepaalde rechten met betrekking tot je persoonsgegevens, waaronder:",
+          "Om deze rechten uit te oefenen, <a href=\"/contact\">neem je contact met ons op</a>."
+        ],
+        "list": [
+          "Recht op inzage in je persoonsgegevens",
+          "Recht op correctie van onjuiste gegevens",
+          "Recht op verwijdering van je gegevens",
+          "Recht om bezwaar te maken tegen bepaalde gegevensverwerking"
+        ]
+      },
+      {
+        "heading": "Privacy van kinderen",
+        "paragraphs": [
+          "Onze website is niet gericht op kinderen onder de 13 jaar. We verzamelen niet bewust persoonsgegevens van kinderen onder de 13 jaar. Als je denkt dat we gegevens van een kind onder de 13 hebben verzameld, neem dan onmiddellijk contact met ons op."
+        ]
+      },
+      {
+        "heading": "Wijzigingen in dit beleid",
+        "paragraphs": [
+          "We kunnen dit privacybeleid van tijd tot tijd bijwerken. We informeren je over wijzigingen door het nieuwe beleid op deze pagina te plaatsen en de datum „Laatst bijgewerkt” aan te passen."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Als je vragen hebt over dit privacybeleid of onze gegevenspraktijken, neem dan contact met ons op:"
+        ],
+        "list": [
+          "<strong>E-mail:</strong> <a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>",
+          "<strong>Contactpagina:</strong> <a href=\"/contact\">Contact</a>"
+        ]
+      }
+    ]
+  },
+  "terms-of-use": {
+    "meta_title": "Gebruiksvoorwaarden | Percentage Calculators",
+    "meta_description": "Gebruiksvoorwaarden voor de gratis online calculators van Percentage Calculators: aanvaardbaar gebruik, aansprakelijkheid en nauwkeurigheid van onze hulpmiddelen en resultaten.",
+    "h1": "Gebruiksvoorwaarden",
+    "subtitle": "Laatst bijgewerkt: december 2024",
+    "sections": [
+      {
+        "heading": "Aanvaarding van de voorwaarden",
+        "paragraphs": [
+          "Door Percentage Calculators (de „Website”) te openen en te gebruiken, ga je ermee akkoord gebonden te zijn aan deze Gebruiksvoorwaarden. Als je het niet eens bent met deze voorwaarden, gebruik onze website dan niet."
+        ]
+      },
+      {
+        "heading": "Beschrijving van de dienst",
+        "paragraphs": [
+          "Percentage Calculators biedt gratis online rekenhulpmiddelen voor diverse percentagegerelateerde berekeningen. Onze diensten omvatten onder meer:"
+        ],
+        "list": [
+          "Berekeningen van procentuele toename en afname",
+          "Berekeningen van procentuele verandering en verschil",
+          "Berekeningen van kortingen en actieprijzen",
+          "Omzettingen van breuk naar percentage",
+          "Berekeningen van groeipercentages",
+          "Berekeningen van procentuele fouten",
+          "Berekeningen van gemiddelde percentages"
+        ]
+      },
+      {
+        "heading": "Aanvaardbaar gebruik",
+        "paragraphs": [
+          "Je stemt ermee in de Website alleen voor wettige doeleinden te gebruiken. Je mag niet:"
+        ],
+        "list": [
+          "De Website gebruiken op een manier die toepasselijke wet- of regelgeving schendt",
+          "Proberen ongeautoriseerde toegang tot onze systemen of servers te krijgen",
+          "De werking van de Website verstoren of belemmeren",
+          "Geautomatiseerde systemen of bots gebruiken om de Website overmatig te benaderen",
+          "Onze inhoud zonder toestemming kopiëren, reproduceren of herdistribueren",
+          "De Website gebruiken om malware of kwaadaardige code te verspreiden"
+        ]
+      },
+      {
+        "heading": "Intellectueel eigendom",
+        "paragraphs": [
+          "De Website en de originele inhoud, functies en functionaliteit ervan zijn eigendom van Percentage Calculators en worden beschermd door internationale wetgeving inzake auteursrecht, merken en ander intellectueel eigendom.",
+          "Je mag:",
+          "Je mag niet:"
+        ],
+        "list": [
+          "Onze calculators gebruiken voor persoonlijke en educatieve doeleinden",
+          "Links naar onze Website delen",
+          "Onze berekeningen citeren met correcte bronvermelding",
+          "Ontwerpen of code van onze calculators kopiëren of nabootsen",
+          "Auteursrechtelijke of eigendomsvermeldingen verwijderen",
+          "Onze Website zonder toestemming inbedden of in een frame weergeven"
+        ]
+      },
+      {
+        "heading": "Uitsluiting van garanties",
+        "paragraphs": [
+          "De Website wordt aangeboden „ZOALS DEZE IS” en „ZOALS BESCHIKBAAR”. We geven geen garanties, expliciet of impliciet, met betrekking tot:",
+          "Raadpleeg onze <a href=\"/disclaimer\">Disclaimer</a> voor meer informatie."
+        ],
+        "list": [
+          "De nauwkeurigheid of betrouwbaarheid van berekeningen",
+          "Ononderbroken of foutloze werking",
+          "Geschiktheid voor een bepaald doel",
+          "De beveiliging van de Website"
+        ]
+      },
+      {
+        "heading": "Beperking van aansprakelijkheid",
+        "paragraphs": [
+          "Voor zover wettelijk toegestaan is Percentage Calculators niet aansprakelijk voor indirecte, incidentele, bijzondere, gevolg- of punitieve schade, waaronder maar niet beperkt tot:"
+        ],
+        "list": [
+          "Verlies van winst of omzet",
+          "Verlies van gegevens",
+          "Bedrijfsonderbreking",
+          "Enige schade voortvloeiend uit je gebruik van onze calculators"
+        ]
+      },
+      {
+        "heading": "Vrijwaring",
+        "paragraphs": [
+          "Je stemt ermee in Percentage Calculators, de eigenaar en gelieerde partijen te vrijwaren van alle claims, verliezen, schade, aansprakelijkheden en kosten (inclusief juridische kosten) die voortvloeien uit je gebruik van de Website of schending van deze voorwaarden."
+        ]
+      },
+      {
+        "heading": "Links van derden",
+        "paragraphs": [
+          "Onze Website kan links naar websites van derden bevatten. Wij zijn niet verantwoordelijk voor de inhoud, juistheid of werkwijze van sites van derden. Het bezoeken van gelinkte sites is voor eigen risico."
+        ]
+      },
+      {
+        "heading": "Wijzigingen van de dienst",
+        "paragraphs": [
+          "Wij behouden ons het recht voor om:",
+          "Voortgezet gebruik van de Website na wijzigingen geldt als aanvaarding van de gewijzigde voorwaarden."
+        ],
+        "list": [
+          "Onderdelen van de Website zonder voorafgaande kennisgeving te wijzigen of te beëindigen",
+          "Deze Gebruiksvoorwaarden op elk moment bij te werken",
+          "Functies of functionaliteit van onze calculators te wijzigen"
+        ]
+      },
+      {
+        "heading": "Toepasselijk recht",
+        "paragraphs": [
+          "Op deze Gebruiksvoorwaarden is het recht van Singapore van toepassing, zonder inachtneming van de bepalingen inzake conflicterend recht."
+        ]
+      },
+      {
+        "heading": "Scheidbaarheid",
+        "paragraphs": [
+          "Als een bepaling van deze Voorwaarden niet afdwingbaar blijkt, blijven de overige bepalingen volledig van kracht."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Als je vragen hebt over deze Gebruiksvoorwaarden, <a href=\"/contact\">neem dan contact met ons op</a>."
+        ],
+        "list": [
+          "<strong>E-mail:</strong> <a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>"
+        ]
+      }
+    ]
+  },
+  "sitemap": {
+    "meta_title": "Sitemap | Percentage Calculators",
+    "meta_description": "Alle pagina's van Percentage Calculators, geordend per categorie – de volledige lijst van percentagecalculators, omzetters en onderwijsbronnen.",
+    "h1": "Sitemap",
+    "subtitle": "Alle pagina's van Percentage Calculators, geordend per categorie.",
+    "sections": []
+  }
+}

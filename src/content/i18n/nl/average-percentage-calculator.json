@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "Gemiddeld Percentage Calculator | Eenvoudig en gewogen gemiddelde",
+  "meta_description": "Gratis calculator voor gemiddeld percentage, eenvoudig of gewogen. Combineer percentages van groepen van verschillende grootte correct, voor cijfers en enquêtes.",
+  "h1": "Gemiddeld Percentage Calculator",
+  "subtitle": "Typ een lijst met <strong>percentages</strong> gescheiden door komma's, en deze <strong>gemiddeld percentage calculator</strong> geeft je het <strong>gemiddelde</strong>, de <strong>som</strong>, het <strong>aantal</strong> en het bereik van je waarden. Voeg een bijbehorende lijst met <strong>steekproefgroottes</strong> toe als de groepen niet even groot zijn, en hij schakelt automatisch over op een correct <strong>gewogen gemiddelde</strong>.",
+  "hint": "Voer percentages (en eventueel steekproefgroottes) in voor een eenvoudig of gewogen gemiddelde.",
+  "long_tail_anchor": "Gemiddelde van meerdere percentages",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "Voeg per percentage één gewicht toe (bijvoorbeeld klasgroottes of aantallen respondenten) om groepen van ongelijke grootte correct te combineren.",
+    "Average:": "Gemiddelde:",
+    "Count:": "Aantal:",
+    "Percentages (comma or space separated)": "Percentages (gescheiden door komma of spatie)",
+    "Sample Sizes / Weights (optional)": "Steekproefgroottes / gewichten (optioneel)",
+    "Sum:": "Som:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "bijv. 30, 50, 20, 40 (laat leeg voor een eenvoudig gemiddelde)",
+    "e.g. 85, 90, 78, 92": "bijv. 85, 90, 78, 92"
+  }
+}

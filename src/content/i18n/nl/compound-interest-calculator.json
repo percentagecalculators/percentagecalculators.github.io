@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "nl",
+  "meta_title": "Samengestelde Rente Calculator | Bereken groei in de tijd",
+  "meta_description": "Gratis samengestelde rente calculator. Voer hoofdsom, jaarlijkse rente, looptijd en samenstellingsfrequentie in om direct de verdiende rente en het totaalbedrag te berekenen.",
+  "h1": "Samengestelde Rente Calculator",
+  "subtitle": "Voer de <strong>hoofdsom</strong>, de <strong>jaarlijkse rente</strong>, de <strong>looptijd</strong> en de <strong>samenstellingsfrequentie</strong> in, en deze <strong>samengestelde rente calculator</strong> toont direct de <strong>verdiende rente</strong> en het <strong>totaalbedrag</strong>.",
+  "hint": "Voer hoofdsom, rente, looptijd en samenstellingsfrequentie in om het totaalbedrag te krijgen.",
+  "long_tail_anchor": "Samenstellingsfrequentie en groei",
+  "card_strings": {
+    "Annual Rate": "Jaarlijkse rente",
+    "Compounding / Year": "Samenstellingen / jaar",
+    "Interest Earned:": "Verdiende rente:",
+    "Principal ($)": "Hoofdsom ($)",
+    "Time (Years)": "Looptijd (jaren)",
+    "Total Amount:": "Totaalbedrag:",
+    "e.g. 1000": "bijv. 1000",
+    "e.g. 12": "bijv. 12",
+    "e.g. 3": "bijv. 3",
+    "e.g. 5": "bijv. 5"
+  }
+}

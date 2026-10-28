@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "nl",
+  "meta_title": "Enkelvoudige Rente Calculator | Rente en totaalbedrag",
+  "meta_description": "Gratis enkelvoudige rente calculator. Voer hoofdsom, jaarlijkse rente en looptijd in om direct de verdiende rente en het totaalbedrag te berekenen.",
+  "h1": "Enkelvoudige Rente Calculator",
+  "subtitle": "Voer de <strong>hoofdsom</strong>, de <strong>jaarlijkse rente</strong> en de <strong>looptijd in jaren</strong> in, en deze <strong>enkelvoudige rente calculator</strong> toont direct de <strong>verdiende rente</strong> en het <strong>totaalbedrag</strong>.",
+  "hint": "Voer hoofdsom, jaarlijkse rente en looptijd in om de rente en het totaalbedrag te krijgen.",
+  "long_tail_anchor": "Formule voor hoofdsom, rente en tijd",
+  "card_strings": {
+    "Annual Rate": "Jaarlijkse rente",
+    "Interest Earned:": "Verdiende rente:",
+    "Principal ($)": "Hoofdsom ($)",
+    "Time (Years)": "Looptijd (jaren)",
+    "Total Amount:": "Totaalbedrag:",
+    "e.g. 1000": "bijv. 1000",
+    "e.g. 3": "bijv. 3",
+    "e.g. 5": "bijv. 5"
+  }
+}

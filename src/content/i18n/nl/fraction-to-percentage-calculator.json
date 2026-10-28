@@ -1,0 +1,18 @@
+{
+  "slug": "fraction-to-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "Breuk naar Percentage Calculator | Zet om naar procent",
+  "meta_description": "Gratis breuk naar percentage calculator. Zet elke breuk direct om naar een percentage: perfect voor toetsscores, verhoudingen en delen.",
+  "h1": "Breuk naar Percentage Calculator",
+  "subtitle": "Voer een <strong>teller</strong> (bovenste getal) en een <strong>noemer</strong> (onderste getal) in, en deze <strong>breuk naar percentage calculator</strong> zet je breuk om naar een <strong>percentage</strong> en een <strong>decimaal getal</strong>. Zo wordt 3/4 direct 75 % – typ het in en de berekening gebeurt terwijl je typt.",
+  "hint": "Voer een teller en noemer in om om te zetten naar een percentage.",
+  "long_tail_anchor": "Een breuk omzetten naar procent",
+  "card_strings": {
+    "Decimal Value:": "Decimale waarde:",
+    "Denominator": "Noemer",
+    "Numerator": "Teller",
+    "Percentage:": "Percentage:",
+    "e.g. 3": "bijv. 3",
+    "e.g. 4": "bijv. 4"
+  }
+}

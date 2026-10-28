@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "nl",
+  "meta_title": "Procentuele Toename Calculator | Tel een percentage bij een getal op",
+  "meta_description": "Gratis procentuele toename calculator. Tel direct een willekeurig percentage bij een getal op. Bereken salarisverhogingen, prijsopslagen, beleggingsrendementen en meer.",
+  "h1": "Procentuele Toename Calculator",
+  "subtitle": "Voer je <strong>beginwaarde</strong> en het <strong>op te tellen percentage</strong> in, en deze <strong>procentuele toename calculator</strong> geeft je zowel het <strong>toenamebedrag</strong> als de <strong>eindwaarde</strong>. Zie het als het antwoord op „wat is 200 plus 15 %?” – dat is trouwens 230.",
+  "hint": "Voer een getal en het op te tellen percentage in om de verhoogde waarde te krijgen.",
+  "long_tail_anchor": "Een percentage bij een getal optellen",
+  "card_strings": {
+    "Enter percentage": "Voer percentage in",
+    "Enter starting number": "Voer beginwaarde in",
+    "Increase Amount:": "Toenamebedrag:",
+    "Increase by": "Verhogen met",
+    "New Value:": "Nieuwe waarde:",
+    "Original Value": "Beginwaarde"
+  }
+}

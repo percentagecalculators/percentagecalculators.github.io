@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "Omgekeerde Percentage Calculator | Vind het oorspronkelijke getal",
+  "meta_description": "Gratis omgekeerde percentage calculator. Vind het oorspronkelijke getal als je een waarde en het bijbehorende percentage kent – bereken prijzen vóór korting en meer.",
+  "h1": "Omgekeerde Percentage Calculator",
+  "subtitle": "Heb je een getal en weet je dat het een bepaald percentage van iets groters is? Voer de <strong>bekende waarde</strong> en het <strong>percentage dat die vertegenwoordigt</strong> in, en deze <strong>omgekeerde percentage calculator</strong> rekent terug naar het <strong>oorspronkelijke getal</strong>. Als 30 gelijk is aan 25 % van het totaal, is het totaal 120.",
+  "hint": "Voer een waarde en het percentage dat die vertegenwoordigt in om het oorspronkelijke getal te vinden.",
+  "long_tail_anchor": "Het oorspronkelijke getal vinden",
+  "card_strings": {
+    "Original Total:": "Oorspronkelijk totaal:",
+    "Value": "Waarde",
+    "e.g. 30": "bijv. 30",
+    "e.g. 45": "bijv. 45",
+    "is this % of the total": "is dit % van het totaal"
+  }
+}

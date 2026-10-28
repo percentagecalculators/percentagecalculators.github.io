@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "nl",
+  "meta_title": "Salarisverhoging Calculator | Bereken je nieuwe salaris",
+  "meta_description": "Gratis salarisverhoging calculator. Voer je huidige salaris en het verhogingspercentage in om direct het verhogingsbedrag en je nieuwe salaris te berekenen.",
+  "h1": "Salarisverhoging Calculator",
+  "subtitle": "Voer je <strong>huidige salaris</strong> en je <strong>verhogingspercentage</strong> in, en deze <strong>salarisverhoging calculator</strong> berekent direct het <strong>verhogingsbedrag</strong> en je <strong>nieuwe salaris</strong>.",
+  "hint": "Voer je huidige salaris en verhogings-% in om je nieuwe salaris te krijgen.",
+  "long_tail_anchor": "Verhogingspercentage en loonsverhoging",
+  "card_strings": {
+    "Current Salary ($)": "Huidig salaris ($)",
+    "New Salary:": "Nieuw salaris:",
+    "Raise": "Verhoging",
+    "Raise Amount:": "Verhogingsbedrag:",
+    "e.g. 5": "bijv. 5",
+    "e.g. 60000": "bijv. 60000"
+  }
+}

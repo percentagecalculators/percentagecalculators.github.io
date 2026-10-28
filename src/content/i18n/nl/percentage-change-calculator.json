@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "nl",
+  "meta_title": "Procentuele Verandering Calculator | Toename of afname in %",
+  "meta_description": "Gratis procentuele verandering calculator. Bereken de procentuele toename of afname tussen twee waarden – volg koerswijzigingen en prijsschommelingen.",
+  "h1": "Procentuele Verandering Calculator",
+  "subtitle": "Voer een <strong>oude waarde</strong> en een <strong>nieuwe waarde</strong> in, en deze <strong>procentuele verandering calculator</strong> toont de <strong>procentuele toename of afname</strong> ertussen. Het resultaat is positief bij een stijging en negatief bij een daling – van 80 naar 100 geeft dus +25 %.",
+  "hint": "Voer een oude en een nieuwe waarde in om de procentuele verandering te krijgen.",
+  "long_tail_anchor": "Procentuele toename of afname",
+  "card_strings": {
+    "Change Type:": "Type verandering:",
+    "Enter ending value": "Voer eindwaarde in",
+    "Enter starting value": "Voer beginwaarde in",
+    "New Value (Current)": "Nieuwe waarde (huidig)",
+    "Old Value (Original)": "Oude waarde (oorspronkelijk)",
+    "Percentage Change:": "Procentuele verandering:"
+  }
+}

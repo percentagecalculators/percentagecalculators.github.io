@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "Bakkerspercentage Calculator | Ingrediëntverhoudingen berekenen",
+  "meta_description": "Gratis bakkerspercentage calculator. Voer het gewicht van de bloem en van een ingrediënt in om direct het bakkerspercentage van dat ingrediënt te berekenen.",
+  "h1": "Bakkerspercentage Calculator",
+  "subtitle": "Voer het <strong>gewicht van de bloem</strong> en het <strong>gewicht van een ingrediënt</strong> in, en deze <strong>bakkerspercentage calculator</strong> berekent direct het <strong>bakkerspercentage</strong> van dat ingrediënt – elk ingrediënt uitgedrukt ten opzichte van de bloem.",
+  "hint": "Voer het gewicht van bloem en ingrediënt in om het bakkerspercentage te krijgen.",
+  "long_tail_anchor": "Deeghydratatie en ingrediëntverhoudingen",
+  "card_strings": {
+    "Baker's Percentage:": "Bakkerspercentage:",
+    "Flour Weight (g)": "Gewicht bloem (g)",
+    "Ingredient Weight (g)": "Gewicht ingrediënt (g)",
+    "e.g. 350": "bijv. 350",
+    "e.g. 500": "bijv. 500"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "nl",
+  "meta_title": "Leningrente Calculator | Maandlast en totale rente",
+  "meta_description": "Gratis leningrente calculator. Voer leenbedrag, jaarlijkse rente en looptijd in om direct je maandlast (EMI) en de totale te betalen rente te berekenen.",
+  "h1": "Leningrente Calculator",
+  "subtitle": "Voer het <strong>leenbedrag</strong>, de <strong>jaarlijkse rente</strong> en de <strong>looptijd</strong> in, en deze <strong>leningrente calculator</strong> berekent direct je <strong>maandlast (EMI)</strong> en de <strong>totale rente</strong> die je betaalt.",
+  "hint": "Voer leenbedrag, rente en looptijd in om je maandlast te krijgen.",
+  "long_tail_anchor": "Maandlast en totale rente",
+  "card_strings": {
+    "Annual Rate": "Jaarlijkse rente",
+    "Loan Amount ($)": "Leenbedrag ($)",
+    "Loan Term (Years)": "Looptijd lening (jaren)",
+    "Monthly EMI:": "Maandlast (EMI):",
+    "Total Interest:": "Totale rente:",
+    "e.g. 20000": "bijv. 20000",
+    "e.g. 5": "bijv. 5",
+    "e.g. 7.5": "bijv. 7.5"
+  }
+}

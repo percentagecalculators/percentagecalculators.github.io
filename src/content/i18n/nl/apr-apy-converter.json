@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "nl",
+  "meta_title": "APR naar APY Omzetter | Zet om naar jaarlijks rendement",
+  "meta_description": "Gratis APR naar APY omzetter. Voer een APR en de samenstellingsfrequentie in om direct het gelijkwaardige jaarlijkse rendement (APY) te zien.",
+  "h1": "APR naar APY Omzetter",
+  "subtitle": "Voer een <strong>APR</strong> en de <strong>samenstellingsfrequentie</strong> in, en deze <strong>APR naar APY omzetter</strong> toont het gelijkwaardige <strong>jaarlijkse rendement</strong> – handig om rekeningen te vergelijken die anders worden weergegeven.",
+  "hint": "Voer een APR en de samenstellingsperiodes per jaar in om de gelijkwaardige APY te krijgen.",
+  "long_tail_anchor": "APR- en APY-tarieven vergelijken",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Samenstellingsperiodes / jaar",
+    "e.g. 12": "bijv. 12",
+    "e.g. 6": "bijv. 6"
+  }
+}

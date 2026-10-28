@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "nl",
+  "meta_title": "Procentpunten Calculator | Verschil in punten",
+  "meta_description": "Gratis procentpunten calculator. Voer twee percentages in om direct het verschil in procentpunten en de relatieve procentuele verandering te zien.",
+  "h1": "Procentpunten Calculator",
+  "subtitle": "Voer twee <strong>percentages</strong> in en deze <strong>procentpunten calculator</strong> toont het <strong>verschil in procentpunten</strong> – niet hetzelfde als de relatieve procentuele verandering, die hij ter vergelijking ook toont.",
+  "hint": "Voer twee percentages in om het verschil in procentpunten te krijgen.",
+  "long_tail_anchor": "Procentpunten versus procentuele verandering",
+  "card_strings": {
+    "Percentage A": "Percentage A",
+    "Percentage B": "Percentage B",
+    "Point Difference:": "Verschil in punten:",
+    "Relative Change:": "Relatieve verandering:",
+    "e.g. 20": "bijv. 20",
+    "e.g. 25": "bijv. 25"
+  }
+}

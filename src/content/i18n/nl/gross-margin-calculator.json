@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "nl",
+  "meta_title": "Brutomarge Calculator | Bereken brutowinstmarge in %",
+  "meta_description": "Gratis brutomarge calculator. Voer omzet en kostprijs van de verkochte goederen (COGS) in om direct de brutowinst en het brutomargepercentage te berekenen.",
+  "h1": "Brutomarge Calculator",
+  "subtitle": "Voer je <strong>omzet</strong> en de <strong>kostprijs van de verkochte goederen (COGS)</strong> in, en deze <strong>brutomarge calculator</strong> berekent direct je <strong>brutowinst</strong> en je <strong>brutomargepercentage</strong>.",
+  "hint": "Voer omzet en COGS in om je brutomargepercentage te krijgen.",
+  "long_tail_anchor": "Margepercentage uit omzet en COGS",
+  "card_strings": {
+    "COGS ($)": "COGS ($)",
+    "Gross Margin:": "Brutomarge:",
+    "Gross Profit:": "Brutowinst:",
+    "Revenue ($)": "Omzet ($)",
+    "e.g. 100000": "bijv. 100000",
+    "e.g. 65000": "bijv. 65000"
+  }
+}

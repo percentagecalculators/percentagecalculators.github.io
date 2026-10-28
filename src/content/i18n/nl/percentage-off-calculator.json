@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "nl",
+  "meta_title": "Kortingscalculator | Korting en actieprijs berekenen",
+  "meta_description": "Gratis kortingscalculator. Bereken direct actieprijzen en besparingen. Vind de eindprijs na elke korting – je maatje bij koopjes.",
+  "h1": "Kortingscalculator",
+  "subtitle": "Voer de <strong>oorspronkelijke prijs</strong> en het <strong>kortingspercentage</strong> in, en deze <strong>kortingscalculator</strong> toont de <strong>actieprijs</strong> en precies hoeveel <strong>geld je bespaart</strong>. De volgende keer dat je een bordje „30 % korting” ziet, weet je wat je echt betaalt.",
+  "hint": "Voer de oorspronkelijke prijs en het korting-% in om de actieprijs te krijgen.",
+  "long_tail_anchor": "Korting en actieprijs vinden",
+  "card_strings": {
+    "Discount": "Korting",
+    "Enter discount %": "Voer korting-% in",
+    "Enter price": "Voer prijs in",
+    "Final Price:": "Eindprijs:",
+    "Original Price ($)": "Oorspronkelijke prijs ($)",
+    "You Save:": "Je bespaart:"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "Ga naar inhoud",
+  "primary_nav": "Hoofdnavigatie",
+  "toggle_dark": "Donkere modus aan- of uitzetten",
+  "open_menu": "Menu openen",
+  "close_menu": "Menu sluiten",
+  "site_nav": "Sitenavigatie",
+  "home": "Home",
+  "more": "Meer",
+  "language": "Taal",
+  "reset": "Calculator resetten",
+  "calculate": "Berekenen",
+  "related_aria": "Gerelateerde calculators",
+  "faq_heading": "Veelgestelde vragen",
+  "toc_label": "Inhoudsopgave",
+  "copy_result": "Resultaat kopiëren",
+  "copied": "Gekopieerd!",
+  "company": "Bedrijf",
+  "footer_site_map": "Sitemap",
+  "footer_links": "Voetlinks",
+  "rights": "Alle rechten voorbehouden.",
+  "footer_tagline": "Gratis online percentage calculators. Elke berekening gebeurt volledig in je browser – direct resultaat, zonder aanmelding.",
+  "native_name": "Nederlands",
+  "nav_groups": {
+    "core": {
+      "label": "Basishulpmiddelen voor percentages",
+      "short_label": "Basis",
+      "tagline": "De essentie: een percentage vinden, een getal verhogen of verlagen en twee waarden vergelijken."
+    },
+    "converters": {
+      "label": "Omzetters",
+      "short_label": "Omzetters",
+      "tagline": "Zet om tussen percentages, breuken, decimalen, verhoudingen en andere eenheidsvormen."
+    },
+    "education": {
+      "label": "Onderwijs",
+      "short_label": "Onderwijs",
+      "tagline": "GPA-, CGPA-, SGPA-, cijfer- en percentielomzettingen voor studenten."
+    },
+    "finance": {
+      "label": "Financiën en zakelijk",
+      "short_label": "Financiën",
+      "tagline": "Rentetarieven, winstmarges, opslag, salarisverhogingen en bedrijfsgroei."
+    },
+    "everyday": {
+      "label": "Dagelijks en specifiek",
+      "short_label": "Dagelijks",
+      "tagline": "Fooien, winstpercentages, bakverhoudingen, foodcost en procentuele concentraties van oplossingen."
+    }
+  },
+  "company_links": {
+    "/about": "Over ons",
+    "/contact": "Contact",
+    "/sitemap": "Sitemap",
+    "/disclaimer": "Disclaimer",
+    "/privacy-policy": "Privacybeleid",
+    "/terms-of-use": "Gebruiksvoorwaarden"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "Alcohol Proof Calculator",
+    "apr-apy-converter": "APR naar APY Omzetter",
+    "apr-calculator": "APR Calculator",
+    "apy-calculator": "APY Calculator",
+    "average-percentage-calculator": "Gemiddeld Percentage Calculator",
+    "bakers-percentage-calculator": "Bakkerspercentage Calculator",
+    "basis-points-calculator": "Basispunten Calculator",
+    "cgpa-to-percentage-calculator": "CGPA naar Percentage Calculator",
+    "commission-calculator": "Commissie Calculator",
+    "compound-interest-calculator": "Samengestelde Rente Calculator",
+    "decimal-to-percentage-calculator": "Decimaal naar Percentage Calculator",
+    "depreciation-calculator": "Afschrijving Calculator",
+    "food-cost-percentage-calculator": "Foodcostpercentage Calculator",
+    "fraction-to-percentage-calculator": "Breuk naar Percentage Calculator",
+    "gpa-to-percentage-calculator": "GPA naar Percentage Calculator",
+    "gross-margin-calculator": "Brutomarge Calculator",
+    "loan-interest-calculator": "Leningrente Calculator",
+    "marks-percentage-calculator": "Cijferpercentage Calculator",
+    "markup-calculator": "Winstopslag Calculator",
+    "percent-solution-calculator": "Procentoplossing Calculator",
+    "percentage-calculator": "Percentage Calculator",
+    "percentage-change-calculator": "Procentuele Verandering Calculator",
+    "percentage-decrease-calculator": "Procentuele Afname Calculator",
+    "percentage-difference-calculator": "Procentueel Verschil Calculator",
+    "percentage-error-calculator": "Procentuele Fout Calculator",
+    "percentage-growth-calculator": "Procentuele Groei Calculator",
+    "percentage-increase-calculator": "Procentuele Toename Calculator",
+    "percentage-of-a-percentage-calculator": "Percentage van een Percentage Calculator",
+    "percentage-off-calculator": "Kortingscalculator",
+    "percentage-point-calculator": "Procentpunten Calculator",
+    "percentile-to-percentage-calculator": "Percentiel naar Percentage Calculator",
+    "ppm-to-percentage-calculator": "PPM naar Percentage Calculator",
+    "profit-margin-calculator": "Winstmarge Calculator",
+    "profit-percentage-calculator": "Winstpercentage Calculator",
+    "ratio-to-percentage-calculator": "Verhouding naar Percentage Calculator",
+    "reverse-percentage-calculator": "Omgekeerde Percentage Calculator",
+    "salary-increase-calculator": "Salarisverhoging Calculator",
+    "sgpa-to-percentage-calculator": "SGPA naar Percentage Calculator",
+    "simple-interest-calculator": "Enkelvoudige Rente Calculator",
+    "slope-percentage-calculator": "Hellingspercentage Calculator",
+    "tip-calculator": "Fooi Calculator",
+    "win-loss-percentage-calculator": "Winst- en Verliespercentage Calculator"
+  }
+}

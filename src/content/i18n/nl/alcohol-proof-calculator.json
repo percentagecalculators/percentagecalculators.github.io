@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "nl",
+  "meta_title": "Alcohol Proof Calculator | Zet Proof om naar ABV-percentage",
+  "meta_description": "Gratis alcohol proof calculator. Voer een Amerikaanse proof-waarde in om die direct om te zetten naar alcoholpercentage (ABV): snel, nauwkeurig en eenvoudig te gebruiken.",
+  "h1": "Alcohol Proof Calculator",
+  "subtitle": "Voer een <strong>alcohol proof</strong>-waarde (Amerikaanse schaal) in en deze <strong>alcohol proof calculator</strong> zet die direct om naar een percentage <strong>alcohol per volume (ABV)</strong>.",
+  "hint": "Voer een Amerikaanse proof-waarde in om het ABV-percentage te krijgen.",
+  "long_tail_anchor": "Proof naar ABV-percentage omzetter",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "Proof (VS)",
+    "e.g. 80": "bijv. 80"
+  }
+}

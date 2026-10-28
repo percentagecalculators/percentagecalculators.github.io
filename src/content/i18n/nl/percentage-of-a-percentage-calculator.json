@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "Percentage van een Percentage Calculator | Combineer twee %",
+  "meta_description": "Gratis percentage van een percentage calculator. Vermenigvuldig twee opeenvolgende percentages en pas het gecombineerde percentage toe op een waarde voor opeenvolgende belastingen of kortingen.",
+  "h1": "Percentage van een Percentage Calculator",
+  "subtitle": "Voer twee <strong>percentages</strong> in en deze <strong>percentage van een percentage calculator</strong> vermenigvuldigt ze op de juiste manier tot het <strong>gecombineerde percentage</strong> – voeg een beginwaarde toe om precies te zien hoe die door beide stappen gaat.",
+  "hint": "Vermenigvuldig twee opeenvolgende percentages tot het gecombineerde percentage.",
+  "long_tail_anchor": "Twee opeenvolgende percentages combineren",
+  "card_strings": {
+    "Apply to a Value (optional)": "Toepassen op een waarde (optioneel)",
+    "Combined Percentage:": "Gecombineerd percentage:",
+    "Final Value:": "Eindwaarde:",
+    "First Percentage": "Eerste percentage",
+    "Second Percentage": "Tweede percentage",
+    "Value After First %:": "Waarde na eerste %:",
+    "e.g. 200": "bijv. 200",
+    "e.g. 40": "bijv. 40",
+    "e.g. 90": "bijv. 90"
+  }
+}

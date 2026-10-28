@@ -1,0 +1,17 @@
+{
+  "slug": "percent-solution-calculator",
+  "lang": "nl",
+  "meta_title": "Procentoplossing Calculator | Massa-/volumeconcentratie",
+  "meta_description": "Gratis procentoplossing calculator. Voer de massa van de opgeloste stof en het volume van de oplossing in om direct de procentuele concentratie (% m/v) te berekenen.",
+  "h1": "Procentoplossing Calculator",
+  "subtitle": "Voer de <strong>massa van de opgeloste stof</strong> en het <strong>volume van de oplossing</strong> in, en deze <strong>procentoplossing calculator</strong> berekent direct de <strong>procentuele concentratie</strong> (% m/v).",
+  "hint": "Voer de massa van de opgeloste stof en het volume van de oplossing in om de concentratie te krijgen.",
+  "long_tail_anchor": "Procentuele concentratie van massa en volume",
+  "card_strings": {
+    "Concentration (% w/v):": "Concentratie (% m/v):",
+    "Mass of Solute (g)": "Massa opgeloste stof (g)",
+    "Volume of Solution (mL)": "Volume oplossing (mL)",
+    "e.g. 250": "bijv. 250",
+    "e.g. 5": "bijv. 5"
+  }
+}

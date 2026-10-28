@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "Hellingspercentage Calculator | Van hoogteverschil/afstand naar %",
+  "meta_description": "Gratis hellingspercentage calculator. Voer hoogteverschil en horizontale afstand in om direct het hellingspercentage en de gelijkwaardige hoek in graden te berekenen.",
+  "h1": "Hellingspercentage Calculator",
+  "subtitle": "Voer het <strong>hoogteverschil</strong> en de <strong>horizontale afstand</strong> in, en deze <strong>hellingspercentage calculator</strong> berekent direct het <strong>hellingspercentage</strong> en de gelijkwaardige <strong>hoek in graden</strong>.",
+  "hint": "Voer hoogteverschil en horizontale afstand in om het hellingspercentage en de hoek te krijgen.",
+  "long_tail_anchor": "Van hoogteverschil over afstand naar hellingspercentage",
+  "card_strings": {
+    "Angle:": "Hoek:",
+    "Rise": "Hoogteverschil",
+    "Run": "Horizontale afstand",
+    "Slope:": "Helling:",
+    "e.g. 100": "bijv. 100",
+    "e.g. 5": "bijv. 5"
+  }
+}

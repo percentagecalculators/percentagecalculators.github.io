@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "nl",
+  "meta_title": "Procentuele Fout Calculator | Relatieve fout voor practica",
+  "meta_description": "Gratis procentuele fout calculator. Bereken de procentuele fout tussen experimentele en theoretische waarden voor natuurkunde-, scheikunde- en biologiepractica.",
+  "h1": "Procentuele Fout Calculator",
+  "subtitle": "Voer je <strong>gemeten (experimentele) waarde</strong> en de <strong>ware (theoretische) waarde</strong> in, en deze <strong>procentuele fout calculator</strong> toont de <strong>procentuele fout</strong> ertussen. Hij gebruikt de standaardformule: |gemeten − waar| ÷ |waar| × 100.",
+  "hint": "Voer je gemeten en ware waarde in om de procentuele fout te krijgen.",
+  "long_tail_anchor": "Experimentele versus theoretische waarde",
+  "card_strings": {
+    "Absolute Error:": "Absolute fout:",
+    "Enter expected value": "Voer verwachte waarde in",
+    "Enter measured value": "Voer gemeten waarde in",
+    "Experimental (Measured)": "Experimenteel (gemeten)",
+    "Percentage Error:": "Procentuele fout:",
+    "Theoretical (Expected)": "Theoretisch (verwacht)"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "nl",
+  "meta_title": "Fooi Calculator | Bereken de fooi en splits de rekening",
+  "meta_description": "Gratis fooi calculator. Voer het rekeningbedrag, het fooipercentage en het aantal personen in om direct de fooi, het totaal en het bedrag per persoon te berekenen.",
+  "h1": "Fooi Calculator",
+  "subtitle": "Voer je <strong>rekeningbedrag</strong>, <strong>fooipercentage</strong> en het <strong>aantal personen</strong> in, en deze <strong>fooi calculator</strong> berekent direct de <strong>fooi</strong>, het <strong>totaal</strong> en hoeveel <strong>elke persoon betaalt</strong>.",
+  "hint": "Voer rekening, fooi-% en aantal personen in om te splitsen.",
+  "long_tail_anchor": "Fooi en restaurantrekening splitsen",
+  "card_strings": {
+    "Bill Amount ($)": "Rekeningbedrag ($)",
+    "Per Person:": "Per persoon:",
+    "Split Between": "Splitsen tussen",
+    "Tip": "Fooi",
+    "Tip Amount:": "Fooibedrag:",
+    "Total:": "Totaal:",
+    "e.g. 18": "bijv. 18",
+    "e.g. 4": "bijv. 4",
+    "e.g. 80": "bijv. 80"
+  }
+}

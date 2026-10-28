@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "CGPA naar Percentage Calculator | Zet CGPA op schaal van 10 om naar %",
+  "meta_description": "Gratis CGPA naar percentage calculator met de standaardformule CGPA op 10 punten × 9,5. Zet je CGPA om naar een percentage voor je studiedossier.",
+  "h1": "CGPA naar Percentage Calculator",
+  "subtitle": "Voer je <strong>CGPA</strong> op de <strong>standaardschaal van 10 punten</strong> in en deze <strong>CGPA naar percentage calculator</strong> past de veelgebruikte formule <strong>CGPA × 9,5</strong> toe om je direct het gelijkwaardige <strong>percentage</strong> te geven.",
+  "hint": "Voer je CGPA op 10 punten in om het gelijkwaardige percentage te krijgen.",
+  "long_tail_anchor": "CGPA op 10 punten omzetten naar procent",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA (op 10)",
+    "Percentage:": "Percentage:",
+    "e.g. 8.2": "bijv. 8.2"
+  }
+}

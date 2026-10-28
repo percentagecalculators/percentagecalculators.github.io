@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "Winstpercentage Calculator | Bereken winst-% op kostprijs",
+  "meta_description": "Gratis winstpercentage calculator. Voer kostprijs en verkoopprijs in om direct het winstbedrag en het winstpercentage te berekenen.",
+  "h1": "Winstpercentage Calculator",
+  "subtitle": "Voer de <strong>kostprijs</strong> en de <strong>verkoopprijs</strong> in, en deze <strong>winstpercentage calculator</strong> berekent direct je <strong>winst</strong> en het <strong>winstpercentage</strong> op de kostprijs.",
+  "hint": "Voer kostprijs en verkoopprijs in om je winstpercentage te krijgen.",
+  "long_tail_anchor": "Winstpercentage op kostprijs",
+  "card_strings": {
+    "Cost Price ($)": "Kostprijs ($)",
+    "Profit Percentage:": "Winstpercentage:",
+    "Profit:": "Winst:",
+    "Selling Price ($)": "Verkoopprijs ($)",
+    "e.g. 40": "bijv. 40",
+    "e.g. 55": "bijv. 55"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "Cijferpercentage Calculator | Bereken examenpercentage",
+  "meta_description": "Gratis cijferpercentage calculator. Voer behaalde punten en totaal aantal punten in om direct het percentage van je examen of toets te berekenen.",
+  "h1": "Cijferpercentage Calculator",
+  "subtitle": "Voer de <strong>behaalde punten</strong> en het <strong>totaal aantal punten</strong> in, en deze <strong>cijferpercentage calculator</strong> berekent direct je <strong>examenpercentage</strong> – perfect voor rapporten, cijferlijsten en resultaatcontroles.",
+  "hint": "Voer behaalde punten en totaal in om je percentage te krijgen.",
+  "long_tail_anchor": "Examen- en toetsscore in procent",
+  "card_strings": {
+    "Marks Obtained": "Behaalde punten",
+    "Percentage:": "Percentage:",
+    "Total Marks": "Totaal aantal punten",
+    "e.g. 450": "bijv. 450",
+    "e.g. 500": "bijv. 500"
+  }
+}

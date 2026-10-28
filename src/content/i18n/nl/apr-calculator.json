@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "nl",
+  "meta_title": "APR Calculator | Jaarlijks rentepercentage",
+  "meta_description": "Gratis APR calculator. Zet een periodieke rente direct om naar het jaarlijkse rentepercentage (APR): de standaardmanier waarop leningen en creditcards hun kosten weergeven.",
+  "h1": "APR Calculator",
+  "subtitle": "Voer de <strong>periodieke rente</strong> en het <strong>aantal periodes per jaar</strong> in, en deze <strong>APR calculator</strong> berekent het <strong>jaarlijkse rentepercentage</strong> – de standaardmanier, zonder samenstelling, waarop kredietverstrekkers leenkosten weergeven.",
+  "hint": "Voer de periodieke rente en de periodes per jaar in om de APR te krijgen.",
+  "long_tail_anchor": "Calculator voor jaarlijks rentepercentage",
+  "card_strings": {
+    "APR:": "APR:",
+    "Periodic Interest Rate": "Periodieke rente",
+    "Periods / Year": "Periodes / jaar",
+    "e.g. 1.5": "bijv. 1.5",
+    "e.g. 12": "bijv. 12"
+  }
+}

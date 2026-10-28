@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "nl",
+  "meta_title": "Afschrijving Calculator | Lineaire methode",
+  "meta_description": "Gratis afschrijving calculator met de lineaire methode. Voer aanschafwaarde, restwaarde en gebruiksduur in om de jaarlijkse afschrijving te berekenen.",
+  "h1": "Afschrijving Calculator",
+  "subtitle": "Voer de <strong>aanschafwaarde</strong>, de <strong>restwaarde</strong> en de <strong>gebruiksduur</strong> in, en deze <strong>afschrijving calculator</strong> berekent direct de <strong>jaarlijkse afschrijving</strong> volgens de lineaire methode.",
+  "hint": "Voer aanschafwaarde, restwaarde en gebruiksduur in om de jaarlijkse afschrijving te krijgen.",
+  "long_tail_anchor": "Lineaire afschrijving van bedrijfsmiddelen",
+  "card_strings": {
+    "Annual Depreciation:": "Jaarlijkse afschrijving:",
+    "Asset Cost ($)": "Aanschafwaarde ($)",
+    "Depreciation Rate:": "Afschrijvingspercentage:",
+    "Salvage Value ($)": "Restwaarde ($)",
+    "Useful Life (Years)": "Gebruiksduur (jaren)",
+    "e.g. 1000": "bijv. 1000",
+    "e.g. 10000": "bijv. 10000",
+    "e.g. 5": "bijv. 5"
+  }
+}

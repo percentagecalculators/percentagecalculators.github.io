@@ -1,0 +1,15 @@
+{
+  "slug": "ppm-to-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "PPM naar Percentage Calculator | Zet delen per miljoen om",
+  "meta_description": "Gratis PPM naar percentage calculator. Voer een waarde in delen per miljoen (ppm) in om die direct om te zetten naar een percentage: nauwkeurig voor scheikunde en techniek.",
+  "h1": "PPM naar Percentage Calculator",
+  "subtitle": "Voer een waarde in <strong>delen per miljoen (ppm)</strong> in en deze <strong>PPM naar percentage calculator</strong> zet die direct om naar een <strong>percentage</strong> – handig voor concentratie- en zuiverheidsmetingen.",
+  "hint": "Voer een ppm-waarde in om het gelijkwaardige percentage te krijgen.",
+  "long_tail_anchor": "Delen per miljoen naar procent",
+  "card_strings": {
+    "PPM": "ppm",
+    "Percentage:": "Percentage:",
+    "e.g. 2500": "bijv. 2500"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "percentile-to-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "Percentiel naar Percentage Calculator | Schat het percentage",
+  "meta_description": "Gratis percentiel naar percentage calculator. Krijg snel een geschat percentage uit een examenpercentiel met een veelgebruikte benaderingsformule.",
+  "h1": "Percentiel naar Percentage Calculator",
+  "subtitle": "Voer je <strong>percentiel</strong> in en deze <strong>percentiel naar percentage calculator</strong> geeft je snel een <strong>geschat percentage</strong> met een veelgebruikte benadering. Percentiel en percentage meten verschillende dingen, dus beschouw dit als een schatting en niet als een officiële omrekening.",
+  "hint": "Voer een percentiel (0–100) in om een geschat percentage te krijgen.",
+  "long_tail_anchor": "Percentage schatten uit percentielrang",
+  "card_strings": {
+    "%ile": "perc.",
+    "Estimated Percentage:": "Geschat percentage:",
+    "Percentile": "Percentiel",
+    "e.g. 85": "bijv. 85"
+  }
+}

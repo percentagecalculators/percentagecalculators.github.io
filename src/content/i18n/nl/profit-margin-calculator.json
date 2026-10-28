@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "nl",
+  "meta_title": "Winstmarge Calculator | Bereken winstmarge in %",
+  "meta_description": "Gratis winstmarge calculator. Voer kostprijs en verkoopprijs in om direct je winst en winstmarge op basis van de verkoopprijs te berekenen.",
+  "h1": "Winstmarge Calculator",
+  "subtitle": "Voer de <strong>kostprijs</strong> en de <strong>verkoopprijs</strong> in, en deze <strong>winstmarge calculator</strong> berekent direct je <strong>winst</strong> en de <strong>winstmarge</strong> als percentage van de verkoopprijs.",
+  "hint": "Voer kostprijs en verkoopprijs in om je winstmarge te krijgen.",
+  "long_tail_anchor": "Margepercentage op verkoopprijs",
+  "card_strings": {
+    "Cost Price ($)": "Kostprijs ($)",
+    "Profit Margin:": "Winstmarge:",
+    "Profit:": "Winst:",
+    "Selling Price ($)": "Verkoopprijs ($)",
+    "e.g. 40": "bijv. 40",
+    "e.g. 55": "bijv. 55"
+  }
+}

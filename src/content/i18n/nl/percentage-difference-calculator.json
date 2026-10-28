@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "nl",
+  "meta_title": "Procentueel Verschil Calculator | Vergelijk twee waarden",
+  "meta_description": "Gratis procentueel verschil calculator. Vergelijk twee getallen en bereken het procentuele verschil. Gebruikt het gemiddelde als basis voor een symmetrische, onbevooroordeelde vergelijking.",
+  "h1": "Procentueel Verschil Calculator",
+  "subtitle": "Voer <strong>twee waarden</strong> in en deze <strong>procentueel verschil calculator</strong> toont hoe ver ze uit elkaar liggen als <strong>percentage</strong>, met hun <strong>gemiddelde</strong> als basis. Anders dan bij procentuele verandering maakt de volgorde hier niet uit: 50 vergelijken met 80 geeft hetzelfde resultaat als 80 met 50.",
+  "hint": "Voer twee waarden in om het procentuele verschil ertussen te krijgen.",
+  "long_tail_anchor": "Twee getallen symmetrisch vergelijken",
+  "card_strings": {
+    "Absolute Difference:": "Absoluut verschil:",
+    "Enter first number": "Voer eerste getal in",
+    "Enter second number": "Voer tweede getal in",
+    "First Value": "Eerste waarde",
+    "Percentage Difference:": "Procentueel verschil:",
+    "Second Value": "Tweede waarde"
+  }
+}

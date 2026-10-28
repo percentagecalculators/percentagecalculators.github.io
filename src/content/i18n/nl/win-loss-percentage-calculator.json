@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "nl",
+  "meta_title": "Winst- en Verliespercentage Calculator | Bereken je winstpercentage",
+  "meta_description": "Gratis winst- en verliespercentage calculator. Voer gewonnen, verloren en gelijkgespeelde wedstrijden in om direct je winstpercentage te berekenen voor elke sport, elk spel of elke competitie.",
+  "h1": "Winst- en Verliespercentage Calculator",
+  "subtitle": "Voer je <strong>overwinningen</strong>, <strong>nederlagen</strong> en eventuele <strong>gelijke spelen</strong> in, en deze <strong>winst- en verliespercentage calculator</strong> berekent direct je <strong>winstpercentage</strong>.",
+  "hint": "Voer overwinningen, nederlagen en gelijke spelen in om je winstpercentage te krijgen.",
+  "long_tail_anchor": "Bereken je sportieve winstpercentage",
+  "card_strings": {
+    "Losses": "Nederlagen",
+    "Ties": "Gelijke spelen",
+    "Total Games:": "Totaal aantal wedstrijden:",
+    "Win Percentage:": "Winstpercentage:",
+    "Wins": "Overwinningen",
+    "e.g. 10": "bijv. 10",
+    "e.g. 18": "bijv. 18",
+    "e.g. 2": "bijv. 2"
+  }
+}

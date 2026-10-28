@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "nl",
+  "meta_title": "Procentuele Groei Calculator | Groeipercentage van bedrijven",
+  "meta_description": "Gratis procentuele groei calculator. Bereken groeipercentages voor omzet, klanten, verkoop en KPI's. Volg de bedrijfsprestaties met nauwkeurige cijfers.",
+  "h1": "Procentuele Groei Calculator",
+  "subtitle": "Voer een <strong>beginwaarde</strong> en een <strong>eindwaarde</strong> in, en deze <strong>procentuele groei calculator</strong> toont het <strong>groeipercentage</strong> en het <strong>groeibedrag</strong>. Hij beantwoordt de vraag: met hoeveel procent is je getal gegroeid van punt A naar punt B?",
+  "hint": "Voer een beginwaarde en een eindwaarde in om de procentuele groei te krijgen.",
+  "long_tail_anchor": "Groeipercentage van bedrijf en omzet",
+  "card_strings": {
+    "Ending value": "Eindwaarde",
+    "Final Value": "Eindwaarde",
+    "Growth Amount:": "Groeibedrag:",
+    "Growth Rate:": "Groeipercentage:",
+    "Initial Value": "Beginwaarde",
+    "Starting value": "Beginwaarde"
+  }
+}

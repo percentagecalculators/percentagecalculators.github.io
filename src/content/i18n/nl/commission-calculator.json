@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "nl",
+  "meta_title": "Commissie Calculator | Bereken verdiende verkoopcommissie",
+  "meta_description": "Gratis commissie calculator. Voer je verkoopbedrag en commissiepercentage in om direct de verdiende commissie te berekenen.",
+  "h1": "Commissie Calculator",
+  "subtitle": "Voer je <strong>verkoopbedrag</strong> en <strong>commissiepercentage</strong> in, en deze <strong>commissie calculator</strong> berekent direct de <strong>commissie die je hebt verdiend</strong>.",
+  "hint": "Voer verkoopbedrag en commissiepercentage in om de verdiende commissie te krijgen.",
+  "long_tail_anchor": "Verkoopcommissiepercentage",
+  "card_strings": {
+    "Commission Earned:": "Verdiende commissie:",
+    "Commission Rate": "Commissiepercentage",
+    "Sales Amount ($)": "Verkoopbedrag ($)",
+    "e.g. 10": "bijv. 10",
+    "e.g. 5000": "bijv. 5000"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "nl",
+  "meta_title": "Winstopslag Calculator | Verkoopprijs uit kostprijs + %",
+  "meta_description": "Gratis winstopslag calculator. Voer de kostprijs en het gewenste opslagpercentage in om direct de verkoopprijs te berekenen die je moet vragen.",
+  "h1": "Winstopslag Calculator",
+  "subtitle": "Voer de <strong>kostprijs</strong> en het gewenste <strong>opslagpercentage</strong> in, en deze <strong>winstopslag calculator</strong> berekent direct de <strong>verkoopprijs</strong> die je moet vragen.",
+  "hint": "Voer kostprijs en opslag-% in om de verkoopprijs te krijgen.",
+  "long_tail_anchor": "Van kostprijs plus opslag naar prijs",
+  "card_strings": {
+    "Cost Price ($)": "Kostprijs ($)",
+    "Markup": "Opslag",
+    "Markup Amount:": "Opslagbedrag:",
+    "Selling Price:": "Verkoopprijs:",
+    "e.g. 30": "bijv. 30",
+    "e.g. 40": "bijv. 40"
+  }
+}

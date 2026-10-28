@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "nl",
+  "meta_title": "APY Calculator | Jaarlijks rendement",
+  "meta_description": "Gratis APY calculator. Zet een nominale rente en de samenstellingsfrequentie direct om naar het jaarlijkse rendement (APY).",
+  "h1": "APY Calculator",
+  "subtitle": "Voer de <strong>nominale rente</strong> in en hoe vaak die <strong>per jaar wordt samengesteld</strong>, en deze <strong>APY calculator</strong> berekent je werkelijke <strong>jaarlijkse rendement</strong> – het echte rendement dat je behaalt.",
+  "hint": "Voer de nominale rente en de samenstellingsperiodes per jaar in om je APY te krijgen.",
+  "long_tail_anchor": "Calculator voor jaarlijks rendement",
+  "card_strings": {
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Samenstellingsperiodes / jaar",
+    "Nominal Interest Rate": "Nominale rente",
+    "e.g. 12": "bijv. 12",
+    "e.g. 5": "bijv. 5"
+  }
+}
