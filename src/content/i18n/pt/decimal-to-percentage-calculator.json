@@ -1,0 +1,15 @@
+{
+  "slug": "decimal-to-percentage-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Decimal para Porcentagem | Converta Decimal em %",
+  "meta_description": "Calculadora gratuita de decimal para porcentagem. Digite qualquer valor decimal para convertê-lo na hora em porcentagem: resultados precisos para escola, trabalho ou finanças.",
+  "h1": "Calculadora de Decimal para Porcentagem",
+  "subtitle": "Digite um <strong>valor decimal</strong> e esta <strong>calculadora de decimal para porcentagem</strong> o converte na hora em <strong>porcentagem</strong>.",
+  "hint": "Digite um valor decimal para obter a porcentagem equivalente.",
+  "long_tail_anchor": "Converter um decimal em porcentagem",
+  "card_strings": {
+    "Decimal Value": "Valor decimal",
+    "Percentage:": "Porcentagem:",
+    "e.g. 0.25": "p. ex. 0.25"
+  }
+}

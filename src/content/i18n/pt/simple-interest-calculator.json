@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Juros Simples | Juros e Valor Total",
+  "meta_description": "Calculadora de juros simples gratuita. Digite capital, taxa anual e prazo para calcular na hora os juros ganhos e o valor total.",
+  "h1": "Calculadora de Juros Simples",
+  "subtitle": "Digite o <strong>capital</strong>, a <strong>taxa de juros anual</strong> e o <strong>prazo em anos</strong>, e esta <strong>calculadora de juros simples</strong> mostra na hora os <strong>juros ganhos</strong> e o <strong>valor total</strong>.",
+  "hint": "Digite capital, taxa anual e prazo para obter os juros e o valor total.",
+  "long_tail_anchor": "Fórmula de capital, taxa e prazo",
+  "card_strings": {
+    "Annual Rate": "Taxa anual",
+    "Interest Earned:": "Juros ganhos:",
+    "Principal ($)": "Capital ($)",
+    "Time (Years)": "Prazo (anos)",
+    "Total Amount:": "Valor total:",
+    "e.g. 1000": "p. ex. 1000",
+    "e.g. 3": "p. ex. 3",
+    "e.g. 5": "p. ex. 5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Redução Percentual | Subtraia uma Porcentagem",
+  "meta_description": "Calculadora gratuita de redução percentual. Subtraia qualquer porcentagem de um número na hora: calcule depreciação, perda de peso e cortes de orçamento.",
+  "h1": "Calculadora de Redução Percentual",
+  "subtitle": "Digite seu <strong>número inicial</strong> e a <strong>porcentagem a subtrair</strong>, e esta <strong>calculadora de redução percentual</strong> mostra o <strong>valor da redução</strong> e o <strong>valor final</strong>. Se você está se perguntando quanto é 500 menos 20 %, são 400, e você acabou de poupar um pouco de cálculo mental.",
+  "hint": "Digite um número e a porcentagem a subtrair para obter o valor reduzido.",
+  "long_tail_anchor": "Subtrair uma porcentagem de um número",
+  "card_strings": {
+    "Decrease Amount:": "Valor da redução:",
+    "Decrease by": "Reduzir em",
+    "Enter percentage": "Digite a porcentagem",
+    "Enter starting number": "Digite o número inicial",
+    "New Value:": "Novo valor:",
+    "Original Value": "Valor inicial"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Porcentagem de uma Porcentagem | Combine Dois %",
+  "meta_description": "Calculadora gratuita de porcentagem de uma porcentagem. Multiplique duas porcentagens encadeadas e aplique a taxa combinada a um valor para impostos ou descontos acumulados.",
+  "h1": "Calculadora de Porcentagem de uma Porcentagem",
+  "subtitle": "Digite duas <strong>porcentagens</strong> e esta <strong>calculadora de porcentagem de uma porcentagem</strong> as multiplica da forma correta para dar a <strong>porcentagem combinada</strong>: acrescente um valor inicial para ver exatamente como ele passa pelas duas etapas.",
+  "hint": "Multiplique duas porcentagens encadeadas para obter a taxa combinada.",
+  "long_tail_anchor": "Combine duas porcentagens encadeadas",
+  "card_strings": {
+    "Apply to a Value (optional)": "Aplicar a um valor (opcional)",
+    "Combined Percentage:": "Porcentagem combinada:",
+    "Final Value:": "Valor final:",
+    "First Percentage": "Primeira porcentagem",
+    "Second Percentage": "Segunda porcentagem",
+    "Value After First %:": "Valor após o primeiro %:",
+    "e.g. 200": "p. ex. 200",
+    "e.g. 40": "p. ex. 40",
+    "e.g. 90": "p. ex. 90"
+  }
+}

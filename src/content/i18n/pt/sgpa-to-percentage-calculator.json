@@ -1,0 +1,15 @@
+{
+  "slug": "sgpa-to-percentage-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de SGPA para Porcentagem | Converta SGPA em Porcentagem",
+  "meta_description": "Calculadora gratuita de SGPA para porcentagem com a fórmula padrão SGPA × 9,5. Converta seu SGPA semestral em uma porcentagem equivalente na hora.",
+  "h1": "Calculadora de SGPA para Porcentagem",
+  "subtitle": "Digite seu <strong>SGPA</strong> e esta <strong>calculadora de SGPA para porcentagem</strong> aplica a fórmula padrão <strong>SGPA × 9,5</strong>, usada pela maioria das universidades indianas, para dar a você na hora a <strong>porcentagem</strong> equivalente.",
+  "hint": "Digite seu SGPA semestral para obter a porcentagem equivalente.",
+  "long_tail_anchor": "Converta o GPA semestral em porcentagem",
+  "card_strings": {
+    "Percentage:": "Porcentagem:",
+    "SGPA (out of 10)": "SGPA (de 10)",
+    "e.g. 7.8": "p. ex. 7.8"
+  }
+}

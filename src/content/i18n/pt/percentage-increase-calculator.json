@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Aumento Percentual | Some uma Porcentagem a um Número",
+  "meta_description": "Calculadora gratuita de aumento percentual. Some qualquer porcentagem a um número na hora. Calcule aumentos de salário, markups de preço, retornos de investimento e muito mais.",
+  "h1": "Calculadora de Aumento Percentual",
+  "subtitle": "Digite seu <strong>número inicial</strong> e a <strong>porcentagem a somar</strong>, e esta <strong>calculadora de aumento percentual</strong> mostra tanto o <strong>valor do aumento</strong> quanto o <strong>valor final</strong>. Pense nela como a resposta para «quanto é 200 mais 15 %?», que, aliás, é 230.",
+  "hint": "Digite um número e a porcentagem a somar para obter o valor aumentado.",
+  "long_tail_anchor": "Some uma porcentagem a um número",
+  "card_strings": {
+    "Enter percentage": "Digite a porcentagem",
+    "Enter starting number": "Digite o número inicial",
+    "Increase Amount:": "Valor do aumento:",
+    "Increase by": "Aumentar em",
+    "New Value:": "Novo valor:",
+    "Original Value": "Valor inicial"
+  }
+}

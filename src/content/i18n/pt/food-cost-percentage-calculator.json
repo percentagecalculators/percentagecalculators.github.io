@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Porcentagem de Custo de Alimentos | Custo do Prato em %",
+  "meta_description": "Calculadora gratuita de porcentagem de custo de alimentos. Digite o custo dos ingredientes e o preço do prato para calcular na hora o percentual de custo de um item do cardápio.",
+  "h1": "Calculadora de Porcentagem de Custo de Alimentos",
+  "subtitle": "Digite o <strong>custo dos ingredientes</strong> e o <strong>preço do prato</strong>, e esta <strong>calculadora de porcentagem de custo de alimentos</strong> calcula na hora a <strong>porcentagem de custo de alimentos</strong> desse item do cardápio.",
+  "hint": "Digite o custo dos ingredientes e o preço do prato para obter a porcentagem de custo.",
+  "long_tail_anchor": "Porcentagem de custo do cardápio de restaurante",
+  "card_strings": {
+    "Food Cost Percentage:": "Porcentagem de custo de alimentos:",
+    "Ingredient Cost ($)": "Custo dos ingredientes ($)",
+    "Menu Price ($)": "Preço do prato ($)",
+    "e.g. 14": "p. ex. 14",
+    "e.g. 3.50": "p. ex. 3.50"
+  }
+}

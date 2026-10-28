@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Margem de Lucro | Calcule a Margem de Lucro %",
+  "meta_description": "Calculadora gratuita de margem de lucro. Digite o preço de custo e o preço de venda para calcular na hora seu lucro e a margem de lucro sobre o preço de venda.",
+  "h1": "Calculadora de Margem de Lucro",
+  "subtitle": "Digite o <strong>preço de custo</strong> e o <strong>preço de venda</strong>, e esta <strong>calculadora de margem de lucro</strong> calcula na hora seu <strong>lucro</strong> e a <strong>margem de lucro</strong> como porcentagem do preço de venda.",
+  "hint": "Digite o preço de custo e o de venda para obter sua margem de lucro.",
+  "long_tail_anchor": "Margem percentual sobre o preço de venda",
+  "card_strings": {
+    "Cost Price ($)": "Preço de custo ($)",
+    "Profit Margin:": "Margem de lucro:",
+    "Profit:": "Lucro:",
+    "Selling Price ($)": "Preço de venda ($)",
+    "e.g. 40": "p. ex. 40",
+    "e.g. 55": "p. ex. 55"
+  }
+}

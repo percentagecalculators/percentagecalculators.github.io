@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de APR | Taxa Percentual Anual",
+  "meta_description": "Calculadora gratuita de APR. Converta uma taxa de juros periódica na Taxa Percentual Anual (APR) na hora: a forma padrão como empréstimos e cartões de crédito informam seu custo.",
+  "h1": "Calculadora de APR",
+  "subtitle": "Digite a <strong>taxa de juros periódica</strong> e o <strong>número de períodos por ano</strong>, e esta <strong>calculadora de APR</strong> calcula a <strong>Taxa Percentual Anual</strong>: a forma padrão, sem capitalização, como os credores informam o custo do crédito.",
+  "hint": "Digite a taxa periódica e os períodos por ano para obter o APR.",
+  "long_tail_anchor": "Calculadora de taxa percentual anual",
+  "card_strings": {
+    "APR:": "APR:",
+    "Periodic Interest Rate": "Taxa de juros periódica",
+    "Periods / Year": "Períodos / ano",
+    "e.g. 1.5": "p. ex. 1.5",
+    "e.g. 12": "p. ex. 12"
+  }
+}

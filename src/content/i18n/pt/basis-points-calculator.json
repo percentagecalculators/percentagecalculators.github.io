@@ -1,0 +1,15 @@
+{
+  "slug": "basis-points-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Pontos-Base | Converta Pontos-Base em Porcentagem",
+  "meta_description": "Calculadora gratuita de pontos-base. Digite um valor em pontos-base (bps) para convertê-lo na hora em porcentagem: resultados precisos para finanças e trading.",
+  "h1": "Calculadora de Pontos-Base",
+  "subtitle": "Digite um valor em <strong>pontos-base (bps)</strong> e esta <strong>calculadora de pontos-base</strong> o converte na hora em <strong>porcentagem</strong>: a forma padrão como o mercado financeiro expressa pequenas variações de taxa.",
+  "hint": "Digite pontos-base para obter a porcentagem equivalente.",
+  "long_tail_anchor": "Converter pontos-base em porcentagem",
+  "card_strings": {
+    "Basis Points (bps)": "Pontos-base (bps)",
+    "Percentage:": "Porcentagem:",
+    "e.g. 25": "p. ex. 25"
+  }
+}

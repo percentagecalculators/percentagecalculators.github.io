@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Proof de Álcool | Converta Proof em Porcentagem de ABV",
+  "meta_description": "Calculadora gratuita de proof de álcool. Digite um valor de proof americano para convertê-lo na hora em porcentagem de álcool por volume (ABV): rápida, precisa e fácil de usar.",
+  "h1": "Calculadora de Proof de Álcool",
+  "subtitle": "Digite um valor de <strong>proof de álcool</strong> (escala americana) e esta <strong>calculadora de proof de álcool</strong> o converte na hora em porcentagem de <strong>álcool por volume (ABV)</strong>.",
+  "hint": "Digite um valor de proof americano para obter a porcentagem de ABV.",
+  "long_tail_anchor": "Conversor de proof em porcentagem de ABV",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "Proof (EUA)",
+    "e.g. 80": "p. ex. 80"
+  }
+}

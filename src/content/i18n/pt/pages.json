@@ -1,0 +1,424 @@
+{
+  "about": {
+    "meta_title": "Sobre nós | Percentage Calculators",
+    "meta_description": "Conheça a Percentage Calculators: uma coleção gratuita de ferramentas de porcentagem que rodam no navegador, criadas para rapidez, precisão e facilidade de uso em qualquer dispositivo.",
+    "h1": "Sobre a Percentage Calculators",
+    "sections": [
+      {
+        "heading": "Nossa missão",
+        "paragraphs": [
+          "A Percentage Calculators nasceu com um objetivo simples: tornar os cálculos de porcentagem rápidos, precisos e acessíveis a todos. Seja você um estudante fazendo o dever de casa, um profissional analisando métricas de negócios ou alguém calculando a gorjeta num restaurante, estamos aqui para ajudar."
+        ]
+      },
+      {
+        "heading": "Quem somos",
+        "paragraphs": [
+          "Olá! Eu sou o <strong>Subash Geetha Krishnan</strong>, Tech Lead com mais de 15 anos de experiência em tecnologia corporativa. Moro em Singapura e dediquei minha carreira a resolver problemas técnicos complexos e a criar ferramentas que facilitam a vida.",
+          "Depois de anos procurando calculadoras de porcentagem simples e confiáveis na internet e achando a maioria cheia de anúncios ou sem recursos, decidi construir algo melhor. A Percentage Calculators é o resultado: um conjunto de ferramentas limpo, rápido e totalmente gratuito que cresceu de um punhado de calculadoras para uma biblioteca completa que cobre matemática do dia a dia, notas escolares e finanças pessoais."
+        ]
+      },
+      {
+        "heading": "O que oferecemos",
+        "paragraphs": [
+          "Nossa plataforma agora inclui 41 calculadoras de porcentagem especializadas, organizadas em cinco categorias para você encontrar a ferramenta certa rapidamente:"
+        ],
+        "list": [
+          "<strong>Ferramentas básicas de porcentagem</strong> – O essencial: encontrar uma porcentagem, aumentar ou reduzir um número e comparar dois valores.",
+          "<strong>Conversores</strong> – Converta entre porcentagens, frações, decimais, razões e outras formas de unidades.",
+          "<strong>Educação</strong> – Conversões de GPA, CGPA, SGPA, notas e percentis para estudantes.",
+          "<strong>Finanças e negócios</strong> – Taxas de juros, margens de lucro, markup, aumentos de salário e crescimento de negócios.",
+          "<strong>Dia a dia e casos específicos</strong> – Gorjetas, proporções de panificação, histórico de vitórias e derrotas e outros problemas de porcentagem pontuais."
+        ]
+      },
+      {
+        "heading": "Por que nos escolher?",
+        "list": [
+          "<strong>100 % grátis</strong> – Todas as ferramentas são totalmente gratuitas e não exigem cadastro",
+          "<strong>Resultados instantâneos</strong> – Os cálculos acontecem enquanto você digita, sem botões para clicar",
+          "<strong>Ótimo no celular</strong> – Funciona perfeitamente em qualquer dispositivo",
+          "<strong>Sem excesso de anúncios</strong> – Interface limpa e focada na funcionalidade",
+          "<strong>Privacidade em primeiro lugar</strong> – Não rastreamos seus cálculos nem vendemos seus dados",
+          "<strong>Fórmula à vista</strong> – Veja a matemática por trás de cada cálculo e aprenda enquanto usa"
+        ]
+      },
+      {
+        "heading": "Nosso compromisso",
+        "paragraphs": [
+          "Nos comprometemos a manter a Percentage Calculators gratuita, rápida e confiável. Aprimoramos continuamente nossas ferramentas com base no feedback dos usuários e adicionamos novas calculadoras para cobrir mais dos problemas de porcentagem que as pessoas enfrentam todos os dias.",
+          "Tem uma sugestão ou encontrou um erro? Adoraríamos saber! Visite nossa <a href=\"/contact\">página de contato</a> para falar conosco."
+        ]
+      },
+      {
+        "heading": "Fale com a gente",
+        "paragraphs": [
+          "Siga-nos nas redes sociais para novidades, dicas e mais:"
+        ],
+        "list": [
+          "<a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>",
+          "<a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter/X</a>",
+          "<a href=\"https://github.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>",
+          "<a href=\"https://www.facebook.com/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook</a>"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "meta_title": "Contato | Percentage Calculators",
+    "meta_description": "Fale com a equipe da Percentage Calculators para dúvidas, comentários ou relatos de erros sobre nossas ferramentas de porcentagem gratuitas. Lemos todas as mensagens.",
+    "h1": "Fale conosco",
+    "sections": [
+      {
+        "heading": "Entre em contato",
+        "paragraphs": [
+          "Adoraríamos ouvir você! Seja uma dúvida, uma sugestão, um erro encontrado ou só um olá, não hesite em entrar em contato."
+        ]
+      },
+      {
+        "heading": "Nos encontre online",
+        "paragraphs": [
+          "<strong>Subash Geetha Krishnan</strong><br>Fundador e desenvolvedor, com sede em Singapura."
+        ],
+        "list": [
+          "<strong>LinkedIn:</strong> <a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">linkedin.com/in/buzzsubash</a>",
+          "<strong>Twitter/X:</strong> <a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">@buzzsubash</a>",
+          "<strong>GitHub:</strong> <a href=\"https://github.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">github.com/buzzsubash</a>",
+          "<strong>Facebook:</strong> <a href=\"https://www.facebook.com/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">facebook.com/buzzsubash</a>",
+          "<strong>Reddit:</strong> <a href=\"https://www.reddit.com/user/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">u/buzzsubash</a>"
+        ]
+      },
+      {
+        "heading": "Como podemos ajudar?",
+        "paragraphs": [
+          "Estamos aqui para ajudar com:"
+        ],
+        "list": [
+          "<strong>Relatos de erros</strong> – Encontrou algo que não funciona? Avise-nos!",
+          "<strong>Pedidos de recursos</strong> – Tem uma ideia para uma nova calculadora ou melhoria?",
+          "<strong>Dúvidas gerais</strong> – Precisa de ajuda para usar nossas ferramentas?",
+          "<strong>Feedback</strong> – Valorizamos todo feedback, positivo ou construtivo",
+          "<strong>Propostas de parceria</strong> – Quer colaborar?"
+        ]
+      },
+      {
+        "heading": "Tempo de resposta",
+        "paragraphs": [
+          "Normalmente respondemos em 24 a 48 horas.",
+          "Obrigado por usar a Percentage Calculators!"
+        ]
+      }
+    ]
+  },
+  "disclaimer": {
+    "meta_title": "Aviso legal | Percentage Calculators",
+    "meta_description": "Aviso legal da Percentage Calculators: nossas ferramentas são apenas informativas e não substituem aconselhamento profissional.",
+    "h1": "Aviso legal",
+    "subtitle": "Última atualização: dezembro de 2024",
+    "sections": [
+      {
+        "heading": "Informações gerais",
+        "paragraphs": [
+          "As informações fornecidas pela Percentage Calculators («nós», «nos» ou «nosso») neste site têm caráter exclusivamente informativo e educacional. Todas as informações do site são fornecidas de boa-fé; no entanto, não fazemos nenhuma declaração nem damos garantia de qualquer tipo, expressa ou implícita, quanto à exatidão, adequação, validade, confiabilidade, disponibilidade ou integridade de qualquer informação do site."
+        ]
+      },
+      {
+        "heading": "Não é aconselhamento profissional",
+        "paragraphs": [
+          "As calculadoras e as informações deste site não substituem o aconselhamento profissional. Os resultados das nossas calculadoras não devem ser usados como base para decisões financeiras, jurídicas, médicas ou de qualquer outra natureza profissional. Procure sempre a orientação de profissionais qualificados nesses assuntos.",
+          "Especificamente:"
+        ],
+        "list": [
+          "<strong>Decisões financeiras:</strong> Não confie apenas em nossas calculadoras para decisões de investimento, fiscais ou financeiras importantes. Consulte um consultor financeiro ou contador qualificado.",
+          "<strong>Trabalhos científicos e acadêmicos:</strong> Embora nossas calculadoras sejam projetadas para ser precisas, verifique sempre os resultados em trabalhos acadêmicos ou pesquisas científicas.",
+          "<strong>Decisões empresariais:</strong> Use nossas ferramentas como ponto de partida, mas peça a profissionais adequados que verifiquem os cálculos que afetem as operações do negócio."
+        ]
+      },
+      {
+        "heading": "Precisão dos cálculos",
+        "paragraphs": [
+          "Nos esforçamos para que nossas calculadoras ofereçam resultados precisos. No entanto:"
+        ],
+        "list": [
+          "Os resultados podem ser afetados por arredondamentos ou por limitações da aritmética de ponto flutuante",
+          "Não podemos garantir 100 % de precisão em todos os cenários",
+          "Os usuários são responsáveis por verificar os resultados em aplicações críticas",
+          "Recomendamos conferir novamente os cálculos que tenham consequências importantes"
+        ]
+      },
+      {
+        "heading": "Links externos",
+        "paragraphs": [
+          "Este site pode conter links para sites externos que não são fornecidos nem mantidos por nós. Não garantimos a exatidão, relevância, atualidade ou integridade de nenhuma informação nesses sites externos. A inclusão de links não implica necessariamente recomendação nem aprovação das opiniões expressas neles."
+        ]
+      },
+      {
+        "heading": "Limitação de responsabilidade",
+        "paragraphs": [
+          "Em nenhuma hipótese seremos responsáveis perante você por qualquer perda ou dano de qualquer natureza decorrente do uso do site ou da confiança em qualquer informação nele fornecida. O uso do site e a confiança em suas informações são de sua inteira responsabilidade."
+        ]
+      },
+      {
+        "heading": "Alterações neste aviso legal",
+        "paragraphs": [
+          "Reservamo-nos o direito de modificar este aviso legal a qualquer momento. As alterações entram em vigor imediatamente após a publicação no site. Se você continuar usando o site após qualquer alteração, estará aceitando o novo aviso legal."
+        ]
+      },
+      {
+        "heading": "Fale conosco",
+        "paragraphs": [
+          "Se tiver dúvidas sobre este aviso legal, <a href=\"/contact\">entre em contato conosco</a>."
+        ]
+      }
+    ]
+  },
+  "privacy-policy": {
+    "meta_title": "Política de privacidade | Percentage Calculators",
+    "meta_description": "Política de privacidade da Percentage Calculators: quais dados coletamos (muito poucos) e como nossas calculadoras gratuitas tratam o que você digita.",
+    "h1": "Política de privacidade",
+    "subtitle": "Última atualização: dezembro de 2024",
+    "sections": [
+      {
+        "heading": "Introdução",
+        "paragraphs": [
+          "A Percentage Calculators («nós», «nos» ou «nosso») respeita a sua privacidade e se compromete a proteger seus dados pessoais. Esta política de privacidade explica como coletamos, usamos e protegemos suas informações quando você visita nosso site."
+        ]
+      },
+      {
+        "heading": "Informações que coletamos",
+        "paragraphs": [
+          "<strong>Informações que você fornece</strong>",
+          "Podemos coletar informações que você fornece voluntariamente, como:",
+          "<strong>Informações coletadas automaticamente</strong>",
+          "Quando você visita nosso site, podemos coletar automaticamente:",
+          "<strong>O que não coletamos</strong>",
+          "Queremos ser claros sobre o que <strong>não coletamos</strong>:"
+        ],
+        "list": [
+          "Informações de contato (endereço de e-mail) quando você fala conosco",
+          "Feedback e sugestões que você envia",
+          "Informações do dispositivo (tipo de navegador, sistema operacional)",
+          "Endereço IP (anonimizado)",
+          "Páginas visitadas e tempo gasto em cada página",
+          "Site de origem",
+          "Localização geográfica geral (nível de país ou cidade)",
+          "Não armazenamos os números que você digita em nossas calculadoras",
+          "Não rastreamos o seu histórico de cálculos",
+          "Não exigimos criação de conta nem login",
+          "Não coletamos informações de pagamento (nosso serviço é gratuito)"
+        ]
+      },
+      {
+        "heading": "Como usamos suas informações",
+        "paragraphs": [
+          "Usamos as informações que coletamos para:"
+        ],
+        "list": [
+          "Fornecer e manter nossas ferramentas de cálculo",
+          "Melhorar e otimizar nosso site",
+          "Entender como os usuários interagem com nosso site",
+          "Responder às suas dúvidas e ao seu feedback",
+          "Detectar e prevenir problemas técnicos"
+        ]
+      },
+      {
+        "heading": "Cookies e tecnologias de rastreamento",
+        "paragraphs": [
+          "Usamos cookies e tecnologias de rastreamento semelhantes para melhorar a sua experiência:",
+          "Você pode controlar os cookies pelas configurações do navegador. Observe que desativar certos cookies pode afetar o funcionamento do site."
+        ],
+        "list": [
+          "<strong>Cookies essenciais:</strong> Necessários para o funcionamento básico do site",
+          "<strong>Cookies analíticos:</strong> Ajudam-nos a entender como os visitantes usam nosso site (Google Analytics)",
+          "<strong>Cookies de preferências:</strong> Lembram suas configurações (como o idioma preferido)"
+        ]
+      },
+      {
+        "heading": "Serviços de terceiros",
+        "paragraphs": [
+          "Podemos usar serviços de terceiros que coletam informações:",
+          "Esses terceiros têm suas próprias políticas de privacidade que regem o uso das informações que coletam."
+        ],
+        "list": [
+          "<strong>Google Analytics:</strong> Para análise do tráfego do site",
+          "<strong>Parceiros de publicidade:</strong> Para exibir anúncios relevantes"
+        ]
+      },
+      {
+        "heading": "Segurança dos dados",
+        "paragraphs": [
+          "Adotamos medidas de segurança adequadas para proteger suas informações. No entanto, nenhum método de transmissão pela internet é 100 % seguro, e não podemos garantir segurança absoluta."
+        ]
+      },
+      {
+        "heading": "Seus direitos",
+        "paragraphs": [
+          "Dependendo de onde você estiver, pode ter certos direitos sobre seus dados pessoais, incluindo:",
+          "Para exercer esses direitos, <a href=\"/contact\">entre em contato conosco</a>."
+        ],
+        "list": [
+          "Direito de acessar seus dados pessoais",
+          "Direito de corrigir dados incorretos",
+          "Direito de solicitar a exclusão dos seus dados",
+          "Direito de se opor a determinados tratamentos de dados"
+        ]
+      },
+      {
+        "heading": "Privacidade de crianças",
+        "paragraphs": [
+          "Nosso site não é direcionado a crianças menores de 13 anos. Não coletamos conscientemente informações pessoais de crianças menores de 13 anos. Se você acredita que coletamos informações de uma criança menor de 13 anos, entre em contato conosco imediatamente."
+        ]
+      },
+      {
+        "heading": "Alterações nesta política",
+        "paragraphs": [
+          "Podemos atualizar esta política de privacidade de tempos em tempos. Avisaremos sobre qualquer alteração publicando a nova política nesta página e atualizando a data de «Última atualização»."
+        ]
+      },
+      {
+        "heading": "Fale conosco",
+        "paragraphs": [
+          "Se tiver dúvidas sobre esta política de privacidade ou sobre nossas práticas com dados, entre em contato conosco:"
+        ],
+        "list": [
+          "<strong>E-mail:</strong> <a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>",
+          "<strong>Página de contato:</strong> <a href=\"/contact\">Fale conosco</a>"
+        ]
+      }
+    ]
+  },
+  "terms-of-use": {
+    "meta_title": "Termos de uso | Percentage Calculators",
+    "meta_description": "Termos de uso das calculadoras online gratuitas da Percentage Calculators: uso aceitável, responsabilidade e precisão de nossas ferramentas e resultados.",
+    "h1": "Termos de uso",
+    "subtitle": "Última atualização: dezembro de 2024",
+    "sections": [
+      {
+        "heading": "Aceitação dos termos",
+        "paragraphs": [
+          "Ao acessar e usar a Percentage Calculators (o «Site»), você concorda em ficar vinculado a estes Termos de uso. Se não concordar com estes termos, não use nosso site."
+        ]
+      },
+      {
+        "heading": "Descrição do serviço",
+        "paragraphs": [
+          "A Percentage Calculators oferece ferramentas de cálculo online gratuitas para realizar diversos cálculos relacionados a porcentagens. Nossos serviços incluem, entre outros:"
+        ],
+        "list": [
+          "Cálculos de aumento e redução percentual",
+          "Cálculos de variação e diferença percentual",
+          "Cálculos de descontos e preços promocionais",
+          "Conversões de fração para porcentagem",
+          "Cálculos de taxa de crescimento",
+          "Cálculos de erro percentual",
+          "Cálculos de porcentagem média"
+        ]
+      },
+      {
+        "heading": "Uso aceitável",
+        "paragraphs": [
+          "Você concorda em usar o Site apenas para fins legais. Você não deve:"
+        ],
+        "list": [
+          "Usar o Site de forma que viole leis ou regulamentos aplicáveis",
+          "Tentar obter acesso não autorizado aos nossos sistemas ou servidores",
+          "Interferir no funcionamento do Site ou prejudicá-lo",
+          "Usar sistemas automatizados ou bots para acessar o Site de forma excessiva",
+          "Copiar, reproduzir ou redistribuir nosso conteúdo sem permissão",
+          "Usar o Site para transmitir malware ou código malicioso"
+        ]
+      },
+      {
+        "heading": "Propriedade intelectual",
+        "paragraphs": [
+          "O Site e seu conteúdo original, recursos e funcionalidades são de propriedade da Percentage Calculators e protegidos por leis internacionais de direitos autorais, marcas e outras leis de propriedade intelectual.",
+          "Você pode:",
+          "Você não pode:"
+        ],
+        "list": [
+          "Usar nossas calculadoras para fins pessoais e educacionais",
+          "Compartilhar links para o nosso Site",
+          "Citar nossos cálculos com a devida atribuição",
+          "Copiar ou replicar os designs ou o código das nossas calculadoras",
+          "Remover avisos de direitos autorais ou de propriedade",
+          "Incorporar ou exibir nosso Site em frames sem permissão"
+        ]
+      },
+      {
+        "heading": "Isenção de garantias",
+        "paragraphs": [
+          "O Site é fornecido «NO ESTADO EM QUE SE ENCONTRA» e «CONFORME DISPONÍVEL». Não oferecemos garantias, expressas ou implícitas, quanto a:",
+          "Consulte nosso <a href=\"/disclaimer\">Aviso legal</a> para mais informações."
+        ],
+        "list": [
+          "A exatidão ou confiabilidade dos cálculos",
+          "Funcionamento ininterrupto ou livre de erros",
+          "Adequação a uma finalidade específica",
+          "A segurança do Site"
+        ]
+      },
+      {
+        "heading": "Limitação de responsabilidade",
+        "paragraphs": [
+          "Na máxima extensão permitida por lei, a Percentage Calculators não será responsável por quaisquer danos indiretos, incidentais, especiais, consequentes ou punitivos, incluindo, entre outros:"
+        ],
+        "list": [
+          "Perda de lucros ou receitas",
+          "Perda de dados",
+          "Interrupção de negócios",
+          "Quaisquer danos decorrentes do uso das nossas calculadoras"
+        ]
+      },
+      {
+        "heading": "Indenização",
+        "paragraphs": [
+          "Você concorda em indenizar e isentar de responsabilidade a Percentage Calculators, seu proprietário e afiliados por quaisquer reclamações, perdas, danos, responsabilidades e despesas (incluindo honorários advocatícios) decorrentes do uso do Site ou da violação destes termos."
+        ]
+      },
+      {
+        "heading": "Links de terceiros",
+        "paragraphs": [
+          "Nosso Site pode conter links para sites de terceiros. Não somos responsáveis pelo conteúdo, exatidão ou práticas de nenhum site de terceiros. Visitar sites vinculados é por sua conta e risco."
+        ]
+      },
+      {
+        "heading": "Modificações do serviço",
+        "paragraphs": [
+          "Reservamo-nos o direito de:",
+          "O uso continuado do Site após alterações constitui aceitação dos termos modificados."
+        ],
+        "list": [
+          "Modificar ou descontinuar qualquer parte do Site sem aviso prévio",
+          "Atualizar estes Termos de uso a qualquer momento",
+          "Alterar recursos ou funcionalidades das nossas calculadoras"
+        ]
+      },
+      {
+        "heading": "Lei aplicável",
+        "paragraphs": [
+          "Estes Termos de uso serão regidos e interpretados de acordo com as leis de Singapura, sem consideração às suas disposições sobre conflito de leis."
+        ]
+      },
+      {
+        "heading": "Divisibilidade",
+        "paragraphs": [
+          "Se qualquer disposição destes Termos for considerada inexequível, as demais disposições continuarão em pleno vigor."
+        ]
+      },
+      {
+        "heading": "Fale conosco",
+        "paragraphs": [
+          "Se tiver dúvidas sobre estes Termos de uso, <a href=\"/contact\">entre em contato conosco</a>."
+        ],
+        "list": [
+          "<strong>E-mail:</strong> <a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>"
+        ]
+      }
+    ]
+  },
+  "sitemap": {
+    "meta_title": "Mapa do site | Percentage Calculators",
+    "meta_description": "Todas as páginas da Percentage Calculators organizadas por categoria: a lista completa de calculadoras de porcentagem, conversores e recursos educacionais.",
+    "h1": "Mapa do site",
+    "subtitle": "Todas as páginas da Percentage Calculators, organizadas por categoria.",
+    "sections": []
+  }
+}

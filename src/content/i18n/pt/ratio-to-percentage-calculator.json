@@ -1,0 +1,18 @@
+{
+  "slug": "ratio-to-percentage-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Razão para Porcentagem | Converta uma Razão em %",
+  "meta_description": "Calculadora gratuita de razão para porcentagem. Digite as duas partes de uma razão para ver na hora o total e que porcentagem a primeira parte representa.",
+  "h1": "Calculadora de Razão para Porcentagem",
+  "subtitle": "Digite as duas partes de uma <strong>razão</strong> (como 3 : 4), e esta <strong>calculadora de razão para porcentagem</strong> mostra na hora o <strong>total</strong> e que <strong>porcentagem</strong> a primeira parte representa.",
+  "hint": "Digite as duas partes de uma razão para obter a porcentagem do total.",
+  "long_tail_anchor": "Converta uma razão em participação percentual",
+  "card_strings": {
+    "A as % of Total:": "A em % do total:",
+    "Part A": "Parte A",
+    "Part B": "Parte B",
+    "Total:": "Total:",
+    "e.g. 3": "p. ex. 3",
+    "e.g. 4": "p. ex. 4"
+  }
+}

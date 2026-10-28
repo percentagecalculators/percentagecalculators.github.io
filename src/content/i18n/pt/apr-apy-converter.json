@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "pt",
+  "meta_title": "Conversor de APR para APY | Converta em Rendimento Percentual Anual",
+  "meta_description": "Conversor gratuito de APR para APY. Digite um APR e a frequência de capitalização para ver na hora o Rendimento Percentual Anual (APY) equivalente.",
+  "h1": "Conversor de APR para APY",
+  "subtitle": "Digite um <strong>APR</strong> e sua <strong>frequência de capitalização</strong>, e este <strong>conversor de APR para APY</strong> mostra o <strong>Rendimento Percentual Anual</strong> equivalente, útil para comparar contas apresentadas de formas diferentes.",
+  "hint": "Digite um APR e os períodos de capitalização por ano para obter o APY equivalente.",
+  "long_tail_anchor": "Compare taxas APR e APY",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Períodos de capitalização / ano",
+    "e.g. 12": "p. ex. 12",
+    "e.g. 6": "p. ex. 6"
+  }
+}

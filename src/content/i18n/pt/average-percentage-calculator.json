@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Porcentagem Média | Média Simples e Ponderada",
+  "meta_description": "Calculadora gratuita de porcentagem média, com modos simples e ponderado. Combine corretamente porcentagens de grupos de tamanhos diferentes para notas e pesquisas.",
+  "h1": "Calculadora de Porcentagem Média",
+  "subtitle": "Digite uma lista de <strong>porcentagens</strong> separadas por vírgulas, e esta <strong>calculadora de porcentagem média</strong> mostra a <strong>média</strong>, a <strong>soma</strong>, a <strong>contagem</strong> e a amplitude dos seus valores. Acrescente uma lista correspondente de <strong>tamanhos de amostra</strong> quando os grupos não tiverem o mesmo tamanho, e ela passa automaticamente para uma <strong>média ponderada</strong> correta.",
+  "hint": "Digite porcentagens (e, se quiser, tamanhos de amostra) para uma média simples ou ponderada.",
+  "long_tail_anchor": "Média de várias porcentagens",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "Informe um peso para cada porcentagem (por exemplo, tamanhos de turma ou número de respondentes) para combinar corretamente grupos de tamanhos diferentes.",
+    "Average:": "Média:",
+    "Count:": "Contagem:",
+    "Percentages (comma or space separated)": "Porcentagens (separadas por vírgula ou espaço)",
+    "Sample Sizes / Weights (optional)": "Tamanhos de amostra / pesos (opcional)",
+    "Sum:": "Soma:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "p. ex. 30, 50, 20, 40 (deixe em branco para uma média simples)",
+    "e.g. 85, 90, 78, 92": "p. ex. 85, 90, 78, 92"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Margem Bruta | Calcule a Margem de Lucro Bruto em %",
+  "meta_description": "Calculadora de margem bruta gratuita. Digite a receita e o custo das mercadorias vendidas (CMV) para calcular na hora o lucro bruto e a porcentagem de margem bruta.",
+  "h1": "Calculadora de Margem Bruta",
+  "subtitle": "Digite sua <strong>receita</strong> e o <strong>custo das mercadorias vendidas (CMV)</strong>, e esta <strong>calculadora de margem bruta</strong> calcula na hora seu <strong>lucro bruto</strong> e sua <strong>porcentagem de margem bruta</strong>.",
+  "hint": "Digite receita e CMV para obter sua porcentagem de margem bruta.",
+  "long_tail_anchor": "Margem percentual de receita e CMV",
+  "card_strings": {
+    "COGS ($)": "CMV ($)",
+    "Gross Margin:": "Margem bruta:",
+    "Gross Profit:": "Lucro bruto:",
+    "Revenue ($)": "Receita ($)",
+    "e.g. 100000": "p. ex. 100000",
+    "e.g. 65000": "p. ex. 65000"
+  }
+}

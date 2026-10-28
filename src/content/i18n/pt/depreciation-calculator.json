@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Depreciação | Método Linear",
+  "meta_description": "Calculadora de depreciação gratuita pelo método linear. Digite o custo do ativo, o valor residual e a vida útil para calcular a depreciação anual.",
+  "h1": "Calculadora de Depreciação",
+  "subtitle": "Digite o <strong>custo do ativo</strong>, o <strong>valor residual</strong> e a <strong>vida útil</strong>, e esta <strong>calculadora de depreciação</strong> calcula na hora a <strong>depreciação anual</strong> pelo método linear.",
+  "hint": "Digite custo do ativo, valor residual e vida útil para obter a depreciação anual.",
+  "long_tail_anchor": "Depreciação linear de ativos",
+  "card_strings": {
+    "Annual Depreciation:": "Depreciação anual:",
+    "Asset Cost ($)": "Custo do ativo ($)",
+    "Depreciation Rate:": "Taxa de depreciação:",
+    "Salvage Value ($)": "Valor residual ($)",
+    "Useful Life (Years)": "Vida útil (anos)",
+    "e.g. 1000": "p. ex. 1000",
+    "e.g. 10000": "p. ex. 10000",
+    "e.g. 5": "p. ex. 5"
+  }
+}

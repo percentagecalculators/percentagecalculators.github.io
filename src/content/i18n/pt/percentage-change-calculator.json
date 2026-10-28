@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Variação Percentual | Aumento ou Redução em %",
+  "meta_description": "Calculadora gratuita de variação percentual. Calcule o aumento ou a redução percentual entre dois valores: acompanhe variações de ações e de preços.",
+  "h1": "Calculadora de Variação Percentual",
+  "subtitle": "Digite um <strong>valor antigo</strong> e um <strong>valor novo</strong>, e esta <strong>calculadora de variação percentual</strong> mostra o <strong>aumento ou a redução percentual</strong> entre eles. O resultado é positivo para uma alta e negativo para uma queda: ir de 80 a 100 dá +25 %.",
+  "hint": "Digite um valor antigo e um novo para obter a variação percentual entre eles.",
+  "long_tail_anchor": "Aumento ou redução percentual",
+  "card_strings": {
+    "Change Type:": "Tipo de variação:",
+    "Enter ending value": "Digite o valor final",
+    "Enter starting value": "Digite o valor inicial",
+    "New Value (Current)": "Valor novo (atual)",
+    "Old Value (Original)": "Valor antigo (original)",
+    "Percentage Change:": "Variação percentual:"
+  }
+}

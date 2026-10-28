@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Desconto Percentual | Preço Promocional",
+  "meta_description": "Calculadora gratuita de desconto percentual. Calcule preços promocionais e economia na hora. Descubra o preço final após qualquer desconto: sua aliada nas ofertas.",
+  "h1": "Calculadora de Desconto Percentual",
+  "subtitle": "Digite o <strong>preço original</strong> e a <strong>porcentagem de desconto</strong>, e esta <strong>calculadora de desconto percentual</strong> mostra o <strong>preço promocional</strong> e exatamente quanto <strong>dinheiro você economiza</strong>. Da próxima vez que vir uma placa de «30 % de desconto», você saberá quanto realmente vai pagar.",
+  "hint": "Digite o preço original e o % de desconto para obter o preço promocional.",
+  "long_tail_anchor": "Localizador de desconto e preço promocional",
+  "card_strings": {
+    "Discount": "Desconto",
+    "Enter discount %": "Digite o % de desconto",
+    "Enter price": "Digite o preço",
+    "Final Price:": "Preço final:",
+    "Original Price ($)": "Preço original ($)",
+    "You Save:": "Você economiza:"
+  }
+}

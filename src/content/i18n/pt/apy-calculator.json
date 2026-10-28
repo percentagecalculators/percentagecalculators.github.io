@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de APY | Rendimento Percentual Anual",
+  "meta_description": "Calculadora gratuita de APY. Converta uma taxa de juros nominal e sua frequência de capitalização no Rendimento Percentual Anual (APY) na hora.",
+  "h1": "Calculadora de APY",
+  "subtitle": "Digite a <strong>taxa de juros nominal</strong> e com que frequência ela <strong>capitaliza por ano</strong>, e esta <strong>calculadora de APY</strong> calcula seu verdadeiro <strong>Rendimento Percentual Anual</strong>: o retorno real que você vai receber.",
+  "hint": "Digite a taxa nominal e os períodos de capitalização por ano para obter seu APY.",
+  "long_tail_anchor": "Calculadora de rendimento percentual anual",
+  "card_strings": {
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Períodos de capitalização / ano",
+    "Nominal Interest Rate": "Taxa de juros nominal",
+    "e.g. 12": "p. ex. 12",
+    "e.g. 5": "p. ex. 5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Aumento de Salário | Calcule seu Novo Salário",
+  "meta_description": "Calculadora gratuita de aumento de salário. Digite seu salário atual e a porcentagem de aumento para calcular na hora o valor do aumento e seu novo salário.",
+  "h1": "Calculadora de Aumento de Salário",
+  "subtitle": "Digite seu <strong>salário atual</strong> e sua <strong>porcentagem de aumento</strong>, e esta <strong>calculadora de aumento de salário</strong> calcula na hora o <strong>valor do aumento</strong> e seu <strong>novo salário</strong>.",
+  "hint": "Digite seu salário atual e o % de aumento para obter seu novo salário.",
+  "long_tail_anchor": "Porcentagem de aumento e reajuste salarial",
+  "card_strings": {
+    "Current Salary ($)": "Salário atual ($)",
+    "New Salary:": "Novo salário:",
+    "Raise": "Aumento",
+    "Raise Amount:": "Valor do aumento:",
+    "e.g. 5": "p. ex. 5",
+    "e.g. 60000": "p. ex. 60000"
+  }
+}

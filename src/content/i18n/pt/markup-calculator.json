@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Markup | Preço de Venda a partir do Custo + %",
+  "meta_description": "Calculadora de markup gratuita. Digite o preço de custo e a porcentagem de markup desejada para calcular na hora o preço de venda que você deve cobrar.",
+  "h1": "Calculadora de Markup",
+  "subtitle": "Digite o <strong>preço de custo</strong> e a <strong>porcentagem de markup</strong> desejada, e esta <strong>calculadora de markup</strong> calcula na hora o <strong>preço de venda</strong> que você deve cobrar.",
+  "hint": "Digite o preço de custo e o % de markup para obter o preço de venda.",
+  "long_tail_anchor": "Do custo mais markup ao preço",
+  "card_strings": {
+    "Cost Price ($)": "Preço de custo ($)",
+    "Markup": "Markup",
+    "Markup Amount:": "Valor do markup:",
+    "Selling Price:": "Preço de venda:",
+    "e.g. 30": "p. ex. 30",
+    "e.g. 40": "p. ex. 40"
+  }
+}

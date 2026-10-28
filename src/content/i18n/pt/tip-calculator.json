@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Gorjeta | Calcule a Gorjeta e Divida a Conta",
+  "meta_description": "Calculadora de gorjeta gratuita. Digite o valor da conta, a porcentagem de gorjeta e o número de pessoas para calcular na hora a gorjeta, o total e o valor por pessoa.",
+  "h1": "Calculadora de Gorjeta",
+  "subtitle": "Digite o <strong>valor da conta</strong>, a <strong>porcentagem de gorjeta</strong> e o <strong>número de pessoas</strong>, e esta <strong>calculadora de gorjeta</strong> calcula na hora a <strong>gorjeta</strong>, o <strong>total</strong> e quanto <strong>cada pessoa deve pagar</strong>.",
+  "hint": "Digite a conta, o % de gorjeta e as pessoas para dividir.",
+  "long_tail_anchor": "Divisor de conta e gorjeta de restaurante",
+  "card_strings": {
+    "Bill Amount ($)": "Valor da conta ($)",
+    "Per Person:": "Por pessoa:",
+    "Split Between": "Dividir entre",
+    "Tip": "Gorjeta",
+    "Tip Amount:": "Valor da gorjeta:",
+    "Total:": "Total:",
+    "e.g. 18": "p. ex. 18",
+    "e.g. 4": "p. ex. 4",
+    "e.g. 80": "p. ex. 80"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Diferença Percentual | Compare Dois Valores",
+  "meta_description": "Calculadora gratuita de diferença percentual. Compare dois números e encontre a diferença percentual. Usa a média como base para uma comparação simétrica e sem viés.",
+  "h1": "Calculadora de Diferença Percentual",
+  "subtitle": "Digite <strong>dois valores</strong> e esta <strong>calculadora de diferença percentual</strong> mostra o quanto eles se afastam como <strong>porcentagem</strong>, usando a <strong>média</strong> deles como base. Ao contrário da variação percentual, aqui a ordem não importa: comparar 50 com 80 dá o mesmo resultado que 80 com 50.",
+  "hint": "Digite dois valores para obter a diferença percentual entre eles.",
+  "long_tail_anchor": "Compare dois números de forma simétrica",
+  "card_strings": {
+    "Absolute Difference:": "Diferença absoluta:",
+    "Enter first number": "Digite o primeiro número",
+    "Enter second number": "Digite o segundo número",
+    "First Value": "Primeiro valor",
+    "Percentage Difference:": "Diferença percentual:",
+    "Second Value": "Segundo valor"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Porcentagem do Padeiro | Proporções dos Ingredientes",
+  "meta_description": "Calculadora gratuita de porcentagem do padeiro. Digite o peso da farinha e o de um ingrediente para calcular na hora a porcentagem do padeiro desse ingrediente.",
+  "h1": "Calculadora de Porcentagem do Padeiro",
+  "subtitle": "Digite o <strong>peso da farinha</strong> e o <strong>peso de um ingrediente</strong>, e esta <strong>calculadora de porcentagem do padeiro</strong> calcula na hora a <strong>porcentagem do padeiro</strong> desse ingrediente: cada ingrediente expresso em relação à farinha.",
+  "hint": "Digite o peso da farinha e do ingrediente para obter a porcentagem do padeiro.",
+  "long_tail_anchor": "Hidratação da massa e proporções dos ingredientes",
+  "card_strings": {
+    "Baker's Percentage:": "Porcentagem do padeiro:",
+    "Flour Weight (g)": "Peso da farinha (g)",
+    "Ingredient Weight (g)": "Peso do ingrediente (g)",
+    "e.g. 350": "p. ex. 350",
+    "e.g. 500": "p. ex. 500"
+  }
+}

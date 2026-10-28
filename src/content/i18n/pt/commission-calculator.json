@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Comissão | Calcule a Comissão de Vendas Ganha",
+  "meta_description": "Calculadora de comissão gratuita. Digite o valor das vendas e a taxa de comissão para calcular na hora a comissão que você ganhou.",
+  "h1": "Calculadora de Comissão",
+  "subtitle": "Digite o <strong>valor das vendas</strong> e a <strong>taxa de comissão</strong>, e esta <strong>calculadora de comissão</strong> calcula na hora a <strong>comissão que você ganhou</strong>.",
+  "hint": "Digite o valor das vendas e a taxa de comissão para obter a comissão ganha.",
+  "long_tail_anchor": "Porcentagem de comissão de vendas",
+  "card_strings": {
+    "Commission Earned:": "Comissão ganha:",
+    "Commission Rate": "Taxa de comissão",
+    "Sales Amount ($)": "Valor das vendas ($)",
+    "e.g. 10": "p. ex. 10",
+    "e.g. 5000": "p. ex. 5000"
+  }
+}

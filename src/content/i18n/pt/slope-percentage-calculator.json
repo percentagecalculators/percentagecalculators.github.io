@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Inclinação em Porcentagem | De Desnível/Distância a %",
+  "meta_description": "Calculadora gratuita de inclinação em porcentagem. Digite o desnível e a distância horizontal para calcular na hora a porcentagem de inclinação e o ângulo equivalente em graus.",
+  "h1": "Calculadora de Inclinação em Porcentagem",
+  "subtitle": "Digite o <strong>desnível</strong> e a <strong>distância horizontal</strong>, e esta <strong>calculadora de inclinação em porcentagem</strong> calcula na hora a <strong>porcentagem de inclinação</strong> e o <strong>ângulo em graus</strong> equivalente.",
+  "hint": "Digite desnível e distância horizontal para obter a porcentagem de inclinação e o ângulo.",
+  "long_tail_anchor": "Do desnível sobre a distância à porcentagem de inclinação",
+  "card_strings": {
+    "Angle:": "Ângulo:",
+    "Rise": "Desnível",
+    "Run": "Distância horizontal",
+    "Slope:": "Inclinação:",
+    "e.g. 100": "p. ex. 100",
+    "e.g. 5": "p. ex. 5"
+  }
+}

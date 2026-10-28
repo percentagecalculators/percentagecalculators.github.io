@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "pt",
+  "meta_title": "Calculadora de Juros de Empréstimo | Parcela Mensal e Juros Totais",
+  "meta_description": "Calculadora de juros de empréstimo gratuita. Digite o valor do empréstimo, a taxa anual e o prazo para calcular na hora sua parcela mensal (EMI) e o total de juros a pagar.",
+  "h1": "Calculadora de Juros de Empréstimo",
+  "subtitle": "Digite o <strong>valor do empréstimo</strong>, a <strong>taxa de juros anual</strong> e o <strong>prazo</strong>, e esta <strong>calculadora de juros de empréstimo</strong> calcula na hora sua <strong>parcela mensal (EMI)</strong> e o <strong>total de juros</strong> que você vai pagar.",
+  "hint": "Digite valor, taxa e prazo para obter sua parcela mensal.",
+  "long_tail_anchor": "Parcela mensal e juros totais",
+  "card_strings": {
+    "Annual Rate": "Taxa anual",
+    "Loan Amount ($)": "Valor do empréstimo ($)",
+    "Loan Term (Years)": "Prazo do empréstimo (anos)",
+    "Monthly EMI:": "Parcela mensal (EMI):",
+    "Total Interest:": "Juros totais:",
+    "e.g. 20000": "p. ex. 20000",
+    "e.g. 5": "p. ex. 5",
+    "e.g. 7.5": "p. ex. 7.5"
+  }
+}
