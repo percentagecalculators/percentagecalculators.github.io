@@ -44,3 +44,7 @@ Decisions (made 2026-10-28):
 
 - Register (neutral, `คุณ` mostly omitted) and loanword vs. native-term choices (ดอกเบี้ยแบบง่าย vs. ดอกเบี้ยเงินต้น).
 - Word-break spacing around Latin tokens and numbers.
+- Distilling, commission-plan and academic-class terms (น้ำหมักน้ำตาล, ตัวคูณเร่ง, ชั้นหนึ่งเกียรตินิยม) are own renderings; UK degree classes keep the English name in brackets.
+- "รายครึ่งปี" used for semi-annually (the digit check forbids "6 เดือน").
+- Terms added for compound/loan articles (เงินงวด, อัตราผลตอบแทนพันธบัตร) need native confirmation.
+- SGPA article follows English (SGPA × 10) − 7.5; the subtitle says × 9.5 (inconsistency in the English source).
