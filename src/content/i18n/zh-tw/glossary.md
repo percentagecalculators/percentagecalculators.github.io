@@ -1,7 +1,7 @@
 # Traditional Chinese (zh-tw) glossary for articles and FAQs
 
 Decisions (made 2026-10-28):
-- Variety: Taiwan standard written Chinese (正體中文, Taiwan terminology), written independently — NOT an OpenCC conversion of zh-cn. Taiwan usage: 計算機 (as in the first-pass nav), 軟體, 資訊, 預設, 品質, 質量→(chemistry: 質量 stays), 影片, 網路, 利率, 銷貨成本, 學分, 小數, 百分位數, 平均成績, 存貨 (not 库存), 帳單, 麵粉, 淨利, 殘值, 稅前/稅後.
+- Variety: Taiwan standard written Chinese (正體中文, Taiwan terminology), written independently — NOT an OpenCC conversion of zh-cn. Taiwan usage: 計算機 (as in the first-pass nav), 軟體, 資訊, 預設, 品質, 影片, 網路, 利率, 銷貨成本, 學分, 小數, 百分位數, 平均成績, 存貨 (not 库存), 帳單, 麵粉, 淨利, 殘值, 稅前/稅後.
 - Address: `您` as in first-pass cards, used sparingly. Headings are noun phrases or questions ending with `？`; no sentence-final period on headings.
 - Punctuation: full-width `，。、；：？！（）` and corner quotes `「…」` for quotation (Taiwan MOE standard), `『…』` nested. Inside LaTeX, next to digits/Latin acronyms and for the decimal point, the usual half-width characters stay.
 - Numbers, decimal point, thousands comma and `$` stay as in English with Western digits: 12.5%, $1,250. No 折/成 notation, no Chinese numerals where English has digits.
@@ -28,7 +28,7 @@ Decisions (made 2026-10-28):
 | interest rate | 利率 | |
 | compounding frequency | 複利計息頻率 | |
 | future / present value | 終值 / 現值 | |
-| APY / APR | APY（實質年收益率）/ APR（名目年利率） | acronyms kept |
+| APY / APR | APY（實質年報酬率）/ APR（名目年利率） | acronyms kept |
 | rate of return | 報酬率 | Taiwan uses 報酬率, not 收益率 |
 | GPA / CGPA / SGPA | GPA（平均成績點數）/ CGPA（累計平均成績點數）/ SGPA（學期平均成績點數） | |
 | grading scale, letter grade | 評分標準, 等第 | |
@@ -44,3 +44,8 @@ Decisions (made 2026-10-28):
 ## Open for review (self-review by Claude, no native reviewer)
 
 - Taiwan vs. Mainland term choices (報酬率 vs. 收益率, 存貨 vs. 庫存, 等第); corner-quote usage.
+- `收益率` (Mainland) was replaced by `報酬率` throughout; `殖利率` may suit bond-yield contexts better.
+- Indian university names, distilling terms (酒頭／酒心／酒尾, 初餾酒), UK/Indian grade classes and sales-plan terms (追回條款, 座位費, 需治數) are own renderings.
+- 「打七折」 appears once in the percentage-off article as a quoted shop sign (Taiwan idiom); elsewhere 折扣 N% with Western digits.
+- US items (CFPB, Regulation Z, Card Act) kept attributed; whether they belong on a Taiwan-market page is an editorial decision.
+- SGPA article follows English (SGPA × 10) − 7.5; the subtitle says × 9.5 (inconsistency in the English source).
