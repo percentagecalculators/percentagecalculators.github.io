@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "de",
+  "meta_title": "CGPA-in-Prozent-Rechner | 10-Punkte-CGPA in % umrechnen",
+  "meta_description": "Kostenloser CGPA-in-Prozent-Rechner mit der Standardformel 10-Punkte-CGPA × 9,5. Rechnen Sie Ihren CGPA für Hochschulunterlagen in Prozent um.",
+  "h1": "CGPA-in-Prozent-Rechner",
+  "subtitle": "Geben Sie Ihren <strong>CGPA</strong> auf der <strong>Standardskala von 10 Punkten</strong> ein, und dieser <strong>CGPA-in-Prozent-Rechner</strong> wendet die weit verbreitete Formel <strong>CGPA × 9,5</strong> an und liefert sofort den entsprechenden <strong>Prozentwert</strong>.",
+  "hint": "Geben Sie Ihren 10-Punkte-CGPA ein, um den entsprechenden Prozentwert zu erhalten.",
+  "long_tail_anchor": "10-Punkte-CGPA in Prozent umrechnen",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA (von 10)",
+    "Percentage:": "Prozentsatz:",
+    "e.g. 8.2": "z. B. 8.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "de",
+  "meta_title": "Trinkgeldrechner | Trinkgeld berechnen und Rechnung teilen",
+  "meta_description": "Kostenloser Trinkgeldrechner. Geben Sie Rechnungsbetrag, Trinkgeldsatz und Personenzahl ein, um Trinkgeld, Gesamtbetrag und Betrag pro Person sofort zu berechnen.",
+  "h1": "Trinkgeldrechner",
+  "subtitle": "Geben Sie Ihren <strong>Rechnungsbetrag</strong>, den <strong>Trinkgeldsatz</strong> und die <strong>Anzahl der Personen</strong> ein, und dieser <strong>Trinkgeldrechner</strong> ermittelt sofort das <strong>Trinkgeld</strong>, den <strong>Gesamtbetrag</strong> und wie viel <strong>jede Person zahlt</strong>.",
+  "hint": "Geben Sie Rechnung, Trinkgeld in % und Personenzahl zum Teilen ein.",
+  "long_tail_anchor": "Trinkgeld und Restaurantrechnung teilen",
+  "card_strings": {
+    "Bill Amount ($)": "Rechnungsbetrag ($)",
+    "Per Person:": "Pro Person:",
+    "Split Between": "Aufteilen auf",
+    "Tip": "Trinkgeld",
+    "Tip Amount:": "Trinkgeldbetrag:",
+    "Total:": "Gesamt:",
+    "e.g. 18": "z. B. 18",
+    "e.g. 4": "z. B. 4",
+    "e.g. 80": "z. B. 80"
+  }
+}

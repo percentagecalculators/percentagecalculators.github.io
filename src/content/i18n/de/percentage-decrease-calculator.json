@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "lang": "de",
+  "meta_title": "Rechner für prozentuale Verminderung | Prozent abziehen",
+  "meta_description": "Kostenloser Rechner für prozentuale Verminderung. Ziehen Sie einen beliebigen Prozentsatz sofort von einer Zahl ab – für Wertverlust, Gewichtsabnahme und Budgetkürzungen.",
+  "h1": "Rechner für prozentuale Verminderung",
+  "subtitle": "Geben Sie Ihre <strong>Ausgangszahl</strong> und den <strong>abzuziehenden Prozentsatz</strong> ein, und dieser <strong>Rechner für prozentuale Verminderung</strong> liefert den <strong>Minderungsbetrag</strong> und den <strong>Endwert</strong>. Wenn Sie sich fragen, was 500 minus 20 % ergibt – es sind 400, und Sie haben sich etwas Kopfrechnen gespart.",
+  "hint": "Geben Sie eine Zahl und den abzuziehenden Prozentsatz ein, um den verminderten Wert zu erhalten.",
+  "long_tail_anchor": "Prozent von einer Zahl abziehen",
+  "card_strings": {
+    "Decrease Amount:": "Minderungsbetrag:",
+    "Decrease by": "Vermindern um",
+    "Enter percentage": "Prozentsatz eingeben",
+    "Enter starting number": "Startwert eingeben",
+    "New Value:": "Neuer Wert:",
+    "Original Value": "Ausgangswert"
+  }
+}

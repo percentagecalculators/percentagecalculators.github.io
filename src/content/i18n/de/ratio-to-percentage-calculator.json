@@ -1,0 +1,18 @@
+{
+  "slug": "ratio-to-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Verhältnis-in-Prozent-Rechner | Verhältnis in % umrechnen",
+  "meta_description": "Kostenloser Verhältnis-in-Prozent-Rechner. Geben Sie beide Teile eines Verhältnisses ein, um sofort die Summe und den Prozentanteil des ersten Teils zu sehen.",
+  "h1": "Verhältnis-in-Prozent-Rechner",
+  "subtitle": "Geben Sie beide Teile eines <strong>Verhältnisses</strong> ein (z. B. 3 : 4), und dieser <strong>Verhältnis-in-Prozent-Rechner</strong> zeigt sofort die <strong>Summe</strong> und wie viel <strong>Prozent</strong> der erste Teil ausmacht.",
+  "hint": "Geben Sie beide Teile eines Verhältnisses ein, um den Prozentanteil am Ganzen zu erhalten.",
+  "long_tail_anchor": "Verhältnis in Prozentanteil umrechnen",
+  "card_strings": {
+    "A as % of Total:": "A in % der Summe:",
+    "Part A": "Teil A",
+    "Part B": "Teil B",
+    "Total:": "Gesamt:",
+    "e.g. 3": "z. B. 3",
+    "e.g. 4": "z. B. 4"
+  }
+}

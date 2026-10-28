@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Wareneinsatz-Rechner | Wareneinsatz in Prozent berechnen",
+  "meta_description": "Kostenloser Rechner für den Wareneinsatz in Prozent. Geben Sie Zutatenkosten und Menüpreis ein, um den Wareneinsatz eines Gerichts sofort zu berechnen.",
+  "h1": "Wareneinsatz-Rechner",
+  "subtitle": "Geben Sie die <strong>Zutatenkosten</strong> und den <strong>Menüpreis</strong> ein, und dieser <strong>Wareneinsatz-Rechner</strong> ermittelt sofort den <strong>Wareneinsatz in Prozent</strong> für dieses Gericht.",
+  "hint": "Geben Sie Zutatenkosten und Menüpreis ein, um den Wareneinsatz in Prozent zu erhalten.",
+  "long_tail_anchor": "Wareneinsatz auf der Speisekarte in Prozent",
+  "card_strings": {
+    "Food Cost Percentage:": "Wareneinsatz in Prozent:",
+    "Ingredient Cost ($)": "Zutatenkosten ($)",
+    "Menu Price ($)": "Menüpreis ($)",
+    "e.g. 14": "z. B. 14",
+    "e.g. 3.50": "z. B. 3.50"
+  }
+}

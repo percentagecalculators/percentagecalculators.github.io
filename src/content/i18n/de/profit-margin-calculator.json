@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "de",
+  "meta_title": "Gewinnmargen-Rechner | Gewinnmarge in % berechnen",
+  "meta_description": "Kostenloser Gewinnmargen-Rechner. Geben Sie Einkaufs- und Verkaufspreis ein, um Ihren Gewinn und die Gewinnmarge bezogen auf den Verkaufspreis sofort zu berechnen.",
+  "h1": "Gewinnmargen-Rechner",
+  "subtitle": "Geben Sie den <strong>Einkaufspreis</strong> und den <strong>Verkaufspreis</strong> ein, und dieser <strong>Gewinnmargen-Rechner</strong> ermittelt sofort Ihren <strong>Gewinn</strong> und die <strong>Gewinnmarge</strong> als Prozentsatz des Verkaufspreises.",
+  "hint": "Geben Sie Einkaufs- und Verkaufspreis ein, um Ihre Gewinnmarge zu erhalten.",
+  "long_tail_anchor": "Marge in Prozent vom Verkaufspreis",
+  "card_strings": {
+    "Cost Price ($)": "Einkaufspreis ($)",
+    "Profit Margin:": "Gewinnmarge:",
+    "Profit:": "Gewinn:",
+    "Selling Price ($)": "Verkaufspreis ($)",
+    "e.g. 40": "z. B. 40",
+    "e.g. 55": "z. B. 55"
+  }
+}

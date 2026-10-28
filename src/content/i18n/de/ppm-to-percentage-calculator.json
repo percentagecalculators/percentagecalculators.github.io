@@ -1,0 +1,15 @@
+{
+  "slug": "ppm-to-percentage-calculator",
+  "lang": "de",
+  "meta_title": "ppm-in-Prozent-Rechner | Teile pro Million umrechnen",
+  "meta_description": "Kostenloser ppm-in-Prozent-Rechner. Geben Sie einen Wert in Teilen pro Million (ppm) ein und rechnen Sie ihn sofort in Prozent um – genau für Chemie und Technik.",
+  "h1": "ppm-in-Prozent-Rechner",
+  "subtitle": "Geben Sie einen Wert in <strong>Teilen pro Million (ppm)</strong> ein, und dieser <strong>ppm-in-Prozent-Rechner</strong> rechnet ihn sofort in <strong>Prozent</strong> um – praktisch für Konzentrations- und Reinheitsmessungen.",
+  "hint": "Geben Sie einen ppm-Wert ein, um den entsprechenden Prozentwert zu erhalten.",
+  "long_tail_anchor": "Teile pro Million in Prozent",
+  "card_strings": {
+    "PPM": "ppm",
+    "Percentage:": "Prozentsatz:",
+    "e.g. 2500": "z. B. 2500"
+  }
+}

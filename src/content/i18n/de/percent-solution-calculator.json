@@ -1,0 +1,17 @@
+{
+  "slug": "percent-solution-calculator",
+  "lang": "de",
+  "meta_title": "Prozentlösungs-Rechner | Massen-/Volumenkonzentration",
+  "meta_description": "Kostenloser Prozentlösungs-Rechner. Geben Sie die Masse des gelösten Stoffs und das Lösungsvolumen ein, um die Prozentkonzentration (% m/V) sofort zu berechnen.",
+  "h1": "Prozentlösungs-Rechner",
+  "subtitle": "Geben Sie die <strong>Masse des gelösten Stoffs</strong> und das <strong>Volumen der Lösung</strong> ein, und dieser <strong>Prozentlösungs-Rechner</strong> ermittelt sofort die <strong>Prozentkonzentration</strong> (% m/V).",
+  "hint": "Geben Sie die Masse des gelösten Stoffs und das Lösungsvolumen ein, um die Konzentration zu erhalten.",
+  "long_tail_anchor": "Prozentkonzentration aus Masse und Volumen",
+  "card_strings": {
+    "Concentration (% w/v):": "Konzentration (% m/V):",
+    "Mass of Solute (g)": "Masse des gelösten Stoffs (g)",
+    "Volume of Solution (mL)": "Volumen der Lösung (mL)",
+    "e.g. 250": "z. B. 250",
+    "e.g. 5": "z. B. 5"
+  }
+}

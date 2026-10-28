@@ -1,0 +1,103 @@
+{
+  "skip_to_content": "Zum Inhalt springen",
+  "primary_nav": "Hauptnavigation",
+  "toggle_dark": "Dunkelmodus umschalten",
+  "open_menu": "Menü öffnen",
+  "close_menu": "Menü schließen",
+  "site_nav": "Seitennavigation",
+  "home": "Startseite",
+  "more": "Mehr",
+  "language": "Sprache",
+  "reset": "Rechner zurücksetzen",
+  "calculate": "Berechnen",
+  "related_aria": "Ähnliche Rechner",
+  "faq_heading": "Häufig gestellte Fragen",
+  "toc_label": "Inhaltsverzeichnis",
+  "copy_result": "Ergebnis kopieren",
+  "copied": "Kopiert!",
+  "company": "Unternehmen",
+  "footer_site_map": "Sitemap",
+  "footer_links": "Links im Seitenfuß",
+  "rights": "Alle Rechte vorbehalten.",
+  "footer_tagline": "Kostenlose Online-Prozentrechner. Jede Berechnung läuft vollständig in Ihrem Browser – sofortige Ergebnisse, keine Anmeldung.",
+  "native_name": "Deutsch",
+  "nav_groups": {
+    "core": {
+      "label": "Grundlegende Prozentwerkzeuge",
+      "short_label": "Grundlagen",
+      "tagline": "Das Wesentliche: einen Prozentsatz finden, eine Zahl erhöhen oder vermindern und zwei Werte vergleichen."
+    },
+    "converters": {
+      "label": "Umrechner",
+      "short_label": "Umrechner",
+      "tagline": "Rechnen Sie zwischen Prozenten, Brüchen, Dezimalzahlen, Verhältnissen und anderen Einheitenformen um."
+    },
+    "education": {
+      "label": "Bildung",
+      "short_label": "Bildung",
+      "tagline": "GPA-, CGPA-, SGPA-, Punkte- und Perzentil-Umrechnungen für Studierende."
+    },
+    "finance": {
+      "label": "Finanzen und Geschäft",
+      "short_label": "Finanzen",
+      "tagline": "Zinssätze, Gewinnmargen, Aufschläge, Gehaltserhöhungen und Geschäftswachstum."
+    },
+    "everyday": {
+      "label": "Alltag und Spezielles",
+      "short_label": "Alltag",
+      "tagline": "Trinkgeld, Siegquoten, Backverhältnisse, Wareneinsatz und Prozentkonzentrationen von Lösungen."
+    }
+  },
+  "company_links": {
+    "/about": "Über uns",
+    "/contact": "Kontakt",
+    "/sitemap": "Sitemap",
+    "/disclaimer": "Haftungsausschluss",
+    "/privacy-policy": "Datenschutzerklärung",
+    "/terms-of-use": "Nutzungsbedingungen"
+  },
+  "nav_names": {
+    "alcohol-proof-calculator": "Alkohol-Proof-Rechner",
+    "apr-apy-converter": "APR-in-APY-Umrechner",
+    "apr-calculator": "APR-Rechner",
+    "apy-calculator": "APY-Rechner",
+    "average-percentage-calculator": "Durchschnittsprozent-Rechner",
+    "bakers-percentage-calculator": "Bäckerprozent-Rechner",
+    "basis-points-calculator": "Basispunkte-Rechner",
+    "cgpa-to-percentage-calculator": "CGPA-in-Prozent-Rechner",
+    "commission-calculator": "Provisionsrechner",
+    "compound-interest-calculator": "Zinseszinsrechner",
+    "decimal-to-percentage-calculator": "Dezimalzahl-in-Prozent-Rechner",
+    "depreciation-calculator": "Abschreibungsrechner",
+    "food-cost-percentage-calculator": "Wareneinsatz-Rechner",
+    "fraction-to-percentage-calculator": "Bruch-in-Prozent-Rechner",
+    "gpa-to-percentage-calculator": "GPA-in-Prozent-Rechner",
+    "gross-margin-calculator": "Bruttomargen-Rechner",
+    "loan-interest-calculator": "Kreditzinsrechner",
+    "marks-percentage-calculator": "Punkte-in-Prozent-Rechner",
+    "markup-calculator": "Aufschlagsrechner",
+    "percent-solution-calculator": "Prozentlösungs-Rechner",
+    "percentage-calculator": "Prozentrechner",
+    "percentage-change-calculator": "Rechner für prozentuale Veränderung",
+    "percentage-decrease-calculator": "Rechner für prozentuale Verminderung",
+    "percentage-difference-calculator": "Rechner für prozentuale Differenz",
+    "percentage-error-calculator": "Rechner für prozentualen Fehler",
+    "percentage-growth-calculator": "Rechner für prozentuales Wachstum",
+    "percentage-increase-calculator": "Rechner für prozentuale Erhöhung",
+    "percentage-of-a-percentage-calculator": "Prozent-von-Prozent-Rechner",
+    "percentage-off-calculator": "Rabattrechner",
+    "percentage-point-calculator": "Prozentpunkte-Rechner",
+    "percentile-to-percentage-calculator": "Perzentil-in-Prozent-Rechner",
+    "ppm-to-percentage-calculator": "ppm-in-Prozent-Rechner",
+    "profit-margin-calculator": "Gewinnmargen-Rechner",
+    "profit-percentage-calculator": "Gewinnprozent-Rechner",
+    "ratio-to-percentage-calculator": "Verhältnis-in-Prozent-Rechner",
+    "reverse-percentage-calculator": "Rechner für umgekehrte Prozentrechnung",
+    "salary-increase-calculator": "Gehaltserhöhungsrechner",
+    "sgpa-to-percentage-calculator": "SGPA-in-Prozent-Rechner",
+    "simple-interest-calculator": "Rechner für einfache Zinsen",
+    "slope-percentage-calculator": "Steigungsrechner in Prozent",
+    "tip-calculator": "Trinkgeldrechner",
+    "win-loss-percentage-calculator": "Siegquoten-Rechner"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "decimal-to-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Dezimalzahl-in-Prozent-Rechner | Dezimalzahl in % umrechnen",
+  "meta_description": "Kostenloser Rechner für Dezimalzahl in Prozent. Geben Sie eine beliebige Dezimalzahl ein und rechnen Sie sie sofort in Prozent um – genaue Ergebnisse für Schule, Beruf und Finanzen.",
+  "h1": "Dezimalzahl-in-Prozent-Rechner",
+  "subtitle": "Geben Sie eine <strong>Dezimalzahl</strong> ein, und dieser <strong>Dezimalzahl-in-Prozent-Rechner</strong> rechnet sie sofort in <strong>Prozent</strong> um.",
+  "hint": "Geben Sie eine Dezimalzahl ein, um den entsprechenden Prozentwert zu erhalten.",
+  "long_tail_anchor": "Dezimalzahl in Prozent umrechnen",
+  "card_strings": {
+    "Decimal Value": "Dezimalwert",
+    "Percentage:": "Prozentsatz:",
+    "e.g. 0.25": "z. B. 0.25"
+  }
+}

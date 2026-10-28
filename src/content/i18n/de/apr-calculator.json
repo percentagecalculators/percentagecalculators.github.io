@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "de",
+  "meta_title": "APR-Rechner | Effektiver Jahreszins",
+  "meta_description": "Kostenloser APR-Rechner. Rechnen Sie einen periodischen Zinssatz sofort in den effektiven Jahreszins (APR) um – die übliche Angabe der Kosten bei Krediten und Kreditkarten.",
+  "h1": "APR-Rechner",
+  "subtitle": "Geben Sie den <strong>periodischen Zinssatz</strong> und die <strong>Anzahl der Perioden pro Jahr</strong> ein, und dieser <strong>APR-Rechner</strong> ermittelt den <strong>effektiven Jahreszins (APR)</strong> – die übliche Angabe ohne Zinseszins, mit der Kreditgeber Kreditkosten nennen.",
+  "hint": "Geben Sie den periodischen Zinssatz und die Perioden pro Jahr ein, um den APR zu erhalten.",
+  "long_tail_anchor": "Rechner für den effektiven Jahreszins",
+  "card_strings": {
+    "APR:": "APR:",
+    "Periodic Interest Rate": "Periodischer Zinssatz",
+    "Periods / Year": "Perioden / Jahr",
+    "e.g. 1.5": "z. B. 1.5",
+    "e.g. 12": "z. B. 12"
+  }
+}

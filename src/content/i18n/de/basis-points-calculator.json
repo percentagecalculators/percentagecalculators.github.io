@@ -1,0 +1,15 @@
+{
+  "slug": "basis-points-calculator",
+  "lang": "de",
+  "meta_title": "Basispunkte-Rechner | Basispunkte in Prozent umrechnen",
+  "meta_description": "Kostenloser Basispunkte-Rechner. Geben Sie einen Wert in Basispunkten (BP) ein und rechnen Sie ihn sofort in Prozent um – genaue Ergebnisse für Finanzen und Handel.",
+  "h1": "Basispunkte-Rechner",
+  "subtitle": "Geben Sie einen Wert in <strong>Basispunkten (BP)</strong> ein, und dieser <strong>Basispunkte-Rechner</strong> rechnet ihn sofort in <strong>Prozent</strong> um – die übliche Art, in der Finanzwelt kleine Zinsänderungen anzugeben.",
+  "hint": "Geben Sie Basispunkte ein, um den entsprechenden Prozentwert zu erhalten.",
+  "long_tail_anchor": "Basispunkte in Prozent umrechnen",
+  "card_strings": {
+    "Basis Points (bps)": "Basispunkte (BP)",
+    "Percentage:": "Prozentsatz:",
+    "e.g. 25": "z. B. 25"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "de",
+  "meta_title": "Aufschlagsrechner | Verkaufspreis aus Kosten + Aufschlag in %",
+  "meta_description": "Kostenloser Aufschlagsrechner. Geben Sie den Einkaufspreis und den gewünschten Aufschlag in Prozent ein, um den zu verlangenden Verkaufspreis sofort zu berechnen.",
+  "h1": "Aufschlagsrechner",
+  "subtitle": "Geben Sie den <strong>Einkaufspreis</strong> und den gewünschten <strong>Aufschlag in Prozent</strong> ein, und dieser <strong>Aufschlagsrechner</strong> ermittelt sofort den <strong>Verkaufspreis</strong>, den Sie verlangen sollten.",
+  "hint": "Geben Sie Einkaufspreis und Aufschlag in % ein, um den Verkaufspreis zu erhalten.",
+  "long_tail_anchor": "Von Kosten plus Aufschlag zum Preis",
+  "card_strings": {
+    "Cost Price ($)": "Einkaufspreis ($)",
+    "Markup": "Aufschlag",
+    "Markup Amount:": "Aufschlagsbetrag:",
+    "Selling Price:": "Verkaufspreis:",
+    "e.g. 30": "z. B. 30",
+    "e.g. 40": "z. B. 40"
+  }
+}

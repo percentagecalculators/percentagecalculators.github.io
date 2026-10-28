@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Bäckerprozent-Rechner | Zutatenverhältnisse berechnen",
+  "meta_description": "Kostenloser Bäckerprozent-Rechner. Geben Sie Mehlgewicht und Zutatengewicht ein, um das Bäckerprozent der Zutat sofort zu berechnen.",
+  "h1": "Bäckerprozent-Rechner",
+  "subtitle": "Geben Sie Ihr <strong>Mehlgewicht</strong> und das <strong>Gewicht einer Zutat</strong> ein, und dieser <strong>Bäckerprozent-Rechner</strong> ermittelt sofort das <strong>Bäckerprozent</strong> dieser Zutat – jede Zutat im Verhältnis zum Mehl ausgedrückt.",
+  "hint": "Geben Sie Mehl- und Zutatengewicht ein, um das Bäckerprozent zu erhalten.",
+  "long_tail_anchor": "Teigausbeute und Zutatenverhältnisse",
+  "card_strings": {
+    "Baker's Percentage:": "Bäckerprozent:",
+    "Flour Weight (g)": "Mehlgewicht (g)",
+    "Ingredient Weight (g)": "Zutatengewicht (g)",
+    "e.g. 350": "z. B. 350",
+    "e.g. 500": "z. B. 500"
+  }
+}

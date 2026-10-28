@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "de",
+  "meta_title": "APR-in-APY-Umrechner | Jahresrendite berechnen",
+  "meta_description": "Kostenloser APR-in-APY-Umrechner. Geben Sie einen APR und die Verzinsungshäufigkeit ein, um sofort die entsprechende Jahresrendite (APY) zu sehen.",
+  "h1": "APR-in-APY-Umrechner",
+  "subtitle": "Geben Sie einen <strong>APR</strong> und dessen <strong>Verzinsungshäufigkeit</strong> ein, und dieser <strong>APR-in-APY-Umrechner</strong> zeigt die entsprechende <strong>Jahresrendite (APY)</strong> – praktisch, um unterschiedlich angegebene Konten zu vergleichen.",
+  "hint": "Geben Sie einen APR und die Zinsperioden pro Jahr ein, um den entsprechenden APY zu erhalten.",
+  "long_tail_anchor": "APR- und APY-Zinssätze vergleichen",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Zinsperioden / Jahr",
+    "e.g. 12": "z. B. 12",
+    "e.g. 6": "z. B. 6"
+  }
+}

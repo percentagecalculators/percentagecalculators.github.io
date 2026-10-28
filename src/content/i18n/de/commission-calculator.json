@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "de",
+  "meta_title": "Provisionsrechner | Verdiente Verkaufsprovision berechnen",
+  "meta_description": "Kostenloser Provisionsrechner. Geben Sie Ihren Umsatz und den Provisionssatz ein, um die verdiente Provision sofort zu berechnen.",
+  "h1": "Provisionsrechner",
+  "subtitle": "Geben Sie Ihren <strong>Umsatz</strong> und den <strong>Provisionssatz</strong> ein, und dieser <strong>Provisionsrechner</strong> ermittelt sofort die <strong>Provision, die Sie verdient haben</strong>.",
+  "hint": "Geben Sie Umsatz und Provisionssatz ein, um die verdiente Provision zu erhalten.",
+  "long_tail_anchor": "Verkaufsprovision in Prozent",
+  "card_strings": {
+    "Commission Earned:": "Verdiente Provision:",
+    "Commission Rate": "Provisionssatz",
+    "Sales Amount ($)": "Umsatz ($)",
+    "e.g. 10": "z. B. 10",
+    "e.g. 5000": "z. B. 5000"
+  }
+}

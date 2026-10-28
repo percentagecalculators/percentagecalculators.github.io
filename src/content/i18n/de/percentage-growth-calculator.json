@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "de",
+  "meta_title": "Rechner für prozentuales Wachstum | Wachstumsrate im Geschäft",
+  "meta_description": "Kostenloser Rechner für prozentuales Wachstum. Berechnen Sie Wachstumsraten für Umsatz, Kunden, Verkäufe und KPIs. Verfolgen Sie die Geschäftsentwicklung mit genauen Kennzahlen.",
+  "h1": "Rechner für prozentuales Wachstum",
+  "subtitle": "Geben Sie einen <strong>Anfangswert</strong> und einen <strong>Endwert</strong> ein, und dieser <strong>Rechner für prozentuales Wachstum</strong> zeigt die <strong>Wachstumsrate</strong> und den <strong>Wachstumsbetrag</strong>. Er beantwortet die Frage: Um wie viel Prozent ist Ihre Zahl von Punkt A bis Punkt B gewachsen?",
+  "hint": "Geben Sie einen Anfangs- und einen Endwert ein, um das prozentuale Wachstum zu erhalten.",
+  "long_tail_anchor": "Geschäfts- und Umsatzwachstumsrate",
+  "card_strings": {
+    "Ending value": "Endwert",
+    "Final Value": "Endwert",
+    "Growth Amount:": "Wachstumsbetrag:",
+    "Growth Rate:": "Wachstumsrate:",
+    "Initial Value": "Anfangswert",
+    "Starting value": "Anfangswert"
+  }
+}

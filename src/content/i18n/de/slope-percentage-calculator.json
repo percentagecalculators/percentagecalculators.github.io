@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Steigungsrechner in Prozent | Von Höhe und Länge in %",
+  "meta_description": "Kostenloser Steigungsrechner in Prozent. Geben Sie Höhenunterschied und horizontale Länge ein, um die Steigung in Prozent und den entsprechenden Winkel in Grad sofort zu berechnen.",
+  "h1": "Steigungsrechner in Prozent",
+  "subtitle": "Geben Sie den <strong>Höhenunterschied</strong> und die <strong>horizontale Länge</strong> ein, und dieser <strong>Steigungsrechner in Prozent</strong> ermittelt sofort die <strong>Steigung in Prozent</strong> und den entsprechenden <strong>Winkel in Grad</strong>.",
+  "hint": "Geben Sie Höhenunterschied und Länge ein, um Steigung in Prozent und Winkel zu erhalten.",
+  "long_tail_anchor": "Von Höhe über Länge zur Steigung in Prozent",
+  "card_strings": {
+    "Angle:": "Winkel:",
+    "Rise": "Höhenunterschied",
+    "Run": "Horizontale Länge",
+    "Slope:": "Steigung:",
+    "e.g. 100": "z. B. 100",
+    "e.g. 5": "z. B. 5"
+  }
+}

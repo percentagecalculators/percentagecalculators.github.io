@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Sieg-Niederlage-Prozent-Rechner | Siegquote berechnen",
+  "meta_description": "Kostenloser Sieg-Niederlage-Prozent-Rechner. Geben Sie Siege, Niederlagen und Unentschieden ein, um Ihre Siegquote für jede Sportart, jedes Spiel und jeden Wettbewerb sofort zu berechnen.",
+  "h1": "Sieg-Niederlage-Prozent-Rechner",
+  "subtitle": "Geben Sie Ihre <strong>Siege</strong>, <strong>Niederlagen</strong> und eventuelle <strong>Unentschieden</strong> ein, und dieser <strong>Sieg-Niederlage-Prozent-Rechner</strong> ermittelt sofort Ihre <strong>Siegquote</strong>.",
+  "hint": "Geben Sie Siege, Niederlagen und Unentschieden ein, um Ihre Siegquote zu erhalten.",
+  "long_tail_anchor": "Ihre sportliche Siegquote berechnen",
+  "card_strings": {
+    "Losses": "Niederlagen",
+    "Ties": "Unentschieden",
+    "Total Games:": "Spiele gesamt:",
+    "Win Percentage:": "Siegquote:",
+    "Wins": "Siege",
+    "e.g. 10": "z. B. 10",
+    "e.g. 18": "z. B. 18",
+    "e.g. 2": "z. B. 2"
+  }
+}

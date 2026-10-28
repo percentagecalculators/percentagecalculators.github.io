@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "de",
+  "meta_title": "Prozentpunkte-Rechner | Differenz in Punkten",
+  "meta_description": "Kostenloser Prozentpunkte-Rechner. Geben Sie zwei Prozentwerte ein, um sofort die Differenz in Prozentpunkten und die relative prozentuale Veränderung zu sehen.",
+  "h1": "Prozentpunkte-Rechner",
+  "subtitle": "Geben Sie zwei <strong>Prozentwerte</strong> ein, und dieser <strong>Prozentpunkte-Rechner</strong> zeigt die <strong>Differenz in Prozentpunkten</strong> – nicht dasselbe wie die relative prozentuale Veränderung, die er zum Vergleich ebenfalls anzeigt.",
+  "hint": "Geben Sie zwei Prozentwerte ein, um die Differenz in Prozentpunkten zu erhalten.",
+  "long_tail_anchor": "Prozentpunkte und prozentuale Veränderung",
+  "card_strings": {
+    "Percentage A": "Prozentwert A",
+    "Percentage B": "Prozentwert B",
+    "Point Difference:": "Differenz in Punkten:",
+    "Relative Change:": "Relative Veränderung:",
+    "e.g. 20": "z. B. 20",
+    "e.g. 25": "z. B. 25"
+  }
+}

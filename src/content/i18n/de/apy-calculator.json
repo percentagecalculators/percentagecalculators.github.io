@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "de",
+  "meta_title": "APY-Rechner | Jahresrendite",
+  "meta_description": "Kostenloser APY-Rechner. Rechnen Sie einen Nominalzins und die Verzinsungshäufigkeit sofort in die Jahresrendite (APY) um.",
+  "h1": "APY-Rechner",
+  "subtitle": "Geben Sie den <strong>Nominalzins</strong> und die <strong>Verzinsungshäufigkeit pro Jahr</strong> ein, und dieser <strong>APY-Rechner</strong> ermittelt Ihre tatsächliche <strong>Jahresrendite (APY)</strong> – die reale Rendite, die Sie erzielen.",
+  "hint": "Geben Sie den Nominalzins und die Zinsperioden pro Jahr ein, um Ihren APY zu erhalten.",
+  "long_tail_anchor": "Rechner für die Jahresrendite",
+  "card_strings": {
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Zinsperioden / Jahr",
+    "Nominal Interest Rate": "Nominalzins",
+    "e.g. 12": "z. B. 12",
+    "e.g. 5": "z. B. 5"
+  }
+}

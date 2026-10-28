@@ -1,0 +1,18 @@
+{
+  "slug": "fraction-to-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Bruch-in-Prozent-Rechner | In Prozent umrechnen",
+  "meta_description": "Kostenloser Bruch-in-Prozent-Rechner. Rechnen Sie jeden Bruch sofort in Prozent um – ideal für Testergebnisse, Verhältnisse und Anteile.",
+  "h1": "Bruch-in-Prozent-Rechner",
+  "subtitle": "Geben Sie einen <strong>Zähler</strong> (obere Zahl) und einen <strong>Nenner</strong> (untere Zahl) ein, und dieser <strong>Bruch-in-Prozent-Rechner</strong> wandelt Ihren Bruch in <strong>Prozent</strong> und <strong>Dezimalzahl</strong> um. So wird aus 3/4 sofort 75 % – eintippen, und die Rechnung läuft mit.",
+  "hint": "Geben Sie Zähler und Nenner ein, um in Prozent umzurechnen.",
+  "long_tail_anchor": "Bruch in Prozent umrechnen",
+  "card_strings": {
+    "Decimal Value:": "Dezimalwert:",
+    "Denominator": "Nenner",
+    "Numerator": "Zähler",
+    "Percentage:": "Prozentsatz:",
+    "e.g. 3": "z. B. 3",
+    "e.g. 4": "z. B. 4"
+  }
+}

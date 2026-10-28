@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "de",
+  "meta_title": "Alkohol-Proof-Rechner | Proof in ABV-Prozent umrechnen",
+  "meta_description": "Kostenloser Alkohol-Proof-Rechner. Geben Sie einen US-Proof-Wert ein und rechnen Sie ihn sofort in den Alkoholgehalt (ABV) in Prozent um – schnell, genau und einfach zu bedienen.",
+  "h1": "Alkohol-Proof-Rechner",
+  "subtitle": "Geben Sie einen <strong>Alkohol-Proof</strong>-Wert (US-Skala) ein, und dieser <strong>Alkohol-Proof-Rechner</strong> rechnet ihn sofort in den <strong>Alkoholgehalt (ABV)</strong> in Prozent um.",
+  "hint": "Geben Sie einen US-Proof-Wert ein, um den ABV-Prozentwert zu erhalten.",
+  "long_tail_anchor": "Proof-in-ABV-Prozent-Umrechner",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "Proof (US)",
+    "e.g. 80": "z. B. 80"
+  }
+}

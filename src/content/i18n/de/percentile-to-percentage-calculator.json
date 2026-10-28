@@ -1,0 +1,16 @@
+{
+  "slug": "percentile-to-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Perzentil-in-Prozent-Rechner | Prozentwert schätzen",
+  "meta_description": "Kostenloser Perzentil-in-Prozent-Rechner. Erhalten Sie mit einer gebräuchlichen Näherungsformel schnell einen geschätzten Prozentwert aus einem Prüfungsperzentil.",
+  "h1": "Perzentil-in-Prozent-Rechner",
+  "subtitle": "Geben Sie Ihr <strong>Perzentil</strong> ein, und dieser <strong>Perzentil-in-Prozent-Rechner</strong> liefert mit einer gebräuchlichen Näherung schnell einen <strong>geschätzten Prozentwert</strong>. Perzentil und Prozentwert messen Unterschiedliches – betrachten Sie das Ergebnis daher als Schätzung und nicht als offizielle Umrechnung.",
+  "hint": "Geben Sie ein Perzentil (0–100) ein, um einen geschätzten Prozentwert zu erhalten.",
+  "long_tail_anchor": "Prozentwert aus dem Perzentilrang schätzen",
+  "card_strings": {
+    "%ile": "Perz.",
+    "Estimated Percentage:": "Geschätzter Prozentwert:",
+    "Percentile": "Perzentil",
+    "e.g. 85": "z. B. 85"
+  }
+}

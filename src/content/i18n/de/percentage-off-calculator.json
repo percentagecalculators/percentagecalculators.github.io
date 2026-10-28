@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "de",
+  "meta_title": "Rabattrechner | Rabatt und Angebotspreis berechnen",
+  "meta_description": "Kostenloser Rabattrechner. Berechnen Sie Angebotspreise und Ersparnis sofort. Ermitteln Sie den Endpreis nach jedem Rabatt – Ihr Begleiter für Schnäppchen.",
+  "h1": "Rabattrechner",
+  "subtitle": "Geben Sie den <strong>Originalpreis</strong> und den <strong>Rabattsatz</strong> ein, und dieser <strong>Rabattrechner</strong> zeigt den <strong>Angebotspreis</strong> und genau, wie viel <strong>Geld Sie sparen</strong>. Wenn Sie das nächste Mal ein „30 % Rabatt“-Schild sehen, wissen Sie, was Sie wirklich zahlen.",
+  "hint": "Geben Sie Originalpreis und Rabatt in % ein, um den Angebotspreis zu erhalten.",
+  "long_tail_anchor": "Rabatt- und Angebotspreis-Finder",
+  "card_strings": {
+    "Discount": "Rabatt",
+    "Enter discount %": "Rabatt in % eingeben",
+    "Enter price": "Preis eingeben",
+    "Final Price:": "Endpreis:",
+    "Original Price ($)": "Originalpreis ($)",
+    "You Save:": "Sie sparen:"
+  }
+}

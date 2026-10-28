@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Durchschnittsprozent-Rechner | Einfacher und gewichteter Durchschnitt",
+  "meta_description": "Kostenloser Rechner für den Durchschnitt von Prozentwerten, einfach oder gewichtet. Fassen Sie Prozentwerte unterschiedlich großer Gruppen korrekt zusammen – für Noten und Umfragen.",
+  "h1": "Durchschnittsprozent-Rechner",
+  "subtitle": "Geben Sie eine Liste von <strong>Prozentwerten</strong> durch Kommas getrennt ein, und dieser <strong>Durchschnittsprozent-Rechner</strong> liefert <strong>Mittelwert</strong>, <strong>Summe</strong>, <strong>Anzahl</strong> und Spannweite Ihrer Werte. Fügen Sie eine passende Liste mit <strong>Stichprobengrößen</strong> hinzu, wenn die Gruppen unterschiedlich groß sind, und er wechselt automatisch zu einem korrekt <strong>gewichteten Durchschnitt</strong>.",
+  "hint": "Geben Sie Prozentwerte (und optional Stichprobengrößen) für einen einfachen oder gewichteten Durchschnitt ein.",
+  "long_tail_anchor": "Mittelwert mehrerer Prozentwerte",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "Geben Sie pro Prozentwert ein Gewicht an – z. B. Klassengrößen oder Teilnehmerzahlen –, um unterschiedlich große Gruppen korrekt zusammenzufassen.",
+    "Average:": "Durchschnitt:",
+    "Count:": "Anzahl:",
+    "Percentages (comma or space separated)": "Prozentwerte (durch Komma oder Leerzeichen getrennt)",
+    "Sample Sizes / Weights (optional)": "Stichprobengrößen / Gewichte (optional)",
+    "Sum:": "Summe:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "z. B. 30, 50, 20, 40 (leer lassen für einen einfachen Durchschnitt)",
+    "e.g. 85, 90, 78, 92": "z. B. 85, 90, 78, 92"
+  }
+}

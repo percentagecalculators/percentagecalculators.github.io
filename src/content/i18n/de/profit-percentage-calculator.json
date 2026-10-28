@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Gewinnprozent-Rechner | Gewinn in % auf die Kosten berechnen",
+  "meta_description": "Kostenloser Gewinnprozent-Rechner. Geben Sie Einkaufs- und Verkaufspreis ein, um Gewinnbetrag und Gewinn in Prozent sofort zu berechnen.",
+  "h1": "Gewinnprozent-Rechner",
+  "subtitle": "Geben Sie den <strong>Einkaufspreis</strong> und den <strong>Verkaufspreis</strong> ein, und dieser <strong>Gewinnprozent-Rechner</strong> ermittelt sofort Ihren <strong>Gewinn</strong> und den <strong>Gewinn in Prozent</strong> bezogen auf die Kosten.",
+  "hint": "Geben Sie Einkaufs- und Verkaufspreis ein, um Ihren Gewinn in Prozent zu erhalten.",
+  "long_tail_anchor": "Gewinnprozent auf den Einkaufspreis",
+  "card_strings": {
+    "Cost Price ($)": "Einkaufspreis ($)",
+    "Profit Percentage:": "Gewinn in Prozent:",
+    "Profit:": "Gewinn:",
+    "Selling Price ($)": "Verkaufspreis ($)",
+    "e.g. 40": "z. B. 40",
+    "e.g. 55": "z. B. 55"
+  }
+}

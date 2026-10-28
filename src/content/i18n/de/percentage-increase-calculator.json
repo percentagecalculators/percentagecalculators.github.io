@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "de",
+  "meta_title": "Rechner für prozentuale Erhöhung | Prozent zu einer Zahl addieren",
+  "meta_description": "Kostenloser Rechner für prozentuale Erhöhung. Addieren Sie einen beliebigen Prozentsatz sofort zu einer Zahl. Berechnen Sie Gehaltserhöhungen, Preisaufschläge, Anlagerenditen und mehr.",
+  "h1": "Rechner für prozentuale Erhöhung",
+  "subtitle": "Geben Sie Ihre <strong>Ausgangszahl</strong> und den <strong>zu addierenden Prozentsatz</strong> ein, und dieser <strong>Rechner für prozentuale Erhöhung</strong> liefert sowohl den <strong>Erhöhungsbetrag</strong> als auch den <strong>Endwert</strong>. Er beantwortet etwa die Frage „Was ist 200 plus 15 %?“ – übrigens 230.",
+  "hint": "Geben Sie eine Zahl und den zu addierenden Prozentsatz ein, um den erhöhten Wert zu erhalten.",
+  "long_tail_anchor": "Prozent zu einer Zahl addieren",
+  "card_strings": {
+    "Enter percentage": "Prozentsatz eingeben",
+    "Enter starting number": "Startwert eingeben",
+    "Increase Amount:": "Erhöhungsbetrag:",
+    "Increase by": "Erhöhen um",
+    "New Value:": "Neuer Wert:",
+    "Original Value": "Ausgangswert"
+  }
+}

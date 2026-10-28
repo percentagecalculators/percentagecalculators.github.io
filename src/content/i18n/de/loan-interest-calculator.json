@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "de",
+  "meta_title": "Kreditzinsrechner | Monatliche Rate und Gesamtzinsen",
+  "meta_description": "Kostenloser Kreditzinsrechner. Geben Sie Kreditbetrag, Jahreszins und Laufzeit ein, um Ihre monatliche Rate (EMI) und die gesamten Zinsen sofort zu berechnen.",
+  "h1": "Kreditzinsrechner",
+  "subtitle": "Geben Sie den <strong>Kreditbetrag</strong>, den <strong>Jahreszins</strong> und die <strong>Laufzeit</strong> ein, und dieser <strong>Kreditzinsrechner</strong> ermittelt sofort Ihre <strong>monatliche Rate (EMI)</strong> und die <strong>gesamten Zinsen</strong>, die Sie zahlen.",
+  "hint": "Geben Sie Kreditbetrag, Zinssatz und Laufzeit ein, um Ihre monatliche Rate zu erhalten.",
+  "long_tail_anchor": "Monatliche Rate und Gesamtzinsen",
+  "card_strings": {
+    "Annual Rate": "Jahreszinssatz",
+    "Loan Amount ($)": "Kreditbetrag ($)",
+    "Loan Term (Years)": "Kreditlaufzeit (Jahre)",
+    "Monthly EMI:": "Monatliche Rate (EMI):",
+    "Total Interest:": "Gesamtzinsen:",
+    "e.g. 20000": "z. B. 20000",
+    "e.g. 5": "z. B. 5",
+    "e.g. 7.5": "z. B. 7.5"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Prozent-von-Prozent-Rechner | Zwei Prozentsätze kombinieren",
+  "meta_description": "Kostenloser Prozent-von-Prozent-Rechner. Multiplizieren Sie zwei hintereinander angewendete Prozentsätze und wenden Sie den kombinierten Satz auf einen Wert an – für gestaffelte Steuern oder Rabatte.",
+  "h1": "Prozent-von-Prozent-Rechner",
+  "subtitle": "Geben Sie zwei <strong>Prozentsätze</strong> ein, und dieser <strong>Prozent-von-Prozent-Rechner</strong> multipliziert sie richtig zum <strong>kombinierten Prozentsatz</strong> – fügen Sie einen Startwert hinzu, um genau zu sehen, wie er durch beide Schritte läuft.",
+  "hint": "Multiplizieren Sie zwei hintereinander angewendete Prozentsätze zum kombinierten Satz.",
+  "long_tail_anchor": "Zwei gestaffelte Prozentsätze kombinieren",
+  "card_strings": {
+    "Apply to a Value (optional)": "Auf einen Wert anwenden (optional)",
+    "Combined Percentage:": "Kombinierter Prozentsatz:",
+    "Final Value:": "Endwert:",
+    "First Percentage": "Erster Prozentsatz",
+    "Second Percentage": "Zweiter Prozentsatz",
+    "Value After First %:": "Wert nach dem ersten %:",
+    "e.g. 200": "z. B. 200",
+    "e.g. 40": "z. B. 40",
+    "e.g. 90": "z. B. 90"
+  }
+}

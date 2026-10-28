@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "de",
+  "meta_title": "Rechner für prozentuale Differenz | Zwei Werte vergleichen",
+  "meta_description": "Kostenloser Rechner für prozentuale Differenz. Vergleichen Sie zwei Zahlen und ermitteln Sie die prozentuale Differenz. Nutzt den Mittelwert als Basis für einen symmetrischen, unverzerrten Vergleich.",
+  "h1": "Rechner für prozentuale Differenz",
+  "subtitle": "Geben Sie <strong>zwei Werte</strong> ein, und dieser <strong>Rechner für prozentuale Differenz</strong> zeigt, wie weit sie auseinanderliegen – als <strong>Prozentwert</strong> auf Basis ihres <strong>Mittelwerts</strong>. Anders als bei der prozentualen Veränderung spielt die Reihenfolge hier keine Rolle: Der Vergleich von 50 mit 80 ergibt dasselbe wie 80 mit 50.",
+  "hint": "Geben Sie zwei Werte ein, um die prozentuale Differenz zwischen ihnen zu erhalten.",
+  "long_tail_anchor": "Zwei Zahlen symmetrisch vergleichen",
+  "card_strings": {
+    "Absolute Difference:": "Absolute Differenz:",
+    "Enter first number": "Erste Zahl eingeben",
+    "Enter second number": "Zweite Zahl eingeben",
+    "First Value": "Erster Wert",
+    "Percentage Difference:": "Prozentuale Differenz:",
+    "Second Value": "Zweiter Wert"
+  }
+}

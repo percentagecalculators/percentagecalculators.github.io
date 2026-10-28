@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "de",
+  "meta_title": "Rechner für einfache Zinsen | Zinsen und Gesamtbetrag",
+  "meta_description": "Kostenloser Rechner für einfache Zinsen. Geben Sie Kapital, Jahreszins und Laufzeit ein, um erzielte Zinsen und Gesamtbetrag sofort zu berechnen.",
+  "h1": "Rechner für einfache Zinsen",
+  "subtitle": "Geben Sie <strong>Kapital</strong>, <strong>Jahreszins</strong> und <strong>Laufzeit in Jahren</strong> ein, und dieser <strong>Rechner für einfache Zinsen</strong> zeigt sofort die <strong>erzielten Zinsen</strong> und den <strong>Gesamtbetrag</strong>.",
+  "hint": "Geben Sie Kapital, Jahreszins und Laufzeit ein, um Zinsen und Gesamtbetrag zu erhalten.",
+  "long_tail_anchor": "Formel aus Kapital, Zinssatz und Zeit",
+  "card_strings": {
+    "Annual Rate": "Jahreszinssatz",
+    "Interest Earned:": "Erzielte Zinsen:",
+    "Principal ($)": "Kapital ($)",
+    "Time (Years)": "Laufzeit (Jahre)",
+    "Total Amount:": "Gesamtbetrag:",
+    "e.g. 1000": "z. B. 1000",
+    "e.g. 3": "z. B. 3",
+    "e.g. 5": "z. B. 5"
+  }
+}

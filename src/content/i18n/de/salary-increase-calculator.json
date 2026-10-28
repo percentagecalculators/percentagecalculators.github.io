@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "de",
+  "meta_title": "Gehaltserhöhungsrechner | Neues Gehalt berechnen",
+  "meta_description": "Kostenloser Gehaltserhöhungsrechner. Geben Sie Ihr aktuelles Gehalt und den Erhöhungssatz ein, um Erhöhungsbetrag und neues Gehalt sofort zu berechnen.",
+  "h1": "Gehaltserhöhungsrechner",
+  "subtitle": "Geben Sie Ihr <strong>aktuelles Gehalt</strong> und Ihren <strong>Erhöhungssatz</strong> ein, und dieser <strong>Gehaltserhöhungsrechner</strong> ermittelt sofort den <strong>Erhöhungsbetrag</strong> und Ihr <strong>neues Gehalt</strong>.",
+  "hint": "Geben Sie Ihr aktuelles Gehalt und die Erhöhung in % ein, um Ihr neues Gehalt zu erhalten.",
+  "long_tail_anchor": "Erhöhungsprozentsatz und Gehaltssteigerung",
+  "card_strings": {
+    "Current Salary ($)": "Aktuelles Gehalt ($)",
+    "New Salary:": "Neues Gehalt:",
+    "Raise": "Erhöhung",
+    "Raise Amount:": "Erhöhungsbetrag:",
+    "e.g. 5": "z. B. 5",
+    "e.g. 60000": "z. B. 60000"
+  }
+}

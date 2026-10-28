@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "de",
+  "meta_title": "Bruttomargen-Rechner | Bruttogewinnmarge in % berechnen",
+  "meta_description": "Kostenloser Bruttomargen-Rechner. Geben Sie Umsatz und Kosten der verkauften Waren (COGS) ein, um Bruttogewinn und Bruttomarge sofort zu berechnen.",
+  "h1": "Bruttomargen-Rechner",
+  "subtitle": "Geben Sie Ihren <strong>Umsatz</strong> und die <strong>Kosten der verkauften Waren (COGS)</strong> ein, und dieser <strong>Bruttomargen-Rechner</strong> ermittelt sofort Ihren <strong>Bruttogewinn</strong> und Ihre <strong>Bruttomarge in Prozent</strong>.",
+  "hint": "Geben Sie Umsatz und COGS ein, um Ihre Bruttomarge in Prozent zu erhalten.",
+  "long_tail_anchor": "Marge in Prozent aus Umsatz und COGS",
+  "card_strings": {
+    "COGS ($)": "COGS ($)",
+    "Gross Margin:": "Bruttomarge:",
+    "Gross Profit:": "Bruttogewinn:",
+    "Revenue ($)": "Umsatz ($)",
+    "e.g. 100000": "z. B. 100000",
+    "e.g. 65000": "z. B. 65000"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "de",
+  "meta_title": "Rechner für prozentualen Fehler | Relativer Fehler im Labor",
+  "meta_description": "Kostenloser Rechner für prozentualen Fehler. Berechnen Sie den relativen Fehler zwischen experimentellen und theoretischen Werten für Physik-, Chemie- und Biologiepraktika.",
+  "h1": "Rechner für prozentualen Fehler",
+  "subtitle": "Geben Sie Ihren <strong>Messwert (experimentell)</strong> und den <strong>wahren Wert (theoretisch)</strong> ein, und dieser <strong>Rechner für prozentualen Fehler</strong> zeigt den <strong>prozentualen Fehler</strong> zwischen beiden. Er verwendet die Standardformel: |gemessen − wahr| ÷ |wahr| × 100.",
+  "hint": "Geben Sie Mess- und wahren Wert ein, um den prozentualen Fehler zu erhalten.",
+  "long_tail_anchor": "Experimenteller und theoretischer Wert",
+  "card_strings": {
+    "Absolute Error:": "Absoluter Fehler:",
+    "Enter expected value": "Erwarteten Wert eingeben",
+    "Enter measured value": "Messwert eingeben",
+    "Experimental (Measured)": "Experimentell (gemessen)",
+    "Percentage Error:": "Prozentualer Fehler:",
+    "Theoretical (Expected)": "Theoretisch (erwartet)"
+  }
+}

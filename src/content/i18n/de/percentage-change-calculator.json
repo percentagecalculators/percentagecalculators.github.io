@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "de",
+  "meta_title": "Rechner für prozentuale Veränderung | Zu- oder Abnahme in %",
+  "meta_description": "Kostenloser Rechner für prozentuale Veränderung. Berechnen Sie die prozentuale Zu- oder Abnahme zwischen zwei Werten – verfolgen Sie Kursänderungen und Preisschwankungen.",
+  "h1": "Rechner für prozentuale Veränderung",
+  "subtitle": "Geben Sie einen <strong>alten Wert</strong> und einen <strong>neuen Wert</strong> ein, und dieser <strong>Rechner für prozentuale Veränderung</strong> zeigt Ihnen die <strong>prozentuale Zu- oder Abnahme</strong> dazwischen. Das Ergebnis ist bei einem Anstieg positiv und bei einem Rückgang negativ – von 80 auf 100 ergibt also +25 %.",
+  "hint": "Geben Sie einen alten und einen neuen Wert ein, um die prozentuale Veränderung zu erhalten.",
+  "long_tail_anchor": "Prozentuale Zu- oder Abnahme",
+  "card_strings": {
+    "Change Type:": "Art der Veränderung:",
+    "Enter ending value": "Endwert eingeben",
+    "Enter starting value": "Startwert eingeben",
+    "New Value (Current)": "Neuer Wert (aktuell)",
+    "Old Value (Original)": "Alter Wert (ursprünglich)",
+    "Percentage Change:": "Prozentuale Veränderung:"
+  }
+}

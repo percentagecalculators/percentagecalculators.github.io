@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Rechner für umgekehrte Prozentrechnung | Ursprungszahl finden",
+  "meta_description": "Kostenloser Rechner für umgekehrte Prozentrechnung. Finden Sie die Ursprungszahl, wenn Sie einen Wert und seinen Prozentsatz kennen – etwa Preise vor dem Rabatt.",
+  "h1": "Rechner für umgekehrte Prozentrechnung",
+  "subtitle": "Sie haben eine Zahl und wissen, dass sie ein bestimmter Prozentsatz von etwas Größerem ist? Geben Sie den <strong>bekannten Wert</strong> und den <strong>Prozentsatz, den er darstellt</strong>, ein, und dieser <strong>Rechner für umgekehrte Prozentrechnung</strong> rechnet rückwärts zur <strong>Ursprungszahl</strong>. Wenn 30 genau 25 % der Gesamtmenge sind, beträgt diese 120.",
+  "hint": "Geben Sie einen Wert und seinen Prozentsatz ein, um die Ursprungszahl zu finden.",
+  "long_tail_anchor": "Die Ursprungszahl finden",
+  "card_strings": {
+    "Original Total:": "Ursprüngliche Gesamtmenge:",
+    "Value": "Wert",
+    "e.g. 30": "z. B. 30",
+    "e.g. 45": "z. B. 45",
+    "is this % of the total": "ist dieser % der Gesamtmenge"
+  }
+}

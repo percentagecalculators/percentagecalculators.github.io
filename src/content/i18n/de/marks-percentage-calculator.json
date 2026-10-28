@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "de",
+  "meta_title": "Punkte-in-Prozent-Rechner | Prüfungsprozente berechnen",
+  "meta_description": "Kostenloser Rechner für den Prozentsatz erreichter Punkte. Geben Sie erreichte und maximale Punkte ein, um Ihr Prüfungs- oder Testergebnis in Prozent sofort zu berechnen.",
+  "h1": "Punkte-in-Prozent-Rechner",
+  "subtitle": "Geben Sie die <strong>erreichten Punkte</strong> und die <strong>Gesamtpunktzahl</strong> ein, und dieser <strong>Punkte-in-Prozent-Rechner</strong> ermittelt sofort Ihr <strong>Prüfungsergebnis in Prozent</strong> – ideal für Zeugnisse, Notenlisten und Ergebniskontrollen.",
+  "hint": "Geben Sie erreichte Punkte und Gesamtpunktzahl ein, um Ihren Prozentwert zu erhalten.",
+  "long_tail_anchor": "Prüfungs- und Testergebnis in Prozent",
+  "card_strings": {
+    "Marks Obtained": "Erreichte Punkte",
+    "Percentage:": "Prozentsatz:",
+    "Total Marks": "Gesamtpunktzahl",
+    "e.g. 450": "z. B. 450",
+    "e.g. 500": "z. B. 500"
+  }
+}

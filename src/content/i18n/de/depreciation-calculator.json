@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "de",
+  "meta_title": "Abschreibungsrechner | Lineare Abschreibung",
+  "meta_description": "Kostenloser Abschreibungsrechner mit linearer Methode. Geben Sie Anschaffungskosten, Restwert und Nutzungsdauer ein, um die jährliche Abschreibung zu berechnen.",
+  "h1": "Abschreibungsrechner",
+  "subtitle": "Geben Sie <strong>Anschaffungskosten</strong>, <strong>Restwert</strong> und <strong>Nutzungsdauer</strong> ein, und dieser <strong>Abschreibungsrechner</strong> ermittelt sofort die <strong>jährliche Abschreibung</strong> nach der linearen Methode.",
+  "hint": "Geben Sie Anschaffungskosten, Restwert und Nutzungsdauer ein, um die jährliche Abschreibung zu erhalten.",
+  "long_tail_anchor": "Lineare Abschreibung von Anlagegütern",
+  "card_strings": {
+    "Annual Depreciation:": "Jährliche Abschreibung:",
+    "Asset Cost ($)": "Anschaffungskosten ($)",
+    "Depreciation Rate:": "Abschreibungssatz:",
+    "Salvage Value ($)": "Restwert ($)",
+    "Useful Life (Years)": "Nutzungsdauer (Jahre)",
+    "e.g. 1000": "z. B. 1000",
+    "e.g. 10000": "z. B. 10000",
+    "e.g. 5": "z. B. 5"
+  }
+}
