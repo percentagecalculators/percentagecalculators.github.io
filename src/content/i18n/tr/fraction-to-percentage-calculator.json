@@ -14,5 +14,56 @@
     "Percentage:": "Yüzde:",
     "e.g. 3": "ör. 3",
     "e.g. 4": "ör. 4"
-  }
+  },
+  "content_html": "<p>Bir kesri yüzdeye çevirmek not, indirim, laboratuvar sonucu ya da kendi hesabınızı kontrol etmek gibi durumlarda sürekli ihtiyaç duyduğunuz hızlı dönüşümlerden biridir; bu <strong>kesri yüzdeye çevirme</strong> aracı, <strong>payı</strong> <strong>paydaya</strong> bölüp 100 ile çarparak sonucu anında verir. Basit ya da bileşik herhangi bir kesri girin; kalem kullanmadan hem ondalık karşılığını hem de son yüzdeyi görün. Aynı temel formül ters yönde de çalışır, yani yüzdeyi kesre çevirmek de aynı kadar kolaydır.</p>\n\n<h2>Kesri yüzdeye çevirme aracı nasıl çalışır?</h2>\n<p>Web'deki her kesri yüzdeye çevirme aracı aynı iki adımlı mantığı kullanır: önce böl, sonra 100 ile çarp. Araca bir pay ve bir payda verirsiniz (tam sayılı kesirlerde isteğe bağlı olarak bir tam sayı da girebilirsiniz); araç yüzdeyi, ondalık karşılığını ve işlemin gerekçesini görmek isterseniz adım adım tüm hesabı verir. Bu hesaplayıcı, ikinci bir sayfa açmadan bir yüzdeden eşdeğer kesre geri dönmenizi de sağlar. Bazı siteler aynı aracı kesir dönüştürücü, yüzde dönüştürücü ya da kesri ondalığa çevirme aracı olarak adlandırır, ancak altındaki matematik aynıdır.</p>\n\n<h3>Kesri yüzdeye çevirme formülü</h3>\n<p>Kesri yüzdeye çevirme formülü basittir:</p>\n$$ P = \\frac{N}{D} \\times 100 $$\n<p>Burada <code>N</code> paydır, <code>D</code> paydadır, <strong>P</strong> ise elde edilen yüzdedir. Örneğin 3 ile 4'ü yerine koyduğunuzda 3 ÷ 4 × 100 işlemi %75 verir. Bu sayfadaki her yöntemin sonunda indirgendiği kesri yüzdeye çevirme formülü bu tek formüldür; aşağıdaki elle yöntemler yalnızca işlem sırasını değiştirir.</p>\n\n<h3>Girdileri, çıktıları ve ondalık basamakları okuma</h3>\n<p>Bu araç dahil kesri yüzdeye çeviren araçların çoğu üç alan ister: bir pay, bir payda ve 2 1/3 gibi tam sayılı kesirler için isteğe bağlı bir tam sayı. Çıktı, yüzde değerini makul sayıda ondalık basamağa yuvarlanmış olarak ve yuvarlamanın tam olarak nasıl yapıldığını görebilmeniz için ham ondalık biçimiyle birlikte gösterir. Kesriniz tam bölünmüyorsa (örneğin 1/3), %33.33 olmadan önce 0.3333 gibi devreden bir ondalık sayı görürsünüz.</p>\n\n<aside>İpucu: Paydası zaten 100 olan bir kesir, aslında bir yüzdedir; bölme yapmaya gerek yoktur. 47/100 doğrudan %47'dir.</aside>\n\n<h2>Elle yöntemler: kesri yüzdeye çevirme formülü ve adım adım hesap</h2>\n<p>Elle hesaplamayı atlamak istiyorsanız bu kesri yüzdeye çevirme aracı aşağıdaki üç yöntemin hepsini zaten otomatik uygular. Ancak dönüşümün elle nasıl yapıldığını anlamak, sonucu kontrol etmeyi ya da hesap makinesi açık değilken hızlı bir tahmin yapmayı kolaylaştırır.</p>\n\n<h3>Pay ve payda: önce böl, sonra 100 ile çarp</h3>\n<p>Payı paydaya bölerek bir ondalık sayı elde edin, sonra bu ondalık sayıyı 100 ile çarparak yüzdeyi bulun. 5/8 için: 5'i 8'e bölmek 0.625 verir, 100 ile çarpmak %62.5 eder. Bu yöntem formülü doğrudan yansıttığı için ders kitaplarının çoğunda ilk öğretilen yöntemdir: böl, sonra 100 ile ölçekle.</p>\n<ul>\n  <li>Payı paydaya bölerek bir ondalık sayı bulun.</li>\n  <li>Ondalık sayıyı 100 ile çarpın.</li>\n  <li>Sonuca yüzde işaretini ekleyin.</li>\n</ul>\n\n<h3>Ondalıktan yüzdeye: önce çarp, sonra böl</h3>\n<p>Payı önce 100 ile çarpıp sonra paydaya da bölebilirsiniz; sıra sonucu değiştirmez, yalnızca işlem yaptığınız sayıların büyüklüğünü değiştirir. 5/8 için: 5'i 100 ile çarpmak 500 verir, 8'e bölmek %62.5 eder. Bazı kişiler bu ondalıktan yüzdeye kısayolu zihinden hesap için daha kolay bulur; çünkü 100 ile çarpmak, bölmeden önce virgülü iki basamak sağa kaydırmaktan ibarettir.</p>\n<ol>\n  <li>Payı 100 ile çarpın.</li>\n  <li>Sonucu paydaya bölün.</li>\n  <li>İstediğiniz ondalık basamak sayısına yuvarlayın.</li>\n</ol>\n\n<h2>Yüzdeyi kesre çevirme</h2>\n<p>Bir yüzde hesaplama sonucundan kesre geri dönmek ters işlemdir ve bir yüzdeyi kesre çevirme aracının tam olarak yaptığı da budur. Yuvarlanmış bir ondalık yerine tam bir orana ihtiyaç duyduğunuzda, örneğin olasılık problemlerinde, tarif ölçeklemede ya da bir ölçüyü sadeleştirirken işe yarar.</p>\n\n<h3>Yüzdeyi kesre çevirme formülü</h3>\n<p>Bir yüzdeyi tekrar kesre çevirmek için yüzdeyi 100'ün üzerine yazın, sonra sadeleştirin:</p>\n$$ \\frac{P}{100} = \\frac{N}{D} $$\n<p>Örneğin %35, 35/100 olur. Payı ve paydayı ortak çarpanlarına bölerek kesri sadeleştirdiğinizde 7/20 bulursunuz. Sayı ondalık basamaklıysa, örneğin %35.5, pay ve paydayı her ikisi de tam sayı olana kadar 10 (ya da 100, ya da 1000) ile çarpın, sonra kesri oradan sadeleştirin.</p>\n\n<h3>En büyük ortak bölenle sadeleştirme</h3>\n<p>Bir kesri en sade hâle getirmek, payı ve paydayı en büyük ortak bölenlerine (EBOB) bölmek demektir. 35/100 için EBOB 5'tir; her iki sayıyı 5'e bölmek aynı değeri en sade biçimiyle, yani 7/20'yi verir. EBOB'u hızlıca fark etmeyi öğrenmek, kesirleri elle sadeleştirmeyi her seferinde tek bir çarpanla sadeleştirmekten çok daha hızlı hâle getirir.</p>\n\n<h2>Kesir yüzde tablosu: yaygın dönüşümler</h2>\n<p>Bazı kesirden yüzdeye dönüşümler o kadar sık karşınıza çıkar ki her seferinde bölmek yerine ezberlemek değerlidir. Aşağıdaki tablo en yaygın kesirleri, ondalık karşılıklarını ve yüzdelerini kapsar.</p>\n<table>\n  <thead>\n    <tr><th>Pay</th><th>Payda</th><th>Ondalık</th><th>Yüzde</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>2</td><td>0.5</td><td>%50</td></tr>\n    <tr><td>1</td><td>3</td><td>0.333</td><td>%33.3</td></tr>\n    <tr><td>1</td><td>4</td><td>0.25</td><td>%25</td></tr>\n    <tr><td>1</td><td>5</td><td>0.2</td><td>%20</td></tr>\n    <tr><td>3</td><td>4</td><td>0.75</td><td>%75</td></tr>\n    <tr><td>5</td><td>8</td><td>0.625</td><td>%62.5</td></tr>\n    <tr><td>7</td><td>20</td><td>0.35</td><td>%35</td></tr>\n  </tbody>\n</table>\n<p>Tablodaki her değerin aynı kuralı izlediğine dikkat edin: payı paydaya bölün, sonra 100 ile çarpın. Bu kesir-yüzde çiftlerinden birkaçını ezberlediğinizde hesap makinesini açmadan zihninizde yüzde tahmini yapabilirsiniz.</p>\n\n<h2>Kesri yüzdeye çevirme neden önemlidir: matematik, istatistik ve yüzde hata</h2>\n<p>Kesirler ile yüzdeler arasında dönüşüm yapmak yalnızca bir ödev alıştırması değildir; matematikte, istatistikte ve günlük akıl yürütmede sürekli karşımıza çıkar. Bir öğrencinin 42/50 sınav puanı, %84'e çevrilene kadar tek başına pek bir şey ifade etmez; çevrildiğinde ise başka herhangi bir not ölçeğiyle anında karşılaştırılabilir. İstatistikte örneklem oranları genellikle yüzde olarak verilir; çünkü ham kesirlerden daha kolay karşılaştırılır.</p>\n<p>Aynı matematik, deneysel ya da ölçülen bir değerin beklenen değerden ne kadar saptığını gösteren <strong>yüzde hatanın</strong> da temelindedir. Paydanız gerçek değeri, payınız gözlenen ile gerçek değer arasındaki farkı temsil ediyorsa kesri yüzdeye çevirme formülü yüzde hata formülüne dönüşür; işlemler aynıdır, yalnızca sayıların anlamı değişir. Bir sınavı notlandırıyor, bir laboratuvar deneyi yürütüyor ya da bir anketin hata payını okuyor olsanız da bir kesir, bir ondalık sayı ve bir yüzde arasında rahatça geçiş yapabilmek en çok yeniden kullanılan matematik becerilerinden biridir. Aynı aritmetik tek bir dersin çok ötesinde de görülür: ham not puanlarından GPA hesaplamak ya da bir ayrık matematik problem setini çözmek aynı kesri yüzdeye çevirme mantığına dayanır.</p>",
+  "faq": [
+    {
+      "question": "3/4 yüzde kaçtır?",
+      "answer": "3/4, %75'e eşittir. Hesap: (3 ÷ 4) × 100 = %75."
+    },
+    {
+      "question": "1/3 yüzde kaçtır?",
+      "answer": "1/3 yaklaşık %33.33'tür (devreden). Hesap: (1 ÷ 3) × 100 = %33.333..."
+    },
+    {
+      "question": "2/3 yüzde kaçtır?",
+      "answer": "2/3 yaklaşık %66.67'dir (devreden). Hesap: (2 ÷ 3) × 100 = %66.666..."
+    },
+    {
+      "question": "Sınav puanımı yüzdeye nasıl çeviririm?",
+      "answer": "Puanınızı toplam alınabilecek puana bölüp 100 ile çarpın. 45/60 puan için: (45÷60) × 100 = %75."
+    },
+    {
+      "question": "5/8 yüzde kaçtır?",
+      "answer": "5/8, %62.5'e eşittir. Hesap: (5 ÷ 8) × 100 = %62.5."
+    },
+    {
+      "question": "7/10 yüzde kaçtır?",
+      "answer": "7/10, %70'e eşittir. Hesap: (7 ÷ 10) × 100 = %70."
+    },
+    {
+      "question": "Kesirler %100'ün üzerinde yüzde verebilir mi?",
+      "answer": "Evet, bileşik kesirler (pay > payda) %100'ün üzerinde yüzde verir. Örneğin 5/4 = %125."
+    },
+    {
+      "question": "1/8 yüzde kaçtır?",
+      "answer": "1/8, %12.5'e eşittir. Hesap: (1 ÷ 8) × 100 = %12.5."
+    },
+    {
+      "question": "Tam sayılı kesri yüzdeye nasıl çeviririm?",
+      "answer": "Önce bileşik kesre çevirin. 1½ = 3/2 = (3÷2) × 100 = %150."
+    },
+    {
+      "question": "4/5 yüzde kaçtır?",
+      "answer": "4/5, %80'e eşittir. Hesap: (4 ÷ 5) × 100 = %80."
+    },
+    {
+      "question": "Payda sıfırsa ne olur?",
+      "answer": "Sıfıra bölme tanımsızdır. Paydası sıfır olan bir kesrin geçerli bir yüzdesi yoktur."
+    },
+    {
+      "question": "11/20 yüzde kaçtır?",
+      "answer": "11/20, %55'e eşittir. Hesap: (11 ÷ 20) × 100 = %55."
+    }
+  ]
 }

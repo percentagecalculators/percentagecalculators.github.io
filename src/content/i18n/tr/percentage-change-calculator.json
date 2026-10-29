@@ -14,5 +14,56 @@
     "New Value (Current)": "Yeni Değer (Güncel)",
     "Old Value (Original)": "Eski Değer (Asıl)",
     "Percentage Change:": "Yüzde Değişim:"
-  }
+  },
+  "content_html": "<p>Bu ayın satışlarını geçen ayla karşılaştırıyor, maaşınıza gelen zammı takip ediyor ya da bir hissenin ne kadar hareket ettiğini hesaplıyor olun, <strong>yüzde değişim hesaplama</strong> aracı her seferinde aynı soruyu yanıtlar: dalgalanma ne kadar büyüktü ve yüzde kaç? Başlangıç ve bitiş değerlerinizi girin; araç aralarındaki <strong>yüzde artışı</strong> ya da <strong>yüzde azalışı</strong> anında verir. Aşağıda formülü adım adım, negatif sayılı çalışılmış örnekleri ve nüfus artış hızından bileşik faize kadar bu hesabı iki sayıyla yapabileceğiniz en yararlı işlerden biri yapan gerçek hayat matematiğini bulacaksınız.</p>\n\n<h2>Yüzde değişim hesaplama aracı nedir?</h2>\n<p>Yüzde değişim hesaplama aracı, özünde tek bir matematik işlemi uygular: iki sayıyı alır ve aralarındaki farkı sabit bir tutar olarak değil, yüzde olarak ifade eder. Bu, bir sayıyı ötekinden çıkarmaktan farklıdır, çünkü yüzde değişim ölçeği hesaba katar: 10 $'lık bir artış, 50 $'lık bir bütçe için 5,000 $'lık bir bütçeye göre çok daha anlamlıdır. Bu yüzden araç finansta, işletmede, ekonomide ve istatistikte, ayrıca fen ve matematik derslerinde, değişimi ham bir sayı olarak değil başlangıç noktasına göre karşılaştırmak gereken her yerde kullanılır. Aynı ilişki ondalık sayı ya da yüzde olarak yazılabilir; araç yalnızca oranı yüzdeye çevirme işini sizin yerinize yapar. Bazı siteler buna yüzde değişim yerine yüzde değişme hesaplama der; ikisi aynı aracın iki adıdır.</p>\n\n<h2>Yüzde değişim formülü: nasıl hesaplanır?</h2>\n<p>Yüzde değişim formülü, bir sayının başladığı yere göre ne kadar hareket ettiğini karşılaştırır:</p>\n$$ \\text{Yüzde Değişim} = \\frac{V_2 - V_1}{|V_1|} \\times 100 $$\n<p>Burada V<sub>1</sub> ilk değeriniz, V<sub>2</sub> son değeriniz. V<sub>2</sub>'den V<sub>1</sub>'i çıkarın, sonucu ilk değerin mutlak değerine bölün, sonra 100 ile çarpın. Pozitif sonuç yüzde artış, negatif sonuç yüzde azalıştır.</p>\n\n<h3>İlk değer, son değer ve yeni değer</h3>\n<p>Her yüzde değişim hesabı iki sayıyla başlar: bir başlangıç sayısı ve bir bitiş sayısı; bunlar bazen V<sub>1</sub> ve V<sub>2</sub> olarak adlandırılır. Sıra önemlidir: her zaman birinciyi ikinciden çıkarın, tersini yapmayın; yoksa artı ve eksi işaretleri yer değiştirir ve değişimin yanlış yönünü gösterir.</p>\n\n<h3>Negatif sayılar ve mutlak değer</h3>\n<p>Paydadaki mutlak değer özellikle negatif sayılar için vardır. O olmasa, negatif bir başlangıç değerine bölmek sonucun işaretini tersine çevirir ve gerçek bir artışı azalış olarak gösterir. Mutlak değer, bir sayıyı pozitif ya da negatif olmasına bakmadan sıfıra olan uzaklığı olarak ele almak demektir; matematikte buna bazen bir sayının modülü de denir.</p>\n<aside>Sık yapılan hata: başlangıç sayısı negatifken mutlak değer adımını atlamak. Yüzde değişim hesabının yanlış işaretle çıkmasının en yaygın nedeni budur.</aside>\n\n<table>\n<tr><th>V<sub>1</sub> (başlangıç)</th><th>V<sub>2</sub> (bitiş)</th><th>Sonuç (yüzde değişim)</th></tr>\n<tr><td>40</td><td>52</td><td>+%30 (artış)</td></tr>\n<tr><td>-18</td><td>18</td><td>+%200 (artış)</td></tr>\n<tr><td>-30</td><td>-45</td><td>-%50 (azalış)</td></tr>\n</table>\n\n<p>Yüzde değişimin 3.50'den 2.625'e giden bir örnekte adım adım nasıl hesaplandığı şöyledir:</p>\n<ol>\n<li>Farkı alın: 2.625 − 3.50 = −0.875</li>\n<li>|V<sub>1</sub>|'e bölün: −0.875 ÷ 3.50 = −0.25</li>\n<li>100 ile çarpın: −0.25 × 100 = <strong>−%25 değişim</strong>, yani %25 azalış</li>\n</ol>\n\n<h2>Yüzde değişim ile yüzde fark arasındaki fark</h2>\n<p>Yüzde değişim ve yüzde fark sıkça karıştırılır, ancak birbirinin yerine kullanılamaz. Yüzde değişim, bir belirli değerden ötekine olan hareketi ölçer; bu yüzden sıra önemlidir ve başlangıç noktası her zaman referanstır. Yüzde fark ise iki değeri, hiçbirini \"önceki\" saymadan, ortalamalarına bölerek karşılaştırır; bu yüzden yüzde fark her zaman pozitiftir, yüzde değişim ise yöne göre pozitif ya da negatif olabilir.</p>\n\n<table>\n<tr><th>Ölçüt</th><th>Formül</th><th>Negatif olabilir mi?</th></tr>\n<tr><td>Yönlü (bu hesaplama aracı)</td><td>(V<sub>2</sub> − V<sub>1</sub>) / |V<sub>1</sub>| × 100</td><td>Evet, artışı ya da azalışı gösterir</td></tr>\n<tr><td>Simetrik (farka dayalı)</td><td>|V<sub>1</sub> − V<sub>2</sub>| / ((V<sub>1</sub> + V<sub>2</sub>)/2) × 100</td><td>Hayır, her zaman pozitiftir</td></tr>\n</table>\n\n<h3>Yüzde hata ve fark payı</h3>\n<p>İlgili bir kavram da yüzde hatadır; zaman içindeki değişimi izlemek yerine ölçülen ya da tahmin edilen bir değeri gerçek değerle karşılaştırırken kullanılır ve fen bilimleri ile laboratuvar çalışmalarında yaygındır. Yüzde değişimle aynı şekilde hesaplanır, ama doğruluk çerçevesinde ifade edilir: ölçtüğünüz ile gerçekte doğru olan arasındaki fark, gerçek değerin yüzde kaçıdır?</p>\n\n<h2>Yüzde artış ve yüzde azalış</h2>\n<p>Yüzde artış, son sayının başladığı yerden büyük olduğunu, yüzde azalış ise küçük olduğunu bildirir; ikisi de aynı temel değişim formülünü kullanır, ancak her biri yönü önceden sabitler ve sonuç işaretli değil, düz bir pozitif yüzde olarak gösterilir. Yukarıdaki hesaplama aracı iki yönü de kendiliğinden işler: pozitif sonuç artış, negatif sonuç azalış demektir.</p>\n\n<h3>Yüzde puanı ve yüzde değişim</h3>\n<p>Yüzde puanı, yüzde ile aynı şey değildir. Bir indirim oranı %10 iken %15 olursa bu 5 yüzde puanlık bir artıştır; ama 5, ilk 10'un yarısı olduğundan yüzde değişim %50'dir. İkisini karıştırmak, mali raporlamada en sık yapılan hatalardan biridir.</p>\n\n<p>Yüzde değişim temel yüzde dönüşümleriyle de yakından ilgilidir, çünkü her sonuç, son cevapta gördüğünüz yüzdeye çevrilmeden önce ondalık sayı olarak ifade edilebilir:</p>\n<ul>\n<li>Ondalık sayıdan yüzdeye</li>\n<li>Yüzdeden ondalık sayıya</li>\n<li>Kesirden yüzdeye</li>\n<li>Yüzdeden kesire</li>\n</ul>\n\n<h2>Gerçek hayattaki kullanımlar: nüfus artış hızı, finans ve günlük matematik</h2>\n<p>Yüzde değişim sınıfın dışında sürekli karşımıza çıkar. Kasadaki bir indirim, restoran hesabına bırakılan bahşiş, bir maaş zammı, hisse fiyatlarındaki dalgalanma ya da enflasyon ve KDV gibi ekonomik göstergelerin hepsi gizli birer yüzde değişimdir. Aynı formül, bileşik faiz projeksiyonlarını, konut kredisi ödeme karşılaştırmalarını, emeklilik geliri planlamasını ve paranın zaman değeri hesaplarını yönlendirir: faiz oranlarının veya bir yatırımın getirilerinin sabit bir dolar tutarı olarak değil, bir değişim oranı olarak ölçülmesi gereken her yerde. Satış vergisi ters yönde çalışır; iki değer arasındaki bir değişim değil, fiyata eklenen sabit bir yüzdedir, ancak temelindeki yüzde matematiği aynıdır.</p>\n\n<h3>Nüfus artış hızı</h3>\n<p>Bir şehrin nüfusunun on yıl içinde 180,000 kişiden 207,000 kişiye çıktığını varsayalım. Formülü uygulayın: (207,000 − 180,000) ÷ 180,000 × 100 = %15. Bu %15, şehrin o dönemde ne kadar büyüdüğünü gösterir; ABD nüfus rakamları, bir şirketin geliri ya da bir laboratuvar ölçümü için de aynı hesabı yaparsınız.</p>\n\n<h3>Günlük hayatta yüzde değişim</h3>\n<p>Aynı matematik cebir dersinde, kimya laboratuvarı raporlarında ve fizik deneylerinde, ölçülen bir değerin beklenenle karşılaştırılması gereken her yerde görünür. Bir tepkime sırasında bir kimyasalın sıcaklığının ne kadar yükseldiğini hesaplayan öğrenci ya da rakamlarını çeyrekten çeyreğe izleyen bir işletme aynı hesabı yapar; yalnızca sayılar ve birimler değişir.</p>\n\n<p>İster bir zam, ister bir laboratuvar sonucu, ister bir nüfus tahmini olsun, yukarıdaki hesaplama aracı size saniyeler içinde kesin ve doğru işaretli bir cevap verir; formülü ezberlemenize ya da hangi değerin paya, hangisinin paydaya gireceğini düşünmenize gerek kalmaz. Artık yüzde değişimi elle nasıl hesaplayacağınızı biliyorsunuz; isterseniz işi hesaplama aracına bırakabilirsiniz.</p>",
+  "faq": [
+    {
+      "question": "50'den 75'e yüzde değişim kaçtır?",
+      "answer": "Değişim +%50'dir. Hesap: ((75-50)/50) × 100 = %50 artış."
+    },
+    {
+      "question": "Excel'de yüzde değişim nasıl hesaplanır?",
+      "answer": "=(Yeni-Eski)/Eski*100 formülünü kullanın ya da =(Yeni-Eski)/Eski yazıp hücreye yüzde biçimi uygulayın."
+    },
+    {
+      "question": "80'den 60'a yüzde değişim kaçtır?",
+      "answer": "Değişim -%25'tir. Hesap: ((60-80)/80) × 100 = -%25 (azalış)."
+    },
+    {
+      "question": "Yüzde değişimde sıra neden önemlidir?",
+      "answer": "Çünkü payda (taban) ilk değer olmalıdır. Sırayı değiştirmek farklı sonuç verir: 50→75 +%50'dir, ama 75→50 -%33.3'tür."
+    },
+    {
+      "question": "Yüzde değişim ile büyüme oranı aynı şey midir?",
+      "answer": "Tek bir dönem için evet. Büyüme oranı genellikle zaman içindeki yüzde değişimi, çoğunlukla bileşik olarak ifade eder."
+    },
+    {
+      "question": "Eski değer negatifse ne olur?",
+      "answer": "Formül matematiksel olarak yine çalışır, ancak yorumlamak zorlaşır. -50'den -25'e geçiş +%50 gösterir (sıfıra doğru hareket)."
+    },
+    {
+      "question": "-%100 değişim ne anlama gelir?",
+      "answer": "-%100 değişim, değerin sıfıra düştüğü anlamına gelir. %100'den fazla azalamazsınız, çünkü bu negatif değerler gerektirir."
+    },
+    {
+      "question": "Yıllık değişim (bir önceki yıla göre) nasıl hesaplanır?",
+      "answer": "Aynı formülü kullanın; önceki yılı \"Eski\", bu yılı \"Yeni\" olarak alın. Sonuç yıllık büyümeyi ya da düşüşü gösterir."
+    },
+    {
+      "question": "0'dan 100'e değişim kaçtır?",
+      "answer": "Bu matematiksel olarak tanımsızdır (sıfıra bölme). Sıfırdan başlayan her değişim yüzde olarak sonsuzdur."
+    },
+    {
+      "question": "Yüzde değişim %100'ü aşabilir mi?",
+      "answer": "Artışlarda evet. 20'den 100'e geçiş +%400'dür. Ancak azalışlar %100'ü aşamaz."
+    },
+    {
+      "question": "İki yüzde değişimi nasıl karşılaştırırım?",
+      "answer": "Aynı taban dönemini kullanıyorlarsa doğrudan karşılaştırın. Aksi halde aynı zaman dilimine çevirin ya da endeks sayılarını kullanın."
+    },
+    {
+      "question": "Mutlak değişim ile göreli değişim arasındaki fark nedir?",
+      "answer": "Mutlak değişim ham farktır (Yeni - Eski). Göreli (yüzde) değişim ise farkın ilk değere oranıdır."
+    }
+  ]
 }

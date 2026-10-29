@@ -14,5 +14,56 @@
     "Enter starting number": "Başlangıç sayısını girin",
     "New Value:": "Yeni Değer:",
     "Original Value": "Asıl Değer"
-  }
+  },
+  "content_html": "<p>Bir sayıdan daha küçük bir sayıya düşmek her yerde yaşanır: bir indirim fiyatı, bir maaş kesintisi ya da nüfus kaybeden bir kasaba. Yukarıdaki <strong>yüzde azalış hesaplama</strong> aracı bu düşüşü tek ve karşılaştırılabilir bir rakama çevirir. İki sayıyı girin, çıkarma ve bölme işlemini sizin yerinize yapar; aşağıda kullandığı kesin formülü, her adımın ardındaki mantığı ve hesabı elle de yapabilmeniz için yeterince çözümlü örneği bulacaksınız.</p>\n\n<h2>Yüzde azalış nasıl hesaplanır?</h2>\n<p>Soru her zaman aynıdır: başladığınız noktaya göre düşüş ne kadar büyük? Fiyatları, maaşları ya da kişi sayılarını karşılaştırıyor olun, şu adımları izleyin:</p>\n<ol>\n  <li>Başladığınız sayıdan bitirdiğiniz sayıyı çıkarın; ham farkı bulun.</li>\n  <li>Bu farkı, başladığınız sayının mutlak değerine bölün.</li>\n  <li>Ondalık sonucu yüzdeye çevirmek için 100 ile çarpın.</li>\n</ol>\n<p>Son sayı negatif çıkarsa değer aslında azalmamış, artmıştır; negatif sonuç, kılık değiştirmiş bir yüzde artıştır ve önce hangi sayıyı yerine koyduğunuzu yeniden kontrol etmeye değer.</p>\n\n<h2>Yüzde azalış formülü: başlangıç değeri ve son değer</h2>\n<p>Hesaplayıcının arkasındaki formül ezberlenecek kadar kısa, indirimleri, maaş kesintilerini ve küçülen sayıları kapsayacak kadar geneldir:</p>\n<p>$$ \\text{Yüzde Azalış} = \\frac{S - F}{|S|} \\times 100 $$</p>\n<p>Burada <sub>S</sub> başlangıç değeri, <sub>F</sub> son değerdir; \\( \\%\\ \\text{azalış} = 100 \\times \\dfrac{(S - F)}{|S|} \\) yazarsanız da aynı sonucu elde edersiniz. <strong>Mutlak değer</strong> çubukları burada önemlidir: başlangıç değerinin kendisi negatif olsa bile paydayı pozitif tutarlar; bu yüzden cevabın işareti her zaman artış mı azalış mı olduğunu söyler, girdilerin işareti değil.</p>\n\n<h3>Formülde ilk değer ile yeni değer</h3>\n<p>Hangi sayının nereye gideceğini karıştırmak kolaydır. <strong>İlk değer</strong> (başlangıç değeri de denir), değişiklik olmadan önce başladığınız sayıdır; yeni değer ise sonrasında ulaştığınız sayıdır. Yerlerini değiştirirseniz formül yine çalışır, ancak azalış yerine negatif bir yüzde elde edersiniz; çünkü fiilen başladığınız noktaya geri dönüşteki artışı ölçmüş olursunuz.</p>\n<aside><i>İpucu:</i> Azalış beklerken sonuç artış olarak çıkıyorsa (ya da tersi), büyük olasılıkla hangi sayının önce geldiğini karıştırmışsınızdır; başlangıç noktasını hangisinin temsil ettiğini yeniden kontrol edin.</aside>\n\n<h2>Yüzde azalış ile yüzde artış arasındaki fark</h2>\n<p>Yüzde azalış ile yüzde artış aynı temel formülü paylaşır; yalnızca değişimin yönü farklıdır. Bir <strong>yüzde değişim</strong> hesabı (bazen <strong>yüzde değişim hesaplayıcı</strong> olarak da adlandırılır) her iki yönü kapsayan çatı terimdir. İlgili ama ayrı bir araç olan <strong>yüzde fark</strong> hesaplayıcı ise iki değerden birinin zaman içinde önce geldiğini varsaymadan karşılaştırır; başlangıç değerine değil, iki sayının <em>ortalamasına</em> böler. Bu yüzden aynı değer çifti için her zaman yüzde azalışla aynı sonucu vermez.</p>\n<ul>\n  <li>Perakende indirimleri ve tasfiye satışları</li>\n  <li>Maaş kesintileri ya da küçülen bir hane bütçesi</li>\n  <li>Zaman içinde nüfus kaybeden bir kasaba ya da ülke</li>\n  <li>Bir kontrolden diğerine izlenen kilo</li>\n</ul>\n\n<h2>Yüzde azalış hesaplayıcının gerçek hayattaki kullanımları</h2>\n<p>Matematik basittir; ama yüzde azalış hesaplayıcıyı günlük hayatta gerçekten yararlı kılan, nerelerde kullanıldığıdır: kişisel finans ya da temel ekonomi kadar gündelik matematikte de.</p>\n\n<h3>İlk fiyat üzerinden indirimli fiyat</h3>\n<p>En yaygın kullanım perakendedir. Bir ürünün <strong>ilk fiyatı</strong> $80 ise ve hafta sonu satışındaki %25 <strong>indirim</strong> kuponu fiyatı $60'a düşürüyorsa bu, doğrudan %25'lik bir <strong>yüzde azalıştır</strong>; indirim zaten yüzde olarak verildiğinde indirim oranı ile yüzde azalış aynı sayıdır. <strong>Eski fiyatı</strong> şimdi gerçekte ödeyeceğiniz tutarla karşılaştırmak, ilan edilen indirimin iddia edildiği kadar yüksek olup olmadığını kontrol etmenin de yoludur.</p>\n\n<h3>Maaş kesintileri ve giderlerdeki azalış</h3>\n<p>Aynı formül paranın diğer yöne gittiği durumlarda da geçerlidir. Bir şirketin bir birimin bütçesini bir yılda $500,000'tan $400,000'a düşürmesi, giderlerde %20'lik bir azalıştır. Vergi öncesi geliri, vergiler ve daha durgun bir çeyrek sonrasında $80,000'tan $46,400'a düşen bir serbest çalışan %42'lik bir <strong>yüzde düşüş</strong> yaşamıştır; aynı mantık bir <strong>maaş kesintisi</strong> için de geçerlidir: kesintiden sonraki net maaş, aynı denklemdeki son sayıdır. Nakit yakma hızını izleyen girişimler bunu her ay kullanır; maliyetlerin gerçekten düşüp düşmediğini görmek için geçen ayın harcaması ile bu ayınki arasındaki farka bakarlar.</p>\n\n<h3>Zaman içinde nüfus azalış oranı</h3>\n<p>Demograflar <strong>nüfus azalış oranını</strong>, perakendecilerin indirimi kullandığı gibi kullanır: bir yılda 1,000 kişiden 950'ye düşen bir kasaba %5'lik bir azalma yaşamıştır. Küçülen bir nüfusu ham sayı yerine yüzde olarak ifade etmek, çok farklı büyüklükteki yerleri eşit zeminde karşılaştırmanızı sağlar; çünkü 50 kişi kaybetmek küçük bir kasaba için büyük bir şehirden çok farklı anlam taşır.</p>\n\n<h3>Mutlak azalış ile yüzde azalış</h3>\n<p><strong>Mutlak azalış</strong>, iki sayı arasındaki ham farktır; bölme yok, yüzde işareti yok. <strong>Göreli azalış</strong> (yüzdeli sürümü) ise düşüşün gerçek önemi hakkında çok daha fazlasını söyler. Önceki yıl $2,000,000 ya da $100,000,000 kâr etmiş olsa da bir şirketin $1,000,000 kâr kaybetmesi kulağa aynı gelir; ama yüzde olarak bu iki durum sırasıyla %50 ve %1'dir: biri kriz, diğeri neredeyse yuvarlama hatası. Aynı fikir kilo kaybı için de geçerlidir: 200 poundluk başlangıç ağırlığından 10 pound vermek %5'lik bir azalıştır; bu, ham sayının tek başına verdiğinden daha yararlı bir bağlamdır, özellikle yüzdenin rakamın kendisinden daha önemli olduğu sağlıklı bir kilo aralığına bakarken.</p>\n\n<h2>Yüzde azalış hesaplamalarının çözümlü örnekleri</h2>\n<p>Birkaç örneği baştan sona çözmek, formüle soyut anlatımdan okumaktan daha kolay güvenmenizi sağlar.</p>\n<table>\n  <thead>\n    <tr><th>Senaryo</th><th>Önce</th><th>Sonra</th><th>Yüzde azalış</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>Ampul enerji kullanımı</td><td>60 watt</td><td>8 watt</td><td>%86.67</td></tr>\n    <tr><td>İndirim sonrası perakende ürün</td><td>$100</td><td>$70</td><td>%30</td></tr>\n    <tr><td>Şirket kârı, yıldan yıla</td><td>$2,000,000</td><td>$1,000,000</td><td>%50</td></tr>\n    <tr><td>Diyet sonrası vücut ağırlığı</td><td>200 lbs</td><td>190 lbs</td><td>%5</td></tr>\n    <tr><td>Küçük bir kasaba, bir yıl</td><td>1,000</td><td>950</td><td>%5</td></tr>\n  </tbody>\n</table>\n<p>İlk satıra dikkat edin: 60 watt'lık bir ampulün yerine 8 watt'lık bir LED ampul takmak, saatlik enerji kullanımında %86.67'lik bir azalış demektir; wattaj açısından “küçük” bir değişiklikten çoğu kişinin beklediğinden çok daha çarpıcı bir sonuç ve farkın yüzdeli biçiminin çoğu zaman ham biçiminden neden daha bilgilendirici olduğunun iyi bir örneği. Ondalık biçimde bu, 0.8667'lik bir <strong>oran</strong> ve asıl wattajın ortadan kalkan bir <strong>kesridir</strong>; yukarıdaki <a href=\"#calculator\">yüzde azalış hesaplama</a> aracında okuduğunuz yüzdeye çeviren son 100 ile çarpma işleminden önceki hâlidir.</p>\n\n<h2>Yüzde azalış formülünü bu hesaplayıcının ötesinde kullanmak</h2>\n<p>Bir tür sayı için yüzde azalışı hesaplamayı öğrendikten sonra hepsi için <code>yüzde azalışı hesaplayabilirsiniz</code>; yukarıdaki yüzde azalış formülü, $20'lık bir indirimi, 5 poundluk bir kilo kaybını ve küçülen bir kasabanın nüfusunu doğrudan birbiriyle karşılaştırılabilir kılan ortak birimdir. Bir <strong>yüzde azalış hesaplayıcı</strong> ile bir <strong>yüzde eksilme hesaplayıcının</strong> aslında iki farklı ad taşıyan aynı araç olmasının nedeni de budur.</p>",
+  "faq": [
+    {
+      "question": "Bir sayıdan %25 nasıl çıkarılır?",
+      "answer": "Sayıyı 0.75 ile çarpın. Örneğin 200 - %25 = 200 × 0.75 = 150. Azalış tutarı 50'dir."
+    },
+    {
+      "question": "80'in %15 eksiği kaçtır?",
+      "answer": "80'in %15 eksiği 68'dir. Hesap: 80 × 0.15 = 12 (azalış), ardından 80 - 12 = 68."
+    },
+    {
+      "question": "Amortisman nasıl hesaplanır?",
+      "answer": "Varlık değerini (1 - amortisman oranı) ile çarpın. $10,000 değerinde bir varlık için %20 amortisman: $10,000 × 0.80 = $8,000."
+    },
+    {
+      "question": "Bir yüzdeyi çıkarmanın formülü nedir?",
+      "answer": "Yeni değer = İlk değer × (1 - Yüzde/100). $50 üzerinden %30 indirim için: $50 × 0.70 = $35."
+    },
+    {
+      "question": "$120'ın %40 indirimli fiyatı kaç olur?",
+      "answer": "$120'ın %40 indirimli fiyatı $72'dir. Hesap: $120 × 0.60 = $72. $48 tasarruf edersiniz."
+    },
+    {
+      "question": "%100 azalış ne demektir?",
+      "answer": "%100 azalış, değeri sıfıra indirir. 50'nin %100 azaltılması: 50 - 50 = 0."
+    },
+    {
+      "question": "%50 kayıptan toparlanmak için neden %50'den fazla kazanç gerekir?",
+      "answer": "Çünkü kazanç yüzdesi azalmış tutara uygulanır. %50 kayıptan sonra elinizde yarısı kalır; eski değere dönmek için %100 kazanç gerekir."
+    },
+    {
+      "question": "Ardışık indirimler nasıl hesaplanır?",
+      "answer": "Toplanmaz, çarpılır. %20, ardından %10 indirim: 100 × 0.80 × 0.90 = 72 (toplam %28; %30 değil)."
+    },
+    {
+      "question": "500'ün %35 azaltılmış hâli kaçtır?",
+      "answer": "500'ün %35 azaltılmış hâli 325'tir. Hesap: 500 × 0.65 = 325. Azalış 175'tir."
+    },
+    {
+      "question": "İndirimden önceki ilk fiyat nasıl bulunur?",
+      "answer": "İndirimli fiyatı (1 - indirim%) değerine bölün. %25 indirimle $60 ödediyseniz: $60 ÷ 0.75 = $80 ilk fiyattır."
+    },
+    {
+      "question": "Azalış negatif olabilir mi?",
+      "answer": "Negatif bir yüzde girerseniz değer aslında artar. Ekleme için artış hesaplayıcıyı kullanın."
+    },
+    {
+      "question": "1000'in %7.5 eksiği kaçtır?",
+      "answer": "1000'in %7.5 eksiği 925'tir. Hesap: 1000 × 0.075 = 75, ardından 1000 - 75 = 925."
+    }
+  ]
 }
