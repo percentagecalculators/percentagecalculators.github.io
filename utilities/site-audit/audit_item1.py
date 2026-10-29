@@ -44,7 +44,7 @@ for p, h in pages.items():
 
 issues = collections.defaultdict(list)
 def bad(k, p, msg=''): issues[k].append(os.path.relpath(p, ROOT) + (': ' + msg if msg else ''))
-LANGS = 'ar bn de es fr hi id it ja ko ms nl pt ru th vi zh-cn zh-tw'.split()
+LANGS = 'ar bn de es fa fr hi id it ja ko ms nl pl pt ro ru th tr uk vi zh-cn zh-tw'.split()
 def lang_of(rel):
     f = rel.split(os.sep)[0]
     return f if os.sep in rel and f in LANGS else 'en'
@@ -127,7 +127,7 @@ variants = collections.defaultdict(lambda: collections.defaultdict(list))
 for p, h in pages.items():
     rel = os.path.relpath(p, ROOT)
     if rel == 'google7cc5de103ad575d0.html': continue
-    lang = rel.split(os.sep)[0] if os.sep in rel and rel.split(os.sep)[0] in 'ar bn de es fr hi id it ja ko ms nl pt ru th vi zh-cn zh-tw'.split() else 'en'
+    lang = rel.split(os.sep)[0] if os.sep in rel and rel.split(os.sep)[0] in 'ar bn de es fa fr hi id it ja ko ms nl pl pt ro ru th tr uk vi zh-cn zh-tw'.split() else 'en'
     hdr = seg(h, '<header'); ftr = seg(h, '<footer'); drw = seg(h, 'id="navDrawer"')
     def norm(s):
         if s is None: return None

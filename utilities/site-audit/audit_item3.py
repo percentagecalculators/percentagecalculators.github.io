@@ -2,7 +2,7 @@
 import os, re, sys, collections
 from html.parser import HTMLParser
 ROOT = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'public'))
-LANGS = 'ar bn de es fr hi id it ja ko ms nl pt ru th vi zh-cn zh-tw'.split()
+LANGS = 'ar bn de es fa fr hi id it ja ko ms nl pl pt ro ru th tr uk vi zh-cn zh-tw'.split()
 class P(HTMLParser):
     def __init__(s):
         super().__init__(convert_charrefs=False); s.el = []; s.stack = []
