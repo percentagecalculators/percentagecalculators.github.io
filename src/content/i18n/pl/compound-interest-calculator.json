@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator odsetek składanych | Oblicz wzrost w czasie",
+  "meta_description": "Darmowy kalkulator odsetek składanych. Wpisz kapitał, roczną stopę, czas i częstotliwość kapitalizacji, aby od razu obliczyć odsetki i łączną kwotę.",
+  "h1": "Kalkulator odsetek składanych",
+  "subtitle": "Wpisz <strong>kapitał</strong>, <strong>roczną stopę</strong>, <strong>czas</strong> i <strong>częstotliwość kapitalizacji</strong>, a ten <strong>kalkulator odsetek składanych</strong> od razu pokaże <strong>zarobione odsetki</strong> i <strong>łączną kwotę</strong>.",
+  "hint": "Wpisz kapitał, stopę, czas i częstotliwość kapitalizacji, aby otrzymać łączną kwotę.",
+  "long_tail_anchor": "Częstotliwość kapitalizacji i wzrost kapitału",
+  "card_strings": {
+    "Annual Rate": "Stopa roczna",
+    "Compounding / Year": "Kapitalizacje w roku",
+    "Interest Earned:": "Zarobione odsetki:",
+    "Principal ($)": "Kapitał ($)",
+    "Time (Years)": "Czas (lata)",
+    "Total Amount:": "Łączna kwota:",
+    "e.g. 1000": "np. 1000",
+    "e.g. 12": "np. 12",
+    "e.g. 3": "np. 3",
+    "e.g. 5": "np. 5"
+  }
+}

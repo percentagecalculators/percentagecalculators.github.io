@@ -1,0 +1,15 @@
+{
+  "slug": "sgpa-to-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator SGPA na procent | Przelicz SGPA na procent",
+  "meta_description": "Darmowy kalkulator SGPA na procent według standardowego wzoru SGPA × 9.5. Od razu przelicz semestralną średnią SGPA na równoważny procent.",
+  "h1": "Kalkulator SGPA na procent",
+  "subtitle": "Wpisz swoje <strong>SGPA</strong>, a ten <strong>kalkulator SGPA na procent</strong> zastosuje standardowy wzór <strong>SGPA × 9.5</strong>, używany na większości indyjskich uczelni, i od razu poda równoważny <strong>procent</strong>.",
+  "hint": "Wpisz semestralne SGPA, aby uzyskać równoważny procent.",
+  "long_tail_anchor": "Przeliczanie średniej semestralnej na procent",
+  "card_strings": {
+    "Percentage:": "Procent:",
+    "SGPA (out of 10)": "SGPA (w skali do 10)",
+    "e.g. 7.8": "np. 7.8"
+  }
+}

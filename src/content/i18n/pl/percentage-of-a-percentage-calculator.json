@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator procentu z procentu | Połącz dwa procenty",
+  "meta_description": "Darmowy kalkulator procentu z procentu. Pomnóż dwa kolejne procenty, a potem zastosuj łączną stawkę do wartości, np. przy łączeniu podatków lub rabatów.",
+  "h1": "Kalkulator procentu z procentu",
+  "subtitle": "Wpisz dwa <strong>procenty</strong>, a ten <strong>kalkulator procentu z procentu</strong> pomnoży je w prawidłowy sposób i poda <strong>łączny procent</strong> — dodaj wartość początkową, aby zobaczyć, jak zmienia się w obu krokach.",
+  "hint": "Pomnóż dwa kolejne procenty, aby uzyskać łączną stawkę.",
+  "long_tail_anchor": "Połącz dwa kolejne procenty",
+  "card_strings": {
+    "Apply to a Value (optional)": "Zastosuj do wartości (opcjonalnie)",
+    "Combined Percentage:": "Łączny procent:",
+    "Final Value:": "Wartość końcowa:",
+    "First Percentage": "Pierwszy procent",
+    "Second Percentage": "Drugi procent",
+    "Value After First %:": "Wartość po pierwszym %:",
+    "e.g. 200": "np. 200",
+    "e.g. 40": "np. 40",
+    "e.g. 90": "np. 90"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator prowizji | Oblicz prowizję od sprzedaży",
+  "meta_description": "Darmowy kalkulator prowizji. Wpisz kwotę sprzedaży i stawkę prowizji, aby od razu obliczyć, ile prowizji zarobiłeś.",
+  "h1": "Kalkulator prowizji",
+  "subtitle": "Wpisz <strong>kwotę sprzedaży</strong> i <strong>stawkę prowizji</strong>, a ten <strong>kalkulator prowizji</strong> od razu obliczy <strong>zarobioną prowizję</strong>.",
+  "hint": "Wpisz kwotę sprzedaży i stawkę prowizji, aby obliczyć zarobioną prowizję.",
+  "long_tail_anchor": "Procent prowizji od sprzedaży",
+  "card_strings": {
+    "Commission Earned:": "Zarobiona prowizja:",
+    "Commission Rate": "Stawka prowizji",
+    "Sales Amount ($)": "Kwota sprzedaży ($)",
+    "e.g. 10": "np. 10",
+    "e.g. 5000": "np. 5000"
+  }
+}

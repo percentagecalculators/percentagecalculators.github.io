@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator narzutu | Cena sprzedaży z kosztu i narzutu %",
+  "meta_description": "Darmowy kalkulator narzutu. Wpisz cenę zakupu i oczekiwany narzut procentowy, aby od razu obliczyć cenę sprzedaży, którą powinieneś zastosować.",
+  "h1": "Kalkulator narzutu",
+  "subtitle": "Wpisz <strong>cenę zakupu</strong> i oczekiwany <strong>narzut procentowy</strong>, a ten <strong>kalkulator narzutu</strong> od razu obliczy <strong>cenę sprzedaży</strong>, jaką warto ustalić.",
+  "hint": "Wpisz cenę zakupu i narzut %, aby obliczyć cenę sprzedaży.",
+  "long_tail_anchor": "Koszt plus narzut do ceny sprzedaży",
+  "card_strings": {
+    "Cost Price ($)": "Cena zakupu ($)",
+    "Markup": "Narzut",
+    "Markup Amount:": "Kwota narzutu:",
+    "Selling Price:": "Cena sprzedaży:",
+    "e.g. 30": "np. 30",
+    "e.g. 40": "np. 40"
+  }
+}

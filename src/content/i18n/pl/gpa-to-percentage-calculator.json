@@ -1,0 +1,15 @@
+{
+  "slug": "gpa-to-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator GPA na procenty | Przelicz GPA w skali 4.0 na %",
+  "meta_description": "Darmowy kalkulator GPA na procenty. Przelicz swoją średnią ocen GPA w skali 4.0 na odpowiadający jej procent od razu. Dokładnie, prosto, bez rejestracji.",
+  "h1": "Kalkulator GPA na procenty",
+  "subtitle": "Wpisz swoją średnią <strong>GPA</strong> w standardowej <strong>skali 4.0</strong>, a ten <strong>kalkulator GPA na procenty</strong> od razu przeliczy ją na odpowiadający jej <strong>procent</strong> — przydatne przy aplikacjach, suplementach do dyplomu i porównywaniu systemów oceniania.",
+  "hint": "Wpisz GPA w skali 4.0, aby uzyskać odpowiadający mu procent.",
+  "long_tail_anchor": "Przelicz GPA w skali 4.0 na procenty",
+  "card_strings": {
+    "GPA (4.0 Scale)": "GPA (skala 4.0)",
+    "Percentage:": "Procent:",
+    "e.g. 3.5": "np. 3.5"
+  }
+}

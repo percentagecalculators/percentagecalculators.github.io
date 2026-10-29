@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator spadku procentowego | Odejmij procent od liczby",
+  "meta_description": "Darmowy kalkulator spadku procentowego. Odejmij dowolny procent od liczby od razu — oblicz utratę wartości, spadek wagi i cięcia budżetu.",
+  "h1": "Kalkulator spadku procentowego",
+  "subtitle": "Wpisz <strong>liczbę początkową</strong> i <strong>procent do odjęcia</strong>, a ten <strong>kalkulator spadku procentowego</strong> poda <strong>kwotę obniżki</strong> oraz <strong>wartość końcową</strong>. Jeśli zastanawiasz się, ile to 500 minus 20%, odpowiedź brzmi 400 — i nie musisz liczyć w głowie.",
+  "hint": "Wpisz liczbę i procent do odjęcia, aby obliczyć zmniejszoną wartość.",
+  "long_tail_anchor": "Odejmij procent od liczby",
+  "card_strings": {
+    "Decrease Amount:": "Kwota spadku:",
+    "Decrease by": "Zmniejsz o",
+    "Enter percentage": "Wpisz procent",
+    "Enter starting number": "Wpisz liczbę początkową",
+    "New Value:": "Nowa wartość:",
+    "Original Value": "Wartość początkowa"
+  }
+}

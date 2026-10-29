@@ -1,0 +1,17 @@
+{
+  "slug": "percent-solution-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator roztworu procentowego | Stężenie masa/objętość",
+  "meta_description": "Darmowy kalkulator roztworu procentowego. Wpisz masę substancji rozpuszczonej i objętość roztworu, aby od razu obliczyć stężenie procentowe (% m/v).",
+  "h1": "Kalkulator roztworu procentowego",
+  "subtitle": "Wpisz <strong>masę substancji rozpuszczonej</strong> i <strong>objętość roztworu</strong>, a ten <strong>kalkulator roztworu procentowego</strong> od razu obliczy <strong>stężenie procentowe</strong> (% m/v).",
+  "hint": "Wpisz masę substancji i objętość roztworu, aby obliczyć stężenie.",
+  "long_tail_anchor": "Stężenie procentowe masa/objętość",
+  "card_strings": {
+    "Concentration (% w/v):": "Stężenie (% m/v):",
+    "Mass of Solute (g)": "Masa substancji rozpuszczonej (g)",
+    "Volume of Solution (mL)": "Objętość roztworu (mL)",
+    "e.g. 250": "np. 250",
+    "e.g. 5": "np. 5"
+  }
+}

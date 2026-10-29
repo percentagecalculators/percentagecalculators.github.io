@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator średniej procentowej | Średnia prosta i ważona",
+  "meta_description": "Darmowy kalkulator średniej procentowej z trybem prostym i ważonym. Poprawnie łącz procenty z grup o różnej liczebności, np. przy ocenach i ankietach.",
+  "h1": "Kalkulator średniej procentowej",
+  "subtitle": "Wpisz listę <strong>wartości procentowych</strong> oddzielonych przecinkami, a ten <strong>kalkulator średniej procentowej</strong> poda <strong>średnią</strong>, <strong>sumę</strong>, <strong>liczbę</strong> i zakres Twoich wartości. Dodaj odpowiadającą jej listę <strong>liczebności próbek</strong>, gdy grupy nie są równe, a kalkulator automatycznie przejdzie na prawidłową <strong>średnią ważoną</strong>.",
+  "hint": "Wpisz wartości procentowe (i opcjonalnie liczebności), aby obliczyć średnią prostą lub ważoną.",
+  "long_tail_anchor": "Średnia z wielu wartości procentowych",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "Dodaj jedną wagę do każdej wartości procentowej — np. liczebność klasy lub liczbę respondentów — aby poprawnie połączyć grupy o różnej wielkości.",
+    "Average:": "Średnia:",
+    "Count:": "Liczba:",
+    "Percentages (comma or space separated)": "Wartości procentowe (oddzielone przecinkami lub spacjami)",
+    "Sample Sizes / Weights (optional)": "Liczebności / wagi (opcjonalnie)",
+    "Sum:": "Suma:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "np. 30, 50, 20, 40 (leave blank for a simple average)",
+    "e.g. 85, 90, 78, 92": "np. 85, 90, 78, 92"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator mocy alkoholu proof | Przelicz proof na % ABV",
+  "meta_description": "Darmowy kalkulator mocy alkoholu. Wpisz wartość w skali proof (USA), aby od razu przeliczyć ją na zawartość alkoholu w procentach objętościowych (ABV) — szybko i dokładnie.",
+  "h1": "Kalkulator mocy alkoholu (proof na ABV)",
+  "subtitle": "Wpisz wartość <strong>mocy alkoholu w skali proof</strong> (USA), a ten <strong>kalkulator mocy alkoholu</strong> od razu przeliczy ją na zawartość <strong>alkoholu objętościowo (ABV)</strong> w procentach.",
+  "hint": "Wpisz wartość proof (USA), aby otrzymać procent ABV.",
+  "long_tail_anchor": "Przelicznik proof na procent ABV",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "Proof (USA)",
+    "e.g. 80": "np. 80"
+  }
+}

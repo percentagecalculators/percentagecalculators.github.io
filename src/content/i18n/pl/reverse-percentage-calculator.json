@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Odwrotny kalkulator procentowy | Znajdź wartość początkową",
+  "meta_description": "Darmowy odwrotny kalkulator procentowy. Znajdź liczbę początkową, gdy znasz wartość i jej procent — oblicz cenę przed rabatem i nie tylko.",
+  "h1": "Odwrotny kalkulator procentowy",
+  "subtitle": "Znasz liczbę i wiesz, że to pewien procent czegoś większego? Wpisz <strong>znaną wartość</strong> i <strong>procent, jaki stanowi</strong>, a ten <strong>odwrotny kalkulator procentowy</strong> obliczy wstecz <strong>wartość początkową</strong>. Jeśli 30 to 25% całości, całość wynosi 120.",
+  "hint": "Wpisz wartość i procent, jaki stanowi, aby znaleźć wartość początkową.",
+  "long_tail_anchor": "Obliczanie wartości początkowej",
+  "card_strings": {
+    "Original Total:": "Wartość początkowa:",
+    "Value": "Wartość",
+    "e.g. 30": "np. 30",
+    "e.g. 45": "np. 45",
+    "is this % of the total": "to ten procent całości"
+  }
+}

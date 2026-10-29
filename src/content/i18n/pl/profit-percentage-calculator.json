@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator procentu zysku | Oblicz zysk w % od kosztu",
+  "meta_description": "Darmowy kalkulator procentu zysku. Wpisz cenę zakupu i cenę sprzedaży, aby od razu obliczyć kwotę zysku oraz procent zysku.",
+  "h1": "Kalkulator procentu zysku",
+  "subtitle": "Wpisz <strong>cenę zakupu</strong> i <strong>cenę sprzedaży</strong>, a ten <strong>kalkulator procentu zysku</strong> od razu obliczy <strong>zysk</strong> oraz <strong>procent zysku</strong> w odniesieniu do kosztu.",
+  "hint": "Wpisz cenę zakupu i cenę sprzedaży, aby obliczyć procent zysku.",
+  "long_tail_anchor": "Procent zysku od ceny zakupu",
+  "card_strings": {
+    "Cost Price ($)": "Cena zakupu ($)",
+    "Profit Percentage:": "Procent zysku:",
+    "Profit:": "Zysk:",
+    "Selling Price ($)": "Cena sprzedaży ($)",
+    "e.g. 40": "np. 40",
+    "e.g. 55": "np. 55"
+  }
+}

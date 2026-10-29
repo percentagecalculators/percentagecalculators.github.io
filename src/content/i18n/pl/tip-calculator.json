@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator napiwku | Oblicz napiwek i podziel rachunek",
+  "meta_description": "Darmowy kalkulator napiwku. Wpisz kwotę rachunku, procent napiwku i liczbę osób, aby od razu obliczyć napiwek, sumę i kwotę na osobę.",
+  "h1": "Kalkulator napiwku",
+  "subtitle": "Wpisz <strong>kwotę rachunku</strong>, <strong>procent napiwku</strong> i <strong>liczbę osób</strong>, a ten <strong>kalkulator napiwku</strong> od razu obliczy <strong>napiwek</strong>, <strong>sumę</strong> i to, ile <strong>wypada na każdą osobę</strong>.",
+  "hint": "Wpisz rachunek, procent napiwku i liczbę osób do podziału.",
+  "long_tail_anchor": "Napiwek i podział rachunku w restauracji",
+  "card_strings": {
+    "Bill Amount ($)": "Kwota rachunku ($)",
+    "Per Person:": "Na osobę:",
+    "Split Between": "Podział na",
+    "Tip": "Napiwek",
+    "Tip Amount:": "Kwota napiwku:",
+    "Total:": "Suma:",
+    "e.g. 18": "np. 18",
+    "e.g. 4": "np. 4",
+    "e.g. 80": "np. 80"
+  }
+}

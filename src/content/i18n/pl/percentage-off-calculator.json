@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator zniżki procentowej | Cena po rabacie i oszczędność",
+  "meta_description": "Darmowy kalkulator zniżki procentowej. Oblicz cenę po rabacie i kwotę oszczędności w kilka sekund. Sprawdź, ile zapłacisz po przecenie, i kupuj mądrzej.",
+  "h1": "Kalkulator zniżki procentowej",
+  "subtitle": "Wpisz <strong>cenę początkową</strong> i <strong>procent zniżki</strong>, a ten <strong>kalkulator zniżki procentowej</strong> pokaże <strong>cenę po rabacie</strong> oraz dokładnie, ile <strong>oszczędzasz</strong>. Gdy następnym razem zobaczysz napis „30% taniej”, będziesz wiedzieć, ile faktycznie zapłacisz.",
+  "hint": "Wpisz cenę początkową i procent zniżki, aby obliczyć cenę po rabacie.",
+  "long_tail_anchor": "Kalkulator rabatu i ceny po przecenie",
+  "card_strings": {
+    "Discount": "Zniżka",
+    "Enter discount %": "Wpisz procent zniżki",
+    "Enter price": "Wpisz cenę",
+    "Final Price:": "Cena końcowa:",
+    "Original Price ($)": "Cena początkowa ($)",
+    "You Save:": "Oszczędzasz:"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "ratio-to-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator proporcji na procent | Zamień stosunek na %",
+  "meta_description": "Darmowy kalkulator proporcji na procent. Wpisz obie części stosunku, aby od razu zobaczyć sumę i jaki procent stanowi pierwsza część.",
+  "h1": "Kalkulator proporcji na procent",
+  "subtitle": "Wpisz obie części <strong>stosunku</strong> (np. 3 : 4), a ten <strong>kalkulator proporcji na procent</strong> od razu pokaże <strong>sumę</strong> i jaki <strong>procent</strong> stanowi pierwsza część.",
+  "hint": "Wpisz obie części stosunku, aby obliczyć procent całości.",
+  "long_tail_anchor": "Zamiana stosunku na udział procentowy",
+  "card_strings": {
+    "A as % of Total:": "A jako % całości:",
+    "Part A": "Część A",
+    "Part B": "Część B",
+    "Total:": "Suma:",
+    "e.g. 3": "np. 3",
+    "e.g. 4": "np. 4"
+  }
+}

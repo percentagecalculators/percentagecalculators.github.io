@@ -154,12 +154,13 @@ I18N_DIR = os.path.join(BASE_DIR, "content", "i18n")
 # Native name shown in the language switcher; hreflang/<html lang> tag.
 LANGUAGES = {
     "en": ("English", "en"), "ar": ("العربية", "ar"), "bn": ("বাংলা", "bn"), "de": ("Deutsch", "de"),
-    "es": ("Español", "es"), "fr": ("Français", "fr"), "hi": ("हिन्दी", "hi"), "id": ("Bahasa Indonesia", "id"),
+    "es": ("Español", "es"), "fa": ("فارسی", "fa"), "fr": ("Français", "fr"), "hi": ("हिन्दी", "hi"), "id": ("Bahasa Indonesia", "id"),
     "it": ("Italiano", "it"), "ja": ("日本語", "ja"), "ko": ("한국어", "ko"), "ms": ("Bahasa Melayu", "ms"),
-    "nl": ("Nederlands", "nl"), "pt": ("Português", "pt"), "ru": ("Русский", "ru"), "th": ("ไทย", "th"),
+    "nl": ("Nederlands", "nl"), "pl": ("Polski", "pl"), "pt": ("Português", "pt"), "ro": ("Română", "ro"),
+    "ru": ("Русский", "ru"), "th": ("ไทย", "th"), "tr": ("Türkçe", "tr"), "uk": ("Українська", "uk"),
     "vi": ("Tiếng Việt", "vi"), "zh-cn": ("简体中文", "zh-Hans"), "zh-tw": ("繁體中文", "zh-Hant"),
 }
-RTL_LANGS = {"ar"}
+RTL_LANGS = {"ar", "fa"}
 
 # Chrome text outside the content files. A language's ui.json overrides any
 # of these by key; nav_groups/company_links/nav_names are keyed overlays

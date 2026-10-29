@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator podwyżki wynagrodzenia | Nowa pensja",
+  "meta_description": "Darmowy kalkulator podwyżki wynagrodzenia. Wpisz obecną pensję i procent podwyżki, aby od razu obliczyć kwotę podwyżki i nowe wynagrodzenie.",
+  "h1": "Kalkulator podwyżki wynagrodzenia",
+  "subtitle": "Wpisz <strong>obecne wynagrodzenie</strong> i <strong>procent podwyżki</strong>, a ten <strong>kalkulator podwyżki wynagrodzenia</strong> od razu obliczy <strong>kwotę podwyżki</strong> i <strong>nowe wynagrodzenie</strong>.",
+  "hint": "Wpisz obecną pensję i procent podwyżki, aby obliczyć nowe wynagrodzenie.",
+  "long_tail_anchor": "Procent podwyżki i nowa pensja",
+  "card_strings": {
+    "Current Salary ($)": "Obecne wynagrodzenie ($)",
+    "New Salary:": "Nowe wynagrodzenie:",
+    "Raise": "Podwyżka",
+    "Raise Amount:": "Kwota podwyżki:",
+    "e.g. 5": "np. 5",
+    "e.g. 60000": "np. 60000"
+  }
+}

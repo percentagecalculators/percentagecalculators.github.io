@@ -1,0 +1,15 @@
+{
+  "slug": "basis-points-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator punktów bazowych | Przelicz pb na procent",
+  "meta_description": "Darmowy kalkulator punktów bazowych. Wpisz wartość w punktach bazowych (pb), aby od razu przeliczyć ją na procent — dokładne wyniki dla finansów i inwestowania.",
+  "h1": "Kalkulator punktów bazowych",
+  "subtitle": "Wpisz wartość w <strong>punktach bazowych (pb)</strong>, a ten <strong>kalkulator punktów bazowych</strong> od razu przeliczy ją na <strong>procent</strong> — standardowy sposób podawania niewielkich zmian stóp w finansach.",
+  "hint": "Wpisz punkty bazowe, aby otrzymać równoważny procent.",
+  "long_tail_anchor": "Przelicz punkty bazowe na procent",
+  "card_strings": {
+    "Basis Points (bps)": "Punkty bazowe (pb)",
+    "Percentage:": "Procent:",
+    "e.g. 25": "np. 25"
+  }
+}

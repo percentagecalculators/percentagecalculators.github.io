@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator marży zysku | Oblicz marżę zysku w %",
+  "meta_description": "Darmowy kalkulator marży zysku. Wpisz cenę zakupu i cenę sprzedaży, aby od razu obliczyć zysk oraz marżę zysku jako procent ceny sprzedaży.",
+  "h1": "Kalkulator marży zysku",
+  "subtitle": "Wpisz <strong>cenę zakupu</strong> i <strong>cenę sprzedaży</strong>, a ten <strong>kalkulator marży zysku</strong> od razu obliczy <strong>zysk</strong> oraz <strong>marżę zysku</strong> jako procent ceny sprzedaży.",
+  "hint": "Wpisz cenę zakupu i cenę sprzedaży, aby obliczyć marżę zysku.",
+  "long_tail_anchor": "Marża procentowa od ceny sprzedaży",
+  "card_strings": {
+    "Cost Price ($)": "Cena zakupu ($)",
+    "Profit Margin:": "Marża zysku:",
+    "Profit:": "Zysk:",
+    "Selling Price ($)": "Cena sprzedaży ($)",
+    "e.g. 40": "np. 40",
+    "e.g. 55": "np. 55"
+  }
+}

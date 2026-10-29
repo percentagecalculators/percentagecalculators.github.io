@@ -1,0 +1,15 @@
+{
+  "slug": "ppm-to-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator ppm na procent | Przelicz części na milion",
+  "meta_description": "Darmowy kalkulator ppm na procent. Wpisz wartość w częściach na milion (ppm), aby od razu zamienić ją na procent — dokładnie, do chemii i inżynierii.",
+  "h1": "Kalkulator ppm na procent",
+  "subtitle": "Wpisz wartość w <strong>częściach na milion (ppm)</strong>, a ten <strong>kalkulator ppm na procent</strong> od razu zamieni ją na <strong>procent</strong> — przydatne przy odczytach stężenia i czystości.",
+  "hint": "Wpisz wartość ppm, aby uzyskać odpowiadający jej procent.",
+  "long_tail_anchor": "Części na milion na procent",
+  "card_strings": {
+    "PPM": "ppm",
+    "Percentage:": "Procent:",
+    "e.g. 2500": "np. 2500"
+  }
+}

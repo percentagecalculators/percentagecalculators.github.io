@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator amortyzacji | Metoda liniowa",
+  "meta_description": "Darmowy kalkulator amortyzacji metodą liniową. Wpisz koszt środka trwałego, wartość końcową i okres użytkowania, aby obliczyć roczny odpis amortyzacyjny.",
+  "h1": "Kalkulator amortyzacji",
+  "subtitle": "Wpisz <strong>koszt środka trwałego</strong>, <strong>wartość końcową</strong> i <strong>okres użytkowania</strong>, a ten <strong>kalkulator amortyzacji</strong> od razu obliczy <strong>roczną amortyzację</strong> metodą liniową.",
+  "hint": "Wpisz koszt, wartość końcową i okres użytkowania, aby otrzymać roczną amortyzację.",
+  "long_tail_anchor": "Amortyzacja liniowa środków trwałych",
+  "card_strings": {
+    "Annual Depreciation:": "Roczna amortyzacja:",
+    "Asset Cost ($)": "Koszt środka trwałego ($)",
+    "Depreciation Rate:": "Stawka amortyzacji:",
+    "Salvage Value ($)": "Wartość końcowa ($)",
+    "Useful Life (Years)": "Okres użytkowania (lata)",
+    "e.g. 1000": "np. 1000",
+    "e.g. 10000": "np. 10000",
+    "e.g. 5": "np. 5"
+  }
+}

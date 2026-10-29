@@ -1,0 +1,18 @@
+{
+  "slug": "fraction-to-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator ułamka na procent | Zamień ułamek na %",
+  "meta_description": "Darmowy kalkulator ułamka na procent. Zamień dowolny ułamek na procent w jednej chwili — idealny do wyników testów, proporcji i stosunków.",
+  "h1": "Kalkulator ułamka na procent",
+  "subtitle": "Wpisz <strong>licznik</strong> (górna liczba) i <strong>mianownik</strong> (dolna liczba), a ten <strong>kalkulator ułamka na procent</strong> zamieni ułamek na <strong>procent</strong> i <strong>liczbę dziesiętną</strong>. Tak 3/4 zamienia się w 75% — wpisz wartości, a obliczenia wykonają się na bieżąco.",
+  "hint": "Wpisz licznik i mianownik, aby zamienić ułamek na procent.",
+  "long_tail_anchor": "Zamiana ułamka na procent",
+  "card_strings": {
+    "Decimal Value:": "Liczba dziesiętna:",
+    "Denominator": "Mianownik",
+    "Numerator": "Licznik",
+    "Percentage:": "Procent:",
+    "e.g. 3": "np. 3",
+    "e.g. 4": "np. 4"
+  }
+}

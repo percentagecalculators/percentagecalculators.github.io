@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator procentu wygranych | Oblicz współczynnik wygranych",
+  "meta_description": "Darmowy kalkulator procentu wygranych i porażek. Wpisz wygrane, porażki i remisy, aby od razu obliczyć procent wygranych w sporcie, grze lub rywalizacji.",
+  "h1": "Kalkulator procentu wygranych i porażek",
+  "subtitle": "Wpisz liczbę <strong>wygranych</strong>, <strong>porażek</strong> i ewentualnych <strong>remisów</strong>, a ten <strong>kalkulator procentu wygranych i porażek</strong> od razu obliczy Twój <strong>procent wygranych</strong>.",
+  "hint": "Wpisz wygrane, porażki i remisy, aby obliczyć procent wygranych.",
+  "long_tail_anchor": "Oblicz swój współczynnik wygranych",
+  "card_strings": {
+    "Losses": "Porażki",
+    "Ties": "Remisy",
+    "Total Games:": "Liczba gier:",
+    "Win Percentage:": "Procent wygranych:",
+    "Wins": "Wygrane",
+    "e.g. 10": "np. 10",
+    "e.g. 18": "np. 18",
+    "e.g. 2": "np. 2"
+  }
+}

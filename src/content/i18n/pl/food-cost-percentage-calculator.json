@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator food cost | Oblicz procent kosztu dania",
+  "meta_description": "Darmowy kalkulator food cost. Wpisz koszt składników i cenę w menu, aby od razu obliczyć procentowy koszt żywności dla danej pozycji menu.",
+  "h1": "Kalkulator food cost (koszt żywności w %)",
+  "subtitle": "Wpisz <strong>koszt składników</strong> i <strong>cenę w menu</strong>, a ten <strong>kalkulator food cost</strong> od razu obliczy <strong>procentowy koszt żywności</strong> dla tej pozycji menu.",
+  "hint": "Wpisz koszt składników i cenę w menu, aby otrzymać procent kosztu żywności.",
+  "long_tail_anchor": "Procentowy koszt dania w menu restauracji",
+  "card_strings": {
+    "Food Cost Percentage:": "Koszt żywności (food cost):",
+    "Ingredient Cost ($)": "Koszt składników ($)",
+    "Menu Price ($)": "Cena w menu ($)",
+    "e.g. 14": "np. 14",
+    "e.g. 3.50": "np. 3.50"
+  }
+}

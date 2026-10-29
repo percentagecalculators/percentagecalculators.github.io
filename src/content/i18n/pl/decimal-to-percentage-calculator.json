@@ -1,0 +1,15 @@
+{
+  "slug": "decimal-to-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator liczby dziesiętnej na procent | Zamień na %",
+  "meta_description": "Darmowy kalkulator zamiany liczby dziesiętnej na procent. Wpisz dowolną liczbę dziesiętną, aby od razu zamienić ją na procent — dokładnie do szkoły, pracy i finansów.",
+  "h1": "Kalkulator liczby dziesiętnej na procent",
+  "subtitle": "Wpisz <strong>liczbę dziesiętną</strong>, a ten <strong>kalkulator liczby dziesiętnej na procent</strong> od razu zamieni ją na <strong>procent</strong>.",
+  "hint": "Wpisz liczbę dziesiętną, aby otrzymać równoważny procent.",
+  "long_tail_anchor": "Zamiana liczby dziesiętnej na procent",
+  "card_strings": {
+    "Decimal Value": "Liczba dziesiętna",
+    "Percentage:": "Procent:",
+    "e.g. 0.25": "np. 0.25"
+  }
+}

@@ -2,7 +2,7 @@
 
 Usage: python3 utilities/hreflang_audit.py [public_dir]   (default: ../public)
 
-Checks per page: exactly one canonical, full 20-entry hreflang set, self-reference
+Checks per page: exactly one canonical, full 25-entry hreflang set, self-reference
 equal to canonical, <html lang> match, absolute URLs, targets exist, return links,
 target canonical == hreflang URL; then sitemap.xml alternates vs. each page.
 Reads built files only (no network). Exits 1 on any issue.
@@ -10,7 +10,7 @@ Reads built files only (no network). Exits 1 on any issue.
 import re,os,sys,collections
 from urllib.parse import urlparse
 ROOT=os.path.abspath(sys.argv[1] if len(sys.argv)>1 else os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','public')); BASE='https://percentagecalculators.github.io'
-LANGS='ar bn de es fr hi id it ja ko ms nl pt ru th vi zh-cn zh-tw'.split()
+LANGS='ar bn de es fa fr hi id it ja ko ms nl pl pt ro ru th tr uk vi zh-cn zh-tw'.split()
 EXPECT={'en'}|{l if not l.startswith('zh') else {'zh-cn':'zh-Hans','zh-tw':'zh-Hant'}[l] for l in LANGS}|{'x-default'}
 pages={}
 for d,_,fs in os.walk(ROOT):

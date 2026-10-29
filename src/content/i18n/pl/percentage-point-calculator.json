@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator punktów procentowych | Różnica w punktach",
+  "meta_description": "Darmowy kalkulator punktów procentowych. Wpisz dwa procenty, aby od razu zobaczyć różnicę w punktach procentowych oraz względną zmianę procentową.",
+  "h1": "Kalkulator punktów procentowych",
+  "subtitle": "Wpisz dwa <strong>procenty</strong>, a ten <strong>kalkulator punktów procentowych</strong> pokaże <strong>różnicę w punktach procentowych</strong> — to nie to samo co względna zmiana procentowa, którą też podajemy dla porównania.",
+  "hint": "Wpisz dwa procenty, aby obliczyć różnicę w punktach procentowych.",
+  "long_tail_anchor": "Punkty procentowe a zmiana procentowa",
+  "card_strings": {
+    "Percentage A": "Procent A",
+    "Percentage B": "Procent B",
+    "Point Difference:": "Różnica w punktach:",
+    "Relative Change:": "Zmiana względna:",
+    "e.g. 20": "np. 20",
+    "e.g. 25": "np. 25"
+  }
+}

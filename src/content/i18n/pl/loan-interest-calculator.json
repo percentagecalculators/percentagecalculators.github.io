@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator odsetek od kredytu | Rata miesięczna i odsetki",
+  "meta_description": "Darmowy kalkulator odsetek od kredytu. Wpisz kwotę, roczne oprocentowanie i okres spłaty, aby od razu obliczyć miesięczną ratę (EMI) i łączne odsetki do zapłaty.",
+  "h1": "Kalkulator odsetek od kredytu",
+  "subtitle": "Wpisz <strong>kwotę kredytu</strong>, <strong>roczne oprocentowanie</strong> i <strong>okres spłaty</strong>, a ten <strong>kalkulator odsetek od kredytu</strong> od razu obliczy Twoją <strong>miesięczną ratę (EMI)</strong> oraz <strong>łączne odsetki</strong>, które zapłacisz.",
+  "hint": "Wpisz kwotę, oprocentowanie i okres, aby obliczyć miesięczną ratę.",
+  "long_tail_anchor": "Miesięczna rata (EMI) i łączne odsetki",
+  "card_strings": {
+    "Annual Rate": "Oprocentowanie roczne",
+    "Loan Amount ($)": "Kwota kredytu ($)",
+    "Loan Term (Years)": "Okres spłaty (lata)",
+    "Monthly EMI:": "Miesięczna rata (EMI):",
+    "Total Interest:": "Łączne odsetki:",
+    "e.g. 20000": "np. 20000",
+    "e.g. 5": "np. 5",
+    "e.g. 7.5": "np. 7.5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator nachylenia w procentach | Spadek i kąt",
+  "meta_description": "Darmowy kalkulator nachylenia w procentach. Wpisz wzniesienie i odległość poziomą, aby od razu obliczyć nachylenie w % i równoważny kąt w stopniach.",
+  "h1": "Kalkulator nachylenia w procentach",
+  "subtitle": "Wpisz <strong>wzniesienie</strong> i <strong>odległość poziomą</strong>, a ten <strong>kalkulator nachylenia w procentach</strong> od razu obliczy <strong>nachylenie w procentach</strong> i równoważny <strong>kąt w stopniach</strong>.",
+  "hint": "Wpisz wzniesienie i odległość poziomą, aby obliczyć nachylenie i kąt.",
+  "long_tail_anchor": "Wzniesienie do odległości jako spadek w %",
+  "card_strings": {
+    "Angle:": "Kąt:",
+    "Rise": "Wzniesienie",
+    "Run": "Odległość pozioma",
+    "Slope:": "Nachylenie:",
+    "e.g. 100": "np. 100",
+    "e.g. 5": "np. 5"
+  }
+}

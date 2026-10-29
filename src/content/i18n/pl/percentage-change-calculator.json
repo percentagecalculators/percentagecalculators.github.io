@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator zmiany procentowej | Wzrost i spadek w %",
+  "meta_description": "Darmowy kalkulator zmiany procentowej. Oblicz wzrost lub spadek procentowy między dwiema wartościami — śledź zmiany kursów akcji i cen.",
+  "h1": "Kalkulator zmiany procentowej",
+  "subtitle": "Wpisz <strong>starą wartość</strong> i <strong>nową wartość</strong>, a ten <strong>kalkulator zmiany procentowej</strong> pokaże <strong>wzrost lub spadek procentowy</strong> między nimi. Wynik jest dodatni przy wzroście i ujemny przy spadku — przejście z 80 na 100 daje więc +25%.",
+  "hint": "Wpisz starą i nową wartość, aby obliczyć zmianę procentową między nimi.",
+  "long_tail_anchor": "Wzrost lub spadek procentowy",
+  "card_strings": {
+    "Change Type:": "Rodzaj zmiany:",
+    "Enter ending value": "Wpisz wartość końcową",
+    "Enter starting value": "Wpisz wartość początkową",
+    "New Value (Current)": "Nowa wartość (obecna)",
+    "Old Value (Original)": "Stara wartość (początkowa)",
+    "Percentage Change:": "Zmiana procentowa:"
+  }
+}

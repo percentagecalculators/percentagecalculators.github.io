@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator wzrostu procentowego | Dodaj procent do liczby",
+  "meta_description": "Darmowy kalkulator wzrostu procentowego. Dodaj dowolny procent do liczby od razu. Oblicz podwyżki, narzuty cenowe, zyski z inwestycji i więcej.",
+  "h1": "Kalkulator wzrostu procentowego",
+  "subtitle": "Wpisz <strong>liczbę początkową</strong> i <strong>procent do dodania</strong>, a ten <strong>kalkulator wzrostu procentowego</strong> poda zarówno <strong>kwotę wzrostu</strong>, jak i <strong>wartość końcową</strong>. To odpowiedź na pytanie „ile to 200 plus 15%?” — a wynik to 230.",
+  "hint": "Wpisz liczbę i procent do dodania, aby obliczyć zwiększoną wartość.",
+  "long_tail_anchor": "Dodaj procent do liczby",
+  "card_strings": {
+    "Enter percentage": "Wpisz procent",
+    "Enter starting number": "Wpisz liczbę początkową",
+    "Increase Amount:": "Kwota wzrostu:",
+    "Increase by": "Zwiększ o",
+    "New Value:": "Nowa wartość:",
+    "Original Value": "Wartość początkowa"
+  }
+}

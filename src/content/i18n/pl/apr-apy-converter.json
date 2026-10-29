@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "pl",
+  "meta_title": "Przelicznik RRSO na APY | Efektywna roczna stopa zwrotu",
+  "meta_description": "Darmowy przelicznik RRSO na APY. Wpisz RRSO i częstotliwość kapitalizacji, aby od razu zobaczyć równoważną efektywną roczną stopę zwrotu (APY).",
+  "h1": "Przelicznik RRSO na APY",
+  "subtitle": "Wpisz <strong>RRSO</strong> i jego <strong>częstotliwość kapitalizacji</strong>, a ten <strong>przelicznik RRSO na APY</strong> pokaże równoważną <strong>efektywną roczną stopę zwrotu (APY)</strong> — przydatne przy porównywaniu kont podawanych w różny sposób.",
+  "hint": "Wpisz RRSO i liczbę kapitalizacji w roku, aby otrzymać równoważne APY.",
+  "long_tail_anchor": "Porównanie stóp RRSO i APY",
+  "card_strings": {
+    "APR": "RRSO",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Kapitalizacje w roku",
+    "e.g. 12": "np. 12",
+    "e.g. 6": "np. 6"
+  }
+}

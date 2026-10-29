@@ -1,0 +1,16 @@
+{
+  "slug": "percentile-to-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator percentyla na procent | Szacowany wynik w %",
+  "meta_description": "Darmowy kalkulator percentyla na procent. Szybko oszacuj wynik procentowy na podstawie percentyla z egzaminu, korzystając z powszechnie stosowanego wzoru przybliżonego.",
+  "h1": "Kalkulator percentyla na procent",
+  "subtitle": "Wpisz swój <strong>percentyl</strong>, a ten <strong>kalkulator percentyla na procent</strong> poda szybko <strong>szacowany wynik procentowy</strong> według powszechnie stosowanego przybliżenia. Percentyl i procent mierzą różne rzeczy, więc potraktuj wynik jako oszacowanie, a nie oficjalne przeliczenie.",
+  "hint": "Wpisz percentyl (0–100), aby uzyskać szacowany procent.",
+  "long_tail_anchor": "Szacowany procent z rangi percentylowej",
+  "card_strings": {
+    "%ile": "percentyl",
+    "Estimated Percentage:": "Szacowany procent:",
+    "Percentile": "Percentyl",
+    "e.g. 85": "np. 85"
+  }
+}

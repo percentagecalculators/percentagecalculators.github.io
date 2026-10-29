@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator RRSO | Rzeczywista roczna stopa oprocentowania",
+  "meta_description": "Darmowy kalkulator RRSO. Przelicz stopę oprocentowania za okres na roczną stopę procentową (RRSO) — standardowy sposób podawania kosztu kredytów i kart kredytowych.",
+  "h1": "Kalkulator RRSO",
+  "subtitle": "Wpisz <strong>stopę oprocentowania za okres</strong> i <strong>liczbę okresów w roku</strong>, a ten <strong>kalkulator RRSO</strong> obliczy <strong>roczną stopę procentową</strong> — standardowy, niekapitalizowany sposób podawania kosztu zadłużenia przez kredytodawców.",
+  "hint": "Wpisz stopę za okres i liczbę okresów w roku, aby otrzymać RRSO.",
+  "long_tail_anchor": "Kalkulator rocznej stopy procentowej",
+  "card_strings": {
+    "APR:": "RRSO:",
+    "Periodic Interest Rate": "Stopa oprocentowania za okres",
+    "Periods / Year": "Okresy w roku",
+    "e.g. 1.5": "np. 1.5",
+    "e.g. 12": "np. 12"
+  }
+}

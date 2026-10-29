@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator błędu procentowego | Błąd względny w laboratorium",
+  "meta_description": "Darmowy kalkulator błędu procentowego. Oblicz błąd procentowy między wartością doświadczalną a teoretyczną w laboratoriach fizyki, chemii i biologii.",
+  "h1": "Kalkulator błędu procentowego",
+  "subtitle": "Wpisz <strong>wartość zmierzoną (doświadczalną)</strong> i <strong>wartość rzeczywistą (teoretyczną)</strong>, a ten <strong>kalkulator błędu procentowego</strong> pokaże <strong>błąd procentowy</strong> między nimi. Korzysta ze standardowego wzoru: |zmierzona − rzeczywista| ÷ |rzeczywista| × 100.",
+  "hint": "Wpisz wartość zmierzoną i rzeczywistą, aby obliczyć błąd procentowy.",
+  "long_tail_anchor": "Wartość doświadczalna a teoretyczna",
+  "card_strings": {
+    "Absolute Error:": "Błąd bezwzględny:",
+    "Enter expected value": "Wpisz wartość oczekiwaną",
+    "Enter measured value": "Wpisz wartość zmierzoną",
+    "Experimental (Measured)": "Doświadczalna (zmierzona)",
+    "Percentage Error:": "Błąd procentowy:",
+    "Theoretical (Expected)": "Teoretyczna (oczekiwana)"
+  }
+}

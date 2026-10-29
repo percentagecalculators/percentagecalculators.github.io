@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator tempa wzrostu | Wzrost firmy i przychodów w %",
+  "meta_description": "Darmowy kalkulator wzrostu procentowego. Oblicz tempo wzrostu przychodów, klientów, sprzedaży i wskaźników KPI. Śledź wyniki firmy dzięki dokładnym miarom.",
+  "h1": "Kalkulator tempa wzrostu",
+  "subtitle": "Wpisz <strong>wartość początkową</strong> i <strong>wartość końcową</strong>, a ten <strong>kalkulator tempa wzrostu</strong> pokaże <strong>tempo wzrostu</strong> i <strong>kwotę wzrostu</strong>. Odpowiada na pytanie: o ile procent wzrosła Twoja liczba z punktu A do punktu B?",
+  "hint": "Wpisz wartość początkową i końcową, aby obliczyć wzrost procentowy.",
+  "long_tail_anchor": "Tempo wzrostu firmy i przychodów",
+  "card_strings": {
+    "Ending value": "Wartość końcowa",
+    "Final Value": "Wartość końcowa",
+    "Growth Amount:": "Kwota wzrostu:",
+    "Growth Rate:": "Tempo wzrostu:",
+    "Initial Value": "Wartość początkowa",
+    "Starting value": "Wartość początkowa"
+  }
+}

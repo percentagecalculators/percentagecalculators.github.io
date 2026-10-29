@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator różnicy procentowej | Porównaj dwie wartości",
+  "meta_description": "Darmowy kalkulator różnicy procentowej. Porównaj dwie liczby i oblicz różnicę procentową. Jako podstawy używa średniej, co daje symetryczne, bezstronne porównanie.",
+  "h1": "Kalkulator różnicy procentowej",
+  "subtitle": "Wpisz <strong>dwie wartości</strong>, a ten <strong>kalkulator różnicy procentowej</strong> pokaże, jak bardzo się różnią, wyrażając to w <strong>procentach</strong> i przyjmując ich <strong>średnią</strong> za podstawę. W przeciwieństwie do zmiany procentowej kolejność nie ma tu znaczenia — porównanie 50 z 80 daje ten sam wynik co 80 z 50.",
+  "hint": "Wpisz dwie wartości, aby obliczyć różnicę procentową między nimi.",
+  "long_tail_anchor": "Symetryczne porównanie dwóch liczb",
+  "card_strings": {
+    "Absolute Difference:": "Różnica bezwzględna:",
+    "Enter first number": "Wpisz pierwszą liczbę",
+    "Enter second number": "Wpisz drugą liczbę",
+    "First Value": "Pierwsza wartość",
+    "Percentage Difference:": "Różnica procentowa:",
+    "Second Value": "Druga wartość"
+  }
+}

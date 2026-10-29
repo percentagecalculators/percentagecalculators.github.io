@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator odsetek prostych | Odsetki i kwota końcowa",
+  "meta_description": "Darmowy kalkulator odsetek prostych. Wpisz kapitał, roczną stopę i czas, aby od razu obliczyć odsetki i kwotę końcową.",
+  "h1": "Kalkulator odsetek prostych",
+  "subtitle": "Wpisz <strong>kapitał</strong>, <strong>roczną stopę procentową</strong> i <strong>czas w latach</strong>, a ten <strong>kalkulator odsetek prostych</strong> od razu pokaże <strong>naliczone odsetki</strong> i <strong>kwotę końcową</strong>.",
+  "hint": "Wpisz kapitał, roczną stopę i czas, aby obliczyć odsetki i kwotę końcową.",
+  "long_tail_anchor": "Wzór na odsetki proste: kapitał, stopa, czas",
+  "card_strings": {
+    "Annual Rate": "Stopa roczna",
+    "Interest Earned:": "Naliczone odsetki:",
+    "Principal ($)": "Kapitał ($)",
+    "Time (Years)": "Czas (lata)",
+    "Total Amount:": "Kwota końcowa:",
+    "e.g. 1000": "np. 1000",
+    "e.g. 3": "np. 3",
+    "e.g. 5": "np. 5"
+  }
+}

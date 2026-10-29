@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator marży brutto | Oblicz marżę zysku brutto w %",
+  "meta_description": "Darmowy kalkulator marży brutto. Wpisz przychody i koszt własny sprzedanych towarów (COGS), aby od razu obliczyć zysk brutto i procentową marżę brutto.",
+  "h1": "Kalkulator marży brutto",
+  "subtitle": "Wpisz swoje <strong>przychody</strong> i <strong>koszt własny sprzedanych towarów (COGS)</strong>, a ten <strong>kalkulator marży brutto</strong> od razu obliczy <strong>zysk brutto</strong> i <strong>procentową marżę brutto</strong>.",
+  "hint": "Wpisz przychody i COGS, aby obliczyć marżę brutto w procentach.",
+  "long_tail_anchor": "Marża z przychodów i COGS w procentach",
+  "card_strings": {
+    "COGS ($)": "COGS ($)",
+    "Gross Margin:": "Marża brutto:",
+    "Gross Profit:": "Zysk brutto:",
+    "Revenue ($)": "Przychody ($)",
+    "e.g. 100000": "np. 100000",
+    "e.g. 65000": "np. 65000"
+  }
+}

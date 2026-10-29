@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator APY | Efektywna roczna stopa zwrotu",
+  "meta_description": "Darmowy kalkulator APY. Przelicz nominalną stopę oprocentowania i częstotliwość kapitalizacji na efektywną roczną stopę zwrotu (APY) w jednej chwili.",
+  "h1": "Kalkulator APY",
+  "subtitle": "Wpisz <strong>nominalną stopę oprocentowania</strong> i to, jak często następuje <strong>kapitalizacja w ciągu roku</strong>, a ten <strong>kalkulator APY</strong> obliczy Twoją prawdziwą <strong>efektywną roczną stopę zwrotu</strong> — rzeczywisty zysk, jaki osiągniesz.",
+  "hint": "Wpisz stopę nominalną i liczbę kapitalizacji w roku, aby otrzymać APY.",
+  "long_tail_anchor": "Kalkulator efektywnej rocznej stopy zwrotu",
+  "card_strings": {
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Kapitalizacje w roku",
+    "Nominal Interest Rate": "Nominalna stopa oprocentowania",
+    "e.g. 12": "np. 12",
+    "e.g. 5": "np. 5"
+  }
+}

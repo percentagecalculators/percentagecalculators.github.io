@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator procentu piekarskiego | Proporcje składników",
+  "meta_description": "Darmowy kalkulator procentu piekarskiego. Wpisz masę mąki i masę składnika, aby od razu obliczyć jego procent piekarski.",
+  "h1": "Kalkulator procentu piekarskiego",
+  "subtitle": "Wpisz <strong>masę mąki</strong> i <strong>masę składnika</strong>, a ten <strong>kalkulator procentu piekarskiego</strong> od razu obliczy <strong>procent piekarski</strong> tego składnika — każdy składnik wyrażony względem mąki.",
+  "hint": "Wpisz masę mąki i masę składnika, aby otrzymać procent piekarski.",
+  "long_tail_anchor": "Hydratacja ciasta i proporcje składników",
+  "card_strings": {
+    "Baker's Percentage:": "Procent piekarski:",
+    "Flour Weight (g)": "Masa mąki (g)",
+    "Ingredient Weight (g)": "Masa składnika (g)",
+    "e.g. 350": "np. 350",
+    "e.g. 500": "np. 500"
+  }
+}

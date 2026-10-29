@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "pl",
+  "meta_title": "Kalkulator procentu punktów | Oblicz wynik egzaminu w %",
+  "meta_description": "Darmowy kalkulator procentu punktów. Wpisz uzyskane i maksymalne punkty, aby od razu obliczyć swój wynik z egzaminu lub sprawdzianu w procentach.",
+  "h1": "Kalkulator procentu punktów",
+  "subtitle": "Wpisz <strong>uzyskane punkty</strong> i <strong>maksymalną liczbę punktów</strong>, a ten <strong>kalkulator procentu punktów</strong> od razu obliczy Twój <strong>wynik egzaminu w procentach</strong> — idealny do świadectw, arkuszy ocen i sprawdzania wyników.",
+  "hint": "Wpisz uzyskane i maksymalne punkty, aby obliczyć wynik w procentach.",
+  "long_tail_anchor": "Wynik egzaminu i sprawdzianu w procentach",
+  "card_strings": {
+    "Marks Obtained": "Uzyskane punkty",
+    "Percentage:": "Procent:",
+    "Total Marks": "Maksymalna liczba punktów",
+    "e.g. 450": "np. 450",
+    "e.g. 500": "np. 500"
+  }
+}
