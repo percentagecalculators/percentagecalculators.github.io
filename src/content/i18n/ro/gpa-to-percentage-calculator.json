@@ -1,0 +1,15 @@
+{
+  "slug": "gpa-to-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator GPA în procente | Convertește GPA pe scala 4.0",
+  "meta_description": "Calculator GPA în procente gratuit. Convertește instant GPA-ul pe scala 4.0 în procentul echivalent. Precis, simplu, fără înregistrare.",
+  "h1": "Calculator GPA în procente",
+  "subtitle": "Introdu <strong>GPA</strong>-ul (media) pe <strong>scala standard 4.0</strong>, iar acest <strong>calculator GPA în procente</strong> îl convertește instant în <strong>procentul</strong> echivalent — util pentru admitere, foi matricole și compararea sistemelor de notare.",
+  "hint": "Introdu GPA-ul pe scala 4.0 pentru a afla procentul echivalent.",
+  "long_tail_anchor": "Convertește GPA pe scala 4.0 în procente",
+  "card_strings": {
+    "GPA (4.0 Scale)": "GPA (scala 4.0)",
+    "Percentage:": "Procent:",
+    "e.g. 3.5": "ex. 3.5"
+  }
+}

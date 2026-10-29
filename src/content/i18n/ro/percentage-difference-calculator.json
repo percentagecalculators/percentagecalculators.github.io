@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator diferență procentuală | Compară două valori",
+  "meta_description": "Calculator de diferență procentuală gratuit. Compară două numere și află diferența procentuală. Folosește media ca bază pentru o comparație simetrică și corectă.",
+  "h1": "Calculator diferență procentuală",
+  "subtitle": "Introdu <strong>două valori</strong>, iar acest <strong>calculator de diferență procentuală</strong> îți arată cât de departe sunt una de alta, ca <strong>procentaj</strong>, folosind <strong>media</strong> lor ca bază. Spre deosebire de variația procentuală, ordinea nu contează aici — compararea lui 50 cu 80 dă același rezultat ca a lui 80 cu 50.",
+  "hint": "Introdu două valori pentru a afla diferența procentuală dintre ele.",
+  "long_tail_anchor": "Compară simetric două numere",
+  "card_strings": {
+    "Absolute Difference:": "Diferență absolută:",
+    "Enter first number": "Introdu primul număr",
+    "Enter second number": "Introdu al doilea număr",
+    "First Value": "Prima valoare",
+    "Percentage Difference:": "Diferență procentuală:",
+    "Second Value": "A doua valoare"
+  }
+}

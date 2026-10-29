@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator procent invers | Află numărul inițial",
+  "meta_description": "Calculator gratuit de procent invers. Află numărul inițial când cunoști o valoare și procentul ei — calculează, de exemplu, prețul de dinainte de reducere.",
+  "h1": "Calculator procent invers",
+  "subtitle": "Ai un număr și știi că reprezintă un anumit procent dintr-o valoare mai mare? Introdu <strong>valoarea cunoscută</strong> și <strong>procentul pe care îl reprezintă</strong>, iar acest <strong>calculator de procent invers</strong> face calculul invers pentru a afla <strong>numărul inițial</strong>. Dacă 30 este 25% din total, totalul este 120.",
+  "hint": "Introdu o valoare și procentul ei pentru a afla numărul inițial.",
+  "long_tail_anchor": "Află numărul inițial",
+  "card_strings": {
+    "Original Total:": "Total inițial:",
+    "Value": "Valoare",
+    "e.g. 30": "ex. 30",
+    "e.g. 45": "ex. 45",
+    "is this % of the total": "este acest % din total"
+  }
+}

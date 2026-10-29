@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator comision | Comisionul câștigat din vânzări",
+  "meta_description": "Calculator gratuit de comision. Introdu valoarea vânzărilor și rata comisionului pentru a calcula instant comisionul câștigat.",
+  "h1": "Calculator comision",
+  "subtitle": "Introdu <strong>valoarea vânzărilor</strong> și <strong>rata comisionului</strong>, iar acest <strong>calculator de comision</strong> determină instant <strong>comisionul câștigat</strong>.",
+  "hint": "Introdu valoarea vânzărilor și rata comisionului pentru a obține comisionul câștigat.",
+  "long_tail_anchor": "Procentul comisionului din vânzări",
+  "card_strings": {
+    "Commission Earned:": "Comision câștigat:",
+    "Commission Rate": "Rata comisionului",
+    "Sales Amount ($)": "Valoarea vânzărilor ($)",
+    "e.g. 10": "ex. 10",
+    "e.g. 5000": "ex. 5000"
+  }
+}

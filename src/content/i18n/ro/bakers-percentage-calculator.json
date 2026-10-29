@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator procentul brutarului | Raporturi ingrediente",
+  "meta_description": "Calculator gratuit pentru procentul brutarului. Introdu greutatea făinii și a ingredientului pentru a calcula instant procentul brutarului al ingredientului.",
+  "h1": "Calculator procentul brutarului",
+  "subtitle": "Introdu <strong>greutatea făinii</strong> și <strong>greutatea unui ingredient</strong>, iar acest <strong>calculator al procentului brutarului</strong> determină instant <strong>procentul brutarului</strong> al ingredientului — fiecare ingredient exprimat în raport cu făina.",
+  "hint": "Introdu greutatea făinii și a ingredientului pentru a obține procentul brutarului.",
+  "long_tail_anchor": "Hidratarea aluatului și raporturile ingredientelor",
+  "card_strings": {
+    "Baker's Percentage:": "Procentul brutarului:",
+    "Flour Weight (g)": "Greutatea făinii (g)",
+    "Ingredient Weight (g)": "Greutatea ingredientului (g)",
+    "e.g. 350": "ex. 350",
+    "e.g. 500": "ex. 500"
+  }
+}

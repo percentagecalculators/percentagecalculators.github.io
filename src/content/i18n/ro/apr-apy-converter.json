@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "ro",
+  "meta_title": "Convertor APR în APY | Randament anual efectiv (APY)",
+  "meta_description": "Convertor gratuit APR în APY. Introdu un APR și frecvența capitalizării pentru a vedea instant randamentul anual efectiv (APY) echivalent.",
+  "h1": "Convertor APR în APY",
+  "subtitle": "Introdu un <strong>APR</strong> și <strong>frecvența capitalizării</strong>, iar acest <strong>convertor APR în APY</strong> afișează <strong>randamentul anual efectiv</strong> echivalent — util pentru a compara conturi cotate diferit.",
+  "hint": "Introdu un APR și perioadele de capitalizare pe an pentru a obține APY-ul echivalent.",
+  "long_tail_anchor": "Compară ratele APR și APY",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Perioade de capitalizare / an",
+    "e.g. 12": "ex. 12",
+    "e.g. 6": "ex. 6"
+  }
+}

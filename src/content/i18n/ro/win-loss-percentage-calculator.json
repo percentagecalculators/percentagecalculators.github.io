@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator procent victorii/înfrângeri | Rata de câștig",
+  "meta_description": "Calculator gratuit de procent victorii/înfrângeri. Introdu victoriile, înfrângerile și egalurile pentru a calcula instant procentul de câștig la orice sport sau joc.",
+  "h1": "Calculator procent victorii/înfrângeri",
+  "subtitle": "Introdu <strong>victoriile</strong>, <strong>înfrângerile</strong> și eventualele <strong>egaluri</strong>, iar acest <strong>calculator de procent victorii/înfrângeri</strong> calculează instant <strong>procentul de câștig</strong>.",
+  "hint": "Introdu victoriile, înfrângerile și egalurile pentru a afla procentul de câștig.",
+  "long_tail_anchor": "Calculează rata de câștig sportivă",
+  "card_strings": {
+    "Losses": "Înfrângeri",
+    "Ties": "Egaluri",
+    "Total Games:": "Total jocuri:",
+    "Win Percentage:": "Procent de câștig:",
+    "Wins": "Victorii",
+    "e.g. 10": "ex. 10",
+    "e.g. 18": "ex. 18",
+    "e.g. 2": "ex. 2"
+  }
+}

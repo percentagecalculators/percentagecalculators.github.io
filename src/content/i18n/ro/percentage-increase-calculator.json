@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator creștere procentuală | Adaugă un procent la un număr",
+  "meta_description": "Calculator de creștere procentuală gratuit. Adaugă instant orice procent la un număr. Calculează majorări salariale, adaosuri de preț, randamentul investițiilor și altele.",
+  "h1": "Calculator creștere procentuală",
+  "subtitle": "Introdu <strong>numărul de pornire</strong> și <strong>procentul de adăugat</strong>, iar acest <strong>calculator de creștere procentuală</strong> îți arată atât <strong>valoarea creșterii</strong>, cât și <strong>valoarea finală</strong>. Gândește-te la el ca la răspunsul pentru „cât face 200 plus 15%?” — care, apropo, este 230.",
+  "hint": "Introdu un număr și procentul de adăugat pentru a afla valoarea majorată.",
+  "long_tail_anchor": "Adaugă un procent la un număr",
+  "card_strings": {
+    "Enter percentage": "Introdu procentul",
+    "Enter starting number": "Introdu numărul de pornire",
+    "Increase Amount:": "Valoarea creșterii:",
+    "Increase by": "Creștere cu",
+    "New Value:": "Valoare nouă:",
+    "Original Value": "Valoare inițială"
+  }
+}

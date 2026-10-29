@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator procent de profit | Profit în % din cost",
+  "meta_description": "Calculator gratuit de procent de profit. Introdu prețul de cost și prețul de vânzare și calculează instant suma profitului și procentul de profit.",
+  "h1": "Calculator procent de profit",
+  "subtitle": "Introdu <strong>prețul de cost</strong> și <strong>prețul de vânzare</strong>, iar acest <strong>calculator de procent de profit</strong> calculează instant <strong>profitul</strong> și <strong>procentul de profit</strong> raportat la cost.",
+  "hint": "Introdu prețul de cost și prețul de vânzare pentru a afla procentul de profit.",
+  "long_tail_anchor": "Procent de profit din prețul de cost",
+  "card_strings": {
+    "Cost Price ($)": "Preț de cost ($)",
+    "Profit Percentage:": "Procent de profit:",
+    "Profit:": "Profit:",
+    "Selling Price ($)": "Preț de vânzare ($)",
+    "e.g. 40": "ex. 40",
+    "e.g. 55": "ex. 55"
+  }
+}

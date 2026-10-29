@@ -1,0 +1,18 @@
+{
+  "slug": "profit-margin-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator marjă de profit | Calculează marja în %",
+  "meta_description": "Calculator gratuit de marjă de profit. Introdu prețul de cost și prețul de vânzare și calculează instant profitul și marja de profit în procente din prețul de vânzare.",
+  "h1": "Calculator marjă de profit",
+  "subtitle": "Introdu <strong>prețul de cost</strong> și <strong>prețul de vânzare</strong>, iar acest <strong>calculator de marjă de profit</strong> calculează instant <strong>profitul</strong> și <strong>marja de profit</strong> ca procent din prețul de vânzare.",
+  "hint": "Introdu prețul de cost și prețul de vânzare pentru a afla marja de profit.",
+  "long_tail_anchor": "Marja procentuală din prețul de vânzare",
+  "card_strings": {
+    "Cost Price ($)": "Preț de cost ($)",
+    "Profit Margin:": "Marja de profit:",
+    "Profit:": "Profit:",
+    "Selling Price ($)": "Preț de vânzare ($)",
+    "e.g. 40": "ex. 40",
+    "e.g. 55": "ex. 55"
+  }
+}

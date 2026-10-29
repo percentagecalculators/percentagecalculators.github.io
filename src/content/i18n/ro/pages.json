@@ -1,0 +1,424 @@
+{
+  "about": {
+    "meta_title": "Despre noi | Percentage Calculators",
+    "meta_description": "Află mai multe despre Percentage Calculators — o colecție gratuită de instrumente pentru procente, rulate în browser, create pentru viteză, precizie și ușurință în utilizare pe orice dispozitiv.",
+    "h1": "Despre Percentage Calculators",
+    "sections": [
+      {
+        "heading": "Misiunea noastră",
+        "paragraphs": [
+          "Percentage Calculators a fost creat cu un scop simplu: calculele cu procente să fie rapide, precise și accesibile tuturor. Fie că rezolvi teme pentru școală, analizezi indicatori de business sau calculezi un bacșiș la restaurant – ai tot ce îți trebuie aici."
+        ]
+      },
+      {
+        "heading": "Cine suntem",
+        "paragraphs": [
+          "Salut! Sunt <strong>Subash Geetha Krishnan</strong>, Tech Lead cu peste 15 ani de experiență în tehnologia pentru companii. Locuiesc în Singapore și mi-am dedicat cariera rezolvării unor probleme tehnice complexe și creării de instrumente care fac viața mai ușoară.",
+          "După ani de căutări după calculatoare de procente simple și de încredere și după ce am găsit mai ales variante aglomerate de reclame sau cu funcții limitate, am hotărât să construiesc ceva mai bun. Percentage Calculators este rezultatul – o suită curată, rapidă și complet gratuită de instrumente, care a crescut de la câteva calculatoare la o bibliotecă completă pentru matematica de zi cu zi, notele școlare și finanțele personale."
+        ]
+      },
+      {
+        "heading": "Ce oferim",
+        "paragraphs": [
+          "Platforma noastră include acum 41 de calculatoare de procente specializate, organizate în cinci categorii, ca să găsești rapid instrumentul potrivit:"
+        ],
+        "list": [
+          "<strong>Instrumente de bază pentru procente</strong> – Esențialul: calculează un procent, mărește sau micșorează un număr și compară două valori.",
+          "<strong>Convertoare</strong> – Convertește între procente, fracții, zecimale, rapoarte și alte forme de exprimare.",
+          "<strong>Educație</strong> – Conversii GPA, CGPA, SGPA, note și percentile pentru elevi și studenți.",
+          "<strong>Finanțe și afaceri</strong> – Dobânzi, marje de profit, adaos comercial, majorări salariale și creșterea afacerii.",
+          "<strong>Uz zilnic și nișă</strong> – Bacșiș, rapoarte de panificație, rata de câștig și pierdere și alte probleme punctuale cu procente."
+        ]
+      },
+      {
+        "heading": "De ce să ne alegi?",
+        "list": [
+          "<strong>100% gratuit</strong> – Toate instrumentele sunt complet gratuite, fără înregistrare",
+          "<strong>Rezultate instantanee</strong> – Calculele se fac pe măsură ce scrii, fără butoane de apăsat",
+          "<strong>Compatibil cu mobilul</strong> – Funcționează perfect pe orice dispozitiv",
+          "<strong>Fără aglomerare de reclame</strong> – Interfață curată, axată pe funcționalitate",
+          "<strong>Confidențialitate înainte de toate</strong> – Nu urmărim calculele tale și nu vindem datele tale",
+          "<strong>Afișarea formulei</strong> – Vezi matematica din spatele fiecărui calcul și învață pe parcurs"
+        ]
+      },
+      {
+        "heading": "Angajamentul nostru",
+        "paragraphs": [
+          "Ne angajăm să păstrăm Percentage Calculators gratuit, rapid și de încredere. Îmbunătățim constant instrumentele pe baza feedbackului primit și adăugăm calculatoare noi, care acoperă tot mai multe dintre problemele cu procente întâlnite zilnic.",
+          "Ai o sugestie sau ai găsit o eroare? Ne-ar plăcea să ne scrii! Accesează <a href=\"/contact\">pagina de contact</a> pentru a ne contacta."
+        ]
+      },
+      {
+        "heading": "Urmărește-ne",
+        "paragraphs": [
+          "Urmărește-ne pe rețelele sociale pentru noutăți, sfaturi și multe altele:"
+        ],
+        "list": [
+          "<a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>",
+          "<a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter/X</a>",
+          "<a href=\"https://github.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>",
+          "<a href=\"https://www.facebook.com/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook</a>"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "meta_title": "Contact | Percentage Calculators",
+    "meta_description": "Contactează echipa Percentage Calculators pentru întrebări, sugestii sau erori legate de calculatoarele noastre de procente online gratuite. Citim fiecare mesaj.",
+    "h1": "Contact",
+    "sections": [
+      {
+        "heading": "Ia legătura cu noi",
+        "paragraphs": [
+          "Ne-ar plăcea să auzim de la tine! Fie că ai o întrebare, o sugestie, ai găsit o eroare sau vrei doar să ne saluți – nu ezita să ne scrii."
+        ]
+      },
+      {
+        "heading": "Găsește-ne online",
+        "paragraphs": [
+          "<strong>Subash Geetha Krishnan</strong><br>Fondator și dezvoltator, cu sediul în Singapore."
+        ],
+        "list": [
+          "<strong>LinkedIn:</strong> <a href=\"https://www.linkedin.com/in/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">linkedin.com/in/buzzsubash</a>",
+          "<strong>Twitter/X:</strong> <a href=\"https://x.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">@buzzsubash</a>",
+          "<strong>GitHub:</strong> <a href=\"https://github.com/buzzsubash\" target=\"_blank\" rel=\"noopener noreferrer\">github.com/buzzsubash</a>",
+          "<strong>Facebook:</strong> <a href=\"https://www.facebook.com/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">facebook.com/buzzsubash</a>",
+          "<strong>Reddit:</strong> <a href=\"https://www.reddit.com/user/buzzsubash/\" target=\"_blank\" rel=\"noopener noreferrer\">u/buzzsubash</a>"
+        ]
+      },
+      {
+        "heading": "Cu ce te putem ajuta?",
+        "paragraphs": [
+          "Te ajutăm cu:"
+        ],
+        "list": [
+          "<strong>Raportări de erori</strong> – Ai găsit ceva care nu funcționează? Anunță-ne!",
+          "<strong>Cereri de funcții</strong> – Ai o idee pentru un calculator nou sau o îmbunătățire?",
+          "<strong>Întrebări generale</strong> – Ai nevoie de ajutor pentru a folosi instrumentele noastre?",
+          "<strong>Feedback</strong> – Apreciem orice feedback, pozitiv sau constructiv",
+          "<strong>Propuneri de parteneriat</strong> – Te interesează o colaborare?"
+        ]
+      },
+      {
+        "heading": "Timp de răspuns",
+        "paragraphs": [
+          "De obicei răspundem în 24–48 de ore.",
+          "Mulțumim că folosești Percentage Calculators!"
+        ]
+      }
+    ]
+  },
+  "disclaimer": {
+    "meta_title": "Declinarea răspunderii | Percentage Calculators",
+    "meta_description": "Declinarea răspunderii Percentage Calculators: instrumentele noastre au doar scop informativ și nu înlocuiesc sfatul unui specialist.",
+    "h1": "Declinarea răspunderii",
+    "subtitle": "Ultima actualizare: decembrie 2024",
+    "sections": [
+      {
+        "heading": "Informații generale",
+        "paragraphs": [
+          "Informațiile oferite de Percentage Calculators (denumit în continuare „noi”) pe acest site au doar scop informativ și educațional general. Toate informațiile de pe site sunt oferite cu bună-credință; totuși, nu facem nicio declarație și nu oferim nicio garanție de niciun fel, expresă sau implicită, cu privire la acuratețea, caracterul adecvat, validitatea, fiabilitatea, disponibilitatea sau caracterul complet al informațiilor de pe site."
+        ]
+      },
+      {
+        "heading": "Nu reprezintă consultanță profesională",
+        "paragraphs": [
+          "Calculatoarele și informațiile de pe acest site nu au rolul de a înlocui consultanța profesională. Rezultatele oferite de calculatoarele noastre nu trebuie folosite ca bază pentru decizii financiare, juridice, medicale sau de altă natură profesională. Solicită întotdeauna sfatul unor specialiști calificați în astfel de situații.",
+          "Mai exact:"
+        ],
+        "list": [
+          "<strong>Decizii financiare:</strong> Nu te baza exclusiv pe calculatoarele noastre pentru decizii de investiții, fiscale sau financiare importante. Consultă un consilier financiar sau un contabil calificat.",
+          "<strong>Lucrări științifice/academice:</strong> Deși calculatoarele noastre sunt concepute pentru a fi precise, verifică întotdeauna rezultatele pentru lucrări academice sau cercetare științifică.",
+          "<strong>Decizii de business:</strong> Folosește instrumentele noastre ca punct de plecare, dar verifică împreună cu specialiști adecvați calculele care influențează activitatea unei afaceri."
+        ]
+      },
+      {
+        "heading": "Acuratețea calculelor",
+        "paragraphs": [
+          "Ne străduim ca instrumentele noastre să ofere rezultate precise. Totuși:"
+        ],
+        "list": [
+          "Rezultatele pot fi afectate de rotunjire sau de limitările aritmeticii în virgulă mobilă",
+          "Nu putem garanta acuratețea de 100% în toate situațiile",
+          "Utilizatorii sunt responsabili pentru verificarea rezultatelor în aplicațiile critice",
+          "Recomandăm verificarea dublă a calculelor cu consecințe semnificative"
+        ]
+      },
+      {
+        "heading": "Linkuri externe",
+        "paragraphs": [
+          "Acest site poate conține linkuri către site-uri externe care nu sunt furnizate sau întreținute de noi. Nu garantăm acuratețea, relevanța, actualitatea sau caracterul complet al informațiilor de pe aceste site-uri externe. Includerea unor linkuri nu implică neapărat o recomandare sau o susținere a opiniilor exprimate în ele."
+        ]
+      },
+      {
+        "heading": "Limitarea răspunderii",
+        "paragraphs": [
+          "În nicio situație nu vom avea vreo răspundere față de tine pentru pierderi sau daune de orice fel suferite ca urmare a utilizării site-ului sau a încrederii în informațiile oferite pe site. Utilizarea site-ului și încrederea în informațiile de pe site se fac exclusiv pe propriul tău risc."
+        ]
+      },
+      {
+        "heading": "Modificări ale acestei declinări a răspunderii",
+        "paragraphs": [
+          "Ne rezervăm dreptul de a modifica această declinare a răspunderii în orice moment. Modificările intră în vigoare imediat după publicarea pe site. Continuarea utilizării site-ului după orice modificare reprezintă acceptarea noii declinări a răspunderii."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Dacă ai întrebări despre această declinare a răspunderii, te rugăm să <a href=\"/contact\">ne contactezi</a>."
+        ]
+      }
+    ]
+  },
+  "privacy-policy": {
+    "meta_title": "Politica de confidențialitate | Percentage Calculators",
+    "meta_description": "Politica de confidențialitate Percentage Calculators: ce date colectăm (foarte puține) și cum tratează instrumentele noastre datele introduse de tine în calculatoarele gratuite.",
+    "h1": "Politica de confidențialitate",
+    "subtitle": "Ultima actualizare: decembrie 2024",
+    "sections": [
+      {
+        "heading": "Introducere",
+        "paragraphs": [
+          "Percentage Calculators (denumit în continuare „noi”) îți respectă confidențialitatea și se angajează să îți protejeze datele personale. Această politică de confidențialitate explică modul în care colectăm, folosim și protejăm informațiile tale atunci când vizitezi site-ul nostru."
+        ]
+      },
+      {
+        "heading": "Informațiile pe care le colectăm",
+        "paragraphs": [
+          "<strong>Informații furnizate de tine</strong>",
+          "Putem colecta informațiile pe care le furnizezi voluntar, cum ar fi:",
+          "<strong>Informații colectate automat</strong>",
+          "Când vizitezi site-ul nostru, putem colecta automat:",
+          "<strong>Ce nu colectăm</strong>",
+          "Dorim să fim clari cu privire la ce <strong>nu</strong> colectăm:"
+        ],
+        "list": [
+          "Datele de contact (adresa de e-mail) atunci când ne scrii",
+          "Feedbackul și sugestiile trimise",
+          "Informații despre dispozitiv (tipul browserului, sistemul de operare)",
+          "Adresa IP (anonimizată)",
+          "Paginile vizitate și timpul petrecut pe pagini",
+          "Site-ul de proveniență",
+          "Locația geografică generală (la nivel de țară/oraș)",
+          "Nu stocăm numerele introduse în calculatoarele noastre",
+          "Nu urmărim istoricul calculelor tale",
+          "Nu cerem crearea unui cont sau autentificarea",
+          "Nu colectăm informații de plată (serviciul nostru este gratuit)"
+        ]
+      },
+      {
+        "heading": "Cum folosim informațiile tale",
+        "paragraphs": [
+          "Folosim informațiile colectate pentru a:"
+        ],
+        "list": [
+          "Oferi și întreține instrumentele noastre de calcul",
+          "Îmbunătăți și optimiza site-ul",
+          "Înțelege cum interacționează utilizatorii cu site-ul nostru",
+          "Răspunde solicitărilor și feedbackului tău",
+          "Detecta și preveni problemele tehnice"
+        ]
+      },
+      {
+        "heading": "Cookie-uri și tehnologii de urmărire",
+        "paragraphs": [
+          "Folosim cookie-uri și tehnologii similare de urmărire pentru a-ți îmbunătăți experiența:",
+          "Poți controla cookie-urile din setările browserului. Reține că dezactivarea anumitor cookie-uri poate afecta funcționarea site-ului."
+        ],
+        "list": [
+          "<strong>Cookie-uri esențiale:</strong> Necesare pentru funcționarea de bază a site-ului",
+          "<strong>Cookie-uri de analiză:</strong> Ne ajută să înțelegem cum folosesc vizitatorii site-ul nostru (Google Analytics)",
+          "<strong>Cookie-uri de preferințe:</strong> Rețin setările tale (cum ar fi limba preferată)"
+        ]
+      },
+      {
+        "heading": "Servicii ale terților",
+        "paragraphs": [
+          "Putem folosi servicii ale unor terți care colectează informații:",
+          "Acești terți au propriile politici de confidențialitate care reglementează utilizarea informațiilor colectate de ei."
+        ],
+        "list": [
+          "<strong>Google Analytics:</strong> Pentru analiza traficului pe site",
+          "<strong>Parteneri de publicitate:</strong> Pentru afișarea de reclame relevante"
+        ]
+      },
+      {
+        "heading": "Securitatea datelor",
+        "paragraphs": [
+          "Aplicăm măsuri de securitate adecvate pentru a-ți proteja informațiile. Totuși, nicio metodă de transmitere prin internet nu este sigură în proporție de 100%, iar noi nu putem garanta securitatea absolută."
+        ]
+      },
+      {
+        "heading": "Drepturile tale",
+        "paragraphs": [
+          "În funcție de locația ta, poți avea anumite drepturi cu privire la datele tale personale, inclusiv:",
+          "Pentru a-ți exercita aceste drepturi, te rugăm să <a href=\"/contact\">ne contactezi</a>."
+        ],
+        "list": [
+          "Dreptul de acces la datele tale personale",
+          "Dreptul de a corecta datele inexacte",
+          "Dreptul de a solicita ștergerea datelor tale",
+          "Dreptul de a te opune anumitor prelucrări de date"
+        ]
+      },
+      {
+        "heading": "Confidențialitatea copiilor",
+        "paragraphs": [
+          "Site-ul nostru nu se adresează copiilor sub 13 ani. Nu colectăm cu bună știință informații personale de la copii sub 13 ani. Dacă crezi că am colectat informații de la un copil sub 13 ani, te rugăm să ne contactezi imediat."
+        ]
+      },
+      {
+        "heading": "Modificări ale acestei politici",
+        "paragraphs": [
+          "Putem actualiza periodic această politică de confidențialitate. Te vom informa despre orice modificare publicând noua politică pe această pagină și actualizând data „Ultima actualizare”."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Dacă ai întrebări despre această politică de confidențialitate sau despre practicile noastre privind datele, te rugăm să ne contactezi:"
+        ],
+        "list": [
+          "<strong>E-mail:</strong> <a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>",
+          "<strong>Pagina de contact:</strong> <a href=\"/contact\">Contact</a>"
+        ]
+      }
+    ]
+  },
+  "terms-of-use": {
+    "meta_title": "Termeni de utilizare | Percentage Calculators",
+    "meta_description": "Termenii de utilizare ai calculatoarelor online gratuite Percentage Calculators: utilizare acceptabilă, răspundere și acuratețea instrumentelor și a rezultatelor.",
+    "h1": "Termeni de utilizare",
+    "subtitle": "Ultima actualizare: decembrie 2024",
+    "sections": [
+      {
+        "heading": "Acceptarea termenilor",
+        "paragraphs": [
+          "Prin accesarea și utilizarea Percentage Calculators („Site-ul”), accepți să respecți acești Termeni de utilizare. Dacă nu ești de acord cu acești termeni, te rugăm să nu folosești site-ul nostru."
+        ]
+      },
+      {
+        "heading": "Descrierea serviciului",
+        "paragraphs": [
+          "Percentage Calculators oferă gratuit instrumente de calcul online pentru diverse calcule legate de procente. Serviciile noastre includ, fără a se limita la:"
+        ],
+        "list": [
+          "Calcule de creștere și scădere procentuală",
+          "Calcule de variație și diferență procentuală",
+          "Calcule de reduceri și prețuri la oferte",
+          "Conversii din fracție în procent",
+          "Calcule ale ratei de creștere",
+          "Calcule de eroare procentuală",
+          "Calcule de procent mediu"
+        ]
+      },
+      {
+        "heading": "Utilizare acceptabilă",
+        "paragraphs": [
+          "Ești de acord să folosești Site-ul numai în scopuri legale. Nu trebuie să:"
+        ],
+        "list": [
+          "Folosești Site-ul în vreun mod care încalcă legile sau reglementările aplicabile",
+          "Încerci să obții acces neautorizat la sistemele sau serverele noastre",
+          "Intervii asupra funcționării Site-ului sau o perturbi",
+          "Folosești sisteme automate sau boți pentru a accesa excesiv Site-ul",
+          "Copiezi, reproduci sau redistribui conținutul nostru fără permisiune",
+          "Folosești Site-ul pentru a transmite malware sau cod malițios"
+        ]
+      },
+      {
+        "heading": "Proprietate intelectuală",
+        "paragraphs": [
+          "Site-ul și conținutul, caracteristicile și funcționalitățile sale originale aparțin Percentage Calculators și sunt protejate de legile internaționale privind drepturile de autor, mărcile comerciale și alte drepturi de proprietate intelectuală.",
+          "Ai voie să:",
+          "Nu ai voie să:"
+        ],
+        "list": [
+          "Folosești calculatoarele noastre în scopuri personale și educaționale",
+          "Distribui linkuri către Site-ul nostru",
+          "Faci referire la calculele noastre, cu menționarea corespunzătoare a sursei",
+          "Copiezi sau reproduci designul sau codul calculatoarelor noastre",
+          "Elimini mențiunile privind drepturile de autor sau drepturile de proprietate",
+          "Încadrezi sau încorporezi Site-ul nostru fără permisiune"
+        ]
+      },
+      {
+        "heading": "Declinarea garanțiilor",
+        "paragraphs": [
+          "Site-ul este oferit „CA ATARE” și „ÎN FUNCȚIE DE DISPONIBILITATE”. Nu oferim nicio garanție, expresă sau implicită, cu privire la:",
+          "Pentru mai multe informații, consultă <a href=\"/disclaimer\">Declinarea răspunderii</a>."
+        ],
+        "list": [
+          "Acuratețea sau fiabilitatea calculelor",
+          "Funcționarea neîntreruptă sau fără erori",
+          "Adecvarea pentru un anumit scop",
+          "Securitatea Site-ului"
+        ]
+      },
+      {
+        "heading": "Limitarea răspunderii",
+        "paragraphs": [
+          "În măsura maximă permisă de lege, Percentage Calculators nu răspunde pentru daune indirecte, accidentale, speciale, subsecvente sau punitive, inclusiv, dar fără a se limita la:"
+        ],
+        "list": [
+          "Pierderea de profit sau venituri",
+          "Pierderea de date",
+          "Întreruperea activității",
+          "Orice daune rezultate din utilizarea calculatoarelor noastre"
+        ]
+      },
+      {
+        "heading": "Despăgubiri",
+        "paragraphs": [
+          "Ești de acord să despăgubești și să exonerezi de răspundere Percentage Calculators, proprietarul acestuia și afiliații de orice reclamații, pierderi, daune, obligații și cheltuieli (inclusiv onorarii juridice) care decurg din utilizarea Site-ului sau din încălcarea acestor termeni."
+        ]
+      },
+      {
+        "heading": "Linkuri către terți",
+        "paragraphs": [
+          "Site-ul nostru poate conține linkuri către site-uri ale unor terți. Nu suntem responsabili pentru conținutul, acuratețea sau practicile site-urilor terțe. Vizitarea site-urilor la care trimit linkurile se face pe propriul risc."
+        ]
+      },
+      {
+        "heading": "Modificări ale serviciului",
+        "paragraphs": [
+          "Ne rezervăm dreptul de a:",
+          "Continuarea utilizării Site-ului după modificări reprezintă acceptarea termenilor modificați."
+        ],
+        "list": [
+          "Modifica sau întrerupe orice parte a Site-ului fără notificare prealabilă",
+          "Actualiza acești Termeni de utilizare în orice moment",
+          "Schimba caracteristicile sau funcționalitatea calculatoarelor noastre"
+        ]
+      },
+      {
+        "heading": "Legea aplicabilă",
+        "paragraphs": [
+          "Acești Termeni de utilizare sunt guvernați și interpretați în conformitate cu legile din Singapore, fără a ține seama de normele sale privind conflictul de legi."
+        ]
+      },
+      {
+        "heading": "Separabilitate",
+        "paragraphs": [
+          "Dacă o prevedere a acestor Termeni este considerată inaplicabilă, celelalte prevederi rămân în vigoare în totalitate."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Dacă ai întrebări despre acești Termeni de utilizare, te rugăm să <a href=\"/contact\">ne contactezi</a>."
+        ],
+        "list": [
+          "<strong>E-mail:</strong> <a href=\"mailto:buzzsubash@gmail.com\">buzzsubash@gmail.com</a>"
+        ]
+      }
+    ]
+  },
+  "sitemap": {
+    "meta_title": "Hartă site | Percentage Calculators",
+    "meta_description": "Toate paginile Percentage Calculators, organizate pe categorii — lista completă a calculatoarelor de procente, a convertoarelor și a resurselor educaționale.",
+    "h1": "Hartă site",
+    "subtitle": "Toate paginile Percentage Calculators, organizate pe categorii.",
+    "sections": []
+  }
+}

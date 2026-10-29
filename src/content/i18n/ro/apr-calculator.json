@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator APR | Rata procentuală anuală",
+  "meta_description": "Calculator APR gratuit. Convertește instant o rată a dobânzii periodice în rata procentuală anuală (APR) — modul standard de cotare a costului creditelor și cardurilor.",
+  "h1": "Calculator APR (rata procentuală anuală)",
+  "subtitle": "Introdu <strong>rata dobânzii periodice</strong> și <strong>numărul de perioade pe an</strong>, iar acest <strong>calculator APR</strong> determină <strong>rata procentuală anuală</strong> — modul standard, fără capitalizare, în care creditorii cotează costul împrumutului.",
+  "hint": "Introdu rata periodică și perioadele pe an pentru a obține APR-ul.",
+  "long_tail_anchor": "Calculator rata procentuală anuală (APR)",
+  "card_strings": {
+    "APR:": "APR:",
+    "Periodic Interest Rate": "Rata dobânzii periodice",
+    "Periods / Year": "Perioade / an",
+    "e.g. 1.5": "ex. 1.5",
+    "e.g. 12": "ex. 12"
+  }
+}

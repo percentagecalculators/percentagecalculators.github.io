@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator dobândă compusă | Creșterea în timp",
+  "meta_description": "Calculator gratuit de dobândă compusă. Introdu suma inițială, rata anuală, durata și frecvența capitalizării pentru a calcula dobânda și suma totală.",
+  "h1": "Calculator dobândă compusă",
+  "subtitle": "Introdu <strong>suma inițială</strong>, <strong>rata anuală</strong>, <strong>durata</strong> și <strong>frecvența capitalizării</strong>, iar acest <strong>calculator de dobândă compusă</strong> afișează instant <strong>dobânda câștigată</strong> și <strong>suma totală</strong>.",
+  "hint": "Introdu suma inițială, rata, durata și frecvența capitalizării pentru a obține suma totală.",
+  "long_tail_anchor": "Frecvența capitalizării și creșterea",
+  "card_strings": {
+    "Annual Rate": "Rata anuală",
+    "Compounding / Year": "Capitalizări / an",
+    "Interest Earned:": "Dobândă câștigată:",
+    "Principal ($)": "Suma inițială ($)",
+    "Time (Years)": "Durata (ani)",
+    "Total Amount:": "Suma totală:",
+    "e.g. 1000": "ex. 1000",
+    "e.g. 12": "ex. 12",
+    "e.g. 3": "ex. 3",
+    "e.g. 5": "ex. 5"
+  }
+}

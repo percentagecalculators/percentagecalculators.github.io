@@ -1,0 +1,15 @@
+{
+  "slug": "decimal-to-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator zecimal în procente | Convertește în %",
+  "meta_description": "Calculator gratuit zecimal în procente. Introdu orice număr zecimal și îl convertești instant în procent — rezultate precise pentru școală, muncă sau finanțe.",
+  "h1": "Calculator zecimal în procente",
+  "subtitle": "Introdu un <strong>număr zecimal</strong>, iar acest <strong>calculator zecimal în procente</strong> îl convertește instant într-un <strong>procent</strong>.",
+  "hint": "Introdu un număr zecimal pentru a obține procentul echivalent.",
+  "long_tail_anchor": "Convertește un număr zecimal în procent",
+  "card_strings": {
+    "Decimal Value": "Valoare zecimală",
+    "Percentage:": "Procent:",
+    "e.g. 0.25": "ex. 0.25"
+  }
+}

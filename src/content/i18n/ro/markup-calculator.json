@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator adaos comercial | Preț de vânzare din cost + adaos %",
+  "meta_description": "Calculator de adaos comercial gratuit. Introdu prețul de cost și adaosul dorit în procente pentru a calcula instant prețul de vânzare pe care ar trebui să-l practici.",
+  "h1": "Calculator adaos comercial",
+  "subtitle": "Introdu <strong>prețul de cost</strong> și <strong>adaosul comercial</strong> dorit în procente, iar acest <strong>calculator de adaos comercial</strong> calculează instant <strong>prețul de vânzare</strong> pe care ar trebui să-l practici.",
+  "hint": "Introdu prețul de cost și adaosul % pentru a afla prețul de vânzare.",
+  "long_tail_anchor": "Cost plus adaos comercial = preț",
+  "card_strings": {
+    "Cost Price ($)": "Preț de cost ($)",
+    "Markup": "Adaos",
+    "Markup Amount:": "Valoarea adaosului:",
+    "Selling Price:": "Preț de vânzare:",
+    "e.g. 30": "ex. 30",
+    "e.g. 40": "ex. 40"
+  }
+}

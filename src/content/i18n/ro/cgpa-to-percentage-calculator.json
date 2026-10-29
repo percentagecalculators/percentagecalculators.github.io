@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator CGPA în procente | CGPA pe 10 puncte în %",
+  "meta_description": "Calculator gratuit CGPA în procente, cu formula standard CGPA x 9.5 pentru scala de 10 puncte. Convertește-ți CGPA în procente pentru evidențele universitare.",
+  "h1": "Calculator CGPA în procente",
+  "subtitle": "Introdu <strong>CGPA</strong> pe <strong>scala standard de 10 puncte</strong>, iar acest <strong>calculator CGPA în procente</strong> aplică formula larg folosită <strong>CGPA × 9.5</strong> și îți dă instant <strong>procentul</strong> echivalent.",
+  "hint": "Introdu CGPA pe scala de 10 puncte pentru a obține procentul echivalent.",
+  "long_tail_anchor": "Convertește CGPA pe 10 puncte în procente",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA (din 10)",
+    "Percentage:": "Procent:",
+    "e.g. 8.2": "ex. 8.2"
+  }
+}

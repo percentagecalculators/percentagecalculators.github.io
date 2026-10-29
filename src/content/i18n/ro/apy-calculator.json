@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator APY | Randament anual efectiv",
+  "meta_description": "Calculator APY gratuit. Convertește instant o rată nominală a dobânzii și frecvența capitalizării în randamentul anual efectiv (APY).",
+  "h1": "Calculator APY (randament anual efectiv)",
+  "subtitle": "Introdu <strong>rata nominală a dobânzii</strong> și de câte ori se <strong>capitalizează pe an</strong>, iar acest <strong>calculator APY</strong> determină <strong>randamentul anual efectiv</strong> real — câștigul pe care îl vei obține efectiv.",
+  "hint": "Introdu rata nominală și perioadele de capitalizare pe an pentru a obține APY-ul.",
+  "long_tail_anchor": "Calculator randament anual efectiv (APY)",
+  "card_strings": {
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Perioade de capitalizare / an",
+    "Nominal Interest Rate": "Rata nominală a dobânzii",
+    "e.g. 12": "ex. 12",
+    "e.g. 5": "ex. 5"
+  }
+}

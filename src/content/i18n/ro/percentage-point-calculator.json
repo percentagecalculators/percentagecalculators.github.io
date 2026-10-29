@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator puncte procentuale | Diferența în puncte",
+  "meta_description": "Calculator gratuit de puncte procentuale. Introdu două procente și vezi instant diferența în puncte procentuale și variația procentuală relativă.",
+  "h1": "Calculator puncte procentuale",
+  "subtitle": "Introdu două <strong>procente</strong>, iar acest <strong>calculator de puncte procentuale</strong> afișează <strong>diferența în puncte procentuale</strong> — care nu este același lucru cu variația procentuală relativă, afișată și ea pentru comparație.",
+  "hint": "Introdu două procente pentru a afla diferența în puncte procentuale.",
+  "long_tail_anchor": "Puncte procentuale vs variație procentuală",
+  "card_strings": {
+    "Percentage A": "Procentul A",
+    "Percentage B": "Procentul B",
+    "Point Difference:": "Diferență în puncte:",
+    "Relative Change:": "Variație relativă:",
+    "e.g. 20": "ex. 20",
+    "e.g. 25": "ex. 25"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator procent dintr-un procent | Combină două procente",
+  "meta_description": "Calculator de procent dintr-un procent gratuit. Înmulțește două procente succesive, apoi aplică rata combinată unei valori pentru taxe sau reduceri cumulate.",
+  "h1": "Calculator procent dintr-un procent",
+  "subtitle": "Introdu două <strong>procente</strong>, iar acest <strong>calculator de procent dintr-un procent</strong> le înmulțește corect pentru a-ți da <strong>procentul combinat</strong> — adaugă o valoare de pornire pentru a vedea exact cum evoluează prin ambele etape.",
+  "hint": "Înmulțește două procente succesive pentru a afla rata combinată.",
+  "long_tail_anchor": "Combină două procente succesive",
+  "card_strings": {
+    "Apply to a Value (optional)": "Aplică la o valoare (opțional)",
+    "Combined Percentage:": "Procent combinat:",
+    "Final Value:": "Valoare finală:",
+    "First Percentage": "Primul procent",
+    "Second Percentage": "Al doilea procent",
+    "Value After First %:": "Valoare după primul %:",
+    "e.g. 200": "ex. 200",
+    "e.g. 40": "ex. 40",
+    "e.g. 90": "ex. 90"
+  }
+}

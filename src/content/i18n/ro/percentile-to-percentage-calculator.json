@@ -1,0 +1,16 @@
+{
+  "slug": "percentile-to-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator percentilă în procent | Estimare procent",
+  "meta_description": "Calculator gratuit percentilă în procent. Obține rapid un procent estimat dintr-o percentilă la examen, folosind o formulă de aproximare des întâlnită.",
+  "h1": "Calculator percentilă în procent",
+  "subtitle": "Introdu <strong>percentila</strong> ta, iar acest <strong>calculator percentilă în procent</strong> îți oferă rapid un <strong>procent estimat</strong>, pe baza unei aproximări frecvent folosite. Percentila și procentul măsoară lucruri diferite, așa că tratează rezultatul ca pe o estimare, nu ca pe o conversie oficială.",
+  "hint": "Introdu o percentilă (0–100) pentru a obține un procent estimat.",
+  "long_tail_anchor": "Estimează procentul din rangul percentilei",
+  "card_strings": {
+    "%ile": "%ile",
+    "Estimated Percentage:": "Procent estimat:",
+    "Percentile": "Percentilă",
+    "e.g. 85": "ex. 85"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "percent-solution-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator soluție procentuală | Concentrație masă/volum",
+  "meta_description": "Calculator de soluție procentuală gratuit. Introdu masa substanței dizolvate și volumul soluției pentru a calcula instant concentrația procentuală (% m/v).",
+  "h1": "Calculator soluție procentuală",
+  "subtitle": "Introdu <strong>masa substanței dizolvate</strong> și <strong>volumul soluției</strong>, iar acest <strong>calculator de soluție procentuală</strong> calculează instant <strong>concentrația procentuală</strong> (% m/v).",
+  "hint": "Introdu masa substanței dizolvate și volumul soluției pentru a afla concentrația.",
+  "long_tail_anchor": "Concentrație procentuală masă/volum",
+  "card_strings": {
+    "Concentration (% w/v):": "Concentrație (% m/v):",
+    "Mass of Solute (g)": "Masa substanței dizolvate (g)",
+    "Volume of Solution (mL)": "Volumul soluției (mL)",
+    "e.g. 250": "ex. 250",
+    "e.g. 5": "ex. 5"
+  }
+}

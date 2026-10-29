@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator eroare procentuală | Eroarea procentuală în laborator",
+  "meta_description": "Calculator de eroare procentuală gratuit. Calculează eroarea procentuală dintre valorile experimentale și cele teoretice pentru laboratoare de fizică, chimie și biologie.",
+  "h1": "Calculator eroare procentuală",
+  "subtitle": "Introdu <strong>valoarea măsurată (experimentală)</strong> și <strong>valoarea reală (teoretică)</strong>, iar acest <strong>calculator de eroare procentuală</strong> îți arată <strong>eroarea procentuală</strong> dintre ele. Folosește formula standard: |măsurată − reală| ÷ |reală| × 100.",
+  "hint": "Introdu valoarea măsurată și cea reală pentru a afla eroarea procentuală.",
+  "long_tail_anchor": "Valoare experimentală vs. teoretică",
+  "card_strings": {
+    "Absolute Error:": "Eroare absolută:",
+    "Enter expected value": "Introdu valoarea așteptată",
+    "Enter measured value": "Introdu valoarea măsurată",
+    "Experimental (Measured)": "Experimentală (măsurată)",
+    "Percentage Error:": "Eroare procentuală:",
+    "Theoretical (Expected)": "Teoretică (așteptată)"
+  }
+}

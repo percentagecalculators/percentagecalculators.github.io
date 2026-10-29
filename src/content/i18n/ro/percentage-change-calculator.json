@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator variație procentuală | Creștere/scădere %",
+  "meta_description": "Calculator de variație procentuală gratuit. Calculează creșterea sau scăderea procentuală dintre două valori — urmărește evoluția acțiunilor și a prețurilor.",
+  "h1": "Calculator variație procentuală",
+  "subtitle": "Introdu o <strong>valoare veche</strong> și una <strong>nouă</strong>, iar acest <strong>calculator de variație procentuală</strong> îți arată <strong>creșterea sau scăderea procentuală</strong> dintre ele. Rezultatul este pozitiv la creștere și negativ la scădere — de la 80 la 100 obții deci +25%.",
+  "hint": "Introdu o valoare veche și una nouă pentru a afla variația procentuală.",
+  "long_tail_anchor": "Creștere sau scădere procentuală",
+  "card_strings": {
+    "Change Type:": "Tipul variației:",
+    "Enter ending value": "Introdu valoarea finală",
+    "Enter starting value": "Introdu valoarea inițială",
+    "New Value (Current)": "Valoare nouă (actuală)",
+    "Old Value (Original)": "Valoare veche (inițială)",
+    "Percentage Change:": "Variație procentuală:"
+  }
+}

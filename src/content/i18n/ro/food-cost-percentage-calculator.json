@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator costul alimentelor % | Costul unui preparat",
+  "meta_description": "Calculator gratuit pentru procentul costului alimentelor. Introdu costul ingredientelor și prețul din meniu pentru a calcula instant procentul costului unui preparat.",
+  "h1": "Calculator procentul costului alimentelor",
+  "subtitle": "Introdu <strong>costul ingredientelor</strong> și <strong>prețul din meniu</strong>, iar acest <strong>calculator al procentului costului alimentelor</strong> determină instant <strong>procentul costului alimentelor</strong> pentru acel preparat.",
+  "hint": "Introdu costul ingredientelor și prețul din meniu pentru a obține procentul costului alimentelor.",
+  "long_tail_anchor": "Procentul costului din meniul restaurantului",
+  "card_strings": {
+    "Food Cost Percentage:": "Procentul costului alimentelor:",
+    "Ingredient Cost ($)": "Costul ingredientelor ($)",
+    "Menu Price ($)": "Prețul din meniu ($)",
+    "e.g. 14": "ex. 14",
+    "e.g. 3.50": "ex. 3.50"
+  }
+}

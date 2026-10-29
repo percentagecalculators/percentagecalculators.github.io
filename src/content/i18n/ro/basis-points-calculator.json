@@ -1,0 +1,15 @@
+{
+  "slug": "basis-points-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator puncte de bază | Puncte de bază în procente",
+  "meta_description": "Calculator gratuit pentru puncte de bază. Introdu o valoare în puncte de bază (pb) și o convertești instant în procent — rezultate precise pentru finanțe și trading.",
+  "h1": "Calculator puncte de bază",
+  "subtitle": "Introdu o valoare în <strong>puncte de bază (pb)</strong>, iar acest <strong>calculator de puncte de bază</strong> o convertește instant în <strong>procent</strong> — modul standard în care finanțele cotează variațiile mici de rată.",
+  "hint": "Introdu punctele de bază pentru a obține procentul echivalent.",
+  "long_tail_anchor": "Convertește punctele de bază în procente",
+  "card_strings": {
+    "Basis Points (bps)": "Puncte de bază (pb)",
+    "Percentage:": "Procent:",
+    "e.g. 25": "ex. 25"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator grad alcoolic | Convertește proof în ABV (%)",
+  "meta_description": "Calculator gratuit pentru gradul alcoolic. Introdu o valoare proof (scara SUA) și o convertești instant în procent de alcool din volum (ABV) — rapid și precis.",
+  "h1": "Calculator grad alcoolic (proof în ABV)",
+  "subtitle": "Introdu o valoare <strong>proof</strong> (scara SUA), iar acest <strong>calculator de grad alcoolic</strong> o convertește instant în procent de <strong>alcool din volum (ABV)</strong>.",
+  "hint": "Introdu o valoare proof (SUA) pentru a obține procentul ABV.",
+  "long_tail_anchor": "Convertor proof în procent ABV",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "Proof (SUA)",
+    "e.g. 80": "ex. 80"
+  }
+}

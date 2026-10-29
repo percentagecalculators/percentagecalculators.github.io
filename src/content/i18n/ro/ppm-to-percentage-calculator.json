@@ -1,0 +1,15 @@
+{
+  "slug": "ppm-to-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator ppm în procent | Convertor părți per milion",
+  "meta_description": "Calculator gratuit ppm în procent. Introdu o valoare în părți per milion (ppm) și convert-o instant în procent — precis pentru chimie și inginerie.",
+  "h1": "Calculator ppm în procent",
+  "subtitle": "Introdu o valoare în <strong>părți per milion (ppm)</strong>, iar acest <strong>calculator ppm în procent</strong> o convertește instant în <strong>procent</strong> — util pentru măsurători de concentrație și puritate.",
+  "hint": "Introdu o valoare ppm pentru a obține procentul echivalent.",
+  "long_tail_anchor": "Părți per milion în procent",
+  "card_strings": {
+    "PPM": "ppm",
+    "Percentage:": "Procent:",
+    "e.g. 2500": "ex. 2500"
+  }
+}

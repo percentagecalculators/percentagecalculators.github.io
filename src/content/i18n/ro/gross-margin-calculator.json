@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator marjă brută | Calculează marja brută de profit %",
+  "meta_description": "Calculator de marjă brută gratuit. Introdu venitul și costul bunurilor vândute (COGS) pentru a calcula instant profitul brut și marja brută în procente.",
+  "h1": "Calculator marjă brută",
+  "subtitle": "Introdu <strong>venitul</strong> și <strong>costul bunurilor vândute (COGS)</strong>, iar acest <strong>calculator de marjă brută</strong> calculează instant <strong>profitul brut</strong> și <strong>marja brută în procente</strong>.",
+  "hint": "Introdu venitul și COGS pentru a afla marja brută în procente.",
+  "long_tail_anchor": "Marja venit și COGS în procente",
+  "card_strings": {
+    "COGS ($)": "COGS ($)",
+    "Gross Margin:": "Marjă brută:",
+    "Gross Profit:": "Profit brut:",
+    "Revenue ($)": "Venit ($)",
+    "e.g. 100000": "ex. 100000",
+    "e.g. 65000": "ex. 65000"
+  }
+}

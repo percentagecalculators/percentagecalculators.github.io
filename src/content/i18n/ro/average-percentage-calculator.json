@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator medie procente | Medie simplă și ponderată",
+  "meta_description": "Calculator gratuit pentru media procentelor, în mod simplu și ponderat. Combină corect procente din grupuri de mărimi diferite, pentru note și sondaje.",
+  "h1": "Calculator medie procente",
+  "subtitle": "Introdu o listă de <strong>procente</strong> separate prin virgulă, iar acest <strong>calculator de medie a procentelor</strong> îți arată <strong>media</strong>, <strong>suma</strong>, <strong>numărul</strong> și intervalul valorilor. Adaugă o listă corespunzătoare de <strong>dimensiuni ale eșantioanelor</strong> când grupurile nu au aceeași mărime, iar calculatorul trece automat la o <strong>medie ponderată</strong> corectă.",
+  "hint": "Introdu procente (plus dimensiuni de eșantion, opțional) pentru o medie simplă sau ponderată.",
+  "long_tail_anchor": "Media mai multor procente",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "Adaugă câte o pondere pentru fiecare procent — de ex. numărul de elevi dintr-o clasă sau de respondenți — pentru a combina corect grupuri de mărimi diferite.",
+    "Average:": "Media:",
+    "Count:": "Număr:",
+    "Percentages (comma or space separated)": "Procente (separate prin virgulă sau spațiu)",
+    "Sample Sizes / Weights (optional)": "Dimensiuni eșantion / ponderi (opțional)",
+    "Sum:": "Suma:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "ex. 30, 50, 20, 40 (leave blank for a simple average)",
+    "e.g. 85, 90, 78, 92": "ex. 85, 90, 78, 92"
+  }
+}

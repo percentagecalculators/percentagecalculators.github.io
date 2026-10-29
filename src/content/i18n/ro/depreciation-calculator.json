@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator amortizare | Metoda liniară",
+  "meta_description": "Calculator gratuit de amortizare prin metoda liniară. Introdu costul activului, valoarea reziduală și durata de utilizare pentru a calcula amortizarea anuală.",
+  "h1": "Calculator amortizare",
+  "subtitle": "Introdu <strong>costul activului</strong>, <strong>valoarea reziduală</strong> și <strong>durata de utilizare</strong>, iar acest <strong>calculator de amortizare</strong> determină instant <strong>amortizarea anuală</strong> prin metoda liniară.",
+  "hint": "Introdu costul activului, valoarea reziduală și durata de utilizare pentru a obține amortizarea anuală.",
+  "long_tail_anchor": "Amortizarea liniară a activelor",
+  "card_strings": {
+    "Annual Depreciation:": "Amortizare anuală:",
+    "Asset Cost ($)": "Costul activului ($)",
+    "Depreciation Rate:": "Rata amortizării:",
+    "Salvage Value ($)": "Valoarea reziduală ($)",
+    "Useful Life (Years)": "Durata de utilizare (ani)",
+    "e.g. 1000": "ex. 1000",
+    "e.g. 10000": "ex. 10000",
+    "e.g. 5": "ex. 5"
+  }
+}

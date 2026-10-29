@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator bacșiș | Calculează bacșișul și împarte nota",
+  "meta_description": "Calculator gratuit de bacșiș. Introdu nota de plată, procentul de bacșiș și numărul de persoane pentru a afla instant bacșișul, totalul și suma pe persoană.",
+  "h1": "Calculator bacșiș",
+  "subtitle": "Introdu <strong>suma notei de plată</strong>, <strong>procentul de bacșiș</strong> și <strong>numărul de persoane</strong>, iar acest <strong>calculator de bacșiș</strong> calculează instant <strong>bacșișul</strong>, <strong>totalul</strong> și cât <strong>datorează fiecare persoană</strong>.",
+  "hint": "Introdu nota, bacșișul în % și numărul de persoane între care împărți.",
+  "long_tail_anchor": "Bacșiș și împărțirea notei la restaurant",
+  "card_strings": {
+    "Bill Amount ($)": "Suma notei ($)",
+    "Per Person:": "Pe persoană:",
+    "Split Between": "Împărțit între",
+    "Tip": "Bacșiș",
+    "Tip Amount:": "Suma bacșișului:",
+    "Total:": "Total:",
+    "e.g. 18": "ex. 18",
+    "e.g. 4": "ex. 4",
+    "e.g. 80": "ex. 80"
+  }
+}

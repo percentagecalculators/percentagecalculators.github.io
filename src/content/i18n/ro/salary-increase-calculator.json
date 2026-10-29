@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator majorare salarială | Salariul tău nou",
+  "meta_description": "Calculator gratuit de majorare salarială. Introdu salariul actual și procentul de majorare și calculează instant suma majorării și noul salariu.",
+  "h1": "Calculator majorare salarială",
+  "subtitle": "Introdu <strong>salariul actual</strong> și <strong>procentul de majorare</strong>, iar acest <strong>calculator de majorare salarială</strong> calculează instant <strong>suma majorării</strong> și <strong>noul salariu</strong>.",
+  "hint": "Introdu salariul actual și majorarea în % pentru a afla noul salariu.",
+  "long_tail_anchor": "Procentul majorării și creșterea salariului",
+  "card_strings": {
+    "Current Salary ($)": "Salariu actual ($)",
+    "New Salary:": "Salariu nou:",
+    "Raise": "Majorare",
+    "Raise Amount:": "Suma majorării:",
+    "e.g. 5": "ex. 5",
+    "e.g. 60000": "ex. 60000"
+  }
+}

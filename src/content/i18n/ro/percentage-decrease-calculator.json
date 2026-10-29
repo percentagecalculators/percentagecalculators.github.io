@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator scădere procentuală | Scade un procent",
+  "meta_description": "Calculator de scădere procentuală gratuit. Scade instant orice procent dintr-un număr — calculează amortizarea, pierderea în greutate și reducerile bugetare.",
+  "h1": "Calculator scădere procentuală",
+  "subtitle": "Introdu <strong>numărul de pornire</strong> și <strong>procentul de scăzut</strong>, iar acest <strong>calculator de scădere procentuală</strong> îți arată <strong>valoarea scăderii</strong> și <strong>valoarea finală</strong>. Dacă te întrebi cât face 500 minus 20%, răspunsul este 400 — și ai scăpat de un calcul mintal.",
+  "hint": "Introdu un număr și procentul de scăzut pentru a afla valoarea redusă.",
+  "long_tail_anchor": "Scade un procent dintr-un număr",
+  "card_strings": {
+    "Decrease Amount:": "Valoarea scăderii:",
+    "Decrease by": "Scădere cu",
+    "Enter percentage": "Introdu procentul",
+    "Enter starting number": "Introdu numărul de pornire",
+    "New Value:": "Valoare nouă:",
+    "Original Value": "Valoare inițială"
+  }
+}

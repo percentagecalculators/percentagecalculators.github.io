@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator pantă în procente | Înălțime/distanță în %",
+  "meta_description": "Calculator gratuit de pantă în procente. Introdu diferența de nivel și distanța orizontală pentru a calcula instant panta în procente și unghiul echivalent în grade.",
+  "h1": "Calculator pantă în procente",
+  "subtitle": "Introdu <strong>diferența de nivel</strong> și <strong>distanța orizontală</strong>, iar acest <strong>calculator de pantă în procente</strong> calculează instant <strong>panta în procente</strong> și <strong>unghiul în grade</strong> echivalent.",
+  "hint": "Introdu diferența de nivel și distanța orizontală pentru a afla panta și unghiul.",
+  "long_tail_anchor": "De la înălțime/distanță la pantă în %",
+  "card_strings": {
+    "Angle:": "Unghi:",
+    "Rise": "Diferență de nivel",
+    "Run": "Distanță orizontală",
+    "Slope:": "Pantă:",
+    "e.g. 100": "ex. 100",
+    "e.g. 5": "ex. 5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "fraction-to-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator fracție în procente | Convertește în procent",
+  "meta_description": "Calculator gratuit fracție în procente. Convertește instant orice fracție în procent — ideal pentru punctaje la teste, rapoarte și proporții.",
+  "h1": "Calculator fracție în procente",
+  "subtitle": "Introdu un <strong>numărător</strong> (numărul de sus) și un <strong>numitor</strong> (numărul de jos), iar acest <strong>calculator fracție în procente</strong> îți convertește fracția într-un <strong>procent</strong> și un <strong>număr zecimal</strong>. Astfel, 3/4 devine 75% — scrie valorile și calculul se face pe loc.",
+  "hint": "Introdu un numărător și un numitor pentru a converti în procent.",
+  "long_tail_anchor": "Convertește o fracție în procent",
+  "card_strings": {
+    "Decimal Value:": "Valoare zecimală:",
+    "Denominator": "Numitor",
+    "Numerator": "Numărător",
+    "Percentage:": "Procent:",
+    "e.g. 3": "ex. 3",
+    "e.g. 4": "ex. 4"
+  }
+}

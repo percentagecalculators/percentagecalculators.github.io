@@ -1,0 +1,15 @@
+{
+  "slug": "sgpa-to-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator SGPA în procent | Convertește SGPA în %",
+  "meta_description": "Calculator gratuit SGPA în procent, cu formula standard SGPA × 9.5. Convertește instant media semestrială SGPA într-un procent echivalent.",
+  "h1": "Calculator SGPA în procent",
+  "subtitle": "Introdu <strong>SGPA</strong> (media semestrială), iar acest <strong>calculator SGPA în procent</strong> aplică formula standard <strong>SGPA × 9.5</strong>, folosită de majoritatea universităților din India, pentru a-ți oferi instant un <strong>procent</strong> echivalent.",
+  "hint": "Introdu SGPA-ul semestrial pentru a obține procentul echivalent.",
+  "long_tail_anchor": "Convertește media semestrială în procent",
+  "card_strings": {
+    "Percentage:": "Procent:",
+    "SGPA (out of 10)": "SGPA (din 10)",
+    "e.g. 7.8": "ex. 7.8"
+  }
+}

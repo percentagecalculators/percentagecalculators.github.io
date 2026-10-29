@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator procent note | Calculează procentul la examen",
+  "meta_description": "Calculator de procent din punctaj gratuit. Introdu punctajul obținut și punctajul total pentru a calcula instant procentul la examen sau la test.",
+  "h1": "Calculator procent din punctaj",
+  "subtitle": "Introdu <strong>punctajul obținut</strong> și <strong>punctajul total</strong>, iar acest <strong>calculator de procent din punctaj</strong> calculează instant <strong>procentul la examen</strong> — ideal pentru cataloage, foi de rezultate și verificarea notelor.",
+  "hint": "Introdu punctajul obținut și cel total pentru a afla procentul.",
+  "long_tail_anchor": "Procent din scorul la examen sau test",
+  "card_strings": {
+    "Marks Obtained": "Punctaj obținut",
+    "Percentage:": "Procent:",
+    "Total Marks": "Punctaj total",
+    "e.g. 450": "ex. 450",
+    "e.g. 500": "ex. 500"
+  }
+}

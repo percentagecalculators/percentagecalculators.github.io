@@ -1,0 +1,18 @@
+{
+  "slug": "ratio-to-percentage-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator raport în procent | Convertește raportul în %",
+  "meta_description": "Calculator gratuit raport în procent. Introdu cele două părți ale unui raport și vezi instant totalul și ce procent reprezintă prima parte.",
+  "h1": "Calculator raport în procent",
+  "subtitle": "Introdu ambele părți ale unui <strong>raport</strong> (de exemplu 3 : 4), iar acest <strong>calculator raport în procent</strong> arată instant <strong>totalul</strong> și ce <strong>procent</strong> reprezintă prima parte.",
+  "hint": "Introdu ambele părți ale raportului pentru a afla procentul din total.",
+  "long_tail_anchor": "Raport convertit în cotă procentuală",
+  "card_strings": {
+    "A as % of Total:": "A ca % din total:",
+    "Part A": "Partea A",
+    "Part B": "Partea B",
+    "Total:": "Total:",
+    "e.g. 3": "ex. 3",
+    "e.g. 4": "ex. 4"
+  }
+}

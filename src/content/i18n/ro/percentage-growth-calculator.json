@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator rată de creștere | Rata de creștere a afacerii",
+  "meta_description": "Calculator de rată de creștere gratuit. Calculează ratele de creștere ale veniturilor, clienților, vânzărilor și KPI-urilor. Urmărește performanța afacerii cu indicatori preciși.",
+  "h1": "Calculator rată de creștere",
+  "subtitle": "Introdu o <strong>valoare inițială</strong> și una <strong>finală</strong>, iar acest <strong>calculator de rată de creștere</strong> îți arată <strong>rata de creștere</strong> și <strong>valoarea creșterii</strong>. Răspunde la întrebarea: cu ce procent a crescut numărul tău de la punctul A la punctul B?",
+  "hint": "Introdu o valoare inițială și una finală pentru a afla creșterea procentuală.",
+  "long_tail_anchor": "Rata de creștere a afacerii și a veniturilor",
+  "card_strings": {
+    "Ending value": "Valoarea finală",
+    "Final Value": "Valoare finală",
+    "Growth Amount:": "Valoarea creșterii:",
+    "Growth Rate:": "Rata de creștere:",
+    "Initial Value": "Valoare inițială",
+    "Starting value": "Valoarea inițială"
+  }
+}

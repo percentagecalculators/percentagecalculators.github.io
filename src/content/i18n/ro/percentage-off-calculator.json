@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator reducere procentuală | Preț redus și economie",
+  "meta_description": "Calculator gratuit de reducere procentuală. Află instant prețul redus și cât economisești. Calculează prețul final după orice reducere, ideal pentru oferte.",
+  "h1": "Calculator reducere procentuală",
+  "subtitle": "Introdu <strong>prețul inițial</strong> și <strong>procentul de reducere</strong>, iar acest <strong>calculator de reducere procentuală</strong> îți arată <strong>prețul redus</strong> și exact cât <strong>economisești</strong>. Data viitoare când vezi o etichetă „30% reducere”, vei ști cât plătești de fapt.",
+  "hint": "Introdu prețul inițial și reducerea în % pentru a afla prețul redus.",
+  "long_tail_anchor": "Calculator preț redus și reducere",
+  "card_strings": {
+    "Discount": "Reducere",
+    "Enter discount %": "Introdu reducerea %",
+    "Enter price": "Introdu prețul",
+    "Final Price:": "Preț final:",
+    "Original Price ($)": "Preț inițial ($)",
+    "You Save:": "Economisești:"
+  }
+}

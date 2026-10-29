@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator dobândă simplă | Dobândă și sumă totală",
+  "meta_description": "Calculator gratuit de dobândă simplă. Introdu capitalul, rata anuală și perioada pentru a calcula instant dobânda obținută și suma totală.",
+  "h1": "Calculator dobândă simplă",
+  "subtitle": "Introdu <strong>capitalul</strong>, <strong>rata anuală a dobânzii</strong> și <strong>perioada în ani</strong>, iar acest <strong>calculator de dobândă simplă</strong> arată instant <strong>dobânda obținută</strong> și <strong>suma totală</strong>.",
+  "hint": "Introdu capitalul, rata anuală și perioada pentru a afla dobânda și suma totală.",
+  "long_tail_anchor": "Formula capital, rată și perioadă",
+  "card_strings": {
+    "Annual Rate": "Rata anuală",
+    "Interest Earned:": "Dobândă obținută:",
+    "Principal ($)": "Capital ($)",
+    "Time (Years)": "Perioada (ani)",
+    "Total Amount:": "Suma totală:",
+    "e.g. 1000": "ex. 1000",
+    "e.g. 3": "ex. 3",
+    "e.g. 5": "ex. 5"
+  }
+}

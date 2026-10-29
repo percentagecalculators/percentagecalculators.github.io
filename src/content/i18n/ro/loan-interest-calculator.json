@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "ro",
+  "meta_title": "Calculator dobândă credit | Rată lunară și dobândă totală",
+  "meta_description": "Calculator de dobândă la credit gratuit. Introdu suma creditului, rata anuală și durata pentru a calcula instant rata lunară (EMI) și dobânda totală de plătit.",
+  "h1": "Calculator dobândă credit",
+  "subtitle": "Introdu <strong>suma creditului</strong>, <strong>rata anuală a dobânzii</strong> și <strong>durata creditului</strong>, iar acest <strong>calculator de dobândă la credit</strong> calculează instant <strong>rata lunară (EMI)</strong> și <strong>dobânda totală</strong> pe care o vei plăti.",
+  "hint": "Introdu suma, rata dobânzii și durata pentru a afla rata lunară (EMI).",
+  "long_tail_anchor": "Rată lunară (EMI) și dobândă totală",
+  "card_strings": {
+    "Annual Rate": "Rata anuală",
+    "Loan Amount ($)": "Suma creditului ($)",
+    "Loan Term (Years)": "Durata creditului (ani)",
+    "Monthly EMI:": "Rată lunară (EMI):",
+    "Total Interest:": "Dobândă totală:",
+    "e.g. 20000": "ex. 20000",
+    "e.g. 5": "ex. 5",
+    "e.g. 7.5": "ex. 7.5"
+  }
+}
