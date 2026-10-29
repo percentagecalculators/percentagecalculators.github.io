@@ -210,6 +210,32 @@
       if (firstField) firstField.focus();
     });
   }
+  function initToolSearch() {
+    // 404 page: filter the list of every calculator as the visitor types; Enter opens the first match.
+    var input = document.getElementById('toolSearch');
+    var list = document.getElementById('toolSearchList');
+    if (!input || !list) return;
+    var items = Array.prototype.slice.call(list.querySelectorAll('li'));
+    var empty = document.getElementById('toolSearchEmpty');
+    var status = document.getElementById('toolSearchStatus');
+    function visible() { return items.filter(function (li) { return !li.hidden; }); }
+    function filter() {
+      var words = input.value.toLowerCase().split(/\s+/).filter(Boolean);
+      items.forEach(function (li) {
+        var hay = li.firstChild.getAttribute('data-search');
+        li.hidden = !words.every(function (w) { return hay.indexOf(w) !== -1; });
+      });
+      var n = visible().length;
+      if (empty) empty.hidden = n !== 0;
+      if (status) status.textContent = words.length ? n + ' / ' + items.length : '';
+    }
+    input.addEventListener('input', filter);
+    input.form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var first = visible()[0];
+      if (first && input.value.trim()) window.location.href = first.firstChild.getAttribute('href');
+    });
+  }
   function renderMath() {
     // content_html's formulas use $$...$$ (display) and \(...\) (inline) —
     // never single-$ delimiters, since the site is full of literal dollar
@@ -292,5 +318,6 @@
     initToolForm();
     initCopyButtons();
     renderMath();
+    initToolSearch();
   });
 })();

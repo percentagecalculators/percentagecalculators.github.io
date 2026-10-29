@@ -1331,6 +1331,22 @@ def render_info_page(page, site, by_slug, template):
     return apply_tokens(template, tokens)
 
 
+def render_404_tool_links(site, by_slug):
+    """Every built calculator, in menu order, for the 404 page's search box (src/site.js
+    filters this list; without JS it is simply a list of links). data-search holds the
+    words the filter matches against: nav name, h1 and category."""
+    items = []
+    for group in site["nav_groups"]:
+        for slug in group.get("slugs", []):
+            tool = by_slug[slug]
+            words = " ".join([tool["nav_name"], tool["h1"], group.get("label", "")])
+            items.append(
+                '<li><a href="%s" data-search="%s" class="menu-link border border-border">%s</a></li>'
+                % (tool_url(tool, site), html.escape(words.lower(), quote=True), html.escape(tool["nav_name"]))
+            )
+    return "".join(items)
+
+
 def render_404_page(site, by_slug, template_404):
     tokens = {
         "SITE_NAME": site["site_name"],
@@ -1339,6 +1355,7 @@ def render_404_page(site, by_slug, template_404):
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug, page_alternates("home", "")),
         "SITE_JS_VERSION": SITE_JS_VERSION,
         "SITE_FOOTER": render_site_footer(site, by_slug),
+        "TOOL_LINKS": render_404_tool_links(site, by_slug),
     }
     return apply_tokens(template_404, tokens)
 

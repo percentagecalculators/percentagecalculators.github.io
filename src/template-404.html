@@ -31,13 +31,59 @@
 
 <main id="main-content">
     <section class="error-hero mx-auto max-w-2xl px-4 py-16 text-center sm:px-6 sm:py-24">
+        <figure class="error-art mx-auto mb-2 w-56 sm:w-64">
+            <svg class="mx-auto h-auto w-full" viewBox="0 0 240 170" fill="none" aria-hidden="true">
+                <ellipse cx="120" cy="158" rx="70" ry="7" fill="currentColor" class="text-text-muted" opacity=".18"/>
+                <g class="text-accent" stroke="currentColor" stroke-width="12" stroke-linecap="round">
+                    <path d="M150 30 90 136"/>
+                    <circle cx="82" cy="52" r="26" class="fill-surface"/>
+                    <circle cx="158" cy="116" r="26" class="fill-surface"/>
+                </g>
+                <g class="text-text" fill="currentColor">
+                    <circle cx="92" cy="56" r="8"/>
+                    <circle cx="168" cy="120" r="8"/>
+                </g>
+                <g class="text-text-muted" stroke="currentColor" stroke-width="6" stroke-linecap="round">
+                    <circle cx="196" cy="58" r="20" class="fill-surface" fill-opacity=".6"/>
+                    <path d="m210 73 16 18"/>
+                </g>
+                <path d="M190 52a8 8 0 1 1 8 8v4" class="text-accent" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+                <circle cx="198" cy="72" r="2.6" class="text-accent" fill="currentColor"/>
+                <path d="M118 30c-4 8-1 12 2 12 4 0 5-6-2-12Z" class="text-accent" fill="currentColor" opacity=".55"/>
+            </svg>
+            <figcaption class="mt-1 text-sm font-medium text-text-muted">This page is 0% found.</figcaption>
+        </figure>
         <div class="error-code font-mono text-[clamp(4rem,18vw,7rem)] font-bold leading-none text-accent" aria-hidden="true">404</div>
         <h1 class="mt-2 text-2xl font-bold text-text sm:text-3xl">Page Not Found</h1>
         <p class="subtitle mx-auto mt-3 max-w-md text-base text-text-secondary">The page you're looking for doesn't exist, may have been renamed, or the link is out of date.</p>
+        <div class="error-chat mx-auto mt-8 max-w-xl space-y-3 rounded-2xl border border-border bg-surface p-5 text-start sm:p-6" role="group" aria-label="A short conversation with the % sign">
+            <p class="flex gap-3 text-sm text-text-secondary sm:text-base"><span class="w-12 flex-none font-bold text-text-muted">You</span><span>Is this the page I was looking for?</span></p>
+            <p class="flex gap-3 text-sm text-text-secondary sm:text-base"><span class="w-12 flex-none font-bold text-accent">The %</span><span>I checked. This page is 0% found, 100% lost, and I'm 110% sure it's not my fault.</span></p>
+            <p class="flex gap-3 text-sm text-text-secondary sm:text-base"><span class="w-12 flex-none font-bold text-text-muted">You</span><span>Did you look everywhere?</span></p>
+            <p class="flex gap-3 text-sm text-text-secondary sm:text-base"><span class="w-12 flex-none font-bold text-accent">The %</span><span>Every decimal place. Even the ones after the point. I found a lot of zeros and one very confused 404.</span></p>
+            <p class="flex gap-3 text-sm text-text-secondary sm:text-base"><span class="w-12 flex-none font-bold text-text-muted">You</span><span>So what now?</span></p>
+            <p class="flex gap-3 text-sm text-text-secondary sm:text-base"><span class="w-12 flex-none font-bold text-accent">The %</span><span>Search below. We have 42 calculators and I'm 99% sure one of them knows what you wanted. The other 1% is rounding.</span></p>
+        </div>
+        <div class="error-causes mx-auto mt-6 max-w-xl text-start">
+            <h2 class="text-sm font-bold uppercase tracking-wide text-text-muted">What probably happened</h2>
+            <ul class="mt-3 list-disc space-y-2 ps-5 text-sm text-text-secondary marker:text-accent sm:text-base">
+                <li><strong class="font-semibold text-text">A typo in the address.</strong> One stray letter and the URL is a stranger. Check the spelling, or pick the tool from the menu.</li>
+                <li><strong class="font-semibold text-text">An old link.</strong> We renamed or merged some pages as the calculators grew. The search below will find the new home.</li>
+                <li><strong class="font-semibold text-text">A made-up page.</strong> If someone sent you this link, they may have remembered a calculator we only wish we had. Tell us what it does and we may build it.</li>
+                <li><strong class="font-semibold text-text">Just bad luck.</strong> It happens to the best of us, usually right after a successful 100% on something.</li>
+            </ul>
+        </div>
         <div class="error-actions mt-8 flex flex-wrap items-center justify-center gap-3">
             <a href="/" class="btn-primary rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-dark">Back to Home</a>
             <a href="/#all-tools" class="btn-secondary rounded-lg border border-border px-5 py-2.5 text-sm font-semibold text-text hover:bg-surface-alt">Browse All Tools</a>
         </div>
+        <form class="tool-search mx-auto mt-12 max-w-xl text-start" role="search" novalidate>
+            <label for="toolSearch" class="text-xs font-semibold uppercase tracking-wide text-text-muted">Looking for a calculator? Search them all</label>
+            <input type="search" id="toolSearch" autocomplete="off" placeholder="Try: tip, discount, GPA, interest, margin" class="mt-2 w-full rounded-xl border border-border bg-surface-alt px-4 py-3 text-base text-text shadow-sm transition duration-150 placeholder:text-text-muted hover:border-border-strong focus:border-accent focus:outline-none focus:ring-4 focus:ring-accent/15">
+            <p id="toolSearchStatus" class="mt-3 text-sm text-text-muted" role="status" aria-live="polite"></p>
+            <ul id="toolSearchList" class="mt-2 grid grid-cols-1 gap-2 sm:grid-cols-2">{{TOOL_LINKS}}</ul>
+            <p id="toolSearchEmpty" class="mt-3 text-sm text-text-secondary" hidden>No calculator matches that. Try a shorter word, or <a href="/#all-tools" class="text-accent hover:underline">browse all tools</a>.</p>
+        </form>
     </section>
 </main>
 
