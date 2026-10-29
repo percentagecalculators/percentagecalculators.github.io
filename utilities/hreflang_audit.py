@@ -11,7 +11,7 @@ import re,os,sys,collections
 from urllib.parse import urlparse
 ROOT=os.path.abspath(sys.argv[1] if len(sys.argv)>1 else os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','public')); BASE='https://percentagecalculators.github.io'
 LANGS='ar bn de es fr hi id it ja ko ms nl pt ru th vi zh-cn zh-tw'.split()
-EXPECT={'en'}|{l if not l.startswith('zh') else {'zh-cn':'zh-CN','zh-tw':'zh-TW'}[l] for l in LANGS}|{'x-default'}
+EXPECT={'en'}|{l if not l.startswith('zh') else {'zh-cn':'zh-Hans','zh-tw':'zh-Hant'}[l] for l in LANGS}|{'x-default'}
 pages={}
 for d,_,fs in os.walk(ROOT):
     for f in fs:

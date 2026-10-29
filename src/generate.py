@@ -153,7 +153,7 @@ LANGUAGES = {
     "es": ("Español", "es"), "fr": ("Français", "fr"), "hi": ("हिन्दी", "hi"), "id": ("Bahasa Indonesia", "id"),
     "it": ("Italiano", "it"), "ja": ("日本語", "ja"), "ko": ("한국어", "ko"), "ms": ("Bahasa Melayu", "ms"),
     "nl": ("Nederlands", "nl"), "pt": ("Português", "pt"), "ru": ("Русский", "ru"), "th": ("ไทย", "th"),
-    "vi": ("Tiếng Việt", "vi"), "zh-cn": ("简体中文", "zh-CN"), "zh-tw": ("繁體中文", "zh-TW"),
+    "vi": ("Tiếng Việt", "vi"), "zh-cn": ("简体中文", "zh-Hans"), "zh-tw": ("繁體中文", "zh-Hant"),
 }
 RTL_LANGS = {"ar"}
 
