@@ -978,54 +978,54 @@ Files: `src/content/i18n/<lang>/<slug>.json` (tools/home), `src/content/i18n/<la
 
 ## uk - Ukrainian
 
-- [ ] `/uk/` (home, `percentage-calculator`)
-- [ ] `/uk/alcohol-proof-calculator/` **new**
-- [ ] `/uk/apr-apy-converter/` **new**
-- [ ] `/uk/apr-calculator/` **new**
-- [ ] `/uk/apy-calculator/` **new**
-- [ ] `/uk/average-percentage-calculator/`
-- [ ] `/uk/bakers-percentage-calculator/` **new**
-- [ ] `/uk/basis-points-calculator/` **new**
-- [ ] `/uk/cgpa-to-percentage-calculator/` **new**
-- [ ] `/uk/commission-calculator/` **new**
-- [ ] `/uk/compound-interest-calculator/` **new**
-- [ ] `/uk/decimal-to-percentage-calculator/` **new**
-- [ ] `/uk/depreciation-calculator/` **new**
-- [ ] `/uk/food-cost-percentage-calculator/` **new**
-- [ ] `/uk/fraction-to-percentage-calculator/`
-- [ ] `/uk/gpa-to-percentage-calculator/` **new**
-- [ ] `/uk/gross-margin-calculator/` **new**
-- [ ] `/uk/loan-interest-calculator/` **new**
-- [ ] `/uk/marks-percentage-calculator/` **new**
-- [ ] `/uk/markup-calculator/` **new**
-- [ ] `/uk/percent-solution-calculator/` **new**
-- [ ] `/uk/percentage-change-calculator/`
-- [ ] `/uk/percentage-decrease-calculator/`
-- [ ] `/uk/percentage-difference-calculator/`
-- [ ] `/uk/percentage-error-calculator/`
-- [ ] `/uk/percentage-growth-calculator/`
-- [ ] `/uk/percentage-increase-calculator/`
-- [ ] `/uk/percentage-of-a-percentage-calculator/` **new**
-- [ ] `/uk/percentage-off-calculator/`
-- [ ] `/uk/percentage-point-calculator/` **new**
-- [ ] `/uk/percentile-to-percentage-calculator/` **new**
-- [ ] `/uk/ppm-to-percentage-calculator/` **new**
-- [ ] `/uk/profit-margin-calculator/` **new**
-- [ ] `/uk/profit-percentage-calculator/` **new**
-- [ ] `/uk/ratio-to-percentage-calculator/` **new**
-- [ ] `/uk/reverse-percentage-calculator/`
-- [ ] `/uk/salary-increase-calculator/` **new**
-- [ ] `/uk/sgpa-to-percentage-calculator/` **new**
-- [ ] `/uk/simple-interest-calculator/` **new**
-- [ ] `/uk/slope-percentage-calculator/` **new**
-- [ ] `/uk/tip-calculator/` **new**
-- [ ] `/uk/win-loss-percentage-calculator/` **new**
-- [ ] `/uk/page/about/`
-- [ ] `/uk/page/contact/`
-- [ ] `/uk/page/disclaimer/`
-- [ ] `/uk/page/privacy-policy/`
-- [ ] `/uk/page/terms-of-use/`
-- [ ] `/uk/page/sitemap/` **new**
+- [x] `/uk/` (home, `percentage-calculator`)
+- [x] `/uk/alcohol-proof-calculator/` **new**
+- [x] `/uk/apr-apy-converter/` **new**
+- [x] `/uk/apr-calculator/` **new**
+- [x] `/uk/apy-calculator/` **new**
+- [x] `/uk/average-percentage-calculator/`
+- [x] `/uk/bakers-percentage-calculator/` **new**
+- [x] `/uk/basis-points-calculator/` **new**
+- [x] `/uk/cgpa-to-percentage-calculator/` **new**
+- [x] `/uk/commission-calculator/` **new**
+- [x] `/uk/compound-interest-calculator/` **new**
+- [x] `/uk/decimal-to-percentage-calculator/` **new**
+- [x] `/uk/depreciation-calculator/` **new**
+- [x] `/uk/food-cost-percentage-calculator/` **new**
+- [x] `/uk/fraction-to-percentage-calculator/`
+- [x] `/uk/gpa-to-percentage-calculator/` **new**
+- [x] `/uk/gross-margin-calculator/` **new**
+- [x] `/uk/loan-interest-calculator/` **new**
+- [x] `/uk/marks-percentage-calculator/` **new**
+- [x] `/uk/markup-calculator/` **new**
+- [x] `/uk/percent-solution-calculator/` **new**
+- [x] `/uk/percentage-change-calculator/`
+- [x] `/uk/percentage-decrease-calculator/`
+- [x] `/uk/percentage-difference-calculator/`
+- [x] `/uk/percentage-error-calculator/`
+- [x] `/uk/percentage-growth-calculator/`
+- [x] `/uk/percentage-increase-calculator/`
+- [x] `/uk/percentage-of-a-percentage-calculator/` **new**
+- [x] `/uk/percentage-off-calculator/`
+- [x] `/uk/percentage-point-calculator/` **new**
+- [x] `/uk/percentile-to-percentage-calculator/` **new**
+- [x] `/uk/ppm-to-percentage-calculator/` **new**
+- [x] `/uk/profit-margin-calculator/` **new**
+- [x] `/uk/profit-percentage-calculator/` **new**
+- [x] `/uk/ratio-to-percentage-calculator/` **new**
+- [x] `/uk/reverse-percentage-calculator/`
+- [x] `/uk/salary-increase-calculator/` **new**
+- [x] `/uk/sgpa-to-percentage-calculator/` **new**
+- [x] `/uk/simple-interest-calculator/` **new**
+- [x] `/uk/slope-percentage-calculator/` **new**
+- [x] `/uk/tip-calculator/` **new**
+- [x] `/uk/win-loss-percentage-calculator/` **new**
+- [x] `/uk/page/about/`
+- [x] `/uk/page/contact/`
+- [x] `/uk/page/disclaimer/`
+- [x] `/uk/page/privacy-policy/`
+- [x] `/uk/page/terms-of-use/`
+- [x] `/uk/page/sitemap/` **new**
 
 ## vi - Vietnamese
 
