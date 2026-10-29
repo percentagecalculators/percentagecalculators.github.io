@@ -14,5 +14,56 @@
     "Percentage:": "Procent:",
     "e.g. 3": "np. 3",
     "e.g. 4": "np. 4"
-  }
+  },
+  "content_html": "<p>Zamiana ułamka na procenty to jedno z tych szybkich przeliczeń, które potrzebne jest ciągle — przy ocenach, rabatach, wynikach z laboratorium albo zwykłym sprawdzaniu własnych obliczeń — a ten <strong>kalkulator ułamka na procenty</strong> zrobi to od razu: dzieli <strong>licznik</strong> przez <strong>mianownik</strong> i mnoży wynik przez 100. Wpisz dowolny ułamek właściwy lub niewłaściwy, a dostaniesz zarówno równoważną liczbę dziesiętną, jak i końcowy procent, bez sięgania po kartkę i ołówek. Ten sam wzór działa też w odwrotnej kolejności, więc zamiana w drugą stronę jest równie prosta.</p>\n\n<h2>Jak działa ten kalkulator ułamka na procenty</h2>\n<p>Każdy kalkulator ułamka na procenty w internecie opiera się na tej samej logice w dwóch krokach: podziel, a potem pomnóż przez 100. Podajesz narzędziu licznik i mianownik (a przy liczbach mieszanych — opcjonalnie także część całkowitą), a ono zwraca procent, równoważną liczbę dziesiętną i — jeśli chcesz zobaczyć tok rozumowania — pełne obliczenia krok po kroku. Ten kalkulator pozwala też przejść w drugą stronę, od procentu do równoważnego ułamka, bez otwierania drugiej strony. Niektóre serwisy nazywają to samo narzędzie konwerterem ułamków, konwerterem procentów albo kalkulatorem ułamka na liczbę dziesiętną, ale matematyka pod spodem jest identyczna.</p>\n\n<h3>Wzór na zamianę ułamka na procenty</h3>\n<p>Wzór na zamianę ułamka na procenty jest prosty:</p>\n$$ P = \\frac{N}{D} \\times 100 $$\n<p>Gdzie <code>N</code> to licznik, <code>D</code> to mianownik, a <strong>P</strong> to szukany procent. Weźmy na przykład 3 i 4: 3 ÷ 4 × 100 daje 75%. Ten jeden wzór to wzór na zamianę ułamka na procenty, do którego sprowadza się każda metoda opisana na tej stronie — ręczne kroki poniżej zmieniają tylko kolejność działań.</p>\n\n<h3>Jak czytać dane wejściowe, wyniki i miejsca po przecinku</h3>\n<p>Większość kalkulatorów ułamka na procenty, także ten, prosi o trzy pola: licznik, mianownik i opcjonalną część całkowitą dla liczb mieszanych, takich jak 2 1/3. Wynik pokazuje procent zaokrąglony do rozsądnej liczby miejsc po przecinku oraz surową liczbę dziesiętną, dzięki czemu widać dokładnie, jak przebiegło zaokrąglenie. Jeśli ułamek nie dzieli się bez reszty — na przykład 1/3 — zobaczysz rozwinięcie okresowe, takie jak 0.3333, zanim zamieni się w 33.33%.</p>\n\n<aside>Wskazówka: jeśli mianownik ułamka wynosi już 100, to jest on już procentem — nie trzeba nic dzielić. 47/100 to po prostu 47%.</aside>\n\n<h2>Metody ręczne: wzór na zamianę ułamka na procenty i obliczenia krok po kroku</h2>\n<p>Jeśli wolisz pominąć ręczne liczenie, ten kalkulator ułamka na procenty sam stosuje wszystkie trzy poniższe metody. Jednak zrozumienie, jak przebiega zamiana na papierze, ułatwia sprawdzenie wyniku albo szybkie oszacowanie, gdy nie masz pod ręką kalkulatora.</p>\n\n<h3>Licznik i mianownik: najpierw dziel, potem mnóż przez 100</h3>\n<p>Podziel licznik przez mianownik, aby otrzymać liczbę dziesiętną, a następnie pomnóż ją przez 100, aby uzyskać procent. Dla 5/8: dzielenie 5 przez 8 daje 0.625, a po pomnożeniu przez 100 wychodzi 62.5%. Tej metody uczą w podręcznikach jako pierwszej, bo wprost odzwierciedla wzór — podziel, a potem przeskaluj przez 100.</p>\n<ul>\n  <li>Podziel licznik przez mianownik, aby otrzymać liczbę dziesiętną.</li>\n  <li>Pomnóż liczbę dziesiętną przez 100.</li>\n  <li>Dopisz do wyniku znak procentu.</li>\n</ul>\n\n<h3>Liczba dziesiętna na procent: najpierw mnóż, potem dziel</h3>\n<p>Możesz też najpierw pomnożyć licznik przez 100, a dopiero potem podzielić przez mianownik — kolejność nie zmienia wyniku, zmienia tylko wielkość liczb, na których pracujesz. Dla 5/8: pomnożenie 5 przez 100 daje 500, a podzielenie przez 8 daje 62.5%. Niektórzy uważają ten skrót zamiany liczby dziesiętnej na procent za wygodniejszy w pamięci, bo mnożenie przez 100 to po prostu przesunięcie przecinka o dwa miejsca w prawo przed dzieleniem.</p>\n<ol>\n  <li>Pomnóż licznik przez 100.</li>\n  <li>Podziel wynik przez mianownik.</li>\n  <li>Zaokrąglij do żądanej liczby miejsc po przecinku.</li>\n</ol>\n\n<h2>Zamiana procentu na ułamek</h2>\n<p>Przejście od wyniku w kalkulatorze procentowym z powrotem do ułamka to proces odwrotny i dokładnie to robi kalkulator procentu na ułamek. Przydaje się, gdy potrzebujesz dokładnego stosunku zamiast zaokrąglonej liczby dziesiętnej — w zadaniach z prawdopodobieństwa, przy skalowaniu przepisów albo przy upraszczaniu pomiaru.</p>\n\n<h3>Wzór na zamianę procentu na ułamek</h3>\n<p>Aby zamienić procent z powrotem na ułamek, umieść go nad 100, a potem skróć:</p>\n$$ \\frac{P}{100} = \\frac{N}{D} $$\n<p>Na przykład 35% zapisujemy jako 35/100. Skrócenie ułamka przez podzielenie licznika i mianownika przez ich wspólny dzielnik daje 7/20. Jeśli liczba ma miejsca po przecinku, jak 35.5%, mnóż licznik i mianownik przez 10 (albo 100, albo 1000), aż obie liczby będą całkowite, a dopiero potem skracaj ułamek.</p>\n\n<h3>Skracanie przez największy wspólny dzielnik</h3>\n<p>Sprowadzenie ułamka do najprostszej postaci oznacza podzielenie licznika i mianownika przez ich największy wspólny dzielnik (NWD). Dla 35/100 NWD wynosi 5, więc podzielenie obu liczb przez 5 daje 7/20 — tę samą wartość w najprostszej postaci. Umiejętność szybkiego wskazania NWD sprawia, że ręczne skracanie ułamków idzie znacznie szybciej niż skracanie po jednym czynniku.</p>\n\n<h2>Tabela zamiany ułamków na procenty: najczęstsze przeliczenia</h2>\n<p>Niektóre zamiany ułamków na procenty pojawiają się tak często, że opłaca się zapamiętać je zamiast dzielić za każdym razem. Poniższa tabela zawiera najpopularniejsze ułamki, ich liczby dziesiętne i procenty.</p>\n<table>\n  <thead>\n    <tr><th>Licznik</th><th>Mianownik</th><th>Liczba dziesiętna</th><th>Procent</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>2</td><td>0.5</td><td>50%</td></tr>\n    <tr><td>1</td><td>3</td><td>0.333</td><td>33.3%</td></tr>\n    <tr><td>1</td><td>4</td><td>0.25</td><td>25%</td></tr>\n    <tr><td>1</td><td>5</td><td>0.2</td><td>20%</td></tr>\n    <tr><td>3</td><td>4</td><td>0.75</td><td>75%</td></tr>\n    <tr><td>5</td><td>8</td><td>0.625</td><td>62.5%</td></tr>\n    <tr><td>7</td><td>20</td><td>0.35</td><td>35%</td></tr>\n  </tbody>\n</table>\n<p>Zauważ, że każda wartość w tabeli podlega tej samej regule: podziel licznik przez mianownik, a potem pomnóż przez 100. Gdy zapamiętasz kilka takich par ułamek–procent, będziesz szacować procenty w głowie, zanim jeszcze otworzysz kalkulator.</p>\n\n<h2>Dlaczego zamiana ułamków na procenty ma znaczenie: matematyka, statystyka i błąd procentowy</h2>\n<p>Przechodzenie między ułamkami a procentami to nie tylko ćwiczenie szkolne — pojawia się w matematyce, statystyce i codziennym rozumowaniu. Wynik sprawdzianu 42/50 niewiele mówi, dopóki nie zamienisz go na 84%, bo wtedy od razu można go porównać z dowolną inną skalą ocen. W statystyce proporcje z próby podaje się zwykle w procentach właśnie dlatego, że łatwiej je porównać na pierwszy rzut oka niż surowe ułamki.</p>\n<p>Ta sama matematyka leży u podstaw <strong>błędu procentowego</strong>, który mierzy, jak bardzo wartość eksperymentalna lub zmierzona odbiega od oczekiwanej. Jeśli mianownik oznacza wartość rzeczywistą, a licznik — różnicę między wartością zaobserwowaną a rzeczywistą, wzór na zamianę ułamka na procenty staje się wzorem na błąd procentowy — mechanika jest identyczna, zmienia się tylko znaczenie liczb. Niezależnie od tego, czy oceniasz sprawdzian, prowadzisz doświadczenie w laboratorium, czy czytasz margines błędu sondażu, swobodne poruszanie się między ułamkiem, liczbą dziesiętną i procentem to jedna z najbardziej uniwersalnych umiejętności matematycznych. Ta sama arytmetyka pojawia się także poza jedną lekcją: obliczanie GPA z surowych punktów ocen czy rozwiązywanie zadań z matematyki dyskretnej opierają się na dokładnie tej samej logice zamiany ułamka na procenty.</p>",
+  "faq": [
+    {
+      "question": "Ile to 3/4 w procentach?",
+      "answer": "3/4 to 75%. Obliczenie: (3 ÷ 4) × 100 = 75%."
+    },
+    {
+      "question": "Ile to 1/3 w procentach?",
+      "answer": "1/3 to w przybliżeniu 33.33% (w okresie). Obliczenie: (1 ÷ 3) × 100 = 33.333...%."
+    },
+    {
+      "question": "Ile to 2/3 w procentach?",
+      "answer": "2/3 to w przybliżeniu 66.67% (w okresie). Obliczenie: (2 ÷ 3) × 100 = 66.666...%."
+    },
+    {
+      "question": "Jak zamienić wynik sprawdzianu na procenty?",
+      "answer": "Podziel uzyskane punkty przez maksymalną liczbę punktów i pomnóż przez 100. Wynik 45/60: (45÷60) × 100 = 75%."
+    },
+    {
+      "question": "Ile to 5/8 w procentach?",
+      "answer": "5/8 to 62.5%. Obliczenie: (5 ÷ 8) × 100 = 62.5%."
+    },
+    {
+      "question": "Ile to 7/10 w procentach?",
+      "answer": "7/10 to 70%. Obliczenie: (7 ÷ 10) × 100 = 70%."
+    },
+    {
+      "question": "Czy ułamek może dać więcej niż 100%?",
+      "answer": "Tak, ułamki niewłaściwe (licznik > mianownik) dają procenty powyżej 100%. Na przykład 5/4 = 125%."
+    },
+    {
+      "question": "Ile to 1/8 w procentach?",
+      "answer": "1/8 to 12.5%. Obliczenie: (1 ÷ 8) × 100 = 12.5%."
+    },
+    {
+      "question": "Jak zamienić liczbę mieszaną na procenty?",
+      "answer": "Najpierw zamień ją na ułamek niewłaściwy. 1½ = 3/2 = (3÷2) × 100 = 150%."
+    },
+    {
+      "question": "Ile to 4/5 w procentach?",
+      "answer": "4/5 to 80%. Obliczenie: (4 ÷ 5) × 100 = 80%."
+    },
+    {
+      "question": "Co jeśli mianownik jest równy zero?",
+      "answer": "Dzielenie przez zero jest niewykonalne. Ułamek z mianownikiem zero nie ma poprawnego procentu."
+    },
+    {
+      "question": "Ile to 11/20 w procentach?",
+      "answer": "11/20 to 55%. Obliczenie: (11 ÷ 20) × 100 = 55%."
+    }
+  ]
 }

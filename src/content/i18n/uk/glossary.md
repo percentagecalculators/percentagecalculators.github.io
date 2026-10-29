@@ -42,6 +42,4 @@ Decisions (made 2026-10-29):
 | win/loss rate | відсоток перемог і поразок | |
 | solution concentration | концентрація розчину | |
 
-## Open for review (self-review by Claude)
-
 Open for review: no native reviewer yet.

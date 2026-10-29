@@ -14,5 +14,56 @@
     "New Value (Current)": "Nowa wartość (obecna)",
     "Old Value (Original)": "Stara wartość (początkowa)",
     "Percentage Change:": "Zmiana procentowa:"
-  }
+  },
+  "content_html": "<p>Czy porównujesz sprzedaż z tego miesiąca z poprzednim, sprawdzasz podwyżkę na wypłacie, czy chcesz wiedzieć, jak bardzo zmieniła się cena akcji, <strong>kalkulator zmiany procentowej</strong> odpowiada zawsze na to samo pytanie: jak duża była zmiana wyrażona w procentach? Wpisz liczbę początkową i końcową, a narzędzie od razu poda <strong>wzrost procentowy</strong> lub <strong>spadek procentowy</strong> między nimi. Poniżej znajdziesz wzór rozpisany krok po kroku, przykłady z liczbami ujemnymi oraz praktyczne zastosowania — od tempa wzrostu populacji po procent składany — dzięki którym to obliczenie jest jednym z najprzydatniejszych, jakie można wykonać na dwóch liczbach.</p>\n\n<h2>Czym jest kalkulator zmiany procentowej?</h2>\n<p>W istocie kalkulator zmiany procentowej stosuje jedno działanie matematyczne: bierze dwie liczby i wyraża różnicę między nimi w procentach, a nie jako stałą kwotę. To coś innego niż zwykłe odjęcie jednej liczby od drugiej, ponieważ zmiana procentowa uwzględnia skalę — wzrost o $10 znaczy znacznie więcej dla budżetu $50 niż dla $5,000. Dlatego kalkulator stosuje się w finansach, biznesie, ekonomii i statystyce oraz na lekcjach nauk ścisłych i matematyki, ilekroć trzeba porównać zmianę względem punktu wyjścia, a nie jako surową liczbę. Tę samą zależność można zapisać jako liczbę dziesiętną lub procent — kalkulator po prostu automatyzuje zamianę ilorazu na procent. Niektóre serwisy używają nazwy kalkulator zmiany procentowej, inne kalkulator procentowej zmiany wartości; to to samo narzędzie pod dwiema nazwami.</p>\n\n<h2>Wzór na zmianę procentową: jak ją obliczyć</h2>\n<p>Wzór na zmianę procentową, zwaną też zmianą w procentach, porównuje, jak daleko liczba przesunęła się względem punktu wyjścia:</p>\n$$ \\text{Zmiana procentowa} = \\frac{V_2 - V_1}{|V_1|} \\times 100 $$\n<p>Tutaj V<sub>1</sub> to wartość początkowa, a V<sub>2</sub> to wartość końcowa. Odejmij V<sub>1</sub> od V<sub>2</sub>, podziel przez wartość bezwzględną wartości początkowej, a następnie pomnóż przez 100. Wynik dodatni oznacza wzrost procentowy, a ujemny — spadek procentowy.</p>\n\n<h3>Wartość początkowa, końcowa i nowa</h3>\n<p>Każde obliczenie zmiany procentowej zaczyna się od dwóch liczb: początkowej i końcowej, czasem oznaczanych jako V<sub>1</sub> i V<sub>2</sub>. Kolejność ma znaczenie — zawsze odejmuj pierwszą od drugiej, nigdy odwrotnie, bo znaki plus i minus się odwrócą i wynik pokaże zły kierunek zmiany.</p>\n\n<h3>Liczby ujemne i wartość bezwzględna</h3>\n<p>Wartość bezwzględna w mianowniku istnieje właśnie z powodu liczb ujemnych. Bez niej dzielenie przez ujemną wartość początkową odwróciłoby znak wyniku i zamieniło rzeczywisty wzrost w raportowany spadek. Wartość bezwzględna oznacza po prostu odległość liczby od zera, niezależnie od tego, czy jest dodatnia, czy ujemna — matematycznie nazywa się ją też modułem liczby.</p>\n<aside>Częsty błąd: pominięcie wartości bezwzględnej, gdy liczba początkowa jest ujemna. To najczęstszy powód, dla którego obliczenie zmiany procentowej daje wynik z błędnym znakiem.</aside>\n\n<table>\n<tr><th>V<sub>1</sub> (początek)</th><th>V<sub>2</sub> (koniec)</th><th>Wynik (zmiana %)</th></tr>\n<tr><td>40</td><td>52</td><td>+30% (wzrost)</td></tr>\n<tr><td>-18</td><td>18</td><td>+200% (wzrost)</td></tr>\n<tr><td>-30</td><td>-45</td><td>-50% (spadek)</td></tr>\n</table>\n\n<p>Oto jak obliczyć zmianę procentową krok po kroku, przechodząc od 3.50 do 2.625:</p>\n<ol>\n<li>Oblicz różnicę: 2.625 − 3.50 = −0.875</li>\n<li>Podziel przez |V<sub>1</sub>|: −0.875 ÷ 3.50 = −0.25</li>\n<li>Pomnóż przez 100: −0.25 × 100 = <strong>−25% zmiany</strong>, czyli spadek o 25%</li>\n</ol>\n\n<h2>Zmiana procentowa a różnica procentowa</h2>\n<p>Zmianę procentową i różnicę procentową często się myli, ale nie są wymienne. Zmiana procentowa mierzy przejście od jednej konkretnej wartości do drugiej, więc kolejność ma znaczenie, a punkt wyjścia jest zawsze odniesieniem. Różnica procentowa porównuje natomiast dwie wartości, nie traktując żadnej z nich jako „przed”, i dzieli przez ich średnią — dlatego jest zawsze dodatnia, podczas gdy zmiana procentowa może być dodatnia lub ujemna, zależnie od kierunku.</p>\n\n<table>\n<tr><th>Miara</th><th>Wzór</th><th>Może być ujemna?</th></tr>\n<tr><td>Kierunkowa (ten kalkulator)</td><td>(V<sub>2</sub> − V<sub>1</sub>) / |V<sub>1</sub>| × 100</td><td>Tak — pokazuje wzrost lub spadek</td></tr>\n<tr><td>Symetryczna (oparta na różnicy)</td><td>|V<sub>1</sub> − V<sub>2</sub>| / ((V<sub>1</sub> + V<sub>2</sub>)/2) × 100</td><td>Nie — zawsze dodatnia</td></tr>\n</table>\n\n<h3>Błąd procentowy i margines różnicy</h3>\n<p>Pokrewnym pojęciem jest błąd procentowy, używany przy porównywaniu wartości zmierzonej lub oszacowanej z wartością prawdziwą, a nie przy śledzeniu zmian w czasie — spotyka się go często w nauce i pracy laboratoryjnej. Oblicza się go tak samo jak zmianę procentową, ale w kontekście dokładności: jak duży jest margines między tym, co zmierzono, a tym, co jest poprawne, wyrażony jako procent wartości prawdziwej?</p>\n\n<h2>Wzrost procentowy a spadek procentowy</h2>\n<p>Wzrost procentowy zawsze oznacza, że wartość końcowa jest większa od początkowej, a spadek procentowy — że jest mniejsza. Oba używają tego samego wzoru, ale każdy z góry ustala kierunek, więc wynik podaje się jako zwykły dodatni procent, a nie ze znakiem. Powyższy kalkulator obsługuje oba kierunki automatycznie: wynik dodatni oznacza wzrost, a ujemny — spadek.</p>\n\n<h3>Punkt procentowy a zmiana procentowa</h3>\n<p>Punkt procentowy to nie to samo co procent. Jeśli stopa rabatu zmienia się z 10% na 15%, to skok o 5 punktów procentowych — ale zmiana procentowa wynosi 50%, ponieważ 5 to połowa początkowych 10. Mylenie tych pojęć to jeden z najczęstszych błędów w raportach finansowych.</p>\n\n<p>Zmiana procentowa jest też ściśle związana z podstawowymi przeliczeniami procentów, bo każdy wynik można zapisać jako liczbę dziesiętną, zanim zamieni się go na procent widoczny w końcowej odpowiedzi:</p>\n<ul>\n<li>Liczba dziesiętna na procent</li>\n<li>Procent na liczbę dziesiętną</li>\n<li>Ułamek na procent</li>\n<li>Procent na ułamek</li>\n</ul>\n\n<h2>Zastosowania w praktyce: tempo wzrostu populacji, finanse i codzienna matematyka</h2>\n<p>Zmiana procentowa pojawia się ciągle poza szkolną ławką. Rabat przy kasie, napiwek w restauracji, podwyżka pensji, wahania cen akcji czy wskaźniki ekonomiczne, takie jak inflacja i VAT, to w gruncie rzeczy zmiany procentowe. Ten sam wzór napędza prognozy procentu składanego, porównania rat kredytu hipotecznego, planowanie dochodu na emeryturze i obliczenia wartości pieniądza w czasie — wszędzie tam, gdzie stopy procentowe lub zwroty z inwestycji trzeba mierzyć jako tempo zmiany, a nie stałą kwotę w dolarach. Podatek od sprzedaży działa odwrotnie — to stały procent doliczany do ceny, a nie zmiana między dwiema wartościami — ale matematyka procentów jest identyczna.</p>\n\n<h3>Tempo wzrostu populacji</h3>\n<p>Załóżmy, że liczba mieszkańców miasta rośnie ze 180,000 do 207,000 w ciągu dekady. Po zastosowaniu wzoru: (207,000 − 180,000) ÷ 180,000 × 100 = 15%. Te 15% pokazuje, o ile miasto się powiększyło w tym okresie — to samo obliczenie zastosujesz do danych o ludności USA, przychodów firmy czy pomiaru laboratoryjnego.</p>\n\n<h3>Zmiana procentowa w codziennym życiu</h3>\n<p>Ta sama matematyka pojawia się na lekcjach algebry, w sprawozdaniach z chemii i doświadczeniach z fizyki, wszędzie tam, gdzie zmierzoną wartość porównuje się z oczekiwaną. Uczeń obliczający, o ile wzrosła temperatura substancji podczas reakcji, czy firma śledząca wyniki kwartał do kwartału wykonują to samo obliczenie — zmieniają się tylko liczby i jednostki.</p>\n\n<p>Bez względu na kontekst — podwyżkę, wynik laboratoryjny czy szacunek liczby ludności — powyższy kalkulator w kilka sekund poda dokładny wynik z poprawnym znakiem, bez konieczności pamiętania wzoru czy zastanawiania się, która wartość trafia do mianownika. Teraz wiesz już, jak obliczyć zmianę procentową ręcznie, albo możesz po prostu zostawić to kalkulatorowi.</p>",
+  "faq": [
+    {
+      "question": "Jaka jest zmiana procentowa z 50 do 75?",
+      "answer": "Zmiana wynosi +50%. Obliczenie: ((75-50)/50) × 100 = 50%, czyli wzrost."
+    },
+    {
+      "question": "Jak obliczyć zmianę procentową w Excelu?",
+      "answer": "Użyj wzoru =(Nowa-Stara)/Stara*100 albo wpisz =(Nowa-Stara)/Stara i zastosuj format procentowy komórki."
+    },
+    {
+      "question": "Jaka jest zmiana procentowa z 80 do 60?",
+      "answer": "Zmiana wynosi -25%. Obliczenie: ((60-80)/80) × 100 = -25%, czyli spadek."
+    },
+    {
+      "question": "Dlaczego kolejność ma znaczenie przy zmianie procentowej?",
+      "answer": "Ponieważ mianownik (podstawa) musi być wartością początkową. Zamiana kolejności daje inny wynik: z 50 do 75 to +50%, ale z 75 do 50 to -33.3%."
+    },
+    {
+      "question": "Czy zmiana procentowa to to samo co tempo wzrostu?",
+      "answer": "Dla jednego okresu tak. Tempo wzrostu zwykle oznacza zmianę procentową w czasie, często składaną."
+    },
+    {
+      "question": "Co zrobić, gdy wartość początkowa jest ujemna?",
+      "answer": "Wzór nadal działa matematycznie, ale interpretacja jest trudniejsza. Przejście z -50 do -25 daje +50% (ruch w stronę zera)."
+    },
+    {
+      "question": "Co oznacza zmiana o -100%?",
+      "answer": "Zmiana o -100% oznacza, że wartość spadła do zera. Nie można spaść o więcej niż 100%, bo oznaczałoby to wartości ujemne."
+    },
+    {
+      "question": "Jak obliczyć zmianę rok do roku?",
+      "answer": "Użyj tego samego wzoru, przyjmując rok poprzedni jako wartość początkową, a bieżący jako nową. Wynik pokazuje roczny wzrost lub spadek."
+    },
+    {
+      "question": "Jaka jest zmiana z 0 do 100?",
+      "answer": "Matematycznie jest nieokreślona (dzielenie przez zero). Każda zmiana od zera jest w ujęciu procentowym nieskończona."
+    },
+    {
+      "question": "Czy zmiana procentowa może przekroczyć 100%?",
+      "answer": "Tak, w przypadku wzrostów. Zmiana z 20 do 100 to +400%. Spadki natomiast nie mogą przekroczyć 100%."
+    },
+    {
+      "question": "Jak porównać dwie zmiany procentowe?",
+      "answer": "Porównuj je bezpośrednio, jeśli dotyczą tego samego okresu bazowego. W przeciwnym razie przelicz je na ten sam przedział czasu lub użyj liczb wskaźnikowych."
+    },
+    {
+      "question": "Jaka jest różnica między zmianą bezwzględną a względną?",
+      "answer": "Zmiana bezwzględna to surowa różnica (Nowa - Stara). Zmiana względna (procentowa) to ta różnica jako proporcja wartości początkowej."
+    }
+  ]
 }

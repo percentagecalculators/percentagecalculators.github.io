@@ -14,5 +14,56 @@
     "Enter starting number": "Wpisz liczbę początkową",
     "New Value:": "Nowa wartość:",
     "Original Value": "Wartość początkowa"
-  }
+  },
+  "content_html": "<p>Spadek z jednej liczby do mniejszej zdarza się na każdym kroku: cena w wyprzedaży, obniżka pensji, miasto tracące mieszkańców. <strong>Kalkulator spadku procentowego</strong> powyżej zamienia taki spadek w jedną, porównywalną liczbę. Wpisz dwie liczby, a odejmowanie i dzielenie wykona za Ciebie. Poniżej znajdziesz dokładny wzór, uzasadnienie każdego kroku i tyle przykładów, że równie dobrze możesz przeliczyć wszystko ręcznie.</p>\n\n<h2>Jak obliczyć spadek procentowy?</h2>\n<p>Pytanie jest zawsze to samo: jak duży jest spadek w stosunku do wartości, od której zaczynasz? Wykonaj poniższe kroki, niezależnie od tego, czy porównujesz ceny, wynagrodzenia czy liczbę osób:</p>\n<ol>\n  <li>Odejmij liczbę końcową od liczby początkowej, aby obliczyć zwykłą różnicę.</li>\n  <li>Podziel tę różnicę przez wartość bezwzględną liczby początkowej.</li>\n  <li>Pomnóż wynik przez 100, aby zamienić liczbę dziesiętną na procent.</li>\n</ol>\n<p>Jeśli ostatni wynik jest ujemny, wartość tak naprawdę wzrosła, a nie spadła. Ujemny wynik to w istocie wzrost procentowy w przebraniu, więc warto najpierw sprawdzić, którą liczbę wpisano jako pierwszą.</p>\n\n<h2>Wzór na spadek procentowy: wartość początkowa i końcowa</h2>\n<p>Wzór, na którym działa kalkulator, jest na tyle krótki, że łatwo go zapamiętać, i na tyle ogólny, że obejmuje przeceny, obniżki pensji i każde inne malejące wartości:</p>\n<p>$$ \\text{Spadek procentowy} = \\frac{S - F}{|S|} \\times 100 $$</p>\n<p>gdzie <sub>S</sub> to wartość początkowa, a <sub>F</sub> to wartość końcowa. Dzięki zapisowi \\( \\%\\ \\text{spadek} = 100 \\times \\dfrac{(S - F)}{|S|} \\) otrzymasz ten sam wynik. Kreski <strong>wartości bezwzględnej</strong> mają tu znaczenie: dzięki nim mianownik pozostaje dodatni, nawet gdy sama wartość początkowa jest ujemna. Dlatego o tym, czy to wzrost, czy spadek, zawsze decyduje znak wyniku, a nie znaki liczb wejściowych.</p>\n\n<h3>Wartość pierwotna i nowa we wzorze</h3>\n<p>Łatwo pomylić, która liczba gdzie trafia. <strong>Wartość pierwotna</strong>, zwana też początkową, to zawsze to, od czego zaczynasz, zanim nastąpi zmiana, a wartość nowa to to, na czym kończysz. Jeśli je zamienisz, wzór nadal zadziała, ale zamiast spadku otrzymasz ujemny procent, bo w praktyce zmierzysz wzrost z powrotem do punktu wyjścia.</p>\n<aside><i>Wskazówka:</i> jeśli wynik wygląda na wzrost, choć spodziewałeś się spadku (albo odwrotnie), prawdopodobnie zamieniono kolejność liczb. Sprawdź jeszcze raz, która z nich jest punktem wyjścia.</aside>\n\n<h2>Spadek procentowy a wzrost procentowy</h2>\n<p>Spadek procentowy i wzrost procentowy opierają się na tym samym wzorze, różni je tylko kierunek zmiany. Obliczenie <strong>zmiany procentowej</strong>, czyli tak zwanego <strong>procentu zmiany</strong>, to pojęcie nadrzędne dla obu kierunków. Pokrewne, ale odrębne narzędzie, kalkulator <strong>różnicy procentowej</strong>, porównuje dwie wartości bez zakładania, która z nich była pierwsza w czasie. Dzieli przez <em>średnią</em> obu liczb, a nie przez wartość początkową, więc nie zawsze zgodzi się ze spadkiem procentowym dla tej samej pary wartości.</p>\n<ul>\n  <li>Przeceny i wyprzedaże w sklepach</li>\n  <li>Obniżki pensji lub kurczący się budżet domowy</li>\n  <li>Miasto lub kraj tracące mieszkańców z biegiem czasu</li>\n  <li>Masa ciała zapisywana przy kolejnych pomiarach</li>\n</ul>\n\n<h2>Do czego przydaje się kalkulator spadku procentowego na co dzień?</h2>\n<p>Matematyka jest prosta, ale o przydatności kalkulatora spadku procentowego decyduje to, gdzie się go stosuje: w codziennych rachunkach, finansach osobistych i podstawach ekonomii.</p>\n\n<h3>Rabat od ceny pierwotnej</h3>\n<p>Najczęstszy przypadek to handel. Jeśli <strong>cena pierwotna</strong> towaru wynosi $80, a kupon na 25 procent <strong>zniżki</strong> w weekendowej wyprzedaży obniża koszt do $60, to jest to zwykły 25-procentowy <strong>spadek</strong> ceny. Stopa rabatu i spadek procentowy to ta sama liczba, gdy rabat jest już podany w procentach. Porównanie <strong>dawnej ceny</strong> z kwotą, którą faktycznie zapłacisz, pozwala też sprawdzić, czy reklamowana obniżka jest rzeczywiście tak duża, jak głosi reklama.</p>\n\n<h3>Obniżka pensji i spadek wydatków</h3>\n<p>Ten sam wzór działa, gdy pieniądze płyną w drugą stronę. Firma, która w ciągu roku zmniejszyła budżet działu z $500,000 do $400,000, osiągnęła 20-procentowy spadek wydatków. Freelancer, którego przychód przed opodatkowaniem spadł z $80,000 do $46,400 po podatkach i słabszym kwartale, odnotował 42-procentowy <strong>spadek procentowy</strong>. Tak samo liczy się <strong>obniżka wynagrodzenia</strong>, gdzie pensja netto po obniżce jest po prostu liczbą końcową w tym samym równaniu. Startupy śledzące tempo spalania gotówki robią to co miesiąc, porównując wydatki z poprzedniego i bieżącego miesiąca, aby zobaczyć, czy koszty rzeczywiście maleją.</p>\n\n<h3>Tempo ubytku ludności w czasie</h3>\n<p>Demografowie stosują <strong>tempo ubytku ludności</strong> tak, jak sklepy stosują przecenę: miasto, które w ciągu roku skurczyło się z 1,000 do 950 mieszkańców, odnotowało 5-procentowy spadek. Wyrażenie malejącej liczby osób w procentach, a nie w liczbach bezwzględnych, pozwala porównywać miejsca o bardzo różnej wielkości, bo utrata 50 mieszkańców znaczy zupełnie co innego dla małego miasteczka niż dla dużego miasta.</p>\n\n<h3>Spadek bezwzględny a spadek procentowy</h3>\n<p><strong>Spadek bezwzględny</strong> to zwykła różnica między dwiema liczbami, bez dzielenia i bez znaku procentu. <strong>Spadek względny</strong> (wersja procentowa) mówi znacznie więcej o rzeczywistym znaczeniu tego spadku. Strata $1,000,000 w zysku brzmi tak samo, niezależnie od tego, czy firma w poprzednim roku zarobiła $2,000,000, czy $100,000,000, ale w procentach są to odpowiednio 50% i 1%: jedno to kryzys, drugie ledwie błąd zaokrąglenia. Ta sama zasada dotyczy utraty masy ciała: schudnięcie o 10 funtów przy masie początkowej 200 funtów to spadek o 5%, co daje więcej informacji niż sama liczba, zwłaszcza w odniesieniu do zdrowego zakresu masy ciała, gdzie liczy się procent, a nie wartość sama w sobie.</p>\n\n<h2>Przykłady obliczeń spadku procentowego</h2>\n<p>Przejście przez kilka pełnych przykładów od początku do końca sprawia, że wzorowi łatwiej zaufać niż po przeczytaniu go w abstrakcyjnej formie.</p>\n<table>\n  <thead>\n    <tr><th>Sytuacja</th><th>Przed</th><th>Po</th><th>Spadek procentowy</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>Zużycie energii przez żarówkę</td><td>60 watów</td><td>8 watów</td><td>86.67%</td></tr>\n    <tr><td>Towar po wyprzedaży</td><td>$100</td><td>$70</td><td>30%</td></tr>\n    <tr><td>Zysk firmy rok do roku</td><td>$2,000,000</td><td>$1,000,000</td><td>50%</td></tr>\n    <tr><td>Masa ciała po diecie</td><td>200 funtów</td><td>190 funtów</td><td>5%</td></tr>\n    <tr><td>Małe miasto, jeden rok</td><td>1,000</td><td>950</td><td>5%</td></tr>\n  </tbody>\n</table>\n<p>Zwróć uwagę na pierwszy wiersz: zastąpienie żarówki 60 W żarówką LED 8 W oznacza 86.67-procentowy spadek godzinowego zużycia energii. To znacznie więcej, niż większość osób spodziewa się po „niewielkiej” zmianie mocy, i dobry przykład tego, dlaczego procentowa postać różnicy często mówi więcej niż postać bezwzględna. W zapisie dziesiętnym to <strong>stosunek</strong> 0.8667, czyli taki <strong>ułamek</strong> pierwotnej mocy został wyeliminowany, zanim końcowe pomnożenie przez 100 zamieni go na procent odczytywany z <a href=\"#calculator\">kalkulatora spadku procentowego</a> powyżej.</p>\n\n<h2>Wzór na spadek procentowy poza kalkulatorem</h2>\n<p>Gdy potrafisz obliczyć spadek procentowy dla jednego rodzaju liczb, możesz <code>calculate percent decrease</code> dla każdego innego. Powyższy wzór to wspólna miara, dzięki której przecena o $20, utrata 5 funtów i kurcząca się liczba mieszkańców miasta są ze sobą bezpośrednio porównywalne. Z tego samego powodu <strong>kalkulator spadku procentowego</strong> i <strong>kalkulator obniżki procentowej</strong> to w gruncie rzeczy to samo narzędzie pod dwiema różnymi nazwami.</p>",
+  "faq": [
+    {
+      "question": "Jak odjąć 25% od liczby?",
+      "answer": "Pomnóż liczbę przez 0.75. Na przykład 200 - 25% = 200 × 0.75 = 150. Wartość spadku wynosi 50."
+    },
+    {
+      "question": "Ile to 80 minus 15 procent?",
+      "answer": "80 minus 15% to 68. Obliczenie: 80 × 0.15 = 12 (spadek), potem 80 - 12 = 68."
+    },
+    {
+      "question": "Jak obliczyć utratę wartości (amortyzację) składnika majątku?",
+      "answer": "Pomnóż wartość składnika przez (1 - stopa amortyzacji). Przy 20% amortyzacji z $10,000: $10,000 × 0.80 = $8,000."
+    },
+    {
+      "question": "Jaki jest wzór na odjęcie procentu?",
+      "answer": "Nowa wartość = wartość początkowa × (1 - procent/100). Dla zniżki 30% od $50: $50 × 0.70 = $35."
+    },
+    {
+      "question": "Ile wynosi 40% zniżki od $120?",
+      "answer": "$120 po zniżce 40% to $72. Obliczenie: $120 × 0.60 = $72. Oszczędzasz $48."
+    },
+    {
+      "question": "Co oznacza spadek o 100%?",
+      "answer": "Spadek o 100% obniża wartość do zera. 50 pomniejszone o 100% to 50 - 50 = 0."
+    },
+    {
+      "question": "Dlaczego po stracie 50% potrzebny jest zysk większy niż 50%, żeby odrobić stratę?",
+      "answer": "Bo procent zysku liczy się od pomniejszonej kwoty. Po stracie 50% zostaje połowa, a żeby wrócić do pełnej kwoty, potrzeba zysku 100%."
+    },
+    {
+      "question": "Jak działają kolejne rabaty?",
+      "answer": "Mnoży się je, a nie dodaje. Rabat 20%, potem 10%: 100 × 0.80 × 0.90 = 72 (łącznie 28%, a nie 30%)."
+    },
+    {
+      "question": "Ile to 500 pomniejszone o 35%?",
+      "answer": "500 pomniejszone o 35% to 325. Obliczenie: 500 × 0.65 = 325. Spadek wynosi 175."
+    },
+    {
+      "question": "Jak obliczyć cenę pierwotną sprzed rabatu?",
+      "answer": "Podziel cenę po obniżce przez (1 - rabat%). Jeśli zapłacono $60 po zniżce 25%: $60 ÷ 0.75 = $80 ceny pierwotnej."
+    },
+    {
+      "question": "Czy spadek może być ujemny?",
+      "answer": "Wpisanie ujemnego procentu w rzeczywistości zwiększyłoby wartość. Do zwiększania użyj kalkulatora wzrostu procentowego."
+    },
+    {
+      "question": "Ile to 1000 minus 7.5%?",
+      "answer": "1000 minus 7.5% to 925. Obliczenie: 1000 × 0.075 = 75, potem 1000 - 75 = 925."
+    }
+  ]
 }
