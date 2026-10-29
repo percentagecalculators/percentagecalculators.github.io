@@ -257,12 +257,12 @@ that may still be unwritten for some tools.
 
 | Hub | File | Keyword | Volume | Supporters |
 |---|---|---|---|---|
-| D — Core comparison | `percentage-increase-calculator.html` | "percentage increase calculator" | 301,000/mo | percentage-decrease-calculator, percentage-change-calculator, percentage-off-calculator, reverse-percentage-calculator, percentage-error-calculator, average-percentage-calculator, percentage-point-calculator |
+| D — Core comparison | `percentage-increase-calculator.html` | "percentage increase calculator" | 301,000/mo | percentage-decrease-calculator, percentage-change-calculator, percentage-off-calculator, reverse-percentage-calculator, percentage-error-calculator, average-percentage-calculator, percentage-point-calculator, percentage-of-a-percentage-calculator |
 | E — Finance/Interest | `apy-calculator.html` | "apy calculator" | 49,500/mo | apr-calculator, apr-apy-converter, simple-interest-calculator, compound-interest-calculator, loan-interest-calculator, percentage-growth-calculator |
 | F — Finance/Profit | `profit-percentage-calculator.html` | "formula for percentage profit" | 33,100/mo | profit-margin-calculator, markup-calculator, gross-margin-calculator, salary-increase-calculator, commission-calculator, depreciation-calculator |
 
-2 pillars + 6 hubs + 33 supporters = 41 of the site's 42 tools (`percentage-of-a-percentage-calculator`
-was added later and isn't yet slotted into a hub — falls back to the generic same-category picks).
+2 pillars + 6 hubs + 34 supporters = all 42 of the site's tools (`percentage-of-a-percentage-calculator`
+is the last supporter of Hub D, so it gets the normal 2-3 supporter cards).
 No cross-pillar bridging — the two pillar groups rotate and bridge fully independently.
 
 ### Grid link counts (strict — matches the classic methodology exactly)
