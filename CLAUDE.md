@@ -407,6 +407,14 @@ so `build_data.py` is not involved.
 - **Generated per page:** `<html lang>`, self-referencing canonical, `hreflang` alternates for every
   built language + `x-default` (English pages get them too), `inLanguage` in the JSON-LD, a header
   language switcher + mobile-drawer language list, and `xhtml:link` alternates in `sitemap.xml`.
+  The `<html lang>` / `hreflang` / `inLanguage` code comes from one place, `LANGUAGES[lang][1]` in
+  `generate.py`. It equals the folder name except for Chinese, which uses script subtags:
+  `/zh-cn/` -> `zh-Hans` (Simplified), `/zh-tw/` -> `zh-Hant` (Traditional). Folder/URL names stay
+  `zh-cn`/`zh-tw` (don't rename: no redirects exist); only the tag changed, so it describes the script
+  split instead of relying on Google to derive it from `zh-CN`/`zh-TW`. Never hand-write these codes
+  elsewhere. `python3 utilities/hreflang_audit.py` audits the built `public/` (full 20-entry set,
+  self-reference == canonical, `<html lang>` match, return links, sitemap == page tags; exits 1 on
+  any issue) and has the expected codes hard-coded: update it if `LANGUAGES` changes.
 - **Silo rotation** runs per language: every built language gets its own independent silo with
   exactly the English structure and monthly shuffle (the card *slugs* are identical across languages;
   only the text and `/<lang>/` URLs are localized, and links never leave the language). The script
