@@ -1,6 +1,6 @@
 # Content translation checklist (second pass: `content_html` + FAQ)
 
-18 languages x 42 articles = 756 article items, plus 198 FAQ sets (127 Q&A per language) = 954 boxes. English source: `src/content/<slug>.json` (`content_html`, `faq`). About 67,183 words per language.
+23 languages x 42 articles = 966 article items, plus 253 FAQ sets (127 Q&A per language) = 1,219 boxes. English source: `src/content/<slug>.json` (`content_html`, `faq`). About 67,183 words per language.
 
 Infographics (`<figure>`/`<img>`, home page) are not imported: leave them out of the translated `content_html`.
 
@@ -257,6 +257,65 @@ Tick a box only when ALL are true: written in `src/content/i18n/<lang>/<slug>.js
 - [x] `/es/tip-calculator/` article (1,479 words, 8 sections)
 - [x] `/es/win-loss-percentage-calculator/` article (1,816 words, 9 sections)
 - [x] `es` final: validate --all, build, silo audit, functional test, browser spot-check, committed
+
+## fa - Persian (RTL)
+
+- [x] `fa` glossary reviewed (self-review by Claude, no native reviewer)
+- [x] `fa` pilots: not run as a separate step (no pilots any more; all 42 written in one pass, self-review by Claude, no native reviewer)
+- [x] `/fa/` article (1,802 words, 6 sections)
+- [x] `/fa/` FAQ (6 Q&A)
+- [x] `/fa/alcohol-proof-calculator/` article (1,654 words, 5 sections)
+- [x] `/fa/apr-apy-converter/` article (1,703 words, 9 sections)
+- [x] `/fa/apr-calculator/` article (2,037 words, 9 sections)
+- [x] `/fa/apy-calculator/` article (1,467 words, 6 sections)
+- [x] `/fa/average-percentage-calculator/` article (1,955 words, 5 sections)
+- [x] `/fa/average-percentage-calculator/` FAQ (13 Q&A)
+- [x] `/fa/bakers-percentage-calculator/` article (1,986 words, 8 sections)
+- [x] `/fa/basis-points-calculator/` article (1,500 words, 7 sections)
+- [x] `/fa/cgpa-to-percentage-calculator/` article (2,233 words, 12 sections)
+- [x] `/fa/commission-calculator/` article (1,972 words, 7 sections)
+- [x] `/fa/compound-interest-calculator/` article (2,055 words, 8 sections)
+- [x] `/fa/decimal-to-percentage-calculator/` article (1,377 words, 6 sections)
+- [x] `/fa/depreciation-calculator/` article (1,565 words, 6 sections)
+- [x] `/fa/food-cost-percentage-calculator/` article (2,586 words, 8 sections)
+- [x] `/fa/fraction-to-percentage-calculator/` article (1,133 words, 5 sections)
+- [x] `/fa/fraction-to-percentage-calculator/` FAQ (12 Q&A)
+- [x] `/fa/gpa-to-percentage-calculator/` article (1,594 words, 9 sections)
+- [x] `/fa/gross-margin-calculator/` article (1,705 words, 7 sections)
+- [x] `/fa/loan-interest-calculator/` article (1,870 words, 8 sections)
+- [x] `/fa/marks-percentage-calculator/` article (1,573 words, 4 sections)
+- [x] `/fa/markup-calculator/` article (1,762 words, 7 sections)
+- [x] `/fa/percent-solution-calculator/` article (1,447 words, 5 sections)
+- [x] `/fa/percentage-change-calculator/` article (1,190 words, 5 sections)
+- [x] `/fa/percentage-change-calculator/` FAQ (12 Q&A)
+- [x] `/fa/percentage-decrease-calculator/` article (1,185 words, 6 sections)
+- [x] `/fa/percentage-decrease-calculator/` FAQ (12 Q&A)
+- [x] `/fa/percentage-difference-calculator/` article (1,572 words, 6 sections)
+- [x] `/fa/percentage-difference-calculator/` FAQ (12 Q&A)
+- [x] `/fa/percentage-error-calculator/` article (1,470 words, 7 sections)
+- [x] `/fa/percentage-error-calculator/` FAQ (12 Q&A)
+- [x] `/fa/percentage-growth-calculator/` article (1,485 words, 5 sections)
+- [x] `/fa/percentage-growth-calculator/` FAQ (12 Q&A)
+- [x] `/fa/percentage-increase-calculator/` article (1,417 words, 6 sections)
+- [x] `/fa/percentage-increase-calculator/` FAQ (12 Q&A)
+- [x] `/fa/percentage-of-a-percentage-calculator/` article (1,353 words, 7 sections)
+- [x] `/fa/percentage-off-calculator/` article (1,404 words, 6 sections)
+- [x] `/fa/percentage-off-calculator/` FAQ (12 Q&A)
+- [x] `/fa/percentage-point-calculator/` article (1,466 words, 5 sections)
+- [x] `/fa/percentile-to-percentage-calculator/` article (1,278 words, 4 sections)
+- [x] `/fa/ppm-to-percentage-calculator/` article (1,333 words, 5 sections)
+- [x] `/fa/profit-margin-calculator/` article (1,437 words, 7 sections)
+- [x] `/fa/profit-percentage-calculator/` article (1,619 words, 6 sections)
+- [x] `/fa/ratio-to-percentage-calculator/` article (1,405 words, 7 sections)
+- [x] `/fa/reverse-percentage-calculator/` article (1,610 words, 9 sections)
+- [x] `/fa/reverse-percentage-calculator/` FAQ (12 Q&A)
+- [x] `/fa/salary-increase-calculator/` article (1,490 words, 6 sections)
+- [x] `/fa/sgpa-to-percentage-calculator/` article (2,038 words, 14 sections)
+- [x] `/fa/simple-interest-calculator/` article (1,631 words, 7 sections)
+- [x] `/fa/slope-percentage-calculator/` article (1,297 words, 5 sections)
+- [x] `/fa/tip-calculator/` article (1,443 words, 8 sections)
+- [x] `/fa/win-loss-percentage-calculator/` article (1,878 words, 9 sections)
+- [x] `fa` final: validate --all, build, silo audit, functional test, browser spot-check, committed
 
 ## fr - French
 

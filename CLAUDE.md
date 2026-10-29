@@ -360,7 +360,7 @@ so `build_data.py` is not involved.
   `/<lang>/page/<name>/` (about, contact, disclaimer, privacy-policy, terms-of-use, sitemap).
   English stays flat (`/slug`). Output is `public/<lang>/.../index.html`. The 23 language codes are
   `ar bn de es fa fr hi id it ja ko ms nl pl pt ro ru th tr uk vi zh-cn zh-tw` (`LANGUAGES` in `generate.py`; all 23
-  are built; fa, pl, ro, tr and uk have the first pass only, no `content_html`/`faq` yet). `ar` and `fa` render `dir="rtl"` (`RTL_LANGS`): the templates use logical utilities (`ms-auto`, `ps-5`,
+  are built, each with both passes). `ar` and `fa` render `dir="rtl"` (`RTL_LANGS`): the templates use logical utilities (`ms-auto`, `ps-5`,
   `end-0`, `text-start`) instead of `ml-auto`/`pl-5`/`right-0`/`text-left` so layouts mirror, and
   `base.css` keeps `<output>` and the formula line LTR. Use logical utilities in any new markup.
 - **Files per language:** `<slug>.json` per tool (home = `percentage-calculator.json`) with
@@ -380,7 +380,7 @@ so `build_data.py` is not involved.
 - **Validate:** `python3 utilities/i18n/validate.py <lang> <slug|pages|ui>` or `--all` (tag skeleton,
   LaTeX, FAQ count, `card_strings` coverage, page/section/list counts, ui.json completeness).
   `utilities/i18n/translation-checklist.md` tracks all 1,104 URLs (23 languages x 48 pages).
-- **Content pass (articles + FAQ):** the 18 languages other than fa/pl/ro/tr/uk carry `content_html` and `faq` for all 42 tools
+- **Content pass (articles + FAQ):** all 23 languages carry `content_html` and `faq` for all 42 tools
   (the 11 tools with an English FAQ: percentage-calculator, average, fraction, change, decrease,
   difference, error, growth, increase, off, reverse). Rules and method are in
   `utilities/i18n/content-translation-guide.md`; progress in `content-translation-checklist.md`.
