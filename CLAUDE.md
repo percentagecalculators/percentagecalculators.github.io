@@ -358,9 +358,9 @@ so `build_data.py` is not involved.
 
 - **URLs** keep the legacy site's structure: `/<lang>/` (home), `/<lang>/<slug>/`,
   `/<lang>/page/<name>/` (about, contact, disclaimer, privacy-policy, terms-of-use, sitemap).
-  English stays flat (`/slug`). Output is `public/<lang>/.../index.html`. The 18 language codes are
-  `ar bn de es fr hi id it ja ko ms nl pt ru th vi zh-cn zh-tw` (`LANGUAGES` in `generate.py`; all 18
-  are built). `ar` renders `dir="rtl"`: the templates use logical utilities (`ms-auto`, `ps-5`,
+  English stays flat (`/slug`). Output is `public/<lang>/.../index.html`. The 23 language codes are
+  `ar bn de es fa fr hi id it ja ko ms nl pl pt ro ru th tr uk vi zh-cn zh-tw` (`LANGUAGES` in `generate.py`; all 23
+  are built; fa, pl, ro, tr and uk have the first pass only, no `content_html`/`faq` yet). `ar` and `fa` render `dir="rtl"` (`RTL_LANGS`): the templates use logical utilities (`ms-auto`, `ps-5`,
   `end-0`, `text-start`) instead of `ml-auto`/`pl-5`/`right-0`/`text-left` so layouts mirror, and
   `base.css` keeps `<output>` and the formula line LTR. Use logical utilities in any new markup.
 - **Files per language:** `<slug>.json` per tool (home = `percentage-calculator.json`) with
@@ -379,8 +379,8 @@ so `build_data.py` is not involved.
   nothing if anything is missing), writes the JSON files, validates and ticks the checklist.
 - **Validate:** `python3 utilities/i18n/validate.py <lang> <slug|pages|ui>` or `--all` (tag skeleton,
   LaTeX, FAQ count, `card_strings` coverage, page/section/list counts, ui.json completeness).
-  `utilities/i18n/translation-checklist.md` tracks all 864 URLs (18 languages x 48 pages).
-- **Content pass (articles + FAQ):** all 18 languages carry `content_html` and `faq` for all 42 tools
+  `utilities/i18n/translation-checklist.md` tracks all 1,104 URLs (23 languages x 48 pages).
+- **Content pass (articles + FAQ):** the 18 languages other than fa/pl/ro/tr/uk carry `content_html` and `faq` for all 42 tools
   (the 11 tools with an English FAQ: percentage-calculator, average, fraction, change, decrease,
   difference, error, growth, increase, off, reverse). Rules and method are in
   `utilities/i18n/content-translation-guide.md`; progress in `content-translation-checklist.md`.
@@ -402,8 +402,8 @@ so `build_data.py` is not involved.
   - Not yet reviewed by native speakers; open items are listed at the bottom of each glossary.
 - **Functional test:** `NODE_PATH=.test-cache/node_modules node utilities/i18n/test_tools.js [lang ...]`
   (needs `npm install --prefix .test-cache jsdom` once (own folder: installing into `.tailwind-cache` prunes the Tailwind toolchain)) loads every built page in jsdom, fills each
-  tool's inputs and checks that all 19 languages give the same results as English, with no script
-  errors and a working reset button (798 pages). Run it after `generate.py`.
+  tool's inputs and checks that all 24 languages give the same results as English, with no script
+  errors and a working reset button (1,008 pages). Run it after `generate.py`.
 - **Generated per page:** `<html lang>`, self-referencing canonical, `hreflang` alternates for every
   built language + `x-default` (English pages get them too), `inLanguage` in the JSON-LD, a header
   language switcher + mobile-drawer language list, and a plain one-`<loc>`-per-line `sitemap.xml` (hreflang stays in each page's `<head>`; repeating it in the sitemap made a 2.2 MB single line that froze browsers' XML viewers).
@@ -412,7 +412,7 @@ so `build_data.py` is not involved.
   `/zh-cn/` -> `zh-Hans` (Simplified), `/zh-tw/` -> `zh-Hant` (Traditional). Folder/URL names stay
   `zh-cn`/`zh-tw` (don't rename: no redirects exist); only the tag changed, so it describes the script
   split instead of relying on Google to derive it from `zh-CN`/`zh-TW`. Never hand-write these codes
-  elsewhere. `python3 utilities/hreflang_audit.py` audits the built `public/` (full 20-entry set,
+  elsewhere. `python3 utilities/hreflang_audit.py` audits the built `public/` (full 25-entry set,
   self-reference == canonical, `<html lang>` match, return links, sitemap == page tags; exits 1 on
   any issue) and has the expected codes hard-coded: update it if `LANGUAGES` changes.
 - **Silo rotation** runs per language: every built language gets its own independent silo with

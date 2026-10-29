@@ -118,6 +118,7 @@ core concept, the term **real users search for**, not the dictionary term:
 | bn | Bengali | Bengali script; Western digits kept | Polite `আপনি` |
 | de | German | Latin | Formal `Sie`; `&nbsp;%` |
 | es | Spanish | Latin; Latin American-neutral Spanish (costo, tasa, tarea); `%` attached | `tú`, impersonal where possible |
+| fa | Persian | RTL; Western digits, `%` attached; Persian ی/ک, ZWNJ in compounds | Formal-polite `شما`/impersonal |
 | fr | French | Latin; `&nbsp;` before `%` and before `: ; ? !` | `vous` |
 | hi | Hindi | Devanagari; Western digits kept | `आप` |
 | id | Indonesian | Latin | Standard, `Anda` |
@@ -126,9 +127,13 @@ core concept, the term **real users search for**, not the dictionary term:
 | ko | Korean | Hangul; spacing rules | `합니다` style (formal polite) |
 | ms | Malay | Latin; Malaysian standard | Standard, `anda` |
 | nl | Dutch | Latin | `u` or neutral; choose once |
+| pl | Polish | Latin with diacritics; `20%` attached | Impersonal, neutral |
 | pt | Portuguese | Latin; pick Brazilian (largest audience) and state it in the glossary | `você`/impersonal |
+| ro | Romanian | Latin; comma-below ș ț; `20%` attached | Informal-polite `tu` imperatives |
 | ru | Russian | Cyrillic; plural forms; `&nbsp;%` | `вы` |
 | th | Thai | No spaces between words | Polite particles used sparingly, neutral |
+| tr | Turkish | Latin; dotted/dotless i; `%20` prefix in prose | `siz`/impersonal |
+| uk | Ukrainian | Cyrillic; Ukrainian terms, not Russian calques | `ви` |
 | vi | Vietnamese | Latin with diacritics | `bạn` |
 | zh-cn | Chinese (Simplified) | Mainland terminology, full-width punctuation | Neutral |
 | zh-tw | Chinese (Traditional) | Taiwan terminology (not an OpenCC conversion of zh-cn), full-width punctuation | Neutral |
