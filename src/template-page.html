@@ -62,37 +62,6 @@
 
 {{SITE_FOOTER}}
 
-<script>
-{{NAV_JS_CORE}}
-  function wrapTables() {
-    document.querySelectorAll('.article table').forEach(function (table) {
-      if (table.closest('.table-scroll')) return;
-      var wrap = document.createElement('div');
-      wrap.className = 'table-scroll overflow-x-auto';
-      table.parentNode.insertBefore(wrap, table);
-      wrap.appendChild(table);
-    });
-  }
-  function renderMath() {
-    if (typeof renderMathInElement === 'undefined') return;
-    document.querySelectorAll('.article').forEach(function (el) {
-      renderMathInElement(el, {
-        delimiters: [
-          { left: '$$', right: '$$', display: true },
-          { left: '\\(', right: '\\)', display: false }
-        ],
-        throwOnError: false
-      });
-    });
-  }
-  document.addEventListener('DOMContentLoaded', function () {
-    initThemeToggle();
-    var closeAll = initCategoryDropdowns();
-    initPriorityNav(closeAll);
-    initMobileDrawer();
-    wrapTables();
-    renderMath();
-  });
-</script>
+<script defer src="/site.min.js?v={{SITE_JS_VERSION}}"></script>
 </body>
 </html>

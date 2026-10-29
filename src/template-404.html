@@ -43,14 +43,6 @@
 
 {{SITE_FOOTER}}
 
-<script>
-{{NAV_JS_CORE}}
-  document.addEventListener('DOMContentLoaded', function () {
-    initThemeToggle();
-    var closeAll = initCategoryDropdowns();
-    initPriorityNav(closeAll);
-    initMobileDrawer();
-  });
-</script>
+<script defer src="/site.min.js?v={{SITE_JS_VERSION}}"></script>
 </body>
 </html>

@@ -49,13 +49,13 @@
 {{SITE_HEADER}}
 {{MOBILE_DRAWER}}
 
-<main id="main-content">
+<main id="main-content" data-copy-label="{{COPY_LABEL}}" data-copied-label="{{COPIED_LABEL}}">
     {{BREADCRUMBS}}
 
     <section id="calculator" class="mx-auto max-w-7xl px-4 pb-4 pt-6 sm:px-6 sm:pt-8">
         <div class="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]">
             <div class="tool-section lg:col-start-1 lg:row-start-1">
-                <form class="h-full" data-mode="{{TOOL_MODE}}" data-layout="{{TOOL_LAYOUT}}"{{TOOL_DATA_ATTRS}} novalidate>
+                <form class="h-full" aria-labelledby="tool-title" data-mode="{{TOOL_MODE}}" data-layout="{{TOOL_LAYOUT}}"{{TOOL_DATA_ATTRS}} novalidate>
                     {{TOOL_CARD_BODY}}
                 </form>
                 {{TOOL_WARNING}}
@@ -81,119 +81,6 @@
 
 {{TOOL_EXTRA_SCRIPTS}}
 <script>{{TOOL_SCRIPT}}</script>
-<script>
-{{NAV_JS_CORE}}
-  function wrapTables() {
-    document.querySelectorAll('.article table').forEach(function (table) {
-      if (table.closest('.table-scroll')) return;
-      var wrap = document.createElement('div');
-      wrap.className = 'table-scroll overflow-x-auto';
-      table.parentNode.insertBefore(wrap, table);
-      wrap.appendChild(table);
-    });
-  }
-  function initToolForm() {
-    var form = document.querySelector('.tool-section form');
-    if (!form) return;
-    form.addEventListener('submit', function (e) { e.preventDefault(); });
-    var resetBtn = form.querySelector('.reset-btn');
-    if (!resetBtn) return;
-    resetBtn.addEventListener('click', function () {
-      form.reset();
-      // form.reset() clears input/textarea values but fires no 'input'
-      // event, so each field's own oninput="calculate()" (or, on the
-      // tabbed home-page tool, calcBasic()/calcChange()/calcReverse())
-      // never re-runs. Dispatching 'input' on every field re-invokes
-      // whichever handler is already wired to it, which is also what
-      // resets that tool's own <output>s/formula line back to their
-      // empty state -- no per-tool JS needed here.
-      form.querySelectorAll('input, textarea, select').forEach(function (field) {
-        field.dispatchEvent(new Event('input', { bubbles: true }));
-      });
-      var firstField = form.querySelector('input, textarea');
-      if (firstField) firstField.focus();
-    });
-  }
-  function renderMath() {
-    // content_html's formulas use $$...$$ (display) and \(...\) (inline) —
-    // never single-$ delimiters, since the site is full of literal dollar
-    // amounts ($5,000 etc.) that would otherwise be misparsed as math.
-    if (typeof renderMathInElement === 'undefined') return;
-    document.querySelectorAll('.article').forEach(function (el) {
-      renderMathInElement(el, {
-        delimiters: [
-          { left: '$$', right: '$$', display: true },
-          { left: '\\(', right: '\\)', display: false }
-        ],
-        throwOnError: false
-      });
-    });
-  }
-  function initCopyButtons() {
-    // Wraps each primary result <output> (one per calculator section, tagged
-    // by the shared .calc-result-row.primary/.calc-results markup every
-    // tool's fields_html already uses) with a small copy-to-clipboard button,
-    // injected once here rather than authored per-tool so every calculator
-    // -- present and future -- gets it for free.
-    document.querySelectorAll('.calc-result-row.primary').forEach(function (row) {
-      var output = row.querySelector('output.value');
-      if (!output || output.dataset.copyWired) return;
-      output.dataset.copyWired = 'true';
-      var wrap = document.createElement('span');
-      wrap.className = 'inline-flex items-center gap-2';
-      output.parentNode.insertBefore(wrap, output);
-      wrap.appendChild(output);
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'copy-btn flex h-7 w-7 flex-none items-center justify-center rounded-lg border border-border bg-surface text-text-muted transition-colors hover:border-accent hover:text-accent';
-      btn.setAttribute('aria-label', {{JS_COPY_RESULT}});
-      btn.setAttribute('title', {{JS_COPY_RESULT}});
-      btn.innerHTML =
-        '<svg class="copy-icon h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>' +
-        '<svg class="check-icon h-4 w-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" hidden><path d="M20 6 9 17l-5-5"/></svg>';
-      wrap.appendChild(btn);
-      var copyIcon = btn.querySelector('.copy-icon');
-      var checkIcon = btn.querySelector('.check-icon');
-      var revertTimer;
-      btn.addEventListener('click', function () {
-        var text = output.textContent.trim();
-        if (!text || text === '–') return;
-        var showCopied = function () {
-          copyIcon.hidden = true;
-          checkIcon.hidden = false;
-          btn.setAttribute('title', {{JS_COPIED}});
-          clearTimeout(revertTimer);
-          revertTimer = setTimeout(function () {
-            copyIcon.hidden = false;
-            checkIcon.hidden = true;
-            btn.setAttribute('title', {{JS_COPY_RESULT}});
-          }, 1500);
-        };
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(text).then(showCopied, function () {});
-        } else {
-          var ta = document.createElement('textarea');
-          ta.value = text;
-          ta.style.position = 'fixed';
-          ta.style.opacity = '0';
-          document.body.appendChild(ta);
-          ta.select();
-          try { document.execCommand('copy'); showCopied(); } catch (e) {}
-          document.body.removeChild(ta);
-        }
-      });
-    });
-  }
-  document.addEventListener('DOMContentLoaded', function () {
-    initThemeToggle();
-    var closeAll = initCategoryDropdowns();
-    initPriorityNav(closeAll);
-    initMobileDrawer();
-    wrapTables();
-    initToolForm();
-    initCopyButtons();
-    renderMath();
-  });
-</script>
+<script defer src="/site.min.js?v={{SITE_JS_VERSION}}"></script>
 </body>
 </html>

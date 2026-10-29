@@ -66,23 +66,15 @@ print('pages WITHOUT hreflang:',len(nohl)); [print('  ',x) for x in sorted(nohl)
 if not issues: print('NO ISSUES in per-page checks')
 for k,v in issues.items():
     print(f'\n{k}: {len(v)}'); [print('  ',x) for x in v[:8]]
-# sitemap
+# sitemap: lists exactly the pages that carry hreflang (alternates live in each page's <head>, not here)
 sm=open(ROOT+'/sitemap.xml',encoding='utf-8').read()
-locs=re.findall(r'<loc>([^<]*)</loc>',sm); print('\nsitemap urls',len(locs),'xhtml links',len(re.findall('xhtml:link',sm)))
+locs=re.findall(r'<loc>([^<]*)</loc>',sm); print('\nsitemap urls',len(locs))
 bad=[u for u in locs if not url_to_file(u)]; print('sitemap urls w/o file:',len(bad),bad[:5])
-# sitemap vs page consistency
-mism=0
-for m in re.finditer(r'<url>(.*?)</url>',sm,re.S):
-    b=m.group(1); loc=re.search(r'<loc>([^<]*)',b).group(1)
-    sa=dict(re.findall(r'hreflang="([^"]*)"[^>]*href="([^"]*)"',b)) or dict((h,u) for u,h in re.findall(r'href="([^"]*)"[^>]*hreflang="([^"]*)"',b))
-    tf=url_to_file(loc)
-    if tf in info and info[tf][1] and sa!=info[tf][1]:
-        mism+=1
-        if mism<=5: print('  sitemap/page mismatch',loc, set(sa.items())^set(info[tf][1].items()))
-print('sitemap vs page hreflang mismatches:',mism)
 def norm(rel): return (BASE+'/'+rel.replace('index.html','').replace('.html','')).rstrip('/')
-inmap={u.rstrip('/') for u in locs}
-missing=[os.path.relpath(p,ROOT) for p in pages if info[p][1] and norm(os.path.relpath(p,ROOT)) not in inmap]
-print('pages with hreflang not in sitemap:',len(missing),missing[:5])
-
-sys.exit(1 if issues or mism or bad or len(nohl)>2 else 0)
+want={norm(os.path.relpath(p,ROOT)) for p in pages if info[p][1]}
+have={u.rstrip('/') for u in locs}
+mism=len(want^have)
+print('sitemap vs pages with hreflang: missing from sitemap',sorted(want-have)[:5],'| not in pages',sorted(have-want)[:5])
+print('duplicate sitemap urls:',len(locs)-len(set(locs)))
+if len(sm.splitlines())<3: print('sitemap is a single line (hard to read/render)'); mism+=1
+sys.exit(1 if issues or mism or bad or len(nohl)>2 or len(locs)!=len(set(locs)) else 0)

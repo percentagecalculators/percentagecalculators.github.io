@@ -406,7 +406,7 @@ so `build_data.py` is not involved.
   errors and a working reset button (798 pages). Run it after `generate.py`.
 - **Generated per page:** `<html lang>`, self-referencing canonical, `hreflang` alternates for every
   built language + `x-default` (English pages get them too), `inLanguage` in the JSON-LD, a header
-  language switcher + mobile-drawer language list, and `xhtml:link` alternates in `sitemap.xml`.
+  language switcher + mobile-drawer language list, and a plain one-`<loc>`-per-line `sitemap.xml` (hreflang stays in each page's `<head>`; repeating it in the sitemap made a 2.2 MB single line that froze browsers' XML viewers).
   The `<html lang>` / `hreflang` / `inLanguage` code comes from one place, `LANGUAGES[lang][1]` in
   `generate.py`. It equals the folder name except for Chinese, which uses script subtags:
   `/zh-cn/` -> `zh-Hans` (Simplified), `/zh-tw/` -> `zh-Hant` (Traditional). Folder/URL names stay

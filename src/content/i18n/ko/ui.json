@@ -1,6 +1,7 @@
 {
   "skip_to_content": "본문으로 건너뛰기",
   "primary_nav": "주 메뉴",
+  "breadcrumb": "탐색 경로",
   "toggle_dark": "다크 모드 전환",
   "open_menu": "메뉴 열기",
   "close_menu": "메뉴 닫기",

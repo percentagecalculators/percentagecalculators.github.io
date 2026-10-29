@@ -43,6 +43,7 @@ the new Tailwind layout instead of being injected by a separate JS file.
 Tool pages only (template.html); the static info pages (about/contact/etc,
 template-page.html) never carried ads on the legacy site either.
 """
+import hashlib
 import html
 import json
 import os
@@ -58,6 +59,9 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "..", "public")
 
 HTML_MINIFIER_PKG = "html-minifier-terser@7.2.0"
 CLEAN_CSS_PKG = "clean-css-cli@5.6.3"
+TERSER_PKG = "terser@5.31.6"
+# Shared page script (src/site.js -> public/site.min.js); set by main() before any page renders.
+SITE_JS_VERSION = ""
 TAILWIND_CLI_PKG = "tailwindcss@3.4.17"
 TAILWIND_TYPOGRAPHY_PKG = "@tailwindcss/typography@0.5.15"
 TAILWIND_TOOLCHAIN_DIR = os.path.join(BASE_DIR, "..", ".tailwind-cache")
@@ -163,6 +167,7 @@ RTL_LANGS = {"ar"}
 UI_EN = {
     "skip_to_content": "Skip to content",
     "primary_nav": "Primary navigation",
+    "breadcrumb": "Breadcrumb",
     "toggle_dark": "Toggle dark mode",
     "open_menu": "Open menu",
     "close_menu": "Close menu",
@@ -371,14 +376,14 @@ def render_adsense_loader():
 
 def render_adsense_header():
     """Responsive leaderboard slot — same sizing logic as the legacy site's
-    js/adsense.js: 728x90 at viewport width >=728px, 300x100 below that."""
+    js/adsense.js: 728x90 at viewport width >=776px (728 + the slot's 2x24px padding), 300x100 below that."""
     return (
-        '<div class="ad-slot mx-auto my-1 max-w-4xl px-2 text-center sm:px-6">'
+        '<div class="ad-slot mx-auto my-1 max-w-4xl px-0 text-center sm:px-6">'
         '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">%s</p>'
         '<ins class="adsbygoogle" id="adsense-header" data-ad-client="%s" data-ad-slot="%s"></ins>'
         "<script>(function(){"
         'var ins=document.getElementById("adsense-header");'
-        'if(window.innerWidth>=728){ins.style.display="inline-block";ins.style.width="728px";ins.style.height="90px";}'
+        'if(window.innerWidth>=776){ins.style.display="inline-block";ins.style.width="728px";ins.style.height="90px";}'
         'else{ins.style.display="inline-block";ins.style.width="300px";ins.style.height="100px";}'
         "(adsbygoogle=window.adsbygoogle||[]).push({});"
         "})();</script></div>"
@@ -388,7 +393,7 @@ def render_adsense_header():
 
 def render_adsense_fixed(slot_key):
     return (
-        '<div class="ad-slot mx-auto my-1 max-w-4xl px-2 text-center sm:px-6">'
+        '<div class="ad-slot mx-auto my-1 max-w-4xl px-0 text-center sm:px-6">'
         '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">%s</p>'
         '<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" '
         'data-ad-client="%s" data-ad-slot="%s"></ins>'
@@ -503,6 +508,12 @@ def sr_only_submit_button():
     return '<button type="submit" class="sr-only">%s</button>' % html.escape(t("calculate"))
 
 
+RESULT_LABEL_RE = re.compile(r'<span class="label([^"]*)">([^<]*)</span>(\s*)<output([^>]*?) id="([^"]+)"')
+
+
+RESULT_LABEL_ID_RE = re.compile(r'(<span class="label[^"]*" id="([^"]+)">[^<]*</span>\s*<output)((?:(?!aria-labelledby)[^>])*)>')
+
+
 def render_tool_card_body(tool):
     card = tool.get("card", {})
     layout = card.get("layout", "raw")
@@ -527,7 +538,19 @@ def render_tool_card_body(tool):
     )
     body = body.replace("{{H1}}", html.escape(tool["h1"]))
     body = body.replace("{{HINT}}", html.escape(tool.get("hint", "")))
-    return body
+    # Semantics: the <form> is labelled by the page's <h1> (see template.html),
+    # and each result <output> by the caption span beside it, so assistive tech
+    # announces "Percentage Change: -92.5%" instead of a bare value.
+    if '<h1 class="' not in body:
+        raise ValueError("no <h1 class=...> in the card head of tool %r" % tool.get("slug"))
+    body = body.replace('<h1 class="', '<h1 id="tool-title" class="', 1)
+    body = RESULT_LABEL_RE.sub(
+        lambda m: '<span id="%s-label" class="label%s">%s</span>%s<output%s id="%s" aria-labelledby="%s-label"'
+        % (m.group(5), m.group(1), m.group(2), m.group(3), m.group(4), m.group(5), m.group(5)),
+        body,
+    )
+    # captions that already carry their own id (average-percentage-calculator)
+    return RESULT_LABEL_ID_RE.sub(r'\1\3 aria-labelledby="\2">', body)
 
 
 # ---------------------------------------------------------------------------
@@ -589,15 +612,8 @@ def render_related_calculators(tool, site, by_slug, tools):
 
 H2_SPLIT_RE = re.compile(r"(?=<h2\b)", re.IGNORECASE)
 
-ARTICLE_PROSE_CLASSES = (
-    "article prose dark:prose-invert max-w-none "
-    "prose-headings:text-text prose-p:text-text-secondary prose-li:text-text-secondary prose-ol:text-text-secondary prose-ul:text-text-secondary "
-    "prose-a:text-accent prose-a:no-underline hover:prose-a:underline "
-    "prose-strong:text-text prose-em:text-text-alt "
-    "prose-code:font-mono prose-code:text-accent prose-code:bg-accent/10 prose-code:rounded prose-code:px-1 prose-code:font-normal prose-code:before:content-none prose-code:after:content-none "
-    "prose-th:text-text prose-td:text-text-secondary prose-thead:border-border prose-tr:border-border "
-    "prose-blockquote:border-accent prose-blockquote:text-text-secondary prose-hr:border-border"
-)
+# The prose-* colour/element modifiers live in src/tailwind-input.css (.article component).
+ARTICLE_PROSE_CLASSES = "article prose max-w-none"
 
 
 HEADING_TAG_RE = re.compile(r'<(h[2-6])([^>]*)>(.*?)</\1>', re.IGNORECASE | re.DOTALL)
@@ -873,7 +889,7 @@ def render_sitemap_content(site, by_slug):
 # template.html's JS), not a custom CSS class — no component CSS needed.
 # ---------------------------------------------------------------------------
 
-DROPDOWN_LINK_CLASSES = "block rounded-lg px-3 py-3 text-sm text-text-secondary hover:bg-surface-alt hover:text-text"
+DROPDOWN_LINK_CLASSES = "menu-link"
 NAV_BTN_CLASSES = "cat-menu-btn inline-flex items-center gap-1 rounded-lg px-2.5 py-1.5 text-sm font-medium text-text-secondary hover:bg-surface-alt hover:text-text"
 
 
@@ -976,8 +992,8 @@ def render_mobile_drawer(site, by_slug, alts=None):
         )
     return (
         '<div class="fixed inset-0 z-40 bg-black/50 opacity-0 transition-opacity duration-200" id="navDrawerBackdrop" hidden></div>'
-        '<div class="nav-drawer-panel fixed inset-y-0 right-0 z-50 w-[85vw] max-w-sm translate-x-full overflow-y-auto bg-bg-alt shadow-xl transition-transform duration-200" id="navDrawer" role="dialog" aria-modal="true" aria-label="%s" hidden>'
-        '<button type="button" class="nav-drawer-close absolute right-3 top-3 flex h-11 w-11 items-center justify-center rounded-full text-text-secondary hover:bg-surface-alt" id="navDrawerClose" aria-label="%s">%s</button>'
+        '<div class="nav-drawer-panel fixed inset-y-0 end-0 z-50 w-[85vw] max-w-sm translate-x-full overflow-y-auto bg-bg-alt shadow-xl transition-transform duration-200" id="navDrawer" role="dialog" aria-modal="true" aria-label="%s" hidden>'
+        '<button type="button" class="nav-drawer-close absolute end-3 top-3 flex h-11 w-11 items-center justify-center rounded-full text-text-secondary hover:bg-surface-alt" id="navDrawerClose" aria-label="%s">%s</button>'
         '<div class="border-b border-border p-4"><a href="%s" class="block text-sm font-semibold text-text">%s</a></div>'
         '%s'
         '%s'
@@ -993,7 +1009,7 @@ def render_footer_mega(site, by_slug):
     for group in site["nav_groups"]:
         pairs = footer_group_links(group, site, by_slug)
         links = "".join(
-            '<a href="%s" class="footer-mega-link block py-1 text-[0.85rem] text-text-secondary hover:text-accent">%s</a>'
+            '<a href="%s" class="footer-mega-link">%s</a>'
             % (url, html.escape(name))
             for url, name in pairs
         )
@@ -1035,8 +1051,8 @@ LOGO_SIZE = (237, 32)
 def render_logo(site):
     w, h = LOGO_SIZE
     return (
-        '<img src="/logo-light.webp" width="%d" height="%d" alt="" class="logo-img h-8 w-auto dark:hidden">'
-        '<img src="/logo-dark.webp" width="%d" height="%d" alt="" class="logo-img hidden h-8 w-auto dark:block">'
+        '<img src="/logo-light.webp" width="%d" height="%d" alt="" class="logo-img h-6 w-auto sm:h-8 dark:hidden">'
+        '<img src="/logo-dark.webp" width="%d" height="%d" alt="" class="logo-img hidden h-6 w-auto sm:h-8 dark:block">'
         % (w, h, w, h)
     )
 
@@ -1045,17 +1061,17 @@ GLOBE_SVG = '<svg aria-hidden="true" class="h-[18px] w-[18px]" viewBox="0 0 24 2
 
 
 def render_language_switcher(alts):
-    """Native <details> dropdown (closed on outside click/Escape by NAV_JS_CORE).
+    """Native <details> dropdown (closed on outside click/Escape by src/site.js).
     alts: [(lang, url)] for the current page in every built language."""
     if not alts or len(alts) < 2:
         return ""
     links = "".join(
-        '<li><a href="%s" lang="%s" hreflang="%s"%s class="block rounded-lg px-3 py-2 text-sm text-text-secondary hover:bg-surface-alt hover:text-text">%s</a></li>'
+        '<li><a href="%s" lang="%s" hreflang="%s"%s class="menu-link py-2">%s</a></li>'
         % (url, LANGUAGES[l][1], LANGUAGES[l][1], ' aria-current="true"' if l == LANG else "", html.escape(LANGUAGES[l][0]))
         for l, url in alts
     )
     return (
-        '<details class="lang-switch relative ms-auto flex-none" id="langSwitch">'
+        '<details class="lang-switch relative ms-auto hidden flex-none md:block" id="langSwitch">'
         '<summary class="inline-flex h-9 cursor-pointer list-none items-center gap-1.5 rounded-full border border-border px-3 text-sm font-medium text-text-secondary hover:bg-surface-alt hover:text-text [&::-webkit-details-marker]:hidden" aria-label="%s">%s<span>%s</span></summary>'
         '<ul class="absolute end-0 top-full z-50 mt-2 max-h-[70vh] w-48 overflow-y-auto rounded-2xl border border-border bg-surface p-2 shadow-lg">%s</ul>'
         "</details>" % (html.escape(t("language")), GLOBE_SVG, html.escape(LANGUAGES[LANG][1].upper()), links)
@@ -1066,7 +1082,7 @@ def render_drawer_languages(alts):
     if not alts or len(alts) < 2:
         return ""
     links = "".join(
-        '<a href="%s" lang="%s" hreflang="%s"%s class="rounded-lg border border-border px-3 py-2 text-sm text-text-secondary hover:bg-surface-alt hover:text-text">%s</a>'
+        '<a href="%s" lang="%s" hreflang="%s"%s class="drawer-lang-link">%s</a>'
         % (url, LANGUAGES[l][1], LANGUAGES[l][1], ' aria-current="true"' if l == LANG else "", html.escape(LANGUAGES[l][0]))
         for l, url in alts
     )
@@ -1113,7 +1129,7 @@ def render_site_header(site, by_slug, alts=None):
         "lang_switch": render_language_switcher(alts),
         # With a language switcher present it carries the ms-auto that
         # pushes the button group right on mobile; otherwise the theme toggle does.
-        "theme_margin": "" if alts and len(alts) > 1 else "ms-auto ",
+        "theme_margin": "ms-auto md:ms-0 " if alts and len(alts) > 1 else "ms-auto ",
     }
 
 
@@ -1158,192 +1174,6 @@ def render_site_footer(site, by_slug, year="2026"):
     }
 
 
-# The theme toggle / category-dropdown / priority-nav / mobile-drawer JS is
-# identical across all three templates -- defined once here and injected via
-# {{NAV_JS_CORE}} instead of being hand-duplicated per template. Each
-# template's own <script> still appends whatever page-type-specific
-# functions it needs (wrapTables/initToolForm/renderMath/initCopyButtons on
-# tool pages, wrapTables/renderMath on info pages, none on the 404 page) and
-# its own DOMContentLoaded listener.
-NAV_JS_CORE = """
-  function initThemeToggle() {
-    var btn = document.getElementById('themeToggleBtn');
-    if (!btn) return;
-    btn.setAttribute('aria-pressed', document.documentElement.classList.contains('dark'));
-    btn.addEventListener('click', function () {
-      var isDark = document.documentElement.classList.toggle('dark');
-      document.documentElement.style.colorScheme = isDark ? 'dark' : 'light';
-      try { localStorage.setItem('theme', isDark ? 'dark' : 'light'); } catch (e) {}
-      btn.setAttribute('aria-pressed', String(isDark));
-    });
-  }
-  function initCategoryDropdowns() {
-    var buttons = document.querySelectorAll('.cat-menu-btn');
-    function closeAll(except) {
-      buttons.forEach(function (b) {
-        if (b === except) return;
-        b.setAttribute('aria-expanded', 'false');
-        var menu = document.getElementById(b.getAttribute('aria-controls'));
-        if (menu) menu.hidden = true;
-      });
-    }
-    function positionMenu(b, menu) {
-      var rect = b.getBoundingClientRect();
-      menu.style.top = (rect.bottom + 8) + 'px';
-      menu.style.left = Math.max(8, Math.min(rect.left, window.innerWidth - menu.offsetWidth - 8)) + 'px';
-    }
-    buttons.forEach(function (b) {
-      b.addEventListener('click', function (e) {
-        e.stopPropagation();
-        var expanded = b.getAttribute('aria-expanded') === 'true';
-        closeAll();
-        var menu = document.getElementById(b.getAttribute('aria-controls'));
-        if (!expanded && menu) {
-          menu.hidden = false;
-          positionMenu(b, menu);
-          b.setAttribute('aria-expanded', 'true');
-        }
-      });
-    });
-    document.addEventListener('click', function () { closeAll(); });
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(); });
-    window.addEventListener('scroll', function () { closeAll(); }, { passive: true });
-    return closeAll;
-  }
-  function initPriorityNav(closeAll) {
-    var strip = document.querySelector('.category-strip');
-    var moreItem = document.getElementById('moreMenuItem');
-    if (!strip || !moreItem) return;
-    var items = Array.prototype.slice.call(strip.querySelectorAll('.cat-menu-item[data-cat-key]'));
-    var sections = document.querySelectorAll('.more-menu-section');
-    function layout() {
-      items.forEach(function (item) { item.hidden = false; });
-      sections.forEach(function (s) { s.hidden = true; });
-      moreItem.hidden = false;
-
-      var available = strip.clientWidth;
-      var gap = parseFloat(getComputedStyle(strip).columnGap) || 0;
-      var fixedWidth = 0;
-      Array.prototype.forEach.call(strip.children, function (el) {
-        if (el !== moreItem && items.indexOf(el) === -1) {
-          fixedWidth += el.getBoundingClientRect().width + gap;
-        }
-      });
-      var moreWidth = moreItem.getBoundingClientRect().width + gap;
-      var itemWidths = items.map(function (it) { return it.getBoundingClientRect().width + gap; });
-      var total = itemWidths.reduce(function (a, b) { return a + b; }, fixedWidth);
-
-      if (total <= available) {
-        moreItem.hidden = true;
-        return;
-      }
-
-      var used = fixedWidth;
-      var visibleCount = 0;
-      for (var i = 0; i < itemWidths.length; i++) {
-        if (used + itemWidths[i] + moreWidth > available) break;
-        used += itemWidths[i];
-        visibleCount++;
-      }
-
-      items.forEach(function (item, idx) {
-        if (idx >= visibleCount) {
-          item.hidden = true;
-          var section = document.querySelector('.more-menu-section[data-cat-key="' + item.getAttribute('data-cat-key') + '"]');
-          if (section) section.hidden = false;
-        }
-      });
-    }
-    var resizeTimer;
-    window.addEventListener('resize', function () {
-      closeAll();
-      clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(layout, 100);
-    });
-    layout();
-    window.addEventListener('load', layout);
-    if (document.fonts && document.fonts.ready) {
-      document.fonts.ready.then(layout);
-    }
-  }
-  function initMobileDrawer() {
-    var hamburger = document.getElementById('navHamburgerBtn');
-    var drawer = document.getElementById('navDrawer');
-    var backdrop = document.getElementById('navDrawerBackdrop');
-    var closeBtn = document.getElementById('navDrawerClose');
-    if (!hamburger || !drawer || !backdrop) return;
-    var sectionButtons = drawer.querySelectorAll('.drawer-section-btn');
-    function isOpen() { return !drawer.hidden && drawer.classList.contains('translate-x-0'); }
-    function openDrawer() {
-      drawer.hidden = false;
-      backdrop.hidden = false;
-      setTimeout(function () {
-        drawer.classList.remove('translate-x-full');
-        drawer.classList.add('translate-x-0');
-        backdrop.classList.remove('opacity-0');
-        backdrop.classList.add('opacity-100');
-      }, 10);
-      hamburger.setAttribute('aria-expanded', 'true');
-      document.body.classList.add('overflow-hidden');
-    }
-    function closeDrawer(returnFocus) {
-      drawer.classList.remove('translate-x-0');
-      drawer.classList.add('translate-x-full');
-      backdrop.classList.remove('opacity-100');
-      backdrop.classList.add('opacity-0');
-      hamburger.setAttribute('aria-expanded', 'false');
-      document.body.classList.remove('overflow-hidden');
-      if (returnFocus) hamburger.focus();
-      setTimeout(function () {
-        if (!isOpen()) { drawer.hidden = true; backdrop.hidden = true; }
-      }, 220);
-    }
-    hamburger.addEventListener('click', function () { isOpen() ? closeDrawer(false) : openDrawer(); });
-    closeBtn.addEventListener('click', function () { closeDrawer(true); });
-    backdrop.addEventListener('click', function () { closeDrawer(false); });
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && isOpen()) closeDrawer(true); });
-    sectionButtons.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var expanded = btn.getAttribute('aria-expanded') === 'true';
-        btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-        var panel = document.getElementById(btn.getAttribute('aria-controls'));
-        if (panel) panel.hidden = expanded;
-      });
-    });
-    var mq = window.matchMedia('(min-width:769px)');
-    var mqHandler = function (e) { if (e.matches && isOpen()) closeDrawer(false); };
-    if (mq.addEventListener) mq.addEventListener('change', mqHandler);
-    else mq.addListener(mqHandler);
-  }
-  (function () {
-    var wrap = document.getElementById('backToTopWrap');
-    var btn = document.getElementById('backToTop');
-    if (!wrap || !btn) return;
-    var shown = false;
-    function update() {
-      var show = window.pageYOffset > 600;
-      if (show !== shown) { shown = show; wrap.hidden = !show; }
-    }
-    window.addEventListener('scroll', update, { passive: true });
-    update();
-    btn.addEventListener('click', function () {
-      var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      window.scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' });
-      var main = document.getElementById('main-content');
-      if (main) { main.setAttribute('tabindex', '-1'); main.focus({ preventScroll: true }); }
-    });
-  })();
-  document.addEventListener('click', function (e) {
-    var d = document.getElementById('langSwitch');
-    if (d && d.open && !d.contains(e.target)) d.open = false;
-  });
-  document.addEventListener('keydown', function (e) {
-    var d = document.getElementById('langSwitch');
-    if (e.key === 'Escape' && d && d.open) { d.open = false; d.querySelector('summary').focus(); }
-  });
-""".strip("\n")
-
-
 def render_breadcrumbs(trail):
     if not trail:
         return ""
@@ -1355,7 +1185,7 @@ def render_breadcrumbs(trail):
             items.append('<li><a href="%s" class="text-text-secondary hover:text-accent">%s</a></li>' % (url, html.escape(label)))
         else:
             items.append('<li aria-current="page" class="text-text">%s</li>' % html.escape(label))
-    return '<nav class="breadcrumbs mx-auto max-w-7xl px-4 pt-3 text-sm sm:px-6" aria-label="Breadcrumb"><ol class="flex flex-wrap items-center">%s</ol></nav>' % "".join(items)
+    return '<nav class="breadcrumbs mx-auto max-w-7xl px-4 pt-3 text-sm sm:px-6" aria-label="%s"><ol class="flex flex-wrap items-center">%s</ol></nav>' % (html.escape(t("breadcrumb")), "".join(items))
 
 
 # ---------------------------------------------------------------------------
@@ -1453,11 +1283,11 @@ def render_page(tool, site, by_slug, tools, template):
         "ADSENSE_HEADER": render_adsense_header(),
         "SITE_HEADER": render_site_header(site, by_slug, alts),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug, alts),
-        "NAV_JS_CORE": NAV_JS_CORE,
+        "SITE_JS_VERSION": SITE_JS_VERSION,
         "BREADCRUMBS": "",
         "UI_RELATED_ARIA": html.escape(t("related_aria")),
-        "JS_COPY_RESULT": json.dumps(t("copy_result"), ensure_ascii=False),
-        "JS_COPIED": json.dumps(t("copied"), ensure_ascii=False),
+        "COPY_LABEL": html.escape(t("copy_result")),
+        "COPIED_LABEL": html.escape(t("copied")),
         "H1": tool["h1"],
         "SUBTITLE": localize_links(tool["subtitle"]),
         "TOOL_MODE": card.get("mode", ""),
@@ -1490,7 +1320,7 @@ def render_info_page(page, site, by_slug, template):
         "THEME_INIT": THEME_INIT,
         "SITE_HEADER": render_site_header(site, by_slug, alts),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug, alts),
-        "NAV_JS_CORE": NAV_JS_CORE,
+        "SITE_JS_VERSION": SITE_JS_VERSION,
         "BREADCRUMBS": render_breadcrumbs(trail) + breadcrumb_jsonld(trail, site["domain"]),
         "H1": page["h1"],
         "SUBTITLE": page.get("subtitle", ""),
@@ -1507,7 +1337,7 @@ def render_404_page(site, by_slug, template_404):
         "THEME_INIT": THEME_INIT,
         "SITE_HEADER": render_site_header(site, by_slug, page_alternates("home", "")),
         "MOBILE_DRAWER": render_mobile_drawer(site, by_slug, page_alternates("home", "")),
-        "NAV_JS_CORE": NAV_JS_CORE,
+        "SITE_JS_VERSION": SITE_JS_VERSION,
         "SITE_FOOTER": render_site_footer(site, by_slug),
     }
     return apply_tokens(template_404, tokens)
@@ -1564,20 +1394,20 @@ def write_robots_and_sitemap(site, tools, pages, out_dir):
         + [("tool", t["slug"]) for t in tools if t["slug"] != site["home_slug"]]
         + [("page", p["slug"]) for p in pages]
     )
-    multilingual = len(BUILT_LANGS) > 1
-    entries = ""
-    for kind, slug in items:
-        alternates = ""
-        if multilingual:
-            alternates = "".join(
-                '<xhtml:link rel="alternate" hreflang="%s" href="https://%s%s"/>' % (LANGUAGES[l][1], domain, path_for(l, kind, slug))
-                for l in BUILT_LANGS
-            ) + '<xhtml:link rel="alternate" hreflang="x-default" href="https://%s%s"/>' % (domain, path_for("en", kind, slug))
-        for lang in BUILT_LANGS:
-            entries += "<url><loc>https://%s%s</loc>%s</url>" % (domain, path_for(lang, kind, slug), alternates)
-    xmlns = 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"' + (' xmlns:xhtml="http://www.w3.org/1999/xhtml"' if multilingual else "")
-    with open(os.path.join(out_dir, "sitemap.xml"), "w") as f:
-        f.write('<?xml version="1.0" encoding="UTF-8"?><urlset %s>%s</urlset>' % (xmlns, entries))
+    # One <url> per line, <loc> only. The hreflang alternates are NOT repeated here: every
+    # page already carries the full set in its <head> (Google treats the HTML tags and the
+    # sitemap as equivalent), and repeating them made this file 2.2 MB / 18,000 elements on a
+    # single line, which froze browsers' XML viewers.
+    lines = [
+        "  <url><loc>https://%s%s</loc></url>" % (domain, path_for(lang, kind, slug))
+        for kind, slug in items
+        for lang in BUILT_LANGS
+    ]
+    with open(os.path.join(out_dir, "sitemap.xml"), "w", encoding="utf-8", newline="\n") as f:
+        f.write(
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s\n</urlset>\n' % "\n".join(lines)
+        )
 
     # Same authorized-seller declaration as legacy-bootstrap-site/ads.txt —
     # re-derived from ADSENSE_CLIENT so it can't drift from the loader/ad
@@ -1644,6 +1474,16 @@ def main():
                 shutil.copytree(src_path, dst_path)
             else:
                 shutil.copy(src_path, dst_path)
+
+    global SITE_JS_VERSION
+    site_js_src = os.path.join(BASE_DIR, "site.js")
+    site_js_out = os.path.join(OUTPUT_DIR, "site.min.js")
+    if do_minify:
+        run_npx([TERSER_PKG, site_js_src, "--compress", "--mangle", "-o", site_js_out])
+    else:
+        shutil.copy(site_js_src, site_js_out)
+    with open(site_js_out, "rb") as f:
+        SITE_JS_VERSION = hashlib.sha1(f.read()).hexdigest()[:10]
 
     if do_minify:
         base_min_path = os.path.join(OUTPUT_DIR, "base.min.css")

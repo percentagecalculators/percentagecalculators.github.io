@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Component classes for markup that repeats dozens of times on every page
+   (menus, drawer, footer, article body). Each one is the exact utility list
+   that used to be inlined at every use; moving it here keeps the HTML small
+   without changing how anything looks. */
+@layer components {
+  .menu-link {
+    @apply block rounded-lg px-3 py-3 text-sm text-text-secondary hover:bg-surface-alt hover:text-text;
+  }
+  .drawer-lang-link {
+    @apply rounded-lg border border-border px-3 py-2 text-sm text-text-secondary hover:bg-surface-alt hover:text-text;
+  }
+  .footer-mega-link {
+    @apply block break-words py-1 text-[0.85rem] text-text-secondary hover:text-accent;
+  }
+  /* `prose max-w-none` stay literal in the markup: the typography plugin's
+     first/last-child margin resets are keyed to the `.prose` class itself. */
+  .article {
+    @apply dark:prose-invert
+      prose-headings:text-text prose-p:text-text-secondary prose-li:text-text-secondary prose-ol:text-text-secondary prose-ul:text-text-secondary
+      prose-a:text-accent prose-a:no-underline hover:prose-a:underline
+      prose-strong:text-text prose-em:text-text-alt
+      prose-code:font-mono prose-code:text-accent prose-code:bg-accent/10 prose-code:rounded prose-code:px-1 prose-code:font-normal prose-code:before:content-none prose-code:after:content-none
+      prose-th:text-text prose-td:text-text-secondary prose-thead:border-border prose-tr:border-border
+      prose-blockquote:border-accent prose-blockquote:text-text-secondary prose-hr:border-border;
+  }
+}

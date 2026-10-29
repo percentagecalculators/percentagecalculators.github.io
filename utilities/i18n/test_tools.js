@@ -9,7 +9,7 @@
  * translated page must (1) load with no script errors, (2) expose the same
  * input/output ids, (3) produce identical outputs for the same inputs, and
  * (4) clear all inputs/outputs with its reset button. Uses the built public/. */
-const { JSDOM, VirtualConsole } = require("jsdom");
+const { JSDOM, VirtualConsole, requestInterceptor } = require("jsdom");
 const fs = require("fs");
 const path = require("path");
 
@@ -32,12 +32,25 @@ function pageFile(lang, slug) {
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
+// Pages load the shared script as <script defer src="/site.min.js?v=..">: serve it from public/;
+// every other external resource (KaTeX CDN, gtag) answers an empty 200, as if it were not fetched at all.
+const ORIGIN = "https://percentagecalculators.github.io";
+const loader = {
+  interceptors: [requestInterceptor(request => {
+    const u = new URL(request.url);
+    if (u.origin === ORIGIN && u.pathname === "/site.min.js")
+      return new Response(fs.readFileSync(path.join(PUB, "site.min.js")), { headers: { "Content-Type": "application/javascript" } });
+    return new Response("", { status: 200 });
+  })],
+};
+
 async function load(file) {
   const errors = [];
   const vc = new VirtualConsole();
   vc.on("jsdomError", e => errors.push(String(e.message || e).split("\n")[0]));
-  const dom = await JSDOM.fromFile(file, {
-    runScripts: "dangerously", pretendToBeVisual: true, virtualConsole: vc,
+  const dom = new JSDOM(fs.readFileSync(file, "utf8"), {
+    url: ORIGIN + "/",
+    runScripts: "dangerously", pretendToBeVisual: true, virtualConsole: vc, resources: loader,
     // browser APIs jsdom lacks that the site's nav script touches on load
     beforeParse(w) {
       w.matchMedia = w.matchMedia || (q => ({ matches: false, media: q, addEventListener() {}, removeEventListener() {}, addListener() {}, removeListener() {} }));
@@ -46,6 +59,7 @@ async function load(file) {
     },
   });
   dom.window.addEventListener("error", e => errors.push("window.onerror: " + e.message));
+  if (dom.window.document.readyState !== "complete") await new Promise(r => dom.window.addEventListener("load", r));
   await sleep(30);
   return { dom, doc: dom.window.document, win: dom.window, errors };
 }
