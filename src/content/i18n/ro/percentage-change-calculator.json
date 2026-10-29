@@ -14,5 +14,56 @@
     "New Value (Current)": "Valoare nouă (actuală)",
     "Old Value (Original)": "Valoare veche (inițială)",
     "Percentage Change:": "Variație procentuală:"
-  }
+  },
+  "content_html": "<p>Fie că compari vânzările de luna aceasta cu cele de luna trecută, urmărești o mărire de salariu sau vrei să vezi cât s-a mișcat o acțiune, un <strong>calculator de variație procentuală</strong> răspunde de fiecare dată la aceeași întrebare: cât de mare a fost schimbarea, exprimată în procente? Introdu valoarea de început și pe cea de sfârșit, iar instrumentul îți returnează instant <strong>creșterea procentuală</strong> sau <strong>scăderea procentuală</strong> dintre ele. Mai jos găsești formula explicată pas cu pas, exemple rezolvate cu numere negative și calcule din viața reală — de la rata de creștere a populației până la dobânda compusă — care fac din acest calcul unul dintre cele mai utile lucruri pe care le poți face cu două numere.</p>\n\n<h2>Ce este un calculator de variație procentuală?</h2>\n<p>În esență, un calculator de variație procentuală aplică o singură operație matematică: ia două numere și exprimă diferența dintre ele în procente, nu ca o sumă fixă. Asta diferă de simpla scădere a unui număr din altul, pentru că variația procentuală ține cont de scară — o creștere de $10 înseamnă mult mai mult pentru un buget de $50 decât pentru unul de $5,000. De aceea calculatorul se folosește în finanțe, afaceri, economie și statistică, precum și la orele de științe și matematică, ori de câte ori trebuie comparată schimbarea față de punctul de plecare, nu ca valoare brută. Aceeași relație poate fi scrisă ca număr zecimal sau ca procent — calculatorul doar automatizează conversia raportului în procent. Unele site-uri îl numesc calculator de schimbare procentuală; este același instrument sub două denumiri.</p>\n\n<h2>Formula variației procentuale: cum se calculează</h2>\n<p>Formula variației procentuale — numită și formula schimbării procentuale — compară cât s-a deplasat un număr față de punctul din care a plecat:</p>\n$$ \\text{Variație procentuală} = \\frac{V_2 - V_1}{|V_1|} \\times 100 $$\n<p>Aici, V<sub>1</sub> este valoarea inițială, iar V<sub>2</sub> este valoarea finală. Scade V<sub>1</sub> din V<sub>2</sub>, împarte rezultatul la valoarea lui absolută, apoi înmulțește cu 100. Un rezultat pozitiv înseamnă o creștere procentuală; unul negativ, o scădere procentuală.</p>\n\n<h3>Valoarea inițială, valoarea finală și valoarea nouă</h3>\n<p>Orice calcul al variației procentuale pornește de la două numere: unul de început și unul de sfârșit, notate uneori V<sub>1</sub> și V<sub>2</sub>. Ordinea contează — scade mereu prima valoare din a doua, niciodată invers, altfel semnele plus și minus se inversează și descriu sensul greșit al schimbării.</p>\n\n<h3>Numerele negative și valoarea absolută</h3>\n<p>Valoarea absolută de la numitor există tocmai pentru numerele negative. Fără ea, împărțirea la o valoare inițială negativă ar inversa semnul răspunsului și ar transforma o creștere reală într-o scădere raportată. Valoarea absolută înseamnă pur și simplu distanța unui număr față de zero, fie că e pozitiv sau negativ — în matematică i se mai spune și modulul numărului.</p>\n<aside>Greșeală frecventă: omiterea valorii absolute când numărul de început este negativ. Este cel mai des întâlnit motiv pentru care un calcul al variației procentuale iese cu semnul greșit.</aside>\n\n<table>\n<tr><th>V<sub>1</sub> (început)</th><th>V<sub>2</sub> (sfârșit)</th><th>Rezultat (% variație)</th></tr>\n<tr><td>40</td><td>52</td><td>+30% (creștere)</td></tr>\n<tr><td>-18</td><td>18</td><td>+200% (creștere)</td></tr>\n<tr><td>-30</td><td>-45</td><td>-50% (scădere)</td></tr>\n</table>\n\n<p>Iată cum calculezi variația procentuală pas cu pas, pentru trecerea de la 3.50 la 2.625:</p>\n<ol>\n<li>Calculează diferența: 2.625 − 3.50 = −0.875</li>\n<li>Împarte la |V<sub>1</sub>|: −0.875 ÷ 3.50 = −0.25</li>\n<li>Înmulțește cu 100: −0.25 × 100 = <strong>−25% variație</strong>, adică o scădere de 25%</li>\n</ol>\n\n<h2>Variație procentuală sau diferență procentuală</h2>\n<p>Variația procentuală și diferența procentuală sunt adesea confundate, dar nu sunt interschimbabile. Variația procentuală măsoară mișcarea de la o valoare anume la alta, deci ordinea contează, iar punctul de plecare este mereu referința. O măsură a diferenței compară în schimb două valori fără să considere pe niciuna „înainte”, împărțind la media lor — de aceea diferența procentuală este mereu pozitivă, în timp ce variația procentuală poate fi pozitivă sau negativă, în funcție de sens.</p>\n\n<table>\n<tr><th>Indicator</th><th>Formulă</th><th>Poate fi negativ?</th></tr>\n<tr><td>Direcțional (acest calculator)</td><td>(V<sub>2</sub> − V<sub>1</sub>) / |V<sub>1</sub>| × 100</td><td>Da — arată creștere sau scădere</td></tr>\n<tr><td>Simetric (bazat pe diferență)</td><td>|V<sub>1</sub> − V<sub>2</sub>| / ((V<sub>1</sub> + V<sub>2</sub>)/2) × 100</td><td>Nu — este mereu pozitiv</td></tr>\n</table>\n\n<h3>Eroarea procentuală și marja de diferență</h3>\n<p>O noțiune apropiată este eroarea procentuală, folosită când compari o valoare măsurată sau estimată cu una adevărată, nu când urmărești schimbarea în timp — frecventă în științe și în lucrările de laborator. Se calculează la fel ca variația procentuală, dar are în vedere acuratețea: cât de mare este marja dintre ce ai măsurat și ce este corect, exprimată ca procent din valoarea adevărată?</p>\n\n<h2>Creștere procentuală sau scădere procentuală</h2>\n<p>O creștere procentuală arată mereu că valoarea finală este mai mare decât cea de la început, iar o scădere procentuală că este mai mică — ambele folosesc aceeași formulă a calculatorului de variație, dar fiecare fixează sensul dinainte, astfel încât rezultatul apare ca un procent pozitiv simplu, nu ca unul cu semn. Calculatorul de mai sus tratează automat ambele sensuri: un rezultat pozitiv înseamnă creștere, unul negativ înseamnă scădere.</p>\n\n<h3>Punct procentual sau variație procentuală</h3>\n<p>Un punct procentual nu este același lucru cu un procent. Dacă o rată a reducerii urcă de la 10% la 15%, este o creștere de 5 puncte procentuale — dar o variație procentuală de 50%, pentru că 5 reprezintă jumătate din cei 10 inițiali. Confuzia dintre cele două este una dintre cele mai frecvente greșeli din raportările financiare.</p>\n\n<p>Variația procentuală este strâns legată și de conversiile de bază ale procentelor, deoarece orice rezultat poate fi exprimat ca număr zecimal înainte de a fi transformat în procentul din răspunsul final:</p>\n<ul>\n<li>Din număr zecimal în procent</li>\n<li>Din procent în număr zecimal</li>\n<li>Din fracție în procent</li>\n<li>Din procent în fracție</li>\n</ul>\n\n<h2>Utilizări în viața reală: rata de creștere a populației, finanțe și calcule de zi cu zi</h2>\n<p>Variația procentuală apare constant și în afara școlii. O reducere la casă, bacșișul lăsat la restaurant (obicei din SUA), o mărire de salariu, o fluctuație a prețului unei acțiuni sau indicatori economici precum inflația și TVA sunt toate variații procentuale deghizate. Aceeași formulă stă la baza proiecțiilor dobânzii compuse, a comparațiilor între ratele unui credit ipotecar, a planificării veniturilor la pensie și a calculelor valorii în timp a banilor — oriunde ratele dobânzii sau randamentele unei investiții trebuie măsurate ca rată de variație, nu ca sumă fixă în dolari. Taxa pe vânzări funcționează invers — un procent fix adăugat la un preț, nu o variație între două valori — dar calculul procentual de bază este identic.</p>\n\n<h3>Rata de creștere a populației</h3>\n<p>Să presupunem că populația unui oraș crește de la 180,000 de locuitori la 207,000 într-un deceniu. Aplicând formula: (207,000 − 180,000) ÷ 180,000 × 100 = 15%. Cei 15% arată cât s-a extins orașul în acea perioadă — același calcul pe care l-ai folosi pentru cifrele populației SUA, pentru veniturile unei companii sau pentru o măsurătoare de laborator.</p>\n\n<h3>Variația procentuală în viața de zi cu zi</h3>\n<p>Același calcul apare la ora de algebră, în rapoartele de laborator de chimie și în experimentele de fizică, oriunde o valoare măsurată trebuie comparată cu una așteptată. Un elev care calculează cu cât a crescut temperatura unei substanțe în timpul unei reacții sau o firmă care își urmărește cifrele de la un trimestru la altul fac exact același calcul — se schimbă doar numerele și unitățile.</p>\n\n<p>Indiferent de context — o mărire de salariu, un rezultat de laborator sau o estimare a populației — calculatorul de mai sus îți oferă în câteva secunde un răspuns exact, cu semnul corect, fără să fie nevoie să memorezi formula sau să te întrebi care valoare merge la numitor. Acum știi cum se calculează variația procentuală de mână, sau poți lăsa pur și simplu calculatorul să o facă.</p>",
+  "faq": [
+    {
+      "question": "Care este variația procentuală de la 50 la 75?",
+      "answer": "Variația este +50%. Calcul: ((75-50)/50) × 100 = 50%, adică o creștere."
+    },
+    {
+      "question": "Cum calculez variația procentuală în Excel?",
+      "answer": "Folosește formula =(Nou-Vechi)/Vechi*100 sau, pentru format procentual, =(Nou-Vechi)/Vechi și apoi aplică formatul procent (%)."
+    },
+    {
+      "question": "Care este variația procentuală de la 80 la 60?",
+      "answer": "Variația este -25%. Calcul: ((60-80)/80) × 100 = -25%, adică o scădere."
+    },
+    {
+      "question": "De ce contează ordinea la variația procentuală?",
+      "answer": "Pentru că numitorul (baza) trebuie să fie valoarea inițială. Dacă inversezi valorile, rezultatul se schimbă: de la 50 la 75 este +50%, dar de la 75 la 50 este -33.3%."
+    },
+    {
+      "question": "Este variația procentuală același lucru cu rata de creștere?",
+      "answer": "Pentru o singură perioadă, da. Rata de creștere se referă de obicei la variația procentuală în timp, adesea compusă."
+    },
+    {
+      "question": "Ce fac dacă valoarea inițială este negativă?",
+      "answer": "Formula funcționează în continuare matematic, dar interpretarea devine mai greu de făcut. Trecerea de la -50 la -25 arată +50% (mișcare spre zero)."
+    },
+    {
+      "question": "Ce înseamnă o variație de -100%?",
+      "answer": "O variație de -100% înseamnă că valoarea a scăzut la zero. O scădere nu poate depăși 100%, pentru că ar însemna valori negative."
+    },
+    {
+      "question": "Cum calculez variația de la un an la altul?",
+      "answer": "Folosește aceeași formulă, cu anul precedent ca „Vechi” și anul curent ca „Nou”. Rezultatul arată creșterea sau scăderea anuală."
+    },
+    {
+      "question": "Care este variația de la 0 la 100?",
+      "answer": "Matematic, este nedefinită (împărțire la zero). Orice variație pornind de la zero este infinită în termeni procentuali."
+    },
+    {
+      "question": "Poate variația procentuală să depășească 100%?",
+      "answer": "Da, în cazul creșterilor. De la 20 la 100 variația este +400%. Scăderile, în schimb, nu pot depăși 100%."
+    },
+    {
+      "question": "Cum compar două variații procentuale?",
+      "answer": "Compară-le direct dacă folosesc aceeași perioadă de bază. Altfel, adu-le la același interval de timp sau folosește indici."
+    },
+    {
+      "question": "Care este diferența dintre variația absolută și cea relativă?",
+      "answer": "Variația absolută este diferența brută (Nou - Vechi). Variația relativă (procentuală) este diferența exprimată ca proporție din valoarea inițială."
+    }
+  ]
 }

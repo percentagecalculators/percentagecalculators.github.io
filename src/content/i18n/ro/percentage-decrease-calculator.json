@@ -14,5 +14,56 @@
     "Enter starting number": "Introdu numărul de pornire",
     "New Value:": "Valoare nouă:",
     "Original Value": "Valoare inițială"
-  }
+  },
+  "content_html": "<p>Trecerea de la un număr la unul mai mic apare peste tot: un preț redus, o reducere de salariu sau un oraș care pierde locuitori. <strong>Calculatorul de scădere procentuală</strong> de mai sus transformă această scădere într-o singură valoare, ușor de comparat. Introdu cele două numere, iar el face scăderea și împărțirea în locul tău; mai jos găsești formula exactă folosită, logica fiecărui pas și suficiente exemple rezolvate cât să poți face calculul la fel de ușor și de mână.</p>\n\n<h2>Cum calculezi scăderea procentuală</h2>\n<p>Întrebarea este mereu aceeași: cât de mare este scăderea față de punctul de pornire? Urmează acești pași, fie că compari prețuri, salarii sau numere de angajați:</p>\n<ol>\n  <li>Scade numărul la care ai ajuns din numărul de la care ai pornit, ca să afli diferența brută.</li>\n  <li>Împarte această diferență la valoarea absolută a numărului de la care ai pornit.</li>\n  <li>Înmulțește rezultatul cu 100 pentru a transforma numărul zecimal în procent.</li>\n</ol>\n<p>Dacă ultimul număr iese negativ, valoarea a crescut de fapt, nu a scăzut: un rezultat negativ este, în realitate, o creștere procentuală sub altă formă, așa că merită să verifici din nou ce număr ai introdus primul.</p>\n\n<h2>Formula scăderii procentuale: valoarea inițială și valoarea finală</h2>\n<p>Formula din spatele calculatorului este suficient de scurtă ca s-o memorezi și suficient de generală ca să acopere deopotrivă reduceri de preț, reduceri de salariu și valori care scad:</p>\n<p>$$ \\text{Scădere procentuală} = \\frac{S - F}{|S|} \\times 100 $$</p>\n<p>unde <sub>S</sub> este valoarea inițială și <sub>F</sub> este valoarea finală; folosind \\( \\%\\ \\text{scădere} = 100 \\times \\dfrac{(S - F)}{|S|} \\), obții același rezultat. <strong>Valoarea absolută</strong> contează aici: păstrează numitorul pozitiv chiar și atunci când valoarea inițială este negativă, de aceea semnul răspunsului îți spune întotdeauna dacă e o creștere sau o scădere, niciodată semnul datelor introduse.</p>\n\n<h3>Valoarea inițială față de valoarea nouă în formulă</h3>\n<p>Este ușor să încurci care număr unde se pune. <strong>Valoarea inițială</strong>, numită și valoare de pornire, este mereu cea de la care ai plecat înainte de schimbare; valoarea nouă este cea la care ai ajuns după aceea. Dacă le inversezi, formula tot funcționează, dar obții un procent negativ în loc de o scădere, pentru că ai măsura de fapt creșterea necesară pentru a reveni la punctul de pornire.</p>\n<aside><i>Sfat:</i> dacă rezultatul apare ca o creștere când te așteptai la o scădere (sau invers), probabil ai inversat numărul care a venit primul; verifică din nou care dintre ele reprezintă punctul de pornire.</aside>\n\n<h2>Scădere procentuală față de creștere procentuală</h2>\n<p>Scăderea procentuală și creșterea procentuală folosesc aceeași formulă de bază; diferă doar direcția schimbării. Un calcul de <strong>variație procentuală</strong>, uneori numit <strong>schimbare în procente</strong>, este termenul general pentru oricare dintre direcții, iar un instrument înrudit, dar distinct, calculatorul de <strong>diferență procentuală</strong>, compară două valori fără să presupună că una a apărut prima în timp; el împarte la <em>media</em> celor două numere, nu la cel de pornire, deci nu va coincide mereu cu o scădere procentuală pentru aceeași pereche de valori.</p>\n<ul>\n  <li>Reduceri de preț și lichidări de stoc în comerț</li>\n  <li>Reduceri de salariu sau un buget de familie care se micșorează</li>\n  <li>Un oraș sau o țară care pierde locuitori în timp</li>\n  <li>Greutatea urmărită de la o cântărire la următoarea</li>\n</ul>\n\n<h2>Aplicații practice ale calculatorului de scădere procentuală</h2>\n<p>Matematica este simplă, dar utilizările o fac cu adevărat folositoare în fiecare zi: la fel de bine în matematica de zi cu zi, ca și în finanțele personale sau în economia de bază.</p>\n\n<h3>Prețuri reduse față de prețul inițial</h3>\n<p>Comerțul este cel mai frecvent caz de utilizare. Dacă <strong>prețul inițial</strong> al unui articol este $80, iar un cupon de 25 la sută <strong>reducere</strong> din weekendul de oferte îl aduce la $60, înseamnă o <strong>reducere procentuală</strong> simplă de 25: rata reducerii și scăderea procentuală sunt același număr ori de câte ori reducerea este deja exprimată în procente. Compararea <strong>prețului vechi</strong> cu ce ai plăti acum este și modul în care verifici dacă o reducere anunțată este într-adevăr atât de mare pe cât se pretinde.</p>\n\n<h3>Reduceri de salariu și scăderea cheltuielilor</h3>\n<p>Aceeași formulă se aplică banilor care se mișcă în sens invers. O companie care a redus bugetul unui departament de la $500,000 la $400,000 într-un an a obținut o scădere a cheltuielilor de 20%. Un liber profesionist ale cărui venituri înainte de impozitare au scăzut de la $80,000 la $46,400, după impozite și un trimestru mai slab, a suferit o <strong>scădere procentuală</strong> de 42%; aceeași logică se aplică unei <strong>reduceri de salariu</strong>, unde salariul net după reducere este doar numărul final din aceeași ecuație. Startup-urile care își urmăresc ritmul de consum de numerar folosesc asta lunar, comparând cheltuielile lunii trecute cu cele din luna curentă ca să vadă dacă costurile chiar scad.</p>\n\n<h3>Rata de scădere a populației în timp</h3>\n<p>Demografii folosesc <strong>rata de scădere a populației</strong> la fel cum folosesc comercianții o reducere de preț: un oraș care a coborât de la 1,000 de locuitori la 950 într-un an a înregistrat o scădere de 5%. Exprimarea unui număr de locuitori care se micșorează ca procent, nu ca valoare brută, îți permite să compari pe picior de egalitate localități de mărimi foarte diferite, pentru că pierderea a 50 de locuitori înseamnă ceva cu totul diferit pentru un orășel și pentru un oraș mare.</p>\n\n<h3>Scădere absolută față de scădere procentuală</h3>\n<p>O <strong>scădere absolută</strong> este doar diferența brută dintre două numere, fără împărțire și fără semnul procent. O <strong>scădere relativă</strong> (varianta procentuală) îți spune mult mai mult despre importanța reală a scăderii. Pierderea a $1,000,000 din profit sună identic, fie că firma a câștigat $2,000,000 sau $100,000,000 în anul precedent, dar în procente cele două cazuri înseamnă 50%, respectiv 1%: unul este o criză, celălalt abia o eroare de rotunjire. Aceeași idee se aplică la scăderea în greutate: pierderea a 10 livre dintr-o greutate inițială de 200 de livre este o scădere de 5%, un context mai util decât numărul brut, mai ales raportat la un interval sănătos de greutate, unde procentul contează mai mult decât cifra luată separat.</p>\n\n<h2>Exemple rezolvate de calcul al scăderii procentuale</h2>\n<p>Parcurgerea câtorva exemple complete, de la cap la coadă, te face să ai mai multă încredere în formulă decât simpla lectură abstractă.</p>\n<table>\n  <thead>\n    <tr><th>Situația</th><th>Înainte</th><th>După</th><th>Scădere procentuală</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>Consumul de energie al unui bec</td><td>60 W</td><td>8 W</td><td>86.67%</td></tr>\n    <tr><td>Un articol după reducere</td><td>$100</td><td>$70</td><td>30%</td></tr>\n    <tr><td>Profitul unei companii de la un an la altul</td><td>$2,000,000</td><td>$1,000,000</td><td>50%</td></tr>\n    <tr><td>Greutatea corporală după o dietă</td><td>200 lbs</td><td>190 lbs</td><td>5%</td></tr>\n    <tr><td>Un orășel, într-un an</td><td>1,000</td><td>950</td><td>5%</td></tr>\n  </tbody>\n</table>\n<p>Observă primul rând: un bec de 60 W înlocuit cu un bec LED de 8 W înseamnă o scădere de 86.67% a consumului orar de energie, mult mai spectaculoasă decât se așteaptă majoritatea oamenilor de la o schimbare „mică” de putere, și o bună ilustrare a motivului pentru care forma procentuală a unei diferențe este adesea mai informativă decât cea brută. În formă zecimală, aceasta înseamnă un <strong>raport</strong> de 0.8667 și o <strong>fracție</strong> din puterea inițială eliminată, înainte ca înmulțirea finală cu 100 s-o transforme în procentul pe care îl citești în <a href=\"#calculator\">calculatorul de scădere procentuală</a> de mai sus.</p>\n\n<h2>Formula scăderii procentuale dincolo de acest calculator</h2>\n<p>Odată ce știi să calculezi scăderea procentuală pentru un tip de număr, o poți <code>calcula scăderea procentuală</code> pentru oricare altul: formula scăderii procentuale de mai sus este unitatea comună care face ca o reducere de $20, o scădere de 5 livre în greutate și numărul de locuitori ai unui oraș care se micșorează să poată fi comparate direct între ele. Din același motiv, un <strong>calculator de scădere procentuală</strong> și un <strong>calculator de reducere procentuală</strong> sunt, de fapt, același instrument sub două nume diferite.</p>",
+  "faq": [
+    {
+      "question": "Cum scad 25% dintr-un număr?",
+      "answer": "Înmulțește numărul cu 0.75. De exemplu, 200 - 25% = 200 × 0.75 = 150. Valoarea scăderii este 50."
+    },
+    {
+      "question": "Cât face 80 minus 15 procente?",
+      "answer": "80 minus 15% este 68. Calcul: 80 × 0.15 = 12 (scăderea), apoi 80 - 12 = 68."
+    },
+    {
+      "question": "Cum calculez amortizarea?",
+      "answer": "Înmulțește valoarea activului cu (1 - rata amortizării). Pentru o amortizare de 20% la $10,000: $10,000 × 0.80 = $8,000."
+    },
+    {
+      "question": "Care este formula pentru scăderea unui procent?",
+      "answer": "Valoarea nouă = Valoarea inițială × (1 - Procent/100). Pentru o reducere de 30% la $50: $50 × 0.70 = $35."
+    },
+    {
+      "question": "Cât înseamnă o reducere de 40% la $120?",
+      "answer": "$120 cu o reducere de 40% = $72. Calcul: $120 × 0.60 = $72. Economisești $48."
+    },
+    {
+      "question": "Ce înseamnă o scădere de 100%?",
+      "answer": "O scădere de 100% aduce valoarea la zero. 50 scăzut cu 100% = 50 - 50 = 0."
+    },
+    {
+      "question": "De ce am nevoie de o creștere de peste 50% ca să recuperez o pierdere de 50%?",
+      "answer": "Pentru că procentul de creștere se aplică la suma rămasă, mai mică. După o pierdere de 50% ai jumătate din sumă; ca să ajungi din nou la valoarea inițială, ai nevoie de o creștere de 100%."
+    },
+    {
+      "question": "Cum funcționează reducerile succesive?",
+      "answer": "Se înmulțesc, nu se adună. 20% reducere, apoi 10% reducere: 100 × 0.80 × 0.90 = 72 (28% în total, nu 30%)."
+    },
+    {
+      "question": "Cât face 500 scăzut cu 35%?",
+      "answer": "500 scăzut cu 35% = 325. Calcul: 500 × 0.65 = 325. Scăderea este 175."
+    },
+    {
+      "question": "Cum aflu prețul inițial dinainte de o reducere?",
+      "answer": "Împarte prețul redus la (1 - reducerea în formă zecimală). Dacă ai plătit $60 după o reducere de 25%: $60 ÷ 0.75 = $80 preț inițial."
+    },
+    {
+      "question": "Poate o scădere să fie negativă?",
+      "answer": "Un procent negativ introdus ar mări de fapt valoarea. Pentru adunări folosește calculatorul de creștere procentuală."
+    },
+    {
+      "question": "Cât face 1000 minus 7.5%?",
+      "answer": "1000 minus 7.5% = 925. Calcul: 1000 × 0.075 = 75, apoi 1000 - 75 = 925."
+    }
+  ]
 }
