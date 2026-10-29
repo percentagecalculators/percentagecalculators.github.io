@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "fa",
+  "meta_title": "ماشین حساب تبدیل CGPA به درصد | CGPA مقیاس 10 به %",
+  "meta_description": "ماشین حساب رایگان تبدیل CGPA به درصد با فرمول استاندارد CGPA × 9.5 در مقیاس 10. معدل کل خود را برای سوابق دانشگاهی به درصد تبدیل کنید.",
+  "h1": "ماشین حساب تبدیل CGPA به درصد",
+  "subtitle": "<strong>CGPA</strong> (معدل کل) خود را در <strong>مقیاس 10</strong> استاندارد وارد کنید تا این <strong>ماشین حساب تبدیل CGPA به درصد</strong> با فرمول پرکاربرد <strong>CGPA × 9.5</strong> بلافاصله <strong>درصد</strong> معادل را به شما بدهد.",
+  "hint": "CGPA مقیاس 10 خود را وارد کنید تا درصد معادل را ببینید.",
+  "long_tail_anchor": "تبدیل CGPA مقیاس 10 به درصد",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA (از 10)",
+    "Percentage:": "درصد:",
+    "e.g. 8.2": "مثال: 8.2"
+  }
+}

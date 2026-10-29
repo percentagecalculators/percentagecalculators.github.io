@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "fa",
+  "meta_title": "ماشین حساب میانگین درصد | میانگین ساده و وزنی",
+  "meta_description": "ماشین حساب رایگان میانگین درصد با حالت ساده و وزنی. درصدهای گروه‌هایی با اندازه‌های متفاوت را برای نمره‌ها و نظرسنجی‌ها درست ترکیب کنید.",
+  "h1": "ماشین حساب میانگین درصد",
+  "subtitle": "فهرستی از <strong>درصدها</strong> را با ویرگول جدا کنید و وارد کنید تا این <strong>ماشین حساب میانگین درصد</strong> <strong>میانگین</strong>، <strong>مجموع</strong>، <strong>تعداد</strong> و بازه مقادیر شما را نشان دهد. اگر اندازه گروه‌ها یکسان نیست، فهرست متناظر <strong>اندازه نمونه‌ها</strong> را هم اضافه کنید تا ماشین حساب به‌طور خودکار به <strong>میانگین وزنی</strong> درست تغییر حالت دهد.",
+  "hint": "درصدها (و در صورت نیاز اندازه نمونه‌ها) را برای میانگین ساده یا وزنی وارد کنید.",
+  "long_tail_anchor": "میانگین چند درصد",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "برای هر درصد یک وزن اضافه کنید (مثلاً تعداد دانش‌آموزان کلاس یا تعداد پاسخ‌دهندگان) تا گروه‌هایی با اندازه نابرابر درست ترکیب شوند.",
+    "Average:": "میانگین:",
+    "Count:": "تعداد:",
+    "Percentages (comma or space separated)": "درصدها (با ویرگول یا فاصله جدا شوند)",
+    "Sample Sizes / Weights (optional)": "اندازه نمونه‌ها / وزن‌ها (اختیاری)",
+    "Sum:": "مجموع:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "مثال: 30, 50, 20, 40 (leave blank for a simple average)",
+    "e.g. 85, 90, 78, 92": "مثال: 85, 90, 78, 92"
+  }
+}
