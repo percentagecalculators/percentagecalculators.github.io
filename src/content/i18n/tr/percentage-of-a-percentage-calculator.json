@@ -1,0 +1,21 @@
+{
+  "slug": "percentage-of-a-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzdenin Yüzdesi Hesaplama | İki Yüzdeyi Birleştirin",
+  "meta_description": "Ücretsiz yüzdenin yüzdesi hesaplama aracı. Üst üste gelen iki yüzdeyi çarpın, birleşik oranı vergi veya indirim zincirleme uygulamasında bir değere uygulayın.",
+  "h1": "Yüzdenin Yüzdesi Hesaplama",
+  "subtitle": "İki <strong>yüzde</strong> girin; bu <strong>yüzdenin yüzdesi hesaplayıcısı</strong> onları doğru biçimde çarparak <strong>birleşik yüzdeyi</strong> versin — bir başlangıç değeri ekleyip iki adımda nasıl değiştiğini de görün.",
+  "hint": "Birleşik oranı bulmak için üst üste gelen iki yüzdeyi çarpın.",
+  "long_tail_anchor": "Üst Üste İki Yüzdeyi Birleştirme",
+  "card_strings": {
+    "Apply to a Value (optional)": "Bir Değere Uygula (isteğe bağlı)",
+    "Combined Percentage:": "Birleşik Yüzde:",
+    "Final Value:": "Son Değer:",
+    "First Percentage": "Birinci Yüzde",
+    "Second Percentage": "İkinci Yüzde",
+    "Value After First %:": "Birinci Yüzdeden Sonraki Değer:",
+    "e.g. 200": "ör. 200",
+    "e.g. 40": "ör. 40",
+    "e.g. 90": "ör. 90"
+  }
+}

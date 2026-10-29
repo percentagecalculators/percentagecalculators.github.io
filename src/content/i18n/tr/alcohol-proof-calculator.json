@@ -1,0 +1,15 @@
+{
+  "slug": "alcohol-proof-calculator",
+  "lang": "tr",
+  "meta_title": "Alkol Derecesi (Proof) Hesaplama | Proof’tan ABV Yüzdesine",
+  "meta_description": "Ücretsiz alkol proof hesaplama aracı. ABD proof değerini girin, hacimce alkol oranına (ABV) yüzde olarak anında dönüştürün — hızlı, doğru ve kullanımı kolay.",
+  "h1": "Alkol Derecesi (Proof) Hesaplama",
+  "subtitle": "Bir <strong>alkol proof</strong> değeri girin (ABD ölçeği); bu <strong>alkol proof hesaplama</strong> aracı değeri anında <strong>hacimce alkol oranına (ABV)</strong> yüzde olarak dönüştürür.",
+  "hint": "ABV yüzdesini bulmak için ABD proof değerini girin.",
+  "long_tail_anchor": "Proof’tan ABV Yüzdesine Dönüştürücü",
+  "card_strings": {
+    "ABV:": "ABV:",
+    "Proof (US)": "Proof (ABD)",
+    "e.g. 80": "ör. 80"
+  }
+}

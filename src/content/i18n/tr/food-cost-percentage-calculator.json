@@ -1,0 +1,17 @@
+{
+  "slug": "food-cost-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Gıda Maliyeti Yüzdesi Hesaplama | Menü Maliyeti %",
+  "meta_description": "Ücretsiz gıda maliyeti yüzdesi hesaplama aracı. Malzeme maliyetini ve menü fiyatını girin, bir menü ögesinin gıda maliyeti yüzdesini anında hesaplayın.",
+  "h1": "Gıda Maliyeti Yüzdesi Hesaplama",
+  "subtitle": "<strong>Malzeme maliyetini</strong> ve <strong>menü fiyatını</strong> girin; bu <strong>gıda maliyeti yüzdesi hesaplama</strong> aracı o menü ögesinin <strong>gıda maliyeti yüzdesini</strong> anında bulur.",
+  "hint": "Gıda maliyeti yüzdesini bulmak için malzeme maliyetini ve menü fiyatını girin.",
+  "long_tail_anchor": "Restoran Menüsü Maliyet Yüzdesi",
+  "card_strings": {
+    "Food Cost Percentage:": "Gıda Maliyeti Yüzdesi:",
+    "Ingredient Cost ($)": "Malzeme Maliyeti ($)",
+    "Menu Price ($)": "Menü Fiyatı ($)",
+    "e.g. 14": "ör. 14",
+    "e.g. 3.50": "ör. 3.50"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "ppm-to-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "PPM’den Yüzdeye Çevirme | Milyonda Bir Parça Hesaplama",
+  "meta_description": "Ücretsiz PPM’den yüzdeye çevirme aracı. Milyonda bir parça (ppm) değerini girin, yüzdeye anında dönüştürün; kimya ve mühendislik için doğru sonuç.",
+  "h1": "PPM’den Yüzdeye Çevirme",
+  "subtitle": "Bir <strong>milyonda bir parça (ppm)</strong> değeri girin; bu <strong>PPM’den yüzdeye çevirme</strong> aracı değeri anında <strong>yüzdeye</strong> dönüştürür. Derişim ve saflık ölçümleri için kullanışlıdır.",
+  "hint": "Eşdeğer yüzdeyi bulmak için bir PPM değeri girin.",
+  "long_tail_anchor": "Milyonda Bir Parçadan Yüzdeye",
+  "card_strings": {
+    "PPM": "PPM",
+    "Percentage:": "Yüzde:",
+    "e.g. 2500": "ör. 2500"
+  }
+}

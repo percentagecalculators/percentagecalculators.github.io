@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-difference-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzde Fark Hesaplama | İki Değeri Karşılaştırın",
+  "meta_description": "Ücretsiz yüzde fark hesaplama aracı. İki sayıyı karşılaştırıp yüzde farkı bulun. Ortalamayı taban alarak simetrik, tarafsız bir karşılaştırma yapar.",
+  "h1": "Yüzde Fark Hesaplama",
+  "subtitle": "<strong>İki değer</strong> girin; bu <strong>yüzde fark hesaplayıcısı</strong>, <strong>ortalamalarını</strong> taban alarak aralarındaki farkı <strong>yüzde</strong> olarak söylesin. Yüzde değişimden farklı olarak burada sıra önemli değildir — 50 ile 80’i karşılaştırmak, 80 ile 50’yi karşılaştırmakla aynı sonucu verir.",
+  "hint": "Aralarındaki yüzde farkı bulmak için iki değer girin.",
+  "long_tail_anchor": "İki Sayıyı Simetrik Karşılaştırma",
+  "card_strings": {
+    "Absolute Difference:": "Mutlak Fark:",
+    "Enter first number": "Birinci sayıyı girin",
+    "Enter second number": "İkinci sayıyı girin",
+    "First Value": "Birinci Değer",
+    "Percentage Difference:": "Yüzde Fark:",
+    "Second Value": "İkinci Değer"
+  }
+}

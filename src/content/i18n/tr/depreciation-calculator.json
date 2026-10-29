@@ -1,0 +1,20 @@
+{
+  "slug": "depreciation-calculator",
+  "lang": "tr",
+  "meta_title": "Amortisman Hesaplama | Doğrusal Amortisman Yöntemi",
+  "meta_description": "Doğrusal amortisman yöntemini kullanan ücretsiz amortisman hesaplama aracı. Varlık maliyetini, hurda değerini ve faydalı ömrü girerek yıllık amortismanı hesaplayın.",
+  "h1": "Amortisman Hesaplama",
+  "subtitle": "<strong>Varlık maliyetini</strong>, <strong>hurda değerini</strong> ve <strong>faydalı ömrü</strong> girin; bu <strong>amortisman hesaplama</strong> aracı doğrusal amortisman yöntemiyle <strong>yıllık amortismanı</strong> anında bulur.",
+  "hint": "Yıllık amortismanı bulmak için varlık maliyetini, hurda değerini ve faydalı ömrü girin.",
+  "long_tail_anchor": "Doğrusal Varlık Amortismanı",
+  "card_strings": {
+    "Annual Depreciation:": "Yıllık Amortisman:",
+    "Asset Cost ($)": "Varlık Maliyeti ($)",
+    "Depreciation Rate:": "Amortisman Oranı:",
+    "Salvage Value ($)": "Hurda Değeri ($)",
+    "Useful Life (Years)": "Faydalı Ömür (Yıl)",
+    "e.g. 1000": "ör. 1000",
+    "e.g. 10000": "ör. 10000",
+    "e.g. 5": "ör. 5"
+  }
+}

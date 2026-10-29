@@ -1,0 +1,22 @@
+{
+  "slug": "compound-interest-calculator",
+  "lang": "tr",
+  "meta_title": "Bileşik Faiz Hesaplama | Zaman İçindeki Büyümeyi Bulun",
+  "meta_description": "Ücretsiz bileşik faiz hesaplama aracı. Anapara, yıllık oran, süre ve bileşiklendirme sıklığını girin, kazanılan faizi ve toplam tutarı anında hesaplayın.",
+  "h1": "Bileşik Faiz Hesaplama",
+  "subtitle": "<strong>Anaparayı</strong>, <strong>yıllık oranı</strong>, <strong>süreyi</strong> ve <strong>bileşiklendirme sıklığını</strong> girin; bu <strong>bileşik faiz hesaplama</strong> aracı <strong>kazanılan faizi</strong> ve <strong>toplam tutarı</strong> anında gösterir.",
+  "hint": "Toplam tutarı bulmak için anapara, oran, süre ve bileşiklendirme sıklığını girin.",
+  "long_tail_anchor": "Bileşiklendirme Sıklığı ve Büyüme",
+  "card_strings": {
+    "Annual Rate": "Yıllık Oran",
+    "Compounding / Year": "Bileşiklendirme / Yıl",
+    "Interest Earned:": "Kazanılan Faiz:",
+    "Principal ($)": "Anapara ($)",
+    "Time (Years)": "Süre (Yıl)",
+    "Total Amount:": "Toplam Tutar:",
+    "e.g. 1000": "ör. 1000",
+    "e.g. 12": "ör. 12",
+    "e.g. 3": "ör. 3",
+    "e.g. 5": "ör. 5"
+  }
+}

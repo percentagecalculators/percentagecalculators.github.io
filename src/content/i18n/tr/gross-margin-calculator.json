@@ -1,0 +1,18 @@
+{
+  "slug": "gross-margin-calculator",
+  "lang": "tr",
+  "meta_title": "Brüt Marj Hesaplama | Brüt Kâr Marjı Yüzdesi",
+  "meta_description": "Ücretsiz brüt marj hesaplama aracı. Gelir ve satılan malın maliyetini (SMM) girerek brüt kârı ve brüt marj yüzdesini anında hesaplayın.",
+  "h1": "Brüt Marj Hesaplama",
+  "subtitle": "<strong>Gelirinizi</strong> ve <strong>satılan malın maliyetini (SMM)</strong> girin; bu <strong>brüt marj hesaplayıcısı</strong> <strong>brüt kârınızı</strong> ve <strong>brüt marj yüzdenizi</strong> anında bulsun.",
+  "hint": "Brüt marj yüzdenizi bulmak için gelir ve SMM değerini girin.",
+  "long_tail_anchor": "Gelir ve SMM ile Marj Yüzdesi",
+  "card_strings": {
+    "COGS ($)": "SMM ($)",
+    "Gross Margin:": "Brüt Marj:",
+    "Gross Profit:": "Brüt Kâr:",
+    "Revenue ($)": "Gelir ($)",
+    "e.g. 100000": "ör. 100000",
+    "e.g. 65000": "ör. 65000"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "win-loss-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Galibiyet/Mağlubiyet Oranı Hesaplama | Kazanma Oranı",
+  "meta_description": "Ücretsiz galibiyet/mağlubiyet yüzdesi hesaplama aracı. Galibiyet, mağlubiyet ve beraberlik sayısını girin; her spor, oyun veya yarışma için kazanma yüzdenizi hesaplayın.",
+  "h1": "Galibiyet/Mağlubiyet Oranı Hesaplama",
+  "subtitle": "<strong>Galibiyet</strong>, <strong>mağlubiyet</strong> ve varsa <strong>beraberlik</strong> sayılarınızı girin; bu <strong>galibiyet/mağlubiyet oranı hesaplama</strong> aracı <strong>kazanma yüzdenizi</strong> anında hesaplar.",
+  "hint": "Kazanma yüzdenizi bulmak için galibiyet, mağlubiyet ve beraberlik sayısını girin.",
+  "long_tail_anchor": "Spor Kazanma Oranınızı Hesaplayın",
+  "card_strings": {
+    "Losses": "Mağlubiyet",
+    "Ties": "Beraberlik",
+    "Total Games:": "Toplam Maç:",
+    "Win Percentage:": "Kazanma Yüzdesi:",
+    "Wins": "Galibiyet",
+    "e.g. 10": "ör. 10",
+    "e.g. 18": "ör. 18",
+    "e.g. 2": "ör. 2"
+  }
+}

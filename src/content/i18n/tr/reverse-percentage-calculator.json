@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Ters Yüzde Hesaplama | Orijinal Sayıyı Bulma",
+  "meta_description": "Ücretsiz ters yüzde hesaplama aracı. Bir değeri ve yüzdesini biliyorsanız orijinal sayıyı bulun; indirim öncesi fiyatı ve daha fazlasını hesaplayın.",
+  "h1": "Ters Yüzde Hesaplama",
+  "subtitle": "Elinizde bir sayı var ve bunun daha büyük bir şeyin belirli bir yüzdesi olduğunu mu biliyorsunuz? <strong>Bilinen değeri</strong> ve <strong>temsil ettiği yüzdeyi</strong> girin; bu <strong>ters yüzde hesaplama</strong> aracı geriye doğru hesaplayarak <strong>orijinal sayıyı</strong> bulur. 30, toplamın %25'i ise toplam 120'dir.",
+  "hint": "Orijinal sayıyı bulmak için bir değer ve temsil ettiği yüzdeyi girin.",
+  "long_tail_anchor": "Orijinal Sayıyı Bulma",
+  "card_strings": {
+    "Original Total:": "Orijinal Toplam:",
+    "Value": "Değer",
+    "e.g. 30": "ör. 30",
+    "e.g. 45": "ör. 45",
+    "is this % of the total": "toplamın bu yüzdesidir"
+  }
+}

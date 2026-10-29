@@ -1,0 +1,17 @@
+{
+  "slug": "marks-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Not Yüzdesi Hesaplama | Sınav Yüzdesi Hesaplayıcı",
+  "meta_description": "Ücretsiz not yüzdesi hesaplama aracı. Aldığınız notu ve toplam puanı girerek sınav veya test yüzdenizi anında hesaplayın.",
+  "h1": "Not Yüzdesi Hesaplama",
+  "subtitle": "<strong>Aldığınız notu</strong> ve <strong>toplam puanı</strong> girin; bu <strong>not yüzdesi hesaplayıcısı</strong> <strong>sınav yüzdenizi</strong> anında bulsun — karneler, not çizelgeleri ve sonuç kontrolleri için birebir.",
+  "hint": "Yüzdenizi bulmak için aldığınız notu ve toplam puanı girin.",
+  "long_tail_anchor": "Sınav ve Test Puanı Yüzdesi",
+  "card_strings": {
+    "Marks Obtained": "Alınan Not",
+    "Percentage:": "Yüzde:",
+    "Total Marks": "Toplam Puan",
+    "e.g. 450": "ör. 450",
+    "e.g. 500": "ör. 500"
+  }
+}

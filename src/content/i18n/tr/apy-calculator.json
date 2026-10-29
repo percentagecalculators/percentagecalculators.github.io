@@ -1,0 +1,17 @@
+{
+  "slug": "apy-calculator",
+  "lang": "tr",
+  "meta_title": "APY Hesaplama | Yıllık Getiri Hesaplayıcı",
+  "meta_description": "Ücretsiz APY hesaplama aracı. Nominal faiz oranını ve bileşiklendirme sıklığını yıllık getiriye (APY) anında dönüştürün.",
+  "h1": "APY Hesaplama",
+  "subtitle": "<strong>Nominal faiz oranını</strong> ve yılda kaç kez <strong>bileşiklendirildiğini</strong> girin; bu <strong>APY hesaplama</strong> aracı gerçek <strong>yıllık getirinizi (APY)</strong> bulur — yani fiilen elde edeceğiniz getiriyi.",
+  "hint": "APY’nizi bulmak için nominal oranı ve yıllık bileşiklendirme dönemi sayısını girin.",
+  "long_tail_anchor": "Yıllık Getiri Hesaplayıcı",
+  "card_strings": {
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Bileşiklendirme Dönemi / Yıl",
+    "Nominal Interest Rate": "Nominal Faiz Oranı",
+    "e.g. 12": "ör. 12",
+    "e.g. 5": "ör. 5"
+  }
+}

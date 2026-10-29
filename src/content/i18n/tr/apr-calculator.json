@@ -1,0 +1,17 @@
+{
+  "slug": "apr-calculator",
+  "lang": "tr",
+  "meta_title": "APR Hesaplama | Yıllık Yüzde Oran Hesaplayıcı",
+  "meta_description": "Ücretsiz APR hesaplama aracı. Dönemlik faiz oranını yıllık oran (APR) olarak anında hesaplayın — kredi ve kredi kartı maliyetlerinde kullanılan standart gösterim.",
+  "h1": "APR Hesaplama",
+  "subtitle": "<strong>Dönemlik faiz oranını</strong> ve <strong>yıldaki dönem sayısını</strong> girin; bu <strong>APR hesaplama</strong> aracı <strong>yıllık oranı (APR)</strong> bulur. Borç verenlerin borçlanma maliyetini bileşik hesaplamadan belirtmek için kullandığı standart gösterimdir.",
+  "hint": "APR’yi bulmak için dönemlik oranı ve yıldaki dönem sayısını girin.",
+  "long_tail_anchor": "Yıllık Yüzde Oran Hesaplayıcı",
+  "card_strings": {
+    "APR:": "APR:",
+    "Periodic Interest Rate": "Dönemlik Faiz Oranı",
+    "Periods / Year": "Dönem / Yıl",
+    "e.g. 1.5": "ör. 1.5",
+    "e.g. 12": "ör. 12"
+  }
+}

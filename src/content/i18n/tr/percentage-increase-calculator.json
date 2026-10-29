@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-increase-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzde Artış Hesaplama | Sayıya Yüzde Ekleme",
+  "meta_description": "Ücretsiz yüzde artış hesaplama aracı. Bir sayıya istediğiniz yüzdeyi anında ekleyin. Maaş zammı, fiyat artışı, yatırım getirisi ve daha fazlasını hesaplayın.",
+  "h1": "Yüzde Artış Hesaplama",
+  "subtitle": "<strong>Başlangıç sayısını</strong> ve <strong>eklenecek yüzdeyi</strong> girin; bu <strong>yüzde artış hesaplayıcısı</strong> size hem <strong>artış tutarını</strong> hem de <strong>son değeri</strong> versin. “200’ün %15 fazlası kaç eder?” sorusunun cevabı gibi düşünün — bu arada cevap 230.",
+  "hint": "Artmış değeri bulmak için bir sayı ve eklenecek yüzdeyi girin.",
+  "long_tail_anchor": "Bir Sayıya Yüzde Ekleme",
+  "card_strings": {
+    "Enter percentage": "Yüzdeyi girin",
+    "Enter starting number": "Başlangıç sayısını girin",
+    "Increase Amount:": "Artış Tutarı:",
+    "Increase by": "Artış oranı",
+    "New Value:": "Yeni Değer:",
+    "Original Value": "Asıl Değer"
+  }
+}

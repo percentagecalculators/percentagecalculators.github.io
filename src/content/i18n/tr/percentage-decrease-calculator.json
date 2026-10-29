@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-decrease-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzde Azalış Hesaplama | Bir Sayıdan Yüzde Çıkarma",
+  "meta_description": "Ücretsiz yüzde azalış hesaplama aracı. Bir sayıdan istediğiniz yüzdeyi anında çıkarın — amortisman, kilo kaybı ve bütçe kesintilerini hesaplayın.",
+  "h1": "Yüzde Azalış Hesaplama",
+  "subtitle": "<strong>Başlangıç sayısını</strong> ve <strong>çıkarılacak yüzdeyi</strong> girin; bu <strong>yüzde azalış hesaplayıcısı</strong> size <strong>azalış tutarını</strong> ve <strong>son değeri</strong> versin. 500’den %20 çıkarınca kaç kaldığını merak ediyorsanız — cevap 400, üstelik zihinden işlem yapmak zorunda kalmadınız.",
+  "hint": "Azalmış değeri bulmak için bir sayı ve çıkarılacak yüzdeyi girin.",
+  "long_tail_anchor": "Bir Sayıdan Yüzde Çıkarma",
+  "card_strings": {
+    "Decrease Amount:": "Azalış Tutarı:",
+    "Decrease by": "Azalış oranı",
+    "Enter percentage": "Yüzdeyi girin",
+    "Enter starting number": "Başlangıç sayısını girin",
+    "New Value:": "Yeni Değer:",
+    "Original Value": "Asıl Değer"
+  }
+}

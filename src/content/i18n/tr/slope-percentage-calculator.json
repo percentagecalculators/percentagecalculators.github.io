@@ -1,0 +1,18 @@
+{
+  "slug": "slope-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzde Eğim Hesaplama | Yükseliş/Mesafeyi Eğim %’sine Çevirme",
+  "meta_description": "Ücretsiz yüzde eğim hesaplama aracı. Yükseliş ve yatay mesafeyi girin; yüzde eğimi ve derece cinsinden eşdeğer açıyı anında hesaplayın.",
+  "h1": "Yüzde Eğim Hesaplama",
+  "subtitle": "<strong>Yükselişi</strong> ve <strong>yatay mesafeyi</strong> girin; bu <strong>yüzde eğim hesaplama</strong> aracı <strong>yüzde eğimi</strong> ve derece cinsinden eşdeğer <strong>açıyı</strong> anında hesaplar.",
+  "hint": "Yüzde eğimi ve açıyı bulmak için yükseliş ve yatay mesafeyi girin.",
+  "long_tail_anchor": "Yükseliş/Mesafeden Yüzde Eğime",
+  "card_strings": {
+    "Angle:": "Açı:",
+    "Rise": "Yükseliş",
+    "Run": "Yatay mesafe",
+    "Slope:": "Eğim:",
+    "e.g. 100": "ör. 100",
+    "e.g. 5": "ör. 5"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "sgpa-to-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "SGPA’dan Yüzdeye Çevirme | SGPA’yı Yüzdeye Dönüştürme",
+  "meta_description": "Standart SGPA × 9.5 formülünü kullanan ücretsiz SGPA’dan yüzdeye çevirme aracı. Dönem ortalamanızı (SGPA) eşdeğer yüzdeye anında dönüştürün.",
+  "h1": "SGPA’dan Yüzdeye Çevirme",
+  "subtitle": "<strong>SGPA</strong> değerinizi girin; bu <strong>SGPA’dan yüzdeye çevirme</strong> aracı, Hindistan’daki çoğu üniversitenin kullandığı standart <strong>SGPA × 9.5</strong> formülüyle size eşdeğer <strong>yüzdeyi</strong> anında verir.",
+  "hint": "Eşdeğer yüzdeyi bulmak için dönem SGPA değerinizi girin.",
+  "long_tail_anchor": "Dönem Ortalamasını Yüzdeye Çevirme",
+  "card_strings": {
+    "Percentage:": "Yüzde:",
+    "SGPA (out of 10)": "SGPA (10 üzerinden)",
+    "e.g. 7.8": "ör. 7.8"
+  }
+}

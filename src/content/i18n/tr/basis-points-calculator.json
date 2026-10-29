@@ -1,0 +1,15 @@
+{
+  "slug": "basis-points-calculator",
+  "lang": "tr",
+  "meta_title": "Baz Puan Hesaplama | Baz Puanı Yüzdeye Çevirme",
+  "meta_description": "Ücretsiz baz puan hesaplama aracı. Baz puan (bps) değerini girin, yüzdeye anında dönüştürün — finans ve alım satım için doğru sonuçlar.",
+  "h1": "Baz Puan Hesaplama",
+  "subtitle": "<strong>Baz puan (bps)</strong> cinsinden bir değer girin; bu <strong>baz puan hesaplama</strong> aracı değeri anında <strong>yüzdeye</strong> dönüştürür. Finansta küçük oran değişimleri bu şekilde ifade edilir.",
+  "hint": "Karşılık gelen yüzdeyi bulmak için baz puanı girin.",
+  "long_tail_anchor": "Baz Puanı Yüzdeye Dönüştürme",
+  "card_strings": {
+    "Basis Points (bps)": "Baz Puan (bps)",
+    "Percentage:": "Yüzde:",
+    "e.g. 25": "ör. 25"
+  }
+}

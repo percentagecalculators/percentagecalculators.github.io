@@ -1,0 +1,15 @@
+{
+  "slug": "decimal-to-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Ondalık Sayıyı Yüzdeye Çevirme | Ondalığı % Yapın",
+  "meta_description": "Ücretsiz ondalık sayıdan yüzdeye çevirme aracı. Herhangi bir ondalık değeri girin, yüzdeye anında dönüştürün — okul, iş veya finans için doğru sonuçlar.",
+  "h1": "Ondalık Sayıyı Yüzdeye Çevirme",
+  "subtitle": "Bir <strong>ondalık değer</strong> girin; bu <strong>ondalık sayıyı yüzdeye çevirme</strong> aracı değeri anında <strong>yüzdeye</strong> dönüştürür.",
+  "hint": "Karşılık gelen yüzdeyi bulmak için bir ondalık değer girin.",
+  "long_tail_anchor": "Ondalık Sayıyı Yüzdeye Dönüştürme",
+  "card_strings": {
+    "Decimal Value": "Ondalık Değer",
+    "Percentage:": "Yüzde:",
+    "e.g. 0.25": "ör. 0.25"
+  }
+}

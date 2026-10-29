@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-error-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzde Hata Hesaplama | Laboratuvar için Yüzde Hata",
+  "meta_description": "Ücretsiz yüzde hata hesaplama aracı. Fizik, kimya ve biyoloji laboratuvarları için deneysel ve kuramsal değerler arasındaki yüzde hatayı hesaplayın.",
+  "h1": "Yüzde Hata Hesaplama",
+  "subtitle": "<strong>Ölçülen (deneysel) değeri</strong> ve <strong>gerçek (kuramsal) değeri</strong> girin; bu <strong>yüzde hata hesaplayıcısı</strong> aradaki <strong>yüzde hatayı</strong> göstersin. Standart formülü kullanır: |ölçülen − gerçek| ÷ |gerçek| × 100.",
+  "hint": "Yüzde hatayı bulmak için ölçülen ve gerçek değeri girin.",
+  "long_tail_anchor": "Deneysel ve Kuramsal Değer",
+  "card_strings": {
+    "Absolute Error:": "Mutlak Hata:",
+    "Enter expected value": "Beklenen değeri girin",
+    "Enter measured value": "Ölçülen değeri girin",
+    "Experimental (Measured)": "Deneysel (Ölçülen)",
+    "Percentage Error:": "Yüzde Hata:",
+    "Theoretical (Expected)": "Kuramsal (Beklenen)"
+  }
+}

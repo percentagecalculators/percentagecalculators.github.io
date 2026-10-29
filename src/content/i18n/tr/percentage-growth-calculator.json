@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-growth-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzde Büyüme Hesaplama | İşletme Büyüme Oranı",
+  "meta_description": "Ücretsiz yüzde büyüme hesaplama aracı. Gelir, müşteri, satış ve KPI büyüme oranlarını hesaplayın. İşletme performansını doğru metriklerle izleyin.",
+  "h1": "Yüzde Büyüme Hesaplama",
+  "subtitle": "<strong>Başlangıç değerini</strong> ve <strong>son değeri</strong> girin; bu <strong>yüzde büyüme hesaplayıcısı</strong> size <strong>büyüme oranını</strong> ve <strong>büyüme tutarını</strong> göstersin. Şu soruyu yanıtlar: rakamınız A noktasından B noktasına yüzde kaç büyüdü?",
+  "hint": "Yüzde büyümeyi bulmak için başlangıç ve son değeri girin.",
+  "long_tail_anchor": "İşletme ve Gelir Büyüme Oranı",
+  "card_strings": {
+    "Ending value": "Son değer",
+    "Final Value": "Son Değer",
+    "Growth Amount:": "Büyüme Tutarı:",
+    "Growth Rate:": "Büyüme Oranı:",
+    "Initial Value": "Başlangıç Değeri",
+    "Starting value": "Başlangıç değeri"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-change-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzde Değişim Hesaplama | Yüzde Artış/Azalış",
+  "meta_description": "Ücretsiz yüzde değişim hesaplama aracı. İki değer arasındaki yüzde artışı veya azalışı hesaplayın — hisse ve fiyat değişimlerini takip edin.",
+  "h1": "Yüzde Değişim Hesaplama",
+  "subtitle": "<strong>Eski değeri</strong> ve <strong>yeni değeri</strong> girin; bu <strong>yüzde değişim hesaplayıcısı</strong> aradaki <strong>yüzde artışı veya azalışı</strong> söylesin. Sonuç yükselişte pozitif, düşüşte negatif çıkar — yani 80’den 100’e gidiş +%25 verir.",
+  "hint": "Aradaki yüzde değişimi bulmak için eski ve yeni değeri girin.",
+  "long_tail_anchor": "Yüzde Artış veya Azalış",
+  "card_strings": {
+    "Change Type:": "Değişim Türü:",
+    "Enter ending value": "Son değeri girin",
+    "Enter starting value": "Başlangıç değerini girin",
+    "New Value (Current)": "Yeni Değer (Güncel)",
+    "Old Value (Original)": "Eski Değer (Asıl)",
+    "Percentage Change:": "Yüzde Değişim:"
+  }
+}

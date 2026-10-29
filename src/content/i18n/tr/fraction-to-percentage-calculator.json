@@ -1,0 +1,18 @@
+{
+  "slug": "fraction-to-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Kesri Yüzdeye Çevirme | Kesri % Olarak Yazın",
+  "meta_description": "Ücretsiz kesirden yüzdeye çevirme aracı. Herhangi bir kesri anında yüzdeye dönüştürün — sınav notları, oranlar ve orantılar için ideal.",
+  "h1": "Kesri Yüzdeye Çevirme",
+  "subtitle": "Bir <strong>pay</strong> (üstteki sayı) ve bir <strong>payda</strong> (alttaki sayı) girin; bu <strong>kesri yüzdeye çevirme</strong> aracı kesrinizi <strong>yüzdeye</strong> ve <strong>ondalık sayıya</strong> dönüştürür. Örneğin 3/4, %75 olur — değerleri yazdıkça hesap anında yapılır.",
+  "hint": "Yüzdeye çevirmek için bir pay ve payda girin.",
+  "long_tail_anchor": "Kesri Yüzdeye Dönüştürme",
+  "card_strings": {
+    "Decimal Value:": "Ondalık Değer:",
+    "Denominator": "Payda",
+    "Numerator": "Pay",
+    "Percentage:": "Yüzde:",
+    "e.g. 3": "ör. 3",
+    "e.g. 4": "ör. 4"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "loan-interest-calculator",
+  "lang": "tr",
+  "meta_title": "Kredi Faizi Hesaplama | Aylık Taksit ve Toplam Faiz",
+  "meta_description": "Ücretsiz kredi faizi hesaplama aracı. Kredi tutarı, yıllık faiz oranı ve vadeyi girerek aylık taksiti ve ödenecek toplam faizi anında hesaplayın.",
+  "h1": "Kredi Faizi Hesaplama",
+  "subtitle": "<strong>Kredi tutarını</strong>, <strong>yıllık faiz oranını</strong> ve <strong>kredi vadesini</strong> girin; bu <strong>kredi faizi hesaplayıcısı</strong> <strong>aylık taksitinizi</strong> ve ödeyeceğiniz <strong>toplam faizi</strong> anında bulsun.",
+  "hint": "Aylık taksiti bulmak için kredi tutarını, faiz oranını ve vadeyi girin.",
+  "long_tail_anchor": "Aylık Taksit ve Toplam Faiz",
+  "card_strings": {
+    "Annual Rate": "Yıllık Oran",
+    "Loan Amount ($)": "Kredi Tutarı ($)",
+    "Loan Term (Years)": "Kredi Vadesi (Yıl)",
+    "Monthly EMI:": "Aylık Taksit:",
+    "Total Interest:": "Toplam Faiz:",
+    "e.g. 20000": "ör. 20000",
+    "e.g. 5": "ör. 5",
+    "e.g. 7.5": "ör. 7.5"
+  }
+}

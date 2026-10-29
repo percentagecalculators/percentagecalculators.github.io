@@ -1,0 +1,20 @@
+{
+  "slug": "simple-interest-calculator",
+  "lang": "tr",
+  "meta_title": "Basit Faiz Hesaplama | Faiz ve Toplam Tutar",
+  "meta_description": "Ücretsiz basit faiz hesaplama aracı. Anapara, yıllık faiz oranı ve süreyi girin; kazanılan faizi ve toplam tutarı anında hesaplayın.",
+  "h1": "Basit Faiz Hesaplama",
+  "subtitle": "<strong>Anaparayı</strong>, <strong>yıllık faiz oranını</strong> ve <strong>yıl olarak süreyi</strong> girin; bu <strong>basit faiz hesaplama</strong> aracı <strong>kazanılan faizi</strong> ve <strong>toplam tutarı</strong> anında gösterir.",
+  "hint": "Faizi ve toplam tutarı bulmak için anapara, yıllık oran ve süreyi girin.",
+  "long_tail_anchor": "Anapara, Oran ve Süre Formülü",
+  "card_strings": {
+    "Annual Rate": "Yıllık Oran",
+    "Interest Earned:": "Kazanılan Faiz:",
+    "Principal ($)": "Anapara ($)",
+    "Time (Years)": "Süre (Yıl)",
+    "Total Amount:": "Toplam Tutar:",
+    "e.g. 1000": "ör. 1000",
+    "e.g. 3": "ör. 3",
+    "e.g. 5": "ör. 5"
+  }
+}

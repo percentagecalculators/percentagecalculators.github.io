@@ -1,0 +1,18 @@
+{
+  "slug": "markup-calculator",
+  "lang": "tr",
+  "meta_title": "Maliyet Üzeri Kâr Hesaplama | Maliyet + Kâr % ile Satış Fiyatı",
+  "meta_description": "Ücretsiz maliyet üzeri kâr (markup) hesaplama aracı. Maliyet fiyatını ve istediğiniz kâr yüzdesini girerek uygulamanız gereken satış fiyatını hesaplayın.",
+  "h1": "Maliyet Üzeri Kâr (Markup) Hesaplama",
+  "subtitle": "<strong>Maliyet fiyatını</strong> ve istediğiniz <strong>maliyet üzeri kâr yüzdesini</strong> girin; bu <strong>maliyet üzeri kâr (markup) hesaplayıcısı</strong> uygulamanız gereken <strong>satış fiyatını</strong> anında bulsun.",
+  "hint": "Satış fiyatını bulmak için maliyet fiyatını ve kâr yüzdesini girin.",
+  "long_tail_anchor": "Maliyete Kâr Ekleyerek Fiyat Bulma",
+  "card_strings": {
+    "Cost Price ($)": "Maliyet Fiyatı ($)",
+    "Markup": "Maliyet Üzeri Kâr",
+    "Markup Amount:": "Kâr Tutarı:",
+    "Selling Price:": "Satış Fiyatı:",
+    "e.g. 30": "ör. 30",
+    "e.g. 40": "ör. 40"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-point-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzde Puanı Hesaplama | Puan Farkı Hesaplayıcı",
+  "meta_description": "Ücretsiz yüzde puanı hesaplama aracı. İki yüzde girin, yüzde puanı farkını ve göreli yüzde değişimini anında görün.",
+  "h1": "Yüzde Puanı Hesaplama",
+  "subtitle": "İki <strong>yüzde</strong> girin; bu <strong>yüzde puanı hesaplama</strong> aracı <strong>yüzde puanı farkını</strong> gösterir. Bu fark, karşılaştırma için yine gösterilen göreli yüzde değişimiyle aynı şey değildir.",
+  "hint": "Yüzde puanı farkını bulmak için iki yüzde girin.",
+  "long_tail_anchor": "Yüzde Puanı ve Yüzde Değişim Farkı",
+  "card_strings": {
+    "Percentage A": "Yüzde A",
+    "Percentage B": "Yüzde B",
+    "Point Difference:": "Puan Farkı:",
+    "Relative Change:": "Göreli Değişim:",
+    "e.g. 20": "ör. 20",
+    "e.g. 25": "ör. 25"
+  }
+}

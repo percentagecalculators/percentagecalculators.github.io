@@ -1,0 +1,17 @@
+{
+  "slug": "commission-calculator",
+  "lang": "tr",
+  "meta_title": "Komisyon Hesaplama | Satış Komisyonunu Bulun",
+  "meta_description": "Ücretsiz komisyon hesaplama aracı. Satış tutarını ve komisyon oranını girin, kazandığınız komisyonu anında hesaplayın.",
+  "h1": "Komisyon Hesaplama",
+  "subtitle": "<strong>Satış tutarınızı</strong> ve <strong>komisyon oranını</strong> girin; bu <strong>komisyon hesaplama</strong> aracı <strong>kazandığınız komisyonu</strong> anında bulur.",
+  "hint": "Kazanılan komisyonu bulmak için satış tutarını ve komisyon oranını girin.",
+  "long_tail_anchor": "Satış Komisyonu Yüzdesi",
+  "card_strings": {
+    "Commission Earned:": "Kazanılan Komisyon:",
+    "Commission Rate": "Komisyon Oranı",
+    "Sales Amount ($)": "Satış Tutarı ($)",
+    "e.g. 10": "ör. 10",
+    "e.g. 5000": "ör. 5000"
+  }
+}

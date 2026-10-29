@@ -1,0 +1,15 @@
+{
+  "slug": "gpa-to-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "GPA Yüzdeye Çevirme | 4.0 Ölçeğinde GPA’yı % Yap",
+  "meta_description": "Ücretsiz GPA yüzdeye çevirme aracı. 4.0 ölçeğindeki GPA’nızı anında karşılık gelen yüzdeye dönüştürün. Doğru, basit, üyelik gerektirmez.",
+  "h1": "GPA Yüzdeye Çevirme Hesaplayıcı",
+  "subtitle": "Standart <strong>4.0 ölçeğindeki</strong> <strong>GPA</strong> değerinizi girin; bu <strong>GPA yüzdeye çevirme hesaplayıcısı</strong> onu anında karşılık gelen <strong>yüzdeye</strong> dönüştürsün — başvurular, transkriptler ve not sistemlerini karşılaştırmak için çok pratik.",
+  "hint": "Karşılık gelen yüzdeyi bulmak için 4.0 ölçeğindeki GPA’nızı girin.",
+  "long_tail_anchor": "4.0 Ölçeğindeki GPA’yı Yüzdeye Çevirme",
+  "card_strings": {
+    "GPA (4.0 Scale)": "GPA (4.0 ölçeği)",
+    "Percentage:": "Yüzde:",
+    "e.g. 3.5": "ör. 3.5"
+  }
+}

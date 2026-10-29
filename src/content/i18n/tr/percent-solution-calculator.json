@@ -1,0 +1,17 @@
+{
+  "slug": "percent-solution-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzde Çözelti Hesaplama | Kütle/Hacim Derişimi",
+  "meta_description": "Ücretsiz yüzde çözelti hesaplama aracı. Çözünen maddenin kütlesini ve çözeltinin hacmini girerek yüzde derişimi (% a/h) anında hesaplayın.",
+  "h1": "Yüzde Çözelti Hesaplama",
+  "subtitle": "<strong>Çözünen maddenin kütlesini</strong> ve <strong>çözeltinin hacmini</strong> girin; bu <strong>yüzde çözelti hesaplayıcısı</strong> <strong>yüzde derişimi</strong> (% a/h) anında bulsun.",
+  "hint": "Derişimi bulmak için çözünen kütlesini ve çözelti hacmini girin.",
+  "long_tail_anchor": "Kütle ve Hacme Göre Derişim Yüzdesi",
+  "card_strings": {
+    "Concentration (% w/v):": "Derişim (% a/h):",
+    "Mass of Solute (g)": "Çözünen Kütlesi (g)",
+    "Volume of Solution (mL)": "Çözelti Hacmi (mL)",
+    "e.g. 250": "ör. 250",
+    "e.g. 5": "ör. 5"
+  }
+}

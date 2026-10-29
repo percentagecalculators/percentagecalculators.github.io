@@ -1,0 +1,18 @@
+{
+  "slug": "profit-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Kâr Yüzdesi Hesaplama | Maliyet Üzerinden Kâr % Hesaplayıcı",
+  "meta_description": "Ücretsiz kâr yüzdesi hesaplama aracı. Maliyet fiyatını ve satış fiyatını girin; kâr tutarınızı ve kâr yüzdenizi anında hesaplayın.",
+  "h1": "Kâr Yüzdesi Hesaplama",
+  "subtitle": "<strong>Maliyet fiyatını</strong> ve <strong>satış fiyatını</strong> girin; bu <strong>kâr yüzdesi hesaplama</strong> aracı <strong>kârınızı</strong> ve maliyet üzerinden <strong>kâr yüzdesini</strong> anında hesaplar.",
+  "hint": "Kâr yüzdesini bulmak için maliyet fiyatını ve satış fiyatını girin.",
+  "long_tail_anchor": "Maliyet Fiyatı Üzerinden Kâr Yüzdesi",
+  "card_strings": {
+    "Cost Price ($)": "Maliyet Fiyatı ($)",
+    "Profit Percentage:": "Kâr Yüzdesi:",
+    "Profit:": "Kâr:",
+    "Selling Price ($)": "Satış Fiyatı ($)",
+    "e.g. 40": "ör. 40",
+    "e.g. 55": "ör. 55"
+  }
+}

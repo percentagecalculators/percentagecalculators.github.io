@@ -1,0 +1,15 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "CGPA’dan Yüzdeye Çevirme | 10’luk CGPA’yı % Yapın",
+  "meta_description": "Standart 10’luk CGPA x 9.5 formülünü kullanan ücretsiz CGPA yüzde hesaplama aracı. CGPA’nızı kolej ve üniversite kayıtları için yüzdeye çevirin.",
+  "h1": "CGPA’dan Yüzdeye Çevirme",
+  "subtitle": "Standart <strong>10’luk ölçekteki</strong> <strong>CGPA</strong> değerinizi girin; bu <strong>CGPA yüzde hesaplama</strong> aracı yaygın kullanılan <strong>CGPA × 9.5</strong> formülüyle karşılık gelen <strong>yüzdeyi</strong> anında verir.",
+  "hint": "Karşılık gelen yüzdeyi bulmak için 10’luk CGPA değerinizi girin.",
+  "long_tail_anchor": "10’luk CGPA’yı Yüzdeye Çevirme",
+  "card_strings": {
+    "CGPA (out of 10)": "CGPA (10 üzerinden)",
+    "Percentage:": "Yüzde:",
+    "e.g. 8.2": "ör. 8.2"
+  }
+}

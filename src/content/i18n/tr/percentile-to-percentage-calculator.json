@@ -1,0 +1,16 @@
+{
+  "slug": "percentile-to-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzdelik Dilimden Yüzdeye Hesaplama | Yüzde Tahmini",
+  "meta_description": "Ücretsiz yüzdelik dilimden yüzdeye hesaplama aracı. Sınav yüzdelik dilim puanınızdan yaygın bir yaklaşık formülle hızlı bir yüzde tahmini alın.",
+  "h1": "Yüzdelik Dilimden Yüzdeye Hesaplama",
+  "subtitle": "<strong>Yüzdelik dilim</strong> puanınızı girin; bu <strong>yüzdelik dilimden yüzdeye hesaplama</strong> aracı yaygın olarak kullanılan bir yaklaşıma dayanarak hızlı bir <strong>tahmini yüzde</strong> verir. Yüzdelik dilim ile yüzde farklı şeyleri ölçer; bu nedenle sonucu resmî bir dönüşüm değil, bir tahmin olarak değerlendirin.",
+  "hint": "Tahmini yüzdeyi bulmak için bir yüzdelik dilim (0–100) girin.",
+  "long_tail_anchor": "Yüzdelik Dilim Sırasından Yüzde Tahmini",
+  "card_strings": {
+    "%ile": "YD",
+    "Estimated Percentage:": "Tahmini Yüzde:",
+    "Percentile": "Yüzdelik dilim",
+    "e.g. 85": "ör. 85"
+  }
+}

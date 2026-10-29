@@ -1,0 +1,17 @@
+{
+  "slug": "apr-apy-converter",
+  "lang": "tr",
+  "meta_title": "APR’den APY’ye Dönüştürücü | Yıllık Getiriyi Hesaplama",
+  "meta_description": "Ücretsiz APR – APY dönüştürücü. APR ve bileşiklendirme sıklığını girin, karşılık gelen yıllık getiriyi (APY) anında görün.",
+  "h1": "APR’den APY’ye Dönüştürücü",
+  "subtitle": "Bir <strong>APR</strong> ve <strong>bileşiklendirme sıklığını</strong> girin; bu <strong>APR – APY dönüştürücü</strong> karşılık gelen <strong>yıllık getiriyi (APY)</strong> gösterir. Farklı biçimde sunulan hesapları karşılaştırmak için kullanışlıdır.",
+  "hint": "Karşılık gelen APY’yi bulmak için APR ve yıllık bileşiklendirme dönemi sayısını girin.",
+  "long_tail_anchor": "APR ve APY Oranlarını Karşılaştırma",
+  "card_strings": {
+    "APR": "APR",
+    "APY:": "APY:",
+    "Compounding Periods / Year": "Bileşiklendirme Dönemi / Yıl",
+    "e.g. 12": "ör. 12",
+    "e.g. 6": "ör. 6"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "average-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzde Ortalaması Hesaplama | Basit ve Ağırlıklı Ortalama",
+  "meta_description": "Basit ve ağırlıklı modlu ücretsiz yüzde ortalaması hesaplama aracı. Farklı büyüklükteki grupların yüzdelerini notlar ve anketler için doğru biçimde birleştirin.",
+  "h1": "Yüzde Ortalaması Hesaplama",
+  "subtitle": "Virgülle ayırarak bir <strong>yüzde</strong> listesi girin; bu <strong>yüzde ortalaması hesaplama</strong> aracı değerlerinizin <strong>ortalamasını</strong>, <strong>toplamını</strong>, <strong>adedini</strong> ve aralığını verir. Gruplar aynı büyüklükte değilse eşleşen bir <strong>örneklem büyüklüğü</strong> listesi ekleyin; araç otomatik olarak doğru biçimde <strong>ağırlıklı ortalamaya</strong> geçer.",
+  "hint": "Basit veya ağırlıklı ortalama için yüzdeleri (ve isteğe bağlı örneklem büyüklüklerini) girin.",
+  "long_tail_anchor": "Birden Fazla Yüzdenin Ortalaması",
+  "card_strings": {
+    "Add one weight per percentage — e.g. class sizes or respondent counts — to combine unequal-sized groups correctly.": "Her yüzde için bir ağırlık ekleyin (ör. sınıf mevcutları veya yanıtlayan sayıları); böylece eşit olmayan büyüklükteki gruplar doğru birleştirilir.",
+    "Average:": "Ortalama:",
+    "Count:": "Adet:",
+    "Percentages (comma or space separated)": "Yüzdeler (virgül veya boşlukla ayrılmış)",
+    "Sample Sizes / Weights (optional)": "Örneklem Büyüklükleri / Ağırlıklar (isteğe bağlı)",
+    "Sum:": "Toplam:",
+    "e.g. 30, 50, 20, 40 (leave blank for a simple average)": "ör. 30, 50, 20, 40 (leave blank for a simple average)",
+    "e.g. 85, 90, 78, 92": "ör. 85, 90, 78, 92"
+  }
+}

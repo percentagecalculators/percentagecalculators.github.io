@@ -1,0 +1,18 @@
+{
+  "slug": "percentage-off-calculator",
+  "lang": "tr",
+  "meta_title": "Yüzde İndirim Hesaplama | İndirimli Fiyat Hesaplayıcı",
+  "meta_description": "Ücretsiz yüzde indirim hesaplama aracı. İndirimli fiyatı ve tasarrufunuzu anında hesaplayın. Her indirim sonrası ödeyeceğiniz son fiyatı bulun.",
+  "h1": "Yüzde İndirim Hesaplama",
+  "subtitle": "<strong>Orijinal fiyatı</strong> ve <strong>indirim yüzdesini</strong> girin; bu <strong>yüzde indirim hesaplama</strong> aracı size <strong>indirimli fiyatı</strong> ve tam olarak ne kadar <strong>tasarruf ettiğinizi</strong> göstersin. Bir dahaki sefere “%30 indirim” tabelası gördüğünüzde gerçekte ne ödeyeceğinizi bileceksiniz.",
+  "hint": "İndirimli fiyatı bulmak için orijinal fiyatı ve indirim yüzdesini girin.",
+  "long_tail_anchor": "İndirim ve İndirimli Fiyat Bulucu",
+  "card_strings": {
+    "Discount": "İndirim",
+    "Enter discount %": "İndirim yüzdesini girin",
+    "Enter price": "Fiyatı girin",
+    "Final Price:": "Son Fiyat:",
+    "Original Price ($)": "Orijinal Fiyat ($)",
+    "You Save:": "Tasarruf:"
+  }
+}

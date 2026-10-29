@@ -1,0 +1,18 @@
+{
+  "slug": "salary-increase-calculator",
+  "lang": "tr",
+  "meta_title": "Maaş Zammı Hesaplama | Yeni Maaşınızı Hesaplayın",
+  "meta_description": "Ücretsiz maaş zammı hesaplama aracı. Mevcut maaşınızı ve zam yüzdesini girin; zam tutarını ve yeni maaşınızı anında hesaplayın.",
+  "h1": "Maaş Zammı Hesaplama",
+  "subtitle": "<strong>Mevcut maaşınızı</strong> ve <strong>zam yüzdenizi</strong> girin; bu <strong>maaş zammı hesaplama</strong> aracı <strong>zam tutarını</strong> ve <strong>yeni maaşınızı</strong> anında hesaplar.",
+  "hint": "Yeni maaşınızı bulmak için mevcut maaşı ve zam yüzdesini girin.",
+  "long_tail_anchor": "Zam Yüzdesi ve Maaş Artışı",
+  "card_strings": {
+    "Current Salary ($)": "Mevcut Maaş ($)",
+    "New Salary:": "Yeni Maaş:",
+    "Raise": "Zam",
+    "Raise Amount:": "Zam Tutarı:",
+    "e.g. 5": "ör. 5",
+    "e.g. 60000": "ör. 60000"
+  }
+}

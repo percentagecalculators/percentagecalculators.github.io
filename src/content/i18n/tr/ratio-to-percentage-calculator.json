@@ -1,0 +1,18 @@
+{
+  "slug": "ratio-to-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Orandan Yüzdeye Çevirme | Oranı % Olarak Hesaplama",
+  "meta_description": "Ücretsiz orandan yüzdeye çevirme aracı. Bir oranın iki parçasını girin; toplamı ve ilk parçanın yüzde kaç olduğunu anında görün.",
+  "h1": "Orandan Yüzdeye Çevirme",
+  "subtitle": "Bir <strong>oranın</strong> iki parçasını girin (örneğin 3 : 4); bu <strong>orandan yüzdeye çevirme</strong> aracı <strong>toplamı</strong> ve ilk parçanın temsil ettiği <strong>yüzdeyi</strong> anında gösterir.",
+  "hint": "Toplam içindeki yüzdeyi bulmak için oranın iki parçasını girin.",
+  "long_tail_anchor": "Oranı Yüzde Payına Çevirme",
+  "card_strings": {
+    "A as % of Total:": "A’nın Toplamdaki Yüzdesi:",
+    "Part A": "A Parçası",
+    "Part B": "B Parçası",
+    "Total:": "Toplam:",
+    "e.g. 3": "ör. 3",
+    "e.g. 4": "ör. 4"
+  }
+}

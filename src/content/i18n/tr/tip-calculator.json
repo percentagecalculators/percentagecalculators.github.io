@@ -1,0 +1,21 @@
+{
+  "slug": "tip-calculator",
+  "lang": "tr",
+  "meta_title": "Bahşiş Hesaplama | Bahşiş ve Hesap Bölüşme",
+  "meta_description": "Ücretsiz bahşiş hesaplama aracı. Hesap tutarını, bahşiş yüzdesini ve kişi sayısını girin; bahşişi, toplamı ve kişi başı tutarı anında hesaplayın.",
+  "h1": "Bahşiş Hesaplama",
+  "subtitle": "<strong>Hesap tutarını</strong>, <strong>bahşiş yüzdesini</strong> ve <strong>kişi sayısını</strong> girin; bu <strong>bahşiş hesaplama</strong> aracı <strong>bahşişi</strong>, <strong>toplamı</strong> ve <strong>kişi başına düşen</strong> tutarı anında hesaplar.",
+  "hint": "Hesap, bahşiş yüzdesi ve bölüşecek kişi sayısını girin.",
+  "long_tail_anchor": "Restoran Hesabı Bahşiş Bölüştürücü",
+  "card_strings": {
+    "Bill Amount ($)": "Hesap Tutarı ($)",
+    "Per Person:": "Kişi Başı:",
+    "Split Between": "Kişi Sayısı",
+    "Tip": "Bahşiş",
+    "Tip Amount:": "Bahşiş Tutarı:",
+    "Total:": "Toplam:",
+    "e.g. 18": "ör. 18",
+    "e.g. 4": "ör. 4",
+    "e.g. 80": "ör. 80"
+  }
+}

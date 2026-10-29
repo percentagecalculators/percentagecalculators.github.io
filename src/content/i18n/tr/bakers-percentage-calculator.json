@@ -1,0 +1,17 @@
+{
+  "slug": "bakers-percentage-calculator",
+  "lang": "tr",
+  "meta_title": "Fırıncı Yüzdesi Hesaplama | Malzeme Oranlarını Bulun",
+  "meta_description": "Ücretsiz fırıncı yüzdesi hesaplama aracı. Un ağırlığını ve malzeme ağırlığını girin, malzemenin fırıncı yüzdesini anında hesaplayın.",
+  "h1": "Fırıncı Yüzdesi Hesaplama",
+  "subtitle": "<strong>Un ağırlığını</strong> ve bir <strong>malzeme ağırlığını</strong> girin; bu <strong>fırıncı yüzdesi hesaplama</strong> aracı malzemenin <strong>fırıncı yüzdesini</strong> anında bulur — her malzeme una oranla ifade edilir.",
+  "hint": "Fırıncı yüzdesini bulmak için un ve malzeme ağırlığını girin.",
+  "long_tail_anchor": "Hamur Hidrasyonu ve Malzeme Oranları",
+  "card_strings": {
+    "Baker's Percentage:": "Fırıncı Yüzdesi:",
+    "Flour Weight (g)": "Un Ağırlığı (g)",
+    "Ingredient Weight (g)": "Malzeme Ağırlığı (g)",
+    "e.g. 350": "ör. 350",
+    "e.g. 500": "ör. 500"
+  }
+}
