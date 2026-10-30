@@ -212,7 +212,7 @@ def t(key):
 def path_for(lang, kind, slug):
     """Site-relative URL of a page in a language. kind: home | tool | page."""
     if lang == "en":
-        return "/" if kind == "home" else "/%s" % slug
+        return "/" if kind == "home" else "/%s/" % slug
     if kind == "home":
         return "/%s/" % lang
     return "/%s/%s%s/" % (lang, "page/" if kind == "page" else "", slug)
@@ -221,7 +221,7 @@ def path_for(lang, kind, slug):
 def out_rel_path(lang, kind, slug):
     """Path of a page's file under public/ (or the render dir)."""
     if lang == "en":
-        return "index.html" if kind == "home" else "%s.html" % slug
+        return "index.html" if kind == "home" else os.path.join(slug, "index.html")
     if kind == "home":
         return os.path.join(lang, "index.html")
     return os.path.join(lang, "page" if kind == "page" else "", slug, "index.html")
@@ -229,8 +229,9 @@ def out_rel_path(lang, kind, slug):
 
 def localize_href(href):
     """Maps a root-relative English link ("/", "/contact", "/tip-calculator")
-    to the current language's URL; anything else is returned unchanged."""
-    if LANG == "en" or not href.startswith("/"):
+    to the current language's URL (English included, so its links get the
+    same trailing slash as its canonical); anything else is returned unchanged."""
+    if not href.startswith("/"):
         return href
     slug = href.strip("/")
     if not slug:
@@ -243,8 +244,6 @@ def localize_href(href):
 
 
 def localize_links(fragment):
-    if LANG == "en":
-        return fragment
     return re.sub(r'href="(/[a-z0-9-]*)"', lambda m: 'href="%s"' % localize_href(m.group(1)), fragment)
 
 
