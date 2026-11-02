@@ -1099,7 +1099,7 @@ def page_alternates(kind, slug):
 def render_site_header(site, by_slug, alts=None):
     return (
         '<body class="min-h-screen bg-bg font-sans text-text-alt antialiased">'
-        '<a href="#main-content" class="skip-link sr-only focus:not-sr-only focus:fixed focus:left-2 focus:top-2 focus:z-50 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-white">%(skip)s</a>'
+        '<a href="#main-content" class="skip-link sr-only focus:not-sr-only focus:fixed focus:left-2 focus:top-2 focus:z-50 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-white dark:focus:text-slate-950">%(skip)s</a>'
         '<header class="relative z-40 border-b border-border bg-bg-alt">'
         '<nav class="top-nav mx-auto flex max-w-7xl items-center gap-3 px-4 py-3 sm:px-6" aria-label="%(primary_nav)s">'
         '<a href="%(home_href)s" class="logo flex flex-none items-center">%(logo)s</a>'

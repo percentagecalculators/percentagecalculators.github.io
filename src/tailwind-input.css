@@ -23,7 +23,7 @@
       prose-headings:text-text prose-p:text-text-secondary prose-li:text-text-secondary prose-ol:text-text-secondary prose-ul:text-text-secondary
       prose-a:text-accent prose-a:no-underline hover:prose-a:underline
       prose-strong:text-text prose-em:text-text-alt
-      prose-code:font-mono prose-code:text-accent prose-code:bg-accent/10 prose-code:rounded prose-code:px-1 prose-code:font-normal prose-code:before:content-none prose-code:after:content-none
+      prose-code:font-mono prose-code:text-accent prose-code:bg-accent/5 prose-code:rounded prose-code:px-1 prose-code:font-normal prose-code:before:content-none prose-code:after:content-none
       prose-th:text-text prose-td:text-text-secondary prose-thead:border-border prose-tr:border-border
       prose-blockquote:border-accent prose-blockquote:text-text-secondary prose-hr:border-border;
   }
