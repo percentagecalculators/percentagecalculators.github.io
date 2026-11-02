@@ -103,5 +103,9 @@
     "win-loss-percentage-calculator": "Kalkulator Menang dan Kalah"
   },
   "ad_label": "Iklan",
-  "back_to_top": "Kembali ke atas"
+  "back_to_top": "Kembali ke atas",
+  "home_sitemap_sentence": "Jika Anda membutuhkan perhitungan lain, lihat <a href=\"/sitemap\">daftar lengkap kalkulator persentase online gratis</a> di peta situs.",
+  "sitemap_info_heading": "Informasi situs dan peta situs XML",
+  "sitemap_info_intro": "Mulailah di sini untuk peta situs XML yang dapat dibaca mesin dan halaman informasi situs.",
+  "sitemap_xml_label": "Peta situs XML"
 }

@@ -103,5 +103,9 @@
     "win-loss-percentage-calculator": "Siegquoten-Rechner"
   },
   "ad_label": "Werbung",
-  "back_to_top": "Nach oben"
+  "back_to_top": "Nach oben",
+  "home_sitemap_sentence": "Wenn Sie eine andere Berechnung brauchen, finden Sie in der Sitemap die <a href=\"/sitemap\">vollständige Liste kostenloser Online-Prozentrechner</a>.",
+  "sitemap_info_heading": "Seiteninformationen und XML-Sitemap",
+  "sitemap_info_intro": "Hier finden Sie die maschinenlesbare XML-Sitemap und die Informationsseiten dieser Website.",
+  "sitemap_xml_label": "XML-Sitemap"
 }

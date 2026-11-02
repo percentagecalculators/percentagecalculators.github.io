@@ -103,5 +103,9 @@
     "win-loss-percentage-calculator": "Máy tính thắng thua"
   },
   "ad_label": "Quảng cáo",
-  "back_to_top": "Lên đầu trang"
+  "back_to_top": "Lên đầu trang",
+  "home_sitemap_sentence": "Nếu cần một phép tính khác, hãy xem <a href=\"/sitemap\">danh sách đầy đủ máy tính phần trăm trực tuyến miễn phí</a> trong sơ đồ trang.",
+  "sitemap_info_heading": "Thông tin trang web và sơ đồ trang XML",
+  "sitemap_info_intro": "Bắt đầu từ đây để xem sơ đồ trang XML dành cho máy đọc và các trang thông tin của trang web.",
+  "sitemap_xml_label": "Sơ đồ trang XML"
 }

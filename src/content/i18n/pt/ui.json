@@ -103,5 +103,9 @@
     "win-loss-percentage-calculator": "Calculadora de Vitórias e Derrotas"
   },
   "ad_label": "Publicidade",
-  "back_to_top": "Voltar ao topo"
+  "back_to_top": "Voltar ao topo",
+  "home_sitemap_sentence": "Se você precisa de outro cálculo, veja a <a href=\"/sitemap\">lista completa de calculadoras de porcentagem online grátis</a> no mapa do site.",
+  "sitemap_info_heading": "Informações do site e mapa do site XML",
+  "sitemap_info_intro": "Comece aqui para acessar o mapa do site em XML e as páginas de informações do site.",
+  "sitemap_xml_label": "Mapa do site XML"
 }

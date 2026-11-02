@@ -103,5 +103,9 @@
     "slope-percentage-calculator": "ماشین حساب درصد شیب",
     "tip-calculator": "ماشین حساب انعام",
     "win-loss-percentage-calculator": "ماشین حساب درصد برد و باخت"
-  }
+  },
+  "home_sitemap_sentence": "اگر محاسبه‌ای دیگر لازم دارید، <a href=\"/sitemap\">فهرست کامل ماشین حساب‌های درصد آنلاین و رایگان</a> را در نقشه سایت ببینید.",
+  "sitemap_info_heading": "اطلاعات سایت و نقشه سایت XML",
+  "sitemap_info_intro": "برای دسترسی به نقشه سایت XML که برای ماشین‌ها خوانا است و صفحه‌های اطلاعاتی سایت از اینجا شروع کنید.",
+  "sitemap_xml_label": "نقشه سایت XML"
 }

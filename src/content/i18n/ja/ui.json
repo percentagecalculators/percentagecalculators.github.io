@@ -103,5 +103,9 @@
     "win-loss-percentage-calculator": "勝率計算機"
   },
   "ad_label": "広告",
-  "back_to_top": "ページの先頭へ"
+  "back_to_top": "ページの先頭へ",
+  "home_sitemap_sentence": "別の計算が必要な場合は、サイトマップの<a href=\"/sitemap\">無料オンラインパーセント計算機の一覧</a>をご覧ください。",
+  "sitemap_info_heading": "サイト情報とXMLサイトマップ",
+  "sitemap_info_intro": "機械可読のXMLサイトマップと、サイトの案内ページはこちらからどうぞ。",
+  "sitemap_xml_label": "XMLサイトマップ"
 }

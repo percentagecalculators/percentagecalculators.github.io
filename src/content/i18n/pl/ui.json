@@ -103,5 +103,9 @@
     "slope-percentage-calculator": "Kalkulator nachylenia w procentach",
     "tip-calculator": "Kalkulator napiwku",
     "win-loss-percentage-calculator": "Kalkulator procentu wygranych i porażek"
-  }
+  },
+  "home_sitemap_sentence": "Jeśli potrzebujesz innego obliczenia, zajrzyj do mapy strony, gdzie znajdziesz <a href=\"/sitemap\">pełną listę darmowych kalkulatorów procentowych online</a>.",
+  "sitemap_info_heading": "Informacje o serwisie i mapa strony XML",
+  "sitemap_info_intro": "Zacznij tutaj, aby przejść do mapy strony w formacie XML i stron informacyjnych serwisu.",
+  "sitemap_xml_label": "Mapa strony XML"
 }

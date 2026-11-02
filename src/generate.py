@@ -190,6 +190,13 @@ UI_EN = {
     "footer_site_map": "Site map",
     "footer_links": "Footer links",
     "rights": "All rights reserved.",
+    # Home page: one sentence appended to the first paragraph of the article;
+    # the href is localized by localize_links() like any other root-relative link.
+    "home_sitemap_sentence": 'If you need a different calculation, see the <a href="/sitemap">full list of free online percentage calculators</a> in the site map.',
+    # HTML sitemap page: first section (XML sitemap + info pages).
+    "sitemap_info_heading": "Site information and XML sitemap",
+    "sitemap_info_intro": "Start here for the machine-readable XML sitemap and the site's information pages.",
+    "sitemap_xml_label": "XML sitemap",
 }
 
 LANG = "en"
@@ -790,6 +797,15 @@ def render_faq_section(tool, alt):
     )
 
 
+def add_home_sitemap_sentence(content_html):
+    """Appends the home page's sitemap sentence at the end of the first
+    paragraph of the article (the lead paragraph before the first <h2>)."""
+    i = content_html.find("</p>")
+    if i < 0:
+        return content_html
+    return content_html[:i] + " " + t("home_sitemap_sentence") + content_html[i:]
+
+
 def render_main_sections(tool):
     """Renders everything below the tool card from tool["content_html"]
     (split into alternating bg-bg/bg-bg-alt sections) plus a FAQ section. No
@@ -860,7 +876,14 @@ def render_sitemap_content(site, by_slug):
     stale hand-maintained list. Anchor text here is long-tail/keyword-rich
     (see sitemap_anchor_for) rather than the short nav_name used elsewhere."""
     home = by_slug[site["home_slug"]]
+    info_items = ['<li><a href="/sitemap.xml">%s</a></li>' % html.escape(t("sitemap_xml_label"))]
+    info_items += [
+        '<li><a href="%s">%s</a></li>' % (localize_href(l["href"]), html.escape(l["label"]))
+        for l in site["company_links"]
+        if l["href"] != "/sitemap"
+    ]
     parts = [
+        "<h2>%s</h2><p>%s</p><ul>%s</ul>" % (html.escape(t("sitemap_info_heading")), html.escape(t("sitemap_info_intro")), "".join(info_items)),
         "<h2>%s</h2><ul><li><a href=\"%s\">%s</a></li></ul>"
         % (html.escape(t("home")), tool_url(home, site), html.escape(sitemap_anchor_for(home)))
     ]
@@ -1300,7 +1323,9 @@ def render_page(tool, site, by_slug, tools, template):
         "CODE_SNIPPET": "",
         "RELATED_CALCULATORS": render_related_calculators(tool, site, by_slug, tools),
         "ASIDE_SELF_START": " lg:self-start" if tool["slug"] in PILLAR_SLUGS else "",
-        "MAIN_SECTIONS": localize_links(render_main_sections(tool)),
+        "MAIN_SECTIONS": localize_links(render_main_sections(
+            dict(tool, content_html=add_home_sitemap_sentence(tool["content_html"])) if kind == "home" and tool.get("content_html") else tool
+        )),
         "SITE_FOOTER": render_site_footer(site, by_slug),
     }
     return apply_tokens(template, tokens)

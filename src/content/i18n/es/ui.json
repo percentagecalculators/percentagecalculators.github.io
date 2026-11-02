@@ -103,5 +103,9 @@
   },
   "native_name": "Español",
   "ad_label": "Publicidad",
-  "back_to_top": "Volver arriba"
+  "back_to_top": "Volver arriba",
+  "home_sitemap_sentence": "Si necesitas otro cálculo, consulta la <a href=\"/sitemap\">lista completa de calculadoras de porcentajes online gratis</a> en el mapa del sitio.",
+  "sitemap_info_heading": "Información del sitio y mapa del sitio XML",
+  "sitemap_info_intro": "Empieza aquí para encontrar el mapa del sitio en XML y las páginas de información del sitio.",
+  "sitemap_xml_label": "Mapa del sitio XML"
 }

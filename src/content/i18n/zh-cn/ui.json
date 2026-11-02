@@ -103,5 +103,9 @@
     "win-loss-percentage-calculator": "胜率计算器"
   },
   "ad_label": "广告",
-  "back_to_top": "回到顶部"
+  "back_to_top": "回到顶部",
+  "home_sitemap_sentence": "如果您需要其他计算，请在<a href=\"/sitemap\">站点地图</a>中查看免费在线百分比计算器的完整列表。",
+  "sitemap_info_heading": "网站信息与 XML 站点地图",
+  "sitemap_info_intro": "从这里可以找到供机器读取的 XML 站点地图和网站的信息页面。",
+  "sitemap_xml_label": "XML 站点地图"
 }

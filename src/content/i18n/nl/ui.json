@@ -103,5 +103,9 @@
     "win-loss-percentage-calculator": "Winst- en Verliespercentage Calculator"
   },
   "ad_label": "Advertentie",
-  "back_to_top": "Terug naar boven"
+  "back_to_top": "Terug naar boven",
+  "home_sitemap_sentence": "Heb je een andere berekening nodig, bekijk dan de <a href=\"/sitemap\">volledige lijst met gratis online percentage calculators</a> in de sitemap.",
+  "sitemap_info_heading": "Site-informatie en XML-sitemap",
+  "sitemap_info_intro": "Begin hier voor de machineleesbare XML-sitemap en de informatiepagina’s van de site.",
+  "sitemap_xml_label": "XML-sitemap"
 }

@@ -103,5 +103,9 @@
     "slope-percentage-calculator": "Yüzde Eğim Hesaplama",
     "tip-calculator": "Bahşiş Hesaplama",
     "win-loss-percentage-calculator": "Galibiyet/Mağlubiyet Oranı Hesaplama"
-  }
+  },
+  "home_sitemap_sentence": "Farklı bir hesaplamaya ihtiyacınız varsa site haritasındaki <a href=\"/sitemap\">ücretsiz çevrimiçi yüzde hesaplama araçlarının tam listesine</a> göz atın.",
+  "sitemap_info_heading": "Site bilgileri ve XML site haritası",
+  "sitemap_info_intro": "Makine tarafından okunabilen XML site haritası ve sitenin bilgi sayfaları için buradan başlayın.",
+  "sitemap_xml_label": "XML site haritası"
 }

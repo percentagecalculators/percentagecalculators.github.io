@@ -103,5 +103,9 @@
     "win-loss-percentage-calculator": "승률 계산기"
   },
   "ad_label": "광고",
-  "back_to_top": "맨 위로"
+  "back_to_top": "맨 위로",
+  "home_sitemap_sentence": "다른 계산이 필요하시다면 사이트맵에서 <a href=\"/sitemap\">무료 온라인 퍼센트 계산기 전체 목록</a>을 확인해 보세요.",
+  "sitemap_info_heading": "사이트 정보 및 XML 사이트맵",
+  "sitemap_info_intro": "기계가 읽을 수 있는 XML 사이트맵과 사이트 안내 페이지는 여기에서 시작하세요.",
+  "sitemap_xml_label": "XML 사이트맵"
 }

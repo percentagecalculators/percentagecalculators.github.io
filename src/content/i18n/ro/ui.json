@@ -103,5 +103,9 @@
     "slope-percentage-calculator": "Calculator pantă în procente",
     "tip-calculator": "Calculator bacșiș",
     "win-loss-percentage-calculator": "Calculator procent victorii/înfrângeri"
-  }
+  },
+  "home_sitemap_sentence": "Dacă ai nevoie de alt calcul, consultă <a href=\"/sitemap\">lista completă a calculatoarelor de procente online gratuite</a> din harta site-ului.",
+  "sitemap_info_heading": "Informații despre site și harta site XML",
+  "sitemap_info_intro": "Începe de aici pentru harta site în format XML și paginile de informații ale site-ului.",
+  "sitemap_xml_label": "Harta site XML"
 }

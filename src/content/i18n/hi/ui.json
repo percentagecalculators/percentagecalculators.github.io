@@ -103,5 +103,9 @@
     "win-loss-percentage-calculator": "जीत/हार कैलकुलेटर"
   },
   "ad_label": "विज्ञापन",
-  "back_to_top": "ऊपर जाएँ"
+  "back_to_top": "ऊपर जाएँ",
+  "home_sitemap_sentence": "यदि आपको कोई दूसरी गणना चाहिए, तो साइटमैप में <a href=\"/sitemap\">मुफ़्त ऑनलाइन प्रतिशत कैलकुलेटर की पूरी सूची</a> देखें।",
+  "sitemap_info_heading": "साइट की जानकारी और XML साइटमैप",
+  "sitemap_info_intro": "मशीन-पठनीय XML साइटमैप और साइट के जानकारी पृष्ठों के लिए यहाँ से शुरू करें।",
+  "sitemap_xml_label": "XML साइटमैप"
 }
