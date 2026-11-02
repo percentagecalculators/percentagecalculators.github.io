@@ -2,15 +2,13 @@
 <html {{HTML_ATTRS}}>
 <head>
     <meta charset="UTF-8">
-    <script>{{THEME_INIT}}</script>
-    <link rel="stylesheet" href="/tailwind.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{META_TITLE}}</title>
     <meta name="description" content="{{META_DESCRIPTION}}">
     <meta name="author" content="{{SITE_NAME}}">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="{{CANONICAL_URL}}">
     {{HREFLANG_LINKS}}
-    <title>{{META_TITLE}}</title>
 
     <link rel="preload" href="/fonts/dm-sans-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/jetbrains-mono-variable.woff2" as="font" type="font/woff2" crossorigin>
@@ -18,6 +16,9 @@
     <link rel="icon" href="/favicon.ico">
     <meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#08090f" media="(prefers-color-scheme: dark)">
+
+    <script>{{THEME_INIT}}</script>
+    <link rel="stylesheet" href="/tailwind.min.css">
 
     <link rel="preload" href="/base.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/base.min.css"></noscript>
@@ -28,10 +29,10 @@
          render-blocking. -->
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"></noscript>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" defer></script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0ZHGJTMNYK"></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-0ZHGJTMNYK" async></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -62,6 +63,6 @@
 
 {{SITE_FOOTER}}
 
-<script defer src="/site.min.js?v={{SITE_JS_VERSION}}"></script>
+<script src="/site.min.js?v={{SITE_JS_VERSION}}" defer></script>
 </body>
 </html>

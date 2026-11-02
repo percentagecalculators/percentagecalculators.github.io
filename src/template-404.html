@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script>{{THEME_INIT}}</script>
-    <link rel="stylesheet" href="/tailwind.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex, follow">
     <title>Page Not Found | {{SITE_NAME}}</title>
+    <meta name="robots" content="noindex, follow">
 
     <link rel="preload" href="/fonts/dm-sans-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/jetbrains-mono-variable.woff2" as="font" type="font/woff2" crossorigin>
@@ -15,10 +13,13 @@
     <meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#08090f" media="(prefers-color-scheme: dark)">
 
+    <script>{{THEME_INIT}}</script>
+    <link rel="stylesheet" href="/tailwind.min.css">
+
     <link rel="preload" href="/base.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/base.min.css"></noscript>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0ZHGJTMNYK"></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-0ZHGJTMNYK" async></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -89,6 +90,6 @@
 
 {{SITE_FOOTER}}
 
-<script defer src="/site.min.js?v={{SITE_JS_VERSION}}"></script>
+<script src="/site.min.js?v={{SITE_JS_VERSION}}" defer></script>
 </body>
 </html>

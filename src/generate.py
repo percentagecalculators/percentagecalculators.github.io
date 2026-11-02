@@ -368,8 +368,8 @@ ADSENSE_SLOTS = {
 
 def render_adsense_loader():
     return (
-        '<script async crossorigin="anonymous" '
-        'src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=%s"></script>'
+        '<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=%s" '
+        'async crossorigin="anonymous"></script>'
         % ADSENSE_CLIENT
     )
 
@@ -395,7 +395,7 @@ def render_adsense_fixed(slot_key):
     return (
         '<div class="ad-slot mx-auto my-1 max-w-4xl px-0 text-center sm:px-6">'
         '<p class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-text-muted">%s</p>'
-        '<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" '
+        '<ins class="adsbygoogle inline-block h-[250px] w-[300px]" '
         'data-ad-client="%s" data-ad-slot="%s"></ins>'
         "<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>"
         % (html.escape(t("ad_label")), ADSENSE_CLIENT, ADSENSE_SLOTS[slot_key])
