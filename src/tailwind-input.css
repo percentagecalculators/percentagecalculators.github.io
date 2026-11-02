@@ -11,7 +11,7 @@
     @apply block rounded-lg px-3 py-3 text-sm text-text-secondary hover:bg-surface-alt hover:text-text;
   }
   .drawer-lang-link {
-    @apply rounded-lg border border-border px-3 py-2 text-sm text-text-secondary hover:bg-surface-alt hover:text-text;
+    @apply rounded-lg border border-border px-3 py-3 text-sm text-text-secondary hover:bg-surface-alt hover:text-text;
   }
   .footer-mega-link {
     @apply block break-words py-1 text-[0.85rem] text-text-secondary hover:text-accent;

@@ -994,7 +994,7 @@ def render_mobile_drawer(site, by_slug, alts=None):
         '<div class="fixed inset-0 z-40 bg-black/50 opacity-0 transition-opacity duration-200" id="navDrawerBackdrop" hidden></div>'
         '<div class="nav-drawer-panel fixed inset-y-0 end-0 z-50 w-[85vw] max-w-sm translate-x-full overflow-y-auto bg-bg-alt shadow-xl transition-transform duration-200" id="navDrawer" role="dialog" aria-modal="true" aria-label="%s" hidden>'
         '<button type="button" class="nav-drawer-close absolute end-3 top-3 flex h-11 w-11 items-center justify-center rounded-full text-text-secondary hover:bg-surface-alt" id="navDrawerClose" aria-label="%s">%s</button>'
-        '<div class="border-b border-border p-4"><a href="%s" class="block text-sm font-semibold text-text">%s</a></div>'
+        '<div class="border-b border-border"><a href="%s" class="block p-4 text-sm font-semibold text-text">%s</a></div>'
         '%s'
         '%s'
         '</div>' % (
