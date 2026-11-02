@@ -26,8 +26,8 @@ const PRESETS = [
 ];
 
 function pageFile(lang, slug) {
-  if (lang === "en") return path.join(PUB, slug === HOME ? "index.html" : slug + ".html");
-  return path.join(PUB, lang, slug === HOME ? "index.html" : path.join(slug, "index.html"));
+  const base = lang === "en" ? PUB : path.join(PUB, lang);
+  return path.join(base, slug === HOME ? "index.html" : path.join(slug, "index.html"));
 }
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
