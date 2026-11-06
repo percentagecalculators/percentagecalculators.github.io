@@ -74,7 +74,7 @@ for p, x in info.items():
     if rel != '404.html':
         if len(can) != 1: bad('canonical count != 1', p, str(len(can)))
         else:
-            exp = BASE + page_url(p)
+            exp = BASE + ('' if page_url(p) == '/' else page_url(p))  # root home is the bare origin
             if can[0]['href'] != exp: bad('canonical != own URL', p, f"{can[0]['href']} vs {exp}")
     if not re.search(r'<html[^>]*\blang="[^"]+"', h): bad('html lang missing', p)
     # attribute order
