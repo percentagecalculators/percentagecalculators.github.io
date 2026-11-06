@@ -28,6 +28,7 @@
     function positionMenu(b, menu) {
       var rect = b.getBoundingClientRect();
       menu.style.top = (rect.bottom + 8) + 'px';
+    menu.style.left = '0px'; // measure at full available width, not at a stale left
       menu.style.left = Math.max(8, Math.min(rect.left, window.innerWidth - menu.offsetWidth - 8)) + 'px';
     }
     buttons.forEach(function (b) {
@@ -249,6 +250,22 @@
         ],
         throwOnError: false
       });
+    });
+    fitInlineMath();
+    var fitTimer;
+    window.addEventListener('resize', function () { clearTimeout(fitTimer); fitTimer = setTimeout(fitInlineMath, 150); });
+  }
+  // A wide inline formula (e.g. a fraction with long translated labels) cannot
+  // wrap, so on narrow screens it would push the whole page wider. Only the
+  // formulas that actually overflow their block become their own scrollable
+  // row (.katex-scroll in base.css); the rest stay inline.
+  function fitInlineMath() {
+    var inline = document.querySelectorAll('.article .katex');
+    inline.forEach(function (k) { k.classList.remove('katex-scroll'); });
+    inline.forEach(function (k) {
+      if (k.closest('.katex-display')) return;
+      var box = k.closest('p, li, td, th, dd, div');
+      if (box && k.getBoundingClientRect().width > box.clientWidth) k.classList.add('katex-scroll');
     });
   }
   function initCopyButtons() {
