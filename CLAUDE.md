@@ -349,6 +349,13 @@ from jsdelivr and call `renderMathInElement()` on every `.article` element on `D
 -built static HTML, so no server-side math rendering is needed. Verified: KaTeX's default styling
 inherits `color` from its container, so formulas theme correctly in dark mode with no extra CSS.
 
+## URL format
+
+All page URLs are folder-style with a trailing slash (`/slug/`, `/de/`, `/de/page/about/`), in links, canonicals, hreflang,
+JSON-LD and `sitemap.xml`. **Exception: the English home page is always the bare origin `https://percentagecalculators.github.io`**
+(no trailing slash) wherever an absolute URL is emitted -- always build absolute URLs with `abs_url()` in `generate.py`.
+`python3 utilities/site-audit/audit_item9.py` enforces this.
+
 ## Multi-language (i18n)
 
 English is the source language; every other language is an overlay of translated text on the

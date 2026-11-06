@@ -95,3 +95,14 @@ Then: commit (do not push).
 - Round 2 (A-G): A/C/D/F covered by items 1, 5, 6 (alignment, working dropdowns, no broken links, no links to missing pages);
   E menu is organised by 5 topic categories, each tool appears once per list; B readability only partly checked
   (no contrast measurement); G cross-browser only checked in Chrome (+ jsdom), not Safari/Firefox.
+
+## Round 3 (re-audit of items 1-8 + new item 9)
+
+Items 1-8 re-run on a fresh build (all `audit_item*.py`, `audit_item2_js.js`, `../hreflang_audit.py`): 0 issues
+(the only structural exception remains the one-line `google7cc5de103ad575d0.html` verification file).
+
+- [x] **9. Slash consistency** (`audit_item9.py`): every internal href, canonical, hreflang, JSON-LD `url`/`item` and sitemap `<loc>`
+      is folder-style with a trailing slash, no `.html`/`index.html`. Fixed: the root home page is now always the bare origin
+      `https://percentagecalculators.github.io` (canonical, hreflang en/x-default, WebSite + BreadcrumbList JSON-LD, sitemap) via
+      `abs_url()` in `generate.py`. Language homes (`/de/`) keep the slash: GitHub Pages 301-redirects `/de` to `/de/`, so a
+      non-slashed canonical there would point at a redirect. Root-relative nav links to home stay `href="/"` (the only valid form).

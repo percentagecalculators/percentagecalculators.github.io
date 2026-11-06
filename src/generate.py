@@ -257,10 +257,10 @@ def localize_links(fragment):
 def render_hreflang(site, kind, slug):
     domain = site["domain"]
     links = [
-        '<link rel="alternate" hreflang="%s" href="https://%s%s">' % (LANGUAGES[l][1], domain, path_for(l, kind, slug))
+        '<link rel="alternate" hreflang="%s" href="%s">' % (LANGUAGES[l][1], abs_url(domain, path_for(l, kind, slug)))
         for l in BUILT_LANGS
     ]
-    links.append('<link rel="alternate" hreflang="x-default" href="https://%s%s">' % (domain, path_for("en", kind, slug)))
+    links.append('<link rel="alternate" hreflang="x-default" href="%s">' % abs_url(domain, path_for("en", kind, slug)))
     return "\n    ".join(links)
 
 
@@ -916,6 +916,13 @@ DROPDOWN_LINK_CLASSES = "menu-link"
 NAV_BTN_CLASSES = "cat-menu-btn inline-flex items-center gap-1 rounded-lg px-2.5 py-1.5 text-sm font-medium text-text-secondary hover:bg-surface-alt hover:text-text"
 
 
+def abs_url(domain, path):
+    """Absolute URL for a site path. The English home page is the bare origin
+    with no trailing slash (https://host); every other page keeps its
+    folder-style trailing slash, which GitHub Pages redirects to anyway."""
+    return "https://%s%s" % (domain, "" if path == "/" else path)
+
+
 def tool_url(tool, site):
     return path_for(LANG, "home" if tool["slug"] == site["home_slug"] else "tool", tool["slug"])
 
@@ -1262,14 +1269,14 @@ def breadcrumb_jsonld(trail, domain):
     for i, (label, url) in enumerate(trail):
         entry = {"@type": "ListItem", "position": i + 1, "name": label}
         if url:
-            entry["item"] = "https://%s/" % domain if url == "/" else "https://%s%s" % (domain, url)
+            entry["item"] = abs_url(domain, url)
         items.append(entry)
     data = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items}
     return '<script type="application/ld+json">%s</script>' % jsonld_dumps(data)
 
 
 def website_jsonld(site):
-    data = {"@context": "https://schema.org", "@type": "WebSite", "name": site["site_name"], "url": "https://%s%s" % (site["domain"], path_for(LANG, "home", "")), "inLanguage": LANGUAGES[LANG][1]}
+    data = {"@context": "https://schema.org", "@type": "WebSite", "name": site["site_name"], "url": abs_url(site["domain"], path_for(LANG, "home", "")), "inLanguage": LANGUAGES[LANG][1]}
     return '<script type="application/ld+json">%s</script>' % jsonld_dumps(data)
 
 
@@ -1287,7 +1294,7 @@ def apply_tokens(template, tokens):
 def render_page(tool, site, by_slug, tools, template):
     kind = "home" if tool["slug"] == site["home_slug"] else "tool"
     alts = page_alternates(kind, tool["slug"])
-    canonical = "https://%s%s" % (site["domain"], tool_url(tool, site))
+    canonical = abs_url(site["domain"], tool_url(tool, site))
     card = tool.get("card", {})
     data_attrs = "".join(' data-%s="%s"' % (k, html.escape(str(v))) for k, v in card.get("data_attrs", {}).items())
 
@@ -1333,7 +1340,7 @@ def render_page(tool, site, by_slug, tools, template):
 
 def render_info_page(page, site, by_slug, template):
     alts = page_alternates("page", page["slug"])
-    canonical = "https://%s%s" % (site["domain"], path_for(LANG, "page", page["slug"]))
+    canonical = abs_url(site["domain"], path_for(LANG, "page", page["slug"]))
     trail = [(t("home"), localize_href("/")), (page["h1"], None)]
     tokens = {
         "HTML_ATTRS": html_attrs(LANG),
@@ -1441,7 +1448,7 @@ def write_robots_and_sitemap(site, tools, pages, out_dir):
     # sitemap as equivalent), and repeating them made this file 2.2 MB / 18,000 elements on a
     # single line, which froze browsers' XML viewers.
     lines = [
-        "  <url><loc>https://%s%s</loc></url>" % (domain, path_for(lang, kind, slug))
+        "  <url><loc>%s</loc></url>" % abs_url(domain, path_for(lang, kind, slug))
         for kind, slug in items
         for lang in BUILT_LANGS
     ]
